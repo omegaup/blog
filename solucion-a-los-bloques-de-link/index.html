@@ -1,153 +1,11 @@
-<!doctype html><html lang=es-mx>
-<head>
-<meta charset=utf-8>
-<meta http-equiv=x-ua-compatible content="IE=edge,chrome=1">
-<title>Solución a "Los Bloques de Link" | omegaUp blog</title>
-<meta name=viewport content="width=device-width,minimum-scale=1">
-<meta name=description content="Concurso: Preselectivo para la IOI 2013, Etapa 1, Examen 8 **Autor: **Alain Acevedo Mejía
-Es claro que no es posible probar todas las sucesiones posibles de movimientos de los bloques para encontrar la solución (a excepción de casos muy simples). El número de tales sucesiones puede ser infinito en caso de que se puedan formar ciclos de movimientos (lo cual sucede en muchos de lo casos de prueba), y aún en casos donde el número sea finito puede suceder que no se tenga tiempo para probarlos todos.">
-<meta name=generator content="Hugo 0.92.1">
-<meta name=ROBOTS content="NOINDEX, NOFOLLOW">
-<link rel=stylesheet href=/ananke/css/main.min.css>
-<link rel=stylesheet href="https://fonts.googleapis.com/css?family=Libre+Franklin%3A300%2C300i%2C400%2C400i%2C600%2C600i%2C800%2C800i&amp;#038;subset=latin%2Clatin-ext">
-<link rel=stylesheet href=/css/styles.css>
-<meta property="og:title" content="Solución a &#34;Los Bloques de Link&#34;">
-<meta property="og:description" content="Concurso: Preselectivo para la IOI 2013, Etapa 1, Examen 8 **Autor: **Alain Acevedo Mejía
-Es claro que no es posible probar todas las sucesiones posibles de movimientos de los bloques para encontrar la solución (a excepción de casos muy simples). El número de tales sucesiones puede ser infinito en caso de que se puedan formar ciclos de movimientos (lo cual sucede en muchos de lo casos de prueba), y aún en casos donde el número sea finito puede suceder que no se tenga tiempo para probarlos todos.">
-<meta property="og:type" content="article">
-<meta property="og:url" content="https://blog.omegaup.com/solucion-a-los-bloques-de-link/"><meta property="article:section" content="posts">
-<meta property="article:published_time" content="2013-01-07T16:54:06+00:00">
-<meta property="article:modified_time" content="2013-01-07T16:54:06+00:00">
-<meta itemprop=name content="Solución a &#34;Los Bloques de Link&#34;">
-<meta itemprop=description content="Concurso: Preselectivo para la IOI 2013, Etapa 1, Examen 8 **Autor: **Alain Acevedo Mejía
-Es claro que no es posible probar todas las sucesiones posibles de movimientos de los bloques para encontrar la solución (a excepción de casos muy simples). El número de tales sucesiones puede ser infinito en caso de que se puedan formar ciclos de movimientos (lo cual sucede en muchos de lo casos de prueba), y aún en casos donde el número sea finito puede suceder que no se tenga tiempo para probarlos todos."><meta itemprop=datePublished content="2013-01-07T16:54:06+00:00">
-<meta itemprop=dateModified content="2013-01-07T16:54:06+00:00">
-<meta itemprop=wordCount content="627">
-<meta itemprop=keywords content="Alain Acevedo,Etapa 1,Examen 8,preselectivo,solución,Soluciones Preselectivo 2013,"><meta name=twitter:card content="summary">
-<meta name=twitter:title content="Solución a &#34;Los Bloques de Link&#34;">
-<meta name=twitter:description content="Concurso: Preselectivo para la IOI 2013, Etapa 1, Examen 8 **Autor: **Alain Acevedo Mejía
-Es claro que no es posible probar todas las sucesiones posibles de movimientos de los bloques para encontrar la solución (a excepción de casos muy simples). El número de tales sucesiones puede ser infinito en caso de que se puedan formar ciclos de movimientos (lo cual sucede en muchos de lo casos de prueba), y aún en casos donde el número sea finito puede suceder que no se tenga tiempo para probarlos todos.">
-</head>
-<body class="ma0 bg-near-white">
-<header class=bg-top style=background-image:url(https://blog.omegaup.com/images/cover.jpeg)>
-<div class="pv3 bg-black-60">
-<nav class="pv4 ph3 ph4-ns" role=navigation>
-<div class="mw8 center">
-<h1>
-<a href=/ class="hover-white no-underline white-90 dib">
-omegaUp blog
-</a>
-</h1>
-<h2>Incrementando el talento de Ingeniería de Software en América Latina</h2>
-<div class="flex-l justify-between items-center center">
-<div class="flex-l items-center">
-<div class=ananke-socials>
-</div>
-</div>
-</div>
-</div>
-</nav>
-</div>
-</header>
-<header class="bg-black-90 sticky w-100 ph3 pv3 pv4-ns ph4-m ph5-l z-1">
-<nav class="f6 fw6 ttu tracked">
-<a class="link dim white dib mr3" href=/ title=Inicio>Inicio</a>
+<!doctype html><html lang=es-mx><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge,chrome=1"><title>Solución a "Los Bloques de Link" | omegaUp blog</title><meta name=viewport content="width=device-width,minimum-scale=1"><meta name=description content="Concurso: Preselectivo para la IOI 2013, Etapa 1, Examen 8 **Autor: **Alain Acevedo Mejía
+Es claro que no es posible probar todas las sucesiones posibles de movimientos de los bloques para encontrar la solución (a excepción de casos muy simples). El número de tales sucesiones puede ser infinito en caso de que se puedan formar ciclos de movimientos (lo cual sucede en muchos de lo casos de prueba), y aún en casos donde el número sea finito puede suceder que no se tenga tiempo para probarlos todos."><meta name=generator content="Hugo 0.94.2"><meta name=ROBOTS content="NOINDEX, NOFOLLOW"><link rel=stylesheet href=/ananke/css/main.min.css><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Libre+Franklin%3A300%2C300i%2C400%2C400i%2C600%2C600i%2C800%2C800i&amp;#038;subset=latin%2Clatin-ext"><link rel=stylesheet href=/css/styles.css><meta property="og:title" content="Solución a &#34;Los Bloques de Link&#34;"><meta property="og:description" content="Concurso: Preselectivo para la IOI 2013, Etapa 1, Examen 8 **Autor: **Alain Acevedo Mejía
+Es claro que no es posible probar todas las sucesiones posibles de movimientos de los bloques para encontrar la solución (a excepción de casos muy simples). El número de tales sucesiones puede ser infinito en caso de que se puedan formar ciclos de movimientos (lo cual sucede en muchos de lo casos de prueba), y aún en casos donde el número sea finito puede suceder que no se tenga tiempo para probarlos todos."><meta property="og:type" content="article"><meta property="og:url" content="https://blog.omegaup.com/solucion-a-los-bloques-de-link/"><meta property="article:section" content="posts"><meta property="article:published_time" content="2013-01-07T16:54:06+00:00"><meta property="article:modified_time" content="2013-01-07T16:54:06+00:00"><meta itemprop=name content="Solución a &#34;Los Bloques de Link&#34;"><meta itemprop=description content="Concurso: Preselectivo para la IOI 2013, Etapa 1, Examen 8 **Autor: **Alain Acevedo Mejía
+Es claro que no es posible probar todas las sucesiones posibles de movimientos de los bloques para encontrar la solución (a excepción de casos muy simples). El número de tales sucesiones puede ser infinito en caso de que se puedan formar ciclos de movimientos (lo cual sucede en muchos de lo casos de prueba), y aún en casos donde el número sea finito puede suceder que no se tenga tiempo para probarlos todos."><meta itemprop=datePublished content="2013-01-07T16:54:06+00:00"><meta itemprop=dateModified content="2013-01-07T16:54:06+00:00"><meta itemprop=wordCount content="627"><meta itemprop=keywords content="Alain Acevedo,Etapa 1,Examen 8,preselectivo,solución,Soluciones Preselectivo 2013,"><meta name=twitter:card content="summary"><meta name=twitter:title content="Solución a &#34;Los Bloques de Link&#34;"><meta name=twitter:description content="Concurso: Preselectivo para la IOI 2013, Etapa 1, Examen 8 **Autor: **Alain Acevedo Mejía
+Es claro que no es posible probar todas las sucesiones posibles de movimientos de los bloques para encontrar la solución (a excepción de casos muy simples). El número de tales sucesiones puede ser infinito en caso de que se puedan formar ciclos de movimientos (lo cual sucede en muchos de lo casos de prueba), y aún en casos donde el número sea finito puede suceder que no se tenga tiempo para probarlos todos."></head><body class="ma0 bg-near-white"><header class=bg-top style=background-image:url(https://blog.omegaup.com/images/cover.jpeg)><div class="pv3 bg-black-60"><nav class="pv4 ph3 ph4-ns" role=navigation><div class="mw8 center"><h1><a href=/ class="hover-white no-underline white-90 dib">omegaUp blog</a></h1><h2>Incrementando el talento de Ingeniería de Software en América Latina</h2><div class="flex-l justify-between items-center center"><div class="flex-l items-center"><div class=ananke-socials></div></div></div></div></nav></div></header><header class="bg-black-90 sticky w-100 ph3 pv3 pv4-ns ph4-m ph5-l z-1"><nav class="f6 fw6 ttu tracked"><a class="link dim white dib mr3" href=/ title=Inicio>Inicio</a>
 <a class="link dim white dib mr3" href=/search/ title=Búsqueda>Búsqueda</a>
-<a class="link dim white dib" href=https://omegaup.org/ title="Acerca de">Acerca de</a>
-</nav>
-</header>
-<main class=pb7 role=main>
-<article class="flex-l flex-wrap justify-between mw8 center ph3">
-<header class="mt4 w-100">
-<aside class="instapaper_ignoref b helvetica tracked">
-POSTS
-</aside>
-<div id=sharing class="mt3 ananke-socials">
-</div>
-<p class="tracked p0 mb0">
-<time class="f6 dib tracked" datetime=2013-01-07T16:54:06Z>January 7, 2013</time>
-Por <strong>
-Lira
-</strong>
-</p>
-<h1 class="f2 pv2 mv1">Solución a "Los Bloques de Link"</h1>
-</header>
-<div class="nested-copy-line-height lh-copy sans-serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p><strong>Concurso:</strong> <a href=https://omegaup.com/arena/IOI2013E1P8>Preselectivo para la IOI 2013, Etapa 1, Examen 8</a> **Autor: **<a href=mailto:alainacme@gmail.com>Alain Acevedo Mejía</a></p>
-<p>Es claro que no es posible probar todas las sucesiones posibles de movimientos de los bloques para encontrar la solución (a excepción de casos muy simples). El número de tales sucesiones puede ser infinito en caso de que se puedan formar ciclos de movimientos (lo cual sucede en muchos de lo casos de prueba), y aún en casos donde el número sea finito puede suceder que no se tenga tiempo para probarlos todos.</p>
-<p>Una primera observación crucial es que, en el estado del mapa, solo nos interesa saber donde están los bloques de hielo en cada paso, es decir, su ubicación es lo que determina lo que nos interesa del estado. No nos interesan los pasos previos que los llevaron a su posición, solo que sea el número mínimo posible. Tenemos un problema que puede ser resuelto realizando una búsqueda en amplitud.</p>
-<p>¿Cuántos estados es posible alcanzar? El mapa es a lo más de 40x40 espacios y las orillas siempre están bloqueadas, así que realmente tenemos 38x38=1444 espacios a los que quizá es posible llevar a los bloques. Tenemos dos bloques de hielo, así que hay (1444x1443)/2=1,041,846 formas de colocarlos en el mapa (hemos considerado aquí ya el hecho de que son indistinguibles). Para fines de la búsqueda el número que hemos calculado es en realidad una cota superior muy mala (mala en el sentido de que la cota superior mínima es muy inferior, es decir, calculamos “de más”), pues por la forma en que se mueven los bloques es claro que aún en el peor de los casos posibles la cantidad de estados a los que se puede acceder es mucho menor (¿cuál es el peor de los casos?). Es posible entonces emplear una búsqueda en amplitud común para resolver el problema, el espacio de búsqueda no es muy grande y es claro que podemos recorrerlo por completo.</p>
-<p>Para representar los estados requerimos tener la posición de ambos bloques, y nada más. Podemos emplear una arreglo de bool&rsquo;s (boolean&rsquo;s en pascal) de cuatro dimensiones para marcar los estados a los que se ha accedido. Para la cola, en el código que se anexa más abajo, empleamos un arreglo de dos dimensiones (una matriz) donde además de guardar la posición de los bloques de los estados guardamos la cantidad de movimientos realizados para llegar a cada estado. Para ver a que estados podemos llegar desde un estado dado basta con ver en que direcciones es posible mover los bloques y a qué posición llegarán.</p>
-<p>Para optimizar la búsqueda podemos hacer dos observaciones. La primera es que con nuestra representación de los estados podríamos llegar dos veces al mismo estado, ya que los dos bloques de hielo son para nuestros fines iguales. En el código de abajo es por ello que al llegar a un estado nuevo se marcan dos valores en el arreglo de bools como verdaderos, pues ambos representan en realidad el mismo estado.</p>
-<p>Otra observación es que para averiguar eficientemente a que estados se puede llegar desde un estado dado podemos precalcular, antes de realizar la búsqueda, para cada espacio vacío o con bloque de hielo, cuál es la posición del espacio bloqueado (con numeral # o con el botón A) más cercano en cada dirección. Así solo habrá que comparar esa posición con la del otro bloque de hielo para ver a dónde llegará el bloque tras su movimiento. Esto puede mejorar el tiempo de ejecución para un caso dado, aunque no siempre es así. En este problema para obtener los 100 puntos no hacen falta optimizaciones de este tipo, aunque es bueno tener este tipo de ideas en mente para problemas más complejos.</p>
-<p>El siguiente código resuelve el problema:</p>
-<script type=application/javascript src=https://gist.github.com/OlimpiadaMexicanadeInformatica/6559163.js></script>
-<ul class=pa0>
-<li class=list>
-<a href=/tags/alain-acevedo class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Alain Acevedo</a>
-</li>
-<li class=list>
-<a href=/tags/etapa-1 class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Etapa 1</a>
-</li>
-<li class=list>
-<a href=/tags/examen-8 class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Examen 8</a>
-</li>
-<li class=list>
-<a href=/tags/preselectivo class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">preselectivo</a>
-</li>
-<li class=list>
-<a href=/tags/soluci%C3%B3n class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">solución</a>
-</li>
-<li class=list>
-<a href=/tags/soluciones-preselectivo-2013 class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Soluciones Preselectivo 2013</a>
-</li>
-</ul>
-<div class="mt6 instapaper_ignoref">
-</div>
-</div>
-<aside class="w-30-l mt6-l">
-<div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
-<p class="f5 b mb3">Related</p>
-<ul class="pa0 list">
-<li class=mb2>
-<a href=/solucion-a-problema/>Solución a "Problema"</a>
-</li>
-<li class=mb2>
-<a href=/solucion-a-alfiles/>Solución a "Alfiles"</a>
-</li>
-<li class=mb2>
-<a href=/solucion-a-mario-reloaded/>Solución a "Mario Reloaded"</a>
-</li>
-<li class=mb2>
-<a href=/solucion-a-el-collar-de-perlas/>Solución a "El collar de perlas"</a>
-</li>
-<li class=mb2>
-<a href=/solucion-a-teclado-roto/>Solución a "Teclado Roto"</a>
-</li>
-<li class=mb2>
-<a href=/solucion-a-el-artista-lento/>Solución a "El Artista Lento"</a>
-</li>
-<li class=mb2>
-<a href=/engranes-khayyam-solucion-enrique-lira/>Solución a "Engranes"</a>
-</li>
-<li class=mb2>
-<a href=/juego-lento-ethan-jimenez/>Solución a "Juego Lento"</a>
-</li>
-</ul>
-</div>
-</aside>
-</article>
-</main>
-<footer class="bg-black bottom-0 w-100 pa3" role=contentinfo>
-<div class="flex justify-between">
-<a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href=https://blog.omegaup.com/>
-&copy; omegaUp blog 2022
-</a>
-<div>
-<div class=ananke-socials>
-</div></div>
-</div>
-</footer>
-<script type=text/javascript async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<a class="link dim white dib" href=https://omegaup.org/ title="Acerca de">Acerca de</a></nav></header><main class=pb7 role=main><article class="flex-l flex-wrap justify-between mw8 center ph3"><header class="mt4 w-100"><aside class="instapaper_ignoref b helvetica tracked">POSTS</aside><div id=sharing class="mt3 ananke-socials"></div><p class="tracked p0 mb0"><time class="f6 dib tracked" datetime=2013-01-07T16:54:06Z>January 7, 2013</time>
+Por <strong>Lira</strong></p><h1 class="f2 pv2 mv1">Solución a "Los Bloques de Link"</h1></header><div class="nested-copy-line-height lh-copy sans-serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p><strong>Concurso:</strong> <a href=https://omegaup.com/arena/IOI2013E1P8>Preselectivo para la IOI 2013, Etapa 1, Examen 8</a> **Autor: **<a href=mailto:alainacme@gmail.com>Alain Acevedo Mejía</a></p><p>Es claro que no es posible probar todas las sucesiones posibles de movimientos de los bloques para encontrar la solución (a excepción de casos muy simples). El número de tales sucesiones puede ser infinito en caso de que se puedan formar ciclos de movimientos (lo cual sucede en muchos de lo casos de prueba), y aún en casos donde el número sea finito puede suceder que no se tenga tiempo para probarlos todos.</p><p>Una primera observación crucial es que, en el estado del mapa, solo nos interesa saber donde están los bloques de hielo en cada paso, es decir, su ubicación es lo que determina lo que nos interesa del estado. No nos interesan los pasos previos que los llevaron a su posición, solo que sea el número mínimo posible. Tenemos un problema que puede ser resuelto realizando una búsqueda en amplitud.</p><p>¿Cuántos estados es posible alcanzar? El mapa es a lo más de 40x40 espacios y las orillas siempre están bloqueadas, así que realmente tenemos 38x38=1444 espacios a los que quizá es posible llevar a los bloques. Tenemos dos bloques de hielo, así que hay (1444x1443)/2=1,041,846 formas de colocarlos en el mapa (hemos considerado aquí ya el hecho de que son indistinguibles). Para fines de la búsqueda el número que hemos calculado es en realidad una cota superior muy mala (mala en el sentido de que la cota superior mínima es muy inferior, es decir, calculamos “de más”), pues por la forma en que se mueven los bloques es claro que aún en el peor de los casos posibles la cantidad de estados a los que se puede acceder es mucho menor (¿cuál es el peor de los casos?). Es posible entonces emplear una búsqueda en amplitud común para resolver el problema, el espacio de búsqueda no es muy grande y es claro que podemos recorrerlo por completo.</p><p>Para representar los estados requerimos tener la posición de ambos bloques, y nada más. Podemos emplear una arreglo de bool&rsquo;s (boolean&rsquo;s en pascal) de cuatro dimensiones para marcar los estados a los que se ha accedido. Para la cola, en el código que se anexa más abajo, empleamos un arreglo de dos dimensiones (una matriz) donde además de guardar la posición de los bloques de los estados guardamos la cantidad de movimientos realizados para llegar a cada estado. Para ver a que estados podemos llegar desde un estado dado basta con ver en que direcciones es posible mover los bloques y a qué posición llegarán.</p><p>Para optimizar la búsqueda podemos hacer dos observaciones. La primera es que con nuestra representación de los estados podríamos llegar dos veces al mismo estado, ya que los dos bloques de hielo son para nuestros fines iguales. En el código de abajo es por ello que al llegar a un estado nuevo se marcan dos valores en el arreglo de bools como verdaderos, pues ambos representan en realidad el mismo estado.</p><p>Otra observación es que para averiguar eficientemente a que estados se puede llegar desde un estado dado podemos precalcular, antes de realizar la búsqueda, para cada espacio vacío o con bloque de hielo, cuál es la posición del espacio bloqueado (con numeral # o con el botón A) más cercano en cada dirección. Así solo habrá que comparar esa posición con la del otro bloque de hielo para ver a dónde llegará el bloque tras su movimiento. Esto puede mejorar el tiempo de ejecución para un caso dado, aunque no siempre es así. En este problema para obtener los 100 puntos no hacen falta optimizaciones de este tipo, aunque es bueno tener este tipo de ideas en mente para problemas más complejos.</p><p>El siguiente código resuelve el problema:</p><script type=application/javascript src=https://gist.github.com/OlimpiadaMexicanadeInformatica/6559163.js></script><ul class=pa0><li class=list><a href=/tags/alain-acevedo class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Alain Acevedo</a></li><li class=list><a href=/tags/etapa-1 class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Etapa 1</a></li><li class=list><a href=/tags/examen-8 class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Examen 8</a></li><li class=list><a href=/tags/preselectivo class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">preselectivo</a></li><li class=list><a href=/tags/soluci%C3%B3n class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">solución</a></li><li class=list><a href=/tags/soluciones-preselectivo-2013 class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Soluciones Preselectivo 2013</a></li></ul><div class="mt6 instapaper_ignoref"></div></div><aside class="w-30-l mt6-l"><div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links"><p class="f5 b mb3">Related</p><ul class="pa0 list"><li class=mb2><a href=/solucion-a-problema/>Solución a "Problema"</a></li><li class=mb2><a href=/solucion-a-alfiles/>Solución a "Alfiles"</a></li><li class=mb2><a href=/solucion-a-mario-reloaded/>Solución a "Mario Reloaded"</a></li><li class=mb2><a href=/solucion-a-el-collar-de-perlas/>Solución a "El collar de perlas"</a></li><li class=mb2><a href=/solucion-a-teclado-roto/>Solución a "Teclado Roto"</a></li><li class=mb2><a href=/solucion-a-el-artista-lento/>Solución a "El Artista Lento"</a></li><li class=mb2><a href=/engranes-khayyam-solucion-enrique-lira/>Solución a "Engranes"</a></li><li class=mb2><a href=/juego-lento-ethan-jimenez/>Solución a "Juego Lento"</a></li></ul></div></aside></article></main><footer class="bg-black bottom-0 w-100 pa3" role=contentinfo><div class="flex justify-between"><a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href=https://blog.omegaup.com/>&copy; omegaUp blog 2022</a><div><div class=ananke-socials></div></div></div></footer><script type=text/javascript async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type=text/x-mathjax-config>
   MathJax.Hub.Config({
     tex2jax: {
@@ -163,6 +21,4 @@ Lira
       },
    },
  });
-</script>
-</body>
-</html>
+</script></body></html>

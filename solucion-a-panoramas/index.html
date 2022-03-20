@@ -1,177 +1,16 @@
-<!doctype html><html lang=es-mx>
-<head>
-<meta charset=utf-8>
-<meta http-equiv=x-ua-compatible content="IE=edge,chrome=1">
-<title>Solución a "Panoramas" | omegaUp blog</title>
-<meta name=viewport content="width=device-width,minimum-scale=1">
-<meta name=description content="Concurso: Preselectivo para la IOI 2014, Etapa 1, Problemset 17 Autor: Miguel Ángel Covarrubias Fuente: Miguel Ángel Covarrubias
-El problema es un Steiner tree problem (un MST pero donde sólo hay que conectar un subconjunto de nodos) pero con costo por nodo en vez de por arista. El grafo de los panoramas es un árbol más un ciclo. Para un árbol una solución es poner como raíz a $latex s_1$ y para cada $latex s_i$ marcar los nodos en su camino hacia la raíz.">
-<meta name=generator content="Hugo 0.92.1">
-<meta name=ROBOTS content="NOINDEX, NOFOLLOW">
-<link rel=stylesheet href=/ananke/css/main.min.css>
-<link rel=stylesheet href="https://fonts.googleapis.com/css?family=Libre+Franklin%3A300%2C300i%2C400%2C400i%2C600%2C600i%2C800%2C800i&amp;#038;subset=latin%2Clatin-ext">
-<link rel=stylesheet href=/css/styles.css>
-<meta property="og:title" content="Solución a &#34;Panoramas&#34;">
-<meta property="og:description" content="Concurso: Preselectivo para la IOI 2014, Etapa 1, Problemset 17 Autor: Miguel Ángel Covarrubias Fuente: Miguel Ángel Covarrubias
-El problema es un Steiner tree problem (un MST pero donde sólo hay que conectar un subconjunto de nodos) pero con costo por nodo en vez de por arista. El grafo de los panoramas es un árbol más un ciclo. Para un árbol una solución es poner como raíz a $latex s_1$ y para cada $latex s_i$ marcar los nodos en su camino hacia la raíz.">
-<meta property="og:type" content="article">
-<meta property="og:url" content="https://blog.omegaup.com/solucion-a-panoramas/"><meta property="article:section" content="posts">
-<meta property="article:published_time" content="2014-01-16T17:36:38+00:00">
-<meta property="article:modified_time" content="2014-01-16T17:36:38+00:00">
-<meta itemprop=name content="Solución a &#34;Panoramas&#34;">
-<meta itemprop=description content="Concurso: Preselectivo para la IOI 2014, Etapa 1, Problemset 17 Autor: Miguel Ángel Covarrubias Fuente: Miguel Ángel Covarrubias
-El problema es un Steiner tree problem (un MST pero donde sólo hay que conectar un subconjunto de nodos) pero con costo por nodo en vez de por arista. El grafo de los panoramas es un árbol más un ciclo. Para un árbol una solución es poner como raíz a $latex s_1$ y para cada $latex s_i$ marcar los nodos en su camino hacia la raíz."><meta itemprop=datePublished content="2014-01-16T17:36:38+00:00">
-<meta itemprop=dateModified content="2014-01-16T17:36:38+00:00">
-<meta itemprop=wordCount content="259">
-<meta itemprop=keywords content="Etapa 1,Examen 17,macs,preselectivo,solución,Soluciones Preselectivo 2013,"><meta name=twitter:card content="summary">
-<meta name=twitter:title content="Solución a &#34;Panoramas&#34;">
-<meta name=twitter:description content="Concurso: Preselectivo para la IOI 2014, Etapa 1, Problemset 17 Autor: Miguel Ángel Covarrubias Fuente: Miguel Ángel Covarrubias
-El problema es un Steiner tree problem (un MST pero donde sólo hay que conectar un subconjunto de nodos) pero con costo por nodo en vez de por arista. El grafo de los panoramas es un árbol más un ciclo. Para un árbol una solución es poner como raíz a $latex s_1$ y para cada $latex s_i$ marcar los nodos en su camino hacia la raíz.">
-</head>
-<body class="ma0 bg-near-white">
-<header class=bg-top style=background-image:url(https://blog.omegaup.com/images/cover.jpeg)>
-<div class="pv3 bg-black-60">
-<nav class="pv4 ph3 ph4-ns" role=navigation>
-<div class="mw8 center">
-<h1>
-<a href=/ class="hover-white no-underline white-90 dib">
-omegaUp blog
-</a>
-</h1>
-<h2>Incrementando el talento de Ingeniería de Software en América Latina</h2>
-<div class="flex-l justify-between items-center center">
-<div class="flex-l items-center">
-<div class=ananke-socials>
-</div>
-</div>
-</div>
-</div>
-</nav>
-</div>
-</header>
-<header class="bg-black-90 sticky w-100 ph3 pv3 pv4-ns ph4-m ph5-l z-1">
-<nav class="f6 fw6 ttu tracked">
-<a class="link dim white dib mr3" href=/ title=Inicio>Inicio</a>
+<!doctype html><html lang=es-mx><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge,chrome=1"><title>Solución a "Panoramas" | omegaUp blog</title><meta name=viewport content="width=device-width,minimum-scale=1"><meta name=description content="Concurso: Preselectivo para la IOI 2014, Etapa 1, Problemset 17 Autor: Miguel Ángel Covarrubias Fuente: Miguel Ángel Covarrubias
+El problema es un Steiner tree problem (un MST pero donde sólo hay que conectar un subconjunto de nodos) pero con costo por nodo en vez de por arista. El grafo de los panoramas es un árbol más un ciclo. Para un árbol una solución es poner como raíz a $latex s_1$ y para cada $latex s_i$ marcar los nodos en su camino hacia la raíz."><meta name=generator content="Hugo 0.94.2"><meta name=ROBOTS content="NOINDEX, NOFOLLOW"><link rel=stylesheet href=/ananke/css/main.min.css><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Libre+Franklin%3A300%2C300i%2C400%2C400i%2C600%2C600i%2C800%2C800i&amp;#038;subset=latin%2Clatin-ext"><link rel=stylesheet href=/css/styles.css><meta property="og:title" content="Solución a &#34;Panoramas&#34;"><meta property="og:description" content="Concurso: Preselectivo para la IOI 2014, Etapa 1, Problemset 17 Autor: Miguel Ángel Covarrubias Fuente: Miguel Ángel Covarrubias
+El problema es un Steiner tree problem (un MST pero donde sólo hay que conectar un subconjunto de nodos) pero con costo por nodo en vez de por arista. El grafo de los panoramas es un árbol más un ciclo. Para un árbol una solución es poner como raíz a $latex s_1$ y para cada $latex s_i$ marcar los nodos en su camino hacia la raíz."><meta property="og:type" content="article"><meta property="og:url" content="https://blog.omegaup.com/solucion-a-panoramas/"><meta property="article:section" content="posts"><meta property="article:published_time" content="2014-01-16T17:36:38+00:00"><meta property="article:modified_time" content="2014-01-16T17:36:38+00:00"><meta itemprop=name content="Solución a &#34;Panoramas&#34;"><meta itemprop=description content="Concurso: Preselectivo para la IOI 2014, Etapa 1, Problemset 17 Autor: Miguel Ángel Covarrubias Fuente: Miguel Ángel Covarrubias
+El problema es un Steiner tree problem (un MST pero donde sólo hay que conectar un subconjunto de nodos) pero con costo por nodo en vez de por arista. El grafo de los panoramas es un árbol más un ciclo. Para un árbol una solución es poner como raíz a $latex s_1$ y para cada $latex s_i$ marcar los nodos en su camino hacia la raíz."><meta itemprop=datePublished content="2014-01-16T17:36:38+00:00"><meta itemprop=dateModified content="2014-01-16T17:36:38+00:00"><meta itemprop=wordCount content="259"><meta itemprop=keywords content="Etapa 1,Examen 17,macs,preselectivo,solución,Soluciones Preselectivo 2013,"><meta name=twitter:card content="summary"><meta name=twitter:title content="Solución a &#34;Panoramas&#34;"><meta name=twitter:description content="Concurso: Preselectivo para la IOI 2014, Etapa 1, Problemset 17 Autor: Miguel Ángel Covarrubias Fuente: Miguel Ángel Covarrubias
+El problema es un Steiner tree problem (un MST pero donde sólo hay que conectar un subconjunto de nodos) pero con costo por nodo en vez de por arista. El grafo de los panoramas es un árbol más un ciclo. Para un árbol una solución es poner como raíz a $latex s_1$ y para cada $latex s_i$ marcar los nodos en su camino hacia la raíz."></head><body class="ma0 bg-near-white"><header class=bg-top style=background-image:url(https://blog.omegaup.com/images/cover.jpeg)><div class="pv3 bg-black-60"><nav class="pv4 ph3 ph4-ns" role=navigation><div class="mw8 center"><h1><a href=/ class="hover-white no-underline white-90 dib">omegaUp blog</a></h1><h2>Incrementando el talento de Ingeniería de Software en América Latina</h2><div class="flex-l justify-between items-center center"><div class="flex-l items-center"><div class=ananke-socials></div></div></div></div></nav></div></header><header class="bg-black-90 sticky w-100 ph3 pv3 pv4-ns ph4-m ph5-l z-1"><nav class="f6 fw6 ttu tracked"><a class="link dim white dib mr3" href=/ title=Inicio>Inicio</a>
 <a class="link dim white dib mr3" href=/search/ title=Búsqueda>Búsqueda</a>
-<a class="link dim white dib" href=https://omegaup.org/ title="Acerca de">Acerca de</a>
-</nav>
-</header>
-<main class=pb7 role=main>
-<article class="flex-l flex-wrap justify-between mw8 center ph3">
-<header class="mt4 w-100">
-<aside class="instapaper_ignoref b helvetica tracked">
-POSTS
-</aside>
-<div id=sharing class="mt3 ananke-socials">
-</div>
-<p class="tracked p0 mb0">
-<time class="f6 dib tracked" datetime=2014-01-16T17:36:38Z>January 16, 2014</time>
-Por <strong>
-Freddy
-</strong>
-</p>
-<h1 class="f2 pv2 mv1">Solución a "Panoramas"</h1>
-</header>
-<div class="nested-copy-line-height lh-copy sans-serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p><strong>Concurso:</strong> <a href=https://omegaup.com/arena/IOI2014E1P17#problems/Tour>Preselectivo para la IOI 2014, Etapa 1, Problemset 17</a> <strong>Autor:</strong> Miguel Ángel Covarrubias <strong>Fuente</strong>: Miguel Ángel Covarrubias</p>
-<p>El problema es un Steiner tree problem (un MST pero donde sólo hay que conectar un subconjunto de nodos) pero con costo por nodo en vez de por arista. El grafo de los panoramas es un árbol más un ciclo. Para un árbol una solución es poner como raíz a $latex s_1$ y para cada $latex s_i$ marcar los nodos en su camino hacia la raíz. Se puede usar DP o recursión para calcular el mínimo numero de vertices que conectan todos los nodos interesantes y pasan por la raíz para cada subárbol.</p>
-<p>$latex \mathrm{dp}_r=\mathrm{interesante}(r)\ \mathrm{si}\ \Sigma_h\mathrm{dp}_h=0$ $latex \mathrm{dp}_r = \Sigma_h\mathrm{dp}_h+1\ \mathrm{si}\ \Sigma_c\mathrm{dp}_h>0$</p>
-<p>$latex h$ es un hijo de $latex r$. La arista extra $latex (u,v)$ en el ciclo $latex c$ permite usar otros caminos a lo largo de $latex c$. Tales caminos deben conectar todos los nodos en $latex c$ que tengan nodos interesantes en su árbol después de quitar las aristas del ciclo $latex E-c$. Etiquetemos tales nodos con un uno y los demás nodos del $latex c$ con un cero. Para $latex E-(u,v)$ el ciclo sólo no cubre los últimos ceros. Para encontrar la solución sólo basta encontrar la secuencia de ceros más grande. En el siguiente diagrama, la arista que falta es $latex (u,v)$. La DP sólo no usa el último cero, pero es mejor no usar los dos ceros que están adyacentes.</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-cpp data-lang=cpp>  <span style=color:#ae81ff>0</span> <span style=color:#ae81ff>1</span>
- <span style=color:#f92672>/</span>   <span style=color:#960050;background-color:#1e0010>\</span>\
-<span style=color:#ae81ff>1</span>     <span style=color:#ae81ff>0</span>
- <span style=color:#960050;background-color:#1e0010>\\</span>   <span style=color:#f92672>/</span>
-  <span style=color:#ae81ff>1</span><span style=color:#f92672>-</span><span style=color:#ae81ff>0</span>
-
-</code></pre></div><p>Este código implementa la solución.</p>
-<script type=application/javascript src=https://gist.github.com/OlimpiadaMexicanadeInformatica/8468920.js></script>
-<ul class=pa0>
-<li class=list>
-<a href=/tags/etapa-1 class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Etapa 1</a>
-</li>
-<li class=list>
-<a href=/tags/examen-17 class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Examen 17</a>
-</li>
-<li class=list>
-<a href=/tags/macs class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">macs</a>
-</li>
-<li class=list>
-<a href=/tags/preselectivo class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">preselectivo</a>
-</li>
-<li class=list>
-<a href=/tags/soluci%C3%B3n class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">solución</a>
-</li>
-<li class=list>
-<a href=/tags/soluciones-preselectivo-2013 class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Soluciones Preselectivo 2013</a>
-</li>
-</ul>
-<div class="mt6 instapaper_ignoref">
-</div>
-</div>
-<aside class="w-30-l mt6-l">
-<div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
-<p class="f5 b mb3">Related</p>
-<ul class="pa0 list">
-<li class=mb2>
-<a href=/445/>Solución a "Pista"</a>
-</li>
-<li class=mb2>
-<a href=/solucion-a-mapas-de-bits/>Solución a "Mapas de bits"</a>
-</li>
-<li class=mb2>
-<a href=/solucion-a-ubongo-3d/>Solución a "Ubongo 3D"</a>
-</li>
-<li class=mb2>
-<a href=/solucion-a-cueva/>Solución a "Cueva"</a>
-</li>
-<li class=mb2>
-<a href=/solucion-a-chilly-rapero/>Solución a "Chilly Rapero"</a>
-</li>
-<li class=mb2>
-<a href=/solucion-a-cambio/>Solución a "Cambio"</a>
-</li>
-<li class=mb2>
-<a href=/solucion-a-minecraft/>Solución a "Minecraft"</a>
-</li>
-<li class=mb2>
-<a href=/solucion-a-metro/>Solución a "Metro"</a>
-</li>
-<li class=mb2>
-<a href=/162/>Solución a "Pulseras"</a>
-</li>
-<li class=mb2>
-<a href=/solucion-a-los-bloques-de-link/>Solución a "Los Bloques de Link"</a>
-</li>
-<li class=mb2>
-<a href=/solucion-a-problema/>Solución a "Problema"</a>
-</li>
-<li class=mb2>
-<a href=/solucion-a-alfiles/>Solución a "Alfiles"</a>
-</li>
-<li class=mb2>
-<a href=/solucion-a-el-collar-de-perlas/>Solución a "El collar de perlas"</a>
-</li>
-<li class=mb2>
-<a href=/solucion-a-dp-generica/>Solución a "DP Genérica"</a>
-</li>
-<li class=mb2>
-<a href=/solucion-a-comesolo/>Solución a "Comesolo"</a>
-</li>
-</ul>
-</div>
-</aside>
-</article>
-</main>
-<footer class="bg-black bottom-0 w-100 pa3" role=contentinfo>
-<div class="flex justify-between">
-<a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href=https://blog.omegaup.com/>
-&copy; omegaUp blog 2022
-</a>
-<div>
-<div class=ananke-socials>
-</div></div>
-</div>
-</footer>
-<script type=text/javascript async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<a class="link dim white dib" href=https://omegaup.org/ title="Acerca de">Acerca de</a></nav></header><main class=pb7 role=main><article class="flex-l flex-wrap justify-between mw8 center ph3"><header class="mt4 w-100"><aside class="instapaper_ignoref b helvetica tracked">POSTS</aside><div id=sharing class="mt3 ananke-socials"></div><p class="tracked p0 mb0"><time class="f6 dib tracked" datetime=2014-01-16T17:36:38Z>January 16, 2014</time>
+Por <strong>Freddy</strong></p><h1 class="f2 pv2 mv1">Solución a "Panoramas"</h1></header><div class="nested-copy-line-height lh-copy sans-serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p><strong>Concurso:</strong> <a href=https://omegaup.com/arena/IOI2014E1P17#problems/Tour>Preselectivo para la IOI 2014, Etapa 1, Problemset 17</a> <strong>Autor:</strong> Miguel Ángel Covarrubias <strong>Fuente</strong>: Miguel Ángel Covarrubias</p><p>El problema es un Steiner tree problem (un MST pero donde sólo hay que conectar un subconjunto de nodos) pero con costo por nodo en vez de por arista. El grafo de los panoramas es un árbol más un ciclo. Para un árbol una solución es poner como raíz a $latex s_1$ y para cada $latex s_i$ marcar los nodos en su camino hacia la raíz. Se puede usar DP o recursión para calcular el mínimo numero de vertices que conectan todos los nodos interesantes y pasan por la raíz para cada subárbol.</p><p>$latex \mathrm{dp}_r=\mathrm{interesante}(r)\ \mathrm{si}\ \Sigma_h\mathrm{dp}_h=0$ $latex \mathrm{dp}_r = \Sigma_h\mathrm{dp}_h+1\ \mathrm{si}\ \Sigma_c\mathrm{dp}_h>0$</p><p>$latex h$ es un hijo de $latex r$. La arista extra $latex (u,v)$ en el ciclo $latex c$ permite usar otros caminos a lo largo de $latex c$. Tales caminos deben conectar todos los nodos en $latex c$ que tengan nodos interesantes en su árbol después de quitar las aristas del ciclo $latex E-c$. Etiquetemos tales nodos con un uno y los demás nodos del $latex c$ con un cero. Para $latex E-(u,v)$ el ciclo sólo no cubre los últimos ceros. Para encontrar la solución sólo basta encontrar la secuencia de ceros más grande. En el siguiente diagrama, la arista que falta es $latex (u,v)$. La DP sólo no usa el último cero, pero es mejor no usar los dos ceros que están adyacentes.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-cpp data-lang=cpp><span style=display:flex><span>  <span style=color:#ae81ff>0</span> <span style=color:#ae81ff>1</span>
+</span></span><span style=display:flex><span> <span style=color:#f92672>/</span>   <span style=color:#960050;background-color:#1e0010>\</span>\
+</span></span><span style=display:flex><span><span style=color:#ae81ff>1</span>     <span style=color:#ae81ff>0</span>
+</span></span><span style=display:flex><span> <span style=color:#960050;background-color:#1e0010>\\</span>   <span style=color:#f92672>/</span>
+</span></span><span style=display:flex><span>  <span style=color:#ae81ff>1</span><span style=color:#f92672>-</span><span style=color:#ae81ff>0</span>
+</span></span></code></pre></div><p>Este código implementa la solución.</p><script type=application/javascript src=https://gist.github.com/OlimpiadaMexicanadeInformatica/8468920.js></script><ul class=pa0><li class=list><a href=/tags/etapa-1 class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Etapa 1</a></li><li class=list><a href=/tags/examen-17 class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Examen 17</a></li><li class=list><a href=/tags/macs class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">macs</a></li><li class=list><a href=/tags/preselectivo class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">preselectivo</a></li><li class=list><a href=/tags/soluci%C3%B3n class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">solución</a></li><li class=list><a href=/tags/soluciones-preselectivo-2013 class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Soluciones Preselectivo 2013</a></li></ul><div class="mt6 instapaper_ignoref"></div></div><aside class="w-30-l mt6-l"><div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links"><p class="f5 b mb3">Related</p><ul class="pa0 list"><li class=mb2><a href=/445/>Solución a "Pista"</a></li><li class=mb2><a href=/solucion-a-mapas-de-bits/>Solución a "Mapas de bits"</a></li><li class=mb2><a href=/solucion-a-ubongo-3d/>Solución a "Ubongo 3D"</a></li><li class=mb2><a href=/solucion-a-cueva/>Solución a "Cueva"</a></li><li class=mb2><a href=/solucion-a-chilly-rapero/>Solución a "Chilly Rapero"</a></li><li class=mb2><a href=/solucion-a-cambio/>Solución a "Cambio"</a></li><li class=mb2><a href=/solucion-a-minecraft/>Solución a "Minecraft"</a></li><li class=mb2><a href=/solucion-a-metro/>Solución a "Metro"</a></li><li class=mb2><a href=/162/>Solución a "Pulseras"</a></li><li class=mb2><a href=/solucion-a-los-bloques-de-link/>Solución a "Los Bloques de Link"</a></li><li class=mb2><a href=/solucion-a-problema/>Solución a "Problema"</a></li><li class=mb2><a href=/solucion-a-alfiles/>Solución a "Alfiles"</a></li><li class=mb2><a href=/solucion-a-el-collar-de-perlas/>Solución a "El collar de perlas"</a></li><li class=mb2><a href=/solucion-a-dp-generica/>Solución a "DP Genérica"</a></li><li class=mb2><a href=/solucion-a-comesolo/>Solución a "Comesolo"</a></li></ul></div></aside></article></main><footer class="bg-black bottom-0 w-100 pa3" role=contentinfo><div class="flex justify-between"><a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href=https://blog.omegaup.com/>&copy; omegaUp blog 2022</a><div><div class=ananke-socials></div></div></div></footer><script type=text/javascript async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type=text/x-mathjax-config>
   MathJax.Hub.Config({
     tex2jax: {
@@ -187,6 +26,4 @@ Freddy
       },
    },
  });
-</script>
-</body>
-</html>
+</script></body></html>

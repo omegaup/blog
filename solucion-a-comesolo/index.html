@@ -1,276 +1,107 @@
-<!doctype html><html lang=es-mx>
-<head>
-<meta charset=utf-8>
-<meta http-equiv=x-ua-compatible content="IE=edge,chrome=1">
-<title>Solución a "Comesolo" | omegaUp blog</title>
-<meta name=viewport content="width=device-width,minimum-scale=1">
-<meta name=description content="Concurso: Preselectivo para la IOI 2014, Etapa 1, Problemset 8 Autor: lhchavez Fuente: Félix
-Este problema es especial porque es el primero en omegaUp de solo salida! Usualmente lo que debes esperar cuando te enfrentes con uno de esos problemas es que sea un problema NP que no tiene una solución rápida, y usualmente te pedirán que te aproximes lo más posible a la solución óptima. Esto significa que te vas a tener que valer de técnicas ad-hoc y heurísticas para sacar puntos.">
-<meta name=generator content="Hugo 0.92.1">
-<meta name=ROBOTS content="NOINDEX, NOFOLLOW">
-<link rel=stylesheet href=/ananke/css/main.min.css>
-<link rel=stylesheet href="https://fonts.googleapis.com/css?family=Libre+Franklin%3A300%2C300i%2C400%2C400i%2C600%2C600i%2C800%2C800i&amp;#038;subset=latin%2Clatin-ext">
-<link rel=stylesheet href=/css/styles.css>
-<meta property="og:title" content="Solución a &#34;Comesolo&#34;">
-<meta property="og:description" content="Concurso: Preselectivo para la IOI 2014, Etapa 1, Problemset 8 Autor: lhchavez Fuente: Félix
-Este problema es especial porque es el primero en omegaUp de solo salida! Usualmente lo que debes esperar cuando te enfrentes con uno de esos problemas es que sea un problema NP que no tiene una solución rápida, y usualmente te pedirán que te aproximes lo más posible a la solución óptima. Esto significa que te vas a tener que valer de técnicas ad-hoc y heurísticas para sacar puntos.">
-<meta property="og:type" content="article">
-<meta property="og:url" content="https://blog.omegaup.com/solucion-a-comesolo/"><meta property="article:section" content="posts">
-<meta property="article:published_time" content="2013-09-14T05:21:32+00:00">
-<meta property="article:modified_time" content="2013-09-14T05:21:32+00:00">
-<meta itemprop=name content="Solución a &#34;Comesolo&#34;">
-<meta itemprop=description content="Concurso: Preselectivo para la IOI 2014, Etapa 1, Problemset 8 Autor: lhchavez Fuente: Félix
-Este problema es especial porque es el primero en omegaUp de solo salida! Usualmente lo que debes esperar cuando te enfrentes con uno de esos problemas es que sea un problema NP que no tiene una solución rápida, y usualmente te pedirán que te aproximes lo más posible a la solución óptima. Esto significa que te vas a tener que valer de técnicas ad-hoc y heurísticas para sacar puntos."><meta itemprop=datePublished content="2013-09-14T05:21:32+00:00">
-<meta itemprop=dateModified content="2013-09-14T05:21:32+00:00">
-<meta itemprop=wordCount content="941">
-<meta itemprop=keywords content="Etapa 1,Examen 5,felix,lhchavez,preselectivo,solución,Soluciones Preselectivo 2014,"><meta name=twitter:card content="summary">
-<meta name=twitter:title content="Solución a &#34;Comesolo&#34;">
-<meta name=twitter:description content="Concurso: Preselectivo para la IOI 2014, Etapa 1, Problemset 8 Autor: lhchavez Fuente: Félix
-Este problema es especial porque es el primero en omegaUp de solo salida! Usualmente lo que debes esperar cuando te enfrentes con uno de esos problemas es que sea un problema NP que no tiene una solución rápida, y usualmente te pedirán que te aproximes lo más posible a la solución óptima. Esto significa que te vas a tener que valer de técnicas ad-hoc y heurísticas para sacar puntos.">
-</head>
-<body class="ma0 bg-near-white">
-<header class=bg-top style=background-image:url(https://blog.omegaup.com/images/cover.jpeg)>
-<div class="pv3 bg-black-60">
-<nav class="pv4 ph3 ph4-ns" role=navigation>
-<div class="mw8 center">
-<h1>
-<a href=/ class="hover-white no-underline white-90 dib">
-omegaUp blog
-</a>
-</h1>
-<h2>Incrementando el talento de Ingeniería de Software en América Latina</h2>
-<div class="flex-l justify-between items-center center">
-<div class="flex-l items-center">
-<div class=ananke-socials>
-</div>
-</div>
-</div>
-</div>
-</nav>
-</div>
-</header>
-<header class="bg-black-90 sticky w-100 ph3 pv3 pv4-ns ph4-m ph5-l z-1">
-<nav class="f6 fw6 ttu tracked">
-<a class="link dim white dib mr3" href=/ title=Inicio>Inicio</a>
+<!doctype html><html lang=es-mx><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge,chrome=1"><title>Solución a "Comesolo" | omegaUp blog</title><meta name=viewport content="width=device-width,minimum-scale=1"><meta name=description content="Concurso: Preselectivo para la IOI 2014, Etapa 1, Problemset 8 Autor: lhchavez Fuente: Félix
+Este problema es especial porque es el primero en omegaUp de solo salida! Usualmente lo que debes esperar cuando te enfrentes con uno de esos problemas es que sea un problema NP que no tiene una solución rápida, y usualmente te pedirán que te aproximes lo más posible a la solución óptima. Esto significa que te vas a tener que valer de técnicas ad-hoc y heurísticas para sacar puntos."><meta name=generator content="Hugo 0.94.2"><meta name=ROBOTS content="NOINDEX, NOFOLLOW"><link rel=stylesheet href=/ananke/css/main.min.css><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Libre+Franklin%3A300%2C300i%2C400%2C400i%2C600%2C600i%2C800%2C800i&amp;#038;subset=latin%2Clatin-ext"><link rel=stylesheet href=/css/styles.css><meta property="og:title" content="Solución a &#34;Comesolo&#34;"><meta property="og:description" content="Concurso: Preselectivo para la IOI 2014, Etapa 1, Problemset 8 Autor: lhchavez Fuente: Félix
+Este problema es especial porque es el primero en omegaUp de solo salida! Usualmente lo que debes esperar cuando te enfrentes con uno de esos problemas es que sea un problema NP que no tiene una solución rápida, y usualmente te pedirán que te aproximes lo más posible a la solución óptima. Esto significa que te vas a tener que valer de técnicas ad-hoc y heurísticas para sacar puntos."><meta property="og:type" content="article"><meta property="og:url" content="https://blog.omegaup.com/solucion-a-comesolo/"><meta property="article:section" content="posts"><meta property="article:published_time" content="2013-09-14T05:21:32+00:00"><meta property="article:modified_time" content="2013-09-14T05:21:32+00:00"><meta itemprop=name content="Solución a &#34;Comesolo&#34;"><meta itemprop=description content="Concurso: Preselectivo para la IOI 2014, Etapa 1, Problemset 8 Autor: lhchavez Fuente: Félix
+Este problema es especial porque es el primero en omegaUp de solo salida! Usualmente lo que debes esperar cuando te enfrentes con uno de esos problemas es que sea un problema NP que no tiene una solución rápida, y usualmente te pedirán que te aproximes lo más posible a la solución óptima. Esto significa que te vas a tener que valer de técnicas ad-hoc y heurísticas para sacar puntos."><meta itemprop=datePublished content="2013-09-14T05:21:32+00:00"><meta itemprop=dateModified content="2013-09-14T05:21:32+00:00"><meta itemprop=wordCount content="941"><meta itemprop=keywords content="Etapa 1,Examen 5,felix,lhchavez,preselectivo,solución,Soluciones Preselectivo 2014,"><meta name=twitter:card content="summary"><meta name=twitter:title content="Solución a &#34;Comesolo&#34;"><meta name=twitter:description content="Concurso: Preselectivo para la IOI 2014, Etapa 1, Problemset 8 Autor: lhchavez Fuente: Félix
+Este problema es especial porque es el primero en omegaUp de solo salida! Usualmente lo que debes esperar cuando te enfrentes con uno de esos problemas es que sea un problema NP que no tiene una solución rápida, y usualmente te pedirán que te aproximes lo más posible a la solución óptima. Esto significa que te vas a tener que valer de técnicas ad-hoc y heurísticas para sacar puntos."></head><body class="ma0 bg-near-white"><header class=bg-top style=background-image:url(https://blog.omegaup.com/images/cover.jpeg)><div class="pv3 bg-black-60"><nav class="pv4 ph3 ph4-ns" role=navigation><div class="mw8 center"><h1><a href=/ class="hover-white no-underline white-90 dib">omegaUp blog</a></h1><h2>Incrementando el talento de Ingeniería de Software en América Latina</h2><div class="flex-l justify-between items-center center"><div class="flex-l items-center"><div class=ananke-socials></div></div></div></div></nav></div></header><header class="bg-black-90 sticky w-100 ph3 pv3 pv4-ns ph4-m ph5-l z-1"><nav class="f6 fw6 ttu tracked"><a class="link dim white dib mr3" href=/ title=Inicio>Inicio</a>
 <a class="link dim white dib mr3" href=/search/ title=Búsqueda>Búsqueda</a>
-<a class="link dim white dib" href=https://omegaup.org/ title="Acerca de">Acerca de</a>
-</nav>
-</header>
-<main class=pb7 role=main>
-<article class="flex-l flex-wrap justify-between mw8 center ph3">
-<header class="mt4 w-100">
-<aside class="instapaper_ignoref b helvetica tracked">
-POSTS
-</aside>
-<div id=sharing class="mt3 ananke-socials">
-</div>
-<p class="tracked p0 mb0">
-<time class="f6 dib tracked" datetime=2013-09-14T05:21:32Z>September 14, 2013</time>
-Por <strong>
-lhchavez
-</strong>
-</p>
-<h1 class="f2 pv2 mv1">Solución a "Comesolo"</h1>
-</header>
-<div class="nested-copy-line-height lh-copy sans-serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p><strong>Concurso:</strong> <a href=https://omegaup.com/arena/problem/comesolo>Preselectivo para la IOI 2014, Etapa 1, Problemset 8</a> <strong>Autor:</strong> <a href=http://lhchavez.com>lhchavez</a> <strong>Fuente</strong>: Félix</p>
-<p>Este problema es especial porque es el primero en omegaUp de solo salida! Usualmente lo que debes esperar cuando te enfrentes con uno de esos problemas es que sea un problema NP que no tiene una solución rápida, y usualmente te pedirán que te aproximes lo más posible a la solución óptima. Esto significa que te vas a tener que valer de técnicas ad-hoc y heurísticas para sacar puntos.</p>
-<p>La solución del problema es bastante sencilla de explicar: haz una búsqueda en profundidad intentando todos los posibles movimientos por fuerza bruta hasta que te salga una solución aceptable e imprímela. El problema es que esta estrategia es $latex O(n!)$, y como $latex n$ puede valer hasta 30x30, puedes esperar que el programa corra varios milenios antes de encontrar la solución óptima. Hay tres trucos (en orden de importancia) para obtener una solución decente en un tiempo razonable:</p>
-<ul>
-<li>No repetir estados.</li>
-<li>No &ldquo;clavarse&rdquo; con soluciones que parece que son muy buenas, pero en realidad llevan a callejones sin salida.</li>
-<li>Encontrar una manera de darle prioridad a los estados que tengan más probabilidad de llegar a una solución buena.</li>
-</ul>
-<p>La estrategia que yo personalmente seguí fue que cada que encontraba un nuevo estado, obtenía su <a href=http://es.wikipedia.org/wiki/Funci%C3%B3n_hash>hash</a> (que resultaba en un entero de 64 bits) y verificaba si no lo había visitado usando una tabla de hash<a href=#note>*</a>. Si no la había visitado, encontraba todos los estados vecinos (todos los tableros que resultaban de hacer un movimiento válido) y los guardaba en una fila de acuerdo a la cantidad de puntos (entre más puntos, más adelante en la fila). Luego, elegía aleatoriamente un estado de la fila dándole prioridad a los que estaban más adelante (pues son los que tienen mayor probabilidad de llegar a una buena solución), lo cual también me evitaba seguir un único camino donde me podría atorar. Repetí eso hasta que se me terminó la memoria de la computadora e imprimí la mejor solución.</p>
-<p>A continuación, el pseudocódigo de la solución:</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-cpp data-lang=cpp><span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Estado</span><span style=color:#f92672>:</span>
-  <span style=color:#66d9ef>int</span> puntos <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>
-  <span style=color:#66d9ef>bool</span><span style=color:#960050;background-color:#1e0010>\</span>[N<span style=color:#960050;background-color:#1e0010>\</span>]<span style=color:#960050;background-color:#1e0010>\</span>[N<span style=color:#960050;background-color:#1e0010>\</span>] tablero
-  Estado padre <span style=color:#f92672>=</span> null
-
-  def <span style=color:#960050;background-color:#1e0010>\</span>_<span style=color:#960050;background-color:#1e0010>\</span>_init<span style=color:#960050;background-color:#1e0010>\</span>_<span style=color:#960050;background-color:#1e0010>\</span>_(Estado p)<span style=color:#f92672>:</span>
-    puntos <span style=color:#f92672>=</span> p.puntos
-    tablero <span style=color:#f92672>=</span> p.tablero
-    padre <span style=color:#f92672>=</span> p
-
-  def hash()<span style=color:#f92672>:</span>
-    <span style=color:#75715e># Puedes usar cualquier algoritmo que genere un entero de 64 bits
-</span><span style=color:#75715e></span>    <span style=color:#75715e># a partir de tablero y puntos. Este es el más sencillo.
-</span><span style=color:#75715e></span>    hash <span style=color:#f92672>=</span> puntos
-    <span style=color:#66d9ef>for</span> i in range(<span style=color:#ae81ff>0</span>, N)<span style=color:#f92672>:</span>
-      hash <span style=color:#f92672>=</span> ((hash <span style=color:#f92672>&lt;&lt;</span> <span style=color:#ae81ff>7</span>) <span style=color:#f92672>|</span> (hash <span style=color:#f92672>&gt;&gt;</span> <span style=color:#ae81ff>53</span>)) <span style=color:#f92672>^</span> tablero<span style=color:#960050;background-color:#1e0010>\</span>[i<span style=color:#960050;background-color:#1e0010>\</span>]
-    <span style=color:#66d9ef>return</span> hash
-
-  def siguientes(queue<span style=color:#960050;background-color:#1e0010>\</span>[<span style=color:#ae81ff>300</span><span style=color:#960050;background-color:#1e0010>\</span>] colas)<span style=color:#f92672>:</span>
-    <span style=color:#75715e># Para todas las celdas (i, j) del tablero...
-</span><span style=color:#75715e></span>    <span style=color:#66d9ef>for</span> i in range(<span style=color:#ae81ff>0</span>, N)<span style=color:#f92672>:</span>
-        <span style=color:#66d9ef>for</span> j in range(<span style=color:#ae81ff>0</span>, N)<span style=color:#f92672>:</span>
-          <span style=color:#75715e># Si la celda tiene una pieza...
-</span><span style=color:#75715e></span>          <span style=color:#66d9ef>if</span> tablero<span style=color:#960050;background-color:#1e0010>\</span>[i<span style=color:#960050;background-color:#1e0010>\</span>]<span style=color:#960050;background-color:#1e0010>\</span>[j<span style=color:#960050;background-color:#1e0010>\</span>]<span style=color:#f92672>:</span>
-            <span style=color:#75715e># Para todos los vecinos contiguos (i+k, j+l)...
-</span><span style=color:#75715e></span>            <span style=color:#66d9ef>for</span> k in range(<span style=color:#f92672>-</span><span style=color:#ae81ff>1</span>, <span style=color:#ae81ff>2</span>)<span style=color:#f92672>:</span>
-              <span style=color:#66d9ef>for</span> l in range(<span style=color:#f92672>-</span><span style=color:#ae81ff>1</span>, <span style=color:#ae81ff>2</span>)<span style=color:#f92672>:</span>
-                <span style=color:#75715e># Asegúrate que se haya movido \_algo\_.
-</span><span style=color:#75715e></span>                <span style=color:#66d9ef>if</span> k <span style=color:#f92672>==</span> <span style=color:#ae81ff>0</span> <span style=color:#f92672>&amp;&amp;</span> l <span style=color:#f92672>==</span> <span style=color:#ae81ff>0</span><span style=color:#f92672>:</span> <span style=color:#66d9ef>continue</span>
-                <span style=color:#75715e># Y que pueda brincar dentro del tablero.
-</span><span style=color:#75715e></span>                <span style=color:#66d9ef>if</span> j <span style=color:#f92672>+</span> <span style=color:#ae81ff>2</span> <span style=color:#960050;background-color:#1e0010>\</span><span style=color:#f92672>*</span> l <span style=color:#f92672>&lt;</span> <span style=color:#ae81ff>0</span> or j <span style=color:#f92672>+</span> <span style=color:#ae81ff>2</span> <span style=color:#960050;background-color:#1e0010>\</span><span style=color:#f92672>*</span> l <span style=color:#f92672>&gt;=</span> N: <span style=color:#66d9ef>continue</span>
-                <span style=color:#75715e># Y que haya brincado una pieza.
-</span><span style=color:#75715e></span>                <span style=color:#66d9ef>if</span> not tablero<span style=color:#960050;background-color:#1e0010>\</span>[i <span style=color:#f92672>+</span> k<span style=color:#960050;background-color:#1e0010>\</span>]<span style=color:#960050;background-color:#1e0010>\</span>[j <span style=color:#f92672>+</span> l<span style=color:#960050;background-color:#1e0010>\</span>]<span style=color:#f92672>:</span> <span style=color:#66d9ef>continue</span>
-                <span style=color:#75715e># Y que el lugar a donde brinca esté desocupado.
-</span><span style=color:#75715e></span>                <span style=color:#66d9ef>if</span> tablero<span style=color:#960050;background-color:#1e0010>\</span>[i <span style=color:#f92672>+</span> <span style=color:#ae81ff>2</span> <span style=color:#960050;background-color:#1e0010>\</span><span style=color:#f92672>*</span> k<span style=color:#960050;background-color:#1e0010>\</span>]<span style=color:#960050;background-color:#1e0010>\</span>[j <span style=color:#f92672>+</span> <span style=color:#ae81ff>2</span> <span style=color:#960050;background-color:#1e0010>\</span><span style=color:#f92672>*</span> l<span style=color:#960050;background-color:#1e0010>\</span>]<span style=color:#f92672>:</span> <span style=color:#66d9ef>continue</span>
-                
-                hijo <span style=color:#f92672>=</span> <span style=color:#66d9ef>new</span> Estado(<span style=color:#66d9ef>this</span>)
-                <span style=color:#75715e># Aumenta la puntuación del hijo
-</span><span style=color:#75715e></span>                hijo.puntos<span style=color:#f92672>++</span>
-                <span style=color:#75715e># Borra la ficha original y la &#34;comida&#34;.
-</span><span style=color:#75715e></span>                hijo.tablero<span style=color:#960050;background-color:#1e0010>\</span>[i<span style=color:#960050;background-color:#1e0010>\</span>]<span style=color:#960050;background-color:#1e0010>\</span>[j<span style=color:#960050;background-color:#1e0010>\</span>] <span style=color:#f92672>=</span> hijo.tablero<span style=color:#960050;background-color:#1e0010>\</span>[i <span style=color:#f92672>+</span> k<span style=color:#960050;background-color:#1e0010>\</span>]<span style=color:#960050;background-color:#1e0010>\</span>[j <span style=color:#f92672>+</span> l<span style=color:#960050;background-color:#1e0010>\</span>] <span style=color:#f92672>=</span> <span style=color:#960050;background-color:#1e0010>\</span>\
-                  False
-                <span style=color:#75715e># Agrega la ficha en su posición final.
-</span><span style=color:#75715e></span>                hijo.tablero<span style=color:#960050;background-color:#1e0010>\</span>[i <span style=color:#f92672>+</span> <span style=color:#ae81ff>2</span> <span style=color:#960050;background-color:#1e0010>\</span><span style=color:#f92672>*</span> k<span style=color:#960050;background-color:#1e0010>\</span>]<span style=color:#960050;background-color:#1e0010>\</span>[j <span style=color:#f92672>+</span> <span style=color:#ae81ff>2</span> <span style=color:#960050;background-color:#1e0010>\</span><span style=color:#f92672>*</span> l<span style=color:#960050;background-color:#1e0010>\</span>] <span style=color:#f92672>=</span> True
-                <span style=color:#75715e># Agrégala a la cola correspondiente.
-</span><span style=color:#75715e></span>                colas<span style=color:#960050;background-color:#1e0010>\</span>[hijo.puntos<span style=color:#960050;background-color:#1e0010>\</span>].push(hijo)
-
-def elige<span style=color:#960050;background-color:#1e0010>\</span>_estado()<span style=color:#f92672>:</span>
-  <span style=color:#75715e># Número aleatorio entre 0 y 1.
-</span><span style=color:#75715e></span>  r <span style=color:#f92672>=</span> (random() <span style=color:#f92672>/</span> (<span style=color:#66d9ef>float</span>)RAND<span style=color:#960050;background-color:#1e0010>\</span>_MAX)
-  <span style=color:#75715e># El índice de la última cola que estuvo llena.
-</span><span style=color:#75715e></span>  ultimolleno <span style=color:#f92672>=</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>1</span>
-  <span style=color:#75715e># La cola que se está considerando.
-</span><span style=color:#75715e></span>  x <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>
-  <span style=color:#75715e># Elige la cola con mayores puntos que no esté vacía como
-</span><span style=color:#75715e></span>  <span style=color:#75715e># primera opción.
-</span><span style=color:#75715e></span>  <span style=color:#66d9ef>for</span> i in range(<span style=color:#ae81ff>0</span>, N)<span style=color:#f92672>:</span>
-    <span style=color:#66d9ef>if</span> not colas<span style=color:#960050;background-color:#1e0010>\</span>[i<span style=color:#960050;background-color:#1e0010>\</span>].vacio()<span style=color:#f92672>:</span>
-      x <span style=color:#f92672>=</span> i
-  <span style=color:#75715e># La primer cola tiene probabilidad de 31% de ser elegida.
-</span><span style=color:#75715e></span>  <span style=color:#75715e># La segunda cola tiene probabilidad de 21%, la tercera 14%,
-</span><span style=color:#75715e></span>  <span style=color:#75715e># la cuarta 10% y así sucesivamente.
-</span><span style=color:#75715e></span>  <span style=color:#66d9ef>while</span> x <span style=color:#f92672>&gt;=</span> <span style=color:#ae81ff>0</span><span style=color:#f92672>:</span>
-    <span style=color:#66d9ef>if</span> not colas<span style=color:#960050;background-color:#1e0010>\</span>[x<span style=color:#960050;background-color:#1e0010>\</span>].vacio()<span style=color:#f92672>:</span>
-      ultimolleno <span style=color:#f92672>=</span> x
-    x<span style=color:#f92672>--</span>
-    r <span style=color:#960050;background-color:#1e0010>\</span><span style=color:#f92672>*=</span> <span style=color:#ae81ff>1.45</span>
-    <span style=color:#66d9ef>if</span> r <span style=color:#f92672>&gt;=</span> <span style=color:#ae81ff>1</span> and ultimolleno <span style=color:#f92672>!=</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>1</span> <span style=color:#66d9ef>break</span>
-  <span style=color:#66d9ef>if</span> ultimolleno <span style=color:#f92672>==</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>1</span><span style=color:#f92672>:</span> <span style=color:#66d9ef>return</span> Null
-  <span style=color:#66d9ef>return</span> colas<span style=color:#960050;background-color:#1e0010>\</span>[lastfull<span style=color:#960050;background-color:#1e0010>\</span>].pop()
-
-queue<span style=color:#960050;background-color:#1e0010>\</span>[<span style=color:#ae81ff>300</span><span style=color:#960050;background-color:#1e0010>\</span>] colas
-hashtable estados<span style=color:#960050;background-color:#1e0010>\</span>_visitados
-
-<span style=color:#960050;background-color:#1e0010>\#</span> lee el estado original
-colas<span style=color:#960050;background-color:#1e0010>\</span>[<span style=color:#ae81ff>0</span><span style=color:#960050;background-color:#1e0010>\</span>].push(estado<span style=color:#960050;background-color:#1e0010>\</span>_original)
-Estado mejor <span style=color:#f92672>=</span> estado<span style=color:#960050;background-color:#1e0010>\</span>_original
-
-<span style=color:#66d9ef>while</span> no<span style=color:#960050;background-color:#1e0010>\</span>_se<span style=color:#960050;background-color:#1e0010>\</span>_haya<span style=color:#960050;background-color:#1e0010>\</span>_terminado<span style=color:#960050;background-color:#1e0010>\</span>_la<span style=color:#960050;background-color:#1e0010>\</span>_memoria()<span style=color:#f92672>:</span>
-  Estado s <span style=color:#f92672>=</span> elige<span style=color:#960050;background-color:#1e0010>\</span>_estado()
-  <span style=color:#75715e># Si ya no hay más estados por visitar,
-</span><span style=color:#75715e></span>  <span style=color:#75715e># encontramos la respuesta óptima en algún punto.
-</span><span style=color:#75715e></span>  <span style=color:#66d9ef>if</span> s <span style=color:#f92672>==</span> Null: <span style=color:#66d9ef>break</span>
-  <span style=color:#75715e># Actualiza |mejor| si hay una respuesta mejor.
-</span><span style=color:#75715e></span>  <span style=color:#66d9ef>if</span> mejor.puntos <span style=color:#f92672>&lt;</span> s.puntos: mejor <span style=color:#f92672>=</span> s
-  <span style=color:#75715e># Repetir estados es malo.
-</span><span style=color:#75715e></span>  <span style=color:#66d9ef>if</span> s.hash() in estados<span style=color:#960050;background-color:#1e0010>\</span>_visitados: <span style=color:#66d9ef>continue</span>
-  estados<span style=color:#960050;background-color:#1e0010>\</span>_visitados.add(s.hash())
-  <span style=color:#75715e># Agrega todos los vecinos.
-</span><span style=color:#75715e></span>  s.siguiente(colas)
-
-<span style=color:#960050;background-color:#1e0010>\#</span> A partir de este punto, <span style=color:#f92672>|</span>mejor<span style=color:#f92672>|</span> contiene la mejor solución. Podemos
-<span style=color:#75715e># saber qué movimiento se hizo para llegar a él comparando las
-</span><span style=color:#75715e># diferencias entre el tablero de |mejor.padre| y |mejor|. Ya solo es
-</span><span style=color:#75715e># cuestión de imprimir el resultado y listo.
-</span><span style=color:#75715e></span><span style=color:#960050;background-color:#1e0010>\</span><span style=color:#f92672>*</span> Aquí mucha gente se va a quejar porque solo guardar el hash abre la puerta a que haya dos estados que puede tener hasta <span style=color:#ae81ff>900</span> bits que tengan el mismo hash de <span style=color:#ae81ff>64</span> bits (por el [principio del palomar](http:<span style=color:#75715e>//es.wikipedia.org/wiki/Principio_del_palomar)) y esté considerando que ya se visitó un estado que en realidad es nuevo. Si haces las cuentas, la probabilidad de colisión es negligible: la cantidad de estados que podía visitar en mi computadora (27 millones) es significativamente más pequeña que el número de estados necesarios para que la probabilidad de colisión sea de 1% ($latex \\approx 10^{135}$, por la [paradoja del cumpleaños](http://es.wikipedia.org/wiki/Paradoja_del_cumplea%C3%B1os)).
-</span><span style=color:#75715e></span>
-
-</code></pre></div><ul class=pa0>
-<li class=list>
-<a href=/tags/etapa-1 class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Etapa 1</a>
-</li>
-<li class=list>
-<a href=/tags/examen-5 class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Examen 5</a>
-</li>
-<li class=list>
-<a href=/tags/felix class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">felix</a>
-</li>
-<li class=list>
-<a href=/tags/lhchavez class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">lhchavez</a>
-</li>
-<li class=list>
-<a href=/tags/preselectivo class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">preselectivo</a>
-</li>
-<li class=list>
-<a href=/tags/soluci%C3%B3n class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">solución</a>
-</li>
-<li class=list>
-<a href=/tags/soluciones-preselectivo-2014 class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Soluciones Preselectivo 2014</a>
-</li>
-</ul>
-<div class="mt6 instapaper_ignoref">
-</div>
-</div>
-<aside class="w-30-l mt6-l">
-<div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
-<p class="f5 b mb3">Related</p>
-<ul class="pa0 list">
-<li class=mb2>
-<a href=/solucion-a-coleccion/>Solución a "Colección"</a>
-</li>
-<li class=mb2>
-<a href=/solucion-a-ubongo-3d/>Solución a "Ubongo 3D"</a>
-</li>
-<li class=mb2>
-<a href=/solucion-a-bloqueo/>Solución a "Bloqueo"</a>
-</li>
-<li class=mb2>
-<a href=/solucion-a-la-venganza-de-silvio/>Solución a "La Venganza de Silvio"</a>
-</li>
-<li class=mb2>
-<a href=/solucion-a-minecraft/>Solución a "Minecraft"</a>
-</li>
-<li class=mb2>
-<a href=/solucion-a-el-collar-de-perlas/>Solución a "El collar de perlas"</a>
-</li>
-<li class=mb2>
-<a href=/solucion-a-cueva/>Solución a "Cueva"</a>
-</li>
-<li class=mb2>
-<a href=/solucion-a-chilly-rapero/>Solución a "Chilly Rapero"</a>
-</li>
-<li class=mb2>
-<a href=/solucion-a-cambio/>Solución a "Cambio"</a>
-</li>
-<li class=mb2>
-<a href=/solucion-a-metro/>Solución a "Metro"</a>
-</li>
-<li class=mb2>
-<a href=/162/>Solución a "Pulseras"</a>
-</li>
-<li class=mb2>
-<a href=/solucion-a-los-bloques-de-link/>Solución a "Los Bloques de Link"</a>
-</li>
-<li class=mb2>
-<a href=/solucion-a-problema/>Solución a "Problema"</a>
-</li>
-<li class=mb2>
-<a href=/solucion-a-alfiles/>Solución a "Alfiles"</a>
-</li>
-<li class=mb2>
-<a href=/solucion-a-las-cartas-del-dr-lira/>Solución a Las Cartas del Dr. Lira</a>
-</li>
-</ul>
-</div>
-</aside>
-</article>
-</main>
-<footer class="bg-black bottom-0 w-100 pa3" role=contentinfo>
-<div class="flex justify-between">
-<a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href=https://blog.omegaup.com/>
-&copy; omegaUp blog 2022
-</a>
-<div>
-<div class=ananke-socials>
-</div></div>
-</div>
-</footer>
-<script type=text/javascript async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<a class="link dim white dib" href=https://omegaup.org/ title="Acerca de">Acerca de</a></nav></header><main class=pb7 role=main><article class="flex-l flex-wrap justify-between mw8 center ph3"><header class="mt4 w-100"><aside class="instapaper_ignoref b helvetica tracked">POSTS</aside><div id=sharing class="mt3 ananke-socials"></div><p class="tracked p0 mb0"><time class="f6 dib tracked" datetime=2013-09-14T05:21:32Z>September 14, 2013</time>
+Por <strong>lhchavez</strong></p><h1 class="f2 pv2 mv1">Solución a "Comesolo"</h1></header><div class="nested-copy-line-height lh-copy sans-serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p><strong>Concurso:</strong> <a href=https://omegaup.com/arena/problem/comesolo>Preselectivo para la IOI 2014, Etapa 1, Problemset 8</a> <strong>Autor:</strong> <a href=http://lhchavez.com>lhchavez</a> <strong>Fuente</strong>: Félix</p><p>Este problema es especial porque es el primero en omegaUp de solo salida! Usualmente lo que debes esperar cuando te enfrentes con uno de esos problemas es que sea un problema NP que no tiene una solución rápida, y usualmente te pedirán que te aproximes lo más posible a la solución óptima. Esto significa que te vas a tener que valer de técnicas ad-hoc y heurísticas para sacar puntos.</p><p>La solución del problema es bastante sencilla de explicar: haz una búsqueda en profundidad intentando todos los posibles movimientos por fuerza bruta hasta que te salga una solución aceptable e imprímela. El problema es que esta estrategia es $latex O(n!)$, y como $latex n$ puede valer hasta 30x30, puedes esperar que el programa corra varios milenios antes de encontrar la solución óptima. Hay tres trucos (en orden de importancia) para obtener una solución decente en un tiempo razonable:</p><ul><li>No repetir estados.</li><li>No &ldquo;clavarse&rdquo; con soluciones que parece que son muy buenas, pero en realidad llevan a callejones sin salida.</li><li>Encontrar una manera de darle prioridad a los estados que tengan más probabilidad de llegar a una solución buena.</li></ul><p>La estrategia que yo personalmente seguí fue que cada que encontraba un nuevo estado, obtenía su <a href=http://es.wikipedia.org/wiki/Funci%C3%B3n_hash>hash</a> (que resultaba en un entero de 64 bits) y verificaba si no lo había visitado usando una tabla de hash<a href=#note>*</a>. Si no la había visitado, encontraba todos los estados vecinos (todos los tableros que resultaban de hacer un movimiento válido) y los guardaba en una fila de acuerdo a la cantidad de puntos (entre más puntos, más adelante en la fila). Luego, elegía aleatoriamente un estado de la fila dándole prioridad a los que estaban más adelante (pues son los que tienen mayor probabilidad de llegar a una buena solución), lo cual también me evitaba seguir un único camino donde me podría atorar. Repetí eso hasta que se me terminó la memoria de la computadora e imprimí la mejor solución.</p><p>A continuación, el pseudocódigo de la solución:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-cpp data-lang=cpp><span style=display:flex><span><span style=color:#66d9ef>class</span> <span style=color:#a6e22e>Estado</span><span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>int</span> puntos <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>bool</span><span style=color:#960050;background-color:#1e0010>\</span>[N<span style=color:#960050;background-color:#1e0010>\</span>]<span style=color:#960050;background-color:#1e0010>\</span>[N<span style=color:#960050;background-color:#1e0010>\</span>] tablero
+</span></span><span style=display:flex><span>  Estado padre <span style=color:#f92672>=</span> null
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  def <span style=color:#960050;background-color:#1e0010>\</span>_<span style=color:#960050;background-color:#1e0010>\</span>_init<span style=color:#960050;background-color:#1e0010>\</span>_<span style=color:#960050;background-color:#1e0010>\</span>_(Estado p)<span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>    puntos <span style=color:#f92672>=</span> p.puntos
+</span></span><span style=display:flex><span>    tablero <span style=color:#f92672>=</span> p.tablero
+</span></span><span style=display:flex><span>    padre <span style=color:#f92672>=</span> p
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  def hash()<span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>    <span style=color:#75715e># Puedes usar cualquier algoritmo que genere un entero de 64 bits
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>    <span style=color:#75715e># a partir de tablero y puntos. Este es el más sencillo.
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>    hash <span style=color:#f92672>=</span> puntos
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>for</span> i in range(<span style=color:#ae81ff>0</span>, N)<span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>      hash <span style=color:#f92672>=</span> ((hash <span style=color:#f92672>&lt;&lt;</span> <span style=color:#ae81ff>7</span>) <span style=color:#f92672>|</span> (hash <span style=color:#f92672>&gt;&gt;</span> <span style=color:#ae81ff>53</span>)) <span style=color:#f92672>^</span> tablero<span style=color:#960050;background-color:#1e0010>\</span>[i<span style=color:#960050;background-color:#1e0010>\</span>]
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>return</span> hash
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  def siguientes(queue<span style=color:#960050;background-color:#1e0010>\</span>[<span style=color:#ae81ff>300</span><span style=color:#960050;background-color:#1e0010>\</span>] colas)<span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>    <span style=color:#75715e># Para todas las celdas (i, j) del tablero...
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>    <span style=color:#66d9ef>for</span> i in range(<span style=color:#ae81ff>0</span>, N)<span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>for</span> j in range(<span style=color:#ae81ff>0</span>, N)<span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>          <span style=color:#75715e># Si la celda tiene una pieza...
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>          <span style=color:#66d9ef>if</span> tablero<span style=color:#960050;background-color:#1e0010>\</span>[i<span style=color:#960050;background-color:#1e0010>\</span>]<span style=color:#960050;background-color:#1e0010>\</span>[j<span style=color:#960050;background-color:#1e0010>\</span>]<span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>            <span style=color:#75715e># Para todos los vecinos contiguos (i+k, j+l)...
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>            <span style=color:#66d9ef>for</span> k in range(<span style=color:#f92672>-</span><span style=color:#ae81ff>1</span>, <span style=color:#ae81ff>2</span>)<span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>              <span style=color:#66d9ef>for</span> l in range(<span style=color:#f92672>-</span><span style=color:#ae81ff>1</span>, <span style=color:#ae81ff>2</span>)<span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>                <span style=color:#75715e># Asegúrate que se haya movido \_algo\_.
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>                <span style=color:#66d9ef>if</span> k <span style=color:#f92672>==</span> <span style=color:#ae81ff>0</span> <span style=color:#f92672>&amp;&amp;</span> l <span style=color:#f92672>==</span> <span style=color:#ae81ff>0</span><span style=color:#f92672>:</span> <span style=color:#66d9ef>continue</span>
+</span></span><span style=display:flex><span>                <span style=color:#75715e># Y que pueda brincar dentro del tablero.
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>                <span style=color:#66d9ef>if</span> j <span style=color:#f92672>+</span> <span style=color:#ae81ff>2</span> <span style=color:#960050;background-color:#1e0010>\</span><span style=color:#f92672>*</span> l <span style=color:#f92672>&lt;</span> <span style=color:#ae81ff>0</span> or j <span style=color:#f92672>+</span> <span style=color:#ae81ff>2</span> <span style=color:#960050;background-color:#1e0010>\</span><span style=color:#f92672>*</span> l <span style=color:#f92672>&gt;=</span> N: <span style=color:#66d9ef>continue</span>
+</span></span><span style=display:flex><span>                <span style=color:#75715e># Y que haya brincado una pieza.
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>                <span style=color:#66d9ef>if</span> not tablero<span style=color:#960050;background-color:#1e0010>\</span>[i <span style=color:#f92672>+</span> k<span style=color:#960050;background-color:#1e0010>\</span>]<span style=color:#960050;background-color:#1e0010>\</span>[j <span style=color:#f92672>+</span> l<span style=color:#960050;background-color:#1e0010>\</span>]<span style=color:#f92672>:</span> <span style=color:#66d9ef>continue</span>
+</span></span><span style=display:flex><span>                <span style=color:#75715e># Y que el lugar a donde brinca esté desocupado.
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>                <span style=color:#66d9ef>if</span> tablero<span style=color:#960050;background-color:#1e0010>\</span>[i <span style=color:#f92672>+</span> <span style=color:#ae81ff>2</span> <span style=color:#960050;background-color:#1e0010>\</span><span style=color:#f92672>*</span> k<span style=color:#960050;background-color:#1e0010>\</span>]<span style=color:#960050;background-color:#1e0010>\</span>[j <span style=color:#f92672>+</span> <span style=color:#ae81ff>2</span> <span style=color:#960050;background-color:#1e0010>\</span><span style=color:#f92672>*</span> l<span style=color:#960050;background-color:#1e0010>\</span>]<span style=color:#f92672>:</span> <span style=color:#66d9ef>continue</span>
+</span></span><span style=display:flex><span>                
+</span></span><span style=display:flex><span>                hijo <span style=color:#f92672>=</span> <span style=color:#66d9ef>new</span> Estado(<span style=color:#66d9ef>this</span>)
+</span></span><span style=display:flex><span>                <span style=color:#75715e># Aumenta la puntuación del hijo
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>                hijo.puntos<span style=color:#f92672>++</span>
+</span></span><span style=display:flex><span>                <span style=color:#75715e># Borra la ficha original y la &#34;comida&#34;.
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>                hijo.tablero<span style=color:#960050;background-color:#1e0010>\</span>[i<span style=color:#960050;background-color:#1e0010>\</span>]<span style=color:#960050;background-color:#1e0010>\</span>[j<span style=color:#960050;background-color:#1e0010>\</span>] <span style=color:#f92672>=</span> hijo.tablero<span style=color:#960050;background-color:#1e0010>\</span>[i <span style=color:#f92672>+</span> k<span style=color:#960050;background-color:#1e0010>\</span>]<span style=color:#960050;background-color:#1e0010>\</span>[j <span style=color:#f92672>+</span> l<span style=color:#960050;background-color:#1e0010>\</span>] <span style=color:#f92672>=</span> <span style=color:#960050;background-color:#1e0010>\</span>\
+</span></span><span style=display:flex><span>                  False
+</span></span><span style=display:flex><span>                <span style=color:#75715e># Agrega la ficha en su posición final.
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>                hijo.tablero<span style=color:#960050;background-color:#1e0010>\</span>[i <span style=color:#f92672>+</span> <span style=color:#ae81ff>2</span> <span style=color:#960050;background-color:#1e0010>\</span><span style=color:#f92672>*</span> k<span style=color:#960050;background-color:#1e0010>\</span>]<span style=color:#960050;background-color:#1e0010>\</span>[j <span style=color:#f92672>+</span> <span style=color:#ae81ff>2</span> <span style=color:#960050;background-color:#1e0010>\</span><span style=color:#f92672>*</span> l<span style=color:#960050;background-color:#1e0010>\</span>] <span style=color:#f92672>=</span> True
+</span></span><span style=display:flex><span>                <span style=color:#75715e># Agrégala a la cola correspondiente.
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>                colas<span style=color:#960050;background-color:#1e0010>\</span>[hijo.puntos<span style=color:#960050;background-color:#1e0010>\</span>].push(hijo)
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>def elige<span style=color:#960050;background-color:#1e0010>\</span>_estado()<span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>  <span style=color:#75715e># Número aleatorio entre 0 y 1.
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>  r <span style=color:#f92672>=</span> (random() <span style=color:#f92672>/</span> (<span style=color:#66d9ef>float</span>)RAND<span style=color:#960050;background-color:#1e0010>\</span>_MAX)
+</span></span><span style=display:flex><span>  <span style=color:#75715e># El índice de la última cola que estuvo llena.
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>  ultimolleno <span style=color:#f92672>=</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>1</span>
+</span></span><span style=display:flex><span>  <span style=color:#75715e># La cola que se está considerando.
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>  x <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>
+</span></span><span style=display:flex><span>  <span style=color:#75715e># Elige la cola con mayores puntos que no esté vacía como
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>  <span style=color:#75715e># primera opción.
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>  <span style=color:#66d9ef>for</span> i in range(<span style=color:#ae81ff>0</span>, N)<span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>if</span> not colas<span style=color:#960050;background-color:#1e0010>\</span>[i<span style=color:#960050;background-color:#1e0010>\</span>].vacio()<span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>      x <span style=color:#f92672>=</span> i
+</span></span><span style=display:flex><span>  <span style=color:#75715e># La primer cola tiene probabilidad de 31% de ser elegida.
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>  <span style=color:#75715e># La segunda cola tiene probabilidad de 21%, la tercera 14%,
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>  <span style=color:#75715e># la cuarta 10% y así sucesivamente.
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>  <span style=color:#66d9ef>while</span> x <span style=color:#f92672>&gt;=</span> <span style=color:#ae81ff>0</span><span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>if</span> not colas<span style=color:#960050;background-color:#1e0010>\</span>[x<span style=color:#960050;background-color:#1e0010>\</span>].vacio()<span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>      ultimolleno <span style=color:#f92672>=</span> x
+</span></span><span style=display:flex><span>    x<span style=color:#f92672>--</span>
+</span></span><span style=display:flex><span>    r <span style=color:#960050;background-color:#1e0010>\</span><span style=color:#f92672>*=</span> <span style=color:#ae81ff>1.45</span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>if</span> r <span style=color:#f92672>&gt;=</span> <span style=color:#ae81ff>1</span> and ultimolleno <span style=color:#f92672>!=</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>1</span> <span style=color:#66d9ef>break</span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>if</span> ultimolleno <span style=color:#f92672>==</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>1</span><span style=color:#f92672>:</span> <span style=color:#66d9ef>return</span> Null
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>return</span> colas<span style=color:#960050;background-color:#1e0010>\</span>[lastfull<span style=color:#960050;background-color:#1e0010>\</span>].pop()
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>queue<span style=color:#960050;background-color:#1e0010>\</span>[<span style=color:#ae81ff>300</span><span style=color:#960050;background-color:#1e0010>\</span>] colas
+</span></span><span style=display:flex><span>hashtable estados<span style=color:#960050;background-color:#1e0010>\</span>_visitados
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>\#</span> lee el estado original
+</span></span><span style=display:flex><span>colas<span style=color:#960050;background-color:#1e0010>\</span>[<span style=color:#ae81ff>0</span><span style=color:#960050;background-color:#1e0010>\</span>].push(estado<span style=color:#960050;background-color:#1e0010>\</span>_original)
+</span></span><span style=display:flex><span>Estado mejor <span style=color:#f92672>=</span> estado<span style=color:#960050;background-color:#1e0010>\</span>_original
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>while</span> no<span style=color:#960050;background-color:#1e0010>\</span>_se<span style=color:#960050;background-color:#1e0010>\</span>_haya<span style=color:#960050;background-color:#1e0010>\</span>_terminado<span style=color:#960050;background-color:#1e0010>\</span>_la<span style=color:#960050;background-color:#1e0010>\</span>_memoria()<span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>  Estado s <span style=color:#f92672>=</span> elige<span style=color:#960050;background-color:#1e0010>\</span>_estado()
+</span></span><span style=display:flex><span>  <span style=color:#75715e># Si ya no hay más estados por visitar,
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>  <span style=color:#75715e># encontramos la respuesta óptima en algún punto.
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>  <span style=color:#66d9ef>if</span> s <span style=color:#f92672>==</span> Null: <span style=color:#66d9ef>break</span>
+</span></span><span style=display:flex><span>  <span style=color:#75715e># Actualiza |mejor| si hay una respuesta mejor.
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>  <span style=color:#66d9ef>if</span> mejor.puntos <span style=color:#f92672>&lt;</span> s.puntos: mejor <span style=color:#f92672>=</span> s
+</span></span><span style=display:flex><span>  <span style=color:#75715e># Repetir estados es malo.
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>  <span style=color:#66d9ef>if</span> s.hash() in estados<span style=color:#960050;background-color:#1e0010>\</span>_visitados: <span style=color:#66d9ef>continue</span>
+</span></span><span style=display:flex><span>  estados<span style=color:#960050;background-color:#1e0010>\</span>_visitados.add(s.hash())
+</span></span><span style=display:flex><span>  <span style=color:#75715e># Agrega todos los vecinos.
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>  s.siguiente(colas)
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>\#</span> A partir de este punto, <span style=color:#f92672>|</span>mejor<span style=color:#f92672>|</span> contiene la mejor solución. Podemos
+</span></span><span style=display:flex><span><span style=color:#75715e># saber qué movimiento se hizo para llegar a él comparando las
+</span></span></span><span style=display:flex><span><span style=color:#75715e># diferencias entre el tablero de |mejor.padre| y |mejor|. Ya solo es
+</span></span></span><span style=display:flex><span><span style=color:#75715e># cuestión de imprimir el resultado y listo.
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span><span style=color:#960050;background-color:#1e0010>\</span><span style=color:#f92672>*</span> Aquí mucha gente se va a quejar porque solo guardar el hash abre la puerta a que haya dos estados que puede tener hasta <span style=color:#ae81ff>900</span> bits que tengan el mismo hash de <span style=color:#ae81ff>64</span> bits (por el [principio del palomar](http:<span style=color:#75715e>//es.wikipedia.org/wiki/Principio_del_palomar)) y esté considerando que ya se visitó un estado que en realidad es nuevo. Si haces las cuentas, la probabilidad de colisión es negligible: la cantidad de estados que podía visitar en mi computadora (27 millones) es significativamente más pequeña que el número de estados necesarios para que la probabilidad de colisión sea de 1% ($latex \\approx 10^{135}$, por la [paradoja del cumpleaños](http://es.wikipedia.org/wiki/Paradoja_del_cumplea%C3%B1os)).
+</span></span></span></code></pre></div><ul class=pa0><li class=list><a href=/tags/etapa-1 class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Etapa 1</a></li><li class=list><a href=/tags/examen-5 class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Examen 5</a></li><li class=list><a href=/tags/felix class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">felix</a></li><li class=list><a href=/tags/lhchavez class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">lhchavez</a></li><li class=list><a href=/tags/preselectivo class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">preselectivo</a></li><li class=list><a href=/tags/soluci%C3%B3n class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">solución</a></li><li class=list><a href=/tags/soluciones-preselectivo-2014 class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Soluciones Preselectivo 2014</a></li></ul><div class="mt6 instapaper_ignoref"></div></div><aside class="w-30-l mt6-l"><div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links"><p class="f5 b mb3">Related</p><ul class="pa0 list"><li class=mb2><a href=/solucion-a-coleccion/>Solución a "Colección"</a></li><li class=mb2><a href=/solucion-a-ubongo-3d/>Solución a "Ubongo 3D"</a></li><li class=mb2><a href=/solucion-a-bloqueo/>Solución a "Bloqueo"</a></li><li class=mb2><a href=/solucion-a-la-venganza-de-silvio/>Solución a "La Venganza de Silvio"</a></li><li class=mb2><a href=/solucion-a-minecraft/>Solución a "Minecraft"</a></li><li class=mb2><a href=/solucion-a-el-collar-de-perlas/>Solución a "El collar de perlas"</a></li><li class=mb2><a href=/solucion-a-cueva/>Solución a "Cueva"</a></li><li class=mb2><a href=/solucion-a-chilly-rapero/>Solución a "Chilly Rapero"</a></li><li class=mb2><a href=/solucion-a-cambio/>Solución a "Cambio"</a></li><li class=mb2><a href=/solucion-a-metro/>Solución a "Metro"</a></li><li class=mb2><a href=/162/>Solución a "Pulseras"</a></li><li class=mb2><a href=/solucion-a-los-bloques-de-link/>Solución a "Los Bloques de Link"</a></li><li class=mb2><a href=/solucion-a-problema/>Solución a "Problema"</a></li><li class=mb2><a href=/solucion-a-alfiles/>Solución a "Alfiles"</a></li><li class=mb2><a href=/solucion-a-las-cartas-del-dr-lira/>Solución a Las Cartas del Dr. Lira</a></li></ul></div></aside></article></main><footer class="bg-black bottom-0 w-100 pa3" role=contentinfo><div class="flex justify-between"><a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href=https://blog.omegaup.com/>&copy; omegaUp blog 2022</a><div><div class=ananke-socials></div></div></div></footer><script type=text/javascript async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type=text/x-mathjax-config>
   MathJax.Hub.Config({
     tex2jax: {
@@ -286,6 +117,4 @@ Estado mejor <span style=color:#f92672>=</span> estado<span style=color:#960050;
       },
    },
  });
-</script>
-</body>
-</html>
+</script></body></html>

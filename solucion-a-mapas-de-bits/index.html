@@ -1,198 +1,32 @@
-<!doctype html><html lang=es-mx>
-<head>
-<meta charset=utf-8>
-<meta http-equiv=x-ua-compatible content="IE=edge,chrome=1">
-<title>Solución a "Mapas de bits" | omegaUp blog</title>
-<meta name=viewport content="width=device-width,minimum-scale=1">
-<meta name=description content="Concurso: Preselectivo para la IOI 2014, Etapa 1, Problemset 12 Autor: Jorge Alberto González Martínez Fuente: Jorge Alberto González Martínez
+<!doctype html><html lang=es-mx><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge,chrome=1"><title>Solución a "Mapas de bits" | omegaUp blog</title><meta name=viewport content="width=device-width,minimum-scale=1"><meta name=description content="Concurso: Preselectivo para la IOI 2014, Etapa 1, Problemset 12 Autor: Jorge Alberto González Martínez Fuente: Jorge Alberto González Martínez
 En el problema se describen dos formas de representar un mapa de bits.
-La forma bidimensional es simplemente utilizar una matriz para representar los bits. La forma por descomposición consiste en agrupar los bits similares y solo escribir el valor de los bits similares. En caso de que no sean similares todos los bits en un mapa de bits dado, se procede a dividir en cuatro secciones, imprimir la letra D y procesar cada uno de los cuartos de la misma manera, tal como se lee en la descripción del problema.">
-<meta name=generator content="Hugo 0.92.1">
-<meta name=ROBOTS content="NOINDEX, NOFOLLOW">
-<link rel=stylesheet href=/ananke/css/main.min.css>
-<link rel=stylesheet href="https://fonts.googleapis.com/css?family=Libre+Franklin%3A300%2C300i%2C400%2C400i%2C600%2C600i%2C800%2C800i&amp;#038;subset=latin%2Clatin-ext">
-<link rel=stylesheet href=/css/styles.css>
-<meta property="og:title" content="Solución a &#34;Mapas de bits&#34;">
-<meta property="og:description" content="Concurso: Preselectivo para la IOI 2014, Etapa 1, Problemset 12 Autor: Jorge Alberto González Martínez Fuente: Jorge Alberto González Martínez
+La forma bidimensional es simplemente utilizar una matriz para representar los bits. La forma por descomposición consiste en agrupar los bits similares y solo escribir el valor de los bits similares. En caso de que no sean similares todos los bits en un mapa de bits dado, se procede a dividir en cuatro secciones, imprimir la letra D y procesar cada uno de los cuartos de la misma manera, tal como se lee en la descripción del problema."><meta name=generator content="Hugo 0.94.2"><meta name=ROBOTS content="NOINDEX, NOFOLLOW"><link rel=stylesheet href=/ananke/css/main.min.css><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Libre+Franklin%3A300%2C300i%2C400%2C400i%2C600%2C600i%2C800%2C800i&amp;#038;subset=latin%2Clatin-ext"><link rel=stylesheet href=/css/styles.css><meta property="og:title" content="Solución a &#34;Mapas de bits&#34;"><meta property="og:description" content="Concurso: Preselectivo para la IOI 2014, Etapa 1, Problemset 12 Autor: Jorge Alberto González Martínez Fuente: Jorge Alberto González Martínez
 En el problema se describen dos formas de representar un mapa de bits.
-La forma bidimensional es simplemente utilizar una matriz para representar los bits. La forma por descomposición consiste en agrupar los bits similares y solo escribir el valor de los bits similares. En caso de que no sean similares todos los bits en un mapa de bits dado, se procede a dividir en cuatro secciones, imprimir la letra D y procesar cada uno de los cuartos de la misma manera, tal como se lee en la descripción del problema.">
-<meta property="og:type" content="article">
-<meta property="og:url" content="https://blog.omegaup.com/solucion-a-mapas-de-bits/"><meta property="article:section" content="posts">
-<meta property="article:published_time" content="2013-10-06T22:56:54+00:00">
-<meta property="article:modified_time" content="2013-10-06T22:56:54+00:00">
-<meta itemprop=name content="Solución a &#34;Mapas de bits&#34;">
-<meta itemprop=description content="Concurso: Preselectivo para la IOI 2014, Etapa 1, Problemset 12 Autor: Jorge Alberto González Martínez Fuente: Jorge Alberto González Martínez
+La forma bidimensional es simplemente utilizar una matriz para representar los bits. La forma por descomposición consiste en agrupar los bits similares y solo escribir el valor de los bits similares. En caso de que no sean similares todos los bits en un mapa de bits dado, se procede a dividir en cuatro secciones, imprimir la letra D y procesar cada uno de los cuartos de la misma manera, tal como se lee en la descripción del problema."><meta property="og:type" content="article"><meta property="og:url" content="https://blog.omegaup.com/solucion-a-mapas-de-bits/"><meta property="article:section" content="posts"><meta property="article:published_time" content="2013-10-06T22:56:54+00:00"><meta property="article:modified_time" content="2013-10-06T22:56:54+00:00"><meta itemprop=name content="Solución a &#34;Mapas de bits&#34;"><meta itemprop=description content="Concurso: Preselectivo para la IOI 2014, Etapa 1, Problemset 12 Autor: Jorge Alberto González Martínez Fuente: Jorge Alberto González Martínez
 En el problema se describen dos formas de representar un mapa de bits.
-La forma bidimensional es simplemente utilizar una matriz para representar los bits. La forma por descomposición consiste en agrupar los bits similares y solo escribir el valor de los bits similares. En caso de que no sean similares todos los bits en un mapa de bits dado, se procede a dividir en cuatro secciones, imprimir la letra D y procesar cada uno de los cuartos de la misma manera, tal como se lee en la descripción del problema."><meta itemprop=datePublished content="2013-10-06T22:56:54+00:00">
-<meta itemprop=dateModified content="2013-10-06T22:56:54+00:00">
-<meta itemprop=wordCount content="369">
-<meta itemprop=keywords content="Etapa 1,Examen 12,jorge,preselectivo,solución,Soluciones Preselectivo 2013,yorch,"><meta name=twitter:card content="summary">
-<meta name=twitter:title content="Solución a &#34;Mapas de bits&#34;">
-<meta name=twitter:description content="Concurso: Preselectivo para la IOI 2014, Etapa 1, Problemset 12 Autor: Jorge Alberto González Martínez Fuente: Jorge Alberto González Martínez
+La forma bidimensional es simplemente utilizar una matriz para representar los bits. La forma por descomposición consiste en agrupar los bits similares y solo escribir el valor de los bits similares. En caso de que no sean similares todos los bits en un mapa de bits dado, se procede a dividir en cuatro secciones, imprimir la letra D y procesar cada uno de los cuartos de la misma manera, tal como se lee en la descripción del problema."><meta itemprop=datePublished content="2013-10-06T22:56:54+00:00"><meta itemprop=dateModified content="2013-10-06T22:56:54+00:00"><meta itemprop=wordCount content="369"><meta itemprop=keywords content="Etapa 1,Examen 12,jorge,preselectivo,solución,Soluciones Preselectivo 2013,yorch,"><meta name=twitter:card content="summary"><meta name=twitter:title content="Solución a &#34;Mapas de bits&#34;"><meta name=twitter:description content="Concurso: Preselectivo para la IOI 2014, Etapa 1, Problemset 12 Autor: Jorge Alberto González Martínez Fuente: Jorge Alberto González Martínez
 En el problema se describen dos formas de representar un mapa de bits.
-La forma bidimensional es simplemente utilizar una matriz para representar los bits. La forma por descomposición consiste en agrupar los bits similares y solo escribir el valor de los bits similares. En caso de que no sean similares todos los bits en un mapa de bits dado, se procede a dividir en cuatro secciones, imprimir la letra D y procesar cada uno de los cuartos de la misma manera, tal como se lee en la descripción del problema.">
-</head>
-<body class="ma0 bg-near-white">
-<header class=bg-top style=background-image:url(https://blog.omegaup.com/images/cover.jpeg)>
-<div class="pv3 bg-black-60">
-<nav class="pv4 ph3 ph4-ns" role=navigation>
-<div class="mw8 center">
-<h1>
-<a href=/ class="hover-white no-underline white-90 dib">
-omegaUp blog
-</a>
-</h1>
-<h2>Incrementando el talento de Ingeniería de Software en América Latina</h2>
-<div class="flex-l justify-between items-center center">
-<div class="flex-l items-center">
-<div class=ananke-socials>
-</div>
-</div>
-</div>
-</div>
-</nav>
-</div>
-</header>
-<header class="bg-black-90 sticky w-100 ph3 pv3 pv4-ns ph4-m ph5-l z-1">
-<nav class="f6 fw6 ttu tracked">
-<a class="link dim white dib mr3" href=/ title=Inicio>Inicio</a>
+La forma bidimensional es simplemente utilizar una matriz para representar los bits. La forma por descomposición consiste en agrupar los bits similares y solo escribir el valor de los bits similares. En caso de que no sean similares todos los bits en un mapa de bits dado, se procede a dividir en cuatro secciones, imprimir la letra D y procesar cada uno de los cuartos de la misma manera, tal como se lee en la descripción del problema."></head><body class="ma0 bg-near-white"><header class=bg-top style=background-image:url(https://blog.omegaup.com/images/cover.jpeg)><div class="pv3 bg-black-60"><nav class="pv4 ph3 ph4-ns" role=navigation><div class="mw8 center"><h1><a href=/ class="hover-white no-underline white-90 dib">omegaUp blog</a></h1><h2>Incrementando el talento de Ingeniería de Software en América Latina</h2><div class="flex-l justify-between items-center center"><div class="flex-l items-center"><div class=ananke-socials></div></div></div></div></nav></div></header><header class="bg-black-90 sticky w-100 ph3 pv3 pv4-ns ph4-m ph5-l z-1"><nav class="f6 fw6 ttu tracked"><a class="link dim white dib mr3" href=/ title=Inicio>Inicio</a>
 <a class="link dim white dib mr3" href=/search/ title=Búsqueda>Búsqueda</a>
-<a class="link dim white dib" href=https://omegaup.org/ title="Acerca de">Acerca de</a>
-</nav>
-</header>
-<main class=pb7 role=main>
-<article class="flex-l flex-wrap justify-between mw8 center ph3">
-<header class="mt4 w-100">
-<aside class="instapaper_ignoref b helvetica tracked">
-POSTS
-</aside>
-<div id=sharing class="mt3 ananke-socials">
-</div>
-<p class="tracked p0 mb0">
-<time class="f6 dib tracked" datetime=2013-10-06T22:56:54Z>October 6, 2013</time>
-Por <strong>
-Freddy
-</strong>
-</p>
-<h1 class="f2 pv2 mv1">Solución a "Mapas de bits"</h1>
-</header>
-<div class="nested-copy-line-height lh-copy sans-serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p><strong>Concurso:</strong> <a href=https://omegaup.com/arena/IOI2014E1P12/#problems/Mapas-de-bits>Preselectivo para la IOI 2014, Etapa 1, Problemset 12</a> <strong>Autor:</strong> Jorge Alberto González Martínez <strong>Fuente</strong>: Jorge Alberto González Martínez</p>
-<p>En el problema se describen dos formas de representar un mapa de bits.</p>
-<p>La forma bidimensional es simplemente utilizar una matriz para representar los bits. La forma por descomposición consiste en agrupar los bits similares y solo escribir el valor de los bits similares. En caso de que no sean similares todos los bits en un mapa de bits dado, se procede a dividir en cuatro secciones, imprimir la letra D y procesar cada uno de los cuartos de la misma manera, tal como se lee en la descripción del problema.</p>
-<p>La solución a este problema consistía en programar el método descrito. Este método inherentemente está basado en la técnica de divide y vencerás.</p>
-<p>A continuación, un pseudo-código que muestra la forma de llevar a cabo la transformación de un mapa de bits bidimensional a la forma reducida:</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-cpp data-lang=cpp> ReduceMapa(mapaDeBits)
-Si todos los elementos en mapaDeBits son iguales
-    Imprime el valor y termina
-Si no
-    Imprime D
-    ReduceMapa(mapaDeBits.superiorIzquierdo)
-    ReduceMapa(mapaDeBits.superiorDerecho)
-    ReduceMapa(mapaDeBits.inferiorIzquierdo)
-    ReduceMapa(mapaDeBits.inferiorDerecho) 
-</code></pre></div><p>El método para hacer la transformación inversa es muy parecido, sólo que para imprimir la equivalencia hay que comenzar con un mapa de bits bidimensional que nos sirva de variable auxiliar para hacer la conversión. Esta variable auxiliar se puede declarar de manera global y, cuando el método recursivo termine, simplemente imprimir su contenido:</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-cpp data-lang=cpp> AmplificaMapa(mapaDeBits, sección)
-Si mapaDeBits comienza con un valor
-    Rellenar sección del mapa bidimensional con el valor
-Si no
-    AmplificaMapa(mapaDeBits.removerPrimerElemento, sección.superiorIzquierda)
-    AmplificaMapa(mapaDeBits.removerPrimerElemento, sección.superiorDerecha)
-    AmplificaMapa(mapaDeBits.removerPrimerElemento, sección.inferiorIzquierda)
-    AmplificaMapa(mapaDeBits.removerPrimerElemento, sección.inferiorDerecha) 
-</code></pre></div><p>La primera vez que se llama a la función AmplificaMapa se debe entregar la representación de la forma por descomposición del mapa de bits en la variable mapaDeBits y la sección que se entrega inicialmente es todo el mapa de bits. Esto puede ser manejado por filas y columnas.</p>
-<p>A continuación se muestra una implementación en C++ que resuelve el problema. Nótese cómo se maneja la sección sobre la que se está trabajando con cuatro variables: <code>tl_row</code>, <code>tl_col</code>, <code>br_row</code>, <code>br_col</code>. El nombre de las variables proviene de top-left row, top-left colum, bottom-right row y bottom-right colum respectivamente. Representan los índices (fila,columa) de las esquinas superior izquierda e inferior derecha.</p>
-<script type=application/javascript src=https://gist.github.com/OlimpiadaMexicanadeInformatica/6860210.js></script>
-<ul class=pa0>
-<li class=list>
-<a href=/tags/etapa-1 class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Etapa 1</a>
-</li>
-<li class=list>
-<a href=/tags/examen-12 class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Examen 12</a>
-</li>
-<li class=list>
-<a href=/tags/jorge class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">jorge</a>
-</li>
-<li class=list>
-<a href=/tags/preselectivo class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">preselectivo</a>
-</li>
-<li class=list>
-<a href=/tags/soluci%C3%B3n class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">solución</a>
-</li>
-<li class=list>
-<a href=/tags/soluciones-preselectivo-2013 class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Soluciones Preselectivo 2013</a>
-</li>
-<li class=list>
-<a href=/tags/yorch class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">yorch</a>
-</li>
-</ul>
-<div class="mt6 instapaper_ignoref">
-</div>
-</div>
-<aside class="w-30-l mt6-l">
-<div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
-<p class="f5 b mb3">Related</p>
-<ul class="pa0 list">
-<li class=mb2>
-<a href=/solucion-a-chilly-rapero/>Solución a "Chilly Rapero"</a>
-</li>
-<li class=mb2>
-<a href=/solucion-a-metro/>Solución a "Metro"</a>
-</li>
-<li class=mb2>
-<a href=/445/>Solución a "Pista"</a>
-</li>
-<li class=mb2>
-<a href=/solucion-a-cueva/>Solución a "Cueva"</a>
-</li>
-<li class=mb2>
-<a href=/solucion-a-cambio/>Solución a "Cambio"</a>
-</li>
-<li class=mb2>
-<a href=/solucion-a-minecraft/>Solución a "Minecraft"</a>
-</li>
-<li class=mb2>
-<a href=/162/>Solución a "Pulseras"</a>
-</li>
-<li class=mb2>
-<a href=/solucion-a-los-bloques-de-link/>Solución a "Los Bloques de Link"</a>
-</li>
-<li class=mb2>
-<a href=/solucion-a-problema/>Solución a "Problema"</a>
-</li>
-<li class=mb2>
-<a href=/solucion-a-alfiles/>Solución a "Alfiles"</a>
-</li>
-<li class=mb2>
-<a href=/solucion-a-el-collar-de-perlas/>Solución a "El collar de perlas"</a>
-</li>
-<li class=mb2>
-<a href=/solucion-a-dp-generica/>Solución a "DP Genérica"</a>
-</li>
-<li class=mb2>
-<a href=/solucion-a-comesolo/>Solución a "Comesolo"</a>
-</li>
-<li class=mb2>
-<a href=/solucion-a-coleccion/>Solución a "Colección"</a>
-</li>
-<li class=mb2>
-<a href=/solucion-a-ubongo-3d/>Solución a "Ubongo 3D"</a>
-</li>
-</ul>
-</div>
-</aside>
-</article>
-</main>
-<footer class="bg-black bottom-0 w-100 pa3" role=contentinfo>
-<div class="flex justify-between">
-<a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href=https://blog.omegaup.com/>
-&copy; omegaUp blog 2022
-</a>
-<div>
-<div class=ananke-socials>
-</div></div>
-</div>
-</footer>
-<script type=text/javascript async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<a class="link dim white dib" href=https://omegaup.org/ title="Acerca de">Acerca de</a></nav></header><main class=pb7 role=main><article class="flex-l flex-wrap justify-between mw8 center ph3"><header class="mt4 w-100"><aside class="instapaper_ignoref b helvetica tracked">POSTS</aside><div id=sharing class="mt3 ananke-socials"></div><p class="tracked p0 mb0"><time class="f6 dib tracked" datetime=2013-10-06T22:56:54Z>October 6, 2013</time>
+Por <strong>Freddy</strong></p><h1 class="f2 pv2 mv1">Solución a "Mapas de bits"</h1></header><div class="nested-copy-line-height lh-copy sans-serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p><strong>Concurso:</strong> <a href=https://omegaup.com/arena/IOI2014E1P12/#problems/Mapas-de-bits>Preselectivo para la IOI 2014, Etapa 1, Problemset 12</a> <strong>Autor:</strong> Jorge Alberto González Martínez <strong>Fuente</strong>: Jorge Alberto González Martínez</p><p>En el problema se describen dos formas de representar un mapa de bits.</p><p>La forma bidimensional es simplemente utilizar una matriz para representar los bits. La forma por descomposición consiste en agrupar los bits similares y solo escribir el valor de los bits similares. En caso de que no sean similares todos los bits en un mapa de bits dado, se procede a dividir en cuatro secciones, imprimir la letra D y procesar cada uno de los cuartos de la misma manera, tal como se lee en la descripción del problema.</p><p>La solución a este problema consistía en programar el método descrito. Este método inherentemente está basado en la técnica de divide y vencerás.</p><p>A continuación, un pseudo-código que muestra la forma de llevar a cabo la transformación de un mapa de bits bidimensional a la forma reducida:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-cpp data-lang=cpp><span style=display:flex><span> ReduceMapa(mapaDeBits)
+</span></span><span style=display:flex><span>Si todos los elementos en mapaDeBits son iguales
+</span></span><span style=display:flex><span>    Imprime el valor y termina
+</span></span><span style=display:flex><span>Si no
+</span></span><span style=display:flex><span>    Imprime D
+</span></span><span style=display:flex><span>    ReduceMapa(mapaDeBits.superiorIzquierdo)
+</span></span><span style=display:flex><span>    ReduceMapa(mapaDeBits.superiorDerecho)
+</span></span><span style=display:flex><span>    ReduceMapa(mapaDeBits.inferiorIzquierdo)
+</span></span><span style=display:flex><span>    ReduceMapa(mapaDeBits.inferiorDerecho) 
+</span></span></code></pre></div><p>El método para hacer la transformación inversa es muy parecido, sólo que para imprimir la equivalencia hay que comenzar con un mapa de bits bidimensional que nos sirva de variable auxiliar para hacer la conversión. Esta variable auxiliar se puede declarar de manera global y, cuando el método recursivo termine, simplemente imprimir su contenido:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-cpp data-lang=cpp><span style=display:flex><span> AmplificaMapa(mapaDeBits, sección)
+</span></span><span style=display:flex><span>Si mapaDeBits comienza con un valor
+</span></span><span style=display:flex><span>    Rellenar sección del mapa bidimensional con el valor
+</span></span><span style=display:flex><span>Si no
+</span></span><span style=display:flex><span>    AmplificaMapa(mapaDeBits.removerPrimerElemento, sección.superiorIzquierda)
+</span></span><span style=display:flex><span>    AmplificaMapa(mapaDeBits.removerPrimerElemento, sección.superiorDerecha)
+</span></span><span style=display:flex><span>    AmplificaMapa(mapaDeBits.removerPrimerElemento, sección.inferiorIzquierda)
+</span></span><span style=display:flex><span>    AmplificaMapa(mapaDeBits.removerPrimerElemento, sección.inferiorDerecha) 
+</span></span></code></pre></div><p>La primera vez que se llama a la función AmplificaMapa se debe entregar la representación de la forma por descomposición del mapa de bits en la variable mapaDeBits y la sección que se entrega inicialmente es todo el mapa de bits. Esto puede ser manejado por filas y columnas.</p><p>A continuación se muestra una implementación en C++ que resuelve el problema. Nótese cómo se maneja la sección sobre la que se está trabajando con cuatro variables: <code>tl_row</code>, <code>tl_col</code>, <code>br_row</code>, <code>br_col</code>. El nombre de las variables proviene de top-left row, top-left colum, bottom-right row y bottom-right colum respectivamente. Representan los índices (fila,columa) de las esquinas superior izquierda e inferior derecha.</p><script type=application/javascript src=https://gist.github.com/OlimpiadaMexicanadeInformatica/6860210.js></script><ul class=pa0><li class=list><a href=/tags/etapa-1 class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Etapa 1</a></li><li class=list><a href=/tags/examen-12 class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Examen 12</a></li><li class=list><a href=/tags/jorge class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">jorge</a></li><li class=list><a href=/tags/preselectivo class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">preselectivo</a></li><li class=list><a href=/tags/soluci%C3%B3n class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">solución</a></li><li class=list><a href=/tags/soluciones-preselectivo-2013 class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Soluciones Preselectivo 2013</a></li><li class=list><a href=/tags/yorch class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">yorch</a></li></ul><div class="mt6 instapaper_ignoref"></div></div><aside class="w-30-l mt6-l"><div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links"><p class="f5 b mb3">Related</p><ul class="pa0 list"><li class=mb2><a href=/solucion-a-chilly-rapero/>Solución a "Chilly Rapero"</a></li><li class=mb2><a href=/solucion-a-metro/>Solución a "Metro"</a></li><li class=mb2><a href=/445/>Solución a "Pista"</a></li><li class=mb2><a href=/solucion-a-cueva/>Solución a "Cueva"</a></li><li class=mb2><a href=/solucion-a-cambio/>Solución a "Cambio"</a></li><li class=mb2><a href=/solucion-a-minecraft/>Solución a "Minecraft"</a></li><li class=mb2><a href=/162/>Solución a "Pulseras"</a></li><li class=mb2><a href=/solucion-a-los-bloques-de-link/>Solución a "Los Bloques de Link"</a></li><li class=mb2><a href=/solucion-a-problema/>Solución a "Problema"</a></li><li class=mb2><a href=/solucion-a-alfiles/>Solución a "Alfiles"</a></li><li class=mb2><a href=/solucion-a-el-collar-de-perlas/>Solución a "El collar de perlas"</a></li><li class=mb2><a href=/solucion-a-dp-generica/>Solución a "DP Genérica"</a></li><li class=mb2><a href=/solucion-a-comesolo/>Solución a "Comesolo"</a></li><li class=mb2><a href=/solucion-a-coleccion/>Solución a "Colección"</a></li><li class=mb2><a href=/solucion-a-ubongo-3d/>Solución a "Ubongo 3D"</a></li></ul></div></aside></article></main><footer class="bg-black bottom-0 w-100 pa3" role=contentinfo><div class="flex justify-between"><a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href=https://blog.omegaup.com/>&copy; omegaUp blog 2022</a><div><div class=ananke-socials></div></div></div></footer><script type=text/javascript async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type=text/x-mathjax-config>
   MathJax.Hub.Config({
     tex2jax: {
@@ -208,6 +42,4 @@ Si no
       },
    },
  });
-</script>
-</body>
-</html>
+</script></body></html>
