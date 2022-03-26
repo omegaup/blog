@@ -22,7 +22,7 @@ En esta pantalla encontrarás un formulario donde tendrás que ingresar el nombr
 
 En la siguiente animación se muestra lo mencionado anteriormente:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CdbX11oY_yc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{< youtube CdbX11oY_yc >}}
 
 2.- Carga de equipos
 ======================
@@ -35,7 +35,7 @@ Cabe destacar que la carga de identidades y equipos está en una etapa experimen
 
 En la siguiente animación se muestra el proceso de lo antes descrito:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mgR6EclyRHw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{< youtube mgR6EclyRHw >}}
 
 ## 2.1.- Carga de equipos con identidades auto-generadas
 
@@ -45,7 +45,7 @@ Para esta situación se considera una opción de generar las identidades para ca
 
 En la siguiente animación se muestra el proceso antes mencionado:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Yx9xzIe_FAU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{< youtube Yx9xzIe_FAU >}}
 
 3.- Creación de concurso por equipos
 ======================
@@ -58,7 +58,7 @@ En la sección de *Agregar grupo* podrás reemplazar al equipo, siempre y cuando
 
 En la siguiente animación se muestra todo lo que se comentó previamente:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/G_X_-NCOblU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{< youtube G_X_-NCOblU >}}
 
 ## 3.1.- Ingreso como equipo con cuenta previamente existente
 
@@ -76,13 +76,13 @@ Entonces, para poder visualizar el concurso que fue creado para equipos es neces
 
 En la siguiente animación se muestra lo mencionado anteriormente:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qiD2ElDky5o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{< youtube qiD2ElDky5o >}}
 
 ## 3.2.- Ingreso como equipo con cuenta auto-generada
 
 En el caso de las identidades que se crearon mediante la carga de archivo ***.csv*** y se eligió la opción de *Autogenerar identidades* ya no es necesario hacer el cambio de cuenta para poder ver el concurso en el listado. Esto quiere decir que una vez que inicia sesión aparecerá el nombre del equipo en la parte superior derecha, tal como se muestra en la siguiente animación:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JYjPwfR07EM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{< youtube JYjPwfR07EM >}}
 
 4.- Envío de soluciones a problemas de concurso por equipos
 ======================
@@ -91,6 +91,6 @@ Por último, ya que el usuario encontró el concurso por equipos al que fue aña
 
 En la animación se muestra un ejemplo de lo antes mencionado:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1JR_xw9JQzs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{< youtube 1JR_xw9JQzs >}}
 
 Atentamente, el equipo de omegaUp.
