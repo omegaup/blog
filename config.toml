@@ -11,5 +11,6 @@ theme = 'omegaup'
   body_classes = "bg-near-white"
 	description = 'Incrementando el talento de Ingeniería de Software en América Latina'
   post_content_classes = 'sans-serif'
+  enableSass = true
 [permalinks]
     posts = "/:filename/"
