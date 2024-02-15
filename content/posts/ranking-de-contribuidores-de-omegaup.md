@@ -16,11 +16,11 @@ En esta ocasión anunciamos el nuevo [ranking de nuestors contribuidores más ac
 ¿Cómo funciona?
 ===============
 
-Mantenemos intacto nuestro sistema de cálculo de puntaje, tal como se detalla en [El nuevo ranking de OmegaUp](https://blog.omegaup.com/el-nuevo-ranking-de-omegaup/), al mismo tiempo que introducimos una métrica innovadora que aprecia no solo la cantidad, sino la calidad de tus contribuciones. 
+Para evaluar la contribución de cada usuario, hemos introducido una nueva métrica llamada **author_score**. Esta métrica se calcula utilizando una fórmula específica, **author_score = sum(problem_quality)**.
 
-Con cada problema resuelto, la dinámica de los puntajes impacta a otros participantes que hayan abordado el mismo problema anteriormente. La única vía para elevar tu puntaje es resolviendo más problemas, ya que con el tiempo, el valor asignado a cada problema se ajusta y evoluciona.
+En esencia, el **author_score** de cada usuario es igual a la suma de los puntos de calidad de los problemas que ha creado. Estos puntos de calidad se determinan a partir del feedback recibido por los problemas, que proviene de las evaluaciones realizadas por otros usuarios cuando resuelven o intentan resolver los desafíos.
 
-Este enfoque asegura que la competitividad se mantenga fresca y desafiante, promoviendo la resolución de problemas diversos y fomentando la mejora continua.
+La calidad de un problema se determina a través del feedback proporcionado por la comunidad. Cuando un usuario resuelve o intenta resolver un problema, tiene la oportunidad de dejar comentarios sobre su calidad. Estos comentarios se tienen en cuenta al calcular el **author_score** del creador del problema.
 
 Actualizaciones Continuas
 ===============
