@@ -7,9 +7,9 @@ draft: false
 tags: ['Anuncios', 'omegaUp']
 ---
 
-En OmegaUp, reconocemos y valoramos el impacto positivo de aquellos que contribuyen al desarrollo de nuestra plataforma. Presentamos con entusiasmo nuestro renovado sistema de clasificación, diseñado para destacar la dedicación y habilidades de aquellos que han ayudado a dar forma a OmegaUp, ya sea creando desafiantes problemas de programación o contribuyendo de diversas formas.
+En **omegaUp**, reconocemos y valoramos el impacto positivo de aquellos que contribuyen al desarrollo de nuestra plataforma. Presentamos con entusiasmo nuestro renovado sistema de clasificación, diseñado para destacar la dedicación y habilidades de aquellos que han ayudado a dar forma a **omegaUp**, ya sea creando desafiantes problemas de programación o contribuyendo de diversas formas.
 
-En esta ocasión anunciamos el nuevo [ranking de nuestors contribuidores más activas del mes](https://omegaup.com/rank/authors/) en omegaUp:
+En esta ocasión anunciamos el nuevo [ranking de nuestros contribuidores más activos del mes](https://omegaup.com/rank/authors/) en **omegaUp**:
 
 [![Ranking de Contribuidores](/images/Screen-Shot-2024-02-03-at-12.34.24-PM-1204x912.png)](/images/Screen-Shot-2024-02-03-at-12.34.24-PM.png)
 
@@ -25,6 +25,6 @@ La calidad de un problema se determina a través del feedback proporcionado por 
 Actualizaciones Continuas
 ===============
 
-En OmegaUp, estamos comprometidos con la mejora constante. Realizaremos actualizaciones regulares para garantizar que el sistema de clasificación sea justo, desafiante y represente con precisión el talento de nuestra creciente comunidad de contribuidores.
+En **omegaUp**, estamos comprometidos con la mejora constante. Realizaremos actualizaciones regulares para garantizar que el sistema de clasificación sea justo, desafiante y represente con precisión el talento de nuestra creciente comunidad de contribuidores.
 
-Sumérgete en la competencia, desafía tus límites y eleva tu posición en el nuevo ranking de contribuidores de OmegaUp. Celebremos juntos el espíritu de la programación y el aprendizaje continuo. ¿Estás listo para destacar?
+Sumérgete en la competencia, desafía tus límites y eleva tu posición en el nuevo ranking de contribuidores de **omegaUp**. Celebremos juntos el espíritu de la programación y el aprendizaje continuo. ¿Estás listo para destacar?
