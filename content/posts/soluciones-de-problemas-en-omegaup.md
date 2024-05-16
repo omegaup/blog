@@ -1,8 +1,6 @@
 ---
 title: 'Soluciones de problemas en omegaUp'
 authors:
-  - name: 'Vanessa'
-    email: 'vanessa@omegaup.org'
   - name: 'Omar'
     email: 'omar@omegaup.org'
 date: Sun, 29 Oct 2023 05:50:45 +0000
