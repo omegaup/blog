@@ -1,35 +1,38 @@
 ---
 title: 'Soluciones de problemas en omegaUp'
-author: 'vanessa'
-author_email: 'vanessa@omegaup.org'
-date: Sun, 10 May 2020 05:50:45 +0000
+authors:
+  - name: 'Omar'
+    email: 'omar@omegaup.org'
+date: Sun, 29 Oct 2023 05:50:45 +0000
 draft: false
 tags: ['Anuncios', 'omegaUp']
 ---
 
 En este post queremos describirles cómo ver soluciones a los problemas en omegaUp. Para los autores de problemas también daremos algunos detalles sobre como agregar las soluciones a sus problemas.
 
-En la vista de problema, en la parte superior podemos ver dos pestañas, Problemas y Soluciones.
+En la vista de problema, en la parte superior podemos ver dos pestañas, Problema y Ver Solución.
 
 [![](/images/pestanas_soluciones.png)](/images/pestanas_soluciones.png)
 
-Si **ya resolviste el problema** y quieres comparar tu solución con la solución oficial, al dar click en la pestaña de Soluciones, te mostrará un mensaje como este,
+Si **ya resolviste el problema** y quieres comparar tu solución con la solución oficial, al dar click en la pestaña de Ver Solución, verás el botón de Ver Solución con el icono de un candado abierto.
 
 [![](/images/see_solution.png)](/images/see_solution.png)
 
-Y así verás la solución,
+Y así verás la solución.
 
 [![](/images/full_solution.png)](/images/full_solution.png)
 
-Por otro lado, si **no has resuelto el problema** el proceso para ver la soluciones será distinto.
+Por otro lado, si **no has resuelto el problema** el proceso para ver las soluciones será distinto.
 
 [![](/images/cantsee_solutions.png)](/images/cantsee_solutions.png)
 
-*   Primero intenta resolverlo,
-*   También puedes usar tokens para ver las soluciones. Por cada 10 problemas que resuelvas obtendrás un token. Ver una solución solo usa 1 token.
+*   Primero intenta resolverlo.
+*   Tienes la posibilidad de visualizar hasta cinco soluciones diarias. Cada vista a una solución restará una unidad de tu límite diario.
+*   Si decides ver la solución a un problema, esta quedará desbloqueada de forma permanente y no se descontará del límite diario al visualizarla.
+*   El límite de visualizaciones diarias se reestablecerá todos los días a la misma hora.
 *   Si ves la solución sin antes resolver el problema, éste no te dará puntos en el ranking.
 
-Puedes ver los tokens que tienes disponibles en las vistas de soluciones dando click en "Ver mis tokens actuales",  y te mostrara un mensaje como en la imagen,
+Puedes ver las visualizaciones que tienes disponibles en la pestaña de Ver Solución. Verás un mensaje como el de la imagen.
 
 [![](/images/tokens_solutions.png)](/images/tokens_solutions.png)
 
