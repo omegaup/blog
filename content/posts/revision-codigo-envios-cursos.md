@@ -7,71 +7,78 @@ draft: false
 tags: ['Anuncios', 'omegaUp']
 ---
 
-Nos es grato informar que hemos liberado una nueva funcionalidad llamada **“Revisión de código en envíos de cursos”**, la cual servirá para que organizadores de cursos puedan brindar retroalimentación de los envíos de sus estudiantes directamente en el código que se han enviado. Permitiendo agilizar el proceso de revisiones.
+Nos complace anunciar la liberación de una nueva funcionalidad llamada **“Revisión de código en envíos de cursos”**. Esta herramienta permitirá a los organizadores de cursos brindar retroalimentación directamente en el código enviado por sus estudiantes, agilizando así el proceso de revisión.
 
 ## Antecedentes
 
+Anteriormente, en los cursos de _omegaUp_, solo se disponía de un campo general para escribir retroalimentación por cada envío realizado por el estudiante. Esto impedía que el organizador contara con las herramientas necesarias para detallar adecuadamente los comentarios.
 
-Anteriormente en los cursos de _omegaUp_ solamente se contaba con una campo general donde se podía escribir una retroalimentación por cada envío que creaba el estudiante. Esto ocasionaba que el organizador no tuviera las herramientas suficientes para detallar si es que se requería.
+Aunque esta retroalimentación podía ser editada, al modificar el mensaje original, este ya no podía ser visualizado nuevamente.
 
-Esta retroalimentación se podía editar, pero al realizar la modificación el mensaje original no se podía volver a ver.
-
-Con esta nueva funcionalidad se pretende que el organizador tenga más posibilidades al dar una retroalimentación dentro de un envío. Además de que tenga la posibilidad de registrar una lista de usuarios que puedan ayudar en la tarea de revisión de código tan importante en el tema de desarrollo de software.
+Con esta nueva funcionalidad, se busca que el organizador tenga más opciones para proporcionar retroalimentación detallada en cada envío. Además, se ofrece la posibilidad de registrar una lista de usuarios que puedan colaborar en la importante tarea de revisión de código, fundamental en el desarrollo de software.
 
 ## Definición de la nueva funcionalidad
 
-Para explicar como funcionarán las retroalimentaciones de código es necesario iniciar explicando la creación de un nuevo rol dentro de los cursos en _omegaUp_
+Para entender cómo funcionarán las retroalimentaciones de código, es necesario comenzar explicando la creación de un nuevo rol dentro de los cursos en _omegaUp_.
 
 ## Rol de asistente de enseñanza
 
-Con la creación de la nueva funcionalidad la tarea de revisiones de código puede llegar a crecer de tal forma que el organizador del curso se pueda ver rebasado en el momento que una gran cantidad de estudiantes soliciten retroalimentación en sus soluciones enviadas.
+Con la creación de la nueva funcionalidad, la tarea de revisión de código puede aumentar significativamente, al punto de que el organizador del curso se vea abrumado cuando una gran cantidad de estudiantes soliciten retroalimentación en sus soluciones enviadas.
 
-La primera alternativa para solventar este problema es que el organizador agregue más administradores del curso los cuales tendrán los mismos privilegios que el organizador, por ende tendrán la posibilidad de realizar revisiones de código.
+La primera alternativa para solucionar este problema es que el organizador agregue más administradores al curso. Estos administradores tendrán los mismos privilegios que el organizador, incluyendo la capacidad de realizar revisiones de código.
 
-El problema principal de esto es que todos los administradores pueden modificar la configuración del curso. Lo cual no es lo recomendable porque el organizador podría perder el control las tareas, fechas, listado de problemas, entre otras cosas.
+El principal inconveniente de esta solución es que todos los administradores pueden modificar la configuración del curso, lo cual no es recomendable, ya que el organizador podría perder el control sobre las tareas, fechas, listado de problemas, entre otras cosas.
 
-Es por eso que se tomó la decisión de crear este nuevo rol, el cual permite al organizador agregar tantos usuarios requiera con el perfil de **asistentes de enseñanza** dentro de un curso.
+Por esta razón, se decidió crear un nuevo rol que permite al organizador agregar tantos usuarios como sea necesario con el perfil de **asistentes de enseñanza** dentro de un curso.
 
 ## ¿Cómo agregar asistentes de enseñanza en un curso?
 
-El proceso para agregar asistentes de enseñanza es similar a la forma en la que se agrega un administrador. Como se puede mostrar en la _imagen 1_ Lo primero que se tiene que hacer es ingresar a la vista de _Editar curso_ que se encuentra en la sección de _Cursos que administro_:
+El proceso para agregar asistentes de enseñanza es similar al de agregar un administrador. Como se muestra en la _imagen 1_, lo primero que se debe hacer es ingresar a la vista de _Editar curso_ en la sección de _Cursos que administro_:
 
-{{< figure src="/images/image_01-Courses_List.png" alt="Image 1"  height="146" width="549" link="/images/image_01-Courses_List.png" >}}
+{{< figure src="/images/image_01-Courses_List.png" alt="Imagen 1" height="146" width="549" link="/images/image_01-Courses_List.png" >}}
 
-Y después ir al tab de _Admins_ donde se podrá agregar cuentas individuales o si así se prefiere, agregar un grupo de cuentas:
+Luego, dirígete a la pestaña de _Admins_, donde podrás agregar cuentas individuales o, si lo prefieres, un grupo de cuentas:
 
-{{< figure src="/images/image_02-Course_Edit_Admins.png" alt="Image 2"  height="329" width="549" link="/images/image_02-Course_Edit_Admins.png" >}}
+{{< figure src="/images/image_02-Course_Edit_Admins.png" alt="Imagen 2" height="329" width="549" link="/images/image_02-Course_Edit_Admins.png" >}}
 
-Una vez realizados los pasos anteriores todas las cuentas que les fue asignado el rol de **Asistente de enseñanza** podrán ingresar al curso donde podrán dar retroalimentación a cualquier envío que vayan subiendo los estudiantes.
+Una vez realizados estos pasos, todas las cuentas a las que se les haya asignado el rol de **Asistente de enseñanza** podrán ingresar al curso y proporcionar retroalimentación a cualquier envío realizado por los estudiantes.
 
-{{< figure src="/images/Image_03-Courses_List_TA.png" alt="Image 3" height="160" width="549" link="/images/Image_03-Courses_List_TA.png" >}}
+{{< figure src="/images/Image_03-Courses_List_TA.png" alt="Imagen 3" height="160" width="549" link="/images/Image_03-Courses_List_TA.png" >}}
 
-Los **Asistentes de enseñanza** sólo pueden ver los detalles del curso, pero no pueden editar nada del mismo, como se muestra en la siguiente imagen:
+Los **Asistentes de enseñanza** solo pueden ver los detalles del curso, pero no pueden editar nada, como se muestra en la siguiente imagen:
 
-{{< figure src="/images/Image_04-Course_Details_TA.png" alt="Image 4" height="363" width="549" link="/images/Image_04-Course_Details_TA.png" >}}
+{{< figure src="/images/Image_04-Course_Details_TA.png" alt="Imagen 4" height="363" width="549" link="/images/Image_04-Course_Details_TA.png" >}}
 
 ## ¿Cómo puedo solicitar retroalimentación si soy estudiante?
 
-El proceso para solicitar retroalimentación como estudiantes es sencillo. Una vez que se ha ingresado a alguna actividad de un curso y se realiza un envío a cualquiera de los problemas, los estudiantes encontrarán un botón en la tabla de envíos de dicho problema:
+El proceso para solicitar retroalimentación como estudiante es sencillo. Una vez que hayas ingresado a una actividad de un curso y realizado un envío a cualquiera de los problemas, encontrarás un botón en la tabla de envíos de dicho problema:
 
-{{< figure src="/images/Image_05-Runs_List_Student_Requests_Feedback.png" alt="Image 5" height="152" width="549" link="/images/Image_05-Runs_List_Student_Requests_Feedback.png" >}}
+{{< figure src="/images/Image_05-Runs_List_Student_Requests_Feedback.png" alt="Imagen 5" height="152" width="549" link="/images/Image_05-Runs_List_Student_Requests_Feedback.png" >}}
 
-Al dar click en el botón se enviará una notificación a todos los organizadores y asistentes de enseñanza del curso. Así que sólo habrá que esperar su retroalimentación.
+Al hacer clic en el botón, se enviará una notificación a todos los organizadores y asistentes de enseñanza del curso. Solo tendrás que esperar su retroalimentación.
 
-## ¿Cómo brindo retroalimentación siendo organizador del curso o asistente de enseñanza?
+## ¿Cómo brindar retroalimentación como organizador del curso o asistente de enseñanza?
 
-Una vez que el organizador del curso o **Asistente de enseñanza** reciben la notificación de que un usuario solicitó retroalimentación en un envío, puede brindarla de la siguiente manera:
+Una vez que el organizador del curso o el **Asistente de enseñanza** reciben la notificación de que un usuario ha solicitado retroalimentación en un envío, pueden proceder de la siguiente manera:
 
-Ingresarán al curso y a la tarea correspondiente, después seleccionan el tab de __Envíos__ y por último dan click en el botón de detalles del envío al que darán retroalimentación. Es fácil identificarlos, debido a que muestran un globo indicando que tienen una solicitud de revisión, como se muestra a continuación:
+1. Ingresar al curso y a la tarea correspondiente.
+2. Seleccionar la pestaña de __Envíos__.
+3. Hacer clic en el botón de detalles del envío al que se dará retroalimentación. Estos envíos son fáciles de identificar, ya que muestran un globo indicando que tienen una solicitud de revisión, como se muestra a continuación:
 
-{{< figure src="/images/Image_06-Runs_List_Admin_Notification.png" alt="Image 6" height="137" width="549" link="/images/Image_06-Runs_List_Admin_Notification.png" >}}
+{{< figure src="/images/Image_06-Runs_List_Admin_Notification.png" alt="Imagen 6" height="137" width="549" link="/images/Image_06-Runs_List_Admin_Notification.png" >}}
 
-Al dar clic en el botón de los detalles del envío, ahora será posible agregar comentarios de retroalimentación en las líneas de código donde el organizador considere se pueda agregar comentarios que ayuden a que el estudiante comprenda en que puede mejorar su código. En la siguiente animación se muestra la manera en la que se puede realizar:
+Al hacer clic en el botón de detalles del envío, será posible agregar comentarios de retroalimentación en las líneas de código donde el organizador considere necesario. Estos comentarios ayudarán al estudiante a comprender en qué puede mejorar su código. En la siguiente animación se muestra cómo realizar este proceso:
 
-{{< figure src="/images/Image_07-Admin_Feedback.gif" alt="Image 7" height="344" width="549" link="/images/Image_07-Admin_Feedback.gif" >}}
+{{< figure src="/images/Image_07-Admin_Feedback.gif" alt="Imagen 7" height="344" width="549" link="/images/Image_07-Admin_Feedback.gif" >}}
 
-En este momento se abre la comunicación entre estudiante y organizador del curso, debido a que los estudiantes ahora pueden interactuar en cada uno de los comentarios brindados por los organizadores, en la siguiente imagen se muestra lo antes mencionado:
+En este momento se abre la comunicación entre el estudiante y el organizador del curso, ya que los estudiantes pueden interactuar en cada uno de los comentarios brindados por los organizadores. En la siguiente imagen se muestra lo antes mencionado:
 
-{{< figure src="/images/Image_08-Student_Response.gif" alt="Image 8"  width="549" link="/images/Image_08-Student_Response.gif" >}}
+{{< figure src="/images/Image_08-Student_Response.gif" alt="Imagen 8" width="549" link="/images/Image_08-Student_Response.gif" >}}
 
-Esta nueva funcionalidad se recomienda para cursos que no son precenciales en donde la distancia entre organizadores y estudiantes ya no será una barrera, pero también muy útil para profesores que cuentan con mucha caraga de trabajo y puedan apoyarse de asistentes para la labor de revisar código de los estudiantes.
+## Conclusión
+
+La nueva funcionalidad de revisión de código en _omegaUp_ transforma la manera en que los organizadores de cursos y asistentes de enseñanza pueden interactuar con los estudiantes. Al permitir una retroalimentación detallada y específica en el código, se mejora significativamente el proceso de aprendizaje y se facilita la comunicación efectiva entre todas las partes involucradas.
+
+Esta herramienta es especialmente valiosa para cursos en línea y para profesores con una gran carga de trabajo, ya que permite delegar la tarea de revisión sin perder el control sobre el contenido del curso.
+
+Invitamos a todos los organizadores de cursos a aprovechar esta nueva funcionalidad y a experimentar de primera mano los beneficios de una retroalimentación más precisa y eficiente. ¡Empieza hoy mismo a mejorar la calidad de tus cursos con la revisión de código en _omegaUp_!
