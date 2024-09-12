@@ -4,7 +4,7 @@ author: 'vanessa'
 author_email: 'vanessa@omegaup.org'
 date: Thu, 23 Apr 2020 01:18:18 +0000
 draft: false
-tags: ['omegaUp']
+tags: ['Policies', 'omegaUp']
 ---
 
 El reconocimiento del Coder del Mes en omegaUp se hizo con el objetivo de reconocer a coders activos en la plataforma. A continuación listamos las reglas del programa.

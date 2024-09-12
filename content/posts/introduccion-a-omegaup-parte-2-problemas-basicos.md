@@ -4,7 +4,7 @@ author: 'joemmanuel'
 author_email: 'joemmanuel@gmail.com'
 date: Tue, 08 Oct 2013 14:48:09 +0000
 draft: false
-tags: ['Introducción a omegaUp']
+tags: ['Study material', 'Introducción a omegaUp']
 ---
 
 Hola de nuevo. Continuando con la serie Introducción a Omegaup, esta vez vamos a hacer referencia a los problemas más sencillos de la plataforma a la fecha. [Aquí se encuentra la parte 1](http://blog.omegaup.com/2013/09/introduccion-a-omegaup/#more-406) de esta serie.

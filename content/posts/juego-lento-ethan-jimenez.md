@@ -4,7 +4,7 @@ author: 'Lira'
 author_email: 'elira@elira.me'
 date: Fri, 12 Oct 2012 21:43:58 +0000
 draft: false
-tags: ['Etapa 1', 'Ethan Jiménez', 'Examen 1', 'Soluciones Preselectivo 2013']
+tags: ['Solution', 'Etapa 1', 'Ethan Jiménez', 'Examen 1', 'Soluciones Preselectivo 2013']
 ---
 
 **Concurso:[ ](https://omegaup.com/arena/IOI2013E1P1)**[Preselectivo para la IOI 2013, Etapa 1, Examen 1](https://omegaup.com/arena/IOI2013E1P1)  

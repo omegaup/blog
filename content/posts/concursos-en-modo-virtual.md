@@ -4,7 +4,7 @@ author: 'Hugo Dueñas'
 author_email: 'hugo@omegaup.com'
 date: Fri, 07 Dec 2018 06:00:21 +0000
 draft: false
-tags: ['Uncategorized']
+tags: ['Features', 'Concursos', 'Uncategorized']
 ---
 
 Estimados usuarios de omegaUp

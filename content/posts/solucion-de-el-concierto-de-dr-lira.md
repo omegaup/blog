@@ -4,7 +4,7 @@ author: 'joemmanuel'
 author_email: 'joemmanuel@gmail.com'
 date: Mon, 30 Sep 2013 14:48:04 +0000
 draft: false
-tags: ['Examen 13']
+tags: ['Solution', 'Examen 13']
 ---
 
 **Concurso: **[Preselectivo para la IOI 2014, Etapa 1, Problemset 13](https://omegaup.com/arena/IOI2014E1P13#problems/DP-Generica) **Fuente**: Topcoder

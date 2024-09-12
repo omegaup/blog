@@ -4,7 +4,7 @@ author: 'lhchavez'
 author_email: 'lhchavez@omegaup.com'
 date: Fri, 24 Jan 2014 04:46:33 +0000
 draft: false
-tags: ['Internals']
+tags: ['News', 'Internals']
 ---
 
 Como parte de los propósitos de año nuevo, me dispuse a hacer un refactor masivo del código con el cual se evalúan y ejecutan las soluciones en omegaUp. Habían muchas motivaciones para hacer la actualización: tener un sandbox más moderno, eliminar un montón de código duplicado, mejorar las pruebas, el logging, el paralelismo en los jueces, cómo se despliega el tiempo y la memoria, el desempeño de los envíos, soportar C++11 y más lenguajes. Son muchísimos cambios, así que haré dos posts explicándolos: este post se centrará en los cambios que se hicieron en la arquitectura de jueceo y el siguiente se enfocará únicamente en el nuevo sandbox.
