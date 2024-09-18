@@ -4,7 +4,7 @@ author: 'alanboy'
 author_email: 'alanboy@alanboy.net'
 date: Sat, 15 Oct 2016 08:57:38 +0000
 draft: false
-tags: ['Anuncios']
+tags: ['News', 'Anuncios']
 ---
 
 Durante más de 5 años omegaUp ha sido un proyecto de medio tiempo para nosotros. Escribir nuevas funcionalidades es difícil ya que todos tenemos otras responsabilidades de tiempo completo. Así que hace 7 meses comenzamos a considerar la opción de formalizar nuestro proyecto y convertirnos en una organización establecida legamente, que nos permitiera recibir ingresos y contratar a desarrolladores que se dedicaran de tiempo completo a diseñar y mantener la plataforma.

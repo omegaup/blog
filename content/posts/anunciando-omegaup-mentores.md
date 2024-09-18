@@ -4,7 +4,7 @@ author: 'joemmanuel'
 author_email: 'joemmanuel@gmail.com'
 date: Fri, 19 May 2017 14:34:23 +0000
 draft: false
-tags: ['Anuncios', 'omegaUp']
+tags: ['Features', 'Ranking', 'Anuncios', 'omegaUp']
 ---
 
 La misión de omegaUp es incrementar el número de ingenieros de software talentosos en América Latina, por lo que nos complace anunciar públicamente el programa omegaUp Mentores. El objetivo de este proyecto es ayudar a que nuestros usuarios más activos potencialicen sus habilidades, conectándolos con gente de experiencia que puedan servirles de guía para el desarrollo de su carrera profesional.

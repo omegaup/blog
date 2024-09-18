@@ -4,7 +4,7 @@ author: 'darknut'
 author_email: 'golden.darknut@gmail.com'
 date: Thu, 02 Mar 2017 06:29:09 +0000
 draft: false
-tags: ['felix', 'grafos', 'Material de estudio', 'preselectivo', 'solución']
+tags: ['Solution', 'felix', 'grafos', 'Material de estudio', 'preselectivo', 'solución']
 ---
 
 Problema: [Los Callejones de Guanajuato](https://omegaup.com/arena/problem/callejones/).

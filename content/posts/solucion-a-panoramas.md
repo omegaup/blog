@@ -4,7 +4,7 @@ author: 'Freddy'
 author_email: 'me@freddy.mx'
 date: Thu, 16 Jan 2014 17:36:38 +0000
 draft: false
-tags: ['Etapa 1', 'Examen 17', 'macs', 'preselectivo', 'solución', 'Soluciones Preselectivo 2013']
+tags: ['Solution', 'Etapa 1', 'Examen 17', 'macs', 'preselectivo', 'solución', 'Soluciones Preselectivo 2013']
 ---
 
 **Concurso:** [Preselectivo para la IOI 2014, Etapa 1, Problemset 17](https://omegaup.com/arena/IOI2014E1P17#problems/Tour) **Autor:** Miguel Ángel Covarrubias **Fuente**: Miguel Ángel Covarrubias

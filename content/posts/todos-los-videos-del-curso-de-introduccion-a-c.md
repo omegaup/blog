@@ -4,7 +4,7 @@ author: 'joemmanuel'
 author_email: 'joemmanuel@gmail.com'
 date: Tue, 07 Apr 2020 04:05:35 +0000
 draft: false
-tags: ['Anuncios', 'omegaUp']
+tags: ['News', 'Anuncios', 'omegaUp']
 ---
 
 _Actualización 10/04/20: El curso ha terminado y este post incluye los 11 videos._

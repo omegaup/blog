@@ -4,7 +4,7 @@ author: 'joemmanuel'
 author_email: 'joemmanuel@gmail.com'
 date: Mon, 23 Mar 2020 03:38:03 +0000
 draft: false
-tags: ['Anuncios', 'omegaUp']
+tags: ['News', 'Anuncios', 'omegaUp']
 ---
 
 ### **Querida comunidad omegaUp:**

@@ -4,7 +4,7 @@ author: 'joemmanuel'
 author_email: 'joemmanuel@gmail.com'
 date: Mon, 02 Jun 2014 14:04:24 +0000
 draft: false
-tags: ['Concursos']
+tags: ['News', 'Concursos']
 ---
 
 [![](/images/740112_10152062112657478_4658374637277423762_o.jpg "OMI")](/images/740112_10152062112657478_4658374637277423762_o.jpg)

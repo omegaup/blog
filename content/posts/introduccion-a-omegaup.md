@@ -4,7 +4,7 @@ author: 'joemmanuel'
 author_email: 'joemmanuel@gmail.com'
 date: Wed, 09 Oct 2013 16:39:54 +0000
 draft: false
-tags: ['Introducción a omegaUp']
+tags: ['Documentation', 'Problemas', 'Introducción a omegaUp']
 ---
 
 Estamos iniciando una serie de 10 posts para ayudar a nuestros nuevos usuarios a navegar con facilidad entre la gran cantidad de problemas de omegaUp, en forma de mini-tutoriales con los conceptos básicos, temas y fuentes. Esta colección de tutoriales y ligas te ayudarán a resolver muchos de los problemas de omegaUp y aumentar tu nivel de programación.

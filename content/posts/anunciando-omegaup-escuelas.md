@@ -4,7 +4,7 @@ author: 'Nancy Pacheco'
 author_email: 'nancy@omegaup.com'
 date: Tue, 09 May 2017 05:05:50 +0000
 draft: false
-tags: ['Uncategorized']
+tags: ['Features', 'Cursos', 'Uncategorized']
 ---
 
 Con el objetivo de continuar mejorando las habilidades de programación de los estudiantes, nos emociona anunciar el lanzamiento de un nuevo proyecto: **omegaUp Escuelas**.  Nuestro objetivo es llevar omegaUp a los salones de clases, creando una plataforma educativa, intuitiva y fácil de utilizar que se adapte a las necesidades de los profesores y estudiantes. La plataforma es una herramienta de aprendizaje que permite a los profesores enseñar a sus alumnos pensamiento algorítmico mediante la solución de problemas. Con ello, el estudiante desarrollará habilidades que le ayudarán en su crecimiento profesional.

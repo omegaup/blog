@@ -4,7 +4,7 @@ author: 'joemmanuel'
 author_email: 'joemmanuel@gmail.com'
 date: Tue, 08 Jul 2014 15:19:19 +0000
 draft: false
-tags: ['Contribuir a omegaUp', 'Internals']
+tags: ['Study material', 'Contribuir a omegaUp', 'Internals']
 ---
 
 omegaUp es un proyecto open source. Todo el código que se usa para correr el sitio se encuentra en [github](https://github.com/omegaup/omegaup). Inclusive pueden ver los últimos cambios [aquí](https://github.com/omegaup/omegaup/commits/master). En este post vamos a hablar de cómo configurar tu máquina para correr localmente omegaUp y poder contribuir.

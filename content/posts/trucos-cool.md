@@ -4,7 +4,7 @@ author: 'erosethan'
 author_email: 'erosethanjv@gmail.com'
 date: Mon, 07 Jul 2014 05:37:40 +0000
 draft: false
-tags: ['c++', 'cin', 'Concursos', 'cool', 'cout', 'librerias', 'Material de estudio', 'trucos', 'yolo']
+tags: ['Study material', 'c++', 'cin', 'Concursos', 'cool', 'cout', 'librerias', 'Material de estudio', 'trucos', 'yolo']
 ---
 
 Después de un rato de investigación y experimentación, por fin me tomo el tiempo para escribir este post y presentarles algunos trucos que, considero, podrían ayudarles a simplificarse la vida cuando programen y, obviamente, a ser mucho más cool.
