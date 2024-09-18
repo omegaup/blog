@@ -4,6 +4,7 @@ author: 'alanboy'
 author_email: 'alanboy@alanboy.net'
 date: Fri, 05 Jun 2015 08:15:27 +0000
 draft: false
+tags: ['Policies']
 ---
 
 This Privacy Policy governs the manner in which OmegaUp collects, uses, maintains and discloses information collected from users (each, a "User") of the [https://www.omegaup.com](https://www.omegaup.com) website ("Site").
@@ -54,4 +55,4 @@ By using this Site, you signify your acceptance of this policy. If you do not ag
 
 If you have any questions about this Privacy Policy, the practices of this site, or your dealings with this site, please contact us.
 
-tags: ['Policies']
+This document was last updated on June 05, 2015
