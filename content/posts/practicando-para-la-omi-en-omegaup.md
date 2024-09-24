@@ -4,7 +4,7 @@ author: 'joemmanuel'
 author_email: 'joemmanuel@gmail.com'
 date: Mon, 17 Mar 2014 14:02:16 +0000
 draft: false
-tags: ['Concursos']
+tags: ['Study material', 'Concursos']
 ---
 
 Si estás practicando para la Olimpiada Mexicana de Informática 2014, omegaUp tiene disponibles los exámenes nacionales desde el 2009 para que intentes resolverlos. Aquí están los enlaces a los concursos de práctica

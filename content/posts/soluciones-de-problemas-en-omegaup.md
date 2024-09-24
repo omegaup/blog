@@ -5,7 +5,7 @@ authors:
     email: 'omar@omegaup.org'
 date: Sun, 29 Oct 2023 05:50:45 +0000
 draft: false
-tags: ['Anuncios', 'omegaUp']
+tags: ['Features', 'Problemas', 'Anuncios', 'omegaUp']
 ---
 
 En este post queremos describirles cómo ver soluciones a los problemas en omegaUp. Para los autores de problemas también daremos algunos detalles sobre como agregar las soluciones a sus problemas.

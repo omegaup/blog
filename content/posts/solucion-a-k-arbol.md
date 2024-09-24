@@ -4,7 +4,7 @@ author: 'Lira'
 author_email: 'elira@elira.me'
 date: Mon, 07 Jan 2013 17:37:40 +0000
 draft: false
-tags: ['Etapa 1', 'Examen 5', 'Soluciones Preselectivo 2013']
+tags: ['Solution', 'Etapa 1', 'Examen 5', 'Soluciones Preselectivo 2013']
 ---
 
 <!-- .Special { color: #118800; } .Constant { color: #339999; } .Type { color: #aaaa77; } .Statement { color: #ff6600; } .String { color: #22bb00; } .PreProc { color: #66bbbb; } .Comment { color: #9933cc; font-style: italic; } -->

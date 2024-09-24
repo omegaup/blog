@@ -4,7 +4,7 @@ author: 'Freddy'
 author_email: 'me@freddy.mx'
 date: Sat, 14 Sep 2013 05:16:07 +0000
 draft: false
-tags: ['Alexis', 'César', 'Etapa 1', 'Examen 5', 'preselectivo', 'solución', 'Soluciones Preselectivo 2014']
+tags: ['Solution', 'Alexis', 'César', 'Etapa 1', 'Examen 5', 'preselectivo', 'solución', 'Soluciones Preselectivo 2014']
 ---
 
 **Concurso:** [Preselectivo para la IOI 2014, Etapa 1, Problemset 5](https://omegaup.com/arena/problem/coleccion) **Autor:** Alexis Cervantes / César Cepeda **Fuente:** Alexis Cervantes / César Cepeda

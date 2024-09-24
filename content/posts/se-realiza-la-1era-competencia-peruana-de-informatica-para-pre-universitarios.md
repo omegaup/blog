@@ -4,7 +4,7 @@ author: 'luisrodolfo'
 author_email: 'www.luisrodolfo@hotmail.com'
 date: Thu, 01 Jun 2017 03:43:49 +0000
 draft: false
-tags: ['Concursos', 'omegaUp', 'Image']
+tags: ['News', 'Concursos', 'omegaUp', 'Image']
 ---
 
 {{< figure src="http://www.olimpiadadeinformatica.org.pe/OPI/img/CPIO2017.png" alt="1ra Competencia Peruana de Informática Online" height="488" width="371" target="_blank" link="http://www.olimpiadadeinformatica.org.pe/" caption="1ra Competencia Peruana de Informática Online" >}}

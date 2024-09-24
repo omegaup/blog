@@ -4,7 +4,7 @@ author: 'Freddy'
 author_email: 'me@freddy.mx'
 date: Sun, 06 Oct 2013 22:56:54 +0000
 draft: false
-tags: ['Etapa 1', 'Examen 12', 'jorge', 'preselectivo', 'solución', 'Soluciones Preselectivo 2013', 'yorch']
+tags: ['Solution', 'Etapa 1', 'Examen 12', 'jorge', 'preselectivo', 'solución', 'Soluciones Preselectivo 2013', 'yorch']
 ---
 
 **Concurso:** [Preselectivo para la IOI 2014, Etapa 1, Problemset 12](https://omegaup.com/arena/IOI2014E1P12/#problems/Mapas-de-bits) **Autor:** Jorge Alberto González Martínez **Fuente**: Jorge Alberto González Martínez

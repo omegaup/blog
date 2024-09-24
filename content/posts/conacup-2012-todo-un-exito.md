@@ -4,7 +4,7 @@ author: 'joemmanuel'
 author_email: 'joemmanuel@gmail.com'
 date: Fri, 09 Nov 2012 02:26:23 +0000
 draft: false
-tags: ['Concursos']
+tags: ['News', 'Concursos']
 ---
 
 Los días 3 y 4 de Noviembre del 2012, 80 de los mejores programadores de México se dieron cita en el [ITESO](http://portal.iteso.mx/portal/page/portal/ITESO) de Guadalajara, Jalisco para participar en el 2do Concurso Nacional Abierto de Programación [CONACUP](http://www.conacup.org/), organizado por la Sociedad Latinoamericana de Ciencia y Tecnología [SOLACyT](http://solacyt.org/).

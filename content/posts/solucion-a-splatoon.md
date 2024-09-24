@@ -4,7 +4,7 @@ author: 'darknut'
 author_email: 'golden.darknut@gmail.com'
 date: Mon, 05 Oct 2015 08:20:43 +0000
 draft: false
-tags: ['busquedas', 'felix', 'Material de estudio', 'preselectivo', 'solución']
+tags: ['Solution', 'busquedas', 'felix', 'Material de estudio', 'preselectivo', 'solución']
 ---
 
 Problema: [Splatoon](https://omegaup.com/arena/problem/splatoon/).

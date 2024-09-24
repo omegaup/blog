@@ -4,7 +4,7 @@ author: 'Miguel Romero'
 author_email: 'miguel@omegaup.org'
 date: Fri, 10 Dec 2021 00:22:57 +0000
 draft: false
-tags: ['Uncategorized']
+tags: ['News', 'Uncategorized']
 ---
 
 omegaUp Invita a todos los estudiantes de nivel media superior y superior a participar a la 2° edición de la Liga de programación omegaUp.

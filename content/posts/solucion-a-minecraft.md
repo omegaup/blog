@@ -4,7 +4,7 @@ author: 'Lira'
 author_email: 'elira@elira.me'
 date: Tue, 08 Jan 2013 17:14:15 +0000
 draft: false
-tags: ['Enrique Lira', 'Etapa 1', 'Examen 5', 'preselectivo', 'solución', 'Soluciones Preselectivo 2013']
+tags: ['Solution', 'Enrique Lira', 'Etapa 1', 'Examen 5', 'preselectivo', 'solución', 'Soluciones Preselectivo 2013']
 ---
 
 **Concurso:** [Preselectivo para la IOI 2013, Etapa 1, Examen 5](https://omegaup.com/arena/IOI2013E1P5) **Autor: **[Enrique Lira Vargas](mailto:elira@elira.me)

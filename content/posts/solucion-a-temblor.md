@@ -4,7 +4,7 @@ author: 'darknut'
 author_email: 'golden.darknut@gmail.com'
 date: Fri, 24 Jul 2015 07:07:00 +0000
 draft: false
-tags: ['bitmask', 'bits', 'búsqueda', 'felix', 'máscara de bits', 'Material de estudio', 'preselectivo', 'soluciones']
+tags: ['Solution', 'bitmask', 'bits', 'búsqueda', 'felix', 'máscara de bits', 'Material de estudio', 'preselectivo', 'soluciones']
 ---
 
 Problema: [Temblor](https://omegaup.com/arena/problem/temblor)

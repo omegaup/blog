@@ -4,7 +4,7 @@ author: 'joemmanuel'
 author_email: 'joemmanuel@gmail.com'
 date: Mon, 06 Mar 2017 17:11:20 +0000
 draft: false
-tags: ['Anuncios', 'Contribuir a omegaUp', 'omegaUp']
+tags: ['News', 'Anuncios', 'Contribuir a omegaUp', 'omegaUp']
 ---
 
 En omegaUp organizamos nuestro primer Hackathon del año abierto al público, del 23 al 25 de Febrero pasados. Esta vez incluimos un divertido Bug Bash, donde invitamos a nuestros voluntarios a encontrar bugs dentro de omegaUp y reportarlos en github.

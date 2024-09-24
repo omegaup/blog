@@ -4,7 +4,7 @@ author: 'joemmanuel'
 author_email: 'joemmanuel@gmail.com'
 date: Fri, 10 Jul 2015 15:10:32 +0000
 draft: false
-tags: ['Entrevistas', 'Material de estudio']
+tags: ['News', 'Entrevistas', 'Material de estudio']
 ---
 
 [![charlyhlms](/images/IMG_1178.jpg)](https://omegaup.com/profile/charlyhlms)

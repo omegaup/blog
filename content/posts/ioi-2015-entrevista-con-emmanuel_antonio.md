@@ -4,7 +4,7 @@ author: 'joemmanuel'
 author_email: 'joemmanuel@gmail.com'
 date: Tue, 14 Jul 2015 14:56:28 +0000
 draft: false
-tags: ['Entrevistas', 'Material de estudio']
+tags: ['News', 'Entrevistas', 'Material de estudio']
 ---
 
 [![Emmanuel_Antonio](/images/img21.jpg)](https://omegaup.com/profile/Emmanuel_Antonio)

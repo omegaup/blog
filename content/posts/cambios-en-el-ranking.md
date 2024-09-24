@@ -4,7 +4,7 @@ author: 'joemmanuel'
 author_email: 'joemmanuel@gmail.com'
 date: Tue, 19 Aug 2014 13:37:59 +0000
 draft: false
-tags: ['Internals']
+tags: ['Features', 'Ranking', 'Internals']
 ---
 
 Continuando con los [cambios en el ranking de omegaUp](http://blog.omegaup.com/2014/06/el-nuevo-ranking-de-omegaup/), a partir de hoy sólo los problemas resueltos marcados como **públicos **van a contar puntos para calcular el score. Este cambio es con la intención de hacer el ranking más justo con problemas visibles a todos.

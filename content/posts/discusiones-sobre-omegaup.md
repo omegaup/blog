@@ -3,7 +3,7 @@ title: 'Discusiones sobre omegaUp'
 author: 'joemmanuel'
 author_email: 'joemmanuel@gmail.com'
 date: Sat, 23 Aug 2014 13:53:53 +0000
-draft: false
+draft: true
 tags: ['Anuncios', 'Contribuir a omegaUp', 'Internals']
 ---
 

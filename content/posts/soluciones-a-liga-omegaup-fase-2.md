@@ -4,7 +4,7 @@ author: 'DiegoBriaares'
 author_email: 'briaares@gmail.com'
 date: Sun, 19 Apr 2020 08:05:15 +0000
 draft: false
-tags: ['Concursos', 'liga omegaup', 'Material de estudio', 'solución']
+tags: ['Solution', 'Concursos', 'liga omegaup', 'Material de estudio', 'solución']
 ---
 
 1.  **[Problema A](https://omegaup.com/arena/problem/No-se-molesto-en-escribir-uno)**

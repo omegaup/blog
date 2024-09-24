@@ -4,7 +4,7 @@ author: 'lhchavez'
 author_email: 'lhchavez@omegaup.com'
 date: Sun, 05 Jan 2014 20:37:08 +0000
 draft: false
-tags: ['Internals']
+tags: ['News', 'Internals']
 ---
 
 Debido a un reciente cambio para mejorar la seguridad de la conexión a omegaUp, hemos decidido dejar de soportar oficialmente IE en Windows XP, a pesar de que sabemos que aún sigue siendo el segundo sistema operativo más común a nivel mundial\[1\]. Si aún están obligados a usar Windows XP, por favor utilicen algún navegador moderno (Chrome, Firefox u Opera) o alguna versión [portátil](http://portableapps.com/apps/internet).

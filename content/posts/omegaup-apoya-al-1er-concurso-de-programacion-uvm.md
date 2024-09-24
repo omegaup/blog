@@ -4,7 +4,7 @@ author: 'joemmanuel'
 author_email: 'joemmanuel@gmail.com'
 date: Mon, 07 Jan 2013 23:28:45 +0000
 draft: false
-tags: ['Concursos']
+tags: ['News', 'Concursos']
 ---
 
 El pasado 29 de noviembre se llevó a cabo, en las instalaciones de [UVM Campus Sur Guadalajara](http://www.guadalajarasur.uvmnet.edu/), el [Primer Concurso de Programación UVM](https://omegaup.com/arena/UVM2012/practice/), bajo el marco del “Innovation and Technology Fest”.
