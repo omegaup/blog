@@ -4,7 +4,7 @@ author: 'Jorge Gonzalez'
 author_email: 'jorge@omegaup.com'
 date: Sun, 18 Mar 2018 21:37:51 +0000
 draft: false
-tags: ['Anuncios']
+tags: ['News', 'Anuncios']
 ---
 
 Convocatoria

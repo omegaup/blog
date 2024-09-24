@@ -4,7 +4,7 @@ author: 'Lira'
 author_email: 'elira@elira.me'
 date: Thu, 08 Aug 2013 02:02:51 +0000
 draft: false
-tags: ['Etapa 1', 'Examen 1', 'Freddy', 'preselectivo', 'Silvio', 'solución', 'Soluciones Preselectivo 2014']
+tags: ['Solution', 'Etapa 1', 'Examen 1', 'Freddy', 'preselectivo', 'Silvio', 'solución', 'Soluciones Preselectivo 2014']
 ---
 
 **Concurso:** [Preselectivo para la IOI 2014, Etapa 1, Problemset 1](https://omegaup.com/arena/IOI2014E1P1#problems/VenganzaDeSilvio) **Autor:** [Freddy Román Cepeda](http://freddy.mx/) **Fuente**: Freddy

@@ -4,7 +4,7 @@ author: 'joemmanuel'
 author_email: 'joemmanuel@gmail.com'
 date: Fri, 15 Jan 2016 15:25:27 +0000
 draft: false
-tags: ['Anuncios']
+tags: ['Features', 'Concursos', 'Anuncios']
 ---
 
 Respondiendo a los comentarios que hemos recibido sobre la organización de la lista de concursos en la Arena, hemos [implementado](https://github.com/omegaup/omegaup/commit/24a00de9a696f06a5fa5567e03c0351a7ccbd90e) el concepto de Concursos Recomendados:

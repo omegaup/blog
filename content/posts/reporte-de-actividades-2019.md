@@ -4,7 +4,7 @@ author: 'joemmanuel'
 author_email: 'joemmanuel@gmail.com'
 date: Tue, 01 Oct 2019 00:00:02 +0000
 draft: false
-tags: ['omegaUp', 'Reportes']
+tags: ['News', 'omegaUp', 'Reportes']
 ---
 
 > ![](https://cdn-images-1.medium.com/max/800/0*I4SePvbkFRTkq7DH.png)

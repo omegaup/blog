@@ -4,7 +4,7 @@ author: 'joemmanuel'
 author_email: 'joemmanuel@gmail.com'
 date: Mon, 22 Jun 2015 00:57:14 +0000
 draft: false
-tags: ['Concursos', 'Material de estudio']
+tags: ['News', 'Concursos', 'Material de estudio']
 ---
 
 Un año más ha pasado y México ya tiene lista su delegación que nos representará en la International Olympiad in Informatics 2015 a celebrarse en Kazakhstan, del 26 de Julio al 2 de Agosto. A continuación presentamos la colección de exámenes y problemas que se usaron durante el preselectivo dentro de omegaUp. Esperamos que esta colección de problemas sirva de entrenamiento a futuras delegaciones de México y otros países de América Latina.

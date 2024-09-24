@@ -4,7 +4,7 @@ author: 'Juan Pablo Gómez'
 author_email: 'juan.pablo@omegaup.com'
 date: Thu, 15 Aug 2023 23:25:06 +0000
 draft: false
-tags: ['Anuncios', 'omegaUp']
+tags: ['Features', 'Concursos', 'Anuncios', 'omegaUp']
 ---
 
 Nos es grato informar que hemos liberado una nueva modalidad de concursos llamada **“Concursos con subtareas”**, para poder cubrir satisfactoriamente las necesidades de los concursos realizados en la **Olimpiada Internacional de Informática** (**IOI** por su siglas en inglés), el cual ha modificado la fórmula para calcular el puntaje asignado a un concursante para un problema en específico.

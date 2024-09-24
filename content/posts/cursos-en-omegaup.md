@@ -3,7 +3,7 @@ title: 'Cursos en omegaUp'
 author: 'vanessa'
 author_email: 'vanessa@omegaup.org'
 date: Thu, 27 Aug 2020 01:29:03 +0000
-draft: false
+draft: true
 tags: ['Internals']
 ---
 

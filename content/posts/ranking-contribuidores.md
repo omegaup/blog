@@ -4,7 +4,7 @@ author: 'carlos'
 author_email: 'carlos@omegaup.org'
 date: Fri, 11 Aug 2023 01:11:47 +0000
 draft: false
-tags: ['omegaUp']
+tags: ['Features', 'Ranking', 'omegaUp']
 ---
 
 En omegaUp queremos reconocer a todas las personas que usan la plataforma. En este artículo describiremos el "Ranking de contribuidores", que busca distinguir a contribuidores que han publicado buenos problemas en omegaup.com.

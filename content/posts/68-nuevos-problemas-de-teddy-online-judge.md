@@ -4,7 +4,7 @@ author: 'alanboy'
 author_email: 'alanboy@alanboy.net'
 date: Fri, 30 Jan 2015 06:52:20 +0000
 draft: false
-tags: ['Anuncios', 'omegaUp']
+tags: ['News', 'Anuncios', 'omegaUp']
 ---
 
 Ya pueden encontrar en OmegaUp 68 nuevos problemas migrados desde [Teddy Online Judge](https://teddyonlinejudge.net "Teddy Online Judge"). Todos estos problemas tienen el tag _[teddy](https://omegaup.com/problem/list/?tag=teddy)_ asi que son fáciles de identificar.

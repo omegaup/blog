@@ -4,7 +4,7 @@ author: 'Sergio Márquez'
 author_email: 'sergio@omegaup.com'
 date: Sun, 05 Dec 2021 05:03:04 +0000
 draft: false
-tags: ['Material de estudio', 'omegaUp']
+tags: ['Study material', 'Material de estudio', 'omegaUp']
 ---
 
 Gracias @Rodrigo-RCC por este aporte!

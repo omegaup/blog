@@ -4,7 +4,7 @@ author: 'DiegoBriaares'
 author_email: 'briaares@gmail.com'
 date: Wed, 01 Apr 2020 18:08:10 +0000
 draft: false
-tags: ['Concursos', 'liga omegaup', 'Material de estudio', 'solución', 'soluciones']
+tags: ['Solution', 'Concursos', 'liga omegaup', 'Material de estudio', 'solución', 'soluciones']
 ---
 
 ## [Problema A](https://omegaup.com/arena/problem/Rango-simple)

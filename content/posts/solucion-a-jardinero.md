@@ -4,7 +4,7 @@ author: 'Freddy'
 author_email: 'me@freddy.mx'
 date: Thu, 14 Aug 2014 16:16:10 +0000
 draft: false
-tags: ['Uncategorized']
+tags: ['Solution', 'Uncategorized']
 ---
 
 **Concurso:** [Preselectivo para la IOI 2015, Etapa 1, Problemset 6](https://omegaup.com/arena/IOI2015E1P6#problems/Jardinero) **Autor:** [Saúl Germán Gutiérrez Calderón](mailto:saul.g.gutierrez@gmail.com) **Fuente**: [Saúl Germán Gutiérrez Calderón](mailto:saul.g.gutierrez@gmail.com) (recopilado de los ACM-ICPC World Finals 2010, problema I)

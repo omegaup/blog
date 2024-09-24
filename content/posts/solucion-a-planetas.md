@@ -4,7 +4,7 @@ author: 'Freddy'
 author_email: 'me@freddy.mx'
 date: Sun, 10 Aug 2014 05:16:54 +0000
 draft: false
-tags: ['Uncategorized']
+tags: ['Solution', 'Uncategorized']
 ---
 
 **Concurso:** [Preselectivo para la IOI 2015, Etapa 1, Problemset 4](https://omegaup.com/arena/IOI2015E1P4#problems/Planetas) **Autor:** [Freddy Román Cepeda](http://freddy.mx/) **Fuente**: Edgar Augusto Santiago Nieves
