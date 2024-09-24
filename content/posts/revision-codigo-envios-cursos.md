@@ -4,7 +4,7 @@ author: 'Juan Pablo Gómez'
 author_email: 'juan.pablo@omegaup.com'
 date: Thu, 19 Aug 2024 23:12:06 +0000
 draft: false
-tags: ['Anuncios', 'omegaUp']
+tags: ['Features', 'Cursos']
 ---
 
 Nos complace anunciar la liberación de una nueva funcionalidad llamada **“Revisión de código en envíos de cursos”**. Esta herramienta permitirá a las personas organizadoras de cursos brindar retroalimentación directamente en el código enviado por sus estudiantes, agilizando así el proceso de revisión.
