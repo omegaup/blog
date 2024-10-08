@@ -1,0 +1,3 @@
+<video{{ if .Get "autoplay" }} autoplay{{ end }}{{ if .Get "muted" }} muted {{ end }}{{ if .Get "loop" }} loop{{ end }}>
+  <source src="{{ .Get "src" }}" type="{{ .Get "type" }}">
+</video>
