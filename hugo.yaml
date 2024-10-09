@@ -19,29 +19,35 @@ markup:
 
 menu:
   main:
-    - name: Docs
-      pageRef: /docs
+    - name: Noticias
+      pageRef: /news
       weight: 1
-    - name: About
-      pageRef: /about
+    - name: Documentación
+      pageRef: /posts/documentation
       weight: 2
-    - name: Contact ↗
-      url: "https://github.com/imfing"
+    - name: Características
+      pageRef: /posts/features
       weight: 3
-    - name: Search
+    - name: Solución
+      pageRef: /solution
       weight: 4
+    - name: Material de estudio
+      pageRef: /posts/study-material
+      weight: 5
+    - name: Buscar
+      weight: 6
       params:
         type: search
     - name: GitHub
-      weight: 5
-      url: "https://github.com/imfing/hextra-starter-template"
+      weight: 7
+      url: "https://github.com/omegaup"
       params:
         icon: github
-    - name: Twitter
-      weight: 6
-      url: "https://twitter.com/"
+    - name: Discord
+      weight: 8
+      url: "https://discord.com/invite/K3JFd9d3wk"
       params:
-        icon: x-twitter
+        icon: discord
 
 params:
   navbar:
@@ -53,8 +59,8 @@ params:
     displayPoweredBy: true
 
   editURL:
-    enable: true
-    base: "https://github.com/omegaup/blog/tree/main/content/posts"
+    enable: false
+    base: "https://github.com/omegaup/blog/content"
 
 
 defaultContentLanguage: es
