@@ -1,5 +1,5 @@
 ---
-title: Omega Up 
+title: omegaUp 
 toc: false
 ---
 
