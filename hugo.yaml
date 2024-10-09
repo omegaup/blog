@@ -28,11 +28,11 @@ menu:
     - name: Características
       pageRef: /posts/features
       weight: 3
-    - name: Solución
-      pageRef: /solution
-      weight: 4
     - name: Material de estudio
       pageRef: /posts/study-material
+      weight: 4
+    - name: Solución
+      pageRef: /solution
       weight: 5
     - name: Buscar
       weight: 6
@@ -51,12 +51,18 @@ menu:
 
 params:
   navbar:
-    displayTitle: true
-    displayLogo: false
+    displayTitle: false
+    displayLogo: true
+    logo:
+      path: images/omegaUp.png
+      dark: images/omegaUp-dark.png
+      link: /
+      width: 47
+      height: 24
 
   footer:
-    displayCopyright: false
-    displayPoweredBy: true
+    displayCopyright: true
+    displayPoweredBy: false
 
   editURL:
     enable: false
