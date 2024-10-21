@@ -49,3 +49,14 @@ menu:
       params:
         icon: discord
 
+params:
+  navbar:
+    displayTitle: false
+    displayLogo: true
+    logo:
+      path: images/omegaUp.png
+      dark: images/omegaUp-dark.png
+      link: /
+      width: 47
+      height: 24
+
