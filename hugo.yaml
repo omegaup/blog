@@ -60,3 +60,12 @@ params:
       width: 47
       height: 24
 
+  footer:
+    displayCopyright: true
+    displayPoweredBy: false
+
+  editURL:
+    enable: false
+    base: "https://github.com/omegaup/blog/content"
+
+
