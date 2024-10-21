@@ -69,3 +69,11 @@ params:
     base: "https://github.com/omegaup/blog/content"
 
 
+defaultContentLanguage: es
+languages:
+  es:
+    languageName: Español
+    weight: 1
+  en:
+    languageName: English
+    weight: 2
