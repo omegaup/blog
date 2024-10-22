@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Documentation on omegaUp blog</title><link>https://blog.omegaup.com/tags/documentation/</link><description>Recent content in Documentation on omegaUp blog</description><generator>Hugo</generator><language>es-mx</language><lastBuildDate>Tue, 08 Oct 2019 14:54:10 +0000</lastBuildDate><atom:link href="https://blog.omegaup.com/tags/documentation/index.xml" rel="self" type="application/rss+xml"/><item><title>Guía para la Propuesta de Insignias en omegaUp</title><link>https://blog.omegaup.com/guia-para-la-propuesta-de-insignias-en-omegaup/</link><pubDate>Tue, 08 Oct 2019 14:54:10 +0000</pubDate><guid>https://blog.omegaup.com/guia-para-la-propuesta-de-insignias-en-omegaup/</guid><description>&lt;p>Tú también puedes proponer nuevas insignias para la plataforma, simplemente debes tomar en cuenta las consideraciones que se detallan a continuación y abrir un issue en nuestro repositorio en Github haciendo clic &lt;a href="https://github.com/omegaup/omegaup/issues/new?assignees=&amp;amp;labels=&amp;amp;template=propuesta-para-nueva-insignia.md&amp;amp;title=%5BBadge+Proposal%5D+Nombre+de+la+Insignia">aquí&lt;/a>.&lt;/p>
+&lt;p>&lt;strong>Consideraciones:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Las insignias en omegaUp son una manera de reconocer logros pequeños pero significativos, conseguidos por los usuarios al usar la plataforma. En dicho sentido, no está permitido proponer insignias &lt;em>ad-hoc&lt;/em>, cuya posibilidad de ser conseguidas involucre aspectos que van más allá de la habilidad del estudiante o el uso que éste le da a la plataforma. Por ejemplo:
+&lt;ul>
+&lt;li>Insignia por haber ganado un concurso en Enero&lt;/li>
+&lt;li>Insignia por tener un nombre de usuario menor a 5 caracteres&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p> &lt;/p></description></item><item><title>Introducción a omegaUp, parte 0</title><link>https://blog.omegaup.com/introduccion-a-omegaup-parte-0/</link><pubDate>Fri, 29 Nov 2013 20:35:09 +0000</pubDate><guid>https://blog.omegaup.com/introduccion-a-omegaup-parte-0/</guid><description>&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/NgaYc9eYBbo?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+ >&lt;/iframe>
+ &lt;/div>
+
+&lt;p>Hola!&lt;/p>
+&lt;p>Hemos recibido varias preguntas sobre cómo se envían soluciones a omegaUp. Decidí escribir una introducción a omegaUp, antes de empezar a aprender a resolver problemas. En resumen:&lt;/p>
+&lt;ul>
+&lt;li>El objetivo de los concursos es acumular más puntos que todos los demás participantes. En caso de empate, se toma en cuenta la suma de los penalties (dependiendo del concurso puede no haber penalties, ser el tiempo desde que inició el concurso hasta que enviaste la solución o el tiempo desde que abriste el problema por primera vez hasta que lo resolviste).&lt;/li>
+&lt;li>Jamás se te quitarán puntos por intentar resolver un problema: si ya habías enviado una solución con &lt;em>x&lt;/em> puntos, únicamente se cambiará tu puntuación y penalty si obtienes más de &lt;em>x&lt;/em> puntos.&lt;/li>
+&lt;li>Toda la entrada y salida se hace mediante entrada estándar (&amp;ldquo;teclado&amp;rdquo; y &amp;ldquo;consola&amp;rdquo;), y no debes imprimir nada que no indique el problema: no debes poner cosas como &amp;ldquo;Dame un número&amp;rdquo;. omegaUp te proporcionará la entrada tal y como viene descrita en el problema.&lt;/li>
+&lt;li>Todos los problemas de Java &lt;strong>deben&lt;/strong> tener Main como nombre de clase. Si usas cualquier otro nombre, te regresará un Runtime error.&lt;/li>
+&lt;li>cin (en C++) y Scanner (en Java) son relativamente lentos. En problemas donde haya mucha entrada, se recomienda usar scanf (en C/C++) y BufferedReader (en Java).&lt;/li>
+&lt;li>Toda la entrada y salida está en formato Unix: las líneas terminan con &amp;ldquo;\n&amp;rdquo;, no con &amp;ldquo;\r\n&amp;rdquo;.&lt;/li>
+&lt;/ul>
+&lt;p>Primero veamos cómo luce la arena durante un concurso:&lt;/p></description></item><item><title>Introducción a omegaUp, parte 1</title><link>https://blog.omegaup.com/introduccion-a-omegaup/</link><pubDate>Wed, 09 Oct 2013 16:39:54 +0000</pubDate><guid>https://blog.omegaup.com/introduccion-a-omegaup/</guid><description>&lt;p>Estamos iniciando una serie de 10 posts para ayudar a nuestros nuevos usuarios a navegar con facilidad entre la gran cantidad de problemas de omegaUp, en forma de mini-tutoriales con los conceptos básicos, temas y fuentes. Esta colección de tutoriales y ligas te ayudarán a resolver muchos de los problemas de omegaUp y aumentar tu nivel de programación.&lt;/p></description></item></channel></rss>
