@@ -1,0 +1,77 @@
+baseURL: https://blog.omegaup.com/
+languageCode: 'es-MX'
+title: omegaUp blog
+description: Incrementando el talento de Ingeniería de Software en América Latina
+
+module:
+  imports:
+    - path: github.com/imfing/hextra
+
+markup:
+  # allow raw html
+  goldmark:
+    renderer:
+      unsafe: true
+
+  # enable hextra syntax highlight
+  highlight:
+    noClasses: false
+
+menu:
+  main:
+    - name: Noticias
+      pageRef: /news
+      weight: 1
+    - name: Documentación
+      pageRef: /documentation
+      weight: 2
+    - name: Características
+      pageRef: /features
+      weight: 3
+    - name: Material de estudio
+      pageRef: /study-material
+      weight: 4
+    - name: Solución
+      pageRef: /solution
+      weight: 5
+    - name: Buscar
+      weight: 6
+      params:
+        type: search
+    - name: GitHub
+      weight: 7
+      url: "https://github.com/omegaup"
+      params:
+        icon: github
+    - name: Discord
+      weight: 8
+      url: "https://discord.com/invite/K3JFd9d3wk"
+      params:
+        icon: discord
+
+params:
+  navbar:
+    displayTitle: false
+    displayLogo: true
+    logo:
+      path: images/omegaUp.png
+      dark: images/omegaUp-dark.png
+      link: /
+      width: 47
+      height: 24
+
+  footer:
+    displayCopyright: true
+    displayPoweredBy: false
+
+  editURL:
+    enable: false
+    base: "https://github.com/omegaup/blog/content"
+
+
+defaultContentLanguage: es
+languages:
+  es:
+    languageName: Español
+    weight: 1
+
