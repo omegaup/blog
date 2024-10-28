@@ -4,3 +4,14 @@ title: omegaUp blog
 description: Incrementando el talento de Ingeniería de Software en América Latina
 
 theme: hextra
+
+params:
+  navbar:
+    displayTitle: false
+    displayLogo: true
+    logo:
+      path: logo/omegaUp.png
+      dark: logo/omegaUp-dark.png
+      link: /
+      width: 70
+      height: 36
