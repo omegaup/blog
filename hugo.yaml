@@ -5,6 +5,36 @@ description: Incrementando el talento de Ingeniería de Software en América Lat
 
 theme: hextra
 
+markup:
+  # allow raw html
+  goldmark:
+    renderer:
+      unsafe: true
+
+  # enable hextra syntax highlight
+  highlight:
+    noClasses: false
+
+menu:
+  main:
+    - name: Blog
+      pageRef: /posts
+      weight: 5
+    - name: Buscar
+      weight: 6
+      params:
+        type: search
+    - name: GitHub
+      weight: 7
+      url: "https://github.com/omegaup"
+      params:
+        icon: github
+    - name: Discord
+      weight: 8
+      url: "https://discord.com/invite/K3JFd9d3wk"
+      params:
+        icon: discord
+
 params:
   navbar:
     displayTitle: false
