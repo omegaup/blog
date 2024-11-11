@@ -3,7 +3,10 @@ title: Blog omegaUp
 type: doc
 ---
 
-Esta es la página de destino.
+
+{{< callout type="info" >}}
+  Incrementando el talento de Ingeniería de Software en América Latina.
+{{< /callout >}}
 
 ## Explora
 
