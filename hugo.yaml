@@ -10,8 +10,8 @@ params:
     displayTitle: false
     displayLogo: true
     logo:
-      path: logo/omegaUp.png
-      dark: logo/omegaUp-dark.png
+      path: logo/ΩUp.png
+      dark: logo/ΩUp-dark.png
       link: /
-      width: 185
-      height: 44
+      width: 70
+      height: 36
