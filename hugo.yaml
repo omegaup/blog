@@ -13,5 +13,5 @@ params:
       path: logo/omegaUp.png
       dark: logo/omegaUp-dark.png
       link: /
-      width: 70
-      height: 36
+      width: 185
+      height: 44
