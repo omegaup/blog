@@ -1,7 +1,9 @@
 ---
-title: Blog omegaUp
+title: Blog 
 type: doc
 ---
+![omegaUp](/logo/omegaUp.png)
+
 
 This is the landing page.
 
@@ -15,3 +17,4 @@ This is the landing page.
 ## Documentation
 
 For more information, visit [omegaUp.org](https://www.omegaup.org).
+
