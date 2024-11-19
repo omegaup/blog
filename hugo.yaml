@@ -19,21 +19,16 @@ menu:
   main:
     - name: Blog
       pageRef: /posts
-      weight: 5
+      weight: 1
     - name: Buscar
-      weight: 6
+      weight: 10
       params:
         type: search
     - name: GitHub
-      weight: 7
+      weight: 11
       url: "https://github.com/omegaup"
       params:
         icon: github
-    - name: Discord
-      weight: 8
-      url: "https://discord.com/invite/K3JFd9d3wk"
-      params:
-        icon: discord
 
 params:
   navbar:
@@ -47,8 +42,8 @@ params:
       height: 36
 
   footer:
-    displayCopyright: true
     displayPoweredBy: false
+    displayCopyright: true
 
   editURL:
     enable: false
