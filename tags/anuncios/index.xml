@@ -1,40 +1,322 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Anuncios on omegaUp blog</title><link>https://blog.omegaup.com/tags/anuncios/</link><description>Recent content in Anuncios on omegaUp blog</description><generator>Hugo</generator><language>es-mx</language><lastBuildDate>Sat, 03 Feb 2024 13:00:00 +0000</lastBuildDate><atom:link href="https://blog.omegaup.com/tags/anuncios/index.xml" rel="self" type="application/rss+xml"/><item><title>El nuevo ranking de contribuidores de omegaUp</title><link>https://blog.omegaup.com/ranking-de-contribuidores-de-omegaup/</link><pubDate>Sat, 03 Feb 2024 13:00:00 +0000</pubDate><guid>https://blog.omegaup.com/ranking-de-contribuidores-de-omegaup/</guid><description>&lt;p>En &lt;strong>omegaUp&lt;/strong>, reconocemos y valoramos el impacto positivo de aquellos que contribuyen al desarrollo de nuestra plataforma. Presentamos con entusiasmo nuestro renovado sistema de clasificación, diseñado para destacar la dedicación y habilidades de aquellos que han ayudado a dar forma a &lt;strong>omegaUp&lt;/strong>, ya sea creando desafiantes problemas de programación o contribuyendo de diversas formas.&lt;/p>
-&lt;p>En esta ocasión anunciamos el nuevo &lt;a href="https://omegaup.com/rank/authors/">ranking de nuestros contribuidores más activos del mes&lt;/a> en &lt;strong>omegaUp&lt;/strong>:&lt;/p>
-&lt;p>&lt;a href="https://blog.omegaup.com/images/Screen-Shot-2024-02-03-at-12.34.24-PM.png">&lt;img src="https://blog.omegaup.com/images/Screen-Shot-2024-02-03-at-12.34.24-PM-1204x912.png" alt="Ranking de Contribuidores">&lt;/a>&lt;/p></description></item><item><title>Soluciones de problemas en omegaUp</title><link>https://blog.omegaup.com/soluciones-de-problemas-en-omegaup/</link><pubDate>Sun, 29 Oct 2023 05:50:45 +0000</pubDate><guid>https://blog.omegaup.com/soluciones-de-problemas-en-omegaup/</guid><description>&lt;p>En este post queremos describirles cómo ver soluciones a los problemas en omegaUp. Para los autores de problemas también daremos algunos detalles sobre como agregar las soluciones a sus problemas.&lt;/p>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>omegaUp blog – Anuncios</title><link>https://blog.omegaup.com/tags/anuncios/</link><description>Recent content in Anuncios on omegaUp blog</description><generator>Hugo -- gohugo.io</generator><language>es-MX</language><lastBuildDate>Sat, 03 Feb 2024 13:00:00 +0000</lastBuildDate><atom:link href="https://blog.omegaup.com/tags/anuncios/index.xml" rel="self" type="application/rss+xml"/><item><title>El nuevo ranking de contribuidores de omegaUp</title><link>https://blog.omegaup.com/posts/ranking-de-contribuidores-de-omegaup/</link><pubDate>Sat, 03 Feb 2024 13:00:00 +0000</pubDate><guid>https://blog.omegaup.com/posts/ranking-de-contribuidores-de-omegaup/</guid><description>
+&lt;p>En &lt;strong>omegaUp&lt;/strong>, reconocemos y valoramos el impacto positivo de aquellos que contribuyen al desarrollo de nuestra plataforma. Presentamos con entusiasmo nuestro renovado sistema de clasificación, diseñado para destacar la dedicación y habilidades de aquellos que han ayudado a dar forma a &lt;strong>omegaUp&lt;/strong>, ya sea creando desafiantes problemas de programación o contribuyendo de diversas formas.&lt;/p>
+&lt;p>En esta ocasión anunciamos el nuevo &lt;a href="https://omegaup.com/rank/authors/" target="_blank" rel="noopener">ranking de nuestros contribuidores más activos del mes&lt;/a> en &lt;strong>omegaUp&lt;/strong>:&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/Screen-Shot-2024-02-03-at-12.34.24-PM.png" >&lt;img src="https://blog.omegaup.com/images/Screen-Shot-2024-02-03-at-12.34.24-PM-1204x912.png" alt="Ranking de Contribuidores" loading="lazy" />&lt;/a>&lt;/p>
+&lt;h1>¿Cómo funciona?&lt;/h1>&lt;p>Para evaluar la contribución de cada usuario, hemos introducido una nueva métrica llamada &lt;strong>author_score&lt;/strong>. Esta métrica se calcula utilizando una fórmula específica, &lt;strong>author_score = sum(problem_quality)&lt;/strong>.&lt;/p>
+&lt;p>En esencia, el &lt;strong>author_score&lt;/strong> de cada usuario es igual a la suma de los puntos de calidad de los problemas que ha creado. Estos puntos de calidad se determinan a partir del feedback recibido por los problemas, que proviene de las evaluaciones realizadas por otros usuarios cuando resuelven o intentan resolver los desafíos.&lt;/p>
+&lt;p>La calidad de un problema se determina a través del feedback proporcionado por la comunidad. Cuando un usuario resuelve o intenta resolver un problema, tiene la oportunidad de dejar comentarios sobre su calidad. Estos comentarios se tienen en cuenta al calcular el &lt;strong>author_score&lt;/strong> del creador del problema.&lt;/p>
+&lt;h1>Actualizaciones Continuas&lt;/h1>&lt;p>En &lt;strong>omegaUp&lt;/strong>, estamos comprometidos con la mejora constante. Realizaremos actualizaciones regulares para garantizar que el sistema de clasificación sea justo, desafiante y represente con precisión el talento de nuestra creciente comunidad de contribuidores.&lt;/p>
+&lt;p>Sumérgete en la competencia, desafía tus límites y eleva tu posición en el nuevo ranking de contribuidores de &lt;strong>omegaUp&lt;/strong>. Celebremos juntos el espíritu de la programación y el aprendizaje continuo. ¿Estás listo para destacar?&lt;/p></description></item><item><title>Soluciones de problemas en omegaUp</title><link>https://blog.omegaup.com/posts/soluciones-de-problemas-en-omegaup/</link><pubDate>Sun, 29 Oct 2023 05:50:45 +0000</pubDate><guid>https://blog.omegaup.com/posts/soluciones-de-problemas-en-omegaup/</guid><description>
+&lt;p>En este post queremos describirles cómo ver soluciones a los problemas en omegaUp. Para los autores de problemas también daremos algunos detalles sobre como agregar las soluciones a sus problemas.&lt;/p>
 &lt;p>En la vista de problema, en la parte superior podemos ver dos pestañas, Problema y Ver Solución.&lt;/p>
-&lt;p>&lt;a href="https://blog.omegaup.com/images/pestanas_soluciones.png">&lt;img src="https://blog.omegaup.com/images/pestanas_soluciones.png" alt="">&lt;/a>&lt;/p>
-&lt;p>Si &lt;strong>ya resolviste el problema&lt;/strong> y quieres comparar tu solución con la solución oficial, al dar click en la pestaña de Ver Solución, verás el botón de Ver Solución con el icono de un candado abierto.&lt;/p></description></item><item><title>Concursos con Subtareas</title><link>https://blog.omegaup.com/concursos-con-subtareas/</link><pubDate>Tue, 15 Aug 2023 23:25:06 +0000</pubDate><guid>https://blog.omegaup.com/concursos-con-subtareas/</guid><description>&lt;p>Nos es grato informar que hemos liberado una nueva modalidad de concursos llamada &lt;strong>“Concursos con subtareas”&lt;/strong>, para poder cubrir satisfactoriamente las necesidades de los concursos realizados en la &lt;strong>Olimpiada Internacional de Informática&lt;/strong> (&lt;strong>IOI&lt;/strong> por su siglas en inglés), el cual ha modificado la fórmula para calcular el puntaje asignado a un concursante para un problema en específico.&lt;/p>
-&lt;h1 id="antecedentes">Antecedentes&lt;/h1>
-&lt;p>Anteriormente en &lt;em>omegaUp&lt;/em> sólo se contaba con dos distintos tipos de concursos:&lt;/p></description></item><item><title>Concursos por equipos</title><link>https://blog.omegaup.com/concursos-por-equipos/</link><pubDate>Thu, 24 Mar 2022 14:35:06 +0000</pubDate><guid>https://blog.omegaup.com/concursos-por-equipos/</guid><description>&lt;p>Nos es grato informar que hemos liberado una nueva funcionalidad llamada &lt;strong>&amp;ldquo;Concursos por equipos&amp;rdquo;&lt;/strong>, para poder atender los concursos con formato de &lt;strong>ICPC&lt;/strong>, los cuales se realizan en equipos. Para que esta nueva modalidad de concursos pueda utilizarse, también se han liberado algunas características extras que se describirán más adelante.&lt;/p>
-&lt;p>Si estás familiarizado con la plataforma encontrarás similitud con funcionalidades que ya existen desde hace tiempo. Si no es el caso, comenzamos con el primer paso.&lt;/p></description></item><item><title>Todos los videos del curso de Introducción la Programación con C++</title><link>https://blog.omegaup.com/todos-los-videos-del-curso-de-introduccion-a-c/</link><pubDate>Tue, 07 Apr 2020 04:05:35 +0000</pubDate><guid>https://blog.omegaup.com/todos-los-videos-del-curso-de-introduccion-a-c/</guid><description>&lt;p>&lt;em>Actualización 10/04/20: El curso ha terminado y este post incluye los 11 videos.&lt;/em>&lt;/p>
-&lt;p>Como parte de la iniciativa &lt;a href="https://blog.omegaup.com/quedate-en-casa-con-omegaup-nuestra-respuesta-al-covid-19/">#QuédateEnCasaConOmegaUp&lt;/a> estuvimos impartiendo un curso de Introducción a C++ en vivo a través de &lt;a href="https://www.facebook.com/omegaup/">Facebook Live&lt;/a>.&lt;/p>
-&lt;p>El material del curso está disponible de forma abierta y gratuita en la plataforma de omegaUp y puedes acceder &lt;a href="https://omegaup.com/course/introduccion_a_cpp">en este enlace&lt;/a>  (&lt;a href="https://omegaup.com/course/introduccion_a_cpp">https://omegaup.com/course/introduccion_a_cpp&lt;/a>) para ver el material y resolver los ejercicios en línea.&lt;/p>
-&lt;p>Aquí te dejamos un enlace a todos los videos y estaremos actualizando este post con cada video nuevo en la serie:&lt;/p></description></item><item><title>Quédate en casa con omegaUp - nuestra respuesta al COVID-19</title><link>https://blog.omegaup.com/quedate-en-casa-con-omegaup-nuestra-respuesta-al-covid-19/</link><pubDate>Mon, 23 Mar 2020 03:38:03 +0000</pubDate><guid>https://blog.omegaup.com/quedate-en-casa-con-omegaup-nuestra-respuesta-al-covid-19/</guid><description>&lt;h3 id="querida-comunidad-omegaup">&lt;strong>Querida comunidad omegaUp:&lt;/strong>&lt;/h3>
-&lt;p>La epidemia del COVID-19 ha causado cambios importantes en nuestra vida diaria, trabajo, escuela y familia. Para ayudar a manejar el Distanciamiento Social a toda nuestra comunidad, hemos creado la campaña &lt;strong>Quédate en casa con omegaUp:&lt;/strong> una serie de iniciativas educacionales en línea para apoyar la continuidad de la educación tecnológica en Latinoamérica.&lt;/p>
-&lt;h4 id="imagesscreen-shot-2020-03-23-at-75305-ampng">&lt;img src="https://blog.omegaup.com/images/Screen-Shot-2020-03-23-at-7.53.05-AM.png" alt="">&lt;/h4>
-&lt;h4 id="1-tutoriales-para-profesores-cómo-usar-omegaup-para-dar-clases-de-programación-en-línea">1. Tutoriales para Profesores: ¿Cómo usar omegaUp para dar clases de programación en línea?&lt;/h4>
-&lt;p>&lt;a href="https://omegaUp.com">omegaUp.com&lt;/a> es una plataforma gratuita en Español que ayuda a estudiantes a mejorar sus habilidades en Ingeniería de Software resolviendo retos de programación de una forma divertida y competitiva. Profesores de más de 100 escuelas de nivel Medio Superior y Superior en México y Latinoamérica usan la plataforma para dejar tareas y exámenes con retos de programación que los alumnos pueden resolver en línea.&lt;/p></description></item><item><title>El nuevo ranking de escuelas de omegaUp</title><link>https://blog.omegaup.com/el-nuevo-ranking-de-escuelas-de-omegaup/</link><pubDate>Wed, 05 Feb 2020 03:28:58 +0000</pubDate><guid>https://blog.omegaup.com/el-nuevo-ranking-de-escuelas-de-omegaup/</guid><description>&lt;figure>&lt;a href="https://blog.omegaup.com/images/Ranking.gif">&lt;img src="https://blog.omegaup.com/images/Ranking.webm"
- alt="Rankings de escuelas" width="1033" height="858">&lt;/a>&lt;figcaption>
- &lt;p>Rankings de escuelas&lt;/p>
- &lt;/figcaption>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/pestanas_soluciones.png" >&lt;img src="https://blog.omegaup.com/images/pestanas_soluciones.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
+&lt;p>Si &lt;strong>ya resolviste el problema&lt;/strong> y quieres comparar tu solución con la solución oficial, al dar click en la pestaña de Ver Solución, verás el botón de Ver Solución con el icono de un candado abierto.&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/see_solution.png" >&lt;img src="https://blog.omegaup.com/images/see_solution.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
+&lt;p>Y así verás la solución.&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/full_solution.png" >&lt;img src="https://blog.omegaup.com/images/full_solution.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
+&lt;p>Por otro lado, si &lt;strong>no has resuelto el problema&lt;/strong> el proceso para ver las soluciones será distinto.&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/cantsee_solutions.png" >&lt;img src="https://blog.omegaup.com/images/cantsee_solutions.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>Primero intenta resolverlo.&lt;/li>
+&lt;li>Tienes la posibilidad de visualizar hasta cinco soluciones diarias. Cada vista a una solución restará una unidad de tu límite diario.&lt;/li>
+&lt;li>Si decides ver la solución a un problema, esta quedará desbloqueada de forma permanente y no se descontará del límite diario al visualizarla.&lt;/li>
+&lt;li>El límite de visualizaciones diarias se reestablecerá todos los días a la misma hora.&lt;/li>
+&lt;li>Si ves la solución sin antes resolver el problema, éste no te dará puntos en el ranking.&lt;/li>
+&lt;/ul>
+&lt;p>Puedes ver las visualizaciones que tienes disponibles en la pestaña de Ver Solución. Verás un mensaje como el de la imagen.&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/tokens_solutions.png" >&lt;img src="https://blog.omegaup.com/images/tokens_solutions.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
+&lt;h2>Para los autores de problemas&lt;span class="hx-absolute -hx-mt-20" id="para-los-autores-de-problemas">&lt;/span>
+&lt;a href="#para-los-autores-de-problemas" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Si quieres incluir las soluciones a tus problemas debes añadir una nueva carpeta &lt;em>/solutions&lt;/em> al archivo zip del problema. Dentro de la carpeta se debe agregar el archivo markdown con la solución. Las soluciones se pueden editar desde la plataforma, tal como las descripciones del problema.&lt;/p>
+&lt;p>Mas información &lt;a href="https://github.com/omegaup/omegaup/wiki/C%C3%B3mo-escribir-problemas-para-omegaUp#solutions" target="_blank" rel="noopener">aquí&lt;/a>.&lt;/p></description></item><item><title>Concursos con Subtareas</title><link>https://blog.omegaup.com/posts/concursos-con-subtareas/</link><pubDate>Tue, 15 Aug 2023 23:25:06 +0000</pubDate><guid>https://blog.omegaup.com/posts/concursos-con-subtareas/</guid><description>
+&lt;p>Nos es grato informar que hemos liberado una nueva modalidad de concursos llamada &lt;strong>“Concursos con subtareas”&lt;/strong>, para poder cubrir satisfactoriamente las necesidades de los concursos realizados en la &lt;strong>Olimpiada Internacional de Informática&lt;/strong> (&lt;strong>IOI&lt;/strong> por su siglas en inglés), el cual ha modificado la fórmula para calcular el puntaje asignado a un concursante para un problema en específico.&lt;/p>
+&lt;h1>Antecedentes&lt;/h1>&lt;p>Anteriormente en &lt;em>omegaUp&lt;/em> sólo se contaba con dos distintos tipos de concursos:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;em>Calificación parcial&lt;/em>: En este modo de concursos se tomaba en cuenta el mayor puntaje de la suma de todos los grupos de casos. El modo era utilizado para los concursos de la OMI, entre otros.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;em>Calificación todo o nada&lt;/em>: En este modo de concursos el participante tenía que obtener el 100% de los casos correctos para que se contaran en su puntaje, de otra forma el marcador para dicho problema sería 0 sin importar si tenía respuestas parcialmente correctas. Para los concursos del ICPC era para los que se utilizaba este modo de concursos.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>Con este nuevo modo de concursos podremos cubrir una mayor parte de concursos desde la plataforma de &lt;em>omegaUp&lt;/em>, lo cual puede ayudar a escuelas, organizaciones a realizar estos concursos con la seguridad de que se pueden calcular los puntajes correctamente.&lt;/p>
+&lt;h1>Definición del nuevo método de evaluación&lt;/h1>&lt;p>Al dar de alta un problema, este ya cuenta con una división de subtareas (o grupos de casos) y a cada subtarea se le asigna un porcentaje de puntaje, de tal forma que la suma de todas las subtareas nos da un 100%.&lt;/p>
+&lt;p>La definición de este nuevo método de evaluación es la siguiente:&lt;/p>
+&lt;blockquote>
+&lt;p>“El puntaje final para cada subtarea será el máximo puntaje de esta subtarea a lo largo de todos los envíos. El puntaje para cada tarea será la suma de los puntajes para sus subtareas. (Por ejemplo, considere a un concursante que hizo 2 envíos en una tarea que contiene 2 subtareas. En la primera solución enviada obtuvo 30 puntos para la primera subtarea y 10 puntos para la segunda subtarea, en la segunda solución obtuvo 0 puntos para la primera subtarea y 40 puntos para la segunda subtarea. Entonces el puntaje final para esta tarea será 70)”&lt;/p>
+&lt;/blockquote>
+&lt;p>Para representar gráficamente el ejemplo anterior, véase la la siguiente imagen:&lt;/p>
+&lt;figure>&lt;a href="https://blog.omegaup.com/images/Contest-With-Subtasks-Image-1.png">&lt;img src="https://blog.omegaup.com/images/Contest-With-Subtasks-Image-1.png"
+alt="Image 1" width="1472" height="649">&lt;/a>&lt;figcaption>
+&lt;h4>Image 1&lt;/h4>&lt;p>Image 1&lt;/p>
+&lt;/figcaption>
 &lt;/figure>
-
-&lt;p>Queremos presentarles el nuevo ranking de escuelas de omegaUp, tanto &lt;a href="https://omegaup.com/schoolofthemonth/">mensual&lt;/a> como &lt;a href="https://omegaup.com/rank/schools/">histórico&lt;/a>. Cada uno de ellos funciona de manera similar, salvo por algunas variaciones que detallaremos a continuación:&lt;/p>
+&lt;p>Para el método de concursos parcial, el puntaje del problema sería 40, debido a que es el mayor puntaje por envío obtenido.&lt;/p>
+&lt;p>Tomando en cuenta el nuevo método, donde se tienen que sumar los puntajes mayores por cada subtarea, el puntaje total sería 70, debido a que para la subtarea (caso) 1 se obtendría 30 y para la subtarea (caso) 2 se obtendría 40.&lt;/p>
+&lt;h1>¿Cómo crear un concurso con la modalidad de subtareas?&lt;/h1>&lt;p>La forma de crear un concurso con la modalidad de subtareas se realiza de la misma forma que ya se crean los concursos al día de hoy. Sólo existe un campo nuevo en el formulario llamado &lt;em>“Modo de puntaje”&lt;/em> donde se tiene que elegir la opción de &lt;em>“Máximo por grupo”&lt;/em>:&lt;/p>
+&lt;figure>&lt;a href="https://blog.omegaup.com/images/Contest-With-Subtasks-Image-2.png">&lt;img src="https://blog.omegaup.com/images/Contest-With-Subtasks-Image-2.png"
+alt="Image 2" width="936" height="572">&lt;/a>&lt;figcaption>
+&lt;h4>Image 2&lt;/h4>&lt;p>Image 2&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>En la vista de Arena, no hay cambios de interfaz considerables. Los elementos continúan siendo los mismos. En el caso de la lista de envíos seguirá mostrando los mismos veredictos.&lt;/p>
+&lt;p>Lo único que cambia es el modo en el que se calcula el ranking, tanto en la tabla de mini-ranking:&lt;/p>
+&lt;figure>&lt;a href="https://blog.omegaup.com/images/Contest-With-Subtasks-Image-3.png">&lt;img src="https://blog.omegaup.com/images/Contest-With-Subtasks-Image-3.png"
+alt="Image 3" width="344" height="398">&lt;/a>&lt;figcaption>
+&lt;h4>Image 3&lt;/h4>&lt;p>Image 3&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>Como en el scoreboard:&lt;/p>
+&lt;figure>&lt;a href="https://blog.omegaup.com/images/Contest-With-Subtasks-Image-4.png">&lt;img src="https://blog.omegaup.com/images/Contest-With-Subtasks-Image-4.png"
+alt="Image 4" width="854" height="509">&lt;/a>&lt;figcaption>
+&lt;h4>Image 4&lt;/h4>&lt;p>Image 4&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>Y en el navegador de problemas:&lt;/p>
+&lt;figure>&lt;a href="https://blog.omegaup.com/images/Contest-With-Subtasks-Image-5.png">&lt;img src="https://blog.omegaup.com/images/Contest-With-Subtasks-Image-5.png"
+alt="Image 5" width="278" height="509">&lt;/a>&lt;figcaption>
+&lt;h4>Image 5&lt;/h4>&lt;p>Image 5&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>Atentamente, el equipo de omegaUp.&lt;/p></description></item><item><title>Concursos por equipos</title><link>https://blog.omegaup.com/posts/concursos-por-equipos/</link><pubDate>Thu, 24 Mar 2022 14:35:06 +0000</pubDate><guid>https://blog.omegaup.com/posts/concursos-por-equipos/</guid><description>
+&lt;p>Nos es grato informar que hemos liberado una nueva funcionalidad llamada &lt;strong>&amp;ldquo;Concursos por equipos&amp;rdquo;&lt;/strong>, para poder atender los concursos con formato de &lt;strong>ICPC&lt;/strong>, los cuales se realizan en equipos. Para que esta nueva modalidad de concursos pueda utilizarse, también se han liberado algunas características extras que se describirán más adelante.&lt;/p>
+&lt;p>Si estás familiarizado con la plataforma encontrarás similitud con funcionalidades que ya existen desde hace tiempo. Si no es el caso, comenzamos con el primer paso.&lt;/p>
+&lt;h1>1.- Creación de grupo de equipos&lt;/h1>&lt;p>Para tener un mejor control de los equipos que van a participar en un concurso con la modalidad de equipos, es necesario crear un grupo de equipos, el cual es muy similar a los grupos que se utilizan al día de hoy, sólo que en este caso existen algunas variantes, ya que en lugar de identidades se agregarán equipos que contienen usuarios y/o identidades.&lt;/p>
+&lt;p>Para crear el grupo es necesario ir al menú superior derecho y elegir la opción de &lt;em>Mis grupos de equipos&lt;/em>. Aquí se mostrará el listado de grupos de equipos que hayas creado, con la opción de editarlos. En caso de ser la primera vez que ingresas, sólo te aparecerá el botón de Crear nuevo grupo de equipos.&lt;/p>
+&lt;p>En esta pantalla encontrarás un formulario donde tendrás que ingresar el nombre del grupo, una breve descripción que indique el propósito del mismo y el número límite de integrantes permitidos por equipo. El alias no es necesario escribirlo ya que se autogenera de acuerdo al nombre que indiques. En caso de que el alias ya sea utilizado en otro grupo de equipos, habrá necesidad de elegir un nombre distinto para que se regenere el alias, así hasta encontrar uno disponible.&lt;/p>
+&lt;p>En la siguiente animación se muestra lo mencionado anteriormente:&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/CdbX11oY_yc?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+>&lt;/iframe>
+&lt;/div>
+&lt;h1>2.- Carga de equipos&lt;/h1>&lt;p>Una vez que guardas el grupo, te aparecerá la vista de edición, y se seleccionará la pestaña de cargar equipos. Este paso es similar a la carga de identidades de un grupo, en este &lt;a href="https://blog.omegaup.com/administracion-de-identidades/" target="_blank" rel="noopener">post&lt;/a> puedes ver la manera de cargar el archivo. La diferencia con ese proceso es que estas identidades son para equipos, quiere decir que dentro de cada identidad se podrán asociar tantos miembros como se hayan configurado en el formulario de &lt;em>Crear grupo de equipos&lt;/em>. Estos miembros se pueden cargar en el archivo &lt;em>&lt;strong>.csv&lt;/strong>&lt;/em>, en caso de que conozcas los nombres de usuarios (&lt;em>usernames&lt;/em>) de cada miembro o lo puedes hacer posteriormente en la pestaña de equipos donde podrás agregarlos manualmente a cada equipo.&lt;/p>
+&lt;p>La regla principal en la creación de equipos es que un usuario no puede pertenecer a dos equipos distintos del mismo grupo de equipos. Así que si por equivocación se llegara a intentar realizar esta acción, la plataforma mandaría un mensaje de error.&lt;/p>
+&lt;p>Cabe destacar que la carga de identidades y equipos está en una etapa experimental que aún no se abre en su totalidad al público en general hasta probar que se le está dando un uso adecuado, así que si estás interesado en crear grupos de equipos, nos puedes escribir a &lt;a href="mailto:engineering@omegaup.com" >engineering@omegaup.com&lt;/a> para que te podamos habilitar los privilegios necesarios.&lt;/p>
+&lt;p>En la siguiente animación se muestra el proceso de lo antes descrito:&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/mgR6EclyRHw?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+>&lt;/iframe>
+&lt;/div>
+&lt;h2>2.1.- Carga de equipos con identidades auto-generadas&lt;span class="hx-absolute -hx-mt-20" id="21--carga-de-equipos-con-identidades-auto-generadas">&lt;/span>
+&lt;a href="#21--carga-de-equipos-con-identidades-auto-generadas" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Habrá ocasiones en que se requiera organizar un concurso con una gran cantidad de equipos, lo cual hará más complicada la carga de los miembros de cada equipo debido a que este número pudiera llegar a ser demasiado grande.&lt;/p>
+&lt;p>Para esta situación se considera una opción de generar las identidades para cada equipo una vez que se carga el archivo &lt;em>&lt;strong>.csv&lt;/strong>&lt;/em>. Esto quiere decir que sólo será necesario cargar el archivo sin incluir nombres de usuarios, y en su lugar habrá que seleccionar la casilla de Autogenerar identidades que se encuentra en el formulario. Para este caso en particular es de suma importancia descargar el archivo con las identidades que se generaron antes de guardar los cambios, ya que aquí se van a mostrar el listado de usernames junto a su contraseña, la cual sólo se podrá visualizar en este punto, ya que al guardar los cambios estas contraseñas de van a encriptar. Lo cual ocasionará que ya no sea posible volverlas a ver en la plataforma.&lt;/p>
+&lt;p>En la siguiente animación se muestra el proceso antes mencionado:&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/Yx9xzIe_FAU?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+>&lt;/iframe>
+&lt;/div>
+&lt;h1>3.- Creación de concurso por equipos&lt;/h1>&lt;p>Una vez que ya hayas creado los grupos de equipo, es momento de generar el concurso por equipos. En este caso, el formulario es exactamente el mismo que se utiliza para cualquier tipo de concurso, sólo que ahora se agregó un nuevo campo en el formulario llamado &lt;em>Concurso por equipos&lt;/em> y aparece como una casilla de tipo checkbox. Al momento de activar dicha casilla también se habilita un campo de texto donde tendrás que buscar el grupo de equipos, ya sea por nombre o por alias. En caso de tener activa la casilla, pero no hayas escrito el nombre del grupo, obtendrás un error indicando que este campo es obligatorio.&lt;/p>
+&lt;p>Ya que se haya creado el concurso, te aparecerá la vista de &lt;em>Editar concurso&lt;/em>, y a diferencia de los concursos normales, en este tipo de concurso verás en las opciones una sección de &lt;em>Agregar grupo&lt;/em>, en lugar de la opción de &lt;em>Agregar concursante&lt;/em>, debido a lo explicado al inicio de este post. También se oculta la opción de &lt;em>Modo de acceso&lt;/em>, esto con la finalidad de evitar que se creen concursos para equipos públicos (sólo por el momento, en un futuro se evaluará si se abre esta opción).&lt;/p>
+&lt;p>En la sección de &lt;em>Agregar grupo&lt;/em> podrás reemplazar al equipo, siempre y cuando ninguno de los equipos haya realizado al menos un envío de alguno de los problemas.&lt;/p>
+&lt;p>En la siguiente animación se muestra todo lo que se comentó previamente:&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/G_X_-NCOblU?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+>&lt;/iframe>
+&lt;/div>
+&lt;h2>3.1.- Ingreso como equipo con cuenta previamente existente&lt;span class="hx-absolute -hx-mt-20" id="31--ingreso-como-equipo-con-cuenta-previamente-existente">&lt;/span>
+&lt;a href="#31--ingreso-como-equipo-con-cuenta-previamente-existente" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Una vez que ya se creó el grupo de equipos y el concurso por equipos. Es momento de notificar a los usuarios que fueron inscritos al concurso por medio de un equipo, para que puedan acceder al concurso.&lt;/p>
+&lt;p>Cabe destacar que estos usuarios ya contarán con una identidad de equipo, la cual se muestra en el menú superior derecho. La forma de distinguir una identidad de una identidad de equipo es por la nomenclatura del nombre de usuario (&lt;em>username&lt;/em>). La nomenclatura de una identidad de grupo es la siguiente:&lt;/p>
+&lt;p>[&lt;code>group_name&lt;/code>]:[&lt;code>identity_name&lt;/code> ].&lt;/p>
+&lt;p>En tanto la nomenclatura de las identidades de un grupo de equipos es la siguiente:&lt;/p>
+&lt;p>&lt;code>teams&lt;/code>:[&lt;code>group_name&lt;/code>]:[&lt;code>identity_name&lt;/code>].&lt;/p>
+&lt;p>Entonces, para poder visualizar el concurso que fue creado para equipos es necesario hacer un intercambio a la sesión de esta nueva identidad a la que fue asociado el concursante.&lt;/p>
+&lt;p>En la siguiente animación se muestra lo mencionado anteriormente:&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/qiD2ElDky5o?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+>&lt;/iframe>
+&lt;/div>
+&lt;h2>3.2.- Ingreso como equipo con cuenta auto-generada&lt;span class="hx-absolute -hx-mt-20" id="32--ingreso-como-equipo-con-cuenta-auto-generada">&lt;/span>
+&lt;a href="#32--ingreso-como-equipo-con-cuenta-auto-generada" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>En el caso de las identidades que se crearon mediante la carga de archivo &lt;em>&lt;strong>.csv&lt;/strong>&lt;/em> y se eligió la opción de &lt;em>Autogenerar identidades&lt;/em> ya no es necesario hacer el cambio de cuenta para poder ver el concurso en el listado. Esto quiere decir que una vez que inicia sesión aparecerá el nombre del equipo en la parte superior derecha, tal como se muestra en la siguiente animación:&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/JYjPwfR07EM?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+>&lt;/iframe>
+&lt;/div>
+&lt;h1>4.- Envío de soluciones a problemas de concurso por equipos&lt;/h1>&lt;p>Por último, ya que el usuario encontró el concurso por equipos al que fue añadido sólo será necesario que ingrese a dicho concurso y comience a realizar envíos a las soluciones de los problemas. Al ser un concurso por equipos, los integrantes del equipo también podrán acceder de la misma forma y todos podrán realizar envíos simultáneamente. Las reglas del concurso son las mismas que en el resto de concursos, no podrán realizar envíos de un mismo problema hasta que haya transcurrido el tiempo entre cada envío con el que fue configurado el concurso (60 segundos por defecto).&lt;/p>
+&lt;p>En la animación se muestra un ejemplo de lo antes mencionado:&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/1JR_xw9JQzs?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+>&lt;/iframe>
+&lt;/div>
+&lt;p>Atentamente, el equipo de omegaUp.&lt;/p></description></item><item><title>Todos los videos del curso de Introducción la Programación con C++</title><link>https://blog.omegaup.com/posts/todos-los-videos-del-curso-de-introduccion-a-c/</link><pubDate>Tue, 07 Apr 2020 04:05:35 +0000</pubDate><guid>https://blog.omegaup.com/posts/todos-los-videos-del-curso-de-introduccion-a-c/</guid><description>
+&lt;p>&lt;em>Actualización 10/04/20: El curso ha terminado y este post incluye los 11 videos.&lt;/em>&lt;/p>
+&lt;p>Como parte de la iniciativa &lt;a href="https://blog.omegaup.com/quedate-en-casa-con-omegaup-nuestra-respuesta-al-covid-19/" target="_blank" rel="noopener">#QuédateEnCasaConOmegaUp&lt;/a> estuvimos impartiendo un curso de Introducción a C++ en vivo a través de &lt;a href="https://www.facebook.com/omegaup/" target="_blank" rel="noopener">Facebook Live&lt;/a>.&lt;/p>
+&lt;p>El material del curso está disponible de forma abierta y gratuita en la plataforma de omegaUp y puedes acceder &lt;a href="https://omegaup.com/course/introduccion_a_cpp" target="_blank" rel="noopener">en este enlace&lt;/a>  (&lt;a href="https://omegaup.com/course/introduccion_a_cpp" target="_blank" rel="noopener">https://omegaup.com/course/introduccion_a_cpp&lt;/a>) para ver el material y resolver los ejercicios en línea.&lt;/p>
+&lt;p>Aquí te dejamos un enlace a todos los videos y estaremos actualizando este post con cada video nuevo en la serie:&lt;/p>
+&lt;iframe
+style="border: none; overflow: hidden;"
+src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/omegaup/videos/548429432756527/&amp;amp;show_text=0&amp;amp;width=560"
+width="560"
+height="315"
+frameborder="0"
+scrolling="no"
+allowfullscreen="allowfullscreen">&lt;/iframe>
+&lt;iframe
+style="border: none; overflow: hidden;"
+src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/omegaup/videos/522543238459779/&amp;amp;show_text=0&amp;amp;width=560"
+width="560"
+height="315"
+frameborder="0"
+scrolling="no"
+allowfullscreen="allowfullscreen">&lt;/iframe>
+&lt;iframe
+style="border: none; overflow: hidden;"
+src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/omegaup/videos/212668543167064/&amp;amp;show_text=0&amp;amp;width=560"
+width="560"
+height="315"
+frameborder="0"
+scrolling="no"
+allowfullscreen="allowfullscreen">&lt;/iframe>
+&lt;iframe
+style="border: none; overflow: hidden;"
+src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/omegaup/videos/357400058497402/&amp;amp;show_text=0&amp;amp;width=560"
+width="560"
+height="315"
+frameborder="0"
+scrolling="no"
+allowfullscreen="allowfullscreen">&lt;/iframe>
+&lt;iframe
+style="border: none; overflow: hidden;"
+src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/omegaup/videos/259828738377759/&amp;amp;show_text=0&amp;amp;width=560"
+width="560"
+height="315"
+frameborder="0"
+scrolling="no"
+allowfullscreen="allowfullscreen">&lt;/iframe>
+&lt;iframe
+style="border: none; overflow: hidden;"
+src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/omegaup/videos/172244170473447/&amp;amp;show_text=0&amp;amp;width=560"
+width="560"
+height="315"
+frameborder="0"
+scrolling="no"
+allowfullscreen="allowfullscreen">&lt;/iframe>
+&lt;iframe
+style="border: none; overflow: hidden;"
+src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/omegaup/videos/2832040483566590/&amp;amp;show_text=0&amp;amp;width=560"
+width="560"
+height="315"
+frameborder="0"
+scrolling="no"
+allowfullscreen="allowfullscreen">&lt;/iframe>
+&lt;iframe
+style="border: none; overflow: hidden;"
+src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/omegaup/videos/677485326343175/&amp;amp;show_text=0&amp;amp;width=560"
+width="560"
+height="315"
+frameborder="0"
+scrolling="no"
+allowfullscreen="allowfullscreen">&lt;/iframe>
+&lt;iframe
+style="border: none; overflow: hidden;"
+src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/omegaup/videos/657605908142270/&amp;amp;show_text=0&amp;amp;width=560"
+width="560"
+height="315"
+frameborder="0"
+scrolling="no"
+allowfullscreen="allowfullscreen">&lt;/iframe>
+&lt;iframe
+style="border: none; overflow: hidden;"
+src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/omegaup/videos/918756455213141/&amp;amp;show_text=0&amp;amp;width=560"
+width="560"
+height="315"
+frameborder="0"
+scrolling="no"
+allowfullscreen="allowfullscreen">&lt;/iframe>
+&lt;iframe
+style="border: none; overflow: hidden;"
+src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/omegaup/videos/225875965155647/&amp;amp;show_text=0&amp;amp;width=560"
+width="560"
+height="315"
+frameborder="0"
+scrolling="no"
+allowfullscreen="allowfullscreen">&lt;/iframe>
+&lt;p>Queremos agradecer especialmente a nuestro usuario &lt;a href="https://omegaup.com/profile/OrlandoIsay" target="_blank" rel="noopener">&lt;strong>OrlandoIsay&lt;/strong>&lt;/a> del &lt;a href="https://omegaup.com/schools/profile/53/" target="_blank" rel="noopener">Instituto Tecnológico Superior del Sur de Guanajuato (ITSUR)&lt;/a> por impartir este excelente curso.&lt;/p></description></item><item><title>Quédate en casa con omegaUp - nuestra respuesta al COVID-19</title><link>https://blog.omegaup.com/posts/quedate-en-casa-con-omegaup-nuestra-respuesta-al-covid-19/</link><pubDate>Mon, 23 Mar 2020 03:38:03 +0000</pubDate><guid>https://blog.omegaup.com/posts/quedate-en-casa-con-omegaup-nuestra-respuesta-al-covid-19/</guid><description>
+&lt;h3>&lt;strong>Querida comunidad omegaUp:&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="querida-comunidad-omegaup">&lt;/span>
+&lt;a href="#querida-comunidad-omegaup" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>La epidemia del COVID-19 ha causado cambios importantes en nuestra vida diaria, trabajo, escuela y familia. Para ayudar a manejar el Distanciamiento Social a toda nuestra comunidad, hemos creado la campaña &lt;strong>Quédate en casa con omegaUp:&lt;/strong> una serie de iniciativas educacionales en línea para apoyar la continuidad de la educación tecnológica en Latinoamérica.&lt;/p>
+&lt;h4>&lt;img src="https://blog.omegaup.com/images/Screen-Shot-2020-03-23-at-7.53.05-AM.png" alt="" loading="lazy" />&lt;span class="hx-absolute -hx-mt-20" id="imagesscreen-shot-2020-03-23-at-75305-ampng">&lt;/span>
+&lt;a href="#imagesscreen-shot-2020-03-23-at-75305-ampng" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;h4>1. Tutoriales para Profesores: ¿Cómo usar omegaUp para dar clases de programación en línea?&lt;span class="hx-absolute -hx-mt-20" id="1-tutoriales-para-profesores-cómo-usar-omegaup-para-dar-clases-de-programación-en-línea">&lt;/span>
+&lt;a href="#1-tutoriales-para-profesores-c%c3%b3mo-usar-omegaup-para-dar-clases-de-programaci%c3%b3n-en-l%c3%adnea" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>&lt;a href="https://omegaUp.com" target="_blank" rel="noopener">omegaUp.com&lt;/a> es una plataforma gratuita en Español que ayuda a estudiantes a mejorar sus habilidades en Ingeniería de Software resolviendo retos de programación de una forma divertida y competitiva. Profesores de más de 100 escuelas de nivel Medio Superior y Superior en México y Latinoamérica usan la plataforma para dejar tareas y exámenes con retos de programación que los alumnos pueden resolver en línea.&lt;/p>
+&lt;p>Te invitamos a ver nuestros video-tutoriales para saber cómo funciona la plataforma de omegaUp y cómo puedes usarla para administrar tus cursos de programación en línea. Aquí dejamos el primer tutorial, en los próximos días produciremos más tutoriales que publicaremos en &lt;a href="https://facebook.com/omegaup" target="_blank" rel="noopener">nuestra página de Facebook&lt;/a>:&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=NgaYc9eYBbo" target="_blank" rel="noopener">https://www.youtube.com/watch?v=NgaYc9eYBbo&lt;/a>&lt;/p>
+&lt;h4>2. Para estudiantes: Ciclo de Conferencias en línea vía Facebook Live&lt;span class="hx-absolute -hx-mt-20" id="2-para-estudiantes-ciclo-de-conferencias-en-línea-vía-facebook-live">&lt;/span>
+&lt;a href="#2-para-estudiantes-ciclo-de-conferencias-en-l%c3%adnea-v%c3%ada-facebook-live" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>Experiencias de Carrera es uno de los programas sociales de omegaUp que busca conectar el talento latinoamericano con experiencia en la industria de la Ingeniería de Software con estudiantes para motivarlos a continuar en el ramo de las Ciencias Computacionales y compartir la experiencia de trabajar en compañías como Google, Microsoft, Facebook entre otras.&lt;/p>
+&lt;p>Usualmente omegaUp organiza estas pláticas para las instituciones reconocidas como La Escuela del Mes y Clubes de Programación omegaUp. Sin embargo durante Marzo y Abril abriremos el ciclo de conferencias a todos los estudiantes que deseen entrar a través de Facebook Live. &lt;a href="https://facebook.com/omegaup" target="_blank" rel="noopener">Síguenos en nuestra página de Facebook&lt;/a> para que te enteres de las fechas y no te pierdas a ninguno de nuestros excelentes ponentes.&lt;/p>
+&lt;h4>3. Para estudiantes: Aprende a programar en C++ con omegaUp - curso en línea&lt;span class="hx-absolute -hx-mt-20" id="3-para-estudiantes-aprende-a-programar-en-c-con-omegaup---curso-en-línea">&lt;/span>
+&lt;a href="#3-para-estudiantes-aprende-a-programar-en-c-con-omegaup---curso-en-l%c3%adnea" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p> &lt;/p>
+&lt;p>En omegaUp estamos preparando un curso en línea gratuito y abierto al público en general para aprender a programar en C++ en línea, con omegaUp. El curso estará basado en &lt;a href="https://omegaup.com/course/introduccion_a_cpp/" target="_blank" rel="noopener">el material de Introducción a C++ que tenemos disponible en la plataforma de omegaUp&lt;/a>.&lt;/p>
+&lt;p>Este curso será una excelente oportunidad para alumnos de nivel Medio Superior y Superior que deseen ampliar sus conocimientos de Ingeniería de Software, o todos aquellos simplemente empezar a incursionar en el amplio mundo de las Ciencias Computacionales.&lt;/p>
+&lt;p>&lt;a href="https://www.facebook.com/omegaup" target="_blank" rel="noopener">Síguenos en nuestra página de Facebook&lt;/a> para conocer los horarios y más detalles sobre el curso.&lt;/p>
+&lt;h4>4. Liga de Programación omegaUp&lt;span class="hx-absolute -hx-mt-20" id="4-liga-de-programación-omegaup">&lt;/span>
+&lt;a href="#4-liga-de-programaci%c3%b3n-omegaup" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>¿Estás interesado en el mundo de la programación competitiva? omegaUp organizará la 1er Liga de Programación omegaUp, una serie de concursos semanales abiertos al público en general con temas y niveles de dificultad variados, &lt;strong>empezando el próximo Jueves 26 de Marzo.&lt;/strong>&lt;/p>
+&lt;p>Demuestra tus habilidades de resolución de problemas computacionales y mejora tu nivel compitiendo contra los mejores. &lt;a href="https://facebook.com/omegaup" target="_blank" rel="noopener">Para más detalles sobre las bases, registro, premios y fechas consulta nuestra página de Facebook&lt;/a>.&lt;/p>
+&lt;h4>5. Para nuestros amigos en Centroamérica: 1er Copa Centroamericana de Programación&lt;span class="hx-absolute -hx-mt-20" id="5-para-nuestros-amigos-en-centroamérica-1er-copa-centroamericana-de-programación">&lt;/span>
+&lt;a href="#5-para-nuestros-amigos-en-centroam%c3%a9rica-1er-copa-centroamericana-de-programaci%c3%b3n" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>&lt;img src="https://blog.omegaup.com/images/copa-centro.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>En omegaUp también estamos organizando la 1er Copa Centroamericana de Programación, una competición dirigida a nuestra comunidad de El Salvador, Honduras y Guatemala. El concurso se llevará a cabo el Sábado 25 de Abril. Para mayor información sobre los requisitos y registro te invitamos &lt;a href="https://www.facebook.com/omegaup/photos/a.761830983857345/3824008820972864/?type=3&amp;amp;theater" target="_blank" rel="noopener">a leer nuestras bases aquí.&lt;/a>&lt;/p>
+&lt;hr>
+&lt;p>En estos momentos difíciles es cuando más creemos que podemos contribuir a la causa educacional. Por favor ayúdanos a compartir este mensaje con el hashtag &lt;strong>#QuédateEnCasaConOmegaUp&lt;/strong>. Estamos en contacto y por favor cuiden de su salud y la de sus familiares manteniéndose en casa.&lt;/p>
+&lt;p>&lt;img src="https://blog.omegaup.com/images/firma.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>Joe Ponce Director Ejecutivo, omegaUp&lt;/p></description></item><item><title>El nuevo ranking de escuelas de omegaUp</title><link>https://blog.omegaup.com/posts/el-nuevo-ranking-de-escuelas-de-omegaup/</link><pubDate>Wed, 05 Feb 2020 03:28:58 +0000</pubDate><guid>https://blog.omegaup.com/posts/el-nuevo-ranking-de-escuelas-de-omegaup/</guid><description>
+&lt;figure>&lt;a href="https://blog.omegaup.com/images/Ranking.gif">&lt;img src="https://blog.omegaup.com/images/Ranking.webm"
+alt="Rankings de escuelas" width="1033" height="858">&lt;/a>&lt;figcaption>
+&lt;p>Rankings de escuelas&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>Queremos presentarles el nuevo ranking de escuelas de omegaUp, tanto &lt;a href="https://omegaup.com/schoolofthemonth/" target="_blank" rel="noopener">mensual&lt;/a> como &lt;a href="https://omegaup.com/rank/schools/" target="_blank" rel="noopener">histórico&lt;/a>. Cada uno de ellos funciona de manera similar, salvo por algunas variaciones que detallaremos a continuación:&lt;/p>
 &lt;ul>
 &lt;li>El score de una escuela para el ranking mensual, se obtiene a partir de la suma de los puntos que provee cada problema que los usuarios de la escuela han resuelto dentro del mes actual. &lt;/li>
 &lt;/ul>
-&lt;p>Contamos los puntos de cada problema una única vez, por lo que si 10 usuarios de una misma escuela, resolvieron el mismo problema que otorgaba 0.5 puntos, la contribución de éstos es 0.5 y no 5 (0.5*10).&lt;/p></description></item><item><title>Insignias de Usuario en omegaUp</title><link>https://blog.omegaup.com/insignias-de-usuario-en-omegaup/</link><pubDate>Wed, 30 Oct 2019 21:14:17 +0000</pubDate><guid>https://blog.omegaup.com/insignias-de-usuario-en-omegaup/</guid><description>&lt;p>Estimados coders,&lt;/p>
+&lt;p>Contamos los puntos de cada problema una única vez, por lo que si 10 usuarios de una misma escuela, resolvieron el mismo problema que otorgaba 0.5 puntos, la contribución de éstos es 0.5 y no 5 (0.5*10).&lt;/p>
+&lt;ul>
+&lt;li>El score de una escuela para el ranking histórico es calculado de la misma manera que el rank mensual, con el diferencial de que el score se calcula a partir de todos los problemas que se resolvieron desde que la escuela fue creada.&lt;/li>
+&lt;/ul>
+&lt;p>Recuerda que un problema se cuenta como resuelto por una escuela, siempre que un usuario asociado a la misma, lo haya resuelto. Si dicho usuario, luego modifica su escuela actual en su perfil, dicho problema y el puntaje que éste aportaba al score de su escuela anterior, no se mueven a la nueva, puesto que a la fecha en que resolvió dicho problema, el usuario aún no pertenecía su nueva escuela.&lt;/p>
+&lt;p>Así que si lo que un coder desea es que su escuela mejore su score en el ranking de omegaUp, debe priorizar que los alumnos de la misma resuelvan la mayor cantidad de problemas distintos en la plataforma, pues el hecho de que varios resuelvan el mismo problema, aportaría lo mismo a que uno solo lo haga.&lt;/p>
+&lt;p>Atentamente,&lt;/p>
+&lt;p>El equipo de omegaUp&lt;/p></description></item><item><title>Insignias de Usuario en omegaUp</title><link>https://blog.omegaup.com/posts/insignias-de-usuario-en-omegaup/</link><pubDate>Wed, 30 Oct 2019 21:14:17 +0000</pubDate><guid>https://blog.omegaup.com/posts/insignias-de-usuario-en-omegaup/</guid><description>
+&lt;p>Estimados coders,&lt;/p>
 &lt;p>Tenemos el agrado de presentarles una nueva característica de la plataforma: “Insignias de Usuario”. Estas insignias son pequeños reconocimientos para los diversos logros alcanzados por ustedes y se encuentran ya disponibles en la plataforma.&lt;/p>
-&lt;p>Para ver las insignias que has obtenido, simplemente debes acceder a &lt;a href="https://omegaup.com/profile">tu perfil en omegaUp&lt;/a>, ahora existe una nueva sección donde se listarán todas tus insignias conseguidas:&lt;/p>
-&lt;p>&lt;a href="https://blog.omegaup.com/images/badges1.webm">&lt;video autoplay muted loop>
- &lt;source src="https://blog.omegaup.com/images/badges1.webm" type="video/mp4">
+&lt;p>Para ver las insignias que has obtenido, simplemente debes acceder a &lt;a href="https://omegaup.com/profile" target="_blank" rel="noopener">tu perfil en omegaUp&lt;/a>, ahora existe una nueva sección donde se listarán todas tus insignias conseguidas:&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/badges1.webm" >&lt;video autoplay muted loop>
+&lt;source src="https://blog.omegaup.com/images/badges1.webm" type="video/mp4">
 &lt;/video>
 &lt;/a>&lt;/p>
-&lt;p>Además, si quieres ver todas las insignias existentes, solo debes hacer click en el enlace &lt;em>Ver todas&lt;/em>, que se encuentra al costado del número de insignias obtenidas. Recuerda que al poner el mouse sobre el ícono de la insignia, podrás ver la descripción de lo que tienes que hacer para poder obtener dicha insignia. Hay insignias que tienen un ícono sombreado por completo de negro, eso significa que aún no la has obtenido, ¡podrás ver el ícono de la insignia una vez la obtengas!&lt;/p></description></item><item><title>El Nuevo Buscador de Problemas de omegaUp</title><link>https://blog.omegaup.com/el-nuevo-buscador-de-problemas-de-omegaup/</link><pubDate>Fri, 10 May 2019 19:52:06 +0000</pubDate><guid>https://blog.omegaup.com/el-nuevo-buscador-de-problemas-de-omegaup/</guid><description>&lt;p>Usuarios de omegaUp:&lt;/p>
+&lt;p>Además, si quieres ver todas las insignias existentes, solo debes hacer click en el enlace &lt;em>Ver todas&lt;/em>, que se encuentra al costado del número de insignias obtenidas. Recuerda que al poner el mouse sobre el ícono de la insignia, podrás ver la descripción de lo que tienes que hacer para poder obtener dicha insignia. Hay insignias que tienen un ícono sombreado por completo de negro, eso significa que aún no la has obtenido, ¡podrás ver el ícono de la insignia una vez la obtengas!&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/badges2.webm" >&lt;video autoplay muted loop>
+&lt;source src="https://blog.omegaup.com/images/badges2.webm" type="video/mp4">
+&lt;/video>
+&lt;/a>&lt;/p>
+&lt;p>Si quieres ver un poco más de información de una insignia, basta con que hagas click sobre ella, de esta manera, podrás acceder a una vista más detallada:&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/badges3.webm" >&lt;video autoplay muted loop>
+&lt;source src="https://blog.omegaup.com/images/badges3.webm" type="video/mp4">
+&lt;/video>
+&lt;/a>&lt;/p>
+&lt;p>Y eso no es todo… Ahora, cada vez que recibas una insignia nueva, recibirás también una notificación, así siempre estarás al tanto de los nuevos reconocimientos adquiridos.&lt;/p>
+&lt;p>Y si te estás llenando de notificaciones, puedes marcarlas como leídas a todas, o de manera individual.&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/badges4.webm" >&lt;video autoplay muted loop>
+&lt;source src="https://blog.omegaup.com/images/badges4.webm" type="video/mp4">
+&lt;/video>
+&lt;/a>&lt;/p>
+&lt;p>¡Tú también puedes proponer nuevas insignias, solo debes seguir la &lt;a href="https://blog.omegaup.com/guia-para-la-propuesta-de-insignias-en-omegaup/" target="_blank" rel="noopener">Guía para la propuesta de Insignias de omegaUp&lt;/a>!&lt;/p>
+&lt;p>Esperamos que te guste esta nueva característica y que puedas desbloquear todas las insignias de usuario en omegaUp.&lt;/p></description></item><item><title>El Nuevo Buscador de Problemas de omegaUp</title><link>https://blog.omegaup.com/posts/el-nuevo-buscador-de-problemas-de-omegaup/</link><pubDate>Fri, 10 May 2019 19:52:06 +0000</pubDate><guid>https://blog.omegaup.com/posts/el-nuevo-buscador-de-problemas-de-omegaup/</guid><description>
+&lt;p>Usuarios de omegaUp:&lt;/p>
 &lt;p>Hemos creado un Asistente de búsqueda de problemas. Aprovechando las etiquetas y puntuaciones de calidad y de dificultad que ustedes han venido otorgándole a los problemas de la plataforma, hemos implementado este nuevo buscador que permite filtrar los problemas que les interesen en base a diversos temas y la dificultad que éstos deberían poseer.&lt;/p>
-&lt;p>El Asistente de búsqueda de problemas es una alternativa más fácil de usar para usuarios iniciantes de omegaUp y permite que todos puedan mejorar sus habilidades de programación en tópicos específicos.&lt;/p></description></item><item><title>Categorías omegaUp</title><link>https://blog.omegaup.com/categorias/</link><pubDate>Tue, 01 May 2018 21:27:59 +0000</pubDate><guid>https://blog.omegaup.com/categorias/</guid><description>&lt;p>&lt;strong>Conoce las Categorías de Usuarios de omegaUp&lt;/strong>&lt;/p>
-&lt;p>&lt;a href="https://blog.omegaup.com/images/categorias.png">&lt;img src="https://blog.omegaup.com/images/categorias.png" alt="">&lt;/a>&lt;/p>
-&lt;p>Hemos asignando una categoría a cada usuario de omegaUp. La categoría de cada usuario depende su posición actual en el &lt;a href="https://omegaup.com/rank/">ranking de omegaUp&lt;/a> como se muestra a continuación:&lt;/p>
+&lt;p>El Asistente de búsqueda de problemas es una alternativa más fácil de usar para usuarios iniciantes de omegaUp y permite que todos puedan mejorar sus habilidades de programación en tópicos específicos.&lt;/p>
+&lt;h4>&lt;strong>¿Cómo funciona el asistente de búsqueda?&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="cómo-funciona-el-asistente-de-búsqueda">&lt;/span>
+&lt;a href="#c%c3%b3mo-funciona-el-asistente-de-b%c3%basqueda" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;figure>&lt;a href="https://blog.omegaup.com/images/Example.gif">&lt;img src="https://blog.omegaup.com/images/Example.webm"
+alt="problem-finder-wizard" width="817" height="455">&lt;/a>&lt;figcaption>
+&lt;p>Un breve ejemplo&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>Usarlo es súper fácil, simplemente debes acceder a la pestaña de &lt;em>Problemas&lt;/em> y, debajo de los campos de búsqueda, se encuentra un enlace que dice “&lt;em>Probar el nuevo buscador de problemas”,&lt;/em> al hacer click en dicho enlace, se abrirá el nuevo buscador, a partir de ahí el proceso es muy simple:&lt;/p>
+&lt;ol>
+&lt;li>Escoger los temas y lenguaje de interés: puedes filtrar problemas que puedan ser resueltos  únicamente con Karel o con varios lenguajes, además, al escribir en el campo de Tags, serán listados los temas que coincidan con lo que estás buscando, ¡puedes escoger más de uno solo! Recuerda que si escoges múltiples temas, serán listados los problemas que contengan AL MENOS uno de ellos. Cuando finalices tu selección, clickea en &lt;em>Siguiente.&lt;/em>&lt;/li>
+&lt;li>Escoger el rango de dificultad: los problemas de omegaUp pueden ser calificados desde Muy Fáciles hasta Muy Difíciles, en esta opción tú podrás seleccionar las posibles dificultades que tendrán los problemas que estás buscando. Si deseas escoger problemas que sean únicamente de un tipo de dificultad, puedes poner los selectores de inicio y fin de rango, en el mismo lugar. Una vez seleccionado el rango, debes clickear en &lt;em>Siguiente.&lt;/em>&lt;/li>
+&lt;li>Escoger la prioridad: en este paso deberás escoger el orden respecto al cual deberán ser listados los problemas, puedes escoger entre Calidad (la puntuación de calidad), Puntos para ranking (los puntos que otorga al ser resuelto) y Popularidad (cuántas veces se ha intentado resolver). Cuando hayas definido tu prioridad, clickea en &lt;em>Confirmar&lt;/em>.&lt;/li>
+&lt;/ol>
+&lt;p>Voilà! Los problemas que se ajustan a tus criterios de búsqueda aparecerán en la lista y podrás empezar a resolverlos y mejorar tus habilidades de programador!&lt;/p>
+&lt;p>Esperamos que esta nueva implementación te sea muy útil, si tienes alguna duda o consulta puedes contactarnos en los comentarios.&lt;/p></description></item><item><title>Categorías omegaUp</title><link>https://blog.omegaup.com/posts/categorias/</link><pubDate>Tue, 01 May 2018 21:27:59 +0000</pubDate><guid>https://blog.omegaup.com/posts/categorias/</guid><description>
+&lt;p>&lt;strong>Conoce las Categorías de Usuarios de omegaUp&lt;/strong>&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/categorias.png" >&lt;img src="https://blog.omegaup.com/images/categorias.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
+&lt;p>Hemos asignando una categoría a cada usuario de omegaUp. La categoría de cada usuario depende su posición actual en el &lt;a href="https://omegaup.com/rank/" target="_blank" rel="noopener">ranking de omegaUp&lt;/a> como se muestra a continuación:&lt;/p>
 &lt;ul>
 &lt;li>El top 1% de usuarios mejor posicionados en el rank obtiene la categoría &lt;strong>ω&lt;/strong> (“omega pequeña”) y color rojo.&lt;/li>
 &lt;li>El top 9% de usuarios siguientes obtiene categoría &lt;strong>Ω&lt;/strong> (“omega grande”) y color amarillo.&lt;/li>
@@ -42,20 +324,108 @@
 &lt;li>El top 35% de usuarios siguientes obtiene categoría &lt;strong>Ο&lt;/strong> (“ómicron grande”) y color verde.&lt;/li>
 &lt;li>El top 40% de usuarios siguientes obtiene categoría &lt;strong>ο&lt;/strong> (“ómicron pequeña”) y color gris.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;a href="https://blog.omegaup.com/images/plot.png">&lt;img src="https://blog.omegaup.com/images/plot.png" alt="">&lt;/a>&lt;/p></description></item><item><title>Historias omegaUp 2018</title><link>https://blog.omegaup.com/historias-omegaup-2018/</link><pubDate>Sun, 18 Mar 2018 21:37:51 +0000</pubDate><guid>https://blog.omegaup.com/historias-omegaup-2018/</guid><description>&lt;h1 id="convocatoria">Convocatoria&lt;/h1>
-&lt;h2 id="historias-omegaup-2018">“Historias omegaUp 2018”&lt;/h2>
-&lt;p>Convocamos a nuestra comunidad de usuarios, tanto alumnos como profesores, a que nos compartan cómo utilizan omegaUp en su vida diaria.&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/plot.png" >&lt;img src="https://blog.omegaup.com/images/plot.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
+&lt;p>&lt;strong>¿Cómo puedo saber mi categoría?&lt;/strong>&lt;/p>
+&lt;p>Puedes verla en tu &lt;a href="https://omegaup.com/profile/" target="_blank" rel="noopener">página de perfil&lt;/a>.&lt;/p>
+&lt;p>&lt;strong>¿Cómo asciendo de categoría?&lt;/strong>&lt;/p>
+&lt;p>¡Resolviendo más problemas! Conforme resuelvas más problemas, tu posición en el rank irá subiendo y con ella tu categoría.&lt;/p>
+&lt;p>&lt;strong>¿De dónde vienen los nombres de las categorías?&lt;/strong>&lt;/p>
+&lt;p>De la notación de &lt;a href="https://es.wikipedia.org/wiki/Notaci%C3%B3n_de_Landau" target="_blank" rel="noopener">Landau&lt;/a>.&lt;/p>
+&lt;p>&lt;strong>¿Por qué omega pequeña (&lt;strong>&lt;strong>ω&lt;/strong>&lt;/strong>) es más alto que omega grande (&lt;strong>&lt;strong>Ω&lt;/strong>&lt;/strong>)?&lt;/strong>&lt;/p>
+&lt;p>El orden de las categorías viene de la definición de las notaciones de Landau.&lt;/p>
+&lt;p>&lt;strong>Notación&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Definición formal&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Descripción&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Interpretación práctica&lt;/strong>&lt;/p>
+&lt;p>&lt;em>f(n) = o(g(n))&lt;/em>&lt;/p>
+&lt;p> &lt;a href="https://blog.omegaup.com/images/1.png" >&lt;img src="https://blog.omegaup.com/images/1.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
+&lt;p>&lt;em>f&lt;/em> es dominada por arriba asintóticamente por &lt;em>g&lt;/em>.&lt;/p>
+&lt;p>&lt;em>f &amp;lt; g&lt;/em>&lt;/p>
+&lt;p>&lt;em>f(n) = O(g(n))&lt;/em>&lt;/p>
+&lt;p> &lt;a href="https://blog.omegaup.com/images/2.png" >&lt;img src="https://blog.omegaup.com/images/2.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
+&lt;p>&lt;em>f&lt;/em> es acotada por arriba asintóticamente por &lt;em>g&lt;/em>.&lt;/p>
+&lt;p>&lt;em>f &amp;lt;= g&lt;/em>&lt;/p>
+&lt;p>&lt;em>f(n) = Θ(g(n))&lt;/em>&lt;/p>
+&lt;p>&lt;em>f(n) = o(g(n))&lt;/em> y &lt;em>f(n) = O(g(n))&lt;/em>&lt;/p>
+&lt;p>&lt;em>f&lt;/em> es acotada por arriba y abajo asintóticamente por &lt;em>g&lt;/em>.&lt;/p>
+&lt;p>&lt;em>f = g&lt;/em>&lt;/p>
+&lt;p>&lt;em>f(n) = Ω(g(n))&lt;/em>&lt;/p>
+&lt;p> &lt;a href="https://blog.omegaup.com/images/4.png" >&lt;img src="https://blog.omegaup.com/images/4.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
+&lt;p>&lt;em>f&lt;/em> es acotada por abajo asintóticamente por &lt;em>g&lt;/em>.&lt;/p>
+&lt;p>&lt;em>f &amp;gt;= g&lt;/em>&lt;/p>
+&lt;p>&lt;em>f(n) = ω(g(n))&lt;/em>&lt;/p>
+&lt;p> &lt;a href="https://blog.omegaup.com/images/5.png" >&lt;img src="https://blog.omegaup.com/images/5.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
+&lt;p>&lt;em>f&lt;/em> es dominada por abajo asintóticamente por &lt;em>g&lt;/em>.&lt;/p>
+&lt;p>&lt;em>f &amp;gt; g&lt;/em>&lt;/p></description></item><item><title>Historias omegaUp 2018</title><link>https://blog.omegaup.com/posts/historias-omegaup-2018/</link><pubDate>Sun, 18 Mar 2018 21:37:51 +0000</pubDate><guid>https://blog.omegaup.com/posts/historias-omegaup-2018/</guid><description>
+&lt;h1>Convocatoria&lt;/h1>&lt;h2>“Historias omegaUp 2018”&lt;span class="hx-absolute -hx-mt-20" id="historias-omegaup-2018">&lt;/span>
+&lt;a href="#historias-omegaup-2018" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Convocamos a nuestra comunidad de usuarios, tanto alumnos como profesores, a que nos compartan cómo utilizan omegaUp en su vida diaria.&lt;/p>
 &lt;p>Los formatos pueden ser: un video corto o un texto con fotografías. Muéstranos tu comunidad y los lugares donde utilizas omegaUp: escuela, hogar, cibercafé, etc.&lt;/p>
 &lt;p>En tu historia puedes incluir temas como:&lt;/p>
-&lt;p>Para ti, ¿qué significa programar? ¿Cuáles son tus sueños profesionales? ¿En este momento de tu vida qué herramienta te hace falta para acercarte a esos sueños?&lt;/p></description></item><item><title>Ranking de Escuelas en omegaUp</title><link>https://blog.omegaup.com/ranking-de-escuelas-en-omegaup/</link><pubDate>Sun, 18 Jun 2017 20:56:44 +0000</pubDate><guid>https://blog.omegaup.com/ranking-de-escuelas-en-omegaup/</guid><description>&lt;p>Uno de los principales enfoques de &lt;a href="https://omegaup.org/#team">nuestro equipo&lt;/a> este 2017 ha sido facilitar el uso de omegaUp en las escuelas. Previamente anunciamos el lanzamiento de &lt;a href="https://blog.omegaup.com/2017/05/anunciando-omegaup-escuelas/">omegaUp Escuelas&lt;/a>, un conjunto de funcionalidades que ayuda a los profesores a administrar cursos dentro de la plataforma y crear tareas y exámenes.&lt;/p>
-&lt;p>En esta ocasión anunciamos el nuevo &lt;a href="https://omegaup.com/schoolsrank/">ranking de escuelas más activas del mes&lt;/a> en omegaUp:&lt;/p>
-&lt;p>&lt;a href="https://blog.omegaup.com/images/Screen-Shot-2017-06-17-at-9.56.58-AM.png">&lt;img src="https://blog.omegaup.com/images/Screen-Shot-2017-06-17-at-9.56.58-AM-1024x322.png" alt="Ranking de Escuelas">&lt;/a>&lt;/p>
-&lt;h1 id="cómo-funciona">¿Cómo funciona?&lt;/h1>
-&lt;p>La intención del ranking de escuelas es fomentar la participación activa de las escuelas en omegaUp. Para el mes en turno, calculamos el número de usuarios activos y problemas distintos resueltos de cada escuela. &lt;strong>El ranking colocará a la escuela con mayor número de usuarios activos en el primer lugar y el número de problemas distintos resueltos se usará como criterio de desempate.&lt;/strong>&lt;/p></description></item><item><title>Anunciando omegaUp Mentores</title><link>https://blog.omegaup.com/anunciando-omegaup-mentores/</link><pubDate>Fri, 19 May 2017 14:34:23 +0000</pubDate><guid>https://blog.omegaup.com/anunciando-omegaup-mentores/</guid><description>&lt;p>La misión de omegaUp es incrementar el número de ingenieros de software talentosos en América Latina, por lo que nos complace anunciar públicamente el programa omegaUp Mentores. El objetivo de este proyecto es ayudar a que nuestros usuarios más activos potencialicen sus habilidades, conectándolos con gente de experiencia que puedan servirles de guía para el desarrollo de su carrera profesional.&lt;/p>
-&lt;p>Para ello, &lt;strong>omegaUp ofrecerá a los&lt;/strong> &lt;strong>&lt;a href="https://blog.omegaup.com/2014/06/el-nuevo-ranking-de-omegaup/">&lt;em>coders&lt;/em> del mes&lt;/a>&lt;/strong> &lt;strong>la posibilidad de recibir mentoría personalizada de ingenieros de software voluntarios con experiencia internacional, habiendo laborado en las principales empresas de tecnología del mundo&lt;/strong>, tales como Microsoft, Facebook, Amazon, Google, entre otras. Además, el usuario galardonado se hará acreedor a un diploma y un premio que podrá ser de utilidad en su desarrollo técnico o académico. Los ganadores interactúan con sus mentores mediante videollamadas y correos electrónicos. En el mes de Enero, el usuario Jorge Salazar Cruz, estudiante del CBTis 60 en Guanajuato, México, tuvo la oportunidad de hablar con Rafael Díaz, ingeniero de software en Microsoft.&lt;/p></description></item><item><title>Hackathon omegaUp febrero 2017 - Resultados</title><link>https://blog.omegaup.com/hackathon-omegaup-febrero-2017-resultados/</link><pubDate>Mon, 06 Mar 2017 17:11:20 +0000</pubDate><guid>https://blog.omegaup.com/hackathon-omegaup-febrero-2017-resultados/</guid><description>&lt;p>En omegaUp organizamos nuestro primer Hackathon del año abierto al público, del 23 al 25 de Febrero pasados. Esta vez incluimos un divertido Bug Bash, donde invitamos a nuestros voluntarios a encontrar bugs dentro de omegaUp y reportarlos en github.&lt;/p>
-&lt;p>Agradecemos la participación de todos los voluntarios que estuvieron involucrados. Los resultados que tuvimos fueron muy positivos: &lt;strong>50 bugs nuevos&lt;/strong> fueron descubiertos en el Bug Bash y se completaron &lt;strong>17 pull requests&lt;/strong>, muchos de ellos arreglando bugs que se encontraron en el mismo evento.&lt;/p></description></item><item><title>OmegaUp Inc</title><link>https://blog.omegaup.com/omegaup-inc/</link><pubDate>Sat, 15 Oct 2016 08:57:38 +0000</pubDate><guid>https://blog.omegaup.com/omegaup-inc/</guid><description>&lt;p>Durante más de 5 años omegaUp ha sido un proyecto de medio tiempo para nosotros. Escribir nuevas funcionalidades es difícil ya que todos tenemos otras responsabilidades de tiempo completo. Así que hace 7 meses comenzamos a considerar la opción de formalizar nuestro proyecto y convertirnos en una organización establecida legamente, que nos permitiera recibir ingresos y contratar a desarrolladores que se dedicaran de tiempo completo a diseñar y mantener la plataforma.&lt;/p></description></item><item><title>Concursos recomendados</title><link>https://blog.omegaup.com/concursos-recomendados/</link><pubDate>Fri, 15 Jan 2016 15:25:27 +0000</pubDate><guid>https://blog.omegaup.com/concursos-recomendados/</guid><description>&lt;p>Respondiendo a los comentarios que hemos recibido sobre la organización de la lista de concursos en la Arena, hemos &lt;a href="https://github.com/omegaup/omegaup/commit/24a00de9a696f06a5fa5567e03c0351a7ccbd90e">implementado&lt;/a> el concepto de Concursos Recomendados:&lt;/p>
-&lt;p>&lt;a href="https://omegaup.com/arena">&lt;img src="https://blog.omegaup.com/images/Screen-Shot-2016-01-15-at-7.06.48-AM.png" alt="Concursos recomendados">&lt;/a>&lt;/p>
-&lt;p>A partir de ahora tendremos una lista separada para los Concursos Recomendados actuales y pasados. Para pedir que tu concurso sea marcado como recomendado escribe un email a &lt;a href="mailto:omegaup-soporte@googlegroups.com">omegaup-soporte@googlegroups.com&lt;/a>.&lt;/p>
+&lt;p>Para ti, ¿qué significa programar? ¿Cuáles son tus sueños profesionales? ¿En este momento de tu vida qué herramienta te hace falta para acercarte a esos sueños?&lt;/p>
+&lt;p>Cuando tengas tu historia lista, envíala a &lt;a href="mailto:historias@omegaup.com" >historias@omegaup.com&lt;/a> desde el correo en el que te hayas registrado en nuestra plataforma. Adjunta tus fotos o video en el correo. Si los archivos son muy grandes, puedes utilizar una plataforma en la nube y compartir el enlace con nosotros.&lt;/p>
+&lt;h2>Incentivos y dinámica&lt;span class="hx-absolute -hx-mt-20" id="incentivos-y-dinámica">&lt;/span>
+&lt;a href="#incentivos-y-din%c3%a1mica" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>El comité evaluador revisará todas las historias y seleccionará una de ellas para otorgar:&lt;/p>
+&lt;ul>
+&lt;li>Una computadora portátil HP (Modelo 15-bs001) de 15.6&amp;quot;.&lt;/li>
+&lt;li>$2,000.00 pesos (MXN) para libros.&lt;/li>
+&lt;/ul>
+&lt;p>Además, las historias serán presentadas a nuestros donadores en la Cena de Gala Anual de omegaUp en Bellevue, Washington.&lt;/p>
+&lt;h2>Fechas&lt;span class="hx-absolute -hx-mt-20" id="fechas">&lt;/span>
+&lt;a href="#fechas" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>La convocatoria comienza el lunes 19 de marzo y termina el viernes 27 de abril.&lt;/p>
+&lt;p>La persona seleccionada será anunciada el día lunes 7 de mayo a las 20:00 horas (Hora Central de México) en un broadcast en vivo en nuestro canal oficial de &lt;a href="http://facebook.com/omegaup" target="_blank" rel="noopener">Facebook&lt;/a>.&lt;/p>
+&lt;p>Si tienes alguna duda ó comentario contáctanos a &lt;a href="mailto:historias@omegaup.com" >historias@omegaup.com&lt;/a>&lt;/p>
+&lt;h2>Términos y condiciones:&lt;span class="hx-absolute -hx-mt-20" id="términos-y-condiciones">&lt;/span>
+&lt;a href="#t%c3%a9rminos-y-condiciones" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Al momento de enviarnos el material, nos estás dando permiso de utilizar y compartir el contenido en nuestras redes sociales. Tienes que ser mayor de 13 años para participar. La convocatoria está abierta solamente para ciudadanos residentes de países de Latinoamérica.&lt;/p></description></item><item><title>Ranking de Escuelas en omegaUp</title><link>https://blog.omegaup.com/posts/ranking-de-escuelas-en-omegaup/</link><pubDate>Sun, 18 Jun 2017 20:56:44 +0000</pubDate><guid>https://blog.omegaup.com/posts/ranking-de-escuelas-en-omegaup/</guid><description>
+&lt;p>Uno de los principales enfoques de &lt;a href="https://omegaup.org/#team" target="_blank" rel="noopener">nuestro equipo&lt;/a> este 2017 ha sido facilitar el uso de omegaUp en las escuelas. Previamente anunciamos el lanzamiento de &lt;a href="https://blog.omegaup.com/2017/05/anunciando-omegaup-escuelas/" target="_blank" rel="noopener">omegaUp Escuelas&lt;/a>, un conjunto de funcionalidades que ayuda a los profesores a administrar cursos dentro de la plataforma y crear tareas y exámenes.&lt;/p>
+&lt;p>En esta ocasión anunciamos el nuevo &lt;a href="https://omegaup.com/schoolsrank/" target="_blank" rel="noopener">ranking de escuelas más activas del mes&lt;/a> en omegaUp:&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/Screen-Shot-2017-06-17-at-9.56.58-AM.png" >&lt;img src="https://blog.omegaup.com/images/Screen-Shot-2017-06-17-at-9.56.58-AM-1024x322.png" alt="Ranking de Escuelas" loading="lazy" />&lt;/a>&lt;/p>
+&lt;h1>¿Cómo funciona?&lt;/h1>&lt;p>La intención del ranking de escuelas es fomentar la participación activa de las escuelas en omegaUp. Para el mes en turno, calculamos el número de usuarios activos y problemas distintos resueltos de cada escuela. &lt;strong>El ranking colocará a la escuela con mayor número de usuarios activos en el primer lugar y el número de problemas distintos resueltos se usará como criterio de desempate.&lt;/strong>&lt;/p>
+&lt;p>Un &lt;strong>usuario activo&lt;/strong> es aquel que ha resuelto al menos un problema completamente (AC) y el número de &lt;strong>problemas resueltos&lt;/strong> es el total de problemas distintos que colectivamente han resuelto (AC) todos los usuarios registrados con una escuela.&lt;/p>
+&lt;p>El ranking se calcula una vez al día, los cambios en usuarios activos y problemas resueltos se verán reflejados al día siguiente. Recuerda que ambos números se calculan sólo para el mes en turno: todos los contadores de este ranking se reinician a principio de cada mes.&lt;/p>
+&lt;h1>¿Cómo registro mi escuela?&lt;/h1>&lt;p>Lo único que tienes que hacer para que tu escuela sea considerada para el ranking de escuelas de omegaUp es asegurarte de llenar correctamente tu Escuela en &lt;a href="https://omegaup.com/profile/edit/" target="_blank" rel="noopener">tu perfil&lt;/a> de omegaUp. Para construir el ranking usamos la información del perfil de todos los usuarios de la plataforma.&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/editschool.webm" >&lt;video autoplay muted loop>
+&lt;source src="https://blog.omegaup.com/images/editschool.webm" type="video/mp4">
+&lt;/video>
+&lt;/a>&lt;/p>
+&lt;p>Asegúrate de usar el mismo nombre de escuela que todos tus demás compañeros. Por ejemplo: ESCOM y Escuela Superior de Cómputo son considerados como diferentes nombres aunque se refieran a la misma escuela.&lt;/p>
+&lt;h1>¿Sugerencias?&lt;/h1>&lt;p>Si tienes comentarios o sugerencias sobre esta y otras funcionalidades de omegaUp déjanos tus comentarios en este post. ¿Te gustaría ayudarnos a mejorar la plataforma? ¡Contáctanos en &lt;strong>&lt;a href="mailto:hello@omegaup.org" >hello@omegaup.org&lt;/a>&lt;/strong>!&lt;/p></description></item><item><title>Anunciando omegaUp Mentores</title><link>https://blog.omegaup.com/posts/anunciando-omegaup-mentores/</link><pubDate>Fri, 19 May 2017 14:34:23 +0000</pubDate><guid>https://blog.omegaup.com/posts/anunciando-omegaup-mentores/</guid><description>
+&lt;p>La misión de omegaUp es incrementar el número de ingenieros de software talentosos en América Latina, por lo que nos complace anunciar públicamente el programa omegaUp Mentores. El objetivo de este proyecto es ayudar a que nuestros usuarios más activos potencialicen sus habilidades, conectándolos con gente de experiencia que puedan servirles de guía para el desarrollo de su carrera profesional.&lt;/p>
+&lt;p>Para ello, &lt;strong>omegaUp ofrecerá a los&lt;/strong> &lt;strong>&lt;a href="https://blog.omegaup.com/2014/06/el-nuevo-ranking-de-omegaup/" target="_blank" rel="noopener">&lt;em>coders&lt;/em> del mes&lt;/a>&lt;/strong> &lt;strong>la posibilidad de recibir mentoría personalizada de ingenieros de software voluntarios con experiencia internacional, habiendo laborado en las principales empresas de tecnología del mundo&lt;/strong>, tales como Microsoft, Facebook, Amazon, Google, entre otras. Además, el usuario galardonado se hará acreedor a un diploma y un premio que podrá ser de utilidad en su desarrollo técnico o académico. Los ganadores interactúan con sus mentores mediante videollamadas y correos electrónicos. En el mes de Enero, el usuario Jorge Salazar Cruz, estudiante del CBTis 60 en Guanajuato, México, tuvo la oportunidad de hablar con Rafael Díaz, ingeniero de software en Microsoft.&lt;/p>
+&lt;figure>&lt;a href="https://blog.omegaup.com/images/Screen-Shot-2017-05-19-at-6.49.13-AM.png">&lt;img src="https://blog.omegaup.com/images/Screen-Shot-2017-05-19-at-6.49.13-AM-1024x343.png"
+alt="Jorge Salazar (CBTIs 60) &amp;amp; Rafael Díaz (Microsoft)" width="584" height="196">&lt;/a>&lt;figcaption>
+&lt;p>Jorge Salazar (CBTIs 60) &amp;amp; Rafael Díaz (Microsoft)&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>Te invitamos a continuar resolviendo problemas en omegaUp para que obtengas más puntos en la plataforma y logres mejorar dia a dia. ¡Tú puedes ser el próximo Coder del mes!&lt;/p>
+&lt;p>Puedes encontrar más información de cómo se calcula el coder del mes en omegaUp aquí: &lt;a href="https://blog.omegaup.com/2014/06/el-nuevo-ranking-de-omegaup/" target="_blank" rel="noopener">https://blog.omegaup.com/2014/06/el-nuevo-ranking-de-omegaup/&lt;/a> . Para dudas y mayor información sobre este programa, puedes contactarnos en &lt;a href="mailto:mentores@omegaup.com" >mentores@omegaup.com&lt;/a>&lt;/p></description></item><item><title>Hackathon omegaUp febrero 2017 - Resultados</title><link>https://blog.omegaup.com/posts/hackathon-omegaup-febrero-2017-resultados/</link><pubDate>Mon, 06 Mar 2017 17:11:20 +0000</pubDate><guid>https://blog.omegaup.com/posts/hackathon-omegaup-febrero-2017-resultados/</guid><description>
+&lt;p>En omegaUp organizamos nuestro primer Hackathon del año abierto al público, del 23 al 25 de Febrero pasados. Esta vez incluimos un divertido Bug Bash, donde invitamos a nuestros voluntarios a encontrar bugs dentro de omegaUp y reportarlos en github.&lt;/p>
+&lt;p>Agradecemos la participación de todos los voluntarios que estuvieron involucrados. Los resultados que tuvimos fueron muy positivos: &lt;strong>50 bugs nuevos&lt;/strong> fueron descubiertos en el Bug Bash y se completaron &lt;strong>17 pull requests&lt;/strong>, muchos de ellos arreglando bugs que se encontraron en el mismo evento.&lt;/p>
+&lt;figure>&lt;a href="https://blog.omegaup.com/images/IMG_20170223_150412.jpg">&lt;img src="https://blog.omegaup.com/images/IMG_20170223_150412-300x225.jpg"
+alt="rcrx y joemmanuel hackathoneando." width="300" height="225">&lt;/a>&lt;figcaption>
+&lt;p>Rafael Díaz (rcxr) y Joe (joemmanuel) hackathoneando.&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>omegaUp ofreció como premio una tarjeta de regalo de Amazon a quién encontrara más bugs y otra más a quien reportara el bug más interesante. Felicitamos a &lt;a href="https://github.com/pacopedraza" target="_blank" rel="noopener">&lt;strong>pacopedraza&lt;/strong>&lt;/a> por llevarse el premio. El ranking de más bugs reportados quedó así:&lt;/p>
+&lt;ol>
+&lt;li>&lt;a href="https://github.com/rcxr" target="_blank" rel="noopener">rcxr&lt;/a>* (15)&lt;/li>
+&lt;li>&lt;a href="https://github.com/erosethan" target="_blank" rel="noopener">erosethan** &lt;/a>(13)&lt;/li>
+&lt;li>&lt;a href="https://github.com/alanboy" target="_blank" rel="noopener">alanboy&lt;/a>* (12)&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/pacopedraza" target="_blank" rel="noopener">pacopedraza&lt;/a> (6)&lt;/strong>&lt;/li>
+&lt;li>&lt;a href="https://github.com/cruzjorgesalazar" target="_blank" rel="noopener">cruzjorgesalazar&lt;/a> (1)&lt;/li>
+&lt;/ol>
+&lt;p>&lt;em>*No compite por premio por ser directivo de omegaUp for schools. ** Ganador del bug más interesante.&lt;/em>&lt;/p>
+&lt;p>Y el ganador al bug más interesante por votación fue &amp;ldquo;&lt;a href="https://github.com/omegaup/omegaup/issues/1087" target="_blank" rel="noopener">Create course with no credentials does nothing&lt;/a>&amp;rdquo; abierto por &lt;a href="https://github.com/erosethan" target="_blank" rel="noopener">erosethan&lt;/a>.&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/Screen-Shot-2017-03-01-at-10.11.01-PM.png" >&lt;img src="https://blog.omegaup.com/images/Screen-Shot-2017-03-01-at-10.11.01-PM-300x264.png" alt="bestbug-hackathon20171" loading="lazy" />&lt;/a>&lt;/p>
+&lt;p>El Hackathon y el Bug Bash se concentró en el nuevo proyecto que estamos trabajando internamente para facilitar el uso de omegaUp.com en el salón de clases: &lt;strong>omegaUp para escuelas.&lt;/strong> Los profesores que usan la plataforma podrán crear &lt;strong>Cursos&lt;/strong> dentro de omegaUp.com con **tareas y exámenes **para facilitar la organización de sus clases. Estas nuevas funcionalidades estarán disponibles para el público en general más tarde este año.&lt;/p>
+&lt;p>Agradecemos a todos su participación para ayudar a omegaUp a cumplir su misión de incrementar el número de ingenieros de software talentosos en América Latina. Si te gustaría participar en futuros eventos, contáctanos en &lt;a href="mailto:hello@omegaup.com" >hello@omegaup.com&lt;/a>.&lt;/p></description></item><item><title>OmegaUp Inc</title><link>https://blog.omegaup.com/posts/omegaup-inc/</link><pubDate>Sat, 15 Oct 2016 08:57:38 +0000</pubDate><guid>https://blog.omegaup.com/posts/omegaup-inc/</guid><description>
+&lt;p>Durante más de 5 años omegaUp ha sido un proyecto de medio tiempo para nosotros. Escribir nuevas funcionalidades es difícil ya que todos tenemos otras responsabilidades de tiempo completo. Así que hace 7 meses comenzamos a considerar la opción de formalizar nuestro proyecto y convertirnos en una organización establecida legamente, que nos permitiera recibir ingresos y contratar a desarrolladores que se dedicaran de tiempo completo a diseñar y mantener la plataforma.&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=6LpZhqUdAk8&amp;amp;feature=youtu.be" target="_blank" rel="noopener">Esta&lt;/a> fue la primera reunión que tuvimos al respecto, donde analizamos las ventajas y desventajas de incorporarnos. A lo largo de los meses siguientes trabajamos revisando requerimientos legales, escribiendo nuestros by-laws y en general, estableciendo las bases de lo que sería OmegaUp como una entidad legal. Decidimos que una organización sin fines de lucro en Estados Unidos era lo más apropiado, tanto por la naturaleza de lo que hacemos, así como por nuestra ubicación física.&lt;/p>
+&lt;p>Después de mucho trabajo, el 7 de octubre del 2016 recibimos la confirmación por parte del IRS de que nuestra organización es exenta del impuesto federal bajo el IRC sección &lt;strong>501(c)(3).&lt;/strong> Esto significa que OmegaUp es reconocida como una caridad publica a nivel estatal y federal y por ende todos sus donantes pueden deducir de sus impuestos las contribuciones que hagan a OmegaUp. También nos califica para recibir legados, transferencias o regalos.&lt;/p>
+&lt;p>Como parte del proceso de incorporación, se formó un &lt;a href="https://omegaup.org/board.html" target="_blank" rel="noopener">comité directivo&lt;/a> cuya responsabilidad será la de mantener la salud, preservación y progreso de esta organización. Cada uno de los miembros del comité directivo representara los intereses de los donantes y de la gente beneficiada con este proyecto.&lt;/p>
+&lt;p> Más información sobre la organizacion puede encontrarse en &lt;a href="http://omegaup.org" target="_blank" rel="noopener">http://omegaup.org&lt;/a>&lt;/p></description></item><item><title>Concursos recomendados</title><link>https://blog.omegaup.com/posts/concursos-recomendados/</link><pubDate>Fri, 15 Jan 2016 15:25:27 +0000</pubDate><guid>https://blog.omegaup.com/posts/concursos-recomendados/</guid><description>
+&lt;p>Respondiendo a los comentarios que hemos recibido sobre la organización de la lista de concursos en la Arena, hemos &lt;a href="https://github.com/omegaup/omegaup/commit/24a00de9a696f06a5fa5567e03c0351a7ccbd90e" target="_blank" rel="noopener">implementado&lt;/a> el concepto de Concursos Recomendados:&lt;/p>
+&lt;p>&lt;a href="https://omegaup.com/arena" target="_blank" rel="noopener">&lt;img src="https://blog.omegaup.com/images/Screen-Shot-2016-01-15-at-7.06.48-AM.png" alt="Concursos recomendados" loading="lazy" />&lt;/a>&lt;/p>
+&lt;p>A partir de ahora tendremos una lista separada para los Concursos Recomendados actuales y pasados. Para pedir que tu concurso sea marcado como recomendado escribe un email a &lt;a href="mailto:omegaup-soporte@googlegroups.com" >omegaup-soporte@googlegroups.com&lt;/a>.&lt;/p>
 &lt;p>Los únicos requerimientos son:&lt;/p>
 &lt;ul>
 &lt;li>Que el concurso sea formalmente establecido (sea parte de una olimpiada, concurso de ACM u algún otro concurso de programación).&lt;/li>
@@ -64,6 +434,15 @@
 &lt;li>El tamaño del concurso no importa.&lt;/li>
 &lt;li>Concursos privados que cumplan estos requerimientos y que se planean hacer públicos posteriormente también cuentan.&lt;/li>
 &lt;/ul>
-&lt;p>Esperamos sus comentarios.&lt;/p></description></item><item><title>68 nuevos problemas de Teddy Online Judge</title><link>https://blog.omegaup.com/68-nuevos-problemas-de-teddy-online-judge/</link><pubDate>Fri, 30 Jan 2015 06:52:20 +0000</pubDate><guid>https://blog.omegaup.com/68-nuevos-problemas-de-teddy-online-judge/</guid><description>&lt;p>Ya pueden encontrar en OmegaUp 68 nuevos problemas migrados desde &lt;a href="https://teddyonlinejudge.net" title="Teddy Online Judge">Teddy Online Judge&lt;/a>. Todos estos problemas tienen el tag &lt;em>&lt;a href="https://omegaup.com/problem/list/?tag=teddy">teddy&lt;/a>&lt;/em> asi que son fáciles de identificar.&lt;/p>
-&lt;p>Aunque estos problemas tienen mucho tiempo en Teddy y han tenido mas de 15k ejecuciones en ese juez, han sido migrados de &lt;a href="https://gist.github.com/alanboy/34bd7a2389d32097416d">manera automática&lt;/a> ya que Teddy usa HTML y OmegaUp usa un markup modificado, entre &lt;a href="https://github.com/omegaup/omegaup/pull/607">otros&lt;/a> cambios interesantes. Eso quiere decir que puede haber erroes. Si encuentras uno de ellos no dudes en enviar una clarificacion.&lt;/p></description></item><item><title>Ya pueden hacer sus envíos usando Ruby</title><link>https://blog.omegaup.com/ya-pueden-hacer-sus-envios-usando-ruby/</link><pubDate>Sun, 14 Dec 2014 18:21:13 +0000</pubDate><guid>https://blog.omegaup.com/ya-pueden-hacer-sus-envios-usando-ruby/</guid><description>&lt;p>Bueno, según la plataforma ya podían hacerlo desde hace mucho. Pero como nadie lo había intentado, no descubrimos que había un bug que hacía que todos los envíos dieran JE. Disfruten usar el nuevo lenguaje!&lt;/p></description></item><item><title>Retirando C++ a favor de C++11 a finales de año</title><link>https://blog.omegaup.com/retirando-c-a-favor-de-c11-a-finales-de-ano/</link><pubDate>Tue, 30 Sep 2014 15:36:07 +0000</pubDate><guid>https://blog.omegaup.com/retirando-c-a-favor-de-c11-a-finales-de-ano/</guid><description>&lt;p>Para irse familiarizando con el lenguaje y las herramientas, asegúrense que tienen un IDE que contenga GCC versión 4.8 (o superior) y tenga la bandera -std=c++11. No deben haber problemas de compatibilidad, así que intenten mandar todos sus envíos de C++ en C++11 y háganos saber via &lt;a href="https://twitter.com/omegaup" title="@omegaUp">Twitter&lt;/a> o comentarios aquí si encuentran algún problema.&lt;/p></description></item><item><title>Panel de administración para tus problemas</title><link>https://blog.omegaup.com/panel-de-administracion-para-tus-problemas/</link><pubDate>Sat, 05 Jul 2014 06:31:58 +0000</pubDate><guid>https://blog.omegaup.com/panel-de-administracion-para-tus-problemas/</guid><description>&lt;p>He visto que mucha gente sube problemas y luego hace un concurso de prueba para ver si sus soluciones funcionarían en tiempo y memoria. No más! A partir de hoy, si tú subiste un problema o te dieron permisos de administrador para él, puedes abrirlo desde &lt;a href="https://omegaup.com/problem/mine/">Mis problemas&lt;/a> y te mostrará todos los envíos (de todos los usuarios) y las clarificaciones que han hecho. Disfruten!&lt;/p></description></item><item><title>Ya mostramos los mejores envíos con AC en los problemas</title><link>https://blog.omegaup.com/ya-mostramos-los-mejores-envios-con-ac-en-los-problemas/</link><pubDate>Mon, 23 Jun 2014 15:16:41 +0000</pubDate><guid>https://blog.omegaup.com/ya-mostramos-los-mejores-envios-con-ac-en-los-problemas/</guid><description>&lt;p>A partir de hoy, si visitas un problema de la lista (fuera de concurso), verás que hasta abajo mostramos una tabla con los 10 usuarios junto con sus mejores envíos aceptados, ordenados por qué tan rápido terminaron. Intenta que cuando resuelvas un problema, tu nombre aparezca en esa tabla para tener todo el honor y gloria!&lt;/p>
-&lt;p>&lt;img src="https://blog.omegaup.com/images/mejoresenvios.png" alt="Mejores Envíos" title="Mejores Envíos">&lt;/p></description></item></channel></rss>
+&lt;p>Esperamos sus comentarios.&lt;/p></description></item><item><title>68 nuevos problemas de Teddy Online Judge</title><link>https://blog.omegaup.com/posts/68-nuevos-problemas-de-teddy-online-judge/</link><pubDate>Fri, 30 Jan 2015 06:52:20 +0000</pubDate><guid>https://blog.omegaup.com/posts/68-nuevos-problemas-de-teddy-online-judge/</guid><description>
+&lt;p>Ya pueden encontrar en OmegaUp 68 nuevos problemas migrados desde &lt;a href="https://teddyonlinejudge.net" title="Teddy Online Judge"target="_blank" rel="noopener">Teddy Online Judge&lt;/a>. Todos estos problemas tienen el tag &lt;em>&lt;a href="https://omegaup.com/problem/list/?tag=teddy" target="_blank" rel="noopener">teddy&lt;/a>&lt;/em> asi que son fáciles de identificar.&lt;/p>
+&lt;p>Aunque estos problemas tienen mucho tiempo en Teddy y han tenido mas de 15k ejecuciones en ese juez, han sido migrados de &lt;a href="https://gist.github.com/alanboy/34bd7a2389d32097416d" target="_blank" rel="noopener">manera automática&lt;/a> ya que Teddy usa HTML y OmegaUp usa un markup modificado, entre &lt;a href="https://github.com/omegaup/omegaup/pull/607" target="_blank" rel="noopener">otros&lt;/a> cambios interesantes. Eso quiere decir que puede haber erroes. Si encuentras uno de ellos no dudes en enviar una clarificacion.&lt;/p>
+&lt;p>Para celebrar, he creado el concurso  &lt;a href="https://omegaup.com/arena/teddy-toj" target="_blank" rel="noopener">Problemas de Teddy Online Judge&lt;/a> con los 10 problemas mas significativos, es decir, los mas resueltos en aquel juez.&lt;/p></description></item><item><title>Ya pueden hacer sus envíos usando Ruby</title><link>https://blog.omegaup.com/posts/ya-pueden-hacer-sus-envios-usando-ruby/</link><pubDate>Sun, 14 Dec 2014 18:21:13 +0000</pubDate><guid>https://blog.omegaup.com/posts/ya-pueden-hacer-sus-envios-usando-ruby/</guid><description>
+&lt;p>Bueno, según la plataforma ya podían hacerlo desde hace mucho. Pero como nadie lo había intentado, no descubrimos que había un bug que hacía que todos los envíos dieran JE. Disfruten usar el nuevo lenguaje!&lt;/p></description></item><item><title>Retirando C++ a favor de C++11 a finales de año</title><link>https://blog.omegaup.com/posts/retirando-c-a-favor-de-c11-a-finales-de-ano/</link><pubDate>Tue, 30 Sep 2014 15:36:07 +0000</pubDate><guid>https://blog.omegaup.com/posts/retirando-c-a-favor-de-c11-a-finales-de-ano/</guid><description>
+&lt;p>Para irse familiarizando con el lenguaje y las herramientas, asegúrense que tienen un IDE que contenga GCC versión 4.8 (o superior) y tenga la bandera -std=c++11. No deben haber problemas de compatibilidad, así que intenten mandar todos sus envíos de C++ en C++11 y háganos saber via &lt;a href="https://twitter.com/omegaup" title="@omegaUp"target="_blank" rel="noopener">Twitter&lt;/a> o comentarios aquí si encuentran algún problema.&lt;/p></description></item><item><title>Panel de administración para tus problemas</title><link>https://blog.omegaup.com/posts/panel-de-administracion-para-tus-problemas/</link><pubDate>Sat, 05 Jul 2014 06:31:58 +0000</pubDate><guid>https://blog.omegaup.com/posts/panel-de-administracion-para-tus-problemas/</guid><description>
+&lt;p>He visto que mucha gente sube problemas y luego hace un concurso de prueba para ver si sus soluciones funcionarían en tiempo y memoria. No más! A partir de hoy, si tú subiste un problema o te dieron permisos de administrador para él, puedes abrirlo desde &lt;a href="https://omegaup.com/problem/mine/" target="_blank" rel="noopener">Mis problemas&lt;/a> y te mostrará todos los envíos (de todos los usuarios) y las clarificaciones que han hecho. Disfruten!&lt;/p></description></item><item><title>Ya mostramos los mejores envíos con AC en los problemas</title><link>https://blog.omegaup.com/posts/ya-mostramos-los-mejores-envios-con-ac-en-los-problemas/</link><pubDate>Mon, 23 Jun 2014 15:16:41 +0000</pubDate><guid>https://blog.omegaup.com/posts/ya-mostramos-los-mejores-envios-con-ac-en-los-problemas/</guid><description>
+&lt;p>A partir de hoy, si visitas un problema de la lista (fuera de concurso), verás que hasta abajo mostramos una tabla con los 10 usuarios junto con sus mejores envíos aceptados, ordenados por qué tan rápido terminaron. Intenta que cuando resuelvas un problema, tu nombre aparezca en esa tabla para tener todo el honor y gloria!&lt;/p>
+&lt;p>&lt;figure>
+&lt;img src="https://blog.omegaup.com/images/mejoresenvios.png" title="Mejores Envíos" alt="Mejores Envíos" loading="lazy" />
+&lt;figcaption>Mejores Envíos&lt;/figcaption>
+&lt;/figure>&lt;/p></description></item></channel></rss>

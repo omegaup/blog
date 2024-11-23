@@ -1,8 +1,115 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Concursos on omegaUp blog</title><link>https://blog.omegaup.com/tags/concursos/</link><description>Recent content in Concursos on omegaUp blog</description><generator>Hugo</generator><language>es-mx</language><lastBuildDate>Tue, 15 Aug 2023 23:25:06 +0000</lastBuildDate><atom:link href="https://blog.omegaup.com/tags/concursos/index.xml" rel="self" type="application/rss+xml"/><item><title>Concursos con Subtareas</title><link>https://blog.omegaup.com/concursos-con-subtareas/</link><pubDate>Tue, 15 Aug 2023 23:25:06 +0000</pubDate><guid>https://blog.omegaup.com/concursos-con-subtareas/</guid><description>&lt;p>Nos es grato informar que hemos liberado una nueva modalidad de concursos llamada &lt;strong>“Concursos con subtareas”&lt;/strong>, para poder cubrir satisfactoriamente las necesidades de los concursos realizados en la &lt;strong>Olimpiada Internacional de Informática&lt;/strong> (&lt;strong>IOI&lt;/strong> por su siglas en inglés), el cual ha modificado la fórmula para calcular el puntaje asignado a un concursante para un problema en específico.&lt;/p>
-&lt;h1 id="antecedentes">Antecedentes&lt;/h1>
-&lt;p>Anteriormente en &lt;em>omegaUp&lt;/em> sólo se contaba con dos distintos tipos de concursos:&lt;/p></description></item><item><title>Concursos por equipos</title><link>https://blog.omegaup.com/concursos-por-equipos/</link><pubDate>Thu, 24 Mar 2022 14:35:06 +0000</pubDate><guid>https://blog.omegaup.com/concursos-por-equipos/</guid><description>&lt;p>Nos es grato informar que hemos liberado una nueva funcionalidad llamada &lt;strong>&amp;ldquo;Concursos por equipos&amp;rdquo;&lt;/strong>, para poder atender los concursos con formato de &lt;strong>ICPC&lt;/strong>, los cuales se realizan en equipos. Para que esta nueva modalidad de concursos pueda utilizarse, también se han liberado algunas características extras que se describirán más adelante.&lt;/p>
-&lt;p>Si estás familiarizado con la plataforma encontrarás similitud con funcionalidades que ya existen desde hace tiempo. Si no es el caso, comenzamos con el primer paso.&lt;/p></description></item><item><title>Soluciones de la Fase 2 de la Liga de Programación omegaUp</title><link>https://blog.omegaup.com/soluciones-a-liga-omegaup-fase-2/</link><pubDate>Sun, 19 Apr 2020 08:05:15 +0000</pubDate><guid>https://blog.omegaup.com/soluciones-a-liga-omegaup-fase-2/</guid><description>&lt;ol>
-&lt;li>&lt;strong>&lt;a href="https://omegaup.com/arena/problem/No-se-molesto-en-escribir-uno">Problema A&lt;/a>&lt;/strong>&lt;/li>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>omegaUp blog – Concursos</title><link>https://blog.omegaup.com/tags/concursos/</link><description>Recent content in Concursos on omegaUp blog</description><generator>Hugo -- gohugo.io</generator><language>es-MX</language><lastBuildDate>Tue, 15 Aug 2023 23:25:06 +0000</lastBuildDate><atom:link href="https://blog.omegaup.com/tags/concursos/index.xml" rel="self" type="application/rss+xml"/><item><title>Concursos con Subtareas</title><link>https://blog.omegaup.com/posts/concursos-con-subtareas/</link><pubDate>Tue, 15 Aug 2023 23:25:06 +0000</pubDate><guid>https://blog.omegaup.com/posts/concursos-con-subtareas/</guid><description>
+&lt;p>Nos es grato informar que hemos liberado una nueva modalidad de concursos llamada &lt;strong>“Concursos con subtareas”&lt;/strong>, para poder cubrir satisfactoriamente las necesidades de los concursos realizados en la &lt;strong>Olimpiada Internacional de Informática&lt;/strong> (&lt;strong>IOI&lt;/strong> por su siglas en inglés), el cual ha modificado la fórmula para calcular el puntaje asignado a un concursante para un problema en específico.&lt;/p>
+&lt;h1>Antecedentes&lt;/h1>&lt;p>Anteriormente en &lt;em>omegaUp&lt;/em> sólo se contaba con dos distintos tipos de concursos:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;em>Calificación parcial&lt;/em>: En este modo de concursos se tomaba en cuenta el mayor puntaje de la suma de todos los grupos de casos. El modo era utilizado para los concursos de la OMI, entre otros.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;em>Calificación todo o nada&lt;/em>: En este modo de concursos el participante tenía que obtener el 100% de los casos correctos para que se contaran en su puntaje, de otra forma el marcador para dicho problema sería 0 sin importar si tenía respuestas parcialmente correctas. Para los concursos del ICPC era para los que se utilizaba este modo de concursos.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>Con este nuevo modo de concursos podremos cubrir una mayor parte de concursos desde la plataforma de &lt;em>omegaUp&lt;/em>, lo cual puede ayudar a escuelas, organizaciones a realizar estos concursos con la seguridad de que se pueden calcular los puntajes correctamente.&lt;/p>
+&lt;h1>Definición del nuevo método de evaluación&lt;/h1>&lt;p>Al dar de alta un problema, este ya cuenta con una división de subtareas (o grupos de casos) y a cada subtarea se le asigna un porcentaje de puntaje, de tal forma que la suma de todas las subtareas nos da un 100%.&lt;/p>
+&lt;p>La definición de este nuevo método de evaluación es la siguiente:&lt;/p>
+&lt;blockquote>
+&lt;p>“El puntaje final para cada subtarea será el máximo puntaje de esta subtarea a lo largo de todos los envíos. El puntaje para cada tarea será la suma de los puntajes para sus subtareas. (Por ejemplo, considere a un concursante que hizo 2 envíos en una tarea que contiene 2 subtareas. En la primera solución enviada obtuvo 30 puntos para la primera subtarea y 10 puntos para la segunda subtarea, en la segunda solución obtuvo 0 puntos para la primera subtarea y 40 puntos para la segunda subtarea. Entonces el puntaje final para esta tarea será 70)”&lt;/p>
+&lt;/blockquote>
+&lt;p>Para representar gráficamente el ejemplo anterior, véase la la siguiente imagen:&lt;/p>
+&lt;figure>&lt;a href="https://blog.omegaup.com/images/Contest-With-Subtasks-Image-1.png">&lt;img src="https://blog.omegaup.com/images/Contest-With-Subtasks-Image-1.png"
+alt="Image 1" width="1472" height="649">&lt;/a>&lt;figcaption>
+&lt;h4>Image 1&lt;/h4>&lt;p>Image 1&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>Para el método de concursos parcial, el puntaje del problema sería 40, debido a que es el mayor puntaje por envío obtenido.&lt;/p>
+&lt;p>Tomando en cuenta el nuevo método, donde se tienen que sumar los puntajes mayores por cada subtarea, el puntaje total sería 70, debido a que para la subtarea (caso) 1 se obtendría 30 y para la subtarea (caso) 2 se obtendría 40.&lt;/p>
+&lt;h1>¿Cómo crear un concurso con la modalidad de subtareas?&lt;/h1>&lt;p>La forma de crear un concurso con la modalidad de subtareas se realiza de la misma forma que ya se crean los concursos al día de hoy. Sólo existe un campo nuevo en el formulario llamado &lt;em>“Modo de puntaje”&lt;/em> donde se tiene que elegir la opción de &lt;em>“Máximo por grupo”&lt;/em>:&lt;/p>
+&lt;figure>&lt;a href="https://blog.omegaup.com/images/Contest-With-Subtasks-Image-2.png">&lt;img src="https://blog.omegaup.com/images/Contest-With-Subtasks-Image-2.png"
+alt="Image 2" width="936" height="572">&lt;/a>&lt;figcaption>
+&lt;h4>Image 2&lt;/h4>&lt;p>Image 2&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>En la vista de Arena, no hay cambios de interfaz considerables. Los elementos continúan siendo los mismos. En el caso de la lista de envíos seguirá mostrando los mismos veredictos.&lt;/p>
+&lt;p>Lo único que cambia es el modo en el que se calcula el ranking, tanto en la tabla de mini-ranking:&lt;/p>
+&lt;figure>&lt;a href="https://blog.omegaup.com/images/Contest-With-Subtasks-Image-3.png">&lt;img src="https://blog.omegaup.com/images/Contest-With-Subtasks-Image-3.png"
+alt="Image 3" width="344" height="398">&lt;/a>&lt;figcaption>
+&lt;h4>Image 3&lt;/h4>&lt;p>Image 3&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>Como en el scoreboard:&lt;/p>
+&lt;figure>&lt;a href="https://blog.omegaup.com/images/Contest-With-Subtasks-Image-4.png">&lt;img src="https://blog.omegaup.com/images/Contest-With-Subtasks-Image-4.png"
+alt="Image 4" width="854" height="509">&lt;/a>&lt;figcaption>
+&lt;h4>Image 4&lt;/h4>&lt;p>Image 4&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>Y en el navegador de problemas:&lt;/p>
+&lt;figure>&lt;a href="https://blog.omegaup.com/images/Contest-With-Subtasks-Image-5.png">&lt;img src="https://blog.omegaup.com/images/Contest-With-Subtasks-Image-5.png"
+alt="Image 5" width="278" height="509">&lt;/a>&lt;figcaption>
+&lt;h4>Image 5&lt;/h4>&lt;p>Image 5&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>Atentamente, el equipo de omegaUp.&lt;/p></description></item><item><title>Concursos por equipos</title><link>https://blog.omegaup.com/posts/concursos-por-equipos/</link><pubDate>Thu, 24 Mar 2022 14:35:06 +0000</pubDate><guid>https://blog.omegaup.com/posts/concursos-por-equipos/</guid><description>
+&lt;p>Nos es grato informar que hemos liberado una nueva funcionalidad llamada &lt;strong>&amp;ldquo;Concursos por equipos&amp;rdquo;&lt;/strong>, para poder atender los concursos con formato de &lt;strong>ICPC&lt;/strong>, los cuales se realizan en equipos. Para que esta nueva modalidad de concursos pueda utilizarse, también se han liberado algunas características extras que se describirán más adelante.&lt;/p>
+&lt;p>Si estás familiarizado con la plataforma encontrarás similitud con funcionalidades que ya existen desde hace tiempo. Si no es el caso, comenzamos con el primer paso.&lt;/p>
+&lt;h1>1.- Creación de grupo de equipos&lt;/h1>&lt;p>Para tener un mejor control de los equipos que van a participar en un concurso con la modalidad de equipos, es necesario crear un grupo de equipos, el cual es muy similar a los grupos que se utilizan al día de hoy, sólo que en este caso existen algunas variantes, ya que en lugar de identidades se agregarán equipos que contienen usuarios y/o identidades.&lt;/p>
+&lt;p>Para crear el grupo es necesario ir al menú superior derecho y elegir la opción de &lt;em>Mis grupos de equipos&lt;/em>. Aquí se mostrará el listado de grupos de equipos que hayas creado, con la opción de editarlos. En caso de ser la primera vez que ingresas, sólo te aparecerá el botón de Crear nuevo grupo de equipos.&lt;/p>
+&lt;p>En esta pantalla encontrarás un formulario donde tendrás que ingresar el nombre del grupo, una breve descripción que indique el propósito del mismo y el número límite de integrantes permitidos por equipo. El alias no es necesario escribirlo ya que se autogenera de acuerdo al nombre que indiques. En caso de que el alias ya sea utilizado en otro grupo de equipos, habrá necesidad de elegir un nombre distinto para que se regenere el alias, así hasta encontrar uno disponible.&lt;/p>
+&lt;p>En la siguiente animación se muestra lo mencionado anteriormente:&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/CdbX11oY_yc?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+>&lt;/iframe>
+&lt;/div>
+&lt;h1>2.- Carga de equipos&lt;/h1>&lt;p>Una vez que guardas el grupo, te aparecerá la vista de edición, y se seleccionará la pestaña de cargar equipos. Este paso es similar a la carga de identidades de un grupo, en este &lt;a href="https://blog.omegaup.com/administracion-de-identidades/" target="_blank" rel="noopener">post&lt;/a> puedes ver la manera de cargar el archivo. La diferencia con ese proceso es que estas identidades son para equipos, quiere decir que dentro de cada identidad se podrán asociar tantos miembros como se hayan configurado en el formulario de &lt;em>Crear grupo de equipos&lt;/em>. Estos miembros se pueden cargar en el archivo &lt;em>&lt;strong>.csv&lt;/strong>&lt;/em>, en caso de que conozcas los nombres de usuarios (&lt;em>usernames&lt;/em>) de cada miembro o lo puedes hacer posteriormente en la pestaña de equipos donde podrás agregarlos manualmente a cada equipo.&lt;/p>
+&lt;p>La regla principal en la creación de equipos es que un usuario no puede pertenecer a dos equipos distintos del mismo grupo de equipos. Así que si por equivocación se llegara a intentar realizar esta acción, la plataforma mandaría un mensaje de error.&lt;/p>
+&lt;p>Cabe destacar que la carga de identidades y equipos está en una etapa experimental que aún no se abre en su totalidad al público en general hasta probar que se le está dando un uso adecuado, así que si estás interesado en crear grupos de equipos, nos puedes escribir a &lt;a href="mailto:engineering@omegaup.com" >engineering@omegaup.com&lt;/a> para que te podamos habilitar los privilegios necesarios.&lt;/p>
+&lt;p>En la siguiente animación se muestra el proceso de lo antes descrito:&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/mgR6EclyRHw?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+>&lt;/iframe>
+&lt;/div>
+&lt;h2>2.1.- Carga de equipos con identidades auto-generadas&lt;span class="hx-absolute -hx-mt-20" id="21--carga-de-equipos-con-identidades-auto-generadas">&lt;/span>
+&lt;a href="#21--carga-de-equipos-con-identidades-auto-generadas" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Habrá ocasiones en que se requiera organizar un concurso con una gran cantidad de equipos, lo cual hará más complicada la carga de los miembros de cada equipo debido a que este número pudiera llegar a ser demasiado grande.&lt;/p>
+&lt;p>Para esta situación se considera una opción de generar las identidades para cada equipo una vez que se carga el archivo &lt;em>&lt;strong>.csv&lt;/strong>&lt;/em>. Esto quiere decir que sólo será necesario cargar el archivo sin incluir nombres de usuarios, y en su lugar habrá que seleccionar la casilla de Autogenerar identidades que se encuentra en el formulario. Para este caso en particular es de suma importancia descargar el archivo con las identidades que se generaron antes de guardar los cambios, ya que aquí se van a mostrar el listado de usernames junto a su contraseña, la cual sólo se podrá visualizar en este punto, ya que al guardar los cambios estas contraseñas de van a encriptar. Lo cual ocasionará que ya no sea posible volverlas a ver en la plataforma.&lt;/p>
+&lt;p>En la siguiente animación se muestra el proceso antes mencionado:&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/Yx9xzIe_FAU?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+>&lt;/iframe>
+&lt;/div>
+&lt;h1>3.- Creación de concurso por equipos&lt;/h1>&lt;p>Una vez que ya hayas creado los grupos de equipo, es momento de generar el concurso por equipos. En este caso, el formulario es exactamente el mismo que se utiliza para cualquier tipo de concurso, sólo que ahora se agregó un nuevo campo en el formulario llamado &lt;em>Concurso por equipos&lt;/em> y aparece como una casilla de tipo checkbox. Al momento de activar dicha casilla también se habilita un campo de texto donde tendrás que buscar el grupo de equipos, ya sea por nombre o por alias. En caso de tener activa la casilla, pero no hayas escrito el nombre del grupo, obtendrás un error indicando que este campo es obligatorio.&lt;/p>
+&lt;p>Ya que se haya creado el concurso, te aparecerá la vista de &lt;em>Editar concurso&lt;/em>, y a diferencia de los concursos normales, en este tipo de concurso verás en las opciones una sección de &lt;em>Agregar grupo&lt;/em>, en lugar de la opción de &lt;em>Agregar concursante&lt;/em>, debido a lo explicado al inicio de este post. También se oculta la opción de &lt;em>Modo de acceso&lt;/em>, esto con la finalidad de evitar que se creen concursos para equipos públicos (sólo por el momento, en un futuro se evaluará si se abre esta opción).&lt;/p>
+&lt;p>En la sección de &lt;em>Agregar grupo&lt;/em> podrás reemplazar al equipo, siempre y cuando ninguno de los equipos haya realizado al menos un envío de alguno de los problemas.&lt;/p>
+&lt;p>En la siguiente animación se muestra todo lo que se comentó previamente:&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/G_X_-NCOblU?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+>&lt;/iframe>
+&lt;/div>
+&lt;h2>3.1.- Ingreso como equipo con cuenta previamente existente&lt;span class="hx-absolute -hx-mt-20" id="31--ingreso-como-equipo-con-cuenta-previamente-existente">&lt;/span>
+&lt;a href="#31--ingreso-como-equipo-con-cuenta-previamente-existente" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Una vez que ya se creó el grupo de equipos y el concurso por equipos. Es momento de notificar a los usuarios que fueron inscritos al concurso por medio de un equipo, para que puedan acceder al concurso.&lt;/p>
+&lt;p>Cabe destacar que estos usuarios ya contarán con una identidad de equipo, la cual se muestra en el menú superior derecho. La forma de distinguir una identidad de una identidad de equipo es por la nomenclatura del nombre de usuario (&lt;em>username&lt;/em>). La nomenclatura de una identidad de grupo es la siguiente:&lt;/p>
+&lt;p>[&lt;code>group_name&lt;/code>]:[&lt;code>identity_name&lt;/code> ].&lt;/p>
+&lt;p>En tanto la nomenclatura de las identidades de un grupo de equipos es la siguiente:&lt;/p>
+&lt;p>&lt;code>teams&lt;/code>:[&lt;code>group_name&lt;/code>]:[&lt;code>identity_name&lt;/code>].&lt;/p>
+&lt;p>Entonces, para poder visualizar el concurso que fue creado para equipos es necesario hacer un intercambio a la sesión de esta nueva identidad a la que fue asociado el concursante.&lt;/p>
+&lt;p>En la siguiente animación se muestra lo mencionado anteriormente:&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/qiD2ElDky5o?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+>&lt;/iframe>
+&lt;/div>
+&lt;h2>3.2.- Ingreso como equipo con cuenta auto-generada&lt;span class="hx-absolute -hx-mt-20" id="32--ingreso-como-equipo-con-cuenta-auto-generada">&lt;/span>
+&lt;a href="#32--ingreso-como-equipo-con-cuenta-auto-generada" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>En el caso de las identidades que se crearon mediante la carga de archivo &lt;em>&lt;strong>.csv&lt;/strong>&lt;/em> y se eligió la opción de &lt;em>Autogenerar identidades&lt;/em> ya no es necesario hacer el cambio de cuenta para poder ver el concurso en el listado. Esto quiere decir que una vez que inicia sesión aparecerá el nombre del equipo en la parte superior derecha, tal como se muestra en la siguiente animación:&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/JYjPwfR07EM?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+>&lt;/iframe>
+&lt;/div>
+&lt;h1>4.- Envío de soluciones a problemas de concurso por equipos&lt;/h1>&lt;p>Por último, ya que el usuario encontró el concurso por equipos al que fue añadido sólo será necesario que ingrese a dicho concurso y comience a realizar envíos a las soluciones de los problemas. Al ser un concurso por equipos, los integrantes del equipo también podrán acceder de la misma forma y todos podrán realizar envíos simultáneamente. Las reglas del concurso son las mismas que en el resto de concursos, no podrán realizar envíos de un mismo problema hasta que haya transcurrido el tiempo entre cada envío con el que fue configurado el concurso (60 segundos por defecto).&lt;/p>
+&lt;p>En la animación se muestra un ejemplo de lo antes mencionado:&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/1JR_xw9JQzs?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+>&lt;/iframe>
+&lt;/div>
+&lt;p>Atentamente, el equipo de omegaUp.&lt;/p></description></item><item><title>Soluciones de la Fase 2 de la Liga de Programación omegaUp</title><link>https://blog.omegaup.com/posts/soluciones-a-liga-omegaup-fase-2/</link><pubDate>Sun, 19 Apr 2020 08:05:15 +0000</pubDate><guid>https://blog.omegaup.com/posts/soluciones-a-liga-omegaup-fase-2/</guid><description>
+&lt;ol>
+&lt;li>&lt;strong>&lt;a href="https://omegaup.com/arena/problem/No-se-molesto-en-escribir-uno" target="_blank" rel="noopener">Problema A&lt;/a>&lt;/strong>&lt;/li>
 &lt;/ol>
 &lt;p>Las siguientes observaciones son claves para resolver el problema.&lt;/p>
 &lt;ol>
@@ -11,33 +118,293 @@
 &lt;li>El mínimo común múltiplo de $1, 2, \ldots , n$ es mayor o igual al producto de los primos menores o iguales a $ n$.&lt;/li>
 &lt;li>El producto de los primos menores o iguales a $50$ es mayor a $10^{18}$&lt;/li>
 &lt;/ol>
-&lt;p>Veamos el caso donde $0$ no forma parte de los residuos. De &lt;strong>1&lt;/strong>, vemos que&lt;/p></description></item><item><title>Soluciones de la Fase 1 de la Liga de Programación omegaUp</title><link>https://blog.omegaup.com/soluciones-a-liga-omegaup-fase-1/</link><pubDate>Wed, 01 Apr 2020 18:08:10 +0000</pubDate><guid>https://blog.omegaup.com/soluciones-a-liga-omegaup-fase-1/</guid><description>&lt;h2 id="problema-ahttpsomegaupcomarenaproblemrango-simple">&lt;a href="https://omegaup.com/arena/problem/Rango-simple">Problema A&lt;/a>&lt;/h2>
-&lt;p>Para este problema, consideramos un arreglo de ocurrencias $O$ sobre los elementos del arreglo. De modo que la respuesta está dada por&lt;/p>
+&lt;p>Veamos el caso donde $0$ no forma parte de los residuos. De &lt;strong>1&lt;/strong>, vemos que&lt;/p>
+&lt;p>$w$ % $n = n - 1$&lt;/p>
+&lt;p>$w$ % $n - 1 = n - 2$&lt;/p>
+&lt;p>$\ldots$&lt;/p>
+&lt;p>$w$ % $2= 1$ .&lt;/p>
+&lt;p>Entonces $w + 1$ es un común múltiplo de $2, 3, 4,  \ldots,  n$.&lt;/p>
+&lt;p>$(*)$ Luego, de la observación &lt;strong>3&lt;/strong> vemos que&lt;/p>
+&lt;p>$mcm(2, 3, 4,  \ldots,  n) \geq P_n$&lt;/p>
+&lt;p> Donde $P_n$ es el producto de los primos menores o iguales a $n$.&lt;/p>
+&lt;p>$(*)$ Pero $P_{50} &amp;gt; 10^{18}$. Así que si $w + 1$ es un común múltiplo de $2, 3, 4,  \ldots,  n$ entonces $n \leq 50$.&lt;/p>
+&lt;p>Ahora el caso donde $0$ sí forma parte de los residuos. Se sigue que existe $1 &amp;lt; k \leq n$ tal que $w$ % $k = 0$. Con la misma lógica, de &lt;strong>1&lt;/strong>, vemos qué&lt;/p>
+&lt;p>$w$ % $k - 1 = k - 2$&lt;/p>
+&lt;p>$\ldots$&lt;/p>
+&lt;p>$w$ % $2= 1$ .&lt;/p>
+&lt;p>Con ayuda de  $(*)$, vemos que $k \leq 50$.  ¿Cuál es el orden de los residuos mayores a $k$?. Para esto, consideremos el mismo orden que usamos en el caso donde $0$ no forma parte de los residuos.&lt;/p>
+&lt;p>El residuo $k - 1$ que originalmente pertenecía a $k$ tiene dos direcciones: ser el residuo de un numero mayor que $k$, o $k - 1$ es el residuo que queda  descartado.&lt;/p>
+&lt;p>Sea $M - 1$ el residuo que queda descartado, entonces $w + 1$ debe ser común múltiplo de $n, n - 1, n - 2, \ldots , M + 1$, y para esto,&lt;/p>
+&lt;p>$(w + 1) \geq n * (n - 1) * (n - 2)  * \ldots * (M + 1)$&lt;/p>
+&lt;p>Lo cual sería imposible si $n - M  \geq 50$.&lt;/p>
+&lt;p>Ahora, si no descartamos los residuos de $k + 1, \ldots , k + 50$, entonces $w + 1 \geq  (k + 1) * \ldots  * (k + 50)$ lo cual sería de nuevo imposible.&lt;/p>
+&lt;p>Por lo tanto, $M + 50 &amp;gt; n$ y $M - 50 &amp;lt; 1$.&lt;/p>
+&lt;p>De modo que, si $n &amp;gt; 100$, la respuesta es &amp;ldquo;No&amp;rdquo;.  El problema ahora se limíta a $n \leq 100$ y $w \leq 10^{18}$.&lt;/p>
+&lt;p>Para éste problema, podemos guardar todos los residuos de $w$ con los números menores o iguales a $n$ en una estructura que nos maneje operaciones básicas de conjuntos, como un set. Usando el set, la respuesta es &amp;ldquo;Si&amp;rdquo;, si el tamaño del set después de añadir los residuos es $n - 1$, y &amp;ldquo;No&amp;rdquo; en caso contrario.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://omegaup.com/arena/problem/La-fiesta-de-Filiberto" target="_blank" rel="noopener">Problema B&lt;/a>&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>Tratemos cada query de manera independientemente, y nos tomamos $a_1, a_2, \ldots, a_k$ como los puntos dados en la query.&lt;/p>
+&lt;p>El problema es equivalente a encontrar un círculo con el menor radio $r$ posible, tal que todos los puntos de la query están dentro de él.  La respuesta sería el radio $r$.&lt;/p>
+&lt;p>Él cuál es un problema equivalente a encontrar el menor radio $r$ tal que existe al menos un punto contenido en cada círculo con centro $a_1, a_2, \ldots a_n$ y radio $r$.&lt;/p>
+&lt;p>Si dicho punto $p$ existe, entonces existe al menos un par de círculos que se intersecten en algun punto $T$. Por supuesto, la distancia de $p$ a $T$ es menor o igual a $r$.&lt;/p>
+&lt;p>Por lo tanto, la respuesta puede ser encontrada con una búsqueda binaria.&lt;/p>
+&lt;ol>
+&lt;li>Fíjamos el radio $r$, el cual mandamos a la búsqueda binaria.&lt;/li>
+&lt;li>Enumeramos los $k$ círculos.&lt;/li>
+&lt;li>Encontramos y enumeramos las intersecciones para cada par de círculos.&lt;/li>
+&lt;li>Para cada intersección, recorremos cada centro. Si hay un centro $a_i$que tiene una distancia menor o igual a $r$ entonces el menor radio que buscamos sí es menor o igual a $r$.&lt;/li>
+&lt;/ol>
+&lt;p>El costo de cada chequeo en la búsqueda binaria es $O(k^3)$. Y la búsqueda binaria tiene un costo de aproximádamente $50$ operaciones. Pero precalculando las soluciones, de &lt;strong>4&lt;/strong>, para todos los $l$ puntos antes de contestar las preguntas, reducimos el costo del chequeo a $O(k^2)$, lo cual ya es suficiente para resolver el problema.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://omegaup.com/arena/problem/La-fiesta-de-Briares" target="_blank" rel="noopener">Problema C&lt;/a>&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>Lo que buscamos, es la cantidad de subconjuntos tales que su $\&amp;amp;$  es igual a $0$. Esta cantidad puede verse como la cantidad de subconjuntos totales, menos la cantidad de subconjuntos tales que su $\&amp;amp;$ es diferente de $0$. Ahora, esta cantidad puede verse como la cantidad de subconjuntos cuyo  $\&amp;amp;$ tienen exactamente un bit prendido, más la cantidad de subconjuntos cuyo $\&amp;amp;$ tienen exactamente dos bits prendidos, $\ldots$, más la cantidad de subconjuntos cuyo $\&amp;amp;$ tienen exactamente $20$ bits prendidos (esto ya que $10^6 \leq 2^{20}$).&lt;/p>
+&lt;p>Para esto usaremos el principio de inclusión - exclusión. De modo que la cantidad que buscamos esta dada por&lt;/p>
+&lt;p>$S_ 0 - S_1 + S_2 - S_3 + \ldots + S_{20}$&lt;/p>
+&lt;p>Donde $S_i$ nos dice cuantos subconjuntos tienen  un &lt;del>and&lt;/del> con al menos $i$ bits prendidos.&lt;/p>
+&lt;p>Ahora, $S_i$ puede ser calculado con la ayuda de una SOS (Sum Over Subsets) DP.&lt;/p>
+&lt;p>Para esto,  sea $mask$ alguna máscara de bits en $[1, 2^{20}]$, y definamos $m$ como el &lt;del>and&lt;/del> de algún subconjunto del arreglo, tal que $mask \&amp;amp; m = mask$. Es decir, $mask$ es una submáscara de $m$. Entonces, DP[mask] nos dice cuántas diferentes $m$ existen. (dos $m$ se consideran diferentes, si las posiciones de los elementos en el arreglo que la componen no son todas iguales). Está DP puede calcularse de la siguiente manera.&lt;/p>
+&lt;ol>
+&lt;li>Los casos base los formamos añadiendo la cantidad de ocurrencias de $x$ en el arreglo, a $DP[x]$.&lt;/li>
+&lt;li>Fíjamos $bit \in [1, 20]$, de izquierda a derecha.&lt;/li>
+&lt;li>Para cada mask en $[0, 2^{20}]$, tal que mask tiene el $bit$-ésimo bit apagado  (mas formalmente, $mask \&amp;amp; (1 &amp;laquo; bit)  = 0$ ) se hace la transición DP[mask | (1 &amp;laquo; bit)] += DP[mask].&lt;/li>
+&lt;/ol>
+&lt;p>De modo que $S_i = 2^{DP[m]}$, para cada $m$ una máscara con al menos $i$ bits prendidos.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://omegaup.com/arena/problem/Saltos-de-rana" target="_blank" rel="noopener">Problema D&lt;/a>&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>Sean $p_1, p_2, \ldots, p_m$ las posiciones de la cadena en donde hay un $1$.&lt;/p>
+&lt;p>Definimos $r$ cómo la posición donde yace la rana, y $b$ como la cantidad de brincos que ha dado hasta el momento. Inicialmente, $r = p_1$ y $b = 0$. La respuesta puede encontrarse mediante siguiente algoritmo.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Encontrar $j$ tal que $p_j - r \leq k$ y $p_{j + 1} &amp;gt; k$&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Hacemos&lt;/p>
+&lt;p>$b = b + 1$ y $r = p_j$&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Repetimos mientras $r \neq p_m$.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>La respuesta final es $b$. El algoritmo se puede implementar con complejidad lineal usando la técnica de two pointers (usando $r$ y $j$ como los pointers).&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://omegaup.com/arena/problem/Analizar-palabra" target="_blank" rel="noopener">Problema E&lt;/a>&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>Rescatando la cantidad de ocurrencias para cada vocal (no hay que olvidarse de contar las mayúsculas) mientras recorremos la cadena, estamos listos para imprimir las tres respuestas. Las cuales son&lt;/p>
+&lt;p>**(a) ** Tamaño de la cadena.&lt;/p>
+&lt;p>&lt;strong>(b)&lt;/strong>  Suma de las ocurrencias de cada vocal.&lt;/p>
+&lt;p>&lt;strong>(c)&lt;/strong>  Imprimir la cadena de derecha a izquierda.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://omegaup.com/arena/problem/Suma-de-vectores" target="_blank" rel="noopener">Problema F&lt;/a>&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>Salvemos los dos vectores dados $a_1, a_2, \ldots , a_n$ y $b_1, b_2, \ldots , b_n$, y generemos un nuevo vector $c_1 = (a_1 + b_1), \ldots, c_n = (a_n + b_n)$. La solucion es imprimir $c_1, c_2, \ldots, c_n$.&lt;/p></description></item><item><title>Soluciones de la Fase 1 de la Liga de Programación omegaUp</title><link>https://blog.omegaup.com/posts/soluciones-a-liga-omegaup-fase-1/</link><pubDate>Wed, 01 Apr 2020 18:08:10 +0000</pubDate><guid>https://blog.omegaup.com/posts/soluciones-a-liga-omegaup-fase-1/</guid><description>
+&lt;h2>&lt;a href="https://omegaup.com/arena/problem/Rango-simple" target="_blank" rel="noopener">Problema A&lt;/a>&lt;span class="hx-absolute -hx-mt-20" id="problema-ahttpsomegaupcomarenaproblemrango-simple">&lt;/span>
+&lt;a href="#problema-ahttpsomegaupcomarenaproblemrango-simple" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Para este problema, consideramos un arreglo de ocurrencias $O$ sobre los elementos del arreglo. De modo que la respuesta está dada por&lt;/p>
 &lt;p>$\sum\limits_{i=A}^B O_{i}$&lt;/p>
 &lt;script src="https://gist.github.com/DBriaares/df979afcf721ba5aee429f948350e051.js">&lt;/script>
-
-&lt;h2 id="problema-bhttpsomegaupcomarenaproblema-contar-lapices">&lt;a href="https://omegaup.com/arena/problem/A-contar-lapices">Problema B&lt;/a>&lt;/h2>
-&lt;p>Si consideramos el mismo arreglo de ocurrencias $O$ sobre los elementos del arreglo, la respuesta está dada por $O_k$.&lt;/p>
+&lt;h2>&lt;a href="https://omegaup.com/arena/problem/A-contar-lapices" target="_blank" rel="noopener">Problema B&lt;/a>&lt;span class="hx-absolute -hx-mt-20" id="problema-bhttpsomegaupcomarenaproblema-contar-lapices">&lt;/span>
+&lt;a href="#problema-bhttpsomegaupcomarenaproblema-contar-lapices" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Si consideramos el mismo arreglo de ocurrencias $O$ sobre los elementos del arreglo, la respuesta está dada por $O_k$.&lt;/p>
 &lt;script src="https://gist.github.com/DBriaares/2380189d0e29c2e29ab52771f353ebbe.js">&lt;/script>
-
-&lt;h2 id="problema-chttpsomegaupcomarenaproblemnofib">&lt;a href="https://omegaup.com/arena/problem/nofib">Problema C&lt;/a>&lt;/h2>
-&lt;p>Podemos generar todos los elementos de la secuencia de Fibonacci hasta $30000$, y guardarlos en un mapa $M$, de modo que $M_k = 1$ si $k$ es un elemento de Fibonnaci, y $M_k = 0$ en caso contrario. Generamos la respuesta simplemente iterando desde $i = 4$ hasta $i = N - 1$, e imprimimos $i$ si $M_i = 0$.&lt;/p></description></item><item><title>Administración de Identidades</title><link>https://blog.omegaup.com/administracion-de-identidades/</link><pubDate>Sat, 08 Feb 2020 22:56:22 +0000</pubDate><guid>https://blog.omegaup.com/administracion-de-identidades/</guid><description>&lt;p>Hemos liberado una nueva funcionalidad en omegaUp para que puedas administrar identidades dentro de un grupo. Si has sido organizador de un concurso o curso, seguramente has requerido de la ayuda de algún miembro de omegaUp para dar de alta las cuentas de los usuarios que participarán en el evento que organizaste con este &lt;a href="https://github.com/omegaup/omegaup/blob/73db504f8494ce00d0305931730ea35a89a8aa6b/frontend/server/controllers/UserController.php#L644">script&lt;/a>. Con esta nueva funcionalidad serás capaz de realizar todas las acciones por tu cuenta.&lt;/p>
-&lt;h1 id="qué-es-una-identidad">¿Qué es una Identidad?&lt;/h1>
-&lt;p>Una identidad en omegaUp es una cuenta con los privilegios suficientes para ingresar a un curso o concurso para el cual haya sido creada. Anteriormente, para que un usuario pudiera ingresar al curso o concurso, era necesario hacer los cambios necesarios en el código descrito en el párrafo anterior.&lt;/p></description></item><item><title>Concursos Virtuales</title><link>https://blog.omegaup.com/concursos-virtuales/</link><pubDate>Fri, 01 Mar 2019 04:37:05 +0000</pubDate><guid>https://blog.omegaup.com/concursos-virtuales/</guid><description>&lt;p>¿Te gustaría revivir un concurso de programación que ya pasó? ¿Te gustaría ver cómo se mueve la tabla de posiciones en tiempo real mientras vas subiendo tus soluciones? ¿Te gustaría saber cómo te “hubiera ido” en “aquél concurso” al que no pudiste ir?&lt;/p>
+&lt;h2>&lt;a href="https://omegaup.com/arena/problem/nofib" target="_blank" rel="noopener">Problema C&lt;/a>&lt;span class="hx-absolute -hx-mt-20" id="problema-chttpsomegaupcomarenaproblemnofib">&lt;/span>
+&lt;a href="#problema-chttpsomegaupcomarenaproblemnofib" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Podemos generar todos los elementos de la secuencia de Fibonacci hasta $30000$, y guardarlos en un mapa $M$, de modo que $M_k = 1$ si $k$ es un elemento de Fibonnaci, y $M_k = 0$ en caso contrario. Generamos la respuesta simplemente iterando desde $i = 4$ hasta $i = N - 1$, e imprimimos $i$ si $M_i = 0$.&lt;/p>
+&lt;script src="https://gist.github.com/DBriaares/7d2a6b7afb388ceb9b22cf2f077670f5.js">&lt;/script>
+&lt;h2>&lt;a href="https://omegaup.com/arena/problem/Posicion-Fibonacci" target="_blank" rel="noopener">Problema D&lt;/a>&lt;span class="hx-absolute -hx-mt-20" id="problema-dhttpsomegaupcomarenaproblemposicion-fibonacci">&lt;/span>
+&lt;a href="#problema-dhttpsomegaupcomarenaproblemposicion-fibonacci" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>La clave para este problema, es usar variables que no provoquen un desbordamiento, por ejemplo, unsigned long long. Luego, es conocido que la serie de Fibonacci crece rápidamente, lo suficiente, como para generar la secuencia con todos sus elementos menores o iguales a $N$, guardando por cada uno su respectiva posición en ella. Por lo tanto, basta con checar si $N$ es un elemento, e imprimir su posición. En caso de no serlo, imprimimos $-1$.&lt;/p>
+&lt;script src="https://gist.github.com/DBriaares/00ea7419ff9454b86d63b052d44d0337.js">&lt;/script>
+&lt;h2>&lt;a href="https://omegaup.com/arena/problem/estacion" target="_blank" rel="noopener">Problema E&lt;/a>&lt;span class="hx-absolute -hx-mt-20" id="problema-ehttpsomegaupcomarenaproblemestacion">&lt;/span>
+&lt;a href="#problema-ehttpsomegaupcomarenaproblemestacion" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Este tipo de problema es conocido como straight-forward. Podemos guardar las estaciones de radio, y checar cuál estación es la mas cercana a la frecuencia dada, con una simple resta. En caso de haber dos estaciones con la misma distancia, la respuesta es la mayor. Solo debemos cuidar que la frecuencia esté dentro del rango permitido.&lt;/p>
+&lt;script src="https://gist.github.com/DBriaares/f1fb91811095dee376d6961c65b8e017.js">&lt;/script>
+&lt;h2>&lt;a href="https://omegaup.com/arena/problem/Tu-y-tu-Futuro" target="_blank" rel="noopener">Problema F&lt;/a>&lt;span class="hx-absolute -hx-mt-20" id="problema-fhttpsomegaupcomarenaproblemtu-y-tu-futuro">&lt;/span>
+&lt;a href="#problema-fhttpsomegaupcomarenaproblemtu-y-tu-futuro" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>En este problema lo que tenemos es un grafo dirigido acíclico con aristas pesadas (intuitivamente, es un árbol, sin la propiedad de que cualquier par de nodos estan conectados por un único camino). Los vértices son los eventos temporales, las aristas son dirigidas de $p_i$ a $i$, y su peso es $d_i$. Además, cada vértice contiene un valor extra $r_i$. Un grafo que podemos asociar al primer caso de ejemplo es el siguiente.&lt;/p>
+&lt;p>&lt;img src="https://blog.omegaup.com/images/example_graph_correct.jpg" alt="" loading="lazy" />&lt;/p>
+&lt;p>Sean $v_1$ y $v_k$ dos vértices distintos, tales que $v_1$ es ancestro de $v_k$. Es decir, existe un camino $v_1 \rightarrow v_2 \rightarrow \ldots \rightarrow v_k$ en el grafo. Definimos $S(v_1, v_k)$ como&lt;/p>
+&lt;p>$\sum\limits_{i=1}^{k - 1} d_{v_i}$&lt;/p>
+&lt;p>Es decir, la suma de los pesos en las aristas del camino. De modo que el problema se convierte en: Para cada vertice $v$, contar cuántos vértices $u$ en su &amp;ldquo;subárbol&amp;rdquo; $\;$ existen tales que&lt;/p>
+&lt;p>$r_u - S(v, u) \geq 0 $&lt;/p>
+&lt;p>Porque esto siginifica que tenemos suficientes segundos para viajar por el tiempo desde $u$ hasta $v$.&lt;/p>
+&lt;p>Consideremos un arreglo $E$, donde la entrada $E_v$ guarda cuántos descendientes $u$ de $v$ satisfacen&lt;/p>
+&lt;p>$r_u - S(v, u) \geq 0 $&lt;/p>
+&lt;p>Pero&lt;/p>
+&lt;p>$r_u - S(p_v, u) &amp;lt; 0 $&lt;/p>
+&lt;p>Donde $p_v$ es el padre de $v$. Si $v = 0$, entonces no hace falta considerar a su padre, puesto que no podemos viajar por el tiempo a algún ancestro de $0$ (ya que ni siquiera existe alguno).&lt;/p>
+&lt;p>En otras palabras, $E_v$ guarda cuántos descendientes de $v$ llegan a lo mas al vértice $v$.&lt;/p>
+&lt;p>También consideremos un arreglo $D$, donde la entrada $D_v$ guarda cuántos descendientes $u$ de $v$ satisfacen&lt;/p>
+&lt;p>$ r_u - S(v, u) &amp;lt; 0 $&lt;/p>
+&lt;p>Es decir, $D_v$ guarda cuántos descendientes de $v$ no pueden llegar al vertice $v$.&lt;/p>
+&lt;p>Y además mantengamos un arreglo $T$, donde la entrada $T_v$ guarda el tamaño del &amp;ldquo;subárbol&amp;rdquo; de $v$ (incluyendo a $v$). En otras palabras, cuántos descendientes tiene $v$ en total mas el mismo.&lt;/p>
+&lt;p>Por lo tanto, la respuesta final para el vértice $v$ está dada por&lt;/p>
+&lt;p>$(T_v - 1) - \sum\limits_{v \rightarrow u} (E_u + D_u)$&lt;/p>
+&lt;p>donde $u$ es un hijo directo de $v$. Ya que esto calcula cuántos descendientes de $v$ si pueden llegar a $v$.&lt;/p>
+&lt;p>Para el cálculo de nuestros arreglos, hacemos una dfs sobre el &amp;ldquo;árbol&amp;rdquo;  (partiendo del vertice 0). Para cada vértice $u$, hacemos una búsqueda binaria sobre un arreglo que mantenga la suma acumulada de los costos sobre las aristas que forman parte del camino de $0$ a $u$, que nos devuelva el máximo ancestro $v$ al que podemos llegar desde $u$.  Lo que nos dice que  $E_v$ actualiza su valor a $E_v + 1$ (inicialmente, $E_1 = E_2  = \ldots = E_n = 0$). Esto se puede hacer usando un arreglo global. La idea es añadir la suma acumulada, luego explorar recursivamente el subárbol de $u$, y luego quitar la suma acumulada que añadimos. Esto es particularmente sencillo si usamos un vector de la STL para el arreglo global.&lt;/p>
+&lt;p>El arreglo $T$ se calcula facilmente en la misma dfs, ya que&lt;/p>
+&lt;p>$T_v = 1 + \sum\limits_{v \rightarrow u} (T_u)$&lt;/p>
+&lt;p>Ahora podemos generar $D$, al estilo de programacion dinámica usando $E$. Notemos que&lt;/p>
+&lt;p>$D_v = \sum\limits_{v \rightarrow u} (E_ u + D_u)$&lt;/p>
+&lt;p>Lo que se puede hacer en la misma DFS.&lt;/p>
+&lt;p>Por lo tanto, nuestro algoritmo tiene complejidad $O(Nlog(N))$.&lt;/p>
+&lt;script src="https://gist.github.com/DBriaares/230bf4f852d80fba75be9f2c322124b4.js">&lt;/script>
+&lt;h2>&lt;a href="https://omegaup.com/arena/problem/Karel-y-los-quebrados" target="_blank" rel="noopener">Problema G&lt;/a>&lt;span class="hx-absolute -hx-mt-20" id="problema-ghttpsomegaupcomarenaproblemkarel-y-los-quebrados">&lt;/span>
+&lt;a href="#problema-ghttpsomegaupcomarenaproblemkarel-y-los-quebrados" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Primero reescribamos la expresión dada como&lt;/p>
+&lt;p>$k = \dfrac{xy}{x + y}$&lt;/p>
+&lt;p>De donde podemos despejar $y$ como&lt;/p>
+&lt;p>$y = \dfrac{xk}{x - k}$&lt;/p>
+&lt;p>Sin perdida de generalidad, supongamos $x \leq y$, entonces se tiene&lt;/p>
+&lt;p>$x \leq \dfrac{xk}{x - k}$&lt;/p>
+&lt;p>$x^2 \leq 2xk$&lt;/p>
+&lt;p>$x \leq 2k$&lt;/p>
+&lt;p>Por lo tanto, podemos iterar $x$ desde $1$ hasta $2k$, obtenemos $y$, y verificamos que $k = \dfrac{xy}{x + y}, y &amp;gt; 0$.&lt;/p>
+&lt;p>Guardamos las parejas que satisfazcan dichas condiciones y las imprimimos en el orden requerido, cuidando no repetir alguna respuesta.&lt;/p>
+&lt;p>Lo que nos deja con un algoritmo de complejidad $O(k)$.&lt;/p>
+&lt;p>Una solución alternativa es la siguiente:&lt;/p>
+&lt;p>Te puedes dar cuenta que $x, y &amp;gt; k$, entonces el problema se convierte a  buscar $a$ y $b$ que cumplan&lt;/p>
+&lt;p>$\dfrac{1}{k} = \dfrac{1}{k + a} + \dfrac{1}{k + b}$&lt;/p>
+&lt;p>con $a,b &amp;gt; 0$. Si simplificas la igualdad llegas a que $k^2 = ab$, así que todo se reduce a encontrar las parejas de divisores $a, b$ de $k^2$.  Lo que deja también un algoritmo de complejidad $O(k)$.&lt;/p>
+&lt;p>Nota: Agradezco a José Tapia y a Carlos Galeana por su colaboración en el problema $G$.&lt;/p>
+&lt;script src="https://gist.github.com/DBriaares/1bf8bac6ba8c1040befc7b4b64900ac2.js">&lt;/script></description></item><item><title>Administración de Identidades</title><link>https://blog.omegaup.com/posts/administracion-de-identidades/</link><pubDate>Sat, 08 Feb 2020 22:56:22 +0000</pubDate><guid>https://blog.omegaup.com/posts/administracion-de-identidades/</guid><description>
+&lt;p>Hemos liberado una nueva funcionalidad en omegaUp para que puedas administrar identidades dentro de un grupo. Si has sido organizador de un concurso o curso, seguramente has requerido de la ayuda de algún miembro de omegaUp para dar de alta las cuentas de los usuarios que participarán en el evento que organizaste con este &lt;a href="https://github.com/omegaup/omegaup/blob/73db504f8494ce00d0305931730ea35a89a8aa6b/frontend/server/controllers/UserController.php#L644" target="_blank" rel="noopener">script&lt;/a>. Con esta nueva funcionalidad serás capaz de realizar todas las acciones por tu cuenta.&lt;/p>
+&lt;h1>¿Qué es una Identidad?&lt;/h1>&lt;p>Una identidad en omegaUp es una cuenta con los privilegios suficientes para ingresar a un curso o concurso para el cual haya sido creada. Anteriormente, para que un usuario pudiera ingresar al curso o concurso, era necesario hacer los cambios necesarios en el código descrito en el párrafo anterior.&lt;/p>
+&lt;h2>Ventajas&lt;span class="hx-absolute -hx-mt-20" id="ventajas">&lt;/span>
+&lt;a href="#ventajas" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Las ventajas que se tienen con esta nueva funcionalidad se describen a continuación:&lt;/p>
+&lt;h3>Profesor / organizador&lt;span class="hx-absolute -hx-mt-20" id="profesor--organizador">&lt;/span>
+&lt;a href="#profesor--organizador" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Rapidez: Al poder crear sus identidades, el organizador puede disponer de ellas en el momento que las da de alta. Ya no es necesario esperar a que se haga el despliegue con los usuarios que se pretenden agregar.&lt;/li>
+&lt;li>Control: Estas cuentas de identidades ahora las podrá visualizar en el mismo lugar donde están las cuentas de los usuarios que se agregan al curso.&lt;/li>
+&lt;li>Seguridad: Es muy importante señalar que una vez que la identidad se asocia a un concursante, esta ya no puede ser utilizada por nadie más. Ya no será necesario reutilizar cuentas.&lt;/li>
+&lt;/ul>
+&lt;h3>Alumno / participante&lt;span class="hx-absolute -hx-mt-20" id="alumno--participante">&lt;/span>
+&lt;a href="#alumno--participante" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Privacidad: Siempre y cuando las identidades se den de alta con nombres genéricos, los datos de los usuarios no serán expuestos en ninguna parte de la plataforma.&lt;/li>
+&lt;li>Control: El usuario podrá agregar a su cuenta tantas identidades le sean asignadas, lo cual tiene una gran ventaja, ya que todos los problemas que resuelva con cualquiera de sus identidades serán tomados en cuenta para su rankeo.&lt;/li>
+&lt;/ul>
+&lt;h1>¿Cómo funciona la Administración de Identidades?&lt;/h1>&lt;h2>Crear Identidades&lt;span class="hx-absolute -hx-mt-20" id="crear-identidades">&lt;/span>
+&lt;a href="#crear-identidades" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;a href="https://blog.omegaup.com/images/Video_1-Crear_Identiades.webm" >&lt;video autoplay muted loop>
+&lt;source src="https://blog.omegaup.com/images/Video_1-Crear_Identiades.webm" type="video/mp4">
+&lt;/video>
+&lt;/a>&lt;/p>
+&lt;p>En la animación anterior se muestra cómo crear un grupo con identidades, este proceso se describe paso a paso a continuación:&lt;/p>
+&lt;h5>1. Ingresa a la sección de Mis Grupos.&lt;span class="hx-absolute -hx-mt-20" id="1-ingresa-a-la-sección-de-mis-grupos">&lt;/span>
+&lt;a href="#1-ingresa-a-la-secci%c3%b3n-de-mis-grupos" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h5>&lt;p>Una vez que ingresas a omegaUp, y en el menú superior busca la opción &lt;em>Concursos &amp;gt; Mis grupos&lt;/em>:&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/Imagen_1-Ingresar_Grupos.png" >&lt;img src="https://blog.omegaup.com/images/Imagen_1-Ingresar_Grupos.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
+&lt;h5>2. Crear el grupo&lt;span class="hx-absolute -hx-mt-20" id="2-crear-el-grupo">&lt;/span>
+&lt;a href="#2-crear-el-grupo" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h5>&lt;p>Si ya creaste el grupo pasa al punto 3, de lo contrario presiona el botón de Crear grupo:&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/Imagen_2-Crear_Grupo.png" >&lt;img src="https://blog.omegaup.com/images/Imagen_2-Crear_Grupo.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
+&lt;p>Llena los datos de nombre y descripción del Grupo, el alias se genera automáticamente de acuerdo al nombre del grupo. Una vez que has llenado los datos, presiona el botón de &lt;em>Crear grupo&lt;/em>:&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/Imagen_3-Crear_Nuevo_Grupo.png" >&lt;img src="https://blog.omegaup.com/images/Imagen_3-Crear_Nuevo_Grupo.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
+&lt;h5>3. Selecciona el grupo&lt;span class="hx-absolute -hx-mt-20" id="3-selecciona-el-grupo">&lt;/span>
+&lt;a href="#3-selecciona-el-grupo" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h5>&lt;p>Busca tu grupo en el listado, al encontrarlo da clic sobre el para que te mande al detalle:&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/Imagen_4-Seleccionar_Grupo.png" >&lt;img src="https://blog.omegaup.com/images/Imagen_4-Seleccionar_Grupo.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
+&lt;h5>4. Crear las identidades&lt;span class="hx-absolute -hx-mt-20" id="4-crear-las-identidades">&lt;/span>
+&lt;a href="#4-crear-las-identidades" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h5>&lt;p>Si cuentas con los permisos suficientes, en esta pantalla encontrarás una pestaña de &lt;em>Crear identidades&lt;/em>, al dar clic en ella te aparecerá lo siguiente:&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/Imagen_5-Seleccionar_Archivo.png" >&lt;img src="https://blog.omegaup.com/images/Imagen_5-Seleccionar_Archivo.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
+&lt;p>Vas a ver un botón que dice &lt;em>seleccionar el archivo&lt;/em>, da clic para que puedas cargar un archivo en formato CSV.&lt;/p>
+&lt;blockquote>
+&lt;p>Nota: Esta característica aún está en etapa de experimentación, así  que si requieres subir un archivo con identidades, es necesario que envíes un correo a &lt;a href="mailto:engineering@omegaup.com" >engineering@omegaup.com&lt;/a> con tu nombre de usuario y el motivo para el que utilizarás la funcionalidad.&lt;/p>
+&lt;/blockquote>
+&lt;h5>5. Llena el archivo&lt;span class="hx-absolute -hx-mt-20" id="5-llena-el-archivo">&lt;/span>
+&lt;a href="#5-llena-el-archivo" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h5>&lt;p>Si ya tienes el archivo CSV con las identidades a crear, pasa al punto 6, de lo contrario aquí te indicamos cómo generarlo.&lt;/p>
+&lt;p>&lt;a href="https://docs.google.com/spreadsheets/d/1okGOLoZc7l6pz8GFba0sjcETsJducJ8as8hpikhYq-g/edit?usp=sharing" target="_blank" rel="noopener">Aquí&lt;/a> puedes descargar la plantilla para que puedas registrar a todos los usuarios desde algún programa de Hoja de cálculo. Cuando guardes los cambios cerciórate de que el archivo lo guardas en el formato correcto (CSV). Este es el &lt;a href="https://docs.google.com/spreadsheets/d/1WiBrXf7MfU5zf2iUC8CD_WmnlwXQ_Qoo8UaEZ0ixFyU/edit?usp=sharing" target="_blank" rel="noopener">ejemplo&lt;/a> de un archivo para subir.&lt;/p>
+&lt;p>Las consideraciones que debes tener al crear el archivo son las siguientes:&lt;/p>
+&lt;p>Todos los campos son obligatorios y deben seguir con las siguientes reglas:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>username&lt;/strong>: Mismas reglas que cuando se da de alta un usuario desde la página de registro.&lt;/li>
+&lt;li>&lt;strong>name&lt;/strong>: Mismas reglas que cuando se da de alta un usuario desde la página de registro.&lt;/li>
+&lt;li>&lt;strong>country_id&lt;/strong>: Debes ingresar el código del país o la región según &lt;a href="https://en.wikipedia.org/wiki/ISO_3166-2" target="_blank" rel="noopener">iso3166-2&lt;/a>, ejemplo: Si los concursantes son de México, entonces debes escribir el código MX.&lt;/li>
+&lt;li>&lt;strong>state_id&lt;/strong>: Mismo caso que el campo anterior, debes buscar el código del estado/provincia/distrito al que pertenezca según &lt;a href="https://www.gefeg.com/edifact/d03a/s3/codes/cl1h.htm" target="_blank" rel="noopener">iso3166-2&lt;/a>, este código está compuesto por [país o región-estado o provincia o distrito]. Sólo escribe los dígitos que están después del caracter -. Ejemplo: Si los concursantes son de Guanajuato, México, debes escribir GUA.&lt;/li>
+&lt;li>&lt;strong>gender&lt;/strong>: Si tienes identificados a los concursantes, puedes indicar una de las siguientes opciones: [male, female, other, decline]. Recuerda que si escribes cualquier cosa distinta a las 4 opciones listadas, te aparecerá un error al querer subir el archivo.&lt;/li>
+&lt;li>&lt;strong>school&lt;/strong>: Si ya tienes registrada la escuela en la plataforma, escribe el nombre tal cual está dada de alta, de lo contrario, se va a generar un nuevo registro de escuela.&lt;/li>
+&lt;/ul>
+&lt;p>Guarda el archivo en formato CSV como se mencionó anteriormente.&lt;/p>
+&lt;h5>6. Sube el archivo&lt;span class="hx-absolute -hx-mt-20" id="6-sube-el-archivo">&lt;/span>
+&lt;a href="#6-sube-el-archivo" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h5>&lt;p>Elige el archivo con las identidades que deseas dar de alta y da clic en abrir:&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/Imagen_6-Abrir_Archivo.png" >&lt;img src="https://blog.omegaup.com/images/Imagen_6-Abrir_Archivo.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
+&lt;p>Todas las identidades te deben de aparecer en formato de tabla como se muestra en la siguiente imagen:&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/Imagen_7-Crear_Identidades.png" >&lt;img src="https://blog.omegaup.com/images/Imagen_7-Crear_Identidades.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
+&lt;p>Una vez que las puedas visualizar, revisa que los datos son correctos. En caso de que tengas información incorrecta, vuelve a modificar tu archivo de identidades, guárdalo y regresa al punto 4.&lt;/p>
+&lt;p>Si los datos son los correctos, da clic en el botón de Crear identidades. Listo, ahora ya cuentas con identidades ligadas a un grupo.&lt;/p>
+&lt;p>Como puedes notar, en la tabla de arriba se visualizan las contraseñas asignadas a cada identidad, es recomendable que las guardes en algún lugar seguro para posteriormente compartirlas con los participantes de tu concurso o curso (lo puedes hacer presionando el botón  &lt;a href="https://blog.omegaup.com/images/Imagen_8-Descargar.png" >&lt;img src="https://blog.omegaup.com/images/Imagen_8-Descargar.png" alt="" loading="lazy" />&lt;/a> que aparece justo debajo del botón de &lt;em>Crear Identidades&lt;/em>) ya que si te sales de esta pantalla, no las podrás volver a consultar.&lt;/p>
+&lt;p>Nota: Las contraseñas se &lt;em>hashean&lt;/em> y se almacenan en la base de datos: quiere decir que ya no se puede revertir para visualizar la contraseña.&lt;/p>
+&lt;p>Para tener un mejor control sobre las identidades que creaste, estas cuentan con un identificador en el username: &lt;strong>&lt;em>[nombre-del-grupo:username]&lt;/em>&lt;/strong>, de esta forma siempre tendremos una asociación directa entre identidades y grupo.&lt;/p>
+&lt;p>En caso de que no hayas guardado las contraseñas, no te preocupes, las puedes regenerar volviendo a subir el .csv. Alternativamente si sólo quieres restablecer la contraseña de un sólo alumno, puedes hacer eso desde la pestaña de miembros, tal como se muestra en la siguiente animación:&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/Video_2-Cambiar_Password.webm" >&lt;video autoplay muted loop>
+&lt;source src="https://blog.omegaup.com/images/Video_2-Cambiar_Password.webm" type="video/mp4">
+&lt;/video>
+&lt;/a>&lt;/p>
+&lt;h2>Cambiar Password&lt;span class="hx-absolute -hx-mt-20" id="cambiar-password">&lt;/span>
+&lt;a href="#cambiar-password" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>También puedes editar información de las identidades, recuerda que solamente el creador de las identidades puede realizar esta acción. La forma de hacerlo se muestra en la siguiente animación:&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/Video_3-Actualizar_Info_Basica.webm" >&lt;video autoplay muted loop>
+&lt;source src="https://blog.omegaup.com/images/Video_3-Actualizar_Info_Basica.webm" type="video/mp4">
+&lt;/video>
+&lt;/a>&lt;/p>
+&lt;h2>Actualizar información básica&lt;span class="hx-absolute -hx-mt-20" id="actualizar-información-básica">&lt;/span>
+&lt;a href="#actualizar-informaci%c3%b3n-b%c3%a1sica" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Ya que le compartiste las identidades a los respectivos participantes, ellos pueden ingresar a la plataforma de la misma forma que cualquier otro usuario, la diferencia que van a notar es que estas cuentas no podrán editar sus datos, en la siguiente animación se muestra:&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/Video_4-Ingresar_Omegaup.webm" >&lt;video autoplay muted loop>
+&lt;source src="https://blog.omegaup.com/images/Video_4-Ingresar_Omegaup.webm" type="video/mp4">
+&lt;/video>
+&lt;/a>&lt;/p>
+&lt;h1>Ingresar a omegaUp por medio de una identidad&lt;/h1>&lt;p>Un caso que pudiera ser muy común es que un usuario tenga que agregar varias identidades.&lt;/p>
+&lt;p>Supongamos el siguiente ejemplo: El alumno Juan Pérez utiliza frecuentemente la plataforma de omegaUp, porque en ella puede practicar con problemas de programación. En la escuela que asiste, su maestra decidió crear un curso en la plataforma y dio de alta las identidades con las que quiere que ingresen sus alumnos. Además, por su buen desempeño, Juan es invitado a un concurso estatal de programación, donde el organizador ya ha creado las identidades con las que ingresarán los participantes de dicho concurso.&lt;/p>
+&lt;p>En este caso Juan ya cuenta con su usuario de la plataforma, y aparte le han compartido dos cuentas con identidades adicionales. Si quiere que todos los problemas que resuelva tanto en su escuela, como en el concurso sean contabilizados para su posición en la tabla de mejores coders, lo que debe hacer es lo que se muestra en la siguiente animación:&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/Video_5-Vincular_Identidad_Usuario.webm" >&lt;video autoplay muted loop>
+&lt;source src="https://blog.omegaup.com/images/Video_5-Vincular_Identidad_Usuario.webm" type="video/mp4">
+&lt;/video>
+&lt;/a>&lt;/p>
+&lt;h1>Vincular identidad con usuario&lt;/h1>&lt;p>El usuario debe ingresar a omegaUp con su cuenta que comúnmente utiliza.&lt;/p>
+&lt;p>Después debe dirigirse a &lt;em>Mi perfil&lt;/em> en el menú superior derecho, y después da clic en &lt;em>Editar Perfil&lt;/em> tal como se muestra en la siguiente imagen:&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/Imagen_9-Editar_Perfil.png" >&lt;img src="https://blog.omegaup.com/images/Imagen_9-Editar_Perfil.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
+&lt;p>Una vez que dentro de la pantalla de Editar Perfil, si se desplaza un poco, debajo de Editar tu perfil se puede encontrar la sección de Administrar Identidades. Sólo es cuestión de que agregue el username y la contraseña de la identidad para que esta se asocie a la cuenta.&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/Imagen_10-Vincular_Identidad.png" >&lt;img src="https://blog.omegaup.com/images/Imagen_10-Vincular_Identidad.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
+&lt;p>Atentamente, El equipo de omegaUp&lt;/p></description></item><item><title>Concursos Virtuales</title><link>https://blog.omegaup.com/posts/concursos-virtuales/</link><pubDate>Fri, 01 Mar 2019 04:37:05 +0000</pubDate><guid>https://blog.omegaup.com/posts/concursos-virtuales/</guid><description>
+&lt;p>¿Te gustaría revivir un concurso de programación que ya pasó? ¿Te gustaría ver cómo se mueve la tabla de posiciones en tiempo real mientras vas subiendo tus soluciones? ¿Te gustaría saber cómo te “hubiera ido” en “aquél concurso” al que no pudiste ir?&lt;/p>
 &lt;p>¡El futuro es hoy! Todo esto ya es posible en omegaUp gracias a la nueva funcionalidad de “concursos virtuales”.&lt;/p>
-&lt;p>Para activar esta nueva funcionalidad simplemente elige un concurso en la arena y selecciona “Concurso virtual”, el concurso empezará y la lista de posiciones se irá actualizando conforme los participantes del concurso fueron subiendo sus soluciones, así podrás saber cómo te va con respecto a los competidores que participaron en el concurso.&lt;/p></description></item><item><title>Concursos en Modo Virtual</title><link>https://blog.omegaup.com/concursos-en-modo-virtual/</link><pubDate>Fri, 07 Dec 2018 06:00:21 +0000</pubDate><guid>https://blog.omegaup.com/concursos-en-modo-virtual/</guid><description>&lt;p>Estimados usuarios de omegaUp&lt;/p>
+&lt;p>Para activar esta nueva funcionalidad simplemente elige un concurso en la arena y selecciona “Concurso virtual”, el concurso empezará y la lista de posiciones se irá actualizando conforme los participantes del concurso fueron subiendo sus soluciones, así podrás saber cómo te va con respecto a los competidores que participaron en el concurso.&lt;/p>
+&lt;p>Kudos a Vincent, estudiante de Japón, por implementar esta nueva funcionalidad el verano pasado como parte de su internship en Google Summer of Code.&lt;/p>
+&lt;p>¡Gracias a Google por el apoyo para llevar este proyecto a cabo a través de Google Summer of Code! Esperamos poder ser parte de este programa en el futuro.&lt;/p>
+&lt;p>Aquí les dejamos unos concursos interesantes:&lt;/p>
+&lt;p>- OPI 2017 &lt;a href="https://omegaup.com/arena/CPIO2017-virtual-uJq/virtual" target="_blank" rel="noopener">https://omegaup.com/arena/CPIO2017-virtual-uJq/virtual&lt;/a>&lt;/p>
+&lt;p>- OMI 2017 (día 1) &lt;a href="https://omegaup.com/arena/OMI2017DIA1PUBLICO/virtual" target="_blank" rel="noopener">https://omegaup.com/arena/OMI2017DIA1PUBLICO/virtual&lt;/a>&lt;/p>
+&lt;p>- OMI para Secundarias 2018 &lt;a href="https://omegaup.com/arena/OMIS2018PUBLICO/virtual" target="_blank" rel="noopener">https://omegaup.com/arena/OMIS2018PUBLICO/virtual&lt;/a>&lt;/p>
+&lt;p>- OMI para Primarias 2018 &lt;a href="https://omegaup.com/arena/OMIP2018PUBLICO/virtual" target="_blank" rel="noopener">https://omegaup.com/arena/OMIP2018PUBLICO/virtual&lt;/a>&lt;/p>
+&lt;p>Participa en esta y más conversaciones en nuestro blog: &lt;a href="https://blog.omegaup.com/concursos-en-modo-virtual/" target="_blank" rel="noopener">https://blog.omegaup.com/concursos-en-modo-virtual/&lt;/a>&lt;/p></description></item><item><title>Concursos en Modo Virtual</title><link>https://blog.omegaup.com/posts/concursos-en-modo-virtual/</link><pubDate>Fri, 07 Dec 2018 06:00:21 +0000</pubDate><guid>https://blog.omegaup.com/posts/concursos-en-modo-virtual/</guid><description>
+&lt;p>Estimados usuarios de omegaUp&lt;/p>
 &lt;p>Estamos muy felices de anunciar que hemos implementado una nueva funcionalidad de concursos en modo virtual en omegaUp :)&lt;/p>
 &lt;p>¿Qué es un concurso en modo virtual?&lt;/p>
 &lt;p>Concursos en modo virtual te permite reproducir un concurso pasado en un modo especial que imita el concurso real como sucedió. Con el scoreboard reproduciéndose en sincronía con el concurso original.&lt;/p>
-&lt;p>Estos son los pasos a seguir para crear y participar en un concurso en modo virtual:&lt;/p></description></item><item><title>Se realiza la 1era Competencia Peruana de Informática Online en omegaUp</title><link>https://blog.omegaup.com/se-realiza-la-1era-competencia-peruana-de-informatica-para-pre-universitarios/</link><pubDate>Thu, 01 Jun 2017 03:43:49 +0000</pubDate><guid>https://blog.omegaup.com/se-realiza-la-1era-competencia-peruana-de-informatica-para-pre-universitarios/</guid><description>&lt;figure>&lt;a href="http://www.olimpiadadeinformatica.org.pe/" target="_blank">&lt;img src="http://www.olimpiadadeinformatica.org.pe/OPI/img/CPIO2017.png"
- alt="1ra Competencia Peruana de Informática Online" width="371" height="488">&lt;/a>&lt;figcaption>
- &lt;p>1ra Competencia Peruana de Informática Online&lt;/p>
- &lt;/figcaption>
+&lt;p>Estos son los pasos a seguir para crear y participar en un concurso en modo virtual:&lt;/p>
+&lt;ol>
+&lt;li>Crear concurso virtual. Crear el concurso virtual es muy simple! Solo tienes que ir a la sección de concursos en arena, buscar el concurso que te interesa y hacer click en el botón de modo virtual. &lt;a href="https://blog.omegaup.com/images/1.webm" >&lt;video autoplay muted loop>
+&lt;source src="https://blog.omegaup.com/images/1.webm" type="video/mp4">
+&lt;/video>
+&lt;/a>&lt;/li>
+&lt;li>Pon un tiempo y hora de inicio para tu concurso virtual.&lt;a href="https://blog.omegaup.com/images/2.webm" >&lt;video autoplay muted loop>
+&lt;source src="https://blog.omegaup.com/images/2.webm" type="video/mp4">
+&lt;/video>
+&lt;/a>&lt;/li>
+&lt;li>Entra a tu concurso virtual. Simplemente haz click en comenzar concurso. También puedes invitar a tus amigos o rivales a tu concurso en modo virtual&lt;img src="https://blog.omegaup.com/images/3.webm" alt="&lt;video autoplay muted loop>
+&lt;source src="https://blog.omegaup.com/images/3.webm" type="video/mp4">
+&lt;/video>
+" loading="lazy" />&lt;/li>
+&lt;li>Disfruta el entrenamiento!&lt;/li>
+&lt;/ol>
+&lt;p>Verás a otros usuarios en tu concurso virtual en el scoreboard y mini rank. Tú aparecerás como &lt;strong>usuario-[virtual]&lt;/strong>. El scoreboard estará sincronizado con el del concurso original en todo momento.&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/4.png" >&lt;img src="https://blog.omegaup.com/images/4.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
+&lt;p>El crédito de esta funcionalidad va para nuestro becario Vincent Fango que desarrolló este proyecto (&lt;a href="https://github.com/SpaceWhite" target="_blank" rel="noopener">https://github.com/SpaceWhite&lt;/a>). Si te interesa conocer detalles técnicos sobre la implementación de esta funcionalidad puedes escucharlos de Vincent mismo: &lt;a href="https://www.youtube.com/channel/UChhWcITUEZy7f0wLPlQgE8A?view_as=subscriber" target="_blank" rel="noopener">https://www.youtube.com/channel/UChhWcITUEZy7f0wLPlQgE8A?view_as=subscriber&lt;/a>&lt;/p>
+&lt;p>Nota: En concursos en modo virtual no podrás añadir, editar ni borrar problemas. Tampoco podrás cambiar la duración del concurso entre otras configuraciones.&lt;/p></description></item><item><title>Se realiza la 1era Competencia Peruana de Informática Online en omegaUp</title><link>https://blog.omegaup.com/posts/se-realiza-la-1era-competencia-peruana-de-informatica-para-pre-universitarios/</link><pubDate>Thu, 01 Jun 2017 03:43:49 +0000</pubDate><guid>https://blog.omegaup.com/posts/se-realiza-la-1era-competencia-peruana-de-informatica-para-pre-universitarios/</guid><description>
+&lt;figure>&lt;a href="http://www.olimpiadadeinformatica.org.pe/" target="_blank">&lt;img src="http://www.olimpiadadeinformatica.org.pe/OPI/img/CPIO2017.png"
+alt="1ra Competencia Peruana de Informática Online" width="371" height="488">&lt;/a>&lt;figcaption>
+&lt;p>1ra Competencia Peruana de Informática Online&lt;/p>
+&lt;/figcaption>
 &lt;/figure>
-
-&lt;p>El pasado domingo 28 de mayo de 2017 se realizó la &lt;strong>&lt;a href="http://www.olimpiadadeinformatica.org.pe/OPI/">1era Competencia Peruana de Informática Online&lt;/a> (CPIO)&lt;/strong>. Organizada por la &lt;a href="http://www.olimpiadadeinformatica.org.pe/OPI/FOPI.pdf">&lt;strong>Federación Olímpica Peruana de Informática&lt;/strong>&lt;/a> &lt;strong>(FOPI)&lt;/strong>, la &lt;strong>CPIO&lt;/strong> es la primera competencia en su tipo que convoca a alumnos pre-universitarios de todo el Perú para conformar la delegación peruana rumbo a la &lt;strong>&lt;a href="http://oia.elsantodel90.tk/ciic/">Competencia Iberoamericana de Informática y Computación&lt;/a> (CIIC) 2017&lt;/strong>**.**&lt;/p></description></item><item><title>Concursos recomendados</title><link>https://blog.omegaup.com/concursos-recomendados/</link><pubDate>Fri, 15 Jan 2016 15:25:27 +0000</pubDate><guid>https://blog.omegaup.com/concursos-recomendados/</guid><description>&lt;p>Respondiendo a los comentarios que hemos recibido sobre la organización de la lista de concursos en la Arena, hemos &lt;a href="https://github.com/omegaup/omegaup/commit/24a00de9a696f06a5fa5567e03c0351a7ccbd90e">implementado&lt;/a> el concepto de Concursos Recomendados:&lt;/p>
-&lt;p>&lt;a href="https://omegaup.com/arena">&lt;img src="https://blog.omegaup.com/images/Screen-Shot-2016-01-15-at-7.06.48-AM.png" alt="Concursos recomendados">&lt;/a>&lt;/p>
-&lt;p>A partir de ahora tendremos una lista separada para los Concursos Recomendados actuales y pasados. Para pedir que tu concurso sea marcado como recomendado escribe un email a &lt;a href="mailto:omegaup-soporte@googlegroups.com">omegaup-soporte@googlegroups.com&lt;/a>.&lt;/p>
+&lt;p>El pasado domingo 28 de mayo de 2017 se realizó la &lt;strong>&lt;a href="http://www.olimpiadadeinformatica.org.pe/OPI/" target="_blank" rel="noopener">1era Competencia Peruana de Informática Online&lt;/a> (CPIO)&lt;/strong>. Organizada por la &lt;a href="http://www.olimpiadadeinformatica.org.pe/OPI/FOPI.pdf" target="_blank" rel="noopener">&lt;strong>Federación Olímpica Peruana de Informática&lt;/strong>&lt;/a> &lt;strong>(FOPI)&lt;/strong>, la &lt;strong>CPIO&lt;/strong> es la primera competencia en su tipo que convoca a alumnos pre-universitarios de todo el Perú para conformar la delegación peruana rumbo a la &lt;strong>&lt;a href="http://oia.elsantodel90.tk/ciic/" target="_blank" rel="noopener">Competencia Iberoamericana de Informática y Computación&lt;/a> (CIIC) 2017&lt;/strong>**.**&lt;/p>
+&lt;p>Fundada en diciembre de 2016 por Aldo Culquicondor, Edson Ticona, Jonathan Quispe, L. Rodolfo Nájera, Raúl Gallegos, Rodolfo Mercado y Yesica Aquino, la &lt;strong>FOPI&lt;/strong> busca fomentar la informática competitiva pre-universitaria, apoyando a los niños y jóvenes peruanos a desarrollarse en este ámbito, preparando una delegación que represente al Perú y consolide logros internacionales.&lt;/p>
+&lt;p>La **CPIO **es una competencia multi-nivel de programación para jóvenes peruanos, con habilidades de resolución de problemas mediante el análisis, la lógica, el ingenio y la implementación de soluciones en un computador. El concurso realizado en &lt;a href="http://omegaup.com" target="_blank" rel="noopener">&lt;strong>omegaUp&lt;/strong>&lt;/a> contó con la participación de competidores de las principales ciudades peruanas:Arequipa, Callao, Chepen, Cusco, Ica, Lima, Piura, Pucallpa, Puno y Tacna.&lt;/p>
+&lt;p>Al ser la primera competencia de programación competitiva en el Perú, se espera que &lt;strong>CPIO&lt;/strong> marque el inicio del desarrollo de la informática en los jóvenes peruanos y como consecuencia un mejor desarrollo tecnológico en aquel país sudamericano, mencionó Aldo P. Culquicondor Ruiz, presidente de la &lt;strong>FOPI&lt;/strong>.&lt;/p>
+&lt;p>Luego de la competencia, quedaron seleccionados ocho competidores para representar al Perú en la &lt;strong>CIIC&lt;/strong> el próximo 10 de junio**:** Joaquin Rodrigo Palma Ugarte y Stheven Julmar Quispe Llamocca de Arequipa, Anthony Dante Yataco Torres y Nicolas Ticona Valdivia de Lima, Carlos Daniel Ramos Arellano de Piura, Johan Frank Cachicatari Ticona y Marcela Veronica Apaza Vilca de Puno y Roberto Carlos Huamán Rivera de Tacna.&lt;/p>
+&lt;p>Con la realización de esta competencia, la organización sin fines de lucro &lt;a href="https://omegaup.org/" target="_blank" rel="noopener">&lt;strong>omegaUp&lt;/strong> &lt;/a>da un paso importante para cumplir su objetivo de aumentar el número de ingenieros de software talentosos en todos los confines de América Latina.&lt;/p></description></item><item><title>Concursos recomendados</title><link>https://blog.omegaup.com/posts/concursos-recomendados/</link><pubDate>Fri, 15 Jan 2016 15:25:27 +0000</pubDate><guid>https://blog.omegaup.com/posts/concursos-recomendados/</guid><description>
+&lt;p>Respondiendo a los comentarios que hemos recibido sobre la organización de la lista de concursos en la Arena, hemos &lt;a href="https://github.com/omegaup/omegaup/commit/24a00de9a696f06a5fa5567e03c0351a7ccbd90e" target="_blank" rel="noopener">implementado&lt;/a> el concepto de Concursos Recomendados:&lt;/p>
+&lt;p>&lt;a href="https://omegaup.com/arena" target="_blank" rel="noopener">&lt;img src="https://blog.omegaup.com/images/Screen-Shot-2016-01-15-at-7.06.48-AM.png" alt="Concursos recomendados" loading="lazy" />&lt;/a>&lt;/p>
+&lt;p>A partir de ahora tendremos una lista separada para los Concursos Recomendados actuales y pasados. Para pedir que tu concurso sea marcado como recomendado escribe un email a &lt;a href="mailto:omegaup-soporte@googlegroups.com" >omegaup-soporte@googlegroups.com&lt;/a>.&lt;/p>
 &lt;p>Los únicos requerimientos son:&lt;/p>
 &lt;ul>
 &lt;li>Que el concurso sea formalmente establecido (sea parte de una olimpiada, concurso de ACM u algún otro concurso de programación).&lt;/li>
@@ -46,18 +413,159 @@
 &lt;li>El tamaño del concurso no importa.&lt;/li>
 &lt;li>Concursos privados que cumplan estos requerimientos y que se planean hacer públicos posteriormente también cuentan.&lt;/li>
 &lt;/ul>
-&lt;p>Esperamos sus comentarios.&lt;/p></description></item><item><title>El camino de México rumbo a la IOI 2015</title><link>https://blog.omegaup.com/el-camino-de-mexico-rumbo-a-la-ioi-2015/</link><pubDate>Mon, 22 Jun 2015 00:57:14 +0000</pubDate><guid>https://blog.omegaup.com/el-camino-de-mexico-rumbo-a-la-ioi-2015/</guid><description>&lt;p>Un año más ha pasado y México ya tiene lista su delegación que nos representará en la International Olympiad in Informatics 2015 a celebrarse en Kazakhstan, del 26 de Julio al 2 de Agosto. A continuación presentamos la colección de exámenes y problemas que se usaron durante el preselectivo dentro de omegaUp. Esperamos que esta colección de problemas sirva de entrenamiento a futuras delegaciones de México y otros países de América Latina.&lt;/p>
-&lt;p>&lt;a href="https://blog.omegaup.com/images/ioi2015.jpg">&lt;img src="https://blog.omegaup.com/images/ioi2015.jpg" alt="Selección 2015 México ">&lt;/a>De izquierda a derecha, los integrantes de la Selección Mexicana de Informática 2015 son:&lt;/p>
+&lt;p>Esperamos sus comentarios.&lt;/p></description></item><item><title>El camino de México rumbo a la IOI 2015</title><link>https://blog.omegaup.com/posts/el-camino-de-mexico-rumbo-a-la-ioi-2015/</link><pubDate>Mon, 22 Jun 2015 00:57:14 +0000</pubDate><guid>https://blog.omegaup.com/posts/el-camino-de-mexico-rumbo-a-la-ioi-2015/</guid><description>
+&lt;p>Un año más ha pasado y México ya tiene lista su delegación que nos representará en la International Olympiad in Informatics 2015 a celebrarse en Kazakhstan, del 26 de Julio al 2 de Agosto. A continuación presentamos la colección de exámenes y problemas que se usaron durante el preselectivo dentro de omegaUp. Esperamos que esta colección de problemas sirva de entrenamiento a futuras delegaciones de México y otros países de América Latina.&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/ioi2015.jpg" >&lt;img src="https://blog.omegaup.com/images/ioi2015.jpg" alt="Selección 2015 México " loading="lazy" />&lt;/a>De izquierda a derecha, los integrantes de la Selección Mexicana de Informática 2015 son:&lt;/p>
 &lt;ol>
-&lt;li>**MEX-4: Emmanuel Antonio Cuevas **(&lt;a href="https://omegaup.com/profile/Emmanuel_Antonio">Emmanuel_Antonio&lt;/a>)&lt;/li>
-&lt;li>**MEX-2: Carlos Galeana Hernández **(&lt;a href="https://omegaup.com/profile/charlyhlms">charlyhlms&lt;/a>)&lt;/li>
-&lt;li>&lt;strong>MEX-1:&lt;/strong> &lt;strong>Juan Carlos Sigler Priego&lt;/strong> (&lt;a href="https://omegaup.com/profile/Juan_Carlos_Sigler_Priego">Juan_Carlos_Sigler_Priego&lt;/a>)&lt;/li>
-&lt;li>**MEX-3: Ángel David Ortega Ramírez **(&lt;a href="https://omegaup.com/profile/blak_dragon1">blak_dragon1&lt;/a>)&lt;/li>
-&lt;/ol></description></item><item><title>Trucos para ser más cool</title><link>https://blog.omegaup.com/trucos-cool/</link><pubDate>Mon, 07 Jul 2014 05:37:40 +0000</pubDate><guid>https://blog.omegaup.com/trucos-cool/</guid><description>&lt;p>Después de un rato de investigación y experimentación, por fin me tomo el tiempo para escribir este post y presentarles algunos trucos que, considero, podrían ayudarles a simplificarse la vida cuando programen y, obviamente, a ser mucho más cool.&lt;/p>
+&lt;li>**MEX-4: Emmanuel Antonio Cuevas **(&lt;a href="https://omegaup.com/profile/Emmanuel_Antonio" target="_blank" rel="noopener">Emmanuel_Antonio&lt;/a>)&lt;/li>
+&lt;li>**MEX-2: Carlos Galeana Hernández **(&lt;a href="https://omegaup.com/profile/charlyhlms" target="_blank" rel="noopener">charlyhlms&lt;/a>)&lt;/li>
+&lt;li>&lt;strong>MEX-1:&lt;/strong> &lt;strong>Juan Carlos Sigler Priego&lt;/strong> (&lt;a href="https://omegaup.com/profile/Juan_Carlos_Sigler_Priego" target="_blank" rel="noopener">Juan_Carlos_Sigler_Priego&lt;/a>)&lt;/li>
+&lt;li>**MEX-3: Ángel David Ortega Ramírez **(&lt;a href="https://omegaup.com/profile/blak_dragon1" target="_blank" rel="noopener">blak_dragon1&lt;/a>)&lt;/li>
+&lt;/ol>
+&lt;h1>Material de Estudio&lt;/h1>&lt;p>En nuestro post anterior, &lt;a href="http://blog.omegaup.com/2014/05/el-camino-rumbo-a-la-ioi-2014/" target="_blank" rel="noopener">El camino rumbo a la IOI 2014&lt;/a> hay una buena colección de materiales que sugerimos a los olímpicos leer mientras avanzan por las diferentes etapas del preselectivo.&lt;/p>
+&lt;h1>&lt;strong>Etapa 1&lt;/strong>&lt;/h1>&lt;p>Durante esta etapa le pedimos a los olímpicos que lean el libro de &lt;a href="https://omegaup.com/img/libropre3.pdf" target="_blank" rel="noopener">Problemas y Algoritmos&lt;/a> de Luis Vargas como mínimo como guía para resolver los problemas.&lt;/p>
+&lt;ul>
+&lt;li>Temas básicos: variables, cadenas, arreglos, matrices, ciclos, mcm, mcd, etc..
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P1/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 1&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P2/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 2&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Pilas, colas y búsqueda binaria
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P3/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 3&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P4/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 4&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1E1/practice/" target="_blank" rel="noopener">Examen 1&lt;/a>&lt;/li>
+&lt;li>Búsqueda, árboles, acotamiento y poda
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P5/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 5&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P6/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 6&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Recursión y backtracking
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P7/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 7&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P8/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 8&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1E2/practice/" target="_blank" rel="noopener">Examen 2&lt;/a>&lt;/li>
+&lt;li>Búsquedas con espacios de estados
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P9/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 9&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P10/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 10&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Programación Dinámica
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P11/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 11&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P12/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 12&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P13/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 13&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1E3/practice/" target="_blank" rel="noopener">Examen 3&lt;/a>&lt;/li>
+&lt;li>Divide y vencerás
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P14/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 14&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P15/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 15&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Grafos
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P16/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 16&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P17/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 17&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1E4/practice/" target="_blank" rel="noopener">Examen 4&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h1>&lt;strong>Etapa 2&lt;/strong>&lt;/h1>&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E2E1/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 2, Examen 1&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E2E2/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 2, Examen 2&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E2E3/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 2, Examen 3&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E2E4/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 2, Examen 4&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E2E5/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 2, Examen 5&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h1>Selectivo Final&lt;/h1>&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015EFE1/practice/" target="_blank" rel="noopener">IOI 2015 Selectivo Final, Examen 1&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015EFE2/practice/" target="_blank" rel="noopener">IOI 2015 Selectivo Final, Examen 2&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015EFE3/practice/" target="_blank" rel="noopener">IOI 2015 Selectivo Final, Examen 3&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015EFE4/practice/" target="_blank" rel="noopener">IOI 2015 Selectivo Final, Examen 4&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015EFE5/practice/" target="_blank" rel="noopener">IOI 2015 Selectivo Final, Examen 5&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Trucos para ser más cool</title><link>https://blog.omegaup.com/posts/trucos-cool/</link><pubDate>Mon, 07 Jul 2014 05:37:40 +0000</pubDate><guid>https://blog.omegaup.com/posts/trucos-cool/</guid><description>
+&lt;p>Después de un rato de investigación y experimentación, por fin me tomo el tiempo para escribir este post y presentarles algunos trucos que, considero, podrían ayudarles a simplificarse la vida cuando programen y, obviamente, a ser mucho más cool.&lt;/p>
 &lt;p>&lt;strong>&lt;em>¿Cansado de importar librerías como asíatico en TopCoder? ¡Aquí está la solución!&lt;/em>&lt;/strong>&lt;/p>
-&lt;p>Muchas veces es nefasto encontrar varios (sino es que miles) errores al compilar a causa de librerías que hemos olvidado incluir. Existe una librería que, al incluirla, agrega todas las librerías estándar de C++ a nuestro código, ¡incluso las de la STL!&lt;/p></description></item><item><title>Preselectivo IOI 2015 - Inicio</title><link>https://blog.omegaup.com/preselectivo-ioi-2015-inicio/</link><pubDate>Mon, 02 Jun 2014 14:04:24 +0000</pubDate><guid>https://blog.omegaup.com/preselectivo-ioi-2015-inicio/</guid><description>&lt;p>&lt;a href="https://blog.omegaup.com/images/740112_10152062112657478_4658374637277423762_o.jpg">&lt;img src="https://blog.omegaup.com/images/740112_10152062112657478_4658374637277423762_o.jpg" alt="" title="OMI">&lt;/a>&lt;/p>
-&lt;p>Esta semana iniciamos el preselectivo rumbo a la &lt;a href="http://www.ioinformatics.org/index.shtml">International Olympiad in Informatics 2015&lt;/a>. 36 ganadores de la &lt;a href="http://www.olimpiadadeinformatica.org.mx/OMI/OMI/Inicio.aspx">Olimpiada Mexicana de Informática 2014&lt;/a> van a participar en este proceso y pelearán por un lugar para representar a México. Este fue el mensaje de bienvenida:&lt;/p></description></item><item><title>El camino rumbo a la IOI 2014</title><link>https://blog.omegaup.com/el-camino-rumbo-a-la-ioi-2014/</link><pubDate>Wed, 28 May 2014 15:29:56 +0000</pubDate><guid>https://blog.omegaup.com/el-camino-rumbo-a-la-ioi-2014/</guid><description>&lt;p>Después de varios meses de preparación y selección, México está listo para participar en la &lt;a href="http://www.ioi2014.org/">IOI 2014&lt;/a> a celebrarse en Taiwán del 13 al 20 de Julio.&lt;/p>
-&lt;p>&lt;a href="https://blog.omegaup.com/images/ioi20141.jpg">&lt;img src="https://blog.omegaup.com/images/ioi20141.jpg" alt="" title="Selección Mexicana de Informática 2014">&lt;/a>&lt;/p>
+&lt;p>Muchas veces es nefasto encontrar varios (sino es que miles) errores al compilar a causa de librerías que hemos olvidado incluir. Existe una librería que, al incluirla, agrega todas las librerías estándar de C++ a nuestro código, ¡incluso las de la STL!&lt;/p>
+&lt;p>&lt;em>¿Que clase de brujería es esta?&lt;/em> Seguramente se estarán preguntando. Muy sencillo, solo necesitan escribir la siguiente línea de codigo: &lt;code>#include &amp;lt;bits/stdc++.h&amp;gt;&lt;/code>&lt;/p>
+&lt;p>_(Actualización) _Gracias a el comentario de lhchavez por remarcar el hecho de que esta línea funciona únicamente con el compilador &lt;em>gcc&lt;/em>. Pese a esto, gran parte de los evaluadores actualmente usan &lt;em>gcc,&lt;/em> por lo que podemos confiar en su uso, al menos en omegaUp. En caso de que la librería anterior no siga siendo soportada por omegaUp, les informaremos oportunamente.&lt;/p>
+&lt;p>&lt;em>&lt;strong>¡Mi mami dice que cin/cout es malo y no debo juntarme con ellos!&lt;/strong>&lt;/em>&lt;/p>
+&lt;p>Si no me equivoco, durante mucho tiempo se ha tratado a scanf y printf como el pan de cada día para la entrada y salida en los concursos de programación, al menos en México. Mientras tanto, se satanizó a cin y cout por ser lentos (o especiales, como dice mi mami) para realizar entrada y salida eficiente.&lt;/p>
+&lt;p>Sin embargo esto siempre fue un mito, los métodos cin/cout son incluso más eficientes que scanf/printf, solo había que descubrir el por que no lo notamos.&lt;/p>
+&lt;p>Resulta que cin/cout son muy buenos amigos de scanf/printf. Como son tan buenos amigos, al realizar la lectura y salida no querían alejarse demasiado, por lo que cin/cout tenía que sincronizarse para estar siempre a la par de scanf/printf.&lt;/p>
+&lt;p>Para no hacer el cuento largo, hay una forma de desactivar la opción de sincronización entre cin/cout y scanf/printf, solo es necesario incluir al inicio del main:&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c++" data-lang="c++">&lt;span style="display:flex;">&lt;span>std&lt;span style="color:#f92672">::&lt;/span>cin.tie(&lt;span style="color:#66d9ef">nullptr&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>std&lt;span style="color:#f92672">::&lt;/span>ios_base&lt;span style="color:#f92672">::&lt;/span>sync_with_stdio(false);&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>Con esto podemos usar cin y cout sin temor a obtener TLE por lectura lenta, ¡Yaaay!&lt;/p>
+&lt;p>&lt;em>&lt;strong>¿Y eso es todo? ¿Ya puedo disfrutar de cin y cout?&lt;/strong>&lt;/em>&lt;/p>
+&lt;p>Casi. Antes de cantar victoria hay un último detalle para evitar los TLE. Gracias a un último experimento, encontramos que cuando se presentaban outputs muy grandes, cin/cout optimizado seguía lanzando TLE cuando scanf/printf no.&lt;/p>
+&lt;p>¡Tranquilos! También es posible evitar este error. El problema se presentaba porque comúnmente usaríamos lo siguiente: &lt;code>cout &amp;lt;&amp;lt; numero &amp;lt;&amp;lt; endl&lt;/code>. Sucede que &lt;em>endl&lt;/em>, además de imprimir un salto de línea, hace &lt;em>flush&lt;/em> en el flujo de salida, lo cual es considerablemente costoso al imprimir muchas líneas y entorpece el rendimiento.&lt;/p>
+&lt;p>Para que la salida sea eficiente, recomendamos que uses el salto de línea literal &lt;code>&amp;quot;\n&amp;quot;&lt;/code>.&lt;/p>
+&lt;p>Con los dos trucos anteriores, la eficiencia de cin/cout mejora generalmente un &lt;em>&lt;strong>5-10%&lt;/strong>&lt;/em> los resultados obtenidos por scanf/printf. Bastante cool, ¿no?&lt;/p>
+&lt;p>Aunque el objetivo original no es ganar unas cuantas centésimas de segundo en eficiencia, sino dar la oportunidad a aquellos olímpicos que no manejan scanf/printf para seguir usando cin/cout sin enfrentarse a más complicaciones.&lt;/p>
+&lt;p>Finalmente les dejó un ejemplo de cómo usar todo lo anterior en un código de C++. Espero que algo de esto les pueda ayudar en el futuro. Les deseo lo mejor :)&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c++" data-lang="c++">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;bits/stdc++.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#define optimizar_io do { std::ios_base::sync_with_stdio(false); std::cin.tie(nullptr); } while(false)`
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>(){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> optimizar_io;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> a, b;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> std&lt;span style="color:#f92672">::&lt;/span>cin &lt;span style="color:#f92672">&amp;gt;&amp;gt;&lt;/span> a &lt;span style="color:#f92672">&amp;gt;&amp;gt;&lt;/span> b;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> std&lt;span style="color:#f92672">::&lt;/span>cout &lt;span style="color:#f92672">&amp;lt;&amp;lt;&lt;/span> a &lt;span style="color:#f92672">+&lt;/span> b &lt;span style="color:#f92672">&amp;lt;&amp;lt;&lt;/span> &lt;span style="color:#e6db74">&amp;#34;&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div></description></item><item><title>Preselectivo IOI 2015 - Inicio</title><link>https://blog.omegaup.com/posts/preselectivo-ioi-2015-inicio/</link><pubDate>Mon, 02 Jun 2014 14:04:24 +0000</pubDate><guid>https://blog.omegaup.com/posts/preselectivo-ioi-2015-inicio/</guid><description>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/740112_10152062112657478_4658374637277423762_o.jpg" >&lt;figure>
+&lt;img src="https://blog.omegaup.com/images/740112_10152062112657478_4658374637277423762_o.jpg" title="OMI" alt="" loading="lazy" />
+&lt;figcaption>OMI&lt;/figcaption>
+&lt;/figure>&lt;/a>&lt;/p>
+&lt;p>Esta semana iniciamos el preselectivo rumbo a la &lt;a href="http://www.ioinformatics.org/index.shtml" target="_blank" rel="noopener">International Olympiad in Informatics 2015&lt;/a>. 36 ganadores de la &lt;a href="http://www.olimpiadadeinformatica.org.mx/OMI/OMI/Inicio.aspx" target="_blank" rel="noopener">Olimpiada Mexicana de Informática 2014&lt;/a> van a participar en este proceso y pelearán por un lugar para representar a México. Este fue el mensaje de bienvenida:&lt;/p>
+&lt;blockquote>
+&lt;p>Estimados olímpicos, líderes y delegados,&lt;/p>
+&lt;p>Espero que se encuentran muy bien. Los felicito por sus buenos resultados en la OMI y les doy la bienvenida al Proceso de selección para la IOI 2015 a celebrarse en Astana, Kazakhstan. Este año, los 35 mejores concursantes de la OMI pasada van a pelear un lugar entre los 4 representantes de México en la IOI.&lt;/p>
+&lt;p>La Etapa 1 del preselectivo consistirá de prácticas y exámenes en línea que iniciarán el 13 de Junio. A partir de esa semana, se publicarán 2 problemas de práctica por tema y tendrán una semana para resolverlos al 100%. Cada tema abarcará 2 semanas, usualmente la primer semana publicaremos problemas introductorios y la segunda semana serán problemas más retadores. Cada dos temas, es decir, aproximadamente cada mes, habrá un examen que cubrirá los temas ya vistos. Cada problema de práctica resuelto por completo en el periodo asignado (1 semana) valdrá 100 puntos y los exámenes valdrán 300 puntos. La agenda con los temas y fechas de publicación se encuentra &lt;a href="http://olimpiadadeinformatica.us4.list-manage.com/track/click?u=35979a7875695484372c1bc57&amp;amp;id=83c0e4d85f&amp;amp;e=30790c0fec" target="_blank" rel="noopener">aquí&lt;/a>.&lt;/p>
+&lt;p>&lt;strong>Los 20 alumnos&lt;/strong> con más puntos calificarán a la Etapa 2. La Etapa 2 iniciará con un entrenamiento presencial en el mes de Noviembre en un lugar por definir.&lt;/p>
+&lt;h1>Cómo prepararse?&lt;/h1>&lt;p>Es importante darse cuenta que están por entrar a un proceso de entrenamiento que requiere de mucha disciplina, concentración, dedicación y una inversión considerable de tiempo. Al final representarán a México a nivel internacional y nuestras expectativas sobre sus resultados son muy altas. No hay diferencia entre la preparación que ustedes van a llevar a cabo y la que usualmente lleva un atleta de alto rendimiento. A partir de este momento deben de ser muy vigilantes y conscientes de cómo invierten su tiempo día a día si quieren llegar lejos en la competencia, particularmente para quienes compiten por primera vez. No simplemente se trata de pasársela resolviendo mil problemas sencillos o parecidos, &lt;a href="http://olimpiadadeinformatica.us4.list-manage1.com/track/click?u=35979a7875695484372c1bc57&amp;amp;id=39d973f562&amp;amp;e=30790c0fec" target="_blank" rel="noopener">sino que hay que practicar de forma deliberada e inteligente para desarrollar talento&lt;/a>. &lt;/p>
+&lt;p>Sin más, lo mínimo esperado de la Etapa 1 es que dominen por completo los contenidos del libro &lt;a href="http://olimpiadadeinformatica.us4.list-manage.com/track/click?u=35979a7875695484372c1bc57&amp;amp;id=7fc7a93a8f&amp;amp;e=30790c0fec" target="_blank" rel="noopener">Problemas y Algoritmos de Luis Vargas&lt;/a>. Les recomiendo que no esperen a que inicien los exámenes para empezar a leerlo puesto que las prácticas no van a dejar de fluir de Junio a Octubre. &lt;strong>También es&lt;/strong> **&lt;a href="http://olimpiadadeinformatica.us4.list-manage.com/track/click?u=35979a7875695484372c1bc57&amp;amp;id=fbe63e8ae8&amp;amp;e=30790c0fec" target="_blank" rel="noopener">crucial que revisen la recapitulación del selectivo de la IOI 2014&lt;/a>. **En ese post encontrarán lecturas recomendadas para cada uno de los temas y otros sitios para practicar.&lt;/p>
+&lt;p>El proceso de la Etapa 1 está diseñado para consumir 10 horas de su tiempo a la semana, asumiendo que no dominan los temas por ver. Nosotros pensamos una distribución adecuada el tiempo es: 3 horas de lectura de material, 4 horas entrenando con los ejercicios del material o las prácticas del año pasado y 3 horas resolviendo los problemas de práctica de este año. En una encuesta realizada a los participantes del año pasado, el promedio de horas que invirtieron a la semana fueron precisamente 10. Sin embargo, cuando les preguntamos cuántas horas más creen ellos que le pudieron haber dedicado al proceso a la semana, después de conocer sus resultados, contestaron que otras 10 en promedio :).&lt;/p>
+&lt;p>Al final del camino encontrarán grandes recompensas, desde la satisfacción personal al verse como de los mejores del país, el orgullo de representar a México internacionalmente y también les abrirá las puertas para ser considerados por las mejores universidades del mundo para estudiar y por las mejores empresas de software para trabajar (Google, Microsoft, Facebook, Amazon, Intel&amp;hellip;). También varias startups interesantes han salido de ex-finalistas del proceso de preselección.&lt;/p>
+&lt;p>Para los alumnos que es su primer año compitiendo: No se desanimen al competir con otros que llevan varios años participando. En muchas de las IOIs pasadas hemos tenido el caso donde alguien que compite por primera vez le gana un lugar en la selección a alguien que fue a la IOI anterior, simplemente por que se preparó mejor.&lt;/p>
+&lt;p>Para los alumnos que repiten: probablemente ya manejen con fluidez el nivel de los temas que vemos en la Etapa 1. No quiere decir que los menosprecien :). Repásenlos con cuidado. Sin embargo, tampoco quiere decir que aflojen su preparación. Propónganse retos grandes, como subir a Gold en la USACO, llegar a rojo en TopCoder/Codeforces, resolver todos los problemas de las IOIs pasadas, terminar el Cormen, etc.&lt;/p>
+&lt;p>Sin más por el momento, les deseo mucha suerte en este proceso de preselección. Cualquier duda, por favor contáctenme respondiendo este correo. Saludos! -Joe&lt;/p>
+&lt;/blockquote></description></item><item><title>El camino rumbo a la IOI 2014</title><link>https://blog.omegaup.com/posts/el-camino-rumbo-a-la-ioi-2014/</link><pubDate>Wed, 28 May 2014 15:29:56 +0000</pubDate><guid>https://blog.omegaup.com/posts/el-camino-rumbo-a-la-ioi-2014/</guid><description>
+&lt;p>Después de varios meses de preparación y selección, México está listo para participar en la &lt;a href="http://www.ioi2014.org/" target="_blank" rel="noopener">IOI 2014&lt;/a> a celebrarse en Taiwán del 13 al 20 de Julio.&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/ioi20141.jpg" >&lt;figure>
+&lt;img src="https://blog.omegaup.com/images/ioi20141.jpg" title="Selección Mexicana de Informática 2014" alt="" loading="lazy" />
+&lt;figcaption>Selección Mexicana de Informática 2014&lt;/figcaption>
+&lt;/figure>&lt;/a>&lt;/p>
 &lt;p>De izquierda a derecha, nuestros seleccionados son:&lt;/p>
 &lt;ol>
 &lt;li>&lt;strong>Carlos Galeana Hernández&lt;/strong> del Distrito Federal&lt;/li>
@@ -65,43 +573,296 @@
 &lt;li>&lt;strong>Diego Alonso Roque Montoya&lt;/strong> de Nuevo León&lt;/li>
 &lt;li>&lt;strong>Jordán Alexander Salas&lt;/strong> de Coahuila&lt;/li>
 &lt;/ol>
-&lt;p>Nuevamente, nuestra selección cuenta con 3 ganadores absolutos de la &lt;a href="http://www.olimpiadadeinformatica.org.mx/OMI/OMI/Inicio.aspx">Olimpiada Mexicana de Informática&lt;/a>: Jordán ganó la &lt;a href="http://www.olimpiadadeinformatica.org.mx/OMI/OMI/Resultados/Participantes_2014.aspx">OMI 2014&lt;/a>, Talamás ganó la &lt;a href="http://www.olimpiadadeinformatica.org.mx/OMI/OMI/Resultados/Participantes_2013.aspx">OMI 2013&lt;/a> y Diego Roque ganó la &lt;a href="http://www.olimpiadadeinformatica.org.mx/OMI/OMI/Resultados/Participantes_2012.aspx">OMI 2012&lt;/a>. Les deseamos la mejor de las suertes!&lt;/p></description></item><item><title>Yeah, science b#$ch!: Entre más omegaUp, mejores resultados</title><link>https://blog.omegaup.com/yeah-science-bch-entre-mas-omegaup-mejores-resultados/</link><pubDate>Thu, 22 May 2014 14:45:11 +0000</pubDate><guid>https://blog.omegaup.com/yeah-science-bch-entre-mas-omegaup-mejores-resultados/</guid><description>&lt;p>Del 1 al 6 de Mayo pasados, se llevó a cabo la &lt;a href="http://www.olimpiadadeinformatica.org.mx/OMI/OMI/Resultados/Participantes_2014.aspx">Olimpiada Mexicana de Informática 2014&lt;/a> en Pachuca, Hidalgo. Más de 100 participantes de toda la república concursaron y omegaUp fue la plataforma de evaluación oficial (el examen del Día 1 lo puedes encontrar &lt;a href="https://omegaup.com/arena/OMI2014PUBLIC1/practice/">aquí&lt;/a> y el de el &lt;a href="https://omegaup.com/arena/OMI2014PUBLICO2/practice/">Día 2 aquí&lt;/a>).&lt;/p>
-&lt;p>Por primera vez, durante el periodo 2013-2014 varios Estados, como Morelos, Chihuahua y Guanajuato  empezaron a promover omegaUp entre sus olímpicos y usar nuestra plataforma para correr sus concursos locales estatales.&lt;/p></description></item><item><title>Practicando para la OMI en omegaUp</title><link>https://blog.omegaup.com/practicando-para-la-omi-en-omegaup/</link><pubDate>Mon, 17 Mar 2014 14:02:16 +0000</pubDate><guid>https://blog.omegaup.com/practicando-para-la-omi-en-omegaup/</guid><description>&lt;p>Si estás practicando para la Olimpiada Mexicana de Informática 2014, omegaUp tiene disponibles los exámenes nacionales desde el 2009 para que intentes resolverlos. Aquí están los enlaces a los concursos de práctica&lt;/p>
+&lt;p>Nuevamente, nuestra selección cuenta con 3 ganadores absolutos de la &lt;a href="http://www.olimpiadadeinformatica.org.mx/OMI/OMI/Inicio.aspx" target="_blank" rel="noopener">Olimpiada Mexicana de Informática&lt;/a>: Jordán ganó la &lt;a href="http://www.olimpiadadeinformatica.org.mx/OMI/OMI/Resultados/Participantes_2014.aspx" target="_blank" rel="noopener">OMI 2014&lt;/a>, Talamás ganó la &lt;a href="http://www.olimpiadadeinformatica.org.mx/OMI/OMI/Resultados/Participantes_2013.aspx" target="_blank" rel="noopener">OMI 2013&lt;/a> y Diego Roque ganó la &lt;a href="http://www.olimpiadadeinformatica.org.mx/OMI/OMI/Resultados/Participantes_2012.aspx" target="_blank" rel="noopener">OMI 2012&lt;/a>. Les deseamos la mejor de las suertes!&lt;/p>
+&lt;p>Todos los concursos de selección y la gran mayoría de las prácticas usadas durante el proceso están disponibles en omegaUp. Estos fueron los concursos y problemas usados:&lt;/p>
+&lt;p>&lt;strong>Etapa 1&lt;/strong> Durante esta etapa le pedimos a los olímpicos que lean el libro de &lt;a href="https://omegaup.com/img/libropre3.pdf" target="_blank" rel="noopener">Problemas y Algoritmos&lt;/a> de Luis Vargas como mínimo como guía para resolver los problemas.&lt;/p>
+&lt;p>&lt;em>&lt;strong>Temas introductorios: variables, cadenas, arreglos, matrices, ciclos, mcd, mcm:&lt;/strong>&lt;/em>&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://omegaup.com/arena/OMI2009D1/practice/">OMI 2009, día 1 (Karel)&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://omegaup.com/arena/OMI2009D2/practice/">OMI 2009, día 2 (Lenguaje)&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://omegaup.com/arena/OMI2010D1/practice/">OMI 2010, día 1 (Karel)&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://omegaup.com/arena/OMI2010D2/practice/">OMI 2010, día 2, (Lenguaje)&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://omegaup.com/arena/OMI2011D1/practice/">OMI 2011, día 1 (Karel)&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://omegaup.com/arena/OMI2011D2/practice/">OMI 2011, día 2 (Lenguaje)&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://omegaup.com/arena/OMI2012DIA1/practice/">OMI 2012, día 1 (Karel)&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://omegaup.com/arena/OMI2012DIA2/practice/">OMI 2012, día 2 (Lenguaje)&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://omegaup.com/arena/OMI2013DIA1/practice/">OMI 2013, día 1 (Karel)&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://omegaup.com/arena/OMI2013DIA2/practice/">OMI 2013, día 2 (Lenguaje)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P1/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 1&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P2/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 2&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://blog.omegaup.com/category/soluciones-preselectivo-14/etapa-1-14/examen-1-14/" target="_blank" rel="noopener">Soluciones&lt;/a>&lt;/li>
+&lt;li>Lecturas recomendadas:
+&lt;ol>
+&lt;li>Los temas 1, 2, 4 y 5 del &lt;a href="http://pier.guillen.com.mx/" target="_blank" rel="noopener">blog de Pier Paolo&lt;/a>.&lt;/li>
+&lt;li>Sección VII del &lt;a href="https://omegaup.com/img/libropre3.pdf" target="_blank" rel="noopener">Libro de Luis sobre Algoritmos&lt;/a>&lt;/li>
+&lt;li>Sección II del&lt;a href="https://omegaup.com/img/libropre3.pdf" target="_blank" rel="noopener"> Libro de Luis sobre Algoritmos&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://community.topcoder.com/tc?module=Static&amp;amp;d1=tutorials&amp;amp;d2=math_for_topcoders" target="_blank" rel="noopener">Mathematics for TopCoders.&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;/li>
 &lt;/ul>
-&lt;p>Nuevamente agradecemos a Kuko Lopez de la &lt;a href="http://www.cimat.mx/oieg/orig/2013/">OIEG&lt;/a> por ayudarnos a subir los problemas del 2009 al 2011.&lt;/p></description></item><item><title>38 nuevos problemas de Karel disponibles gracias a la OIEG!</title><link>https://blog.omegaup.com/38-nuevos-problemas-de-karel-disponibles-gracias-a-la-oieg/</link><pubDate>Wed, 12 Mar 2014 13:49:42 +0000</pubDate><guid>https://blog.omegaup.com/38-nuevos-problemas-de-karel-disponibles-gracias-a-la-oieg/</guid><description>&lt;p>La &lt;a href="http://www.cimat.mx/oieg/orig/2013/">Olimpiada de Informática del Estado de Guanajuato (OIEG)&lt;/a>, liderada este año por José Refugio López (Kuko), han hecho públicos 38 problemas de Karel para que la comunidad en general pueda practicar previo a la &lt;a href="http://www.olimpiadadeinformatica.org.mx/OMI/OMI/Inicio.aspx">Olimpiada Mexicana de Informática 2014. &lt;/a>&lt;/p>
+&lt;p>&lt;em>&lt;strong>Pilas, colas y búsqueda binaria&lt;/strong>&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P3/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 3&lt;/a> (nivel introductorio)&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P4/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 4&lt;/a> (nivel retador)&lt;/li>
+&lt;li>Lecturas recomendadas:
+&lt;ol>
+&lt;li>Del libro de L&lt;a href="https://omegaup.com/img/libropre3.pdf" target="_blank" rel="noopener">uis sobre Problemas y Algoritmos&lt;/a>, los capítulos 4, 10, 13 y la Sección 2 completa serán de utilidad para estos exámenes.&lt;/li>
+&lt;li>Del &lt;a href="http://pier.guillen.com.mx/" target="_blank" rel="noopener">Blog de Pier Paolo&lt;/a>, las secciones 2 y 3 pueden ser de utilidad.&lt;/li>
+&lt;li>El tutorial de Topcoder sobre &lt;a href="http://community.topcoder.com/tc?module=Static&amp;amp;d1=tutorials&amp;amp;d2=binarySearch" target="_blank" rel="noopener">Búsqueda Binaria&lt;/a>.&lt;/li>
+&lt;li>Pueden practicar también con los problemas de los mismos temas del año pasado en omegaUp: &lt;a href="https://omegaup.com/arena/IOI2013E1P2/practice/" target="_blank" rel="noopener">Problemset 1&lt;/a> y &lt;a href="https://omegaup.com/arena/IOI2013E1P3/practice/" target="_blank" rel="noopener">Problemset 3&lt;/a>.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;em>&lt;strong>Búsquedas, árboles y acotamiento y poda&lt;/strong>&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P5/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 5&lt;/a> (nivel introductorio)&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P6/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 6&lt;/a> (nivel retador)&lt;/li>
+&lt;li>&lt;a href="http://blog.omegaup.com/category/soluciones-preselectivo-14/etapa-1-14/examen-5-etapa-1-14/" target="_blank" rel="noopener">Soluciones&lt;/a> y más &lt;a href="http://blog.omegaup.com/category/soluciones-preselectivo-14/etapa-1-14/examen-6-etapa-1-14/" target="_blank" rel="noopener">soluciones&lt;/a>&lt;/li>
+&lt;li>Lecturas recomendadas:
+&lt;ol>
+&lt;li>Del libro de &lt;a href="https://omegaup.com/img/libropre3.pdf" target="_blank" rel="noopener">Problemas y Algoritmos de Luis Vargas&lt;/a>, la secciones 2 y 7 enteras y los capítulos 5, 14, 15 pueden ser de utilidad.&lt;/li>
+&lt;li>Del&lt;a href="http://pier.guillen.com.mx/" target="_blank" rel="noopener"> blog de Pier Paolo&lt;/a> pueden encontrar información relevante en las secciones 9 y 11. Repasen también los conceptos de búsqueda en amplitud y búsqueda en profundidad.&lt;/li>
+&lt;li>Pueden practicar con los &lt;a href="https://omegaup.com/arena/IOI2013E1P4/practice/" target="_blank" rel="noopener">Exámenes 4&lt;/a> y &lt;a href="https://omegaup.com/arena/IOI2013E1P5/practice/" target="_blank" rel="noopener">5&lt;/a> de la Etapa 1 del año pasado:  Las soluciones de algunos de esos problemas las pueden encontrar &lt;a href="http://blog.omegaup.com/category/soluciones-preselectivo/etapa-1/examen-4/" target="_blank" rel="noopener">aquí&lt;/a> y &lt;a href="http://blog.omegaup.com/category/soluciones-preselectivo/etapa-1/examen-5/" target="_blank" rel="noopener">aquí&lt;/a>.&lt;a href="http://blog.omegaup.com/category/soluciones-preselectivo-14/etapa-1-14/examen-6-etapa-1-14/" target="_blank" rel="noopener"> &lt;/a>&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;em>&lt;strong>Recursión y backtracking&lt;/strong>&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P7" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 7&lt;/a> (nivel introductorio)&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P8" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 8&lt;/a> (nivel retador)&lt;/li>
+&lt;li>&lt;a href="http://blog.omegaup.com/category/soluciones-preselectivo-14/etapa-1-14/examen-8-etapa-1-14/" target="_blank" rel="noopener">Soluciones&lt;/a>&lt;/li>
+&lt;li>Lecturas recomendadas:
+&lt;ol>
+&lt;li>Sección I completa del &lt;a href="https://omegaup.com/img/libropre3.pdf" target="_blank" rel="noopener">libro de Algoritmos de Luis Vargas (capítulos del 1 al 5)&lt;/a> más el capítulo 11.&lt;/li>
+&lt;li>Sección 9 completa del &lt;a href="http://pier.guillen.com.mx/" target="_blank" rel="noopener">blog de Pier Paolo&lt;/a> sobre algoritmos&lt;/li>
+&lt;li>Los &lt;a href="https://omegaup.com/arena/IOI2013E1P6/practice/" target="_blank" rel="noopener">exámenes 6&lt;/a> y &lt;a href="https://omegaup.com/arena/IOI2013E1P7/practice/" target="_blank" rel="noopener">7&lt;/a> de la preselección del 2013. Algunas soluciones a esos problemas se encuentran &lt;a href="http://blog.omegaup.com/category/soluciones-preselectivo/etapa-1/examen-7/" target="_blank" rel="noopener">en el blog&lt;/a>.&lt;/li>
+&lt;li>&lt;a href="http://community.topcoder.com/tc?module=Static&amp;amp;d1=tutorials&amp;amp;d2=recursionPt1" target="_blank" rel="noopener">An Introduction to Recursion, part 1&lt;/a> &amp;amp;&lt;a href="http://community.topcoder.com/tc?module=Static&amp;amp;d1=tutorials&amp;amp;d2=recursionPt2" target="_blank" rel="noopener"> part 2&lt;/a>.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;em>&lt;strong>Búsquedas con espacios de estados&lt;/strong>&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P9/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 9&lt;/a> (nivel introductorio)&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P10/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 10&lt;/a> (nivel retador)&lt;/li>
+&lt;li>Lecturas recomendadas:
+&lt;ol>
+&lt;li>Capítulo 19: Estructura de la Solución y Espacio de Búsqueda, &lt;a href="https://omegaup.com/img/libropre3.pdf" target="_blank" rel="noopener">del libro de Problemas y Algoritmos de Luis Vargas.&lt;/a>&lt;/li>
+&lt;li>También les recomendamos revisar y practicar con el &lt;a href="https://omegaup.com/arena/IOI2013E1P8/practice/" target="_blank" rel="noopener">problemset 8 del año anterior&lt;/a>. Algunas &lt;a href="http://blog.omegaup.com/category/soluciones-preselectivo/etapa-1/examen-8/" target="_blank" rel="noopener">soluciones a ese problemset&lt;/a> están en el blog.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;em>&lt;strong>Divide y vencerás&lt;/strong>&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P11/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 11&lt;/a> (nivel introductorio)&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P12/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 12&lt;/a> (nivel retador)&lt;/li>
+&lt;li>Lecturas recomendadas:
+&lt;ol>
+&lt;li>Capítulo 4 del libro de Problemas y Algoritmos.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;em>&lt;strong>Programación dinámica&lt;/strong>&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P13/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 13&lt;/a> (nivel introductorio)&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P14/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 14&lt;/a> (nivel medio)&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P15/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 15&lt;/a> (nivel retador)&lt;/li>
+&lt;li>&lt;a href="http://blog.omegaup.com/category/soluciones-preselectivo-14/etapa-1-14/examen-13/" target="_blank" rel="noopener">Soluciones&lt;/a>&lt;/li>
+&lt;li>Lecturas recomendadas:
+&lt;ul>
+&lt;li>Sección VI del libro de &lt;a href="https://omegaup.com/img/libropre3.pdf" target="_blank" rel="noopener">Problemas y Algoritmos.&lt;/a>&lt;/li>
+&lt;li>Tutorial de Topcoder: &lt;a href="http://help.topcoder.com/data-science/competing-in-algorithm-challenges/algorithm-tutorials/dynamic-programming-from-novice-to-advanced/" target="_blank" rel="noopener">Dynamic Programming&lt;/a>.&lt;/li>
+&lt;li>Programación Dinámica en el &lt;a href="http://pier.guillen.com.mx/" target="_blank" rel="noopener">blog de Pier Paolo&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;em>&lt;strong>Teoría de Grafos&lt;/strong>&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P16/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 16&lt;/a> (nivel introductorio)&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P17/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 17&lt;/a> (nivel retador)&lt;/li>
+&lt;li>Lecturas recomendadas:
+&lt;ol>
+&lt;li>Grafos en el &lt;a href="http://pier.guillen.com.mx/" target="_blank" rel="noopener">blog de Pier Paolo&lt;/a>.&lt;/li>
+&lt;li>Tutorial en Topcoder: &lt;a href="http://help.topcoder.com/data-science/competing-in-algorithm-challenges/algorithm-tutorials/introduction-to-graphs-and-their-data-structures-section-1/" target="_blank" rel="noopener">Introduction to graphs and their data structures&lt;/a>.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ul>
+&lt;p>**Etapa 2 **&lt;/p>
+&lt;p> Esta etapa consistió de entrenamientos presenciales y prácticas externas.&lt;/p>
+&lt;p>&lt;strong>Etapa 3&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E3E1/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 3 Examen 1&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E3E2/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 3 Examen 2&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E3E3/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 3 Examen 3&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E3E4/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 3 Examen 4&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E3E5/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 3 Examen 5&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Selectivo final&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014Etapa2Dia1/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 4 Examen 1&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014Etapa4Dia2/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 4 Examen 2&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014Etapa4Dia3/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 4 Examen 3&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014Etapa4Dia4/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 4 Examen 4&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014Etapa4Examen4/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 4 Examen 5&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014Etapa4Desempate/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 4 Desempate&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Material de lectura&lt;/strong>&lt;/p>
+&lt;p>Como parte del proceso, recomendamos a nuestros olímpicos revisar a profundidad los siguientes sitios con material de estudio y problemas para practicar:&lt;/p>
+&lt;ol>
+&lt;li>&lt;a href="http://people.ksp.sk/~misof/ioi-syllabus/ioi-syllabus-2009.pdf" target="_blank" rel="noopener">Temario oficial para la IOI.&lt;/a>&lt;/li>
+&lt;li>&lt;strong>El libro en español de Luis Vargas sobre &lt;a href="https://omegaup.com/img/libropre3.pdf" target="_blank" rel="noopener">Problemas y Algoritmos&lt;/a>.&lt;/strong> Básicamente el objetivo de la Etapa 1 es que dominen los contenidos de este libro, por lo que su lectura (y práctica) es casi obligatoria. Les recomendamos no esperar a que inicie el preselectivo para empezar a leerlo.&lt;/li>
+&lt;li>&lt;a href="http://www.ioinformatics.org/contest/books.shtml" target="_blank" rel="noopener">Libros recomendados para la IOI&lt;/a>, &lt;strong>a estas alturas su lectura es casi obligada&lt;/strong>si desean llegar y tener buenos resultados en la IOI:
+&lt;ol>
+&lt;li>&lt;a href="http://www.amazon.com/Introduction-Algorithms-Thomas-H-Cormen/dp/0262033844/ref=sr_1_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1401372229&amp;amp;sr=1-1&amp;amp;keywords=introduction&amp;#43;to&amp;#43;algorithms" target="_blank" rel="noopener">Introduction to Algorithms 3rd Edition, Cormen et. al.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://sites.google.com/site/stevenhalim/home" target="_blank" rel="noopener">Competitive Programming 1, 2 y 3, Steven &amp;amp; Felix Halim&lt;/a>. La versión electrónica del Libro 1 ya es gratis.&lt;/li>
+&lt;li>Otro libro introductorio: &lt;a href="http://www.amazon.com/Algorithms-Unlocked-Thomas-H-Cormen-ebook/dp/B00H4D1W94/ref=sr_1_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1401373463&amp;amp;sr=1-1&amp;amp;keywords=algorithms&amp;#43;unlocked" target="_blank" rel="noopener">Algorithms Unlocked&lt;/a> de Cormen. Más prosa y menos profundidad en las demostraciones que el Introduction al Algoritmos. Recomendado para quienes están en su primer año de concursos.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>&lt;a href="http://omegaup.com" target="_blank" rel="noopener">omegaUp&lt;/a> :)&lt;/li>
+&lt;li>El blog de Pier Paolo, sección Algoritmos: &lt;a href="http://pier.guillen.com.mx/" target="_blank" rel="noopener">http://pier.guillen.com.mx/&lt;/a>&lt;/li>
+&lt;li>El blog de Rodrigo Burgos: &lt;a href="http://algorithmmx.blogspot.com/" target="_blank" rel="noopener">http://algorithmmx.blogspot.com/&lt;/a>&lt;/li>
+&lt;li>Topcoder &lt;a href="http://community.topcoder.com/tc?module=Static&amp;amp;d1=tutorials&amp;amp;d2=alg_index" target="_blank" rel="noopener">Contenido educacional&lt;/a> (altamente &lt;strong>recomendado!&lt;/strong>)&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/preguntas/" target="_blank" rel="noopener">Preguntas omegaUp&lt;/a> -  Cualquier duda técnica que tengan, la pueden publica en nuestro sitio de preguntas. También pueden leer nuestras respuestas a preguntas pasadas.&lt;/li>
+&lt;li>&lt;a href="http://comscigate.com/Books/contests/icpc.pdf" target="_blank" rel="noopener">Guía rápida para el ACM ICPC&lt;/a>. Muy buena para repasar pero no todos los temas aplican para la IOI, chequen el temario primero.&lt;/li>
+&lt;/ol>
+&lt;p>Otros sitios para practicar&lt;/p>
+&lt;ol>
+&lt;li>&lt;a href="http://hsin.hr/coci/" target="_blank" rel="noopener">Croatian Open Competition in Informatics (COCI)&lt;/a>. Varios meses antes de la IOI, el comité de la Olimpiada de Croacia hace exámenes en línea. Los exámenes son de muy buen nivel y todos los problemas con sus soluciones están publicados en la misma página, les recomendamos darles un vistazo y practicar con todos ellos. Noten que los problemas de la COCI están en inglés y &lt;strong>no son traducidos al español&lt;/strong>, por lo que es bueno que estén preparados. Afortunadamente Google Translate típicamente hace un buen trabajo con estos enunciados.&lt;/li>
+&lt;li>&lt;a href="http://usaco.org/" target="_blank" rel="noopener">USA Computing Olympiad (USACO)&lt;/a>   Estos problemas sí son traducidos al español. Otro detalle importante sobre la USACO/COCI es que sus futuros competidores en la IOI también participan en estos concursos, por lo que les servirá para medir su nivel.&lt;/li>
+&lt;li>&lt;a href="http://cerberus.delos.com:791/usacogate" target="_blank" rel="noopener">USACO Training Gate&lt;/a>. Plataforma paso-a-paso para entrenar con problemas para la IOI. Incluye muy buenas explicaciones de la construcción de soluciones a varios problemas y tutoriales. &lt;a href="http://usacotraining.blogspot.com/p/introduction.html" target="_blank" rel="noopener">Este blog&lt;/a> tiene varias soluciones para el USACO training gate. Úsenlas sólo cuando estén completamente atorados en un problema, después de haberlo intentado.&lt;/li>
+&lt;li>Topcoder.com/tc&lt;/li>
+&lt;li>Codeforces: &lt;a href="http://codeforces.com/" target="_blank" rel="noopener">http://codeforces.com/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://uva.onlinejudge.org" target="_blank" rel="noopener">ACM UVa Online Judge&lt;/a>&lt;/li>
+&lt;li>Codechef: &lt;a href="http://www.codechef.com/" target="_blank" rel="noopener">http://www.codechef.com/&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;p>Esperamos que esta información le sirva a las próximas generaciones que participarán por un lugar en la Selección Mexicana de Informática.&lt;/p></description></item><item><title>Yeah, science b#$ch!: Entre más omegaUp, mejores resultados</title><link>https://blog.omegaup.com/posts/yeah-science-bch-entre-mas-omegaup-mejores-resultados/</link><pubDate>Thu, 22 May 2014 14:45:11 +0000</pubDate><guid>https://blog.omegaup.com/posts/yeah-science-bch-entre-mas-omegaup-mejores-resultados/</guid><description>
+&lt;p>Del 1 al 6 de Mayo pasados, se llevó a cabo la &lt;a href="http://www.olimpiadadeinformatica.org.mx/OMI/OMI/Resultados/Participantes_2014.aspx" target="_blank" rel="noopener">Olimpiada Mexicana de Informática 2014&lt;/a> en Pachuca, Hidalgo. Más de 100 participantes de toda la república concursaron y omegaUp fue la plataforma de evaluación oficial (el examen del Día 1 lo puedes encontrar &lt;a href="https://omegaup.com/arena/OMI2014PUBLIC1/practice/" target="_blank" rel="noopener">aquí&lt;/a> y el de el &lt;a href="https://omegaup.com/arena/OMI2014PUBLICO2/practice/" target="_blank" rel="noopener">Día 2 aquí&lt;/a>).&lt;/p>
+&lt;p>Por primera vez, durante el periodo 2013-2014 varios Estados, como Morelos, Chihuahua y Guanajuato  empezaron a promover omegaUp entre sus olímpicos y usar nuestra plataforma para correr sus concursos locales estatales.&lt;/p>
+&lt;p>Dentro de los resultados, la estadística que más nos llamó la atención en omegaUp fue la tabla de posiciones por Estado. Minutos antes de la OMI 2014, ya habíamos predicho el Top 10 de Estados basados en las visitas a omegaUp.com durante los 6 meses anteriores a la OMI:&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/Screen-Shot-2014-05-22-at-7.27.56-AM.png" >&lt;figure>
+&lt;img src="https://blog.omegaup.com/images/Screen-Shot-2014-05-22-at-7.27.56-AM.png" title="Predicciones omegaUp para la OMI 2014" alt="" loading="lazy" />
+&lt;figcaption>Predicciones omegaUp para la OMI 2014&lt;/figcaption>
+&lt;/figure>&lt;/a>&lt;/p>
+&lt;p>Los resultados finales por Estado fueron:&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/Screen-Shot-2014-05-22-at-7.32.50-AM.png" >&lt;figure>
+&lt;img src="https://blog.omegaup.com/images/Screen-Shot-2014-05-22-at-7.32.50-AM.png" title="Screen Shot 2014-05-22 at 7.32.50 AM" alt="" loading="lazy" />
+&lt;figcaption>Screen Shot 2014-05-22 at 7.32.50 AM&lt;/figcaption>
+&lt;/figure>&lt;/a>&lt;/p>
+&lt;p>Si bien, el orden no es exactamente el mismo, 9 de los 10 mejores Estados en la OMI también estuvieron dentro del Top 10 de visitas a omegaUp.com. Entendemos que usar más omegaUp no es el único factor para tener buenos resultados en la OMI, pero esta estadística es una buena muestra de que omegaUp funciona!&lt;/p>
+&lt;p>&lt;figure>
+&lt;img src="http://i1.kym-cdn.com/photos/images/original/000/517/111/fbd.jpg" title="Yeah, science bitch!" alt="" loading="lazy" />
+&lt;figcaption>Yeah, science bitch!&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>Recomendamos a todos los Estados promover omegaUp entre sus alumnos y usarlo para correr sus concursos locales. Entre más temprano en el proceso lo usen, será mejor - tendrán más visitas y la probabilidad de tener un mejor lugar en la OMI será más alta.&lt;/p></description></item><item><title>Practicando para la OMI en omegaUp</title><link>https://blog.omegaup.com/posts/practicando-para-la-omi-en-omegaup/</link><pubDate>Mon, 17 Mar 2014 14:02:16 +0000</pubDate><guid>https://blog.omegaup.com/posts/practicando-para-la-omi-en-omegaup/</guid><description>
+&lt;p>Si estás practicando para la Olimpiada Mexicana de Informática 2014, omegaUp tiene disponibles los exámenes nacionales desde el 2009 para que intentes resolverlos. Aquí están los enlaces a los concursos de práctica&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/OMI2009D1/practice/" target="_blank" rel="noopener">OMI 2009, día 1 (Karel)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/OMI2009D2/practice/" target="_blank" rel="noopener">OMI 2009, día 2 (Lenguaje)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/OMI2010D1/practice/" target="_blank" rel="noopener">OMI 2010, día 1 (Karel)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/OMI2010D2/practice/" target="_blank" rel="noopener">OMI 2010, día 2, (Lenguaje)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/OMI2011D1/practice/" target="_blank" rel="noopener">OMI 2011, día 1 (Karel)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/OMI2011D2/practice/" target="_blank" rel="noopener">OMI 2011, día 2 (Lenguaje)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/OMI2012DIA1/practice/" target="_blank" rel="noopener">OMI 2012, día 1 (Karel)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/OMI2012DIA2/practice/" target="_blank" rel="noopener">OMI 2012, día 2 (Lenguaje)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/OMI2013DIA1/practice/" target="_blank" rel="noopener">OMI 2013, día 1 (Karel)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/OMI2013DIA2/practice/" target="_blank" rel="noopener">OMI 2013, día 2 (Lenguaje)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Nuevamente agradecemos a Kuko Lopez de la &lt;a href="http://www.cimat.mx/oieg/orig/2013/" target="_blank" rel="noopener">OIEG&lt;/a> por ayudarnos a subir los problemas del 2009 al 2011.&lt;/p>
+&lt;p>Que se diviertan!&lt;/p></description></item><item><title>38 nuevos problemas de Karel disponibles gracias a la OIEG!</title><link>https://blog.omegaup.com/posts/38-nuevos-problemas-de-karel-disponibles-gracias-a-la-oieg/</link><pubDate>Wed, 12 Mar 2014 13:49:42 +0000</pubDate><guid>https://blog.omegaup.com/posts/38-nuevos-problemas-de-karel-disponibles-gracias-a-la-oieg/</guid><description>
+&lt;p>La &lt;a href="http://www.cimat.mx/oieg/orig/2013/" target="_blank" rel="noopener">Olimpiada de Informática del Estado de Guanajuato (OIEG)&lt;/a>, liderada este año por José Refugio López (Kuko), han hecho públicos 38 problemas de Karel para que la comunidad en general pueda practicar previo a la &lt;a href="http://www.olimpiadadeinformatica.org.mx/OMI/OMI/Inicio.aspx" target="_blank" rel="noopener">Olimpiada Mexicana de Informática 2014. &lt;/a>&lt;/p>
 &lt;p>Pueden resolver los nuevos problemas en los siguientes concursos:&lt;/p>
 &lt;p>&lt;strong>Nivel introductorio:&lt;/strong>&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://omegaup.com/arena/orig13se1/practice/">ORIG2013 Karel PreEstatal Ejercicios 1&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/orig13se1/practice/" target="_blank" rel="noopener">ORIG2013 Karel PreEstatal Ejercicios 1&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;p>&lt;strong>Nivel básico&lt;/strong>&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://omegaup.com/arena/ORIG13EPEK/practice/">ORIG 2013 Examen PreEstatal Karel&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/ORIG13EPEK/practice/" target="_blank" rel="noopener">ORIG 2013 Examen PreEstatal Karel&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;p>&lt;strong>Nivel intermedio&lt;/strong>&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://omegaup.com/arena/ORIG13CEM/practice/">ORIG 2013 Concurso Estatal Mañana&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://omegaup.com/arena/ORIG13CET/practice/">ORIG 2013 Concurso Estatal Tarde&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://omegaup.com/arena/OIEG13ERK/practice/">OIEG 2013 Examen Reclasificación Karel&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://omegaup.com/arena/OIEG13PSP01/practice/">OIEG 2013 Preselección Práctica 01&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://omegaup.com/arena/OIEG13PSP02/practice/">OIEG 2013 Preselección Práctica 02&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://omegaup.com/arena/OIEG13PSE01/practice/">OIEG 2013 Preselección Examen 01&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>OmegaUp apoya al 1er Concurso de programación UVM</title><link>https://blog.omegaup.com/omegaup-apoya-al-1er-concurso-de-programacion-uvm/</link><pubDate>Mon, 07 Jan 2013 23:28:45 +0000</pubDate><guid>https://blog.omegaup.com/omegaup-apoya-al-1er-concurso-de-programacion-uvm/</guid><description>&lt;p>El pasado 29 de noviembre se llevó a cabo, en las instalaciones de &lt;a href="http://www.guadalajarasur.uvmnet.edu/">UVM Campus Sur Guadalajara&lt;/a>, el &lt;a href="https://omegaup.com/arena/UVM2012/practice/">Primer Concurso de Programación UVM&lt;/a>, bajo el marco del “Innovation and Technology Fest”.&lt;/p></description></item><item><title>CONACUP 2012 - Todo un éxito</title><link>https://blog.omegaup.com/conacup-2012-todo-un-exito/</link><pubDate>Fri, 09 Nov 2012 02:26:23 +0000</pubDate><guid>https://blog.omegaup.com/conacup-2012-todo-un-exito/</guid><description>&lt;p>Los días 3 y 4 de Noviembre del 2012, 80 de los mejores programadores de México se dieron cita en el &lt;a href="http://portal.iteso.mx/portal/page/portal/ITESO">ITESO&lt;/a> de Guadalajara, Jalisco para participar en el 2do Concurso Nacional Abierto de Programación &lt;a href="http://www.conacup.org/">CONACUP&lt;/a>, organizado por la Sociedad Latinoamericana de Ciencia y Tecnología &lt;a href="http://solacyt.org/">SOLACyT&lt;/a>.&lt;/p>
-&lt;figure>&lt;a href="https://blog.omegaup.com/images/665083_10152234831600037_431652420_o.jpg">&lt;img src="https://blog.omegaup.com/images/665083_10152234831600037_431652420_o.jpg"
- alt="El equipo organizador del CONACUP 2012" width="1600" height="1200">&lt;/a>&lt;figcaption>
- &lt;h4>El equipo organizador del CONACUP 2012&lt;/h4>&lt;p>El equipo organizador del CONACUP 2012&lt;/p>
- &lt;/figcaption>
+&lt;li>&lt;a href="https://omegaup.com/arena/ORIG13CEM/practice/" target="_blank" rel="noopener">ORIG 2013 Concurso Estatal Mañana&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/ORIG13CET/practice/" target="_blank" rel="noopener">ORIG 2013 Concurso Estatal Tarde&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/OIEG13ERK/practice/" target="_blank" rel="noopener">OIEG 2013 Examen Reclasificación Karel&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/OIEG13PSP01/practice/" target="_blank" rel="noopener">OIEG 2013 Preselección Práctica 01&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/OIEG13PSP02/practice/" target="_blank" rel="noopener">OIEG 2013 Preselección Práctica 02&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/OIEG13PSE01/practice/" target="_blank" rel="noopener">OIEG 2013 Preselección Examen 01&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>OmegaUp apoya al 1er Concurso de programación UVM</title><link>https://blog.omegaup.com/posts/omegaup-apoya-al-1er-concurso-de-programacion-uvm/</link><pubDate>Mon, 07 Jan 2013 23:28:45 +0000</pubDate><guid>https://blog.omegaup.com/posts/omegaup-apoya-al-1er-concurso-de-programacion-uvm/</guid><description>
+&lt;p>El pasado 29 de noviembre se llevó a cabo, en las instalaciones de &lt;a href="http://www.guadalajarasur.uvmnet.edu/" target="_blank" rel="noopener">UVM Campus Sur Guadalajara&lt;/a>, el &lt;a href="https://omegaup.com/arena/UVM2012/practice/" target="_blank" rel="noopener">Primer Concurso de Programación UVM&lt;/a>, bajo el marco del “Innovation and Technology Fest”.&lt;/p>
+&lt;figure>&lt;a href="https://blog.omegaup.com/images/2012-11-29-007.jpg">&lt;img src="https://blog.omegaup.com/images/2012-11-29-007.jpg"
+alt="1er Concurso UVM" width="4000" height="2248">&lt;/a>&lt;figcaption>
+&lt;h4>1er Concurso UVM&lt;/h4>&lt;p>1er Concurso UVM&lt;/p>
+&lt;/figcaption>
 &lt;/figure>
-
-&lt;p>Nos da mucho gusto que Omegaup fue la plataforma oficial para la evaluación de los problemas y estamos completamente comprometidos con el proyecto para los años venideros.&lt;/p></description></item><item><title>CUPA 2012 - Resultados</title><link>https://blog.omegaup.com/cupa-2012-resultados/</link><pubDate>Wed, 07 Nov 2012 16:31:10 +0000</pubDate><guid>https://blog.omegaup.com/cupa-2012-resultados/</guid><description>&lt;p>El pasado 20 de Octubre se llevó a cabo el &lt;a href="https://omegaup.com/arena/CUPA2012/practice/">Concurso Universitario de Programación de Aguascalientes &lt;strong>CUPA&lt;/strong>&lt;/a>. Participaron 26 equipos de 3 personas en un examen de 9 problemas. Los problemsetters oficiales fueron la &lt;strong>Dra. Aurora Torres&lt;/strong> (Plano Estropeado), &lt;strong>David Esparza Alba&lt;/strong> (Traductor, Display Descompuesto, Puntos imantados, Primos juntos siempre y Santas bombillas ) y  &lt;strong>Óscar Dávalos&lt;/strong> (Cadenas de Potencias de 2, Múltiplos y Cubos.). Omegaup fue la plataforma de evaluación del CUPA.&lt;/p></description></item></channel></rss>
+&lt;p>Participaron Estudiantes del campus e invitados de CUCEI UdeG, teniendo un total de 13 concursantes. El examen se llevó a cabo a las 10 de la mañana con una duración de 3 horas y consistió de 5 problemas sencillos. La evaluación se llevo a cabo gracias a la plataforma Omegaup.&lt;/p>
+&lt;figure>&lt;a href="https://blog.omegaup.com/images/2012-11-29-012.jpg">&lt;img src="https://blog.omegaup.com/images/2012-11-29-012.jpg"
+alt="1er Concurso UVM" width="4000" height="2248">&lt;/a>&lt;figcaption>
+&lt;h4>1er Concurso UVM&lt;/h4>&lt;p>1er Concurso UVM&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>El objetivo principal del concurso fue la promoción de este tipo de eventos y descubrir posibles talentos.&lt;/p>
+&lt;p>Los resultados fueron:&lt;/p>
+&lt;p>1&lt;/p>
+&lt;p>Hector Jauregui Acevedo&lt;/p>
+&lt;p>285&lt;/p>
+&lt;p>2&lt;/p>
+&lt;p>Eduardo Velez Santiago&lt;/p>
+&lt;p>205&lt;/p>
+&lt;p>3&lt;/p>
+&lt;p>Luis Abraham&lt;/p>
+&lt;p>205&lt;/p>
+&lt;p>4&lt;/p>
+&lt;p>Eduardo&lt;/p>
+&lt;p>200&lt;/p>
+&lt;p>5&lt;/p>
+&lt;p>Luis Mario&lt;/p>
+&lt;p>200&lt;/p>
+&lt;p>6&lt;/p>
+&lt;p> vase920814&lt;/p>
+&lt;p>200&lt;/p>
+&lt;p>7&lt;/p>
+&lt;p>Luis Alfonso Vélez Saldivar&lt;/p>
+&lt;p>169&lt;/p>
+&lt;p>8&lt;/p>
+&lt;p>Lisette Paulina Lozano Gómez&lt;/p>
+&lt;p>100&lt;/p>
+&lt;p>9&lt;/p>
+&lt;p>Iván Acevez&lt;/p>
+&lt;p>100&lt;/p>
+&lt;p>10&lt;/p>
+&lt;p> fragalfernando&lt;/p>
+&lt;p>100&lt;/p>
+&lt;p>11&lt;/p>
+&lt;p>José Miguel Ramos Reyes&lt;/p>
+&lt;p>100&lt;/p>
+&lt;p>12&lt;/p>
+&lt;p>Carlos Omar Haro Cordero&lt;/p>
+&lt;p>0&lt;/p></description></item><item><title>CONACUP 2012 - Todo un éxito</title><link>https://blog.omegaup.com/posts/conacup-2012-todo-un-exito/</link><pubDate>Fri, 09 Nov 2012 02:26:23 +0000</pubDate><guid>https://blog.omegaup.com/posts/conacup-2012-todo-un-exito/</guid><description>
+&lt;p>Los días 3 y 4 de Noviembre del 2012, 80 de los mejores programadores de México se dieron cita en el &lt;a href="http://portal.iteso.mx/portal/page/portal/ITESO" target="_blank" rel="noopener">ITESO&lt;/a> de Guadalajara, Jalisco para participar en el 2do Concurso Nacional Abierto de Programación &lt;a href="http://www.conacup.org/" target="_blank" rel="noopener">CONACUP&lt;/a>, organizado por la Sociedad Latinoamericana de Ciencia y Tecnología &lt;a href="http://solacyt.org/" target="_blank" rel="noopener">SOLACyT&lt;/a>.&lt;/p>
+&lt;figure>&lt;a href="https://blog.omegaup.com/images/665083_10152234831600037_431652420_o.jpg">&lt;img src="https://blog.omegaup.com/images/665083_10152234831600037_431652420_o.jpg"
+alt="El equipo organizador del CONACUP 2012" width="1600" height="1200">&lt;/a>&lt;figcaption>
+&lt;h4>El equipo organizador del CONACUP 2012&lt;/h4>&lt;p>El equipo organizador del CONACUP 2012&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>Nos da mucho gusto que Omegaup fue la plataforma oficial para la evaluación de los problemas y estamos completamente comprometidos con el proyecto para los años venideros.&lt;/p>
+&lt;figure>&lt;a href="https://blog.omegaup.com/images/391622_10152233080920037_1006721365_n.jpg">&lt;img src="https://blog.omegaup.com/images/391622_10152233080920037_1006721365_n.jpg"
+alt="CONACUP 2012 " width="960" height="717">&lt;/a>&lt;figcaption>
+&lt;h4>CONACUP 2012 &lt;/h4>&lt;p>CONACUP 2012 Foto Oficial&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>El CONACUP 2012 fue sin duda, una competencia bastante emocionante.  Los 5 primeros lugares fueron:&lt;/p>
+&lt;ol>
+&lt;li>Miguel Ángel Covarrubias (macs)&lt;/li>
+&lt;li>Itzel Carolina Delgadillo&lt;/li>
+&lt;li>Ulises Mendez Martínez&lt;/li>
+&lt;li>Juan Antonio Ruiz Leal&lt;/li>
+&lt;li>Hugo Dueñas&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;a href="https://blog.omegaup.com/images/Screen-Shot-2012-11-04-at-6.12.47-PM.png">&lt;img src="https://blog.omegaup.com/images/Screen-Shot-2012-11-04-at-6.12.47-PM.png"
+alt="Scoreboard Final CONACUP 2012" width="2478" height="1412">&lt;/a>&lt;figcaption>
+&lt;h4>Scoreboard Final CONACUP 2012&lt;/h4>&lt;p>Scoreboard Final CONACUP 2012&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>¡Muchas felicidades a todos los participantes! Esperamos verlos el próximo año. Mientras tanto, estamos trabajando para publicar las redacciones finales en Omegaup, esperen noticias.&lt;/p></description></item><item><title>CUPA 2012 - Resultados</title><link>https://blog.omegaup.com/posts/cupa-2012-resultados/</link><pubDate>Wed, 07 Nov 2012 16:31:10 +0000</pubDate><guid>https://blog.omegaup.com/posts/cupa-2012-resultados/</guid><description>
+&lt;p>El pasado 20 de Octubre se llevó a cabo el &lt;a href="https://omegaup.com/arena/CUPA2012/practice/" target="_blank" rel="noopener">Concurso Universitario de Programación de Aguascalientes &lt;strong>CUPA&lt;/strong>&lt;/a>. Participaron 26 equipos de 3 personas en un examen de 9 problemas. Los problemsetters oficiales fueron la &lt;strong>Dra. Aurora Torres&lt;/strong> (Plano Estropeado), &lt;strong>David Esparza Alba&lt;/strong> (Traductor, Display Descompuesto, Puntos imantados, Primos juntos siempre y Santas bombillas ) y  &lt;strong>Óscar Dávalos&lt;/strong> (Cadenas de Potencias de 2, Múltiplos y Cubos.). Omegaup fue la plataforma de evaluación del CUPA.&lt;/p>
+&lt;figure>&lt;a href="https://blog.omegaup.com/images/DSC_0009.jpg">&lt;img src="https://blog.omegaup.com/images/DSC_0009.jpg"
+alt="Participantes del CUPA 2012 " width="4608" height="3072">&lt;/a>&lt;figcaption>
+&lt;h4>Participantes del CUPA 2012 &lt;/h4>&lt;p>Participantes del CUPA 2012&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>Los 3 primeros lugares fueron:&lt;/p>
+&lt;ol>
+&lt;li>Equipo: &lt;strong>Radical&lt;/strong>, &lt;strong>Universidad Autónoma de Aguascalientes:&lt;/strong> Juan Antonio Ruiz Leal Francisco Javier Alarcón Esparza Flavio Hernández González&lt;/li>
+&lt;li>Equipo **MEI, ** &lt;strong>Universidad Panamericana campus Bonaterra:&lt;/strong> José Maximiliano Ruíz Macías Fernando Ignacio Arreola Gutiérrez Eric Valdivia Lozano&lt;/li>
+&lt;li>Equipo **aguascalientitos, **&lt;strong>Olimpiada Mexicana de Informática en Aguacalientes&lt;/strong> Itzel Carolina Delgadillo Pérez Quetzali Ramírez Guillén Andrea Acevedo Mejía&lt;/li>
+&lt;/ol>
+&lt;p>¡Muchas felicidades a todos los participantes! Esperamos volverlos a apoyar el próximo año. Mientras tanto, el problemset oficial ya se encuentra abierto en modo práctica en Omegaup &lt;a href="https://omegaup.com/arena/CUPA2012/practice/" target="_blank" rel="noopener">aquí&lt;/a>.&lt;/p></description></item></channel></rss>

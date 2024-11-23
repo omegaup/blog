@@ -1,6 +1,71 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Material De Estudio on omegaUp blog</title><link>https://blog.omegaup.com/tags/material-de-estudio/</link><description>Recent content in Material De Estudio on omegaUp blog</description><generator>Hugo</generator><language>es-mx</language><lastBuildDate>Sun, 05 Dec 2021 05:03:04 +0000</lastBuildDate><atom:link href="https://blog.omegaup.com/tags/material-de-estudio/index.xml" rel="self" type="application/rss+xml"/><item><title>Resolviendo problemas con un límite bajo de memoria</title><link>https://blog.omegaup.com/resolviendo-problemas-con-un-limite-bajo-de-memoria/</link><pubDate>Sun, 05 Dec 2021 05:03:04 +0000</pubDate><guid>https://blog.omegaup.com/resolviendo-problemas-con-un-limite-bajo-de-memoria/</guid><description>&lt;p>Gracias @Rodrigo-RCC por este aporte!&lt;/p>
-&lt;p>El límite de memoria de un problema puede cambiar drásticamente la forma en la que podemos resolverlo. Por ejemplo, el problema &lt;a href="https://omegaup.com/arena/problem/La-especie-dominante-en-marte">https://omegaup.com/arena/problem/La-especie-dominante-en-marte&lt;/a> nos pide encontrar el número que más se repite en una secuencia, si además sabemos que ese número aparece al menos más de la mitad de las veces. Si estamos usando C++ y conocemos relativamente bien la biblioteca estándar del lenguaje, nuestro primer intento sería algo así:&lt;/p></description></item><item><title>Soluciones de la Fase 2 de la Liga de Programación omegaUp</title><link>https://blog.omegaup.com/soluciones-a-liga-omegaup-fase-2/</link><pubDate>Sun, 19 Apr 2020 08:05:15 +0000</pubDate><guid>https://blog.omegaup.com/soluciones-a-liga-omegaup-fase-2/</guid><description>&lt;ol>
-&lt;li>&lt;strong>&lt;a href="https://omegaup.com/arena/problem/No-se-molesto-en-escribir-uno">Problema A&lt;/a>&lt;/strong>&lt;/li>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>omegaUp blog – Material De Estudio</title><link>https://blog.omegaup.com/tags/material-de-estudio/</link><description>Recent content in Material De Estudio on omegaUp blog</description><generator>Hugo -- gohugo.io</generator><language>es-MX</language><lastBuildDate>Sun, 05 Dec 2021 05:03:04 +0000</lastBuildDate><atom:link href="https://blog.omegaup.com/tags/material-de-estudio/index.xml" rel="self" type="application/rss+xml"/><item><title>Resolviendo problemas con un límite bajo de memoria</title><link>https://blog.omegaup.com/posts/resolviendo-problemas-con-un-limite-bajo-de-memoria/</link><pubDate>Sun, 05 Dec 2021 05:03:04 +0000</pubDate><guid>https://blog.omegaup.com/posts/resolviendo-problemas-con-un-limite-bajo-de-memoria/</guid><description>
+&lt;p>Gracias @Rodrigo-RCC por este aporte!&lt;/p>
+&lt;p>El límite de memoria de un problema puede cambiar drásticamente la forma en la que podemos resolverlo. Por ejemplo, el problema &lt;a href="https://omegaup.com/arena/problem/La-especie-dominante-en-marte" target="_blank" rel="noopener">https://omegaup.com/arena/problem/La-especie-dominante-en-marte&lt;/a> nos pide encontrar el número que más se repite en una secuencia, si además sabemos que ese número aparece al menos más de la mitad de las veces. Si estamos usando C++ y conocemos relativamente bien la biblioteca estándar del lenguaje, nuestro primer intento sería algo así:&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-cpp" data-lang="cpp">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;iostream&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;map&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>( ) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> std&lt;span style="color:#f92672">::&lt;/span>map&lt;span style="color:#f92672">&amp;lt;&lt;/span>&lt;span style="color:#66d9ef">int&lt;/span>, &lt;span style="color:#66d9ef">int&lt;/span>&lt;span style="color:#f92672">&amp;gt;&lt;/span> frecuencias;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span> (&lt;span style="color:#66d9ef">int&lt;/span> n; std&lt;span style="color:#f92672">::&lt;/span>cin &lt;span style="color:#f92672">&amp;gt;&amp;gt;&lt;/span> n;) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> frecuencias&lt;span style="color:#960050;background-color:#1e0010">\&lt;/span>[n&lt;span style="color:#960050;background-color:#1e0010">\&lt;/span>] &lt;span style="color:#f92672">+=&lt;/span> &lt;span style="color:#ae81ff">1&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// revisar qué valor apareció más e imprimirlo
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Si enviamos el código anterior, nos llevaremos la desagradable sorpresa de obtener &lt;span style="color:#960050;background-color:#1e0010">\`&lt;/span>MLE&lt;span style="color:#960050;background-color:#1e0010">\`&lt;/span> (memoria límite excedida). Aunque esta publicación no tiene por objetivo explicar cómo se resuelve el problema, sí podemos mencionar que lo adecuado es un &lt;span style="color:#960050;background-color:#1e0010">\&lt;/span>&lt;span style="color:#f92672">*&lt;/span>algoritmo de streaming&lt;span style="color:#960050;background-color:#1e0010">\&lt;/span>&lt;span style="color:#f92672">*&lt;/span> que surgió en el &lt;span style="color:#960050;background-color:#1e0010">á&lt;/span>rea de lo que ahora se conoce como &lt;span style="color:#960050;background-color:#1e0010">\&lt;/span>&lt;span style="color:#f92672">*&lt;/span>Big Data&lt;span style="color:#960050;background-color:#1e0010">\&lt;/span>&lt;span style="color:#f92672">*&lt;/span>. Entonces, el límite bajo de memoria es un intento de obligar al usuario a deducir dicho algoritmo, el cual usa &lt;span style="color:#960050;background-color:#1e0010">ú&lt;/span>nicamente tres variables enteras. Desafortunadamente, incluso el siguiente código...
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#960050;background-color:#1e0010">```&lt;/span>cpp
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;iostream&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> main( ) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// leer la entrada y no hacer nada con ella
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#75715e">// no nos sabemos el algoritmo y tenemos poca memoria :(
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#66d9ef">for&lt;/span> (&lt;span style="color:#66d9ef">int&lt;/span> n; std&lt;span style="color:#f92672">::&lt;/span>cin &lt;span style="color:#f92672">&amp;gt;&amp;gt;&lt;/span> n;) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">continue&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#960050;background-color:#1e0010">¡&lt;/span>También supera la memoria límite del problema&lt;span style="color:#f92672">!&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Un usuario podría pensar (equivocadamente) que entonces el problema es imposible de resolver. Para evitar esta confusión, los usuarios de la plataforma deben tomar en cuenta lo siguiente:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#960050;background-color:#1e0010">\&lt;/span>&lt;span style="color:#f92672">-&lt;/span> Existe un &lt;span style="color:#960050;background-color:#1e0010">ú&lt;/span>nico límite de memoria por problema, el cual es independiente del lenguaje de programación usado. En el problema descrito previamente, el autor no quiso aumentar artificialmente el límite de memoria sólo para aceptar envíos en todos los lenguajes, porque eso implicaría que alguien que use un lenguaje eficiente podría idear un algoritmo que no era el que el autor quería permitir. Entonces, es verdad que algunos problemas no se pueden resolver en ciertos lenguajes de programación, pero el autor debería garantizar que el problema se puede resolver de forma razonable en por lo menos un lenguaje de programación (de preferencia C y C&lt;span style="color:#f92672">++&lt;/span>).
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">-&lt;/span> La biblioteca &lt;span style="color:#960050;background-color:#1e0010">\`&lt;/span>&lt;span style="color:#f92672">&amp;lt;&lt;/span>iostream&lt;span style="color:#f92672">&amp;gt;&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">\`&lt;/span> de C&lt;span style="color:#f92672">++&lt;/span> consume mucha más memoria de la que uno podría imaginar inicialmente. Esto se puede verificar resolviendo un problema de &lt;span style="color:#e6db74">&amp;#34;Hola Mundo&amp;#34;&lt;/span> usando &lt;span style="color:#960050;background-color:#1e0010">\`&lt;/span>&lt;span style="color:#f92672">&amp;lt;&lt;/span>iostream&lt;span style="color:#f92672">&amp;gt;&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">\`&lt;/span> y luego comparándolo con uno que sólo usa &lt;span style="color:#960050;background-color:#1e0010">\`&lt;/span>&lt;span style="color:#f92672">&amp;lt;&lt;/span>stdio.h&lt;span style="color:#f92672">&amp;gt;&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">\`&lt;/span>. Peor aún, basta incluir &lt;span style="color:#960050;background-color:#1e0010">\`&lt;/span>&lt;span style="color:#f92672">&amp;lt;&lt;/span>iostream&lt;span style="color:#f92672">&amp;gt;&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">\`&lt;/span> para que el consumo de memoria del programa aumente, ya que la inclusión de ese archivo al menos provoca que los objetos globales &lt;span style="color:#960050;background-color:#1e0010">\`&lt;/span>std&lt;span style="color:#f92672">::&lt;/span>cin&lt;span style="color:#960050;background-color:#1e0010">\`&lt;/span> y &lt;span style="color:#960050;background-color:#1e0010">\`&lt;/span>std&lt;span style="color:#f92672">::&lt;/span>cout&lt;span style="color:#960050;background-color:#1e0010">\`&lt;/span> se inicialicen.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>El siguiente código no calcula la respuesta correcta, pero al menos al menos no superará el límite de memoria :)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#960050;background-color:#1e0010">```&lt;/span>cpp
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;stdio.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> main( ) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// leer la entrada y no hacer nada con ella
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#75715e">// no nos sabemos el algoritmo :(
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#66d9ef">for&lt;/span> (&lt;span style="color:#66d9ef">int&lt;/span> n; scanf(&lt;span style="color:#e6db74">&amp;#34;%d&amp;#34;&lt;/span>, &lt;span style="color:#f92672">&amp;amp;&lt;/span>n) &lt;span style="color:#f92672">==&lt;/span> &lt;span style="color:#ae81ff">1&lt;/span>;) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">continue&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Esperamos que esta publicación les haya ayudado a tener una idea más cercana de cómo atacar cierto tipo de problemas inusuales y los invitamos a resolver el problema mencionado en el juez en línea.&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;pre>&lt;code>&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div></description></item><item><title>Soluciones de la Fase 2 de la Liga de Programación omegaUp</title><link>https://blog.omegaup.com/posts/soluciones-a-liga-omegaup-fase-2/</link><pubDate>Sun, 19 Apr 2020 08:05:15 +0000</pubDate><guid>https://blog.omegaup.com/posts/soluciones-a-liga-omegaup-fase-2/</guid><description>
+&lt;ol>
+&lt;li>&lt;strong>&lt;a href="https://omegaup.com/arena/problem/No-se-molesto-en-escribir-uno" target="_blank" rel="noopener">Problema A&lt;/a>&lt;/strong>&lt;/li>
 &lt;/ol>
 &lt;p>Las siguientes observaciones son claves para resolver el problema.&lt;/p>
 &lt;ol>
@@ -9,52 +74,472 @@
 &lt;li>El mínimo común múltiplo de $1, 2, \ldots , n$ es mayor o igual al producto de los primos menores o iguales a $ n$.&lt;/li>
 &lt;li>El producto de los primos menores o iguales a $50$ es mayor a $10^{18}$&lt;/li>
 &lt;/ol>
-&lt;p>Veamos el caso donde $0$ no forma parte de los residuos. De &lt;strong>1&lt;/strong>, vemos que&lt;/p></description></item><item><title>Soluciones de la Fase 1 de la Liga de Programación omegaUp</title><link>https://blog.omegaup.com/soluciones-a-liga-omegaup-fase-1/</link><pubDate>Wed, 01 Apr 2020 18:08:10 +0000</pubDate><guid>https://blog.omegaup.com/soluciones-a-liga-omegaup-fase-1/</guid><description>&lt;h2 id="problema-ahttpsomegaupcomarenaproblemrango-simple">&lt;a href="https://omegaup.com/arena/problem/Rango-simple">Problema A&lt;/a>&lt;/h2>
-&lt;p>Para este problema, consideramos un arreglo de ocurrencias $O$ sobre los elementos del arreglo. De modo que la respuesta está dada por&lt;/p>
+&lt;p>Veamos el caso donde $0$ no forma parte de los residuos. De &lt;strong>1&lt;/strong>, vemos que&lt;/p>
+&lt;p>$w$ % $n = n - 1$&lt;/p>
+&lt;p>$w$ % $n - 1 = n - 2$&lt;/p>
+&lt;p>$\ldots$&lt;/p>
+&lt;p>$w$ % $2= 1$ .&lt;/p>
+&lt;p>Entonces $w + 1$ es un común múltiplo de $2, 3, 4,  \ldots,  n$.&lt;/p>
+&lt;p>$(*)$ Luego, de la observación &lt;strong>3&lt;/strong> vemos que&lt;/p>
+&lt;p>$mcm(2, 3, 4,  \ldots,  n) \geq P_n$&lt;/p>
+&lt;p> Donde $P_n$ es el producto de los primos menores o iguales a $n$.&lt;/p>
+&lt;p>$(*)$ Pero $P_{50} &amp;gt; 10^{18}$. Así que si $w + 1$ es un común múltiplo de $2, 3, 4,  \ldots,  n$ entonces $n \leq 50$.&lt;/p>
+&lt;p>Ahora el caso donde $0$ sí forma parte de los residuos. Se sigue que existe $1 &amp;lt; k \leq n$ tal que $w$ % $k = 0$. Con la misma lógica, de &lt;strong>1&lt;/strong>, vemos qué&lt;/p>
+&lt;p>$w$ % $k - 1 = k - 2$&lt;/p>
+&lt;p>$\ldots$&lt;/p>
+&lt;p>$w$ % $2= 1$ .&lt;/p>
+&lt;p>Con ayuda de  $(*)$, vemos que $k \leq 50$.  ¿Cuál es el orden de los residuos mayores a $k$?. Para esto, consideremos el mismo orden que usamos en el caso donde $0$ no forma parte de los residuos.&lt;/p>
+&lt;p>El residuo $k - 1$ que originalmente pertenecía a $k$ tiene dos direcciones: ser el residuo de un numero mayor que $k$, o $k - 1$ es el residuo que queda  descartado.&lt;/p>
+&lt;p>Sea $M - 1$ el residuo que queda descartado, entonces $w + 1$ debe ser común múltiplo de $n, n - 1, n - 2, \ldots , M + 1$, y para esto,&lt;/p>
+&lt;p>$(w + 1) \geq n * (n - 1) * (n - 2)  * \ldots * (M + 1)$&lt;/p>
+&lt;p>Lo cual sería imposible si $n - M  \geq 50$.&lt;/p>
+&lt;p>Ahora, si no descartamos los residuos de $k + 1, \ldots , k + 50$, entonces $w + 1 \geq  (k + 1) * \ldots  * (k + 50)$ lo cual sería de nuevo imposible.&lt;/p>
+&lt;p>Por lo tanto, $M + 50 &amp;gt; n$ y $M - 50 &amp;lt; 1$.&lt;/p>
+&lt;p>De modo que, si $n &amp;gt; 100$, la respuesta es &amp;ldquo;No&amp;rdquo;.  El problema ahora se limíta a $n \leq 100$ y $w \leq 10^{18}$.&lt;/p>
+&lt;p>Para éste problema, podemos guardar todos los residuos de $w$ con los números menores o iguales a $n$ en una estructura que nos maneje operaciones básicas de conjuntos, como un set. Usando el set, la respuesta es &amp;ldquo;Si&amp;rdquo;, si el tamaño del set después de añadir los residuos es $n - 1$, y &amp;ldquo;No&amp;rdquo; en caso contrario.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://omegaup.com/arena/problem/La-fiesta-de-Filiberto" target="_blank" rel="noopener">Problema B&lt;/a>&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>Tratemos cada query de manera independientemente, y nos tomamos $a_1, a_2, \ldots, a_k$ como los puntos dados en la query.&lt;/p>
+&lt;p>El problema es equivalente a encontrar un círculo con el menor radio $r$ posible, tal que todos los puntos de la query están dentro de él.  La respuesta sería el radio $r$.&lt;/p>
+&lt;p>Él cuál es un problema equivalente a encontrar el menor radio $r$ tal que existe al menos un punto contenido en cada círculo con centro $a_1, a_2, \ldots a_n$ y radio $r$.&lt;/p>
+&lt;p>Si dicho punto $p$ existe, entonces existe al menos un par de círculos que se intersecten en algun punto $T$. Por supuesto, la distancia de $p$ a $T$ es menor o igual a $r$.&lt;/p>
+&lt;p>Por lo tanto, la respuesta puede ser encontrada con una búsqueda binaria.&lt;/p>
+&lt;ol>
+&lt;li>Fíjamos el radio $r$, el cual mandamos a la búsqueda binaria.&lt;/li>
+&lt;li>Enumeramos los $k$ círculos.&lt;/li>
+&lt;li>Encontramos y enumeramos las intersecciones para cada par de círculos.&lt;/li>
+&lt;li>Para cada intersección, recorremos cada centro. Si hay un centro $a_i$que tiene una distancia menor o igual a $r$ entonces el menor radio que buscamos sí es menor o igual a $r$.&lt;/li>
+&lt;/ol>
+&lt;p>El costo de cada chequeo en la búsqueda binaria es $O(k^3)$. Y la búsqueda binaria tiene un costo de aproximádamente $50$ operaciones. Pero precalculando las soluciones, de &lt;strong>4&lt;/strong>, para todos los $l$ puntos antes de contestar las preguntas, reducimos el costo del chequeo a $O(k^2)$, lo cual ya es suficiente para resolver el problema.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://omegaup.com/arena/problem/La-fiesta-de-Briares" target="_blank" rel="noopener">Problema C&lt;/a>&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>Lo que buscamos, es la cantidad de subconjuntos tales que su $\&amp;amp;$  es igual a $0$. Esta cantidad puede verse como la cantidad de subconjuntos totales, menos la cantidad de subconjuntos tales que su $\&amp;amp;$ es diferente de $0$. Ahora, esta cantidad puede verse como la cantidad de subconjuntos cuyo  $\&amp;amp;$ tienen exactamente un bit prendido, más la cantidad de subconjuntos cuyo $\&amp;amp;$ tienen exactamente dos bits prendidos, $\ldots$, más la cantidad de subconjuntos cuyo $\&amp;amp;$ tienen exactamente $20$ bits prendidos (esto ya que $10^6 \leq 2^{20}$).&lt;/p>
+&lt;p>Para esto usaremos el principio de inclusión - exclusión. De modo que la cantidad que buscamos esta dada por&lt;/p>
+&lt;p>$S_ 0 - S_1 + S_2 - S_3 + \ldots + S_{20}$&lt;/p>
+&lt;p>Donde $S_i$ nos dice cuantos subconjuntos tienen  un &lt;del>and&lt;/del> con al menos $i$ bits prendidos.&lt;/p>
+&lt;p>Ahora, $S_i$ puede ser calculado con la ayuda de una SOS (Sum Over Subsets) DP.&lt;/p>
+&lt;p>Para esto,  sea $mask$ alguna máscara de bits en $[1, 2^{20}]$, y definamos $m$ como el &lt;del>and&lt;/del> de algún subconjunto del arreglo, tal que $mask \&amp;amp; m = mask$. Es decir, $mask$ es una submáscara de $m$. Entonces, DP[mask] nos dice cuántas diferentes $m$ existen. (dos $m$ se consideran diferentes, si las posiciones de los elementos en el arreglo que la componen no son todas iguales). Está DP puede calcularse de la siguiente manera.&lt;/p>
+&lt;ol>
+&lt;li>Los casos base los formamos añadiendo la cantidad de ocurrencias de $x$ en el arreglo, a $DP[x]$.&lt;/li>
+&lt;li>Fíjamos $bit \in [1, 20]$, de izquierda a derecha.&lt;/li>
+&lt;li>Para cada mask en $[0, 2^{20}]$, tal que mask tiene el $bit$-ésimo bit apagado  (mas formalmente, $mask \&amp;amp; (1 &amp;laquo; bit)  = 0$ ) se hace la transición DP[mask | (1 &amp;laquo; bit)] += DP[mask].&lt;/li>
+&lt;/ol>
+&lt;p>De modo que $S_i = 2^{DP[m]}$, para cada $m$ una máscara con al menos $i$ bits prendidos.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://omegaup.com/arena/problem/Saltos-de-rana" target="_blank" rel="noopener">Problema D&lt;/a>&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>Sean $p_1, p_2, \ldots, p_m$ las posiciones de la cadena en donde hay un $1$.&lt;/p>
+&lt;p>Definimos $r$ cómo la posición donde yace la rana, y $b$ como la cantidad de brincos que ha dado hasta el momento. Inicialmente, $r = p_1$ y $b = 0$. La respuesta puede encontrarse mediante siguiente algoritmo.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Encontrar $j$ tal que $p_j - r \leq k$ y $p_{j + 1} &amp;gt; k$&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Hacemos&lt;/p>
+&lt;p>$b = b + 1$ y $r = p_j$&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Repetimos mientras $r \neq p_m$.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>La respuesta final es $b$. El algoritmo se puede implementar con complejidad lineal usando la técnica de two pointers (usando $r$ y $j$ como los pointers).&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://omegaup.com/arena/problem/Analizar-palabra" target="_blank" rel="noopener">Problema E&lt;/a>&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>Rescatando la cantidad de ocurrencias para cada vocal (no hay que olvidarse de contar las mayúsculas) mientras recorremos la cadena, estamos listos para imprimir las tres respuestas. Las cuales son&lt;/p>
+&lt;p>**(a) ** Tamaño de la cadena.&lt;/p>
+&lt;p>&lt;strong>(b)&lt;/strong>  Suma de las ocurrencias de cada vocal.&lt;/p>
+&lt;p>&lt;strong>(c)&lt;/strong>  Imprimir la cadena de derecha a izquierda.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="https://omegaup.com/arena/problem/Suma-de-vectores" target="_blank" rel="noopener">Problema F&lt;/a>&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>Salvemos los dos vectores dados $a_1, a_2, \ldots , a_n$ y $b_1, b_2, \ldots , b_n$, y generemos un nuevo vector $c_1 = (a_1 + b_1), \ldots, c_n = (a_n + b_n)$. La solucion es imprimir $c_1, c_2, \ldots, c_n$.&lt;/p></description></item><item><title>Soluciones de la Fase 1 de la Liga de Programación omegaUp</title><link>https://blog.omegaup.com/posts/soluciones-a-liga-omegaup-fase-1/</link><pubDate>Wed, 01 Apr 2020 18:08:10 +0000</pubDate><guid>https://blog.omegaup.com/posts/soluciones-a-liga-omegaup-fase-1/</guid><description>
+&lt;h2>&lt;a href="https://omegaup.com/arena/problem/Rango-simple" target="_blank" rel="noopener">Problema A&lt;/a>&lt;span class="hx-absolute -hx-mt-20" id="problema-ahttpsomegaupcomarenaproblemrango-simple">&lt;/span>
+&lt;a href="#problema-ahttpsomegaupcomarenaproblemrango-simple" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Para este problema, consideramos un arreglo de ocurrencias $O$ sobre los elementos del arreglo. De modo que la respuesta está dada por&lt;/p>
 &lt;p>$\sum\limits_{i=A}^B O_{i}$&lt;/p>
 &lt;script src="https://gist.github.com/DBriaares/df979afcf721ba5aee429f948350e051.js">&lt;/script>
-
-&lt;h2 id="problema-bhttpsomegaupcomarenaproblema-contar-lapices">&lt;a href="https://omegaup.com/arena/problem/A-contar-lapices">Problema B&lt;/a>&lt;/h2>
-&lt;p>Si consideramos el mismo arreglo de ocurrencias $O$ sobre los elementos del arreglo, la respuesta está dada por $O_k$.&lt;/p>
+&lt;h2>&lt;a href="https://omegaup.com/arena/problem/A-contar-lapices" target="_blank" rel="noopener">Problema B&lt;/a>&lt;span class="hx-absolute -hx-mt-20" id="problema-bhttpsomegaupcomarenaproblema-contar-lapices">&lt;/span>
+&lt;a href="#problema-bhttpsomegaupcomarenaproblema-contar-lapices" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Si consideramos el mismo arreglo de ocurrencias $O$ sobre los elementos del arreglo, la respuesta está dada por $O_k$.&lt;/p>
 &lt;script src="https://gist.github.com/DBriaares/2380189d0e29c2e29ab52771f353ebbe.js">&lt;/script>
-
-&lt;h2 id="problema-chttpsomegaupcomarenaproblemnofib">&lt;a href="https://omegaup.com/arena/problem/nofib">Problema C&lt;/a>&lt;/h2>
-&lt;p>Podemos generar todos los elementos de la secuencia de Fibonacci hasta $30000$, y guardarlos en un mapa $M$, de modo que $M_k = 1$ si $k$ es un elemento de Fibonnaci, y $M_k = 0$ en caso contrario. Generamos la respuesta simplemente iterando desde $i = 4$ hasta $i = N - 1$, e imprimimos $i$ si $M_i = 0$.&lt;/p></description></item><item><title>Solución a "Los Callejones de Guanajuato"</title><link>https://blog.omegaup.com/solucion-a-los-callejones-de-guanajuato/</link><pubDate>Thu, 02 Mar 2017 06:29:09 +0000</pubDate><guid>https://blog.omegaup.com/solucion-a-los-callejones-de-guanajuato/</guid><description>&lt;p>Problema: &lt;a href="https://omegaup.com/arena/problem/callejones/">Los Callejones de Guanajuato&lt;/a>.&lt;/p>
-&lt;p>En este problema se nos está pidiendo que, dado &lt;a href="https://es.wikipedia.org/wiki/Grafo_conexo">un grafo conexo no dirigido&lt;/a>, encontrar un &lt;a href="https://es.wikipedia.org/wiki/Camino_(teor%C3%ADa_de_grafos)">camino&lt;/a> tal que pasemos por todas las aristas.&lt;/p>
-&lt;p>Esta es una aplicación directa de un problema conocido de grafos, aunque no es tan común como otros problemas, estoy hablando de los &lt;a href="https://es.wikipedia.org/wiki/Ciclo_euleriano">ciclos Eulerianos&lt;/a>.&lt;/p></description></item><item><title>Invasion Zombie</title><link>https://blog.omegaup.com/invasion-zombie/</link><pubDate>Thu, 12 Nov 2015 17:06:59 +0000</pubDate><guid>https://blog.omegaup.com/invasion-zombie/</guid><description>&lt;p>Hola!, este es mi primer post en Omegaup y voy a describir mi solución para el problema &lt;a href="https://omegaup.com/arena/IOI2014E1P3/practice/#problems/invasionzombie">Invasion zombie&lt;/a>. Hace un año encontré este problema, me pareció interesante y logre resolverlo, aunque algo tricky. Hace unos días me tope con este problema nuevamente y lo resolví por segunda ocasión, pero con una solución más simple, al menos eso creo.&lt;/p>
-&lt;h2 id="primer-solución">Primer solución&lt;/h2>
-&lt;p>La idea principal tanto en la primera como en la segunda solución es diseñar una función $latex f(d)$ que nos retorne el número de colonias infectadas después de $latex d$ días, nos interesa el mínimo valor de $latex d$ tal que el número de colonias infectadas sea mayor o igual a $latex C$. Una propiedad importante es la siguiente, $latex f(d)$ nunca decrece, es decir $latex f(d) &amp;lt;= f(d+1)$. Esta propiedad nos permite utilizar búsqueda binaria para encontrar las respuesta en $latex O(\lg_{2}(n))$. Diseñar una función que determine el número de colonias infectadas, dependiendo del background de cada uno, es la parte interesante, y es donde difieren las dos versiones, bueno, un poco. Este es el código de la primer versión, no voy a entrar en detalles porque ni yo me acuerdo bien que trucos aplique, pero la idea es parecida a la de la de la segunda versión, lo que cambia es la estrategia.&lt;/p></description></item><item><title>Solución a "Splatoon"</title><link>https://blog.omegaup.com/solucion-a-splatoon/</link><pubDate>Mon, 05 Oct 2015 08:20:43 +0000</pubDate><guid>https://blog.omegaup.com/solucion-a-splatoon/</guid><description>&lt;p>Problema: &lt;a href="https://omegaup.com/arena/problem/splatoon/">Splatoon&lt;/a>.&lt;/p>
+&lt;h2>&lt;a href="https://omegaup.com/arena/problem/nofib" target="_blank" rel="noopener">Problema C&lt;/a>&lt;span class="hx-absolute -hx-mt-20" id="problema-chttpsomegaupcomarenaproblemnofib">&lt;/span>
+&lt;a href="#problema-chttpsomegaupcomarenaproblemnofib" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Podemos generar todos los elementos de la secuencia de Fibonacci hasta $30000$, y guardarlos en un mapa $M$, de modo que $M_k = 1$ si $k$ es un elemento de Fibonnaci, y $M_k = 0$ en caso contrario. Generamos la respuesta simplemente iterando desde $i = 4$ hasta $i = N - 1$, e imprimimos $i$ si $M_i = 0$.&lt;/p>
+&lt;script src="https://gist.github.com/DBriaares/7d2a6b7afb388ceb9b22cf2f077670f5.js">&lt;/script>
+&lt;h2>&lt;a href="https://omegaup.com/arena/problem/Posicion-Fibonacci" target="_blank" rel="noopener">Problema D&lt;/a>&lt;span class="hx-absolute -hx-mt-20" id="problema-dhttpsomegaupcomarenaproblemposicion-fibonacci">&lt;/span>
+&lt;a href="#problema-dhttpsomegaupcomarenaproblemposicion-fibonacci" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>La clave para este problema, es usar variables que no provoquen un desbordamiento, por ejemplo, unsigned long long. Luego, es conocido que la serie de Fibonacci crece rápidamente, lo suficiente, como para generar la secuencia con todos sus elementos menores o iguales a $N$, guardando por cada uno su respectiva posición en ella. Por lo tanto, basta con checar si $N$ es un elemento, e imprimir su posición. En caso de no serlo, imprimimos $-1$.&lt;/p>
+&lt;script src="https://gist.github.com/DBriaares/00ea7419ff9454b86d63b052d44d0337.js">&lt;/script>
+&lt;h2>&lt;a href="https://omegaup.com/arena/problem/estacion" target="_blank" rel="noopener">Problema E&lt;/a>&lt;span class="hx-absolute -hx-mt-20" id="problema-ehttpsomegaupcomarenaproblemestacion">&lt;/span>
+&lt;a href="#problema-ehttpsomegaupcomarenaproblemestacion" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Este tipo de problema es conocido como straight-forward. Podemos guardar las estaciones de radio, y checar cuál estación es la mas cercana a la frecuencia dada, con una simple resta. En caso de haber dos estaciones con la misma distancia, la respuesta es la mayor. Solo debemos cuidar que la frecuencia esté dentro del rango permitido.&lt;/p>
+&lt;script src="https://gist.github.com/DBriaares/f1fb91811095dee376d6961c65b8e017.js">&lt;/script>
+&lt;h2>&lt;a href="https://omegaup.com/arena/problem/Tu-y-tu-Futuro" target="_blank" rel="noopener">Problema F&lt;/a>&lt;span class="hx-absolute -hx-mt-20" id="problema-fhttpsomegaupcomarenaproblemtu-y-tu-futuro">&lt;/span>
+&lt;a href="#problema-fhttpsomegaupcomarenaproblemtu-y-tu-futuro" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>En este problema lo que tenemos es un grafo dirigido acíclico con aristas pesadas (intuitivamente, es un árbol, sin la propiedad de que cualquier par de nodos estan conectados por un único camino). Los vértices son los eventos temporales, las aristas son dirigidas de $p_i$ a $i$, y su peso es $d_i$. Además, cada vértice contiene un valor extra $r_i$. Un grafo que podemos asociar al primer caso de ejemplo es el siguiente.&lt;/p>
+&lt;p>&lt;img src="https://blog.omegaup.com/images/example_graph_correct.jpg" alt="" loading="lazy" />&lt;/p>
+&lt;p>Sean $v_1$ y $v_k$ dos vértices distintos, tales que $v_1$ es ancestro de $v_k$. Es decir, existe un camino $v_1 \rightarrow v_2 \rightarrow \ldots \rightarrow v_k$ en el grafo. Definimos $S(v_1, v_k)$ como&lt;/p>
+&lt;p>$\sum\limits_{i=1}^{k - 1} d_{v_i}$&lt;/p>
+&lt;p>Es decir, la suma de los pesos en las aristas del camino. De modo que el problema se convierte en: Para cada vertice $v$, contar cuántos vértices $u$ en su &amp;ldquo;subárbol&amp;rdquo; $\;$ existen tales que&lt;/p>
+&lt;p>$r_u - S(v, u) \geq 0 $&lt;/p>
+&lt;p>Porque esto siginifica que tenemos suficientes segundos para viajar por el tiempo desde $u$ hasta $v$.&lt;/p>
+&lt;p>Consideremos un arreglo $E$, donde la entrada $E_v$ guarda cuántos descendientes $u$ de $v$ satisfacen&lt;/p>
+&lt;p>$r_u - S(v, u) \geq 0 $&lt;/p>
+&lt;p>Pero&lt;/p>
+&lt;p>$r_u - S(p_v, u) &amp;lt; 0 $&lt;/p>
+&lt;p>Donde $p_v$ es el padre de $v$. Si $v = 0$, entonces no hace falta considerar a su padre, puesto que no podemos viajar por el tiempo a algún ancestro de $0$ (ya que ni siquiera existe alguno).&lt;/p>
+&lt;p>En otras palabras, $E_v$ guarda cuántos descendientes de $v$ llegan a lo mas al vértice $v$.&lt;/p>
+&lt;p>También consideremos un arreglo $D$, donde la entrada $D_v$ guarda cuántos descendientes $u$ de $v$ satisfacen&lt;/p>
+&lt;p>$ r_u - S(v, u) &amp;lt; 0 $&lt;/p>
+&lt;p>Es decir, $D_v$ guarda cuántos descendientes de $v$ no pueden llegar al vertice $v$.&lt;/p>
+&lt;p>Y además mantengamos un arreglo $T$, donde la entrada $T_v$ guarda el tamaño del &amp;ldquo;subárbol&amp;rdquo; de $v$ (incluyendo a $v$). En otras palabras, cuántos descendientes tiene $v$ en total mas el mismo.&lt;/p>
+&lt;p>Por lo tanto, la respuesta final para el vértice $v$ está dada por&lt;/p>
+&lt;p>$(T_v - 1) - \sum\limits_{v \rightarrow u} (E_u + D_u)$&lt;/p>
+&lt;p>donde $u$ es un hijo directo de $v$. Ya que esto calcula cuántos descendientes de $v$ si pueden llegar a $v$.&lt;/p>
+&lt;p>Para el cálculo de nuestros arreglos, hacemos una dfs sobre el &amp;ldquo;árbol&amp;rdquo;  (partiendo del vertice 0). Para cada vértice $u$, hacemos una búsqueda binaria sobre un arreglo que mantenga la suma acumulada de los costos sobre las aristas que forman parte del camino de $0$ a $u$, que nos devuelva el máximo ancestro $v$ al que podemos llegar desde $u$.  Lo que nos dice que  $E_v$ actualiza su valor a $E_v + 1$ (inicialmente, $E_1 = E_2  = \ldots = E_n = 0$). Esto se puede hacer usando un arreglo global. La idea es añadir la suma acumulada, luego explorar recursivamente el subárbol de $u$, y luego quitar la suma acumulada que añadimos. Esto es particularmente sencillo si usamos un vector de la STL para el arreglo global.&lt;/p>
+&lt;p>El arreglo $T$ se calcula facilmente en la misma dfs, ya que&lt;/p>
+&lt;p>$T_v = 1 + \sum\limits_{v \rightarrow u} (T_u)$&lt;/p>
+&lt;p>Ahora podemos generar $D$, al estilo de programacion dinámica usando $E$. Notemos que&lt;/p>
+&lt;p>$D_v = \sum\limits_{v \rightarrow u} (E_ u + D_u)$&lt;/p>
+&lt;p>Lo que se puede hacer en la misma DFS.&lt;/p>
+&lt;p>Por lo tanto, nuestro algoritmo tiene complejidad $O(Nlog(N))$.&lt;/p>
+&lt;script src="https://gist.github.com/DBriaares/230bf4f852d80fba75be9f2c322124b4.js">&lt;/script>
+&lt;h2>&lt;a href="https://omegaup.com/arena/problem/Karel-y-los-quebrados" target="_blank" rel="noopener">Problema G&lt;/a>&lt;span class="hx-absolute -hx-mt-20" id="problema-ghttpsomegaupcomarenaproblemkarel-y-los-quebrados">&lt;/span>
+&lt;a href="#problema-ghttpsomegaupcomarenaproblemkarel-y-los-quebrados" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Primero reescribamos la expresión dada como&lt;/p>
+&lt;p>$k = \dfrac{xy}{x + y}$&lt;/p>
+&lt;p>De donde podemos despejar $y$ como&lt;/p>
+&lt;p>$y = \dfrac{xk}{x - k}$&lt;/p>
+&lt;p>Sin perdida de generalidad, supongamos $x \leq y$, entonces se tiene&lt;/p>
+&lt;p>$x \leq \dfrac{xk}{x - k}$&lt;/p>
+&lt;p>$x^2 \leq 2xk$&lt;/p>
+&lt;p>$x \leq 2k$&lt;/p>
+&lt;p>Por lo tanto, podemos iterar $x$ desde $1$ hasta $2k$, obtenemos $y$, y verificamos que $k = \dfrac{xy}{x + y}, y &amp;gt; 0$.&lt;/p>
+&lt;p>Guardamos las parejas que satisfazcan dichas condiciones y las imprimimos en el orden requerido, cuidando no repetir alguna respuesta.&lt;/p>
+&lt;p>Lo que nos deja con un algoritmo de complejidad $O(k)$.&lt;/p>
+&lt;p>Una solución alternativa es la siguiente:&lt;/p>
+&lt;p>Te puedes dar cuenta que $x, y &amp;gt; k$, entonces el problema se convierte a  buscar $a$ y $b$ que cumplan&lt;/p>
+&lt;p>$\dfrac{1}{k} = \dfrac{1}{k + a} + \dfrac{1}{k + b}$&lt;/p>
+&lt;p>con $a,b &amp;gt; 0$. Si simplificas la igualdad llegas a que $k^2 = ab$, así que todo se reduce a encontrar las parejas de divisores $a, b$ de $k^2$.  Lo que deja también un algoritmo de complejidad $O(k)$.&lt;/p>
+&lt;p>Nota: Agradezco a José Tapia y a Carlos Galeana por su colaboración en el problema $G$.&lt;/p>
+&lt;script src="https://gist.github.com/DBriaares/1bf8bac6ba8c1040befc7b4b64900ac2.js">&lt;/script></description></item><item><title>Solución a "Los Callejones de Guanajuato"</title><link>https://blog.omegaup.com/posts/solucion-a-los-callejones-de-guanajuato/</link><pubDate>Thu, 02 Mar 2017 06:29:09 +0000</pubDate><guid>https://blog.omegaup.com/posts/solucion-a-los-callejones-de-guanajuato/</guid><description>
+&lt;p>Problema: &lt;a href="https://omegaup.com/arena/problem/callejones/" target="_blank" rel="noopener">Los Callejones de Guanajuato&lt;/a>.&lt;/p>
+&lt;p>En este problema se nos está pidiendo que, dado &lt;a href="https://es.wikipedia.org/wiki/Grafo_conexo" target="_blank" rel="noopener">un grafo conexo no dirigido&lt;/a>, encontrar un &lt;a href="https://es.wikipedia.org/wiki/Camino_%28teor%C3%ADa_de_grafos%29" target="_blank" rel="noopener">camino&lt;/a> tal que pasemos por todas las aristas.&lt;/p>
+&lt;p>Esta es una aplicación directa de un problema conocido de grafos, aunque no es tan común como otros problemas, estoy hablando de los &lt;a href="https://es.wikipedia.org/wiki/Ciclo_euleriano" target="_blank" rel="noopener">ciclos Eulerianos&lt;/a>.&lt;/p>
+&lt;p>La teoría nos dice que un grafo tendrá un camino euleriano si y sólo sí el &lt;a href="https://es.wikipedia.org/wiki/Grado_%28teor%C3%ADa_de_grafos%29" target="_blank" rel="noopener">grado&lt;/a> de todos sus nodos menos dos es par; es decir, solo dos de sus nodos tienen un número impar de aristas saliendo de él, mientras que todos los demás tienen un número par de aristas.&lt;/p>
+&lt;p>Esto es fácil de imaginar si nos ponemos a pensar que todo camino que entre a un nodo por una arista debe de tener otra arista por donde salir, a excepción claro del nodo inicial y el nodo final, que sólamente interactúan con el camino una vez.&lt;/p>
+&lt;p>Es posible visitar un nodo más de una vez, pero por cada vez que entremos, tenemos que salir una vez, manteniendo su grado par. También es posible visitar el nodo inicio y fin más de una vez, pero por cada vez extra que entremos a estos nodos, tendremos que salir, manteniendo su grado impar.&lt;/p>
+&lt;p>&lt;img src="http://i.imgur.com/cKkd6nh.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>También es posible crear un ciclo euleriano (que a diferencia de un camino, empieza y termina en el mismo nodo) si todos los nodos del grafo tienen grado par.&lt;/p>
+&lt;p>De nuevo imaginemos un poco: en un grafo con un ciclo de euler podemos agregar una arista más entre nodo inicio y fin; ahora todos los nodos tienen grado par, y el camino de euler se volvió un ciclo.&lt;/p>
+&lt;p>En ningún otro caso se puede formar un camino o ciclo de eurler. En los grafos siguientes, se puede apreciar que cada uno tiene más de dos nodos con un grado impar y por lo tanto, no habrá ningún camino o ciclo de euler, no importa cuanto lo intentes.&lt;/p>
+&lt;p>&lt;img src="http://i.imgur.com/o7OKuIc.jpg" alt="" loading="lazy" />&lt;/p>
+&lt;p>Lo primero que viene a mente luego de leer esta teroría es que aunque es trivial saber si existe o no camino, ¿cómo lo vamos a encontrar si un grafo tiene ciclos? ¿cómo saber qué arista tomar para que al llegar al nodo final, hayamos pasado por todos?&lt;/p>
+&lt;p>Veremos que este algoritmo es también muy fácil.&lt;/p>
+&lt;p>Imaginemos el siguiente grafo, en forma de casita, que es muy popular para este problema, tan popular, que hasta en las primarias se ve (aunque claro, a esa edad no se nos decía lo que estábamos haciendo).&lt;/p>
+&lt;p>&lt;img src="http://i.imgur.com/0VQqGVK.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>Lo primero que hay que hacer es, usando un algoritmo de &lt;a href="https://es.wikipedia.org/wiki/B%C3%BAsqueda_en_profundidad" target="_blank" rel="noopener">búsqueda en profundidad&lt;/a>, encontramos un camino, el que sea, entre los nodos inicio y fin, se pueden repetir nodos, pero no aristas.&lt;/p>
+&lt;p>&lt;img src="http://i.imgur.com/b8wtLgL.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>Ahora, si todos las aristas ya fueron visitadas, entonces ya terminamos, pero si no es así (lo cual es lo más probable), hay que buscar un nodo cualquiera, dentro del camino.&lt;/p>
+&lt;p>Siempre que haya un nodo sin visitar, este va a tener al menos dos aristas disponibles (pues ya se explicó que siempre tendrán grado par), por lo tanto, ahora hay que hacer una segunda búsqueda, esta vez empezando desde el nodo con aristas disponibles, sin pasar por una arista que ya hemos visitado.&lt;/p>
+&lt;p>&lt;img src="http://i.imgur.com/C8l96lD.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>Si el grafo tiene un camino de Euler, eventualmente vamos a regresar al nodo del que partimos. Siempre. Esto es verdad debido a que, como no nos quedan aristas con grado impar, una de las aristas en ese nodo debe de formar un ciclo con otra de las aristas que salen de ese nodo. Si no hubiera ciclo sería porque el camino termina abruptamente en un nodo, lo cual sería imposible porque esto significaría que ese nodo al final tendría grado impar, y ya usamos nuestros dos nodos impar.&lt;/p>
+&lt;p>&lt;img src="http://i.imgur.com/r9rDfW3.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>Si seguimos este algoritmo para todos los nodos que aún tengan aristas sin visitar, eventualmente visitaremos todas, lo único que hay que hacer ahora es tomar las aristas en el orden correcto para hacer las llamadas a la función.&lt;/p>
+&lt;p>En el caso en que todos los nodos tengan grado par, se sigue exactamente el mismo algoritmo, con la diferencia de que el nodo inicio y el nodo fin son el mismo.&lt;/p>
+&lt;p>Como nota cultural, existe un problema similar, el cual en vez de visitar todos las aristas, te pide visitar todos los nodos. Este problema se llama &lt;a href="https://es.wikipedia.org/wiki/Camino_hamiltoniano" target="_blank" rel="noopener">Camino Hamiltoniano&lt;/a>, y a diferencia de el camino de euler, este problema es &lt;a href="https://es.wikipedia.org/wiki/NP-completo" target="_blank" rel="noopener">NP completo&lt;/a>,  lo cual significa que no existe una solución que resuelva el problema en tiempo polinomial.&lt;/p></description></item><item><title>Invasion Zombie</title><link>https://blog.omegaup.com/posts/invasion-zombie/</link><pubDate>Thu, 12 Nov 2015 17:06:59 +0000</pubDate><guid>https://blog.omegaup.com/posts/invasion-zombie/</guid><description>
+&lt;p>Hola!, este es mi primer post en Omegaup y voy a describir mi solución para el problema &lt;a href="https://omegaup.com/arena/IOI2014E1P3/practice/#problems/invasionzombie" target="_blank" rel="noopener">Invasion zombie&lt;/a>. Hace un año encontré este problema, me pareció interesante y logre resolverlo, aunque algo tricky. Hace unos días me tope con este problema nuevamente y lo resolví por segunda ocasión, pero con una solución más simple, al menos eso creo.&lt;/p>
+&lt;h2>Primer solución&lt;span class="hx-absolute -hx-mt-20" id="primer-solución">&lt;/span>
+&lt;a href="#primer-soluci%c3%b3n" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>La idea principal tanto en la primera como en la segunda solución es diseñar una función $latex f(d)$ que nos retorne el número de colonias infectadas después de $latex d$ días, nos interesa el mínimo valor de $latex d$ tal que el número de colonias infectadas sea mayor o igual a $latex C$. Una propiedad importante es la siguiente, $latex f(d)$ nunca decrece, es decir $latex f(d) &amp;lt;= f(d+1)$. Esta propiedad nos permite utilizar búsqueda binaria para encontrar las respuesta en $latex O(\lg_{2}(n))$. Diseñar una función que determine el número de colonias infectadas, dependiendo del background de cada uno, es la parte interesante, y es donde difieren las dos versiones, bueno, un poco. Este es el código de la primer versión, no voy a entrar en detalles porque ni yo me acuerdo bien que trucos aplique, pero la idea es parecida a la de la de la segunda versión, lo que cambia es la estrategia.&lt;/p>
+&lt;script src="https://gist.github.com/rendon/4298449a291244690253.js">&lt;/script>
+&lt;h2>Segunda versión&lt;span class="hx-absolute -hx-mt-20" id="segunda-versión">&lt;/span>
+&lt;a href="#segunda-versi%c3%b3n" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Bueno, empecemos, trascurridos $latex d$ días, ¿cuántas colonias han sido infectadas? Simulemos la invasión y veamos si podemos encontrar un patrón. &lt;a href="https://blog.omegaup.com/images/zombies-pattern.png" >&lt;img src="https://blog.omegaup.com/images/zombies-pattern.png" alt="zombies-pattern" loading="lazy" />&lt;/a> No es complicado llegar a la siguiente fórmula: $latex f(d) = d^{2} + (d+1)^{2}$ Si el espacio de la ciudad fuese ilimitado nuestra función de verificación sería algo parecido a:&lt;/p>
+&lt;script src="https://gist.github.com/rendon/1308e65b73b82d452bba.js">&lt;/script>
+&lt;p>Sin embargo, el espacio de la ciudad es limitado y habrá casos como los siguientes: &lt;a href="https://blog.omegaup.com/images/zombies-sc1.png" >&lt;img src="https://blog.omegaup.com/images/zombies-sc1.png" alt="zombies-sc1" loading="lazy" />&lt;/a> &lt;a href="https://blog.omegaup.com/images/zombies-sc2.png" >&lt;img src="https://blog.omegaup.com/images/zombies-sc2.png" alt="zombies-sc2" loading="lazy" />&lt;/a> Entonces nuestro objetivo es encontrar el área delimitada por la ciudad (un cuadrado de N * N unidades), lo cual se pone un poco tricky. La siguiente imagen nos ayudará a entender el código de la solución sin entrar en tantas explicaciones. &lt;a href="https://blog.omegaup.com/images/zombies-solution.png" >&lt;img src="https://blog.omegaup.com/images/zombies-solution.png" alt="zombies-solution" loading="lazy" />&lt;/a> Es decir, el área total menos el área de los triángulos superior, inferior, izquierdo y derecho. Obsérvese que los triángulos pueden traslaparse y por lo tango estaríamos restando esas áreas 2 veces, por ello tenemos que calcular las áreas de traslape (&lt;em>nw&lt;/em>, &lt;em>ne&lt;/em>, &lt;em>se&lt;/em> y &lt;em>sw&lt;/em> en la imagen) y regresar lo a la suma total. Lo que sigue es la implementación:&lt;/p>
+&lt;script src="https://gist.github.com/rendon/b65689354d202e562fe7.js">&lt;/script>
+&lt;p>Espero que les sea útil, dudas, comentarios o correcciones son bienvenidas.&lt;/p></description></item><item><title>Solución a "Splatoon"</title><link>https://blog.omegaup.com/posts/solucion-a-splatoon/</link><pubDate>Mon, 05 Oct 2015 08:20:43 +0000</pubDate><guid>https://blog.omegaup.com/posts/solucion-a-splatoon/</guid><description>
+&lt;p>Problema: &lt;a href="https://omegaup.com/arena/problem/splatoon/" target="_blank" rel="noopener">Splatoon&lt;/a>.&lt;/p>
 &lt;p>Este problema pide llevar a un inkling desde el inicio de una calle hasta el final siguiendo sus reglas de movimiento.&lt;/p>
-&lt;p>Ignoremos por un momento el hecho de que los inklings pueden pintar el piso y con ello alterar la calle en donde se realiza la carrera. Si los inklings no tuvieran esta habilidad, se puede hacer un algoritmo de fuerza bruta intentando todas las operaciones posibles, es decir, hacer una búsqueda en amplitud para encontrar el camino más corto, en donde el estado está representado únicamente por la posición en donde se encuentre el inkling.&lt;/p></description></item><item><title>Solución a "Los Chocolates del Agente Nieves"</title><link>https://blog.omegaup.com/chocolates/</link><pubDate>Wed, 05 Aug 2015 07:02:46 +0000</pubDate><guid>https://blog.omegaup.com/chocolates/</guid><description>&lt;p>Problema: &lt;a href="https://omegaup.com/arena/problem/chocolates">Los Chocolates del Agente Nieves&lt;/a>&lt;/p>
+&lt;p>Ignoremos por un momento el hecho de que los inklings pueden pintar el piso y con ello alterar la calle en donde se realiza la carrera. Si los inklings no tuvieran esta habilidad, se puede hacer un algoritmo de fuerza bruta intentando todas las operaciones posibles, es decir, hacer una búsqueda en amplitud para encontrar el camino más corto, en donde el estado está representado únicamente por la posición en donde se encuentre el inkling.&lt;/p>
+&lt;p>&lt;strong>Recuerda que en las búsquedas es importante marcar visitados para que la complejidad del algoritmo no se vuelva exponencial.&lt;/strong>&lt;/p>
+&lt;p>Para cada posición, se tienen dos posibles operaciones, saltar, o caminar, ambas toman 1 segundo y la distancia a la que se llega depende directamente del color sobre el que se está parado. El movimiento de saltar es muy fácil pues solo hay una casilla donde se puede caer, pero el movimiento de avanzar difiere cada vez pues depende directamente del color de las siguientes casillas.&lt;/p>
+&lt;p>Es posible hacer un ciclo para ver hasta donde puedes llegar avanzando desde la casilla en donde estás, y agregar a la búsqueda el lugar más lejano a donde puedas llegar. Sin embargo, si únicamente registramos la última casilla a donde se puede llegar, casos como el siguiente se nos escaparán:&lt;/p>
+&lt;p>&lt;img src="http://i.imgur.com/t1iBoPQ.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>En la solución superior, primero se avanza todo lo que se puede en la pintura naranja hasta llegar a la casilla azul, de ahi ya sea saltando o avanzando únicamente se puede llegar a la casilla blanca, y de ahí, no importa lo que hagas, te tomará dos segundos llegar al final.&lt;/p>
+&lt;p>En cambio, en la solución inferior, se avanza solo 3 casillas en la pintura naranja, lo cual es 1 casilla menos del máximo, de ahí se hace un salto el cual nos deja de nuevo en pintura naranja, desde donde podemos llegar caminando hasta el final en un total de tan solo 3 segundos, 1 segundo menos que la solución anterior.&lt;/p>
+&lt;p>Por lo tanto, no es suficiente visitar la distancia máxima, también hace falta visitar la distancia máxima - 1. Si intentamos hacer cosas similares con otro color de pintura, o más deteniéndonos todavía más atrás del máximo, no hay realmente ninguna ventaja, por lo que el caso presentado anteriormente es el único caso especial.&lt;/p>
+&lt;p>Una búsqueda en amplitud bien hecha que considere este caso sacará 30 puntos, una que no considere este caso sacará únicamente 5 puntos. Da perfectamente en tiempo y memoria porque a lo más tendremos un total de 1000 estados. Sin embargo, la parte interesante de este problema es que los inklings son capaces de alterar el estado de la calle usando la pintura que traen en su tanque para poder recorrer más rápido la calle, utilizando hasta D disparos de tinta.&lt;/p>
+&lt;p>En este caso, necesitamos agregar una segunda dimensión al estado de nuestra búsqueda, ahora no sólamente es suficiente con guardar el lugar en donde estamos, sino que es necesario guardar también cuanta tinta queda en el tanque. En este caso, agregamos una operación más, la cual es pintar, la cual cuesta 0 segundos, nos avanza 0 casillas y nos quita una unidad D de pintura.&lt;/p>
+&lt;p>Si hacemos esto, nuestro espacio de búsqueda crece del N que era en la solución de 30 puntos, a N x D, lo cual es 1000 x 1000 y aún da en tiempo y memoria.&lt;/p>
+&lt;p>No obstante, la operación de pintar altera el mapa, por lo que si no guardamos también en el estado que las casillas siguientes ahora son de otro color, pintar no servirá de nada. Podríamos agregar una dimensión más a la búsqueda para considerar este caso, pero esto solo le agregaría complejidad innecesaria a la búsqueda.&lt;/p>
+&lt;p>La clave está en que pintar toma 0 segundos, por lo que podemos convertir la operación de pintar en una operación compuesta, que sea pintar y avanzar.&lt;/p>
+&lt;p>Pintar y avanzar toma 1 segundo, y nos permite avanzar 4 casillas hacia adelante &lt;strong>siempre&lt;/strong>, por lo que hacer una operación de pintar y avanzar nos lleva del estado &lt;em>(i, d)&lt;/em> al estado &lt;em>(i + 4, d - 1)&lt;/em> con un costo de 1 segundo.&lt;/p>
+&lt;p>El detalle con esta solución, es que estamos ignorando de nuevo el caso especial explicado en la solución de 30 puntos, por lo que si se nos olvida que es posible ahorrarnos un segundo en ciertas ocasiones, sacaremos entre 35 y 90 puntos dependiendo de la implementación.&lt;/p>
+&lt;p>Para sacar los 100 puntos, es necesario agregar una operación más, la cual es pintar, avanzar y saltar, la cual nos lleva del estado &lt;em>(i, d),&lt;/em>  al estado &lt;em>(i + 6, d - 1)&lt;/em> con un costo de 2 segundos. Y como esta operación toma 2 segundos en vez de tan solo 1, no es suficiente con utilizar una cola común y corriente para hacer la búsqueda en amplitud, sino que es necesario utilizar una estructura de datos más avanzada, como una cola de prioridad o un montículo que nos ayude a ordenar los estados y elegir siempre con el tiempo más pequeño.&lt;/p></description></item><item><title>Solución a "Los Chocolates del Agente Nieves"</title><link>https://blog.omegaup.com/posts/chocolates/</link><pubDate>Wed, 05 Aug 2015 07:02:46 +0000</pubDate><guid>https://blog.omegaup.com/posts/chocolates/</guid><description>
+&lt;p>Problema: &lt;a href="https://omegaup.com/arena/problem/chocolates" target="_blank" rel="noopener">Los Chocolates del Agente Nieves&lt;/a>&lt;/p>
 &lt;p>En este problema tenemos un tubo de chocolates los cuales se van a vender uno cada día, pudiendo vender únicamente los que están en ese momento en los extremos. El precio por vender un chocolate es igual al precio base de chocolate multiplicado por el número de días que se han vendido chocolates (empezando en 1).&lt;/p>
-&lt;p>El objetivo es encontrar la mayor ganancia posible al vender todos los chocolates.&lt;/p></description></item><item><title>Solución a "Temblor"</title><link>https://blog.omegaup.com/solucion-a-temblor/</link><pubDate>Fri, 24 Jul 2015 07:07:00 +0000</pubDate><guid>https://blog.omegaup.com/solucion-a-temblor/</guid><description>&lt;p>Problema: &lt;a href="https://omegaup.com/arena/problem/temblor">Temblor&lt;/a>&lt;/p>
+&lt;p>El objetivo es encontrar la mayor ganancia posible al vender todos los chocolates.&lt;/p>
+&lt;p>Si lo quisiéramos resolver como una búsqueda, ¿qué tendríamos que considerar? En una búsqueda, nos importa obtener dos cosas, el espacio de búsqueda (es decir, cómo estará representado nuestro estado y qué valores puede tener), y las operaciones en nuestra búsqueda.&lt;/p>
+&lt;p>En cuanto a nuestros estados en la búsqueda, nos importa saber qué chocolates aún tenemos disponibles y cuántos días han pasado. Podríamos empezar teniendo N valores booleanos por cada chocolate y un número para saber cuántos días han pasado, por ejemplo, si tenemos 3 chocolates y aún no vendemos nada, tendríamos el estado (1, 1, 1, 1), si ya vendimos el primer chocolate, tendríamos (0, 1, 1, 2), si vendimos el tercer chocolate tendríamos (1, 1, 0, 2) y si vendemos los chocolates 1 y 2, tendríamos (0, 0, 1, 3). Sin embargo, esta representación es un poco inútil, ya que en el peor de los casos, tendríamos 1000 chocolates, lo cual hace un estado de 1000 posibles valores.&lt;/p>
+&lt;p>Podemos mejorar esto solo guardando únicamente los índices a los extremos del tubo, ya que ya sabemos que aún tenemos todos los chocolates entre estos dos valores. Eso transforma los estados anteriores a los siguientes estados respectivamente: (1, 3, 1), (2, 3, 2), (1, 2, 2). y (3, 3, 3). Esto vuelve al estado muchísimo más manejable, pues cada valor puede valer únicamente entre 1 y 1000.&lt;/p>
+&lt;p>Ya que tenemos nuestro estado, definimos las operaciones que hay que hacer para ir entre estado y estado, y estas operaciones son únicamente 2, vender el chocolate de la izquierda, o vender el chocolate de la derecha, si estamos en el estado (1, 3, 1) y vendemos el de la izquierda, nos lleva al estado (2, 3, 2), y si vendemos el de la derecha, nos lleva al estado (1, 2, 2). Podemos continuar estas instrucciones recursivamente sobre los estados que resulta y generar un árbol de búsqueda:&lt;/p>
+&lt;p>&lt;img src="http://i.imgur.com/SXmtBPI.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>Una vez teniendo el árbol de búsqueda, podemos proceder a darle valor a cada uno de los nodos. Del nodo inicial (1, 3, 1), si decides vender el chocolate de la izquierda, obtendrás una ganancia igual a lo que te de el nodo (2, 3, 2) más el precio del chocolate 1 multiplicado por el número de días, que en este caso es 1, y si decides vender el chocolate de la derecha, la ganancia será lo que de el nodo (1, 2, 2) más el precio del chocolate 3 (múltiplicado por 1). De las dos opciones, tomaremos el máximo.&lt;/p>
+&lt;p>Llenemos ahora el resto del árbol de búsqueda con estos datos:&lt;/p>
+&lt;p>&lt;img src="http://i.imgur.com/HseaiuL.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>De aquí podemos ver dos cosas, la primera es que los nodos de hasta abajo, que son nuestros nodos hoja, tienen el mismo valor en el chocolate izquierdo como en el derecho, por lo que el valor máximo que podemos obtener de ellos es el precio de ese único chocolate por el número de días que llevamos. Y la segunda cosa es que tenemos nodos repetidos, por lo que cuando hagamos nuestra búsqueda, necesitamos guardar cálculos que ya hayamos hecho para no calcular un mismo estado más de una vez.&lt;/p>
+&lt;p>Nuestro árbol de búsqueda ya está terminado, así que es hora de convertirlo a una función matemática. Nuestra función recibe como entrada un estado, en este caso el chocolate más a la izquierda que nos queda, el más a la derecha y el nivel en el que estamos, y dado lo que aprendimos de nuestro árbol de búsqueda, regresará el siguiente valor:&lt;/p>
+&lt;p>&lt;img src="http://i.imgur.com/s3XYfw9.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>Con esto, y considerando que debemos evitar repetir valores duplicados, es más que suficiente para resolver el problema con el método que más te guste, ya sea dinámica o memorización, aunque hay un pequeño problema para guardar los valores visitados.&lt;/p>
+&lt;p>Vamos a necesitar un arreglo de 1000 x 1000 x 1000 si es que queremos guardar un arreglo que se identifique de esta forma:&lt;/p>
+&lt;p>arreglo[izquierda][derecha][nivel]&lt;/p>
+&lt;p>Y esto es mucho más de lo que cabe en memoria, por lo que tenemos que encontrar una forma de reducir la memoria que necesitamos.&lt;/p>
+&lt;p>Lo que nos tenemos que dar cuenta es que la variable nivel es innecesaria, pues puede calcularse utilizando el número de chocolates que nos quedan en el tubo y el número de chocolates que teníamos originalmente:&lt;/p>
+&lt;p>nivel = total - chocolates_en_el_tubo + 1&lt;/p>
+&lt;p>Y para calcular el número de chocolates que nos quedan en el tubo solo se necesitan el índice del chocolate más a la izquierda, y más a la derecha, que ya tenemos en nuestro estado.&lt;/p>
+&lt;p>chocolates_en_el_tubo = derecha - izquierda + 1&lt;/p>
+&lt;p>Despejando:&lt;/p>
+&lt;p>nivel = total - derecha + izquierda - 1 + 1&lt;/p>
+&lt;p>nivel = total - derecha + izquierda&lt;/p>
+&lt;p>De esta forma, podemos eliminar el nivel de todos nuestros estados y cambiar el valor de nivel de todas las fórmulas por el valor de arriba. Esto simplifica nuestro arreglo de visitados de 1000 x 1000 x 1000 a un arreglo de tan solo 1000 x 1000, lo cuál es suficiente en tiempo y memoria.&lt;/p></description></item><item><title>Solución a "Temblor"</title><link>https://blog.omegaup.com/posts/solucion-a-temblor/</link><pubDate>Fri, 24 Jul 2015 07:07:00 +0000</pubDate><guid>https://blog.omegaup.com/posts/solucion-a-temblor/</guid><description>
+&lt;p>Problema: &lt;a href="https://omegaup.com/arena/problem/temblor" target="_blank" rel="noopener">Temblor&lt;/a>&lt;/p>
 &lt;p>Primero que nada, tratemos de entender qué es lo que se nos pide, pues es un problema poco tradicional: Dado un mapa de a lo más 4x4, hay que dar una serie de instrucciones que, sin importar en donde te encuentres en el mapa, logre llevarte a una salida; esta secuencia además, debe de ser la más pequeña posible.&lt;/p>
 &lt;p>Este es el caso de ejemplo:&lt;/p>
-&lt;p>&lt;img src="http://2.bp.blogspot.com/-_cxWM1TGYS4/T32p22oRTxI/AAAAAAAACVg/xtv0PTznyo8/s1600/mapa.png" alt="mapa">&lt;/p>
-&lt;p>La solución correcta es ONNEE, pues con esas instrucciones, podemos salir no importando en que lugar estemos (el lugar inicial está marcado con un punto rojo):&lt;/p></description></item><item><title>IOI 2015 - Entrevista con blak_dragon1</title><link>https://blog.omegaup.com/ioi-2015-entrevista-con-blak_dragon1/</link><pubDate>Wed, 15 Jul 2015 14:26:13 +0000</pubDate><guid>https://blog.omegaup.com/ioi-2015-entrevista-con-blak_dragon1/</guid><description>&lt;p>&lt;a href="https://omegaup.com/profile/blak_dragon1">&lt;img src="https://blog.omegaup.com/images/entrevistaIOI.jpg" alt="blak_dragon1">&lt;/a>&lt;/p>
-&lt;p>Para terminar con la serie de entrevistas a los representantes de México en la &lt;a href="http://ioi2015.kz/index">IOI 2015&lt;/a>, tuvimos la oportunidad de platicar con &lt;a href="https://omegaup.com/profile/blak_dragon1">blak_dragon1&lt;/a> (Ángel Ortega). Esto fue lo que nos dijo:&lt;/p>
+&lt;p>&lt;img src="http://2.bp.blogspot.com/-_cxWM1TGYS4/T32p22oRTxI/AAAAAAAACVg/xtv0PTznyo8/s1600/mapa.png" alt="mapa" loading="lazy" />&lt;/p>
+&lt;p>La solución correcta es ONNEE, pues con esas instrucciones, podemos salir no importando en que lugar estemos (el lugar inicial está marcado con un punto rojo):&lt;/p>
+&lt;p>&lt;img src="http://i.imgur.com/QD8Rlaz.png" alt="" loading="lazy" />&lt;/p>
+&lt;ul>
+&lt;li>En el caso 1, las instrucciones ONN no hacen nada pues hay paredes, y las instrucciones EE nos sacan del mapa.&lt;/li>
+&lt;li>En el caso 2, ONN no hacen nada de nuevo y la primera E nos saca del mapa (la última E ya no importa).&lt;/li>
+&lt;li>En el caso 3, O no hace nada, pues hay pared, N nos sube un lugar, la segunda N no hace nada, y EE nos saca del mapa.&lt;/li>
+&lt;li>El caso 4, O nos lleva a la izquierda, donde se vuelve el mismo caso que el caso 3.&lt;/li>
+&lt;li>En el caso 5, O no hace nada, y NN nos lleva al caso 1.&lt;/li>
+&lt;li>Y finalmente, en el caso 6, O nos lleva al caso 5 y de ahí podemos salir.&lt;/li>
+&lt;/ul>
+&lt;p>Es mucho más fácil ver la solución si vemos a todos los olímpicos moverse al mismo tiempo:&lt;/p>
+&lt;p>&lt;img src="http://i.imgur.com/UWonMkj.png" alt="" loading="lazy" /> Esto ejemplifica dos cosas: en primer lugar, el camino no debe de ser óptimo para cada uno, sino para todos en general, por ejemplo, el punto que inicia en la esquina superior derecha (cerca de la salida), podría salir yendo hacia la derecha, y saliendo en un único movimiento, pero si lo primero que hacemos es un &amp;ldquo;este&amp;rdquo;, estaremos complicando más las cosas para el resto de los olímpicos atrapados. En segundo lugar, puede haber más de un olímpico en un mismo lugar, y una vez que hay dos olímpicos en un mismo lugar, no importa realmente cuántos hay, sino que hay al menos 1 olímpico en ese lugar:&lt;/p>
+&lt;p>&lt;img src="http://i.imgur.com/fNMNkXW.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>O bien, si lo vemos como unos y ceros:&lt;/p>
+&lt;p>&lt;img src="http://i.imgur.com/mE1ISfk.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>Donde 1 significa hay al menos un olímpico ahí y 0 significa no hay ningún olímpico ahí.&lt;/p>
+&lt;p>Por lo tanto podemos concluir que nuestra tarea es convertir un tablero lleno de 1&amp;rsquo;s en un tablero lleno de 0&amp;rsquo;s.&lt;/p>
+&lt;p>A estas alturas, ya tenemos lo suficiente como para hacer una búsqueda en amplitud sobre el problema. Los estados de nuestro espacio de búsqueda están representados por un mapa de NxM lleno de 1&amp;rsquo;s y 0&amp;rsquo;s y las transiciones entre un estado y otro son las operaciones Norte, Sur, Este y Oeste.&lt;/p>
+&lt;p>Nuestro árbol de búsqueda empezaría más o menos así:&lt;/p>
+&lt;p>&lt;img src="http://i.imgur.com/PE9EBdZ.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>Solo tendríamos que hacer una búsqueda en amplitud hasta llegar al mapa con puros ceros y reconstruir la solución para resolver el problema.&lt;/p>
+&lt;p>Sin embargo, representar un mapa entero como un estado puede ser algo problemático, pues podemos tener hasta 16 casillas. Como puede haber un total de 2^16 estados, eso quiere decir que tendremos un arreglo de 17 dimensiones y estaremos usando 2^32 casillas de enteros, lo cual es completamente absurdo, pues aunque nos cupiera en memoria, dudo mucho que un compilador soporte tantas dimensiones y mucho menos que vaya a ser fácil manipularlas.&lt;/p>
+&lt;p>Lo que nos tenemos que dar cuenta es que como nuestro estado son únicamente 1&amp;rsquo;s y 0&amp;rsquo;s podemos olvidarnos de la representación del arreglo, pues podemos convertir cada estado en un número binario. Por ejemplo, a continuación presentamos diferentes mapas y su representación binaria: &lt;img src="http://i.imgur.com/MY4v6m4.png" alt="" loading="lazy" /> Esto simplifica muchísimo nuestro espacio de búsqueda, ya que en vez de necesitar dieciséis enteros para representar un estado, ahora solo necesitamos 1, donde cada bit del estado representa una casilla del mapa.&lt;/p>
+&lt;p>La pregunta que nos tenemos que hacer ahora es si es posible representar todos los estados con nuestra representación numérica, y la respuesta es que sí, pues solo son hasta 16 casillas en el mapa, o lo que es igual a 16 bits, y sabemos que un entero en la mayoría de los lenguajes modernos soporta hasta 32 bits, por lo tanto nos alcanza y nos sobra para representar todos los enteros.&lt;/p>
+&lt;p>La siguiente pregunta que nos tenemos que hacer es si nos va a alcanzar la memoria. Y la respuesta también es sí, pues tenemos hasta 2^16 estados, lo cual es alrededor de 65,000 casillas, cada una de ellas puede guardar ya sea la operación que se hizo para llegar a ella, o el estado del que se llegó, ¡o incluso se pueden guardar ambas cosas! Pues solo necesitamos 16 bits para representar el estado de donde vienes y otros 2 para representar la operación que hiciste. Pero la implementación del problema ya se la dejamos a los competidores. En todo caso, necesitamos únicamente 65,000 enteros lo cual cabe en menos de 300 KB.&lt;/p>
+&lt;p>De esta forma, nuestro árbol de búsqueda se transforma, y se vuelve más fácil de manipular:&lt;/p>
+&lt;p>&lt;img src="http://i.imgur.com/UzvlkDg.png" alt="" loading="lazy" /> Una vez hecha la conversión con bits, esto se vuelve una búsqueda en amplitud común y corriente desde un número con NxM bits prendidos, hasta 0. Una búsqueda así debe de ser fácil de hacer para cualquier competidor.&lt;/p></description></item><item><title>IOI 2015 - Entrevista con blak_dragon1</title><link>https://blog.omegaup.com/posts/ioi-2015-entrevista-con-blak_dragon1/</link><pubDate>Wed, 15 Jul 2015 14:26:13 +0000</pubDate><guid>https://blog.omegaup.com/posts/ioi-2015-entrevista-con-blak_dragon1/</guid><description>
+&lt;p>&lt;a href="https://omegaup.com/profile/blak_dragon1" target="_blank" rel="noopener">&lt;img src="https://blog.omegaup.com/images/entrevistaIOI.jpg" alt="blak_dragon1" loading="lazy" />&lt;/a>&lt;/p>
+&lt;p>Para terminar con la serie de entrevistas a los representantes de México en la &lt;a href="http://ioi2015.kz/index" target="_blank" rel="noopener">IOI 2015&lt;/a>, tuvimos la oportunidad de platicar con &lt;a href="https://omegaup.com/profile/blak_dragon1" target="_blank" rel="noopener">blak_dragon1&lt;/a> (Ángel Ortega). Esto fue lo que nos dijo:&lt;/p>
 &lt;p>&lt;strong>Cuéntanos cómo empezaste a programar y qué te motiva a resolver problemas:&lt;/strong>&lt;/p>
-&lt;p>&lt;em>Todo empezó en un curso llamado “Aprende a Programar” para las Escuelas Secundarias Técnicas. Yo estudiaba en la Escuela Secundaria Técnica No. 37 el 1er grado, ahí fue donde me invitaron a hacer un examen para lograr un lugar en el curso, y me agradó la idea porque algo que ya me llamaba atención en esos días era el uso de la computadora. Conseguí quedarme y aquí vi un poco de lógica matemática y Karel. Esto fue el inicio de todo, nos platicaron de la Olimpiada Mexicana de Informática y que esta da pie para la International Olympiad in Informatics. Eso me emocionó bastante para seguir adelante dentro de la olimpiada estatal del Distrito Federal.&lt;/em>&lt;/p></description></item><item><title>IOI 2015 - Entrevista con Emmanuel_Antonio</title><link>https://blog.omegaup.com/ioi-2015-entrevista-con-emmanuel_antonio/</link><pubDate>Tue, 14 Jul 2015 14:56:28 +0000</pubDate><guid>https://blog.omegaup.com/ioi-2015-entrevista-con-emmanuel_antonio/</guid><description>&lt;p>&lt;a href="https://omegaup.com/profile/Emmanuel_Antonio">&lt;img src="https://blog.omegaup.com/images/img21.jpg" alt="Emmanuel_Antonio">&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://omegaup.com/profile/Emmanuel_Antonio">Emmanuel_Antonio&lt;/a> será uno de los representantes de México en la &lt;a href="http://ioi2015.kz/">International Olympiad in Informatics 2015&lt;/a>. Tuvimos la oportunidad de entrevistarlo previo al concurso y esto fue lo que nos dijo:&lt;/p>
+&lt;p>&lt;em>Todo empezó en un curso llamado “Aprende a Programar” para las Escuelas Secundarias Técnicas. Yo estudiaba en la Escuela Secundaria Técnica No. 37 el 1er grado, ahí fue donde me invitaron a hacer un examen para lograr un lugar en el curso, y me agradó la idea porque algo que ya me llamaba atención en esos días era el uso de la computadora. Conseguí quedarme y aquí vi un poco de lógica matemática y Karel. Esto fue el inicio de todo, nos platicaron de la Olimpiada Mexicana de Informática y que esta da pie para la International Olympiad in Informatics. Eso me emocionó bastante para seguir adelante dentro de la olimpiada estatal del Distrito Federal.&lt;/em>&lt;/p>
+&lt;p>&lt;em>Una motivación que encuentro es que me puede traer una gran cantidad de oportunidades tanto académicas en distintas universidades como laborales en grandes empresas internacionales, además que con el tiempo le he tomado un gusto a la resolución de problemas y a la sensación de competencia dentro de la olimpiada.&lt;/em>&lt;/p>
+&lt;p>**Vas a representar a México este año en la IOI. Cuéntanos cómo te preparaste para lograrlo. **&lt;strong>Cómo son tus días de entrenamiento?&lt;/strong>&lt;/p>
+&lt;p>&lt;em>Siento que en el proceso para la IOI de este año me he dedicado más a la olimpiada a comparación de otros años. Esta ocasión realmente aproveche las vacaciones y recesos escolares para entrenar, me puse a leer un poco sobre temas, estructuras de datos y algoritmos que pudieran servirme (Unas ocasiones leí de &lt;a href="http://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/ref=sr_1_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1436888063&amp;amp;sr=1-1&amp;amp;keywords=algorithms&amp;#43;sedgewick&amp;amp;pebp=1436888065498&amp;amp;perid=0P2WGZK86N1VW3DNCF81" target="_blank" rel="noopener">&lt;strong>Algorithms&lt;/strong>, Fourth Edition de Robert Sedgewick&lt;/a>, y en otras ocasiones fue  &lt;a href="http://www.amazon.com/Algorithm-Design-Jon-Kleinberg/dp/0321295358/ref=sr_1_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1436888091&amp;amp;sr=1-1&amp;amp;keywords=algorithm&amp;#43;design&amp;#43;kleinberg&amp;amp;pebp=1436888104331&amp;amp;perid=0ZZ1PRCAJ3WCJF4F6ZXM" target="_blank" rel="noopener">&lt;strong>Algorithm Design&lt;/strong> de Kleinberg y Tardos&lt;/a>) y aumenté la cantidad de horas por semana para practicar a partir de organizarme mejor para repartir el tiempo para no desatender los asuntos de la escuela y mejorar para la olimpiada.&lt;/em>&lt;/p>
+&lt;p>&lt;em>Algo que considero muy importante fue el &lt;a href="http://blog.omegaup.com/2015/06/el-camino-de-mexico-rumbo-a-la-ioi-2015/" target="_blank" rel="noopener">practicar con problemas de preselectivos de años pasados presenciales antes de una semana de exámenes para eliminación&lt;/a>. Hice algo muy parecido con los exámenes de la &lt;strong>&lt;a href="http://usaco.org/" target="_blank" rel="noopener">USACO&lt;/a>&lt;/strong>, antes de presentar mi primer examen de nivel Plata hice 2 exámenes de ese nivel para para darme una idea de la dificultad y en mi primer examen subí a Oro. Antes del examen de nivel Oro también practiqué con un examen de Oro pasado y así no me sorprendiera el cambio de dificultad. Y en estas alturas me preparo con exámenes completos de las IOI pasadas para irme ambientando.&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Qué le recomiendas a los que van empezando? Algún material, libro o método de entrenamiento?&lt;/strong>&lt;/p>
+&lt;p>&lt;em>Yo les recomiendo que sigan al pie de la letra las instrucciones y recomendaciones que nos dan para la preselección, intentar hacer todo los problemas cada problemset, familiarizarse con exámenes de las olimpiadas abiertas de otros países (como &lt;strong>&lt;a href="http://usaco.org/" target="_blank" rel="noopener">USACO&lt;/a>&lt;/strong>  de  Estados Unidos, &lt;strong>&lt;a href="http://hsin.hr/coci/" target="_blank" rel="noopener">COCI&lt;/a>&lt;/strong> de Croacia) ya que sus exámenes  también serán tomados en cuenta para las primeras etapas. Si tienen asesores estatales que los estén apoyando aprovéchenlos al máximo, pregúntenle todas sus dudas y póngales bastante atención, cuando vean un tema con él, estando en casa refuercen lo visto leyendo de un libro el tema visto, un buen libro que les servirá para cubrir una gran cantidad de temas es &lt;strong>&lt;a href="https://omegaup.com/img/libropre3.pdf" target="_blank" rel="noopener">Problemas y Algoritmos&lt;/a>&lt;/strong> que se encuentra en Material Recomendado al inicio de OmegaUp.&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Cuál es tu problema favorito de omegaUp y por qué? Hay un problema en particular que hayas disfrutado mucho resolver?&lt;/strong>&lt;/p>
+&lt;p>&lt;em>El que más disfruté resolver sin duda fue &lt;strong>&lt;a href="https://omegaup.com/arena/problem/Fortune-Telling-2" target="_blank" rel="noopener">Fortune Telling 2&lt;/a> (parte de la &lt;a href="https://omegaup.com/arena/JOI2014DAY1" target="_blank" rel="noopener">Japan Olympiad in Informatics 2014&lt;/a>)&lt;/strong>,  ya que la combinación estructuras de datos y métodos de solución que implementé me pareció que fue variada (Búsqueda binaria con Segment Tree y al final un BIT), de igual forma sentí que el análisis para llegar a la idea fue  progresivo, lo fui haciendo parte por parte y cada vez  descubría algo me acercaba más a la solución. Otro aspecto por el cual me agrada es porque es de los primeros problemas en los que sin saber previamente que tienen una solución con una estructura de datos puede describir cómo resolverlo.&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Descríbenos tu estrategia para atacar un concurso. En qué momento decides cambiar de problema?&lt;/strong>&lt;/p>
+&lt;p>&lt;em>Lo que siempre hago es leer todos los problemas que vengan en el examen y mientras voy leyendo, al llegar a la parte de los límites intentar ver si hay alguna solución parcial que en ese instante pueda deducir si conseguiré programarla sin problemas durante el examen, a partir de eso veo la cantidad mínima de puntos podré lograr. De igual forma ordeno los problemas del más fácil al más difícil y empiezo a atacarlos, empezando por el fácil. Cuando llego a un punto en el que llevo demasiado tiempo (40 minutos, 60 ya exagerando) pensando y sigo perdido o sin encontrar nada nuevo es en donde cambio de problema. Si ya pensé demasiado tiempo todos los problemas pendientes por resolver me arriesgo por la solución con más puntos que haya encontrado durante el tiempo de análisis de cada problema y si aún queda tiempo, regreso a seguir pensado otro poco pero por lo regular ya no vuelvo a tener tiempo para pensar de nuevo.&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Aparte de resolver problemas, cuáles son tus hobbies? cuáles son tus libros favoritos? qué música escuchas? practicas algún deporte?&lt;/strong>&lt;/p>
+&lt;p>&lt;em>De hobbie me gusta armar puzzles 3D (Al estilo del cubo Rubik pero con variaciones).  Los libros de literatura que he leído son principalmente los que me han dejado leer como tarea y  los que más me han agradado son “Los días enmascarados” y “Aura”  de Carlos Fuentes, junto con  “Al sur de la frontera al, oeste del sol” de Haruki Murakami. De música me gusta mucho el Power Metal, principalmente si tiene un toqué Sinfónico (Al estilo Rhapsody of Fire), encuentro cierta inspiración al escuchar música con un ritmo enérgico. También me agrada el basquetbol, aunque no lo practico formalmente, durante algunos recesos de la escuela me gusta salir a jugar.&lt;/em>&lt;/p></description></item><item><title>IOI 2015 - Entrevista con Emmanuel_Antonio</title><link>https://blog.omegaup.com/posts/ioi-2015-entrevista-con-emmanuel_antonio/</link><pubDate>Tue, 14 Jul 2015 14:56:28 +0000</pubDate><guid>https://blog.omegaup.com/posts/ioi-2015-entrevista-con-emmanuel_antonio/</guid><description>
+&lt;p>&lt;a href="https://omegaup.com/profile/Emmanuel_Antonio" target="_blank" rel="noopener">&lt;img src="https://blog.omegaup.com/images/img21.jpg" alt="Emmanuel_Antonio" loading="lazy" />&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://omegaup.com/profile/Emmanuel_Antonio" target="_blank" rel="noopener">Emmanuel_Antonio&lt;/a> será uno de los representantes de México en la &lt;a href="http://ioi2015.kz/" target="_blank" rel="noopener">International Olympiad in Informatics 2015&lt;/a>. Tuvimos la oportunidad de entrevistarlo previo al concurso y esto fue lo que nos dijo:&lt;/p>
 &lt;p>&lt;strong>Cuéntanos cómo empezaste a programar y qué te motiva a resolver problemas:&lt;/strong>&lt;/p>
-&lt;p>&lt;em>Empecé a programar cuando el maestro Luis Citalán me invitó a entrar al taller de la Olimpiada en la escuela. Me motiva ver a esas personas que han logrado cosas muy importantes.&lt;/em>&lt;/p></description></item><item><title>IOI 2015 - Entrevista con charlyhlms</title><link>https://blog.omegaup.com/ioi-2015-entrevista-con-charlyhlms/</link><pubDate>Fri, 10 Jul 2015 15:10:32 +0000</pubDate><guid>https://blog.omegaup.com/ioi-2015-entrevista-con-charlyhlms/</guid><description>&lt;p>&lt;a href="https://omegaup.com/profile/charlyhlms">&lt;img src="https://blog.omegaup.com/images/IMG_1178.jpg" alt="charlyhlms">&lt;/a>&lt;/p>
-&lt;p>Esta vez tocó el turno de entrevistar a &lt;a href="https://omegaup.com/profile/charlyhlms">charlyhlms&lt;/a> quién representará a México por segunda vez en la &lt;a href="http://stats.ioinformatics.org/people/5158">International Olympiad in Informatics&lt;/a>. Esto fue lo que nos dijo:&lt;/p>
+&lt;p>&lt;em>Empecé a programar cuando el maestro Luis Citalán me invitó a entrar al taller de la Olimpiada en la escuela. Me motiva ver a esas personas que han logrado cosas muy importantes.&lt;/em>&lt;/p>
+&lt;p>**Vas a representar a México este año en la IOI. Cuéntanos cómo te preparaste para lograrlo. **&lt;strong>Cómo son tus días de entrenamiento?&lt;/strong>&lt;/p>
+&lt;p>&lt;em>Ya es mi segundo año en la olimpiada, en el primer año aprendí muchas cosas nuevas en los entrenamientos y el segundo año lo dediqué a practicar esas cosas que había aprendido.&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Qué le recomiendas a los que van empezando? Algún material, libro o método de entrenamiento?&lt;/strong>&lt;/p>
+&lt;p>&lt;em>No dejar de practicar, cada vez busquen problemas de mayor dificultad, que vean problemas de olimpiadas pasadas para así saber que temas son los que les hacen falta aprender o practicar y sobre todo que lo hagan por gusto, no porque se sientan obligados o algo así.&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Cuál es tu problema favorito de omegaUp y por qué? Hay un problema en particular que hayas disfrutado mucho resolver?&lt;/strong>&lt;/p>
+&lt;p>&lt;em>No sabría decir cual es mi favorito. Disfruto aquellos que después de pensarlos un buen rato al fin te llega la idea de la solución.&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Descríbenos tu estrategia para atacar un concurso. En qué momento decides cambiar de problema?&lt;/strong>&lt;/p>
+&lt;p>&lt;em>Leer todos los problemas y entender que es lo que pide cada uno de ellos, después empiezo con el que yo considero que podría estar más fácil. Cambio de problema cuando siento que pasa un buen rato y no logro avanzar en la idea.&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Aparte de resolver problemas, cuáles son tus hobbies? cuáles son tus libros favoritos? qué música escuchas? practicas algún deporte?&lt;/strong>&lt;/p>
+&lt;p>&lt;em>Me gusta salir con mis amigos, ver películas o series y jugar. Me gustan los libros que tiene misterio o algo policiaco. Escucho casi de todo, son muy pocos los tipos de música que no me gustan. Me gusta mucho jugar fútbol. :D&lt;/em>&lt;/p></description></item><item><title>IOI 2015 - Entrevista con charlyhlms</title><link>https://blog.omegaup.com/posts/ioi-2015-entrevista-con-charlyhlms/</link><pubDate>Fri, 10 Jul 2015 15:10:32 +0000</pubDate><guid>https://blog.omegaup.com/posts/ioi-2015-entrevista-con-charlyhlms/</guid><description>
+&lt;p>&lt;a href="https://omegaup.com/profile/charlyhlms" target="_blank" rel="noopener">&lt;img src="https://blog.omegaup.com/images/IMG_1178.jpg" alt="charlyhlms" loading="lazy" />&lt;/a>&lt;/p>
+&lt;p>Esta vez tocó el turno de entrevistar a &lt;a href="https://omegaup.com/profile/charlyhlms" target="_blank" rel="noopener">charlyhlms&lt;/a> quién representará a México por segunda vez en la &lt;a href="http://stats.ioinformatics.org/people/5158" target="_blank" rel="noopener">International Olympiad in Informatics&lt;/a>. Esto fue lo que nos dijo:&lt;/p>
 &lt;p>&lt;strong>Cuéntanos cómo empezaste a programar y qué te motiva a resolver problemas:&lt;/strong>&lt;/p>
-&lt;p>&lt;em>Empecé a programar cuando tenía 13 años, durante mi segundo año de secundaria. Estaba en el taller de Computación y a principios de ese año nos enseñaron a programar en Pascal y Karel, en ese entonces me parecía algo divertido y diferente, fue por eso que cuando me comentaron sobre la Olimpiada decidí inscribirme.&lt;/em>&lt;/p></description></item><item><title>IOI 2015 - Entrevista con Juan_Carlos_Sigler_Priego (MEX)</title><link>https://blog.omegaup.com/ioi-2015-entrevista-con-juan_carlos_sigler_priego-mex/</link><pubDate>Mon, 06 Jul 2015 15:52:37 +0000</pubDate><guid>https://blog.omegaup.com/ioi-2015-entrevista-con-juan_carlos_sigler_priego-mex/</guid><description>&lt;p>&lt;a href="https://blog.omegaup.com/images/image1.jpg">&lt;img src="https://blog.omegaup.com/images/image1.jpg" alt="Juan_Carlos_Sigler_Priego">&lt;/a>Estamos inaugurando la categoría de Entrevistas en el blog de omegaUp y en esta ocasión tuvimos la oportunidad de hablar con &lt;a href="https://omegaup.com/profile/Juan_Carlos_Sigler_Priego">Juan_Carlos_Sigler_Priego&lt;/a> quien representará a México en la &lt;a href="http://ioi2015.kz/">International Olympiad in Informatics (IOI) 2015&lt;/a>.&lt;/p>
+&lt;p>&lt;em>Empecé a programar cuando tenía 13 años, durante mi segundo año de secundaria. Estaba en el taller de Computación y a principios de ese año nos enseñaron a programar en Pascal y Karel, en ese entonces me parecía algo divertido y diferente, fue por eso que cuando me comentaron sobre la Olimpiada decidí inscribirme.&lt;/em>&lt;/p>
+&lt;p>&lt;em>Resolver un problema es un proceso bastante interesante, no importando el tipo de problemas al que nos enfrentemos, tanto problemas de olimpiadas como problemas de la vida diaria representan retos que afrontamos constantemente, retos que a mi parecer son una manera de poner a prueba la creatividad de una persona y su capacidad de aplicar el conocimiento que ha adquirido, sin importar de donde, para un fin práctico. Además de esto, creo que todos podemos concordar en que después de resolver un problema suele haber una sensación de satisfacción,  de sentirnos mejores en lo que hacemos por que tuvimos la capacidad de dar solución a un problema por nuestros propios medios y saber que cada problema que resolvemos nos aporta nuevos conocimientos. Más particularmente para los problemas de olimpiada hay un par de situaciones que siempre me parecieron muy interesantes: El hecho de que no baste con obtener una buena idea,  sino que además tengas que escribir está idea para que una computadora pueda hacer lo que tienes en mente; y que después de haber obtenido la solución completa a un problema siempre puedes mirar atrás, aprender de los errores que cometiste en el proceso o de las nuevas ideas que pusiste en práctica, y de como ahora todo ahora parece tan obvio, después de que en un principio no parecías saber ni por donde empezar. La combinación de todo esto es lo que me ha motivado a dedicar buena parte de mi tiempo a resolver problemas.&lt;/em>&lt;/p>
+&lt;p>**Vas a representar a México este año en la IOI. Cuéntanos cómo te preparaste para lograrlo. **&lt;strong>Cómo son tus días de entrenamiento?&lt;/strong>&lt;/p>
+&lt;p>&lt;em>Llegar a la IOI fue un proceso que principalmente requirió mucha disciplina y constancia a la hora de entrenar. No creo poder describir un día normal de entrenamiento porque mi manera de entrenar cambiaba dependiendo de en que me quería enfocar. Entre las cosas que hacía estaba  presentar un examen por semana, para esto usaba fuentes como la Usaco o exámenes de IOIs u OMIs pasadas. Después de hacer el examen leía las soluciones tanto de los problemas que resolví como los problemas que no resolví e implementaba estas soluciones completas.&lt;/em>&lt;/p>
+&lt;p>&lt;em>También le dediqué mucho tiempo a leer para aprender nuevos temas y técnicas además de mejorar mis habilidades matemáticas, un libro que aún no acabo de leer pero estoy disfrutando es &lt;a href="http://www.amazon.com/Art-Craft-Problem-Solving/dp/0471789011/ref=sr_1_1?ie=UTF8&amp;amp;qid=1436242440&amp;amp;sr=8-1&amp;amp;keywords=art&amp;#43;and&amp;#43;craft&amp;#43;of&amp;#43;problem&amp;#43;solving" target="_blank" rel="noopener">Art and Craft of Problem Solving&lt;/a>. Además de esto hubo un tiempo en que me interesaba mejorar mi rapidez a la hora de implementar además de mi capacidad para escribir códigos sin errores, para ello escribía todos mis códigos en papel antes de escribirlos en computadora, lo bueno de hacer esto es que al escribirlos en papel, con pluma, no se tienen las  herramientas de edición que se tienen cuando se hace en un editor de texto, por lo que se vuelve muy importante estar completamente seguro de lo que se está implementando. En general estás fueron algunas de las cosas que hice durante este año de entrenamiento, pero como dije no sólo es importante tener un buen plan o método de entrenamiento sino también ser capaz de cumplir con las metas que uno se propone y ser muy constante.&lt;/em>&lt;/p>
+&lt;p>&lt;strong>De los 4 representantes de México, tú eres el olímpico con más experiencia. Tuviste la oportunidad de participar en la IOI 2014, qué lecciones aprendiste y qué planeas hacer diferente este año?&lt;/strong>&lt;/p>
+&lt;p>&lt;em>Ir a una IOI ha sido una de las mejores experiencias en mi vida, no haber obtenido una medalla no opacó este hecho pero si es algo que me ha sido difícil superar. Lo importante de esto es que me dio la oportunidad de aprender muchas cosas sobre la competencia y sobre lo que tenía que mejorar. Entendí cosas muy importantes como la relevancia de manejar el tiempo de la manera correcta, y en especial de mantener la calma durante el examen sin importar lo difícil que se pongan las cosas. Comprendí y trabajé en las cosas que debía mejorar, algunas de ellas ya las mencioné: mi rapidez y la eficacia con la que programo por ejemplo. No creo que el resultado que obtuve el año pasado fue en vano, la experiencia me ha servido demasiado, y para esta IOI estoy muy motivado, motivado como nunca lo he estado, porque voy a disfrutar mucho la competencia y porque estoy seguro que estoy en un mejor momento que el año pasado.&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Qué le recomiendas a los que van empezando? Algún material, libro o método de entrenamiento?&lt;/strong>&lt;/p>
+&lt;p>&lt;em>Durante mi primer año en la pre-selección un libro que me resultó de mucha ayuda fue &lt;a href="https://omegaup.com/img/libropre3.pdf" target="_blank" rel="noopener">Problemas y Algoritmos por Luis Enrique Vargas Azcona&lt;/a>. Incluye muchos de los temas básicos y no tan básicos que se abarcan durante las primeras etapas del pre-selectivo y una gran ventaja es que está escrito en español, y muchos de los problemas propuestos en el libro se pueden resolver en OmegaUp. Además de ese libro leí Introduction to Algorithms, y Algorithm Desing por Jon Kleinberg, también me fueron de mucha utilidad aunque quizá son un poco más avanzados y están escritos en inglés.&lt;/em>&lt;/p>
+&lt;p>&lt;em>Claro que aparte de tener una fuerte base de teoría y conocer muchos temas, resulta igual de importante dedicar la mayoría del tiempo de entrenamiento a resolver problemas. Una muy buena página para entrenar es la Usaco Training Gateway (&lt;a href="http://train.usaco.org/usacogate" target="_blank" rel="noopener">http://train.usaco.org/usacogate&lt;/a>), resulta bastante útil porque los problemas están divididos por secciones y cada sección abarca un tema diferente. Y como parte importante de la competencia es ser capaz de resolver problemas incluso bajo la presión y el estrés de un examen, también  recomendaría hacer exámenes constantemente, para esto además de OmegaUp, hay un par de buenas páginas como la USACO &lt;a href="http://www.usaco.org/" target="_blank" rel="noopener">http://www.usaco.org/&lt;/a> y COCI &lt;a href="http://hsin.hr/coci/" target="_blank" rel="noopener">http://hsin.hr/coci/&lt;/a> en las que se pueden encontrar exámenes de años pasados.&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Cuál es tu problema favorito de omegaUp y por qué? Hay un problema en particular que hayas disfrutado mucho resolver?&lt;/strong>&lt;/p>
+&lt;p>&lt;em>Diría que mi problema favorito de OmegaUp es &lt;a href="https://omegaup.com/arena/problem/Pequenos-Autobuses" target="_blank" rel="noopener">Pequeños Autobuses&lt;/a>, fue un problema que enfrenté por primera vez durante un eliminatorio de la pre-selección, pero fui capaz de resolverlo hasta unas semanas después. Esos problemas que te toman mucho tiempo resolver siempre terminan siendo &amp;ldquo;divertidos&amp;rdquo;. Aparte de este problema en general disfruto mucho resolver tareas de IOI; resultan divertidos porque aunque se trate de un problema relativamente sencillo suele haber detalles que lo hacen ser un problema interesante, ya porque necesitan una idea bastante creativa o bien porque requieren de una implementación elegante. Algunos problemas de IOI de este estilo son: Bloques, Fuerza Media, Montañas, Joining Points, Impresora de Tipos, Cueva, Ríos, Loros (&lt;a href="https://omegaup.com/problem/?tag=ioi" target="_blank" rel="noopener">Todos estos están disponibles en OmegaUp&lt;/a>), además de Batch Scheduling de la IOI del 2002, Amazing Robots de la IOI del 2003 y Robots de la IOI 2013.&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Descríbenos tu estrategia para atacar un concurso. En qué momento decides cambiar de problema?&lt;/strong>&lt;/p>
+&lt;p>&lt;em>Lo primero que hago cuando enfrento un examen es siempre leer todos los problemas y asegurarme de entenderlos perfectamente, al punto de que pueda dejar de ver la descripción del problema y no olvidar los detalles importantes. Después de esto mi estrategia suele cambiar dependiendo de la dificultad de los problemas que intentaré resolver, pero normalmente intento atacar cada uno de los problemas en orden. Al atacar un problema me doy una cantidad limitada de tiempo para pensar en la mejor idea que me sea posible, digamos, media hora, aunque este tiempo puede disminuir si me doy cuenta que no estoy obteniendo avances importantes, o por el contrario aumentar si creo estar cerca de una solución completa. Después de esto implemento la mejor solución que haya obtenido y al obtener los puntos esperados cambio de problema. Al final si ya he intentado algo para todos los problemas del examen, elijo alguno de los problemas que no resolví completamente e intento mejorar mi puntaje obteniendo mejores ideas.&lt;/em>&lt;/p>
+&lt;p>&lt;em>Sobre cuando &amp;ldquo;cambiar de problema&amp;rdquo;, al menos yo sólo lo hago cuando he dedicado mucho tiempo a depurar mi código. Siempre hay ocasiones en que obtenemos una buena idea, la implementamos y después de subirla no obtenemos los puntos que esperábamos, aunque puede llegar a ser bastante molesto no es prudente darse por vencido en ese mismo instante como no es conveniente dedicar más tiempo de lo adecuado a buscar un error en la idea o en la implementación. Depende mucho del examen y de la situación particular en la que te encuentres, pero siempre se debe dedicar una parte del examen a buscar el posible error en nuestra implementación o incluso en la idea, pero es igual de relevante, en caso de no poder encontrar dicho error, ser capaz de abandonar el problema, bien cambiando de problema o bien intentando una solución diferente que probablemente dé menos puntos. Saber manejar el tiempo durante un examen se vuelve en ocasiones tan crucial como tener buenas ideas o ser rápido codificando, pero esto es algo que se obtiene con la práctica, después de haber realizado una buena cantidad de problemas y exámenes.&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Aparte de resolver problemas, cuáles son tus hobbies? cuáles son tus libros favoritos? qué música escuchas? practicas algún deporte?&lt;/strong>&lt;/p>
+&lt;p>&lt;em>Además de resolver problemas, me gusta leer y escribir y también tocar la batería. Algunos de mis libros favoritos son El Llamado de la Selva por Jack London, Nada de Janne Teller y El Juego del Ángel de Carlos Ruíz Zafón. También disfrutó bastante de escuchar música, creo que mis gustos son bastante variados pero normalmente escucho Rock, algunos de mis grupos favoritos son The Beatles y Soda Stereo aunque recientemente comencé a escuchar otro generó musical: Jpop. Viajar es también algo que siempre me ha gustado y la olimpiada me ha dado la oportunidad de hacerlo con bastante frecuencia.&lt;/em>&lt;/p></description></item><item><title>IOI 2015 - Entrevista con Juan_Carlos_Sigler_Priego (MEX)</title><link>https://blog.omegaup.com/posts/ioi-2015-entrevista-con-juan_carlos_sigler_priego-mex/</link><pubDate>Mon, 06 Jul 2015 15:52:37 +0000</pubDate><guid>https://blog.omegaup.com/posts/ioi-2015-entrevista-con-juan_carlos_sigler_priego-mex/</guid><description>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/image1.jpg" >&lt;img src="https://blog.omegaup.com/images/image1.jpg" alt="Juan_Carlos_Sigler_Priego" loading="lazy" />&lt;/a>Estamos inaugurando la categoría de Entrevistas en el blog de omegaUp y en esta ocasión tuvimos la oportunidad de hablar con &lt;a href="https://omegaup.com/profile/Juan_Carlos_Sigler_Priego" target="_blank" rel="noopener">Juan_Carlos_Sigler_Priego&lt;/a> quien representará a México en la &lt;a href="http://ioi2015.kz/" target="_blank" rel="noopener">International Olympiad in Informatics (IOI) 2015&lt;/a>.&lt;/p>
 &lt;p>&lt;strong>Cuéntanos cómo empezaste a programar y qué te motiva a resolver problemas.&lt;/strong>&lt;/p>
 &lt;blockquote>
-&lt;p>Empecé a programar cuando me metí al Curso de la OMI en mi Estado (Distrito Federal), más que nada me motiva el ver como todo esto le ha ayudado a ex-concursantes, gente que la contrata empresas muy importantes, como MIcrosoft y Google, aunque a mi en lo personal me gustaría formar mi propia empresa.&lt;/p></description></item><item><title>El camino de México rumbo a la IOI 2015</title><link>https://blog.omegaup.com/el-camino-de-mexico-rumbo-a-la-ioi-2015/</link><pubDate>Mon, 22 Jun 2015 00:57:14 +0000</pubDate><guid>https://blog.omegaup.com/el-camino-de-mexico-rumbo-a-la-ioi-2015/</guid><description>&lt;p>Un año más ha pasado y México ya tiene lista su delegación que nos representará en la International Olympiad in Informatics 2015 a celebrarse en Kazakhstan, del 26 de Julio al 2 de Agosto. A continuación presentamos la colección de exámenes y problemas que se usaron durante el preselectivo dentro de omegaUp. Esperamos que esta colección de problemas sirva de entrenamiento a futuras delegaciones de México y otros países de América Latina.&lt;/p>
-&lt;p>&lt;a href="https://blog.omegaup.com/images/ioi2015.jpg">&lt;img src="https://blog.omegaup.com/images/ioi2015.jpg" alt="Selección 2015 México ">&lt;/a>De izquierda a derecha, los integrantes de la Selección Mexicana de Informática 2015 son:&lt;/p>
+&lt;p>Empecé a programar cuando me metí al Curso de la OMI en mi Estado (Distrito Federal), más que nada me motiva el ver como todo esto le ha ayudado a ex-concursantes, gente que la contrata empresas muy importantes, como MIcrosoft y Google, aunque a mi en lo personal me gustaría formar mi propia empresa.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;strong>Vas a representar a México este año en la IOI. Cuéntanos cómo te preparaste para lograrlo.&lt;/strong> &lt;strong>Cómo son tus días de entrenamiento?&lt;/strong>&lt;/p>
+&lt;blockquote>
+&lt;p>Ya llevo un rato en esto de entrenarme, este año en particular me decidi en hacerme un tiempo de dos horas minimo diarias en atacar problemas, más aparte me ayuda mucho los entrenamientos sabatinos con mi delegación.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;strong>Qué le recomiendas a los que van empezando? Algún material, libro o método de entrenamiento?&lt;/strong>&lt;/p>
+&lt;blockquote>
+&lt;p>Para ser sincero no he leído muchos libros, ya que no hay muchos recursos en español. Lo que si les sugiero es que entrenen constantemente, con problemas DE SU NIVEL (resolvibles para ustedes y que necesiten pensar), es impoductivo estar resolviendo los diversos problemas de A+B.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;strong>Cuál es tu problema favorito de omegaUp y por qué? Hay un problema en particular que hayas disfrutado mucho resolver?&lt;/strong>&lt;/p>
+&lt;blockquote>
+&lt;p>Hay uno en particular que me gustó mucho hacerlo, mas que nada porque es mi temas favoritos, se llama &lt;a href="https://omegaup.com/arena/problem/Loca-People" target="_blank" rel="noopener">Loca People&lt;/a> y la fuente es &lt;a href="https://omegaup.com/profile/garo.edgar21" target="_blank" rel="noopener">Nievecitos&lt;/a>.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;strong>Descríbenos tu estrategia para atacar un concurso. En qué momento decides cambiar de problema?&lt;/strong>&lt;/p>
+&lt;blockquote>
+&lt;p>Primero es leer todos los problemas, a veces, si uno esta en exceso muy fácil, lo hago y después sigo leyendo. Ya que tengo bien definido que debo hacer en cada uno, trato de ordenarlos por dificultad y así los empiezo a atacar. Cuando estoy ya unos 10 minutos atorado en un problema o en una idea, me despejo 2 minutos y cambio de problema.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;strong>Aparte de resolver problemas, cuáles son tus hobbies? cuáles son tus libros favoritos? qué música escuchas? practicas algún deporte?&lt;/strong>&lt;/p>
+&lt;blockquote>
+&lt;p>Me gusta mucho jugar con mi familia, ver peliculas. Mis libros favoritos son los que tienen misterio. Escucho toda clase de musica aunque lo que mas escucho es Bruno Mars. En la semana, 2 días voy a natación y me gusta de vez en cuando ir a jugar futbol.&lt;/p>
+&lt;/blockquote></description></item><item><title>El camino de México rumbo a la IOI 2015</title><link>https://blog.omegaup.com/posts/el-camino-de-mexico-rumbo-a-la-ioi-2015/</link><pubDate>Mon, 22 Jun 2015 00:57:14 +0000</pubDate><guid>https://blog.omegaup.com/posts/el-camino-de-mexico-rumbo-a-la-ioi-2015/</guid><description>
+&lt;p>Un año más ha pasado y México ya tiene lista su delegación que nos representará en la International Olympiad in Informatics 2015 a celebrarse en Kazakhstan, del 26 de Julio al 2 de Agosto. A continuación presentamos la colección de exámenes y problemas que se usaron durante el preselectivo dentro de omegaUp. Esperamos que esta colección de problemas sirva de entrenamiento a futuras delegaciones de México y otros países de América Latina.&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/ioi2015.jpg" >&lt;img src="https://blog.omegaup.com/images/ioi2015.jpg" alt="Selección 2015 México " loading="lazy" />&lt;/a>De izquierda a derecha, los integrantes de la Selección Mexicana de Informática 2015 son:&lt;/p>
 &lt;ol>
-&lt;li>**MEX-4: Emmanuel Antonio Cuevas **(&lt;a href="https://omegaup.com/profile/Emmanuel_Antonio">Emmanuel_Antonio&lt;/a>)&lt;/li>
-&lt;li>**MEX-2: Carlos Galeana Hernández **(&lt;a href="https://omegaup.com/profile/charlyhlms">charlyhlms&lt;/a>)&lt;/li>
-&lt;li>&lt;strong>MEX-1:&lt;/strong> &lt;strong>Juan Carlos Sigler Priego&lt;/strong> (&lt;a href="https://omegaup.com/profile/Juan_Carlos_Sigler_Priego">Juan_Carlos_Sigler_Priego&lt;/a>)&lt;/li>
-&lt;li>**MEX-3: Ángel David Ortega Ramírez **(&lt;a href="https://omegaup.com/profile/blak_dragon1">blak_dragon1&lt;/a>)&lt;/li>
-&lt;/ol></description></item><item><title>Trucos para ser más cool</title><link>https://blog.omegaup.com/trucos-cool/</link><pubDate>Mon, 07 Jul 2014 05:37:40 +0000</pubDate><guid>https://blog.omegaup.com/trucos-cool/</guid><description>&lt;p>Después de un rato de investigación y experimentación, por fin me tomo el tiempo para escribir este post y presentarles algunos trucos que, considero, podrían ayudarles a simplificarse la vida cuando programen y, obviamente, a ser mucho más cool.&lt;/p>
+&lt;li>**MEX-4: Emmanuel Antonio Cuevas **(&lt;a href="https://omegaup.com/profile/Emmanuel_Antonio" target="_blank" rel="noopener">Emmanuel_Antonio&lt;/a>)&lt;/li>
+&lt;li>**MEX-2: Carlos Galeana Hernández **(&lt;a href="https://omegaup.com/profile/charlyhlms" target="_blank" rel="noopener">charlyhlms&lt;/a>)&lt;/li>
+&lt;li>&lt;strong>MEX-1:&lt;/strong> &lt;strong>Juan Carlos Sigler Priego&lt;/strong> (&lt;a href="https://omegaup.com/profile/Juan_Carlos_Sigler_Priego" target="_blank" rel="noopener">Juan_Carlos_Sigler_Priego&lt;/a>)&lt;/li>
+&lt;li>**MEX-3: Ángel David Ortega Ramírez **(&lt;a href="https://omegaup.com/profile/blak_dragon1" target="_blank" rel="noopener">blak_dragon1&lt;/a>)&lt;/li>
+&lt;/ol>
+&lt;h1>Material de Estudio&lt;/h1>&lt;p>En nuestro post anterior, &lt;a href="http://blog.omegaup.com/2014/05/el-camino-rumbo-a-la-ioi-2014/" target="_blank" rel="noopener">El camino rumbo a la IOI 2014&lt;/a> hay una buena colección de materiales que sugerimos a los olímpicos leer mientras avanzan por las diferentes etapas del preselectivo.&lt;/p>
+&lt;h1>&lt;strong>Etapa 1&lt;/strong>&lt;/h1>&lt;p>Durante esta etapa le pedimos a los olímpicos que lean el libro de &lt;a href="https://omegaup.com/img/libropre3.pdf" target="_blank" rel="noopener">Problemas y Algoritmos&lt;/a> de Luis Vargas como mínimo como guía para resolver los problemas.&lt;/p>
+&lt;ul>
+&lt;li>Temas básicos: variables, cadenas, arreglos, matrices, ciclos, mcm, mcd, etc..
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P1/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 1&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P2/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 2&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Pilas, colas y búsqueda binaria
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P3/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 3&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P4/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 4&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1E1/practice/" target="_blank" rel="noopener">Examen 1&lt;/a>&lt;/li>
+&lt;li>Búsqueda, árboles, acotamiento y poda
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P5/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 5&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P6/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 6&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Recursión y backtracking
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P7/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 7&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P8/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 8&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1E2/practice/" target="_blank" rel="noopener">Examen 2&lt;/a>&lt;/li>
+&lt;li>Búsquedas con espacios de estados
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P9/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 9&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P10/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 10&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Programación Dinámica
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P11/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 11&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P12/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 12&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P13/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 13&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1E3/practice/" target="_blank" rel="noopener">Examen 3&lt;/a>&lt;/li>
+&lt;li>Divide y vencerás
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P14/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 14&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P15/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 15&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Grafos
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P16/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 16&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P17/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 17&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1E4/practice/" target="_blank" rel="noopener">Examen 4&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h1>&lt;strong>Etapa 2&lt;/strong>&lt;/h1>&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E2E1/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 2, Examen 1&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E2E2/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 2, Examen 2&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E2E3/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 2, Examen 3&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E2E4/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 2, Examen 4&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E2E5/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 2, Examen 5&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h1>Selectivo Final&lt;/h1>&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015EFE1/practice/" target="_blank" rel="noopener">IOI 2015 Selectivo Final, Examen 1&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015EFE2/practice/" target="_blank" rel="noopener">IOI 2015 Selectivo Final, Examen 2&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015EFE3/practice/" target="_blank" rel="noopener">IOI 2015 Selectivo Final, Examen 3&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015EFE4/practice/" target="_blank" rel="noopener">IOI 2015 Selectivo Final, Examen 4&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015EFE5/practice/" target="_blank" rel="noopener">IOI 2015 Selectivo Final, Examen 5&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Trucos para ser más cool</title><link>https://blog.omegaup.com/posts/trucos-cool/</link><pubDate>Mon, 07 Jul 2014 05:37:40 +0000</pubDate><guid>https://blog.omegaup.com/posts/trucos-cool/</guid><description>
+&lt;p>Después de un rato de investigación y experimentación, por fin me tomo el tiempo para escribir este post y presentarles algunos trucos que, considero, podrían ayudarles a simplificarse la vida cuando programen y, obviamente, a ser mucho más cool.&lt;/p>
 &lt;p>&lt;strong>&lt;em>¿Cansado de importar librerías como asíatico en TopCoder? ¡Aquí está la solución!&lt;/em>&lt;/strong>&lt;/p>
-&lt;p>Muchas veces es nefasto encontrar varios (sino es que miles) errores al compilar a causa de librerías que hemos olvidado incluir. Existe una librería que, al incluirla, agrega todas las librerías estándar de C++ a nuestro código, ¡incluso las de la STL!&lt;/p></description></item><item><title>Summary of mathematical background for Computer Science</title><link>https://blog.omegaup.com/summary-of-mathematical-background-for-computer-science/</link><pubDate>Thu, 29 May 2014 22:01:21 +0000</pubDate><guid>https://blog.omegaup.com/summary-of-mathematical-background-for-computer-science/</guid><description>&lt;p>Directamente del twitter feed de Computer Science (&lt;a href="https://twitter.com/CompSciFact">@CompSciFact&lt;/a>) aquí hay una excelente recopilación de las matemáticas que son comunmente requeridas en ciencias computacionales:&lt;/p>
-&lt;p>&lt;a href="http://www.jfsowa.com/logic/math.htm">http://www.jfsowa.com/logic/math.htm&lt;/a>&lt;/p></description></item><item><title>El camino rumbo a la IOI 2014</title><link>https://blog.omegaup.com/el-camino-rumbo-a-la-ioi-2014/</link><pubDate>Wed, 28 May 2014 15:29:56 +0000</pubDate><guid>https://blog.omegaup.com/el-camino-rumbo-a-la-ioi-2014/</guid><description>&lt;p>Después de varios meses de preparación y selección, México está listo para participar en la &lt;a href="http://www.ioi2014.org/">IOI 2014&lt;/a> a celebrarse en Taiwán del 13 al 20 de Julio.&lt;/p>
-&lt;p>&lt;a href="https://blog.omegaup.com/images/ioi20141.jpg">&lt;img src="https://blog.omegaup.com/images/ioi20141.jpg" alt="" title="Selección Mexicana de Informática 2014">&lt;/a>&lt;/p>
+&lt;p>Muchas veces es nefasto encontrar varios (sino es que miles) errores al compilar a causa de librerías que hemos olvidado incluir. Existe una librería que, al incluirla, agrega todas las librerías estándar de C++ a nuestro código, ¡incluso las de la STL!&lt;/p>
+&lt;p>&lt;em>¿Que clase de brujería es esta?&lt;/em> Seguramente se estarán preguntando. Muy sencillo, solo necesitan escribir la siguiente línea de codigo: &lt;code>#include &amp;lt;bits/stdc++.h&amp;gt;&lt;/code>&lt;/p>
+&lt;p>_(Actualización) _Gracias a el comentario de lhchavez por remarcar el hecho de que esta línea funciona únicamente con el compilador &lt;em>gcc&lt;/em>. Pese a esto, gran parte de los evaluadores actualmente usan &lt;em>gcc,&lt;/em> por lo que podemos confiar en su uso, al menos en omegaUp. En caso de que la librería anterior no siga siendo soportada por omegaUp, les informaremos oportunamente.&lt;/p>
+&lt;p>&lt;em>&lt;strong>¡Mi mami dice que cin/cout es malo y no debo juntarme con ellos!&lt;/strong>&lt;/em>&lt;/p>
+&lt;p>Si no me equivoco, durante mucho tiempo se ha tratado a scanf y printf como el pan de cada día para la entrada y salida en los concursos de programación, al menos en México. Mientras tanto, se satanizó a cin y cout por ser lentos (o especiales, como dice mi mami) para realizar entrada y salida eficiente.&lt;/p>
+&lt;p>Sin embargo esto siempre fue un mito, los métodos cin/cout son incluso más eficientes que scanf/printf, solo había que descubrir el por que no lo notamos.&lt;/p>
+&lt;p>Resulta que cin/cout son muy buenos amigos de scanf/printf. Como son tan buenos amigos, al realizar la lectura y salida no querían alejarse demasiado, por lo que cin/cout tenía que sincronizarse para estar siempre a la par de scanf/printf.&lt;/p>
+&lt;p>Para no hacer el cuento largo, hay una forma de desactivar la opción de sincronización entre cin/cout y scanf/printf, solo es necesario incluir al inicio del main:&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c++" data-lang="c++">&lt;span style="display:flex;">&lt;span>std&lt;span style="color:#f92672">::&lt;/span>cin.tie(&lt;span style="color:#66d9ef">nullptr&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>std&lt;span style="color:#f92672">::&lt;/span>ios_base&lt;span style="color:#f92672">::&lt;/span>sync_with_stdio(false);&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>Con esto podemos usar cin y cout sin temor a obtener TLE por lectura lenta, ¡Yaaay!&lt;/p>
+&lt;p>&lt;em>&lt;strong>¿Y eso es todo? ¿Ya puedo disfrutar de cin y cout?&lt;/strong>&lt;/em>&lt;/p>
+&lt;p>Casi. Antes de cantar victoria hay un último detalle para evitar los TLE. Gracias a un último experimento, encontramos que cuando se presentaban outputs muy grandes, cin/cout optimizado seguía lanzando TLE cuando scanf/printf no.&lt;/p>
+&lt;p>¡Tranquilos! También es posible evitar este error. El problema se presentaba porque comúnmente usaríamos lo siguiente: &lt;code>cout &amp;lt;&amp;lt; numero &amp;lt;&amp;lt; endl&lt;/code>. Sucede que &lt;em>endl&lt;/em>, además de imprimir un salto de línea, hace &lt;em>flush&lt;/em> en el flujo de salida, lo cual es considerablemente costoso al imprimir muchas líneas y entorpece el rendimiento.&lt;/p>
+&lt;p>Para que la salida sea eficiente, recomendamos que uses el salto de línea literal &lt;code>&amp;quot;\n&amp;quot;&lt;/code>.&lt;/p>
+&lt;p>Con los dos trucos anteriores, la eficiencia de cin/cout mejora generalmente un &lt;em>&lt;strong>5-10%&lt;/strong>&lt;/em> los resultados obtenidos por scanf/printf. Bastante cool, ¿no?&lt;/p>
+&lt;p>Aunque el objetivo original no es ganar unas cuantas centésimas de segundo en eficiencia, sino dar la oportunidad a aquellos olímpicos que no manejan scanf/printf para seguir usando cin/cout sin enfrentarse a más complicaciones.&lt;/p>
+&lt;p>Finalmente les dejó un ejemplo de cómo usar todo lo anterior en un código de C++. Espero que algo de esto les pueda ayudar en el futuro. Les deseo lo mejor :)&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c++" data-lang="c++">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;bits/stdc++.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#define optimizar_io do { std::ios_base::sync_with_stdio(false); std::cin.tie(nullptr); } while(false)`
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>(){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> optimizar_io;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> a, b;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> std&lt;span style="color:#f92672">::&lt;/span>cin &lt;span style="color:#f92672">&amp;gt;&amp;gt;&lt;/span> a &lt;span style="color:#f92672">&amp;gt;&amp;gt;&lt;/span> b;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> std&lt;span style="color:#f92672">::&lt;/span>cout &lt;span style="color:#f92672">&amp;lt;&amp;lt;&lt;/span> a &lt;span style="color:#f92672">+&lt;/span> b &lt;span style="color:#f92672">&amp;lt;&amp;lt;&lt;/span> &lt;span style="color:#e6db74">&amp;#34;&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div></description></item><item><title>Summary of mathematical background for Computer Science</title><link>https://blog.omegaup.com/posts/summary-of-mathematical-background-for-computer-science/</link><pubDate>Thu, 29 May 2014 22:01:21 +0000</pubDate><guid>https://blog.omegaup.com/posts/summary-of-mathematical-background-for-computer-science/</guid><description>
+&lt;p>Directamente del twitter feed de Computer Science (&lt;a href="https://twitter.com/CompSciFact" target="_blank" rel="noopener">@CompSciFact&lt;/a>) aquí hay una excelente recopilación de las matemáticas que son comunmente requeridas en ciencias computacionales:&lt;/p>
+&lt;p>&lt;a href="http://www.jfsowa.com/logic/math.htm" target="_blank" rel="noopener">http://www.jfsowa.com/logic/math.htm&lt;/a>&lt;/p></description></item><item><title>El camino rumbo a la IOI 2014</title><link>https://blog.omegaup.com/posts/el-camino-rumbo-a-la-ioi-2014/</link><pubDate>Wed, 28 May 2014 15:29:56 +0000</pubDate><guid>https://blog.omegaup.com/posts/el-camino-rumbo-a-la-ioi-2014/</guid><description>
+&lt;p>Después de varios meses de preparación y selección, México está listo para participar en la &lt;a href="http://www.ioi2014.org/" target="_blank" rel="noopener">IOI 2014&lt;/a> a celebrarse en Taiwán del 13 al 20 de Julio.&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/ioi20141.jpg" >&lt;figure>
+&lt;img src="https://blog.omegaup.com/images/ioi20141.jpg" title="Selección Mexicana de Informática 2014" alt="" loading="lazy" />
+&lt;figcaption>Selección Mexicana de Informática 2014&lt;/figcaption>
+&lt;/figure>&lt;/a>&lt;/p>
 &lt;p>De izquierda a derecha, nuestros seleccionados son:&lt;/p>
 &lt;ol>
 &lt;li>&lt;strong>Carlos Galeana Hernández&lt;/strong> del Distrito Federal&lt;/li>
@@ -62,4 +547,155 @@
 &lt;li>&lt;strong>Diego Alonso Roque Montoya&lt;/strong> de Nuevo León&lt;/li>
 &lt;li>&lt;strong>Jordán Alexander Salas&lt;/strong> de Coahuila&lt;/li>
 &lt;/ol>
-&lt;p>Nuevamente, nuestra selección cuenta con 3 ganadores absolutos de la &lt;a href="http://www.olimpiadadeinformatica.org.mx/OMI/OMI/Inicio.aspx">Olimpiada Mexicana de Informática&lt;/a>: Jordán ganó la &lt;a href="http://www.olimpiadadeinformatica.org.mx/OMI/OMI/Resultados/Participantes_2014.aspx">OMI 2014&lt;/a>, Talamás ganó la &lt;a href="http://www.olimpiadadeinformatica.org.mx/OMI/OMI/Resultados/Participantes_2013.aspx">OMI 2013&lt;/a> y Diego Roque ganó la &lt;a href="http://www.olimpiadadeinformatica.org.mx/OMI/OMI/Resultados/Participantes_2012.aspx">OMI 2012&lt;/a>. Les deseamos la mejor de las suertes!&lt;/p></description></item></channel></rss>
+&lt;p>Nuevamente, nuestra selección cuenta con 3 ganadores absolutos de la &lt;a href="http://www.olimpiadadeinformatica.org.mx/OMI/OMI/Inicio.aspx" target="_blank" rel="noopener">Olimpiada Mexicana de Informática&lt;/a>: Jordán ganó la &lt;a href="http://www.olimpiadadeinformatica.org.mx/OMI/OMI/Resultados/Participantes_2014.aspx" target="_blank" rel="noopener">OMI 2014&lt;/a>, Talamás ganó la &lt;a href="http://www.olimpiadadeinformatica.org.mx/OMI/OMI/Resultados/Participantes_2013.aspx" target="_blank" rel="noopener">OMI 2013&lt;/a> y Diego Roque ganó la &lt;a href="http://www.olimpiadadeinformatica.org.mx/OMI/OMI/Resultados/Participantes_2012.aspx" target="_blank" rel="noopener">OMI 2012&lt;/a>. Les deseamos la mejor de las suertes!&lt;/p>
+&lt;p>Todos los concursos de selección y la gran mayoría de las prácticas usadas durante el proceso están disponibles en omegaUp. Estos fueron los concursos y problemas usados:&lt;/p>
+&lt;p>&lt;strong>Etapa 1&lt;/strong> Durante esta etapa le pedimos a los olímpicos que lean el libro de &lt;a href="https://omegaup.com/img/libropre3.pdf" target="_blank" rel="noopener">Problemas y Algoritmos&lt;/a> de Luis Vargas como mínimo como guía para resolver los problemas.&lt;/p>
+&lt;p>&lt;em>&lt;strong>Temas introductorios: variables, cadenas, arreglos, matrices, ciclos, mcd, mcm:&lt;/strong>&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P1/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 1&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P2/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 2&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://blog.omegaup.com/category/soluciones-preselectivo-14/etapa-1-14/examen-1-14/" target="_blank" rel="noopener">Soluciones&lt;/a>&lt;/li>
+&lt;li>Lecturas recomendadas:
+&lt;ol>
+&lt;li>Los temas 1, 2, 4 y 5 del &lt;a href="http://pier.guillen.com.mx/" target="_blank" rel="noopener">blog de Pier Paolo&lt;/a>.&lt;/li>
+&lt;li>Sección VII del &lt;a href="https://omegaup.com/img/libropre3.pdf" target="_blank" rel="noopener">Libro de Luis sobre Algoritmos&lt;/a>&lt;/li>
+&lt;li>Sección II del&lt;a href="https://omegaup.com/img/libropre3.pdf" target="_blank" rel="noopener"> Libro de Luis sobre Algoritmos&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://community.topcoder.com/tc?module=Static&amp;amp;d1=tutorials&amp;amp;d2=math_for_topcoders" target="_blank" rel="noopener">Mathematics for TopCoders.&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;em>&lt;strong>Pilas, colas y búsqueda binaria&lt;/strong>&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P3/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 3&lt;/a> (nivel introductorio)&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P4/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 4&lt;/a> (nivel retador)&lt;/li>
+&lt;li>Lecturas recomendadas:
+&lt;ol>
+&lt;li>Del libro de L&lt;a href="https://omegaup.com/img/libropre3.pdf" target="_blank" rel="noopener">uis sobre Problemas y Algoritmos&lt;/a>, los capítulos 4, 10, 13 y la Sección 2 completa serán de utilidad para estos exámenes.&lt;/li>
+&lt;li>Del &lt;a href="http://pier.guillen.com.mx/" target="_blank" rel="noopener">Blog de Pier Paolo&lt;/a>, las secciones 2 y 3 pueden ser de utilidad.&lt;/li>
+&lt;li>El tutorial de Topcoder sobre &lt;a href="http://community.topcoder.com/tc?module=Static&amp;amp;d1=tutorials&amp;amp;d2=binarySearch" target="_blank" rel="noopener">Búsqueda Binaria&lt;/a>.&lt;/li>
+&lt;li>Pueden practicar también con los problemas de los mismos temas del año pasado en omegaUp: &lt;a href="https://omegaup.com/arena/IOI2013E1P2/practice/" target="_blank" rel="noopener">Problemset 1&lt;/a> y &lt;a href="https://omegaup.com/arena/IOI2013E1P3/practice/" target="_blank" rel="noopener">Problemset 3&lt;/a>.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;em>&lt;strong>Búsquedas, árboles y acotamiento y poda&lt;/strong>&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P5/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 5&lt;/a> (nivel introductorio)&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P6/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 6&lt;/a> (nivel retador)&lt;/li>
+&lt;li>&lt;a href="http://blog.omegaup.com/category/soluciones-preselectivo-14/etapa-1-14/examen-5-etapa-1-14/" target="_blank" rel="noopener">Soluciones&lt;/a> y más &lt;a href="http://blog.omegaup.com/category/soluciones-preselectivo-14/etapa-1-14/examen-6-etapa-1-14/" target="_blank" rel="noopener">soluciones&lt;/a>&lt;/li>
+&lt;li>Lecturas recomendadas:
+&lt;ol>
+&lt;li>Del libro de &lt;a href="https://omegaup.com/img/libropre3.pdf" target="_blank" rel="noopener">Problemas y Algoritmos de Luis Vargas&lt;/a>, la secciones 2 y 7 enteras y los capítulos 5, 14, 15 pueden ser de utilidad.&lt;/li>
+&lt;li>Del&lt;a href="http://pier.guillen.com.mx/" target="_blank" rel="noopener"> blog de Pier Paolo&lt;/a> pueden encontrar información relevante en las secciones 9 y 11. Repasen también los conceptos de búsqueda en amplitud y búsqueda en profundidad.&lt;/li>
+&lt;li>Pueden practicar con los &lt;a href="https://omegaup.com/arena/IOI2013E1P4/practice/" target="_blank" rel="noopener">Exámenes 4&lt;/a> y &lt;a href="https://omegaup.com/arena/IOI2013E1P5/practice/" target="_blank" rel="noopener">5&lt;/a> de la Etapa 1 del año pasado:  Las soluciones de algunos de esos problemas las pueden encontrar &lt;a href="http://blog.omegaup.com/category/soluciones-preselectivo/etapa-1/examen-4/" target="_blank" rel="noopener">aquí&lt;/a> y &lt;a href="http://blog.omegaup.com/category/soluciones-preselectivo/etapa-1/examen-5/" target="_blank" rel="noopener">aquí&lt;/a>.&lt;a href="http://blog.omegaup.com/category/soluciones-preselectivo-14/etapa-1-14/examen-6-etapa-1-14/" target="_blank" rel="noopener"> &lt;/a>&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;em>&lt;strong>Recursión y backtracking&lt;/strong>&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P7" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 7&lt;/a> (nivel introductorio)&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P8" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 8&lt;/a> (nivel retador)&lt;/li>
+&lt;li>&lt;a href="http://blog.omegaup.com/category/soluciones-preselectivo-14/etapa-1-14/examen-8-etapa-1-14/" target="_blank" rel="noopener">Soluciones&lt;/a>&lt;/li>
+&lt;li>Lecturas recomendadas:
+&lt;ol>
+&lt;li>Sección I completa del &lt;a href="https://omegaup.com/img/libropre3.pdf" target="_blank" rel="noopener">libro de Algoritmos de Luis Vargas (capítulos del 1 al 5)&lt;/a> más el capítulo 11.&lt;/li>
+&lt;li>Sección 9 completa del &lt;a href="http://pier.guillen.com.mx/" target="_blank" rel="noopener">blog de Pier Paolo&lt;/a> sobre algoritmos&lt;/li>
+&lt;li>Los &lt;a href="https://omegaup.com/arena/IOI2013E1P6/practice/" target="_blank" rel="noopener">exámenes 6&lt;/a> y &lt;a href="https://omegaup.com/arena/IOI2013E1P7/practice/" target="_blank" rel="noopener">7&lt;/a> de la preselección del 2013. Algunas soluciones a esos problemas se encuentran &lt;a href="http://blog.omegaup.com/category/soluciones-preselectivo/etapa-1/examen-7/" target="_blank" rel="noopener">en el blog&lt;/a>.&lt;/li>
+&lt;li>&lt;a href="http://community.topcoder.com/tc?module=Static&amp;amp;d1=tutorials&amp;amp;d2=recursionPt1" target="_blank" rel="noopener">An Introduction to Recursion, part 1&lt;/a> &amp;amp;&lt;a href="http://community.topcoder.com/tc?module=Static&amp;amp;d1=tutorials&amp;amp;d2=recursionPt2" target="_blank" rel="noopener"> part 2&lt;/a>.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;em>&lt;strong>Búsquedas con espacios de estados&lt;/strong>&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P9/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 9&lt;/a> (nivel introductorio)&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P10/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 10&lt;/a> (nivel retador)&lt;/li>
+&lt;li>Lecturas recomendadas:
+&lt;ol>
+&lt;li>Capítulo 19: Estructura de la Solución y Espacio de Búsqueda, &lt;a href="https://omegaup.com/img/libropre3.pdf" target="_blank" rel="noopener">del libro de Problemas y Algoritmos de Luis Vargas.&lt;/a>&lt;/li>
+&lt;li>También les recomendamos revisar y practicar con el &lt;a href="https://omegaup.com/arena/IOI2013E1P8/practice/" target="_blank" rel="noopener">problemset 8 del año anterior&lt;/a>. Algunas &lt;a href="http://blog.omegaup.com/category/soluciones-preselectivo/etapa-1/examen-8/" target="_blank" rel="noopener">soluciones a ese problemset&lt;/a> están en el blog.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;em>&lt;strong>Divide y vencerás&lt;/strong>&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P11/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 11&lt;/a> (nivel introductorio)&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P12/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 12&lt;/a> (nivel retador)&lt;/li>
+&lt;li>Lecturas recomendadas:
+&lt;ol>
+&lt;li>Capítulo 4 del libro de Problemas y Algoritmos.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;em>&lt;strong>Programación dinámica&lt;/strong>&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P13/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 13&lt;/a> (nivel introductorio)&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P14/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 14&lt;/a> (nivel medio)&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P15/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 15&lt;/a> (nivel retador)&lt;/li>
+&lt;li>&lt;a href="http://blog.omegaup.com/category/soluciones-preselectivo-14/etapa-1-14/examen-13/" target="_blank" rel="noopener">Soluciones&lt;/a>&lt;/li>
+&lt;li>Lecturas recomendadas:
+&lt;ul>
+&lt;li>Sección VI del libro de &lt;a href="https://omegaup.com/img/libropre3.pdf" target="_blank" rel="noopener">Problemas y Algoritmos.&lt;/a>&lt;/li>
+&lt;li>Tutorial de Topcoder: &lt;a href="http://help.topcoder.com/data-science/competing-in-algorithm-challenges/algorithm-tutorials/dynamic-programming-from-novice-to-advanced/" target="_blank" rel="noopener">Dynamic Programming&lt;/a>.&lt;/li>
+&lt;li>Programación Dinámica en el &lt;a href="http://pier.guillen.com.mx/" target="_blank" rel="noopener">blog de Pier Paolo&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;em>&lt;strong>Teoría de Grafos&lt;/strong>&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P16/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 16&lt;/a> (nivel introductorio)&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P17/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 17&lt;/a> (nivel retador)&lt;/li>
+&lt;li>Lecturas recomendadas:
+&lt;ol>
+&lt;li>Grafos en el &lt;a href="http://pier.guillen.com.mx/" target="_blank" rel="noopener">blog de Pier Paolo&lt;/a>.&lt;/li>
+&lt;li>Tutorial en Topcoder: &lt;a href="http://help.topcoder.com/data-science/competing-in-algorithm-challenges/algorithm-tutorials/introduction-to-graphs-and-their-data-structures-section-1/" target="_blank" rel="noopener">Introduction to graphs and their data structures&lt;/a>.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ul>
+&lt;p>**Etapa 2 **&lt;/p>
+&lt;p> Esta etapa consistió de entrenamientos presenciales y prácticas externas.&lt;/p>
+&lt;p>&lt;strong>Etapa 3&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E3E1/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 3 Examen 1&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E3E2/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 3 Examen 2&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E3E3/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 3 Examen 3&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E3E4/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 3 Examen 4&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E3E5/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 3 Examen 5&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Selectivo final&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014Etapa2Dia1/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 4 Examen 1&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014Etapa4Dia2/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 4 Examen 2&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014Etapa4Dia3/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 4 Examen 3&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014Etapa4Dia4/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 4 Examen 4&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014Etapa4Examen4/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 4 Examen 5&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014Etapa4Desempate/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 4 Desempate&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Material de lectura&lt;/strong>&lt;/p>
+&lt;p>Como parte del proceso, recomendamos a nuestros olímpicos revisar a profundidad los siguientes sitios con material de estudio y problemas para practicar:&lt;/p>
+&lt;ol>
+&lt;li>&lt;a href="http://people.ksp.sk/~misof/ioi-syllabus/ioi-syllabus-2009.pdf" target="_blank" rel="noopener">Temario oficial para la IOI.&lt;/a>&lt;/li>
+&lt;li>&lt;strong>El libro en español de Luis Vargas sobre &lt;a href="https://omegaup.com/img/libropre3.pdf" target="_blank" rel="noopener">Problemas y Algoritmos&lt;/a>.&lt;/strong> Básicamente el objetivo de la Etapa 1 es que dominen los contenidos de este libro, por lo que su lectura (y práctica) es casi obligatoria. Les recomendamos no esperar a que inicie el preselectivo para empezar a leerlo.&lt;/li>
+&lt;li>&lt;a href="http://www.ioinformatics.org/contest/books.shtml" target="_blank" rel="noopener">Libros recomendados para la IOI&lt;/a>, &lt;strong>a estas alturas su lectura es casi obligada&lt;/strong>si desean llegar y tener buenos resultados en la IOI:
+&lt;ol>
+&lt;li>&lt;a href="http://www.amazon.com/Introduction-Algorithms-Thomas-H-Cormen/dp/0262033844/ref=sr_1_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1401372229&amp;amp;sr=1-1&amp;amp;keywords=introduction&amp;#43;to&amp;#43;algorithms" target="_blank" rel="noopener">Introduction to Algorithms 3rd Edition, Cormen et. al.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://sites.google.com/site/stevenhalim/home" target="_blank" rel="noopener">Competitive Programming 1, 2 y 3, Steven &amp;amp; Felix Halim&lt;/a>. La versión electrónica del Libro 1 ya es gratis.&lt;/li>
+&lt;li>Otro libro introductorio: &lt;a href="http://www.amazon.com/Algorithms-Unlocked-Thomas-H-Cormen-ebook/dp/B00H4D1W94/ref=sr_1_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1401373463&amp;amp;sr=1-1&amp;amp;keywords=algorithms&amp;#43;unlocked" target="_blank" rel="noopener">Algorithms Unlocked&lt;/a> de Cormen. Más prosa y menos profundidad en las demostraciones que el Introduction al Algoritmos. Recomendado para quienes están en su primer año de concursos.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>&lt;a href="http://omegaup.com" target="_blank" rel="noopener">omegaUp&lt;/a> :)&lt;/li>
+&lt;li>El blog de Pier Paolo, sección Algoritmos: &lt;a href="http://pier.guillen.com.mx/" target="_blank" rel="noopener">http://pier.guillen.com.mx/&lt;/a>&lt;/li>
+&lt;li>El blog de Rodrigo Burgos: &lt;a href="http://algorithmmx.blogspot.com/" target="_blank" rel="noopener">http://algorithmmx.blogspot.com/&lt;/a>&lt;/li>
+&lt;li>Topcoder &lt;a href="http://community.topcoder.com/tc?module=Static&amp;amp;d1=tutorials&amp;amp;d2=alg_index" target="_blank" rel="noopener">Contenido educacional&lt;/a> (altamente &lt;strong>recomendado!&lt;/strong>)&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/preguntas/" target="_blank" rel="noopener">Preguntas omegaUp&lt;/a> -  Cualquier duda técnica que tengan, la pueden publica en nuestro sitio de preguntas. También pueden leer nuestras respuestas a preguntas pasadas.&lt;/li>
+&lt;li>&lt;a href="http://comscigate.com/Books/contests/icpc.pdf" target="_blank" rel="noopener">Guía rápida para el ACM ICPC&lt;/a>. Muy buena para repasar pero no todos los temas aplican para la IOI, chequen el temario primero.&lt;/li>
+&lt;/ol>
+&lt;p>Otros sitios para practicar&lt;/p>
+&lt;ol>
+&lt;li>&lt;a href="http://hsin.hr/coci/" target="_blank" rel="noopener">Croatian Open Competition in Informatics (COCI)&lt;/a>. Varios meses antes de la IOI, el comité de la Olimpiada de Croacia hace exámenes en línea. Los exámenes son de muy buen nivel y todos los problemas con sus soluciones están publicados en la misma página, les recomendamos darles un vistazo y practicar con todos ellos. Noten que los problemas de la COCI están en inglés y &lt;strong>no son traducidos al español&lt;/strong>, por lo que es bueno que estén preparados. Afortunadamente Google Translate típicamente hace un buen trabajo con estos enunciados.&lt;/li>
+&lt;li>&lt;a href="http://usaco.org/" target="_blank" rel="noopener">USA Computing Olympiad (USACO)&lt;/a>   Estos problemas sí son traducidos al español. Otro detalle importante sobre la USACO/COCI es que sus futuros competidores en la IOI también participan en estos concursos, por lo que les servirá para medir su nivel.&lt;/li>
+&lt;li>&lt;a href="http://cerberus.delos.com:791/usacogate" target="_blank" rel="noopener">USACO Training Gate&lt;/a>. Plataforma paso-a-paso para entrenar con problemas para la IOI. Incluye muy buenas explicaciones de la construcción de soluciones a varios problemas y tutoriales. &lt;a href="http://usacotraining.blogspot.com/p/introduction.html" target="_blank" rel="noopener">Este blog&lt;/a> tiene varias soluciones para el USACO training gate. Úsenlas sólo cuando estén completamente atorados en un problema, después de haberlo intentado.&lt;/li>
+&lt;li>Topcoder.com/tc&lt;/li>
+&lt;li>Codeforces: &lt;a href="http://codeforces.com/" target="_blank" rel="noopener">http://codeforces.com/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://uva.onlinejudge.org" target="_blank" rel="noopener">ACM UVa Online Judge&lt;/a>&lt;/li>
+&lt;li>Codechef: &lt;a href="http://www.codechef.com/" target="_blank" rel="noopener">http://www.codechef.com/&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;p>Esperamos que esta información le sirva a las próximas generaciones que participarán por un lugar en la Selección Mexicana de Informática.&lt;/p></description></item></channel></rss>

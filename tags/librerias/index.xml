@@ -1,3 +1,51 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Librerias on omegaUp blog</title><link>https://blog.omegaup.com/tags/librerias/</link><description>Recent content in Librerias on omegaUp blog</description><generator>Hugo</generator><language>es-mx</language><lastBuildDate>Mon, 07 Jul 2014 05:37:40 +0000</lastBuildDate><atom:link href="https://blog.omegaup.com/tags/librerias/index.xml" rel="self" type="application/rss+xml"/><item><title>Trucos para ser más cool</title><link>https://blog.omegaup.com/trucos-cool/</link><pubDate>Mon, 07 Jul 2014 05:37:40 +0000</pubDate><guid>https://blog.omegaup.com/trucos-cool/</guid><description>&lt;p>Después de un rato de investigación y experimentación, por fin me tomo el tiempo para escribir este post y presentarles algunos trucos que, considero, podrían ayudarles a simplificarse la vida cuando programen y, obviamente, a ser mucho más cool.&lt;/p>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>omegaUp blog – Librerias</title><link>https://blog.omegaup.com/tags/librerias/</link><description>Recent content in Librerias on omegaUp blog</description><generator>Hugo -- gohugo.io</generator><language>es-MX</language><lastBuildDate>Mon, 07 Jul 2014 05:37:40 +0000</lastBuildDate><atom:link href="https://blog.omegaup.com/tags/librerias/index.xml" rel="self" type="application/rss+xml"/><item><title>Trucos para ser más cool</title><link>https://blog.omegaup.com/posts/trucos-cool/</link><pubDate>Mon, 07 Jul 2014 05:37:40 +0000</pubDate><guid>https://blog.omegaup.com/posts/trucos-cool/</guid><description>
+&lt;p>Después de un rato de investigación y experimentación, por fin me tomo el tiempo para escribir este post y presentarles algunos trucos que, considero, podrían ayudarles a simplificarse la vida cuando programen y, obviamente, a ser mucho más cool.&lt;/p>
 &lt;p>&lt;strong>&lt;em>¿Cansado de importar librerías como asíatico en TopCoder? ¡Aquí está la solución!&lt;/em>&lt;/strong>&lt;/p>
-&lt;p>Muchas veces es nefasto encontrar varios (sino es que miles) errores al compilar a causa de librerías que hemos olvidado incluir. Existe una librería que, al incluirla, agrega todas las librerías estándar de C++ a nuestro código, ¡incluso las de la STL!&lt;/p></description></item></channel></rss>
+&lt;p>Muchas veces es nefasto encontrar varios (sino es que miles) errores al compilar a causa de librerías que hemos olvidado incluir. Existe una librería que, al incluirla, agrega todas las librerías estándar de C++ a nuestro código, ¡incluso las de la STL!&lt;/p>
+&lt;p>&lt;em>¿Que clase de brujería es esta?&lt;/em> Seguramente se estarán preguntando. Muy sencillo, solo necesitan escribir la siguiente línea de codigo: &lt;code>#include &amp;lt;bits/stdc++.h&amp;gt;&lt;/code>&lt;/p>
+&lt;p>_(Actualización) _Gracias a el comentario de lhchavez por remarcar el hecho de que esta línea funciona únicamente con el compilador &lt;em>gcc&lt;/em>. Pese a esto, gran parte de los evaluadores actualmente usan &lt;em>gcc,&lt;/em> por lo que podemos confiar en su uso, al menos en omegaUp. En caso de que la librería anterior no siga siendo soportada por omegaUp, les informaremos oportunamente.&lt;/p>
+&lt;p>&lt;em>&lt;strong>¡Mi mami dice que cin/cout es malo y no debo juntarme con ellos!&lt;/strong>&lt;/em>&lt;/p>
+&lt;p>Si no me equivoco, durante mucho tiempo se ha tratado a scanf y printf como el pan de cada día para la entrada y salida en los concursos de programación, al menos en México. Mientras tanto, se satanizó a cin y cout por ser lentos (o especiales, como dice mi mami) para realizar entrada y salida eficiente.&lt;/p>
+&lt;p>Sin embargo esto siempre fue un mito, los métodos cin/cout son incluso más eficientes que scanf/printf, solo había que descubrir el por que no lo notamos.&lt;/p>
+&lt;p>Resulta que cin/cout son muy buenos amigos de scanf/printf. Como son tan buenos amigos, al realizar la lectura y salida no querían alejarse demasiado, por lo que cin/cout tenía que sincronizarse para estar siempre a la par de scanf/printf.&lt;/p>
+&lt;p>Para no hacer el cuento largo, hay una forma de desactivar la opción de sincronización entre cin/cout y scanf/printf, solo es necesario incluir al inicio del main:&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c++" data-lang="c++">&lt;span style="display:flex;">&lt;span>std&lt;span style="color:#f92672">::&lt;/span>cin.tie(&lt;span style="color:#66d9ef">nullptr&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>std&lt;span style="color:#f92672">::&lt;/span>ios_base&lt;span style="color:#f92672">::&lt;/span>sync_with_stdio(false);&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>Con esto podemos usar cin y cout sin temor a obtener TLE por lectura lenta, ¡Yaaay!&lt;/p>
+&lt;p>&lt;em>&lt;strong>¿Y eso es todo? ¿Ya puedo disfrutar de cin y cout?&lt;/strong>&lt;/em>&lt;/p>
+&lt;p>Casi. Antes de cantar victoria hay un último detalle para evitar los TLE. Gracias a un último experimento, encontramos que cuando se presentaban outputs muy grandes, cin/cout optimizado seguía lanzando TLE cuando scanf/printf no.&lt;/p>
+&lt;p>¡Tranquilos! También es posible evitar este error. El problema se presentaba porque comúnmente usaríamos lo siguiente: &lt;code>cout &amp;lt;&amp;lt; numero &amp;lt;&amp;lt; endl&lt;/code>. Sucede que &lt;em>endl&lt;/em>, además de imprimir un salto de línea, hace &lt;em>flush&lt;/em> en el flujo de salida, lo cual es considerablemente costoso al imprimir muchas líneas y entorpece el rendimiento.&lt;/p>
+&lt;p>Para que la salida sea eficiente, recomendamos que uses el salto de línea literal &lt;code>&amp;quot;\n&amp;quot;&lt;/code>.&lt;/p>
+&lt;p>Con los dos trucos anteriores, la eficiencia de cin/cout mejora generalmente un &lt;em>&lt;strong>5-10%&lt;/strong>&lt;/em> los resultados obtenidos por scanf/printf. Bastante cool, ¿no?&lt;/p>
+&lt;p>Aunque el objetivo original no es ganar unas cuantas centésimas de segundo en eficiencia, sino dar la oportunidad a aquellos olímpicos que no manejan scanf/printf para seguir usando cin/cout sin enfrentarse a más complicaciones.&lt;/p>
+&lt;p>Finalmente les dejó un ejemplo de cómo usar todo lo anterior en un código de C++. Espero que algo de esto les pueda ayudar en el futuro. Les deseo lo mejor :)&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c++" data-lang="c++">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#include&lt;/span> &lt;span style="color:#75715e">&amp;lt;bits/stdc++.h&amp;gt;&lt;/span>&lt;span style="color:#75715e">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#define optimizar_io do { std::ios_base::sync_with_stdio(false); std::cin.tie(nullptr); } while(false)`
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>(){
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> optimizar_io;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">int&lt;/span> a, b;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> std&lt;span style="color:#f92672">::&lt;/span>cin &lt;span style="color:#f92672">&amp;gt;&amp;gt;&lt;/span> a &lt;span style="color:#f92672">&amp;gt;&amp;gt;&lt;/span> b;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> std&lt;span style="color:#f92672">::&lt;/span>cout &lt;span style="color:#f92672">&amp;lt;&amp;lt;&lt;/span> a &lt;span style="color:#f92672">+&lt;/span> b &lt;span style="color:#f92672">&amp;lt;&amp;lt;&lt;/span> &lt;span style="color:#e6db74">&amp;#34;&lt;/span>&lt;span style="color:#ae81ff">\n&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div></description></item></channel></rss>

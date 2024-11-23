@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Badges on omegaUp blog</title><link>https://blog.omegaup.com/tags/badges/</link><description>Recent content in Badges on omegaUp blog</description><generator>Hugo</generator><language>es-mx</language><lastBuildDate>Tue, 08 Oct 2019 14:54:10 +0000</lastBuildDate><atom:link href="https://blog.omegaup.com/tags/badges/index.xml" rel="self" type="application/rss+xml"/><item><title>Guía para la Propuesta de Insignias en omegaUp</title><link>https://blog.omegaup.com/guia-para-la-propuesta-de-insignias-en-omegaup/</link><pubDate>Tue, 08 Oct 2019 14:54:10 +0000</pubDate><guid>https://blog.omegaup.com/guia-para-la-propuesta-de-insignias-en-omegaup/</guid><description>&lt;p>Tú también puedes proponer nuevas insignias para la plataforma, simplemente debes tomar en cuenta las consideraciones que se detallan a continuación y abrir un issue en nuestro repositorio en Github haciendo clic &lt;a href="https://github.com/omegaup/omegaup/issues/new?assignees=&amp;amp;labels=&amp;amp;template=propuesta-para-nueva-insignia.md&amp;amp;title=%5BBadge+Proposal%5D+Nombre+de+la+Insignia">aquí&lt;/a>.&lt;/p>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>omegaUp blog – Badges</title><link>https://blog.omegaup.com/tags/badges/</link><description>Recent content in Badges on omegaUp blog</description><generator>Hugo -- gohugo.io</generator><language>es-MX</language><lastBuildDate>Tue, 08 Oct 2019 14:54:10 +0000</lastBuildDate><atom:link href="https://blog.omegaup.com/tags/badges/index.xml" rel="self" type="application/rss+xml"/><item><title>Guía para la Propuesta de Insignias en omegaUp</title><link>https://blog.omegaup.com/posts/guia-para-la-propuesta-de-insignias-en-omegaup/</link><pubDate>Tue, 08 Oct 2019 14:54:10 +0000</pubDate><guid>https://blog.omegaup.com/posts/guia-para-la-propuesta-de-insignias-en-omegaup/</guid><description>
+&lt;p>Tú también puedes proponer nuevas insignias para la plataforma, simplemente debes tomar en cuenta las consideraciones que se detallan a continuación y abrir un issue en nuestro repositorio en Github haciendo clic &lt;a href="https://github.com/omegaup/omegaup/issues/new?assignees=&amp;amp;labels=&amp;amp;template=propuesta-para-nueva-insignia.md&amp;amp;title=%5BBadge&amp;#43;Proposal%5D&amp;#43;Nombre&amp;#43;de&amp;#43;la&amp;#43;Insignia" target="_blank" rel="noopener">aquí&lt;/a>.&lt;/p>
 &lt;p>&lt;strong>Consideraciones:&lt;/strong>&lt;/p>
 &lt;ul>
 &lt;li>Las insignias en omegaUp son una manera de reconocer logros pequeños pero significativos, conseguidos por los usuarios al usar la plataforma. En dicho sentido, no está permitido proponer insignias &lt;em>ad-hoc&lt;/em>, cuya posibilidad de ser conseguidas involucre aspectos que van más allá de la habilidad del estudiante o el uso que éste le da a la plataforma. Por ejemplo:
@@ -8,4 +9,26 @@
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;p> &lt;/p></description></item></channel></rss>
+&lt;p> &lt;/p>
+&lt;ul>
+&lt;li>El nombre de una insignia está limitado a &lt;strong>50 caracteres&lt;/strong> y debe ser pensado como una característica y no como una acción del usuario. Por ejemplo, si lo que se desea proponer es una insignia para un usuario que ha enviado feedback sobre un problema, el nombre de dicha insignia debe ser: “Proveedor de Feedback”, en lugar de “Proveer Feedback” o “Haber provisto de Feedback”.&lt;/li>
+&lt;/ul>
+&lt;p> &lt;/p>
+&lt;ul>
+&lt;li>La descripción de una insignia debe responder a la pregunta: ¿Qué debe haber realizado un usuario para recibir esta insignia?, y debe seguir el siguiente formato: “El usuario realizó [inserte la acción que realizó]”.&lt;/li>
+&lt;/ul>
+&lt;p> &lt;/p>
+&lt;ul>
+&lt;li>Una insignia puede tener un ícono personalizado proporcionado por la persona que la propone o implementa. Los íconos personalizados tienen ciertas restricciones, que son:
+&lt;ul>
+&lt;li>Debe ser un archivo .svg&lt;/li>
+&lt;li>Las dimensiones del ícono son 600x600 píxeles.&lt;/li>
+&lt;li>El archivo debe tener un peso máximo de 15kB.&lt;/li>
+&lt;li>El ícono debe mantener siempre la forma de la insignia por defecto, lo único que puede ser ajustado son los colores y el relleno de la misma. Por lo tanto, en caso de ser requerido, el ícono personalizado puede ser creado a partir de una modificación del ícono por defecto, el cual puede ser descargado del &lt;a href="https://raw.githubusercontent.com/omegaup/omegaup/master/frontend/badges/default_icon.svg" target="_blank" rel="noopener">siguiente enlace&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p> &lt;/p>
+&lt;ul>
+&lt;li>El usuario que propone una insignia puede indicar también cómo debería ser la consulta en la base de datos, para que ésta sea asignada e incluso la prueba unitaria que se puede realizar. De esta manera podrá facilitar el trabajo de la persona que se encargue de implementar la misma.&lt;/li>
+&lt;/ul></description></item></channel></rss>

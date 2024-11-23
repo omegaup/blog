@@ -1,3 +1,49 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jorge on omegaUp blog</title><link>https://blog.omegaup.com/tags/jorge/</link><description>Recent content in Jorge on omegaUp blog</description><generator>Hugo</generator><language>es-mx</language><lastBuildDate>Sun, 06 Oct 2013 22:56:54 +0000</lastBuildDate><atom:link href="https://blog.omegaup.com/tags/jorge/index.xml" rel="self" type="application/rss+xml"/><item><title>Solución a "Mapas de bits"</title><link>https://blog.omegaup.com/solucion-a-mapas-de-bits/</link><pubDate>Sun, 06 Oct 2013 22:56:54 +0000</pubDate><guid>https://blog.omegaup.com/solucion-a-mapas-de-bits/</guid><description>&lt;p>&lt;strong>Concurso:&lt;/strong> &lt;a href="https://omegaup.com/arena/IOI2014E1P12/#problems/Mapas-de-bits">Preselectivo para la IOI 2014, Etapa 1, Problemset 12&lt;/a> &lt;strong>Autor:&lt;/strong> Jorge Alberto González Martínez &lt;strong>Fuente&lt;/strong>: Jorge Alberto González Martínez&lt;/p>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>omegaUp blog – Jorge</title><link>https://blog.omegaup.com/tags/jorge/</link><description>Recent content in Jorge on omegaUp blog</description><generator>Hugo -- gohugo.io</generator><language>es-MX</language><lastBuildDate>Sun, 06 Oct 2013 22:56:54 +0000</lastBuildDate><atom:link href="https://blog.omegaup.com/tags/jorge/index.xml" rel="self" type="application/rss+xml"/><item><title>Solución a "Mapas de bits"</title><link>https://blog.omegaup.com/posts/solucion-a-mapas-de-bits/</link><pubDate>Sun, 06 Oct 2013 22:56:54 +0000</pubDate><guid>https://blog.omegaup.com/posts/solucion-a-mapas-de-bits/</guid><description>
+&lt;p>&lt;strong>Concurso:&lt;/strong> &lt;a href="https://omegaup.com/arena/IOI2014E1P12/#problems/Mapas-de-bits" target="_blank" rel="noopener">Preselectivo para la IOI 2014, Etapa 1, Problemset 12&lt;/a> &lt;strong>Autor:&lt;/strong> Jorge Alberto González Martínez &lt;strong>Fuente&lt;/strong>: Jorge Alberto González Martínez&lt;/p>
 &lt;p>En el problema se describen dos formas de representar un mapa de bits.&lt;/p>
-&lt;p>La forma bidimensional es simplemente utilizar una matriz para representar los bits. La forma por descomposición consiste en agrupar los bits similares y solo escribir el valor de los bits similares. En caso de que no sean similares todos los bits en un mapa de bits dado, se procede a dividir en cuatro secciones, imprimir la letra D y procesar cada uno de los cuartos de la misma manera, tal como se lee en la descripción del problema.&lt;/p></description></item></channel></rss>
+&lt;p>La forma bidimensional es simplemente utilizar una matriz para representar los bits. La forma por descomposición consiste en agrupar los bits similares y solo escribir el valor de los bits similares. En caso de que no sean similares todos los bits en un mapa de bits dado, se procede a dividir en cuatro secciones, imprimir la letra D y procesar cada uno de los cuartos de la misma manera, tal como se lee en la descripción del problema.&lt;/p>
+&lt;p>La solución a este problema consistía en programar el método descrito. Este método inherentemente está basado en la técnica de divide y vencerás.&lt;/p>
+&lt;p>A continuación, un pseudo-código que muestra la forma de llevar a cabo la transformación de un mapa de bits bidimensional a la forma reducida:&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-cpp" data-lang="cpp">&lt;span style="display:flex;">&lt;span> ReduceMapa(mapaDeBits)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Si todos los elementos en mapaDeBits son iguales
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Imprime el valor y termina
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Si no
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Imprime D
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ReduceMapa(mapaDeBits.superiorIzquierdo)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ReduceMapa(mapaDeBits.superiorDerecho)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ReduceMapa(mapaDeBits.inferiorIzquierdo)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ReduceMapa(mapaDeBits.inferiorDerecho)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>El método para hacer la transformación inversa es muy parecido, sólo que para imprimir la equivalencia hay que comenzar con un mapa de bits bidimensional que nos sirva de variable auxiliar para hacer la conversión. Esta variable auxiliar se puede declarar de manera global y, cuando el método recursivo termine, simplemente imprimir su contenido:&lt;/p>
+&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-cpp" data-lang="cpp">&lt;span style="display:flex;">&lt;span> AmplificaMapa(mapaDeBits, sección)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Si mapaDeBits comienza con un valor
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Rellenar sección del mapa bidimensional con el valor
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Si no
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> AmplificaMapa(mapaDeBits.removerPrimerElemento, sección.superiorIzquierda)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> AmplificaMapa(mapaDeBits.removerPrimerElemento, sección.superiorDerecha)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> AmplificaMapa(mapaDeBits.removerPrimerElemento, sección.inferiorIzquierda)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> AmplificaMapa(mapaDeBits.removerPrimerElemento, sección.inferiorDerecha)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+&lt;button
+class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
+title="Copy code"
+>
+&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>La primera vez que se llama a la función AmplificaMapa se debe entregar la representación de la forma por descomposición del mapa de bits en la variable mapaDeBits y la sección que se entrega inicialmente es todo el mapa de bits. Esto puede ser manejado por filas y columnas.&lt;/p>
+&lt;p>A continuación se muestra una implementación en C++ que resuelve el problema. Nótese cómo se maneja la sección sobre la que se está trabajando con cuatro variables: &lt;code>tl_row&lt;/code>, &lt;code>tl_col&lt;/code>, &lt;code>br_row&lt;/code>, &lt;code>br_col&lt;/code>. El nombre de las variables proviene de top-left row, top-left colum, bottom-right row y bottom-right colum respectivamente. Representan los índices (fila,columa) de las esquinas superior izquierda e inferior derecha.&lt;/p>
+&lt;script src="https://gist.github.com/OlimpiadaMexicanadeInformatica/6860210.js">&lt;/script></description></item></channel></rss>
