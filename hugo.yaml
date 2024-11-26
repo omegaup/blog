@@ -15,3 +15,5 @@ params:
       link: /
       width: 70
       height: 36
+
+defaultContentLanguage: es

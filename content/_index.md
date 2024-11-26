@@ -1,20 +1,22 @@
 ---
 title: Blog 
-type: doc
+sidebar:
+  exclude: true
+toc: false
 ---
 ![omegaUp](/logo/omegaUp.png)
 
+{{< callout type="info" emoji="Ω" >}}
+  **Incrementando el talento de Ingeniería de Software en América Latina.**
+{{< /callout >}}
 
-This is the landing page.
-
-## Explore
+## Explora
 
 {{< cards cols="2" >}}
   {{< card link="posts" title="Entradas del blog" icon="book-open" >}}
   {{< card link="https://www.omegaup.com/" title="omegaUp.com" icon="user" >}}
 {{< /cards >}}
 
-## Documentation
+## Documentación
 
-For more information, visit [omegaUp.org](https://www.omegaup.org).
-
+Para obtener más información, visite [omegaUp.org](https://www.omegaup.org).
