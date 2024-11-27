@@ -20,5 +20,3 @@ toc: false
 ## Documentación
 
 Para obtener más información, visite [omegaUp.org](https://www.omegaup.org).
-
-
