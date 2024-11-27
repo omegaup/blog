@@ -1,11 +1,13 @@
 ---
-title: Blog omegaUp
-type: doc
+title: Blog 
+sidebar:
+  exclude: true
+toc: false
 ---
+![omegaUp](/logo/omegaUp.png)
 
-
-{{< callout type="info" >}}
-  Incrementando el talento de Ingeniería de Software en América Latina.
+{{< callout type="info" emoji="Ω" >}}
+  **Incrementando el talento de Ingeniería de Software en América Latina.**
 {{< /callout >}}
 
 ## Explora
@@ -18,3 +20,5 @@ type: doc
 ## Documentación
 
 Para obtener más información, visite [omegaUp.org](https://www.omegaup.org).
+
+
