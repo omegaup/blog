@@ -1,4 +1,5 @@
 /bin
 /blog2md
 /public
+/resources
 .hugo_build.lock

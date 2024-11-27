@@ -1,9 +1,14 @@
 ---
-title: Blog omegaUp
-type: doc
+title: Blog 
+sidebar:
+  exclude: true
+toc: false
 ---
+![omegaUp](/logo/omegaUp.png)
 
-Esta es la página de destino.
+{{< callout type="info" emoji="Ω" >}}
+  **Incrementando el talento de Ingeniería de Software en América Latina.**
+{{< /callout >}}
 
 ## Explora
 
