@@ -1,11 +1,11 @@
 ---
-title: Blog omegaUp
+title: Blog 
 sidebar:
   exclude: true
 toc: false
 ---
+![omegaUp](/logo/omegaUp.png/)
 
----
 {{< callout type="info" >}}
   Incrementando el talento de Ingeniería de Software en América Latina.
 {{< /callout >}}
