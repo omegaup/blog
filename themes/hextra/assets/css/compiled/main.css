@@ -1282,11 +1282,7 @@ video {
 }
 .hx-text-slate-900 {
   --tw-text-opacity: 1;
-<<<<<<< HEAD
-  color: rgb(15 23 42 / var(--tw-text-opacity));
-=======
   color: rgb(85 136 221 / var(--tw-text-opacity));
->>>>>>> origin/main
 }
 .hx-text-transparent {
   color: transparent;
