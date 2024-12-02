@@ -5,4 +5,15 @@ description: Incrementando el talento de Ingeniería de Software en América Lat
 
 theme: hextra
 
+params:
+  navbar:
+    displayTitle: false
+    displayLogo: true
+    logo:
+      path: logo/ΩUp.png
+      dark: logo/ΩUp-dark.png
+      link: /
+      width: 70
+      height: 36
+
 defaultContentLanguage: es

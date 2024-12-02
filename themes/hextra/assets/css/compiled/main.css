@@ -1451,7 +1451,6 @@ video {
 .content :where(h2):not(:where([class~=not-prose],[class~=not-prose] *)):is(html[class~="dark"] *) {
   border-color: hsl(var(--primary-hue) var(--primary-saturation) calc(var(--primary-lightness) + calc(calc(100% - var(--primary-lightness)) / 50) * 44) / 0.1);
   --tw-text-opacity: 1;
-
 }
 @media (prefers-contrast: more) {
 
