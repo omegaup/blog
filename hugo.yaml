@@ -16,6 +16,14 @@ params:
       width: 70
       height: 36
 
+  footer:
+    displayCopyright: true
+    displayPoweredBy: false
+
+  editURL:
+    enable: false
+    base: "https://github.com/omegaup/blog/content"
+
 defaultContentLanguage: es
 languages:
   es:
