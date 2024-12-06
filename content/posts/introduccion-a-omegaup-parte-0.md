@@ -56,4 +56,4 @@ Como puedes darte cuenta, varios de los status no son mutuamente exclusivos. Sie
 
 Si crees que tu programa está resolviendo bien el problema, deténte a pensar por qué podría estar mal. El 99% de las veces, el problema está bien (sobre todo si hay alguien más que ya lo logró resolver), pero si tienes evidencia que hay algún error en el problema (por ejemplo, si dice la descripción que no habrán números mayores a 1000, y en tu programa validas esto y haces que te devuelva un veredicto como MLE), por favor pide una clarificación con esta información y tu ID de envío para que los jueces lo revisen.
 
-Ahora sí, estás listo para continuar con la [parte 1](http://blog.omegaup.com/2013/10/introduccion-a-omegaup/ "parte 1") del tutorial de omegaUp.
+Ahora sí, estás listo para continuar con la [parte 1](/posts/introduccion-a-omegaup-parte-1/ "parte 1") del tutorial de omegaUp.

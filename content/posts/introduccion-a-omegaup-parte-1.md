@@ -11,7 +11,7 @@ Estamos iniciando una serie de 10 posts para ayudar a nuestros nuevos usuarios a
 
 <!--more-->
 
-En este post inicial voy a cubrir los aspectos más básicos de la resolución de problemas. Vamos a tomar como base el problema clásico [sumas](https://omegaup.com/arena/problem/sumas2#).
+En este post inicial voy a cubrir los aspectos más básicos de la resolución de problemas. Vamos a tomar como base el problema clásico [sumas](https://omegaup.com/arena/problem/sumas/).
 
 **Enunciado del problema**
 
@@ -61,7 +61,7 @@ Si quieres saber más sobre los tipos de variables y sus límites, te recomiendo
 
 Aquí enlisto varias fuentes de muy buena información sobre cómo resolver problemas y diseñar algoritmos para concursos de programación en general.  Los siguientes tutoriales estarán basados en estas fuentes, les recomiendo mucho darles una revisada:
 
-*   [Problemas y Algoritmos, Luis Vargas.](https://omegaup.com/img/libropre3.pdf)
+*   [Problemas y Algoritmos, Luis Vargas.](https://drive.google.com/file/d/1PLOO3wLCnOVC_cODwiofahsRGeyoJeCU/view)
 *   [El blog de Pier Paolo sobre Algoritmos](http://pier.guillen.com.mx/)
 *   [TopCoder tutorials](http://community.topcoder.com/tc?module=Static&d1=tutorials&d2=alg_index). En particular les recomiendo empezar por [The Importance of Algorithms](http://community.topcoder.com/tc?module=Static&d1=tutorials&d2=importance_of_algorithms) y [How to find a solution.](http://community.topcoder.com/tc?module=Static&d1=tutorials&d2=findSolution)
 *   [El blog de Rodrigo Burgos (nivel avanzado)](http://algorithmmx.blogspot.com/)
@@ -74,4 +74,6 @@ Aquí hay algunos otros problemas con los que puedes practicar para iniciarte en
 2.  [Bisiesto](https://omegaup.com/arena/problem/bisiesto). [Solución](https://gist.github.com/joemmanuel/6596821).
 3.  [Patos](https://omegaup.com/arena/problem/patos). [Solución](https://gist.github.com/joemmanuel/6596898).
 
-Tienes otros tips o algunos tutoriales/soluciones que quieras compartir? Escríbelos en los comentarios.
+Tienes otro tip o algún tutorial/solución que quieras compartir? Escríbelos a [hello@omegaup.com](mailto:hello@omegaup.org?subject=Comparto%20tip%20ó%20solución "Escríbenos a hello@omegaup.com")
+
+Ahora sí, estás listo para continuar con la [parte 2](/posts/introduccion-a-omegaup-parte-2-problemas-basicos/ "parte 2") del tutorial de omegaUp.

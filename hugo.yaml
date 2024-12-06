@@ -5,6 +5,31 @@ description: Incrementando el talento de Ingeniería de Software en América Lat
 
 theme: hextra
 
+markup:
+  # allow raw html
+  goldmark:
+    renderer:
+      unsafe: true
+
+  # enable hextra syntax highlight
+  highlight:
+    noClasses: false
+
+menu:
+  main:
+    - name: Blog
+      pageRef: /posts
+      weight: 1
+    - name: Buscar
+      weight: 10
+      params:
+        type: search
+    - name: GitHub
+      weight: 11
+      url: "https://github.com/omegaup"
+      params:
+        icon: github
+
 params:
   navbar:
     displayTitle: false
@@ -15,6 +40,14 @@ params:
       link: /
       width: 70
       height: 36
+
+  footer:
+    displayPoweredBy: false
+    displayCopyright: true
+
+  editURL:
+    enable: false
+    base: "https://github.com/omegaup/blog/content"
 
 defaultContentLanguage: es
 languages:
