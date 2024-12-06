@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>omegaUp blog – Examen 5</title><link>https://blog.omegaup.com/tags/examen-5/</link><description>Recent content in Examen 5 on omegaUp blog</description><generator>Hugo -- gohugo.io</generator><language>es-MX</language><lastBuildDate>Sat, 14 Sep 2013 05:21:32 +0000</lastBuildDate><atom:link href="https://blog.omegaup.com/tags/examen-5/index.xml" rel="self" type="application/rss+xml"/><item><title>Solución a "Comesolo"</title><link>https://blog.omegaup.com/posts/solucion-a-comesolo/</link><pubDate>Sat, 14 Sep 2013 05:21:32 +0000</pubDate><guid>https://blog.omegaup.com/posts/solucion-a-comesolo/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>omegaUp blog – Examen 5</title><link>https://blog.omegaup.com/tags/examen-5/</link><description>Recent content in Examen 5 on omegaUp blog</description><generator>Hugo -- gohugo.io</generator><language>es</language><lastBuildDate>Sat, 14 Sep 2013 05:21:32 +0000</lastBuildDate><atom:link href="https://blog.omegaup.com/tags/examen-5/index.xml" rel="self" type="application/rss+xml"/><item><title>Solución a "Comesolo"</title><link>https://blog.omegaup.com/posts/solucion-a-comesolo/</link><pubDate>Sat, 14 Sep 2013 05:21:32 +0000</pubDate><guid>https://blog.omegaup.com/posts/solucion-a-comesolo/</guid><description>
 &lt;p>&lt;strong>Concurso:&lt;/strong> &lt;a href="https://omegaup.com/arena/problem/comesolo" target="_blank" rel="noopener">Preselectivo para la IOI 2014, Etapa 1, Problemset 8&lt;/a> &lt;strong>Autor:&lt;/strong> &lt;a href="http://lhchavez.com" target="_blank" rel="noopener">lhchavez&lt;/a> &lt;strong>Fuente&lt;/strong>: Félix&lt;/p>
 &lt;p>Este problema es especial porque es el primero en omegaUp de solo salida! Usualmente lo que debes esperar cuando te enfrentes con uno de esos problemas es que sea un problema NP que no tiene una solución rápida, y usualmente te pedirán que te aproximes lo más posible a la solución óptima. Esto significa que te vas a tener que valer de técnicas ad-hoc y heurísticas para sacar puntos.&lt;/p>
 &lt;p>La solución del problema es bastante sencilla de explicar: haz una búsqueda en profundidad intentando todos los posibles movimientos por fuerza bruta hasta que te salga una solución aceptable e imprímela. El problema es que esta estrategia es $latex O(n!)$, y como $latex n$ puede valer hasta 30x30, puedes esperar que el programa corra varios milenios antes de encontrar la solución óptima. Hay tres trucos (en orden de importancia) para obtener una solución decente en un tiempo razonable:&lt;/p>
@@ -109,7 +109,7 @@
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
-title="Copy code"
+title="Copiar código"
 >
 &lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
 &lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
@@ -360,7 +360,7 @@ sea maxima siempre y cuando &lt;video autoplay muted loop>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">173&lt;/span> }&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
-title="Copy code"
+title="Copiar código"
 >
 &lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
 &lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>

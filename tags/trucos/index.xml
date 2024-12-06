@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>omegaUp blog – Trucos</title><link>https://blog.omegaup.com/tags/trucos/</link><description>Recent content in Trucos on omegaUp blog</description><generator>Hugo -- gohugo.io</generator><language>es-MX</language><lastBuildDate>Mon, 07 Jul 2014 05:37:40 +0000</lastBuildDate><atom:link href="https://blog.omegaup.com/tags/trucos/index.xml" rel="self" type="application/rss+xml"/><item><title>Trucos para ser más cool</title><link>https://blog.omegaup.com/posts/trucos-cool/</link><pubDate>Mon, 07 Jul 2014 05:37:40 +0000</pubDate><guid>https://blog.omegaup.com/posts/trucos-cool/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>omegaUp blog – Trucos</title><link>https://blog.omegaup.com/tags/trucos/</link><description>Recent content in Trucos on omegaUp blog</description><generator>Hugo -- gohugo.io</generator><language>es</language><lastBuildDate>Mon, 07 Jul 2014 05:37:40 +0000</lastBuildDate><atom:link href="https://blog.omegaup.com/tags/trucos/index.xml" rel="self" type="application/rss+xml"/><item><title>Trucos para ser más cool</title><link>https://blog.omegaup.com/posts/trucos-cool/</link><pubDate>Mon, 07 Jul 2014 05:37:40 +0000</pubDate><guid>https://blog.omegaup.com/posts/trucos-cool/</guid><description>
 &lt;p>Después de un rato de investigación y experimentación, por fin me tomo el tiempo para escribir este post y presentarles algunos trucos que, considero, podrían ayudarles a simplificarse la vida cuando programen y, obviamente, a ser mucho más cool.&lt;/p>
 &lt;p>&lt;strong>&lt;em>¿Cansado de importar librerías como asíatico en TopCoder? ¡Aquí está la solución!&lt;/em>&lt;/strong>&lt;/p>
 &lt;p>Muchas veces es nefasto encontrar varios (sino es que miles) errores al compilar a causa de librerías que hemos olvidado incluir. Existe una librería que, al incluirla, agrega todas las librerías estándar de C++ a nuestro código, ¡incluso las de la STL!&lt;/p>
@@ -14,7 +14,7 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>std&lt;span style="color:#f92672">::&lt;/span>ios_base&lt;span style="color:#f92672">::&lt;/span>sync_with_stdio(false);&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
-title="Copy code"
+title="Copiar código"
 >
 &lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
 &lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
@@ -42,7 +42,7 @@ title="Copy code"
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
-title="Copy code"
+title="Copiar código"
 >
 &lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
 &lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>

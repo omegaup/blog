@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>omegaUp blog – Entradas del blog omegaUp</title><link>https://blog.omegaup.com/posts/</link><description>Recent content in Entradas del blog omegaUp on omegaUp blog</description><generator>Hugo -- gohugo.io</generator><language>es-MX</language><lastBuildDate>Mon, 19 Aug 2024 23:12:06 +0000</lastBuildDate><atom:link href="https://blog.omegaup.com/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Revisión de código en envíos de cursos</title><link>https://blog.omegaup.com/posts/revision-codigo-envios-cursos/</link><pubDate>Mon, 19 Aug 2024 23:12:06 +0000</pubDate><guid>https://blog.omegaup.com/posts/revision-codigo-envios-cursos/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>omegaUp blog – Entradas del blog omegaUp</title><link>https://blog.omegaup.com/posts/</link><description>Recent content in Entradas del blog omegaUp on omegaUp blog</description><generator>Hugo -- gohugo.io</generator><language>es</language><lastBuildDate>Mon, 19 Aug 2024 23:12:06 +0000</lastBuildDate><atom:link href="https://blog.omegaup.com/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Revisión de código en envíos de cursos</title><link>https://blog.omegaup.com/posts/revision-codigo-envios-cursos/</link><pubDate>Mon, 19 Aug 2024 23:12:06 +0000</pubDate><guid>https://blog.omegaup.com/posts/revision-codigo-envios-cursos/</guid><description>
 &lt;p>Nos complace anunciar la liberación de una nueva funcionalidad llamada &lt;strong>“Revisión de código en envíos de cursos”&lt;/strong>. Esta herramienta permitirá a las personas organizadoras de cursos brindar retroalimentación directamente en el código enviado por sus estudiantes, agilizando así el proceso de revisión.&lt;/p>
 &lt;h2>Antecedentes&lt;span class="hx-absolute -hx-mt-20" id="antecedentes">&lt;/span>
 &lt;a href="#antecedentes" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Anteriormente, en los cursos de &lt;em>omegaUp&lt;/em>, solo se disponía de un campo general para escribir retroalimentación por cada envío realizado por la persona estudiante. Esto impedía que la persona organizadora contara con las herramientas necesarias para detallar adecuadamente los comentarios.&lt;/p>
@@ -300,7 +300,7 @@ La métrica para cada usuario, llamada &lt;code>author_score&lt;/code>, es calcu
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Esperamos que esta publicación les haya ayudado a tener una idea más cercana de cómo atacar cierto tipo de problemas inusuales y los invitamos a resolver el problema mencionado en el juez en línea.&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
-title="Copy code"
+title="Copiar código"
 >
 &lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
 &lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
@@ -311,7 +311,7 @@ title="Copy code"
 &lt;pre>&lt;code>&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
-title="Copy code"
+title="Copiar código"
 >
 &lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
 &lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>

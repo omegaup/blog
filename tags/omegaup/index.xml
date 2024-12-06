@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>omegaUp blog – OmegaUp</title><link>https://blog.omegaup.com/tags/omegaup/</link><description>Recent content in OmegaUp on omegaUp blog</description><generator>Hugo -- gohugo.io</generator><language>es-MX</language><lastBuildDate>Sat, 03 Feb 2024 13:00:00 +0000</lastBuildDate><atom:link href="https://blog.omegaup.com/tags/omegaup/index.xml" rel="self" type="application/rss+xml"/><item><title>El nuevo ranking de contribuidores de omegaUp</title><link>https://blog.omegaup.com/posts/ranking-de-contribuidores-de-omegaup/</link><pubDate>Sat, 03 Feb 2024 13:00:00 +0000</pubDate><guid>https://blog.omegaup.com/posts/ranking-de-contribuidores-de-omegaup/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>omegaUp blog – OmegaUp</title><link>https://blog.omegaup.com/tags/omegaup/</link><description>Recent content in OmegaUp on omegaUp blog</description><generator>Hugo -- gohugo.io</generator><language>es</language><lastBuildDate>Sat, 03 Feb 2024 13:00:00 +0000</lastBuildDate><atom:link href="https://blog.omegaup.com/tags/omegaup/index.xml" rel="self" type="application/rss+xml"/><item><title>El nuevo ranking de contribuidores de omegaUp</title><link>https://blog.omegaup.com/posts/ranking-de-contribuidores-de-omegaup/</link><pubDate>Sat, 03 Feb 2024 13:00:00 +0000</pubDate><guid>https://blog.omegaup.com/posts/ranking-de-contribuidores-de-omegaup/</guid><description>
 &lt;p>En &lt;strong>omegaUp&lt;/strong>, reconocemos y valoramos el impacto positivo de aquellos que contribuyen al desarrollo de nuestra plataforma. Presentamos con entusiasmo nuestro renovado sistema de clasificación, diseñado para destacar la dedicación y habilidades de aquellos que han ayudado a dar forma a &lt;strong>omegaUp&lt;/strong>, ya sea creando desafiantes problemas de programación o contribuyendo de diversas formas.&lt;/p>
 &lt;p>En esta ocasión anunciamos el nuevo &lt;a href="https://omegaup.com/rank/authors/" target="_blank" rel="noopener">ranking de nuestros contribuidores más activos del mes&lt;/a> en &lt;strong>omegaUp&lt;/strong>:&lt;/p>
 &lt;p>&lt;a href="https://blog.omegaup.com/images/Screen-Shot-2024-02-03-at-12.34.24-PM.png" >&lt;img src="https://blog.omegaup.com/images/Screen-Shot-2024-02-03-at-12.34.24-PM-1204x912.png" alt="Ranking de Contribuidores" loading="lazy" />&lt;/a>&lt;/p>
@@ -210,7 +210,7 @@ La métrica para cada usuario, llamada &lt;code>author_score&lt;/code>, es calcu
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Esperamos que esta publicación les haya ayudado a tener una idea más cercana de cómo atacar cierto tipo de problemas inusuales y los invitamos a resolver el problema mencionado en el juez en línea.&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
-title="Copy code"
+title="Copiar código"
 >
 &lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
 &lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
@@ -221,7 +221,7 @@ title="Copy code"
 &lt;pre>&lt;code>&lt;/code>&lt;/pre>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
-title="Copy code"
+title="Copiar código"
 >
 &lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
 &lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>

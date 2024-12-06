@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>omegaUp blog – Soluciones Preselectivo 2014</title><link>https://blog.omegaup.com/tags/soluciones-preselectivo-2014/</link><description>Recent content in Soluciones Preselectivo 2014 on omegaUp blog</description><generator>Hugo -- gohugo.io</generator><language>es-MX</language><lastBuildDate>Thu, 14 Aug 2014 16:06:31 +0000</lastBuildDate><atom:link href="https://blog.omegaup.com/tags/soluciones-preselectivo-2014/index.xml" rel="self" type="application/rss+xml"/><item><title>Solución a "Contraseña Binaria"</title><link>https://blog.omegaup.com/posts/solucion-a-contrasena-binaria/</link><pubDate>Thu, 14 Aug 2014 16:06:31 +0000</pubDate><guid>https://blog.omegaup.com/posts/solucion-a-contrasena-binaria/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>omegaUp blog – Soluciones Preselectivo 2014</title><link>https://blog.omegaup.com/tags/soluciones-preselectivo-2014/</link><description>Recent content in Soluciones Preselectivo 2014 on omegaUp blog</description><generator>Hugo -- gohugo.io</generator><language>es</language><lastBuildDate>Thu, 14 Aug 2014 16:06:31 +0000</lastBuildDate><atom:link href="https://blog.omegaup.com/tags/soluciones-preselectivo-2014/index.xml" rel="self" type="application/rss+xml"/><item><title>Solución a "Contraseña Binaria"</title><link>https://blog.omegaup.com/posts/solucion-a-contrasena-binaria/</link><pubDate>Thu, 14 Aug 2014 16:06:31 +0000</pubDate><guid>https://blog.omegaup.com/posts/solucion-a-contrasena-binaria/</guid><description>
 &lt;p>&lt;strong>Concurso:&lt;/strong> &lt;a href="https://omegaup.com/arena/IOI2015E1P7/#problems/contrasena-binaria" target="_blank" rel="noopener">Preselectivo para la IOI 2015, Etapa 1, Problemset 7&lt;/a> &lt;strong>Autor:&lt;/strong> &lt;a href="mailto:orlandoisay@gmail.com" >Orlando Isay Mendoza Garcia&lt;/a> &lt;strong>Fuente&lt;/strong>: &lt;a href="mailto:chadancito@gmail.com" >Christian Adan Hernández Sánchez&lt;/a>&lt;/p>
 &lt;p>Podemos ayudarnos de la imagen para comprender mejor esta explicación:&lt;/p>
 &lt;p>&lt;a href="https://blog.omegaup.com/images/img1.png" >&lt;figure>
@@ -208,7 +208,7 @@
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
-title="Copy code"
+title="Copiar código"
 >
 &lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
 &lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
@@ -264,7 +264,7 @@ sea maxima siempre y cuando &lt;video autoplay muted loop>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> desmarca los cubos de la pieza&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
-title="Copy code"
+title="Copiar código"
 >
 &lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
 &lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>

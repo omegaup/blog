@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>omegaUp blog – Soluciones Preselectivo 2013</title><link>https://blog.omegaup.com/tags/soluciones-preselectivo-2013/</link><description>Recent content in Soluciones Preselectivo 2013 on omegaUp blog</description><generator>Hugo -- gohugo.io</generator><language>es-MX</language><lastBuildDate>Thu, 23 Jan 2014 03:51:39 +0000</lastBuildDate><atom:link href="https://blog.omegaup.com/tags/soluciones-preselectivo-2013/index.xml" rel="self" type="application/rss+xml"/><item><title>Solución a "Químicos"</title><link>https://blog.omegaup.com/posts/solucion-a-quimicos/</link><pubDate>Thu, 23 Jan 2014 03:51:39 +0000</pubDate><guid>https://blog.omegaup.com/posts/solucion-a-quimicos/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>omegaUp blog – Soluciones Preselectivo 2013</title><link>https://blog.omegaup.com/tags/soluciones-preselectivo-2013/</link><description>Recent content in Soluciones Preselectivo 2013 on omegaUp blog</description><generator>Hugo -- gohugo.io</generator><language>es</language><lastBuildDate>Thu, 23 Jan 2014 03:51:39 +0000</lastBuildDate><atom:link href="https://blog.omegaup.com/tags/soluciones-preselectivo-2013/index.xml" rel="self" type="application/rss+xml"/><item><title>Solución a "Químicos"</title><link>https://blog.omegaup.com/posts/solucion-a-quimicos/</link><pubDate>Thu, 23 Jan 2014 03:51:39 +0000</pubDate><guid>https://blog.omegaup.com/posts/solucion-a-quimicos/</guid><description>
 &lt;p>&lt;strong>Concurso:&lt;/strong> &lt;a href="https://omegaup.com/arena/IOI2014E1P6#problems/quimicos" target="_blank" rel="noopener">Preselectivo para la IOI 2014, Etapa 1, Problemset 6&lt;/a> &lt;strong>Autor:&lt;/strong>  &lt;a href="http://lhchavez.com/" target="_blank" rel="noopener">Luis Héctor Chávez (lhchavez)&lt;/a> &lt;strong>Fuente&lt;/strong>: Ethan Jiménez Vargas&lt;/p>
 &lt;p>Éste es un problema que tiene una solución elegante y determinística pero requiere algoritmos avanzados bastante complicados. Lo bueno es que es posible aproximar a la solución utilizando fuerza bruta mediante backtracking.&lt;/p>
 &lt;p>El problema nos pide encontrar una manera de asignar sustancias a los tubos y después mezclarlas con las dos operaciones disponibles (suma y diferencia absoluta) para terminar con un acomodo homogéneo de sustancias: la diferencia entre el tubo con más cantidad y con menos cantidad de sustancia debe ser lo más pequeña posible. Una manera de hacerlo es proponer un intervalo $latex [a,b]$ y ver si es posible asignar sustancias y aparear los tubos de manera que la cantidad de sustancia resultante de la mezcla en todos los tubos esté contenido dentro del intervalo. Para acelerar el proceso, puedes elegir los intervalos haciendo una búsqueda binaria de acuerdo a su ancho $latex b-a$, porque a fin de cuentas lo que nos pide el problema es precisamente el ancho mínimo. Para cada intervalo propuesto $latex [a,b]$, podemos hacer un grafo con $latex 2N$ nodos (uno para cada tubo), agregando un arco entre dos nodos $latex A$ y $latex B$ si $latex A+B\in[a,b]$ ó $latex |A-B|\in[a,b]$. Después, buscamos un &lt;a href="http://es.wikipedia.org/wiki/Apareamiento_%28teor%C3%ADa_de_grafos%29" target="_blank" rel="noopener">apareamiento máximo&lt;/a> en el grafo: buscamos el conjunto de arcos con cardinalidad máxima tal que cada nodo tenga a lo más un arco incidente. Esto se puede encontrar con el &lt;a href="http://es.wikipedia.org/wiki/Algoritmo_de_Emparejamiento_de_Edmonds" target="_blank" rel="noopener">algoritmo de Edmonds&lt;/a> (también conocido como el Blossom algorithm por la forma de los ciclos de longitud impar) en tiempo $latex O(|2N|^4)$, lo cual encontraría todas las soluciones en solo un par de segundos.&lt;/p>
@@ -73,7 +73,7 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#ae81ff">1&lt;/span>&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">0&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
-title="Copy code"
+title="Copiar código"
 >
 &lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
 &lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
@@ -100,7 +100,7 @@ title="Copy code"
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
-title="Copy code"
+title="Copiar código"
 >
 &lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
 &lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
@@ -120,7 +120,7 @@ title="Copy code"
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
-title="Copy code"
+title="Copiar código"
 >
 &lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
 &lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
@@ -389,7 +389,7 @@ title="Copy code"
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">173&lt;/span> }&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
-title="Copy code"
+title="Copiar código"
 >
 &lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
 &lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
@@ -547,7 +547,7 @@ termina()&lt;/p>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
 &lt;button
 class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
-title="Copy code"
+title="Copiar código"
 >
 &lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
 &lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4">&lt;/div>
