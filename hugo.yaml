@@ -17,3 +17,7 @@ params:
       height: 36
 
 defaultContentLanguage: es
+languages:
+  es:
+    languageName: Español
+    weight: 1
