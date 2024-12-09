@@ -52,7 +52,7 @@
 &lt;a href="#referencias" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
 &lt;li>
 &lt;p>Reporte NetMarketShare, Enero 2014:&lt;/p>
-&lt;!-- raw HTML omitted -->
+&lt;iframe id="na635245505602870000" src="" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="600" height="570">&lt;/iframe>
 &lt;/li>
 &lt;li>
 &lt;p>&lt;a href="http://www.igvita.com/2013/12/16/optimizing-nginx-tls-time-to-first-byte/" target="_blank" rel="noopener">Optimizing NGINX TLS Time To First Byte (TTFB)&lt;/a> - igvita.com&lt;/p>

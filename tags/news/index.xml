@@ -19,7 +19,7 @@
 &lt;li>Manda tu aplicación antes del &lt;em>18 de abril&lt;/em>.&lt;/li>
 &lt;/ol>
 &lt;p>Más detalles sobre el proceso de aplicación en &lt;a href="https://github.com/omegaup/omegaup/wiki/Google-Summer-of-Code-2022/#application-process" target="_blank" rel="noopener">nuestro wiki&lt;/a>.&lt;/p>
-&lt;!-- raw HTML omitted -->
+&lt;img align="right" src="https://user-images.githubusercontent.com/13296248/159149881-43c0a42b-236b-49b6-a02f-a760647df1a5.png">
 &lt;p>&lt;img src="https://user-images.githubusercontent.com/13296248/159149882-63dd12ef-4e45-45ea-bdbf-72d40d704481.png" alt="gsoc" loading="lazy" />&lt;/p></description></item><item><title>Bases de Liga de Programación de omegaUp</title><link>https://blog.omegaup.com/posts/bases-de-liga-de-programacion-de-omegaup/</link><pubDate>Fri, 10 Dec 2021 00:22:57 +0000</pubDate><guid>https://blog.omegaup.com/posts/bases-de-liga-de-programacion-de-omegaup/</guid><description>
 &lt;p>omegaUp Invita a todos los estudiantes de nivel media superior y superior a participar a la 2° edición de la Liga de programación omegaUp.&lt;/p>
 &lt;p>&lt;strong>Reglas&lt;/strong>:&lt;/p>
@@ -752,7 +752,7 @@ alt="rcrx y joemmanuel hackathoneando." width="300" height="225">&lt;/a>&lt;figc
 &lt;a href="#referencias" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
 &lt;li>
 &lt;p>Reporte NetMarketShare, Enero 2014:&lt;/p>
-&lt;!-- raw HTML omitted -->
+&lt;iframe id="na635245505602870000" src="" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="600" height="570">&lt;/iframe>
 &lt;/li>
 &lt;li>
 &lt;p>&lt;a href="http://www.igvita.com/2013/12/16/optimizing-nginx-tls-time-to-first-byte/" target="_blank" rel="noopener">Optimizing NGINX TLS Time To First Byte (TTFB)&lt;/a> - igvita.com&lt;/p>
