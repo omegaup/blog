@@ -4,7 +4,14 @@ sidebar:
   exclude: true
 toc: false
 ---
-![omegaUp](/logo/omegaUp.png)
+
+{{< cards cols="1" >}}
+  <img class="hx-text-center hx-hidden dark:hx-block" src="/logo/omegaUp-dark.webp" alt="omegaUp blog" width="250">
+  <img class="hx-text-center hx-block dark:hx-hidden" src="/logo/omegaUp.webp" alt="omegaUp blog" width="250">
+{{< /cards >}}
+
+
+
 
 {{< callout type="info" emoji="Ω" >}}
   **Incrementando el talento de Ingeniería de Software en América Latina.**
