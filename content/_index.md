@@ -10,10 +10,7 @@ toc: false
   <img class="hx-text-center hx-block dark:hx-hidden" src="/logo/omegaUp.webp" alt="omegaUp blog" width="250">
 {{< /cards >}}
 
-
-
-
-{{< callout type="info" emoji="Ω" >}}
+{{< callout type="info" emoji=" " >}}
   **Incrementando el talento de Ingeniería de Software en América Latina.**
 {{< /callout >}}
 
