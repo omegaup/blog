@@ -11,8 +11,6 @@ tags: ['News', 'Concursos']
 
 Esta semana iniciamos el preselectivo rumbo a la [International Olympiad in Informatics 2015](http://www.ioinformatics.org/index.shtml). 36 ganadores de la [Olimpiada Mexicana de Informática 2014](http://www.olimpiadadeinformatica.org.mx/OMI/OMI/Inicio.aspx) van a participar en este proceso y pelearán por un lugar para representar a México. Este fue el mensaje de bienvenida:
 
-<!--more-->
-
 > Estimados olímpicos, líderes y delegados,
 > 
 > Espero que se encuentran muy bien. Los felicito por sus buenos resultados en la OMI y les doy la bienvenida al Proceso de selección para la IOI 2015 a celebrarse en Astana, Kazakhstan. Este año, los 35 mejores concursantes de la OMI pasada van a pelear un lugar entre los 4 representantes de México en la IOI.

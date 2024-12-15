@@ -7,8 +7,6 @@ draft: false
 tags: ['Solution', 'Etapa 1', 'Examen 5', 'Soluciones Preselectivo 2013']
 ---
 
-<!-- .Special { color: #118800; } .Constant { color: #339999; } .Type { color: #aaaa77; } .Statement { color: #ff6600; } .String { color: #22bb00; } .PreProc { color: #66bbbb; } .Comment { color: #9933cc; font-style: italic; } -->
-
 **Concurso:** [Preselectivo para la IOI 2013, Etapa 1, Examen 5](https://omegaup.com/arena/IOI2013E1P5) **Autor: **[Saul de Nova Caballero](mailto:lkt345@gmail.com)
 
 En pocas palabras el problema es, dado un árbol que se puede colorear, encuentra la menor solución satisfaciendo las restricciones dadas sobre los colores. Este problema es un caso particular de Graph Coloring(en español coloración de grafos), en donde el grafo es un árbol.
