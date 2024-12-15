@@ -16,8 +16,6 @@ Un año más ha pasado y México ya tiene lista su delegación que nos represent
 3.  **MEX-1:** **Juan Carlos Sigler Priego** ([Juan\_Carlos\_Sigler\_Priego](https://omegaup.com/profile/Juan_Carlos_Sigler_Priego))
 4.  **MEX-3: Ángel David Ortega Ramírez **([blak\_dragon1](https://omegaup.com/profile/blak_dragon1))
 
-<!--more-->
-
 Material de Estudio
 ===================
 
