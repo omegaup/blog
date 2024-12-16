@@ -23,7 +23,7 @@ layout: hextra-home
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
     image="captura/omega.com.png"
     imageClass="hx-top-[20%] hx-left-[24px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
-    link="/Comienza/"
+    link="/comienza/"
   >}}
   {{< hextra/feature-card
     title="Nosotros"
