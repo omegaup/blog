@@ -60,8 +60,8 @@ Puedes acceder desde el menú desplegable en la sección superior derecha donde 
 
 ## Aún necesitas ayuda
 {{< cards cols="3" >}}
-  {{< card link="mailto:hello@omegaup.org?subject=Hola%20soy&body=Hola%20soy" title="Escríbenos a hello@omegaup.org" icon="mail" >}}
-  {{< card link="mailto:soporte@omegaup.org?subject=Ayuda%20con%20¿?%20&body=Necesito..." title="Soporte técnico" icon="support" >}}
+  {{< card link="mailto:hello@omegaup.com?subject=Hola%20soy&body=Hola%20soy" title="Escríbenos a hello@omegaup.com" icon="mail" >}}
+  {{< card link="mailto:soporte@omegaup.com?subject=Ayuda%20con%20¿?%20&body=Necesito..." title="Soporte técnico" icon="support" >}}
   {{< card link="https://discord.com/invite/K3JFd9d3wk" title="Pregunta a la comunidad" icon="discord" >}}
 {{< /cards >}}
 

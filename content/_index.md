@@ -43,7 +43,7 @@ layout: hextra-home
   {{< hextra/feature-card
     title="Ayuda y soporte técnico" icon="support" 
     subtitle="Escríbenos a por correo electónico."
-    link="mailto:hello@omegaup.org,soporte@omegaup.org?subject=Hola%20soy&body=Necesito%20..."
+    link="mailto:hello@omegaup.com,soporte@omegaup.com?subject=Hola%20soy&body=Necesito%20..."
   >}}
   {{< hextra/feature-card
     title="Aún necesitas ayuda" icon="discord" 
