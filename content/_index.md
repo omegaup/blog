@@ -4,11 +4,10 @@ layout: hextra-home
 ---
 
 <div class="hx-mt-3 hx-mb-6">
-
 {{< hextra/hero-headline >}}
   Blog 
-  <img class="hx-hidden dark:hx-block" src="/logo/omegaUp-dark.webp" alt="omegaUp blog" width="250">
-  <img class="hx-block dark:hx-hidden" src="/logo/omegaUp.webp" alt="omegaUp blog" width="250" >
+  <img class="hx-hidden dark:hx-block" src="/logo/omegaUp-dark.webp" alt="omegaUp" width="250">
+  <img class="hx-block dark:hx-hidden" src="/logo/omegaUp.webp" alt="omegaUp" width="250" >
 {{< /hextra/hero-headline >}}
 
 {{< hextra/hero-subtitle >}}
