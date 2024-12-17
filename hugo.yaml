@@ -59,3 +59,7 @@ languages:
   es:
     languageName: Español
     weight: 1
+
+services:
+  googleAnalytics:
+    ID: G-MEASUREMENT_ID
