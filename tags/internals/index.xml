@@ -50,14 +50,7 @@
 &lt;p>Para los interesados, el cambio consistió en hacer un par de optimizaciones para nginx[2], para reducir el tiempo de espera al primer byte, y actualizar la configuración de TLS: se quitaron SSLv2 y SSLv3 (que ya se consideran inseguros), se agregaron TLSv1.1 y TLSv1.2, se eliminó RC4 como algoritmo de cifrado, y ahora se prefiere ECDHE como algoritmo de intercambio de llaves para proveer Perfect Forward Secrecy[3].&lt;/p>
 &lt;h2>Referencias&lt;span class="hx-absolute -hx-mt-20" id="referencias">&lt;/span>
 &lt;a href="#referencias" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
-&lt;li>
-&lt;p>Reporte NetMarketShare, Enero 2014:&lt;/p>
-&lt;iframe id="na635245505602870000" src="" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="600" height="570">&lt;/iframe>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="http://www.igvita.com/2013/12/16/optimizing-nginx-tls-time-to-first-byte/" target="_blank" rel="noopener">Optimizing NGINX TLS Time To First Byte (TTFB)&lt;/a> - igvita.com&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="http://es.wikipedia.org/wiki/Perfect_forward_secrecy" target="_blank" rel="noopener">Perfect Forward Secrecy&lt;/a> - Wikipedia&lt;/p>
-&lt;/li>
+&lt;li>Reporte NetMarketShare, Enero 2014&lt;/li>
+&lt;li>&lt;a href="http://www.igvita.com/2013/12/16/optimizing-nginx-tls-time-to-first-byte/" target="_blank" rel="noopener">Optimizing NGINX TLS Time To First Byte (TTFB)&lt;/a> - igvita.com&lt;/li>
+&lt;li>&lt;a href="http://es.wikipedia.org/wiki/Perfect_forward_secrecy" target="_blank" rel="noopener">Perfect Forward Secrecy&lt;/a> - Wikipedia&lt;/li>
 &lt;/ol></description></item></channel></rss>

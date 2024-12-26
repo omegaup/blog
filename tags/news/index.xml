@@ -19,7 +19,6 @@
 &lt;li>Manda tu aplicación antes del &lt;em>18 de abril&lt;/em>.&lt;/li>
 &lt;/ol>
 &lt;p>Más detalles sobre el proceso de aplicación en &lt;a href="https://github.com/omegaup/omegaup/wiki/Google-Summer-of-Code-2022/#application-process" target="_blank" rel="noopener">nuestro wiki&lt;/a>.&lt;/p>
-&lt;img align="right" src="https://user-images.githubusercontent.com/13296248/159149881-43c0a42b-236b-49b6-a02f-a760647df1a5.png">
 &lt;p>&lt;img src="https://user-images.githubusercontent.com/13296248/159149882-63dd12ef-4e45-45ea-bdbf-72d40d704481.png" alt="gsoc" loading="lazy" />&lt;/p></description></item><item><title>Bases de Liga de Programación de omegaUp</title><link>https://blog.omegaup.com/posts/bases-de-liga-de-programacion-de-omegaup/</link><pubDate>Fri, 10 Dec 2021 00:22:57 +0000</pubDate><guid>https://blog.omegaup.com/posts/bases-de-liga-de-programacion-de-omegaup/</guid><description>
 &lt;p>omegaUp Invita a todos los estudiantes de nivel media superior y superior a participar a la 2° edición de la Liga de programación omegaUp.&lt;/p>
 &lt;p>&lt;strong>Reglas&lt;/strong>:&lt;/p>
@@ -245,8 +244,7 @@ alt="Luis Héctor Chávez, CTO of omegaUp (back) and Juan Pablo Gómez, Software
 &lt;p>Nuestros programas sociales van dirigidos a inspirar talento promocionando las carreras exitosas de la comunidad latinoamericana en la Ingeniería de Software. Este año empezamos &lt;a href="https://www.youtube.com/playlist?list=PLdSCJwXErQ8HaBjqgL_ISj5UWnFFHGxJQ" target="_blank" rel="noopener">&lt;strong>Historias omegaUp&lt;/strong>&lt;/a>, una serie de entrevistas con Ingenieros de Software de Microsoft y Facebook que aprendieron a programar en omegaUp.com.&lt;/p>
 &lt;p>Esperamos que estas historias ayuden a inspirar más talento en Latinoamerica validando el valor de nuestra comunidad en la industria.&lt;/p>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/Vhf3CizYG7Q?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
->&lt;/iframe>
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/Vhf3CizYG7Q?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
 &lt;/div>
 &lt;p>Con nuestro programa &lt;strong>Experiencias de Carrera,&lt;/strong> organizamos 8 videoconferencias, conectando más de 2000 estudiantes con el talento de la industria que trabaja en compañías como Amazon, DigitalOnUs, Microsoft y Oracle. Estudiantes de escuelas como el Colegio de Bachilleres Tecnológico Agropecuario (CBTa #39) en Temoac, Morelos, CONALEP 252 en Veracruz, la Universidad de Guanajuato, México, tuvieron la oportunidad de escuchar experiencias  y recomendaciones de talento latinoamericano actualmente trabajando en la industria.&lt;/p>
 &lt;figure>&lt;img src="https://blog.omegaup.com/images/2018-conalep-252.jpeg"
@@ -750,16 +748,9 @@ alt="rcrx y joemmanuel hackathoneando." width="300" height="225">&lt;/a>&lt;figc
 &lt;p>Para los interesados, el cambio consistió en hacer un par de optimizaciones para nginx[2], para reducir el tiempo de espera al primer byte, y actualizar la configuración de TLS: se quitaron SSLv2 y SSLv3 (que ya se consideran inseguros), se agregaron TLSv1.1 y TLSv1.2, se eliminó RC4 como algoritmo de cifrado, y ahora se prefiere ECDHE como algoritmo de intercambio de llaves para proveer Perfect Forward Secrecy[3].&lt;/p>
 &lt;h2>Referencias&lt;span class="hx-absolute -hx-mt-20" id="referencias">&lt;/span>
 &lt;a href="#referencias" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
-&lt;li>
-&lt;p>Reporte NetMarketShare, Enero 2014:&lt;/p>
-&lt;iframe id="na635245505602870000" src="" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="600" height="570">&lt;/iframe>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="http://www.igvita.com/2013/12/16/optimizing-nginx-tls-time-to-first-byte/" target="_blank" rel="noopener">Optimizing NGINX TLS Time To First Byte (TTFB)&lt;/a> - igvita.com&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="http://es.wikipedia.org/wiki/Perfect_forward_secrecy" target="_blank" rel="noopener">Perfect Forward Secrecy&lt;/a> - Wikipedia&lt;/p>
-&lt;/li>
+&lt;li>Reporte NetMarketShare, Enero 2014&lt;/li>
+&lt;li>&lt;a href="http://www.igvita.com/2013/12/16/optimizing-nginx-tls-time-to-first-byte/" target="_blank" rel="noopener">Optimizing NGINX TLS Time To First Byte (TTFB)&lt;/a> - igvita.com&lt;/li>
+&lt;li>&lt;a href="http://es.wikipedia.org/wiki/Perfect_forward_secrecy" target="_blank" rel="noopener">Perfect Forward Secrecy&lt;/a> - Wikipedia&lt;/li>
 &lt;/ol></description></item><item><title>OmegaUp apoya al 1er Concurso de programación UVM</title><link>https://blog.omegaup.com/posts/omegaup-apoya-al-1er-concurso-de-programacion-uvm/</link><pubDate>Mon, 07 Jan 2013 23:28:45 +0000</pubDate><guid>https://blog.omegaup.com/posts/omegaup-apoya-al-1er-concurso-de-programacion-uvm/</guid><description>
 &lt;p>El pasado 29 de noviembre se llevó a cabo, en las instalaciones de &lt;a href="http://www.guadalajarasur.uvmnet.edu/" target="_blank" rel="noopener">UVM Campus Sur Guadalajara&lt;/a>, el &lt;a href="https://omegaup.com/arena/UVM2012/practice/" target="_blank" rel="noopener">Primer Concurso de Programación UVM&lt;/a>, bajo el marco del “Innovation and Technology Fest”.&lt;/p>
 &lt;figure>&lt;a href="https://blog.omegaup.com/images/2012-11-29-007.jpg">&lt;img src="https://blog.omegaup.com/images/2012-11-29-007.jpg"
