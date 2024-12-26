@@ -3,7 +3,6 @@ title: Home
 layout: hextra-home
 ---
 
-<div class="hx-mt-6 hx-mb-6">
 {{< cards cols="1" >}}
   <img class="hx-text-center hx-hidden dark:hx-block" src="/logo/omegaUp-dark.webp" alt="omegaUp blog" width="250">
   <img class="hx-text-center hx-block dark:hx-hidden" src="/logo/omegaUp.webp" alt="omegaUp blog" width="250">
@@ -54,7 +53,6 @@ layout: hextra-home
     link="https://www.omegaup.org/donate/"
   >}}
 {{< /hextra/feature-grid >}}
-</div>
 
 <div class="hx-mt-6 hx-mb-6">
 {{< hextra/hero-headline >}}
