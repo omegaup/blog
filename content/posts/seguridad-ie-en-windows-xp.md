@@ -14,9 +14,6 @@ Para los interesados, el cambio consistió en hacer un par de optimizaciones par
 Referencias
 -----------
 
-1.  Reporte NetMarketShare, Enero 2014:
-    
-    <iframe id="na635245505602870000" src="" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="600" height="570"></iframe>
-    
+1.  Reporte NetMarketShare, Enero 2014    
 2.  [Optimizing NGINX TLS Time To First Byte (TTFB)](http://www.igvita.com/2013/12/16/optimizing-nginx-tls-time-to-first-byte/) - igvita.com
 3.  [Perfect Forward Secrecy](http://es.wikipedia.org/wiki/Perfect_forward_secrecy) - Wikipedia
