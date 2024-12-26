@@ -2,6 +2,7 @@
 title: Home
 layout: hextra-home
 ---
+
 {{< cards cols="1" >}}
   <img class="hx-text-center hx-hidden dark:hx-block" src="/logo/omegaUp-dark.webp" alt="omegaUp blog" width="250">
   <img class="hx-text-center hx-block dark:hx-hidden" src="/logo/omegaUp.webp" alt="omegaUp blog" width="250">
