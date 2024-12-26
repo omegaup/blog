@@ -3,12 +3,10 @@ title: Home
 layout: hextra-home
 ---
 
-<div class="hx-mt-3 hx-mb-6">
-{{< hextra/hero-headline >}}
-  Blog 
-  <img class="hx-hidden dark:hx-block" src="/logo/omegaUp-dark.webp" alt="omegaUp" width="250">
-  <img class="hx-block dark:hx-hidden" src="/logo/omegaUp.webp" alt="omegaUp" width="250" >
-{{< /hextra/hero-headline >}}
+{{< cards cols="1" >}}
+  <img class="hx-text-center hx-hidden dark:hx-block" src="/logo/omegaUp-dark.webp" alt="omegaUp blog" width="250">
+  <img class="hx-text-center hx-block dark:hx-hidden" src="/logo/omegaUp.webp" alt="omegaUp blog" width="250">
+{{< /cards >}}
 
 {{< hextra/hero-subtitle >}}
   Incrementando el talento de Ingeniería de Software en América Latina.
