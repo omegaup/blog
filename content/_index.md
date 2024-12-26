@@ -18,25 +18,25 @@ layout: hextra-home
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card
     title="Comienza"
-    subtitle="Plataforma educativa gratuita que te ayuda a mejorar tus habilidades de programación."
+    subtitle="omegaUp es una plataforma educativa gratuita que te ayuda a mejorar tus habilidades de programación."
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
-    image="captura/omega.com.png"
+    image="captura/omegaUp.com.png"
     imageClass="hx-top-[20%] hx-left-[24px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
     link="/comienza/"
   >}}
   {{< hextra/feature-card
     title="Nosotros"
-    subtitle="Construyendo futuro en América Latina a través de la educación tecnológica"
+    subtitle="Ayudamos a construir el futuro en América Latina a través de la educación tecnológica."
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
-    image="captura/omega.org.png"
+    image="captura/omegaUp.org.png"
     imageClass="hx-top-[20%] hx-left-[24px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
     link="https://www.omegaup.org/"
   >}}
   {{< hextra/feature-card
-    title="Lo más nuevo"
-    subtitle="Project for applications deployed with ArgoCD."
+    title="Blog"
+    subtitle="Publicamos contenido para difundir habilidades de programación."
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
-    image="captura/blog.omega.com.png"
+    image="captura/omegaUp.com.blog.png"
     imageClass="hx-top-[20%] hx-left-[24px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
     link="/posts/"
   >}}
@@ -54,5 +54,42 @@ layout: hextra-home
     title="Ayúdanos"
     subtitle="Quieres apoyarnos haz una donación." icon="cash" 
     link="https://www.omegaup.org/donate/"
+  >}}
+{{< /hextra/feature-grid >}}
+
+<div class="hx-mt-6 hx-mb-6">
+{{< hextra/hero-headline >}}
+  Anuncios
+{{< /hextra/hero-headline >}}
+
+{{< hextra/hero-subtitle >}}
+  Descubre nuestras noticias más recientes.
+{{< /hextra/hero-subtitle >}}
+</div>
+
+{{< hextra/feature-grid >}}
+  {{< hextra/feature-card
+    title="Liga de programación"
+    subtitle="Bienvenidoa los diferentes concursos de programación."
+    class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
+    image="captura/omegaUp.com.arena.png"
+    imageClass="hx-top-[20%] hx-left-[24px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
+    link="https://omegaup.com/arena/"
+  >}}
+  {{< hextra/feature-card
+    title="Google Summer of Code"
+    subtitle="Verano de programación de Google con omegaUp."
+    class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
+    image="captura/google.com.GSoC.png"
+    imageClass="hx-top-[20%] hx-left-[24px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
+    link="https://summerofcode.withgoogle.com/archive/2024/organizations/omegaup"
+  >}}
+  {{< hextra/feature-card
+    title="Coder del mes"
+    subtitle="Otorgado a personas que han sido nombradas Coder del Mes."
+    class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
+    image="captura/omegaUp.com.coder.png"
+    imageClass="hx-top-[20%] hx-left-[24px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
+    link="https://omegaup.com/coderofthemonth/"
   >}}
 {{< /hextra/feature-grid >}}
