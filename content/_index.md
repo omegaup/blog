@@ -8,10 +8,13 @@ layout: hextra-home
   <img class="hx-text-center hx-block dark:hx-hidden" src="/logo/omegaUp.webp" alt="omegaUp blog" width="250">
 {{< /cards >}}
 
+{{< callout type="info" emoji=" " >}}
+  **Incrementando el talento de Ingeniería de Software en América Latina.**
+{{< /callout >}}
+
 {{< hextra/hero-subtitle >}}
   Incrementando el talento de Ingeniería de Software en América Latina.
 {{< /hextra/hero-subtitle >}}
-</div>
 
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card
@@ -63,7 +66,6 @@ layout: hextra-home
 {{< hextra/hero-subtitle >}}
   Descubre nuestras noticias más recientes.
 {{< /hextra/hero-subtitle >}}
-</div>
 
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card
