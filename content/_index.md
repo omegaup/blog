@@ -2,16 +2,16 @@
 title: Home
 layout: hextra-home
 ---
-
 {{< cards cols="1" >}}
   <img class="hx-text-center hx-hidden dark:hx-block" src="/logo/omegaUp-dark.webp" alt="omegaUp blog" width="250">
   <img class="hx-text-center hx-block dark:hx-hidden" src="/logo/omegaUp.webp" alt="omegaUp blog" width="250">
 {{< /cards >}}
 
-{{< hextra/hero-subtitle >}}
-  Incrementando el talento de Ingeniería de Software en América Latina.
-{{< /hextra/hero-subtitle >}}
+{{< callout type="info" emoji=" " >}}
+  **Incrementando el talento de Ingeniería de Software en América Latina.**
+{{< /callout >}}
 
+<div class="hx-mt-6 hx-mb-6">
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card
     title="Comienza"
@@ -53,6 +53,7 @@ layout: hextra-home
     link="https://www.omegaup.org/donate/"
   >}}
 {{< /hextra/feature-grid >}}
+</div>
 
 <div class="hx-mt-6 hx-mb-6">
 {{< hextra/hero-headline >}}
