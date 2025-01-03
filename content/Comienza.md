@@ -52,20 +52,14 @@ Puedes acceder desde el menú desplegable en la sección superior derecha donde 
 {{% /steps %}}
 
 ## Ayuda y soporte técnico
-
-{{< cards cols="2" >}}
-  {{< card link="https://github.com/omegaup/omegaup/issues/new/choose" title="Reporta issues" icon="flag" >}}
-  {{< card link="https://github.com/omegaup/omegaup/wiki" title="Documentación wiki" icon="card" >}}
-{{< /cards >}}
-
-## Aún necesitas ayuda
 {{< cards cols="3" >}}
   {{< card link="mailto:hello@omegaup.com?subject=Hola%20soy&body=Hola%20soy" title="Escríbenos a hello@omegaup.com" icon="mail" >}}
   {{< card link="mailto:soporte@omegaup.com?subject=Ayuda%20con%20¿?%20&body=Necesito..." title="Soporte técnico" icon="support" >}}
   {{< card link="https://discord.com/invite/K3JFd9d3wk" title="Pregunta a la comunidad" icon="discord" >}}
 {{< /cards >}}
 
-## Ayúdanos 
-{{< cards cols="1" >}}
-  {{< card link="https://www.omegaup.org/donate" title="¿Quieres ayudarnos? Agrega documentación o abre un issue." icon="github" >}}
+## ¿Quieres ayudarnos?
+{{< cards cols="2" >}}
+  {{< card link="https://github.com/omegaup/omegaup/wiki" title="Agrega documentación " icon="card" >}}
+  {{< card link="https://github.com/omegaup/omegaup/issues/new/choose" title="Abre un issue." icon="github" >}}
 {{< /cards >}}
