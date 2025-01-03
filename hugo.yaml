@@ -24,16 +24,6 @@ menu:
       weight: 6
       params:
         type: search
-    - name: GitHub
-      weight: 7
-      url: "https://github.com/omegaup"
-      params:
-        icon: github
-    - name: Discord
-      weight: 8
-      url: "https://discord.com/invite/K3JFd9d3wk"
-      params:
-        icon: discord
 
 params:
   navbar:
