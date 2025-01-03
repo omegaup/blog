@@ -38,21 +38,6 @@ layout: hextra-home
     imageClass="hx-top-[20%] hx-left-[24px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
     link="/posts/"
   >}}
-  {{< hextra/feature-card
-    title="Ayuda y soporte técnico" icon="support" 
-    subtitle="Escríbenos a por correo electónico."
-    link="mailto:hello@omegaup.com,soporte@omegaup.com?subject=Hola%20soy&body=Necesito%20..."
-  >}}
-  {{< hextra/feature-card
-    title="Aún necesitas ayuda" icon="discord" 
-    subtitle="Pregunta a la comunidad"
-    link="https://discord.com/invite/K3JFd9d3wk/"
-  >}}
-  {{< hextra/feature-card
-    title="Ayúdanos"
-    subtitle="Quieres apoyarnos haz una donación." icon="cash" 
-    link="https://www.omegaup.org/donate/"
-  >}}
 {{< /hextra/feature-grid >}}
 </div>
 
