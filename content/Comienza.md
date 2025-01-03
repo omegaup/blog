@@ -34,10 +34,10 @@ Puedes acceder desde el menú desplegable en la sección superior derecha donde 
 - [¿Cómo resolver problemas? [parte 1]](posts/introduccion-a-omegaup-parte-1/)
 - [¿Cómo resolver problemas? [parte 2]](posts/introduccion-a-omegaup-parte-2-problemas-basicos/)
 - [Busca tus problemas](https://omegaup.com/problem/collection/)
-- Se el mejor [reglas del coder del mes](/posts/reglas-del-coder-del-mes/)
+- Participa para ser Coder del Mes [reglas del coder del mes](/posts/reglas-del-coder-del-mes/)
 
 
-**Doscente**
+**Docente**
 - Crea tus [cursos con tareas y exámenes](/posts/anunciando-omegaup-escuelas/).
 - [Agregar asistentes a curso](posts/revision-codigo-envios-cursos/#rol-de-asistente-de-ense%C3%B1anza).
 - Crear cuentas de usuarios para evento [administrador de identidades](posts/administracion-de-identidades/).
@@ -67,5 +67,5 @@ Puedes acceder desde el menú desplegable en la sección superior derecha donde 
 
 ## Ayúdanos 
 {{< cards cols="1" >}}
-  {{< card link="https://www.omegaup.org/donate" title="Quieres apoyarnos haz una donación." icon="cash" >}}
+  {{< card link="https://www.omegaup.org/donate" title="¿Quieres ayudarnos? Agrega documentación o abre un issue." icon="github" >}}
 {{< /cards >}}
