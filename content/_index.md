@@ -1,6 +1,9 @@
 ---
 title: Home
 layout: hextra-home
+sidebar:
+  exclude: true
+toc: true
 ---
 {{< hextra/hero-headline >}}
   Blog 
@@ -23,12 +26,12 @@ layout: hextra-home
     link="/comienza/"
   >}}
   {{< hextra/feature-card
-    title="Nosotros"
-    subtitle="Ayudamos a construir el futuro en América Latina a través de la educación tecnológica."
+    title="Novedades"
+    subtitle="Descubre nuestra información actualizada relevante."
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
     image="captura/omegaUp.org.png"
     imageClass="hx-top-[20%] hx-left-[24px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
-    link="https://www.omegaup.org/"
+    link="/novedades/"
   >}}
   {{< hextra/feature-card
     title="Blog"
