@@ -1,11 +1,11 @@
 ---
 title: Novedades
-layout: hextra-home
+sidebar:
+  exclude: true
+toc: true
 ---
 
-{{< hextra/hero-subtitle >}}
-  Descubre nuestras noticias más recientes.
-{{< /hextra/hero-subtitle >}}
+Descubre nuestras noticias más recientes.
 
 <div class="hx-mt-6 hx-mb-6">
 {{< hextra/feature-grid >}}
