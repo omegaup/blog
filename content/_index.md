@@ -17,29 +17,31 @@ toc: true
 
 <div class="hx-mt-6 hx-mb-6">
 {{< hextra/feature-grid >}}
-  {{< hextra/feature-card
-    title="Comienza"
-    subtitle="omegaUp es una plataforma educativa gratuita que te ayuda a mejorar tus habilidades de programación."
-    class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
-    image="captura/omegaUp.com.png"
-    imageClass="hx-top-[20%] hx-left-[24px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
-    link="/comienza/"
-  >}}
-  {{< hextra/feature-card
-    title="Novedades"
-    subtitle="Descubre nuestra información actualizada relevante."
-    class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
-    image="captura/omegaUp.org.png"
-    imageClass="hx-top-[20%] hx-left-[24px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
-    link="/novedades/"
-  >}}
-  {{< hextra/feature-card
-    title="Blog"
-    subtitle="Publicamos contenido para difundir habilidades de programación."
-    class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
-    image="captura/omegaUp.com.blog.png"
-    imageClass="hx-top-[20%] hx-left-[24px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
-    link="/posts/"
-  >}}
+  {{% details title="Para comenzar" %}}
+  <a href='/comienza'>omegaUp es una plataforma educativa gratuita que te ayuda a mejorar tus habilidades de programación.</a><br><br>
+  <a href='/comienza/#crea-tu-cuenta-en-omegaupcomloginhttpsomegaupcomlogin'>Crear una cuenta</a><br>
+  <a href='/comienza/#completa-tu-perfil-en-mi-perfilhttpsomegaupcomprofile'>Cambiar correo o contraseña</a><br>
+  <a href='/comienza/#completa-tu-perfil-en-mi-perfilhttpsomegaupcomprofile'>Completar mi perfil</a><br>
+  <a href='/comienza'>Ver más</a>
+  {{% /details %}}
+
+  {{% details title="Popular" %}}
+  <a href='/posts'>Descubre nuestra información actualizada relevante.</a><br><br>
+  <a href='/posts/introduccion-a-omegaup-parte-0/'>¿Cómo resolver problemas?</a><br>
+  <a href='/posts/codigo-de-conducta-en-omegaup/'>Código de conducta.</a><br>
+  <a href='/posts/el-nuevo-buscador-de-problemas-de-omegaup/'>¿Cómo buscar problemas?</a><br>
+  <a href='/posts/concursos-con-subtareas/#c%C3%B3mo-crear-un-concurso-con-la-modalidad-de-subtareas'>¿cómo crear concursos?</a><br>
+  <a href='/posts/reglas-del-coder-del-mes/'>Reglas del coder del mes.</a>
+  {{% /details %}}
+
+  {{% details title="Lo más nuevo" %}}
+  <a href='/posts'>Publicamos contenido para difundir habilidades de programación.</a><br><br>
+  <a href='/posts/soluciones-de-problemas-en-omegaup/'>Soluciones a problemas en omegaUp</a><br>
+  <a href='/posts/concursos-con-subtareas/#c%C3%B3mo-crear-un-concurso-con-la-modalidad-de-subtareas'>Concursos con subtareas</a><br>
+  <a href='https://omegaup.com/rank/authors/'>Ranking de contribuidores</a><br>
+  <a href='/posts'>Ver más</a>
+  {{% /details %}}
+
 {{< /hextra/feature-grid >}}
 </div>
+
