@@ -60,6 +60,6 @@ Puedes acceder desde el menú desplegable en la sección superior derecha donde 
 
 ## ¿Quieres ayudarnos?
 {{< cards cols="2" >}}
-  {{< card link="https://github.com/omegaup/omegaup/wiki" title="Agrega documentación " icon="card" >}}
+  {{< card link="https://github.com/omegaup" title="Agrega documentación " icon="card" >}}
   {{< card link="https://github.com/omegaup/omegaup/issues/new/choose" title="Abre un issue." icon="github" >}}
 {{< /cards >}}
