@@ -22,7 +22,7 @@ toc: true
   &#8226; <a class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font" href='/comienza/#crea-tu-cuenta-en-omegaupcomloginhttpsomegaupcomlogin'>Crear una cuenta</a><br>
   &#8226; <a class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font" href='/comienza/#completa-tu-perfil-en-mi-perfilhttpsomegaupcomprofile'>Cambiar correo o contraseña</a><br>
   &#8226; <a class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font" href='/comienza/#completa-tu-perfil-en-mi-perfilhttpsomegaupcomprofile'>Completar mi perfil</a><br>
-  &#8226; <a class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font" href='/comienza'>Ver más</a>
+  <a class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font" href='/comienza'>Ver más</a>
   {{% /details %}}
 
   {{% details title="Popular" %}}
@@ -39,7 +39,7 @@ toc: true
   &#8226; <a class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font" href='/posts/soluciones-de-problemas-en-omegaup/'>Soluciones a problemas en omegaUp</a><br>
   &#8226; <a class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font" href='/posts/concursos-con-subtareas/#c%C3%B3mo-crear-un-concurso-con-la-modalidad-de-subtareas'>Concursos con subtareas</a><br>
   &#8226; <a class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font" href='https://omegaup.com/rank/authors/'>Ranking de contribuidores</a><br>
-  &#8226; <a class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font" href='/posts'>Ver más</a>
+  <a class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font" href='/posts'>Ver más</a>
   {{% /details %}}
 
 {{< /hextra/feature-grid >}}
