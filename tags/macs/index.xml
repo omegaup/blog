@@ -20,7 +20,10 @@ title="Copiar código"
 &lt;/div>
 &lt;p>Este código implementa la solución.&lt;/p>
 &lt;script src="https://gist.github.com/OlimpiadaMexicanadeInformatica/8468920.js">&lt;/script></description></item><item><title>Solución a "Pista"</title><link>https://blog.omegaup.com/posts/445/</link><pubDate>Sun, 06 Oct 2013 22:48:35 +0000</pubDate><guid>https://blog.omegaup.com/posts/445/</guid><description>
-&lt;p>&lt;strong>Concurso:&lt;/strong> &lt;a href="https://omegaup.com/arena/IOI2014E1P14#problems/pista" target="_blank" rel="noopener">Preselectivo para la IOI 2014, Etapa 1, Problemset 14&lt;/a> &lt;strong>Autor:&lt;/strong> Miguel Covarrubias &lt;strong>Fuente&lt;/strong>: Codeforces&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Concurso:&lt;/strong> &lt;a href="https://omegaup.com/arena/IOI2014E1P14#problems/pista" target="_blank" rel="noopener">Preselectivo para la IOI 2014, Etapa 1, Problemset 14&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Autor:&lt;/strong> Miguel Covarrubias &lt;strong>Fuente&lt;/strong>: Codeforces&lt;/li>
+&lt;/ul>
 &lt;p>Este problema es una ligera modificación del Let&amp;rsquo;s Play Osu! que apareció en la ronda 146 en Codeforces. &lt;a href="http://codeforces.ru/blog/entry/5592" target="_blank" rel="noopener">La solución explicada la pueden encontrar en el editorial.&lt;/a>&lt;/p>
 &lt;p>Para $latex N \le 10$ se pueden checar todas las $latex 2^N$ configuraciones de pistas. Para $latex N \le 1000$ funciona una dinámica $latex O(N^2)$, donde los estados son (posición, altura/profundidad que se lleva hasta el momento).&lt;/p>
 &lt;p>Les dejo la implementación de DiegoRoque como un muy buen ejemplo de una solución a este problema.&lt;/p>
