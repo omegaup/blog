@@ -5,6 +5,7 @@ author_email: 'me@freddy.mx'
 date: Thu, 23 Jan 2014 03:51:39 +0000
 draft: false
 tags: ['Solution', 'Etapa 1', 'Ethan', 'Examen 6', 'lhchavez', 'preselectivo', 'solución', 'Soluciones Preselectivo 2013']
+math: true
 ---
 
 **Concurso:** [Preselectivo para la IOI 2014, Etapa 1, Problemset 6](https://omegaup.com/arena/IOI2014E1P6#problems/quimicos) **Autor:**  [Luis Héctor Chávez (lhchavez)](http://lhchavez.com/) **Fuente**: Ethan Jiménez Vargas

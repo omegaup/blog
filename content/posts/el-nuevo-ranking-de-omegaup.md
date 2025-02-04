@@ -5,11 +5,18 @@ author_email: 'joemmanuel@gmail.com'
 date: Thu, 12 Jun 2014 14:42:18 +0000
 draft: false
 tags: ['Features', 'Ranking', 'Internals']
+math: true
 ---
 
 Con [este commit](https://github.com/omegaup/omegaup/commit/132e9c4614a7a4939156a942810559bf8c57f1a8) hemos introducido un cambio significativo en la forma de calcular el [ranking general](https://omegaup.com/rank.php) de omegaUp. Ahora no sólo es importante cuántos problemas ha resuelto un usuario sino que también estamos incluyendo la dificultad de cada uno de esos problemas. La dificultad es inversamente proporcional a la cantidad de soluciones completas (AC) que tiene ese problema.
 
-Para ser más precisos, estamos definiendo los puntos que da un problema así: $latex P\_i = \\frac{100}{log\_2(N+1)}$, donde $latex N$ representa la cantidad de ACs que tiene un problema. [Entre más ACs tenga un problema, menos puntos va a valer](http://fooplot.com/#W3sidHlwZSI6MCwiZXEiOiIxMDAvKGxvZyh4KzEpL2xvZygyKSkiLCJjb2xvciI6IiMwMDAwMDAifSx7InR5cGUiOjEwMDAsIndpbmRvdyI6WyItOC4xNTk5OTk5OTk5OTk5ODIiLCIxOTkuODQiLCItOC43OTk5OTk5OTk5OTk5OTciLCIxMTkuMTk5OTk5OTk5OTk5OTkiXX1d). Sólo estamos contando a lo más 1 AC por usuario para evitar que las soluciones de una misma persona afecten artificialmente los puntos de score del problema.
+Para ser más precisos, estamos definiendo los puntos que da un problema así: 
+
+$latex P\_i = \\frac{100}{log\_2(N+1)}$, 
+
+donde $latex N$ representa la cantidad de ACs que tiene un problema. 
+
+[Entre más ACs tenga un problema, menos puntos va a valer](http://fooplot.com/#W3sidHlwZSI6MCwiZXEiOiIxMDAvKGxvZyh4KzEpL2xvZygyKSkiLCJjb2xvciI6IiMwMDAwMDAifSx7InR5cGUiOjEwMDAsIndpbmRvdyI6WyItOC4xNTk5OTk5OTk5OTk5ODIiLCIxOTkuODQiLCItOC43OTk5OTk5OTk5OTk5OTciLCIxMTkuMTk5OTk5OTk5OTk5OTkiXX1d). Sólo estamos contando a lo más 1 AC por usuario para evitar que las soluciones de una misma persona afecten artificialmente los puntos de score del problema.
 
 [![](/images/Screen-Shot-2014-06-12-at-7.44.06-AM.png "Screen Shot 2014-06-12 at 7.44.06 AM")](/images/Screen-Shot-2014-06-12-at-7.44.06-AM.png)
 

@@ -5,6 +5,7 @@ author_email: 'me@freddy.mx'
 date: Wed, 25 Sep 2013 06:00:06 +0000
 draft: false
 tags: ['Solution', 'Etapa 1', 'Examen 13', 'Freddy', 'preselectivo', 'solución', 'Soluciones Preselectivo 2014']
+math: true
 ---
 
 **Concurso:** [Preselectivo para la IOI 2014, Etapa 1, Problemset 13](https://omegaup.com/arena/IOI2014E1P13#problems/DP-Generica) **Autor:** [Freddy Román Cepeda](http://freddy.mx/) **Fuente**: Project Euler

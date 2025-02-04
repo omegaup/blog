@@ -5,6 +5,7 @@ author_email: 'rafaelrendonpablo@gmail.com'
 date: Thu, 12 Nov 2015 17:06:59 +0000
 draft: false
 tags: ['Solution', 'búsqueda binaria', 'geometría', 'Material de estudio']
+math: true
 ---
 
 Hola!, este es mi primer post en Omegaup y voy a describir mi solución para el problema [Invasion zombie](https://omegaup.com/arena/IOI2014E1P3/practice/#problems/invasionzombie). Hace un año encontré este problema, me pareció interesante y logre resolverlo, aunque algo tricky. Hace unos días me tope con este problema nuevamente y lo resolví por segunda ocasión, pero con una solución más simple, al menos eso creo.

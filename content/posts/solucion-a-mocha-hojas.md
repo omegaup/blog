@@ -5,6 +5,7 @@ author_email: 'me@freddy.mx'
 date: Sat, 18 Jan 2014 23:25:14 +0000
 draft: false
 tags: ['Solution', 'beto', 'Etapa 1', 'Examen 17', 'Freddy', 'preselectivo', 'solución', 'Soluciones Preselectivo 2013']
+math: true
 ---
 
 **Concurso:** [Preselectivo para la IOI 2014, Etapa 1, Problemset 17](https://omegaup.com/arena/IOI2014E1P17#problems/Mocha-Hojas) **Autor:** [Freddy Román Cepeda](http://freddy.mx/) **Fuente**: Alberto José Ramírez Valadez

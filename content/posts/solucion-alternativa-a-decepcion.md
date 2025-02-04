@@ -5,6 +5,7 @@ author_email: 'me@freddy.mx'
 date: Fri, 17 Jan 2014 02:14:47 +0000
 draft: false
 tags: ['Solution', 'Etapa 1', 'Ethan', 'Examen 8', 'Freddy', 'preselectivo', 'solución', 'Soluciones Preselectivo 2013']
+math: true
 ---
 
 **Concurso:** [Preselectivo para la IOI 2014, Etapa 1, Problemset 8](https://omegaup.com/arena/IOI2014E1P8#problems/decepcion) **Autor:** [Freddy Román Cepeda](http://freddy.mx/) **Fuente**: Ethan Jiménez Vargas

@@ -5,6 +5,7 @@ author_email: 'elira@elira.me'
 date: Mon, 07 Jan 2013 16:08:32 +0000
 draft: false
 tags: ['Solution', 'Etapa 1', 'Examen 8', 'Pavel Herrera', 'preselectivo', 'Soluciones Preselectivo 2013']
+math: true
 ---
 
 **Concurso:** [Preselectivo para la IOI 2013, Etapa 1, Examen 8](https://omegaup.com/arena/IOI2013E1P8) **Autor: **[Pavel Herrera Dominguez](mailto:paspartu@gmail.com))

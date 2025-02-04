@@ -5,6 +5,7 @@ author_email: 'elira@elira.me'
 date: Mon, 07 Jan 2013 16:34:20 +0000
 draft: false
 tags: ['Solution', 'Etapa 1', 'Examen 10', 'Hugo Dueñas', 'preselectivo', 'solución', 'Soluciones Preselectivo 2013']
+math: true
 ---
 
 **Concurso:** [Preselectivo para la IOI 2013, Etapa 1, Examen 10](https://omegaup.com/arena/IOI2013E1P10) **Autor: **[Hugo Dueñas](mailto:hugochiquito.cpp@gmail.com)
