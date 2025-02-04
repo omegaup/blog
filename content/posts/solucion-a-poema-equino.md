@@ -5,6 +5,7 @@ author_email: 'me@freddy.mx'
 date: Sun, 27 Jul 2014 07:08:35 +0000
 draft: false
 tags: ['Solution', '2014', 'bfs', 'búsqueda', 'dfs', 'Etapa 1', 'Freddy', 'nieves', 'poema equino', 'preselectivo', 'Problemset 5', 'solución', 'soluciones', 'Soluciones Preselectivo 2014']
+math: true
 ---
 
 **Concurso:** [Preselectivo para la IOI 2015, Etapa 1, Problemset 5](https://omegaup.com/arena/IOI2015E1P5/#problems/Poema-Equino) **Autor:** [Freddy Román Cepeda](http://freddy.mx/) **Fuente**: Edgar Augusto Santiago Nieves, [Freddy Román Cepeda](http://freddy.mx/)
