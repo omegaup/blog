@@ -1,7 +1,7 @@
 ---
 title: '¿Quieres Contribuir al Equipo de Ingeniería de Software de omegaUp?'
 author: 'heduenas'
-author_email: 'heduenas@omegaup.com  '
+author_email: 'hugo@omegaup.com  '
 date: Tue, 18 Feb 2025 06:52:20 +0000
 draft: false
 tags: ['News', 'Anuncios', 'omegaUp']
