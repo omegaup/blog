@@ -1,5 +1,6 @@
 ---
 title: 'Guía para la Propuesta de Insignias en omegaUp'
+weight: 4
 author: 'Carlos Córdova'
 author_email: 'carlos@omegaup.com'
 date: Tue, 08 Oct 2019 14:54:10 +0000

@@ -1,5 +1,6 @@
 ---
 title: 'Introducción a Omegaup, parte 2 - Problemas básicos'
+weight: 3
 author: 'joemmanuel'
 author_email: 'joemmanuel@gmail.com'
 date: Tue, 08 Oct 2013 14:48:09 +0000

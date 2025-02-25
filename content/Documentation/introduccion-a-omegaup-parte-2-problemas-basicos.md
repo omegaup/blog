@@ -1,5 +1,6 @@
 ---
 title: 'Introducción a omegaUp, parte 1'
+weight: 3
 author: 'joemmanuel'
 author_email: 'joemmanuel@gmail.com'
 date: Wed, 09 Oct 2013 16:39:54 +0000
