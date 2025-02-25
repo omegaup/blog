@@ -1,8 +1,8 @@
 ---
-title: Entradas del blog omegaUp
+title: Políticas de omegaUp
 weight: 0
 cascade:
-  type: blog
+  type: docs
 sidebar:
   exclude: true
 toc: true

@@ -1,5 +1,6 @@
 ---
 title: 'Introducción a omegaUp, parte 0'
+weight: 2
 author: 'lhchavez'
 author_email: 'lhchavez@omegaup.com'
 date: Fri, 29 Nov 2013 20:35:09 +0000

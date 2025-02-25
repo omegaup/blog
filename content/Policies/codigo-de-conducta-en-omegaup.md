@@ -1,5 +1,6 @@
 ---
 title: 'Código de Conducta en omegaUp'
+weight: 2
 author: 'vanessa'
 author_email: 'vanessa@omegaup.org'
 date: Thu, 23 Apr 2020 01:11:47 +0000

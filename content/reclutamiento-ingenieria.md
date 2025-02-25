@@ -1,3 +1,8 @@
+---
+title: Reclutamiento Ingenieria
+weight: 30
+---
+
 # ¿Quieres Contribuir al Equipo de Ingeniería de Software de omegaUp?
 
 Si te apasiona la programación y buscas un proyecto desafiante donde aplicar tus habilidades, omegaUp te ofrece la oportunidad de contribuir al desarrollo de nuestra plataforma educativa.  Buscamos personas motivadas y dispuestas a invertir tiempo y esfuerzo en aprender y crecer con nosotros.

@@ -19,9 +19,24 @@ menu:
   main:
     - name: Blog
       pageRef: /posts
+      weight: 1
+    - name: Documentación
+      pageRef: /documentation
+      weight: 2
+    - name: Características
+      pageRef: /features
+      weight: 3
+    - name: Políticas
+      pageRef: /policies
+      weight: 4
+    - name: Estudio
+      pageRef: /study
       weight: 5
-    - name: Buscar
+    - name: Soluciones
+      pageRef: /solution
       weight: 6
+    - name: Buscar
+      weight: 0
       params:
         type: search
 
@@ -35,6 +50,8 @@ params:
       link: /
       width: 70
       height: 36
+  displayUpdatedDate: true
+  dateFormat: "2 January 2006"
 
   footer:
     displayCopyright: true

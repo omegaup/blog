@@ -1,5 +1,6 @@
 ---
 title: 'Reglas del Coder del Mes'
+weight: 3
 author: 'vanessa'
 author_email: 'vanessa@omegaup.org'
 date: Thu, 23 Apr 2020 01:18:18 +0000

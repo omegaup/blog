@@ -1,8 +1,6 @@
 ---
 title: Novedades
-sidebar:
-  exclude: true
-toc: true
+weight: 20
 ---
 
 Descubre nuestra información actualizada relevante.
