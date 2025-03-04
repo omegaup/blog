@@ -1,1 +1,989 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>omegaUp blog – Home</title><link>https://blog.omegaup.com/</link><description>Recent content in Home on omegaUp blog</description><generator>Hugo -- gohugo.io</generator><language>es</language><lastBuildDate>Tue, 18 Feb 2025 06:52:20 +0000</lastBuildDate><atom:link href="https://blog.omegaup.com/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>omegaUp blog – Home</title><link>https://blog.omegaup.com/</link><description>Recent content in Home on omegaUp blog</description><generator>Hugo -- gohugo.io</generator><language>es</language><lastBuildDate>Mon, 24 Feb 2025 12:00:01 +0000</lastBuildDate><atom:link href="https://blog.omegaup.com/index.xml" rel="self" type="application/rss+xml"/><item><title>¿Quieres Contribuir al Equipo de Ingeniería de Software de omegaUp?</title><link>https://blog.omegaup.com/posts/reclutamiento-ingenieria/</link><pubDate>Tue, 18 Feb 2025 06:52:20 +0000</pubDate><guid>https://blog.omegaup.com/posts/reclutamiento-ingenieria/</guid><description>
+&lt;p>Si te apasiona la programación y buscas un proyecto desafiante donde aplicar tus habilidades, omegaUp te ofrece la oportunidad de contribuir al desarrollo de nuestra plataforma educativa. Buscamos personas motivadas y dispuestas a invertir tiempo y esfuerzo en aprender y crecer con nosotros.&lt;/p>
+&lt;p>&lt;strong>¿Qué es omegaUp?&lt;/strong>&lt;/p>
+&lt;p>omegaUp es una plataforma en línea que ofrece desafíos de programación y aprendizaje para estudiantes de todos los niveles. Nuestra misión es fomentar el desarrollo de habilidades tecnológicas.&lt;/p>
+&lt;p>&lt;strong>¿Qué Buscamos?&lt;/strong>&lt;/p>
+&lt;p>Buscamos personas con iniciativa y compromiso que deseen contribuir con su talento al desarrollo de nuestra plataforma. La participación en el equipo de ingeniería de omegaUp requiere dedicación y la voluntad de aprender y adaptarse a nuestros procesos. Estamos abiertos a colaborar con personas en cualquier etapa de su carrera profesional en ingeniería de software, desde estudiantes de los primeros semestres hasta profesionistas con años de experiencia.&lt;/p>
+&lt;p>&lt;strong>El Proceso de Incorporación:&lt;/strong>&lt;/p>
+&lt;p>Hemos establecido un programa de entrenamiento para nuevos voluntarios. Este programa requiere que los candidatos exploren los siguientes recursos y demuestren su capacidad para contribuir:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Documentación:&lt;/strong> La documentación de nuestro código y proceso de desarrollo está disponible en &lt;a href="https://github.com/omegaup/omegaup/wiki" target="_blank" rel="noopener">nuestro wiki de GitHub&lt;/a>. Este es el punto de partida para cualquier persona interesada.&lt;/li>
+&lt;li>&lt;strong>Videotutorial:&lt;/strong> Un videotutorial sobre cómo instalar el entorno de desarrollo local está disponible &lt;a href="https://www.youtube.com/watch?v=H1PG4Dvje88" target="_blank" rel="noopener">aquí&lt;/a>.&lt;/li>
+&lt;li>&lt;strong>Canal de Discord:&lt;/strong> El canal #dev_training en &lt;a href="https://discord.com/invite/K3JFd9d3wk" target="_blank" rel="noopener">nuestro servidor de Discord&lt;/a> ofrece un espacio para consultas técnicas. Se puede escribir en inglés o español.&lt;/li>
+&lt;li>&lt;strong>&amp;ldquo;Good First Issues&amp;rdquo;:&lt;/strong> Una lista de tareas introductorias está disponible en GitHub: &lt;a href="https://github.com/omegaup/omegaup/issues?q=is%3Aissue&amp;#43;is%3Aopen&amp;#43;label%3A%22Good&amp;#43;first&amp;#43;issue%22" target="_blank" rel="noopener">&amp;ldquo;Good first issues&amp;rdquo;&lt;/a>.&lt;/li>
+&lt;li>&lt;strong>&amp;ldquo;Good Second Issues&amp;rdquo;:&lt;/strong> Para aquellos que ya tienen experiencia, hay una lista de tareas más desafiantes: &lt;a href="https://github.com/omegaup/omegaup/issues?q=is%3Aissue&amp;#43;is%3Aopen&amp;#43;label%3A%22Good&amp;#43;second&amp;#43;issue%22" target="_blank" rel="noopener">&amp;ldquo;Good second issues&amp;rdquo;&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>El Entrenamiento:&lt;/strong>&lt;/p>
+&lt;p>El entrenamiento está abierto a cualquier persona que desee participar. No es necesario solicitar permiso.&lt;/p>
+&lt;p>&lt;strong>¿Cómo Unirse al Equipo?&lt;/strong>&lt;/p>
+&lt;p>Para ser considerado miembro del equipo de ingeniería, se requiere haber revisado la documentación y resuelto 5 &amp;ldquo;Good first issues&amp;rdquo; + 5 &amp;ldquo;Good second issues&amp;rdquo;. Una vez alcanzado este nivel, los candidatos serán contactados y, si lo desean, se les proporcionará una cuenta de correo @omegaup.com.&lt;/p>
+&lt;p>&lt;strong>¿Interesado?&lt;/strong>&lt;/p>
+&lt;p>Si estás dispuesto a invertir el tiempo y el esfuerzo necesarios, explora los recursos mencionados y comienza a trabajar. El equipo de omegaUp valora la iniciativa y el compromiso.&lt;/p></description></item><item><title>Relanzamiento del Programa "Coder del Mes"</title><link>https://blog.omegaup.com/posts/coder-del-mes-2025/</link><pubDate>Tue, 18 Feb 2025 06:52:20 +0000</pubDate><guid>https://blog.omegaup.com/posts/coder-del-mes-2025/</guid><description>
+&lt;p>¡Nos complace anunciar mejoras importantes en el proceso de selección del &lt;strong>Coder del Mes&lt;/strong> en &lt;strong>omegaUp&lt;/strong>! Como algunos de ustedes habrán notado, hemos experimentado algunos problemas ocasionales con esta función recientemente. Esto se debió a la complejidad del código subyacente, lo que dificultaba la identificación y resolución rápida de los problemas. Entendemos que estas interrupciones pueden ser frustrantes, y siempre nos esforzamos por brindar una experiencia fluida y confiable. Agradecemos su paciencia mientras trabajábamos para abordar estos desafíos.&lt;/p>
+&lt;p>Para solucionar esto, hemos realizado una refactorización profunda del motor del Coder del Mes. Hemos reescrito una parte significativa del sistema, enfocándonos en la simplicidad y el mantenimiento. Esto significa que el código ahora es significativamente más fácil de entender, depurar y mejorar. Si bien es posible que no vean ningún cambio inmediato en la superficie, esta refactorización interna nos prepara para una mayor confiabilidad y estabilidad en el futuro. Esperamos una experiencia del Coder del Mes más fluida y consistente a partir de ahora en omegaUp, y también nos permitirá agregar nuevas funciones y mejoras más fácilmente en el futuro.&lt;/p>
+&lt;p>Para recordarles cómo funciona, el algoritmo del Coder del Mes se basa en los siguientes criterios:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Problemas de Calidad&lt;/strong>: Solo se consideran problemas que han sido marcados con el sello de calidad.&lt;/li>
+&lt;li>&lt;strong>Primeras Resoluciones&lt;/strong>: Solo cuentan los problemas que el usuario resuelve por primera vez durante el mes en curso.&lt;/li>
+&lt;li>&lt;strong>Puntos por Problema&lt;/strong>: Los puntos que otorga cada problema se calculan según la fórmula descrita en: &lt;a href="https://blog.omegaup.com/posts/el-nuevo-ranking-de-omegaup/" target="_blank" rel="noopener">https://blog.omegaup.com/posts/el-nuevo-ranking-de-omegaup/&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Soluciones Vistas&lt;/strong>: No se consideran problemas cuya solución oficial ya haya sido vista por el usuario en omegaUp.&lt;/li>
+&lt;li>&lt;strong>Problemas Creados&lt;/strong>: No se consideran problemas que el usuario haya agregado a omegaUp.&lt;/li>
+&lt;li>&lt;strong>Categoría &amp;ldquo;Para Ellas&amp;rdquo;&lt;/strong>: En esta categoría, solo pueden participar usuarias registradas con género femenino.&lt;/li>
+&lt;li>&lt;strong>Ganadores Recientes&lt;/strong>: Un usuario que haya sido elegido Coder del Mes en los últimos 12 meses no es elegible.&lt;/li>
+&lt;/ul>
+&lt;p>El algoritmo calcula los puntos que cada usuario elegible obtiene por resolver problemas de calidad, teniendo en cuenta estos criterios. El Coder del Mes es seleccionado en base a estos cálculos.&lt;/p>
+&lt;p>Además, queremos anunciar que el Coder del Mes de febrero será publicado el 1 de marzo de 2025. A partir de esa fecha, publicaremos el Coder del Mes del mes anterior, tanto para la categoría general como para la categoría femenina, el primer día de cada mes. ¡Gracias nuevamente por su comprensión!&lt;/p></description></item><item><title>Revisión de código en envíos de cursos</title><link>https://blog.omegaup.com/posts/revision-codigo-envios-cursos/</link><pubDate>Mon, 19 Aug 2024 23:12:06 +0000</pubDate><guid>https://blog.omegaup.com/posts/revision-codigo-envios-cursos/</guid><description>
+&lt;p>Nos complace anunciar la liberación de una nueva funcionalidad llamada &lt;strong>“Revisión de código en envíos de cursos”&lt;/strong>. Esta herramienta permitirá a las personas organizadoras de cursos brindar retroalimentación directamente en el código enviado por sus estudiantes, agilizando así el proceso de revisión.&lt;/p>
+&lt;h2>Antecedentes&lt;span class="hx-absolute -hx-mt-20" id="antecedentes">&lt;/span>
+&lt;a href="#antecedentes" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Anteriormente, en los cursos de &lt;em>omegaUp&lt;/em>, solo se disponía de un campo general para escribir retroalimentación por cada envío realizado por la persona estudiante. Esto impedía que la persona organizadora contara con las herramientas necesarias para detallar adecuadamente los comentarios.&lt;/p>
+&lt;p>Aunque esta retroalimentación podía ser editada, al modificar el mensaje original, este ya no podía ser visualizado nuevamente.&lt;/p>
+&lt;p>Con esta nueva funcionalidad, se busca que la persona organizadora tenga más opciones para proporcionar retroalimentación detallada en cada envío. Además, se ofrece la posibilidad de registrar una lista de personas que puedan colaborar en la importante tarea de revisión de código, fundamental en el desarrollo de software.&lt;/p>
+&lt;h2>Definición de la nueva funcionalidad&lt;span class="hx-absolute -hx-mt-20" id="definición-de-la-nueva-funcionalidad">&lt;/span>
+&lt;a href="#definici%c3%b3n-de-la-nueva-funcionalidad" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Para entender cómo funcionarán las retroalimentaciones de código, es necesario comenzar explicando la creación de un nuevo rol dentro de los cursos en &lt;em>omegaUp&lt;/em>.&lt;/p>
+&lt;h2>Rol de asistente de enseñanza&lt;span class="hx-absolute -hx-mt-20" id="rol-de-asistente-de-enseñanza">&lt;/span>
+&lt;a href="#rol-de-asistente-de-ense%c3%b1anza" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Con la creación de la nueva funcionalidad, la tarea de revisión de código puede aumentar significativamente, al punto de que la persona organizadora del curso se vea abrumada cuando una gran cantidad de estudiantes soliciten retroalimentación en sus soluciones enviadas.&lt;/p>
+&lt;p>La primera alternativa para solucionar este problema es que la persona organizadora agregue más administradores al curso. Estos administradores tendrán los mismos privilegios que la persona organizadora, incluyendo la capacidad de realizar revisiones de código.&lt;/p>
+&lt;p>El principal inconveniente de esta solución es que todas las personas administradoras pueden modificar la configuración del curso, lo cual no es recomendable, ya que la persona organizadora podría perder el control sobre las tareas, fechas, listado de problemas, entre otras cosas.&lt;/p>
+&lt;p>Por esta razón, se decidió crear un nuevo rol que permite a la persona organizadora agregar tantas personas como sea necesario con el perfil de &lt;strong>asistentes de enseñanza&lt;/strong> dentro de un curso.&lt;/p>
+&lt;h2>¿Cómo agregar asistentes de enseñanza en un curso?&lt;span class="hx-absolute -hx-mt-20" id="cómo-agregar-asistentes-de-enseñanza-en-un-curso">&lt;/span>
+&lt;a href="#c%c3%b3mo-agregar-asistentes-de-ense%c3%b1anza-en-un-curso" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>El proceso para agregar &lt;strong>asistentes de enseñanza&lt;/strong> es similar al de agregar una persona administradora. Como se muestra en la &lt;em>imagen 1&lt;/em>, lo primero que se debe hacer es ingresar a la vista de &lt;em>Editar curso&lt;/em> en la sección de &lt;em>Cursos que administro&lt;/em>:&lt;/p>
+&lt;figure>&lt;a href="https://blog.omegaup.com/images/image_01-Courses_List.png">&lt;img src="https://blog.omegaup.com/images/image_01-Courses_List.png"
+alt="Imagen 1" width="549" height="146">&lt;/a>
+&lt;/figure>
+&lt;p>Luego, dirígete a la pestaña de &lt;em>Admins&lt;/em>, donde podrás agregar cuentas individuales o, si lo prefieres, un grupo de cuentas:&lt;/p>
+&lt;figure>&lt;a href="https://blog.omegaup.com/images/image_02-Course_Edit_Admins.png">&lt;img src="https://blog.omegaup.com/images/image_02-Course_Edit_Admins.png"
+alt="Imagen 2" width="549" height="329">&lt;/a>
+&lt;/figure>
+&lt;p>Una vez realizados estos pasos, todas las cuentas a las que se les haya asignado el rol de &lt;strong>asistente de enseñanza&lt;/strong> podrán ingresar al curso y proporcionar retroalimentación a cualquier envío realizado por las personas estudiantes.&lt;/p>
+&lt;figure>&lt;a href="https://blog.omegaup.com/images/Image_03-Courses_List_TA.png">&lt;img src="https://blog.omegaup.com/images/Image_03-Courses_List_TA.png"
+alt="Imagen 3" width="549" height="160">&lt;/a>
+&lt;/figure>
+&lt;p>Las personas con el rol de &lt;strong>asistentes de enseñanza&lt;/strong> solo pueden ver los detalles del curso, pero no pueden editar nada, como se muestra en la siguiente imagen:&lt;/p>
+&lt;figure>&lt;a href="https://blog.omegaup.com/images/Image_04-Course_Details_TA.png">&lt;img src="https://blog.omegaup.com/images/Image_04-Course_Details_TA.png"
+alt="Imagen 4" width="549" height="363">&lt;/a>
+&lt;/figure>
+&lt;h2>¿Cómo puedo solicitar retroalimentación si soy estudiante?&lt;span class="hx-absolute -hx-mt-20" id="cómo-puedo-solicitar-retroalimentación-si-soy-estudiante">&lt;/span>
+&lt;a href="#c%c3%b3mo-puedo-solicitar-retroalimentaci%c3%b3n-si-soy-estudiante" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>El proceso para solicitar retroalimentación como estudiante es sencillo. Una vez que hayas ingresado a una actividad de un curso y realizado un envío a cualquiera de los problemas, encontrarás un botón en la tabla de envíos de dicho problema:&lt;/p>
+&lt;figure>&lt;a href="https://blog.omegaup.com/images/Image_05-Runs_List_Student_Requests_Feedback.png">&lt;img src="https://blog.omegaup.com/images/Image_05-Runs_List_Student_Requests_Feedback.png"
+alt="Imagen 5" width="549" height="152">&lt;/a>
+&lt;/figure>
+&lt;p>Al hacer clic en el botón, se enviará una notificación a todas las personas organizadoras y &lt;strong>asistentes de enseñanza&lt;/strong> del curso. Solo tendrás que esperar su retroalimentación.&lt;/p>
+&lt;h2>¿Cómo brindar retroalimentación como organizador del curso o asistente de enseñanza?&lt;span class="hx-absolute -hx-mt-20" id="cómo-brindar-retroalimentación-como-organizador-del-curso-o-asistente-de-enseñanza">&lt;/span>
+&lt;a href="#c%c3%b3mo-brindar-retroalimentaci%c3%b3n-como-organizador-del-curso-o-asistente-de-ense%c3%b1anza" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Una vez que la persona organizadora del curso o el &lt;strong>asistente de enseñanza&lt;/strong> reciben la notificación de que un estudiante ha solicitado retroalimentación en un envío, pueden proceder de la siguiente manera:&lt;/p>
+&lt;ol>
+&lt;li>Ingresar al curso y a la tarea correspondiente.&lt;/li>
+&lt;li>Seleccionar la pestaña de &lt;strong>Envíos&lt;/strong>.&lt;/li>
+&lt;li>Hacer clic en el botón de detalles del envío al que se dará retroalimentación. Estos envíos son fáciles de identificar, ya que muestran un globo indicando que tienen una solicitud de revisión, como se muestra a continuación:&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;a href="https://blog.omegaup.com/images/Image_06-Runs_List_Admin_Notification.png">&lt;img src="https://blog.omegaup.com/images/Image_06-Runs_List_Admin_Notification.png"
+alt="Imagen 6" width="549" height="137">&lt;/a>
+&lt;/figure>
+&lt;p>Al hacer clic en el botón de detalles del envío, será posible agregar comentarios de retroalimentación en las líneas de código donde la persona organizadora considere necesario. Estos comentarios ayudarán a la persona estudiante a comprender en qué puede mejorar su código. En la siguiente animación se muestra cómo realizar este proceso:&lt;/p>
+&lt;figure>&lt;a href="https://blog.omegaup.com/images/Image_07-Admin_Feedback.gif">&lt;img src="https://blog.omegaup.com/images/Image_07-Admin_Feedback.gif"
+alt="Imagen 7" width="549" height="344">&lt;/a>
+&lt;/figure>
+&lt;p>En este momento se abre la comunicación entre la persona estudiante y la persona organizadora del curso, ya que las personas estudiantes pueden interactuar en cada uno de los comentarios brindados por las personas organizadoras. En la siguiente imagen se muestra lo antes mencionado:&lt;/p>
+&lt;figure>&lt;a href="https://blog.omegaup.com/images/Image_08-Student_Response.gif">&lt;img src="https://blog.omegaup.com/images/Image_08-Student_Response.gif"
+alt="Imagen 8" width="549">&lt;/a>
+&lt;/figure>
+&lt;h2>Conclusión&lt;span class="hx-absolute -hx-mt-20" id="conclusión">&lt;/span>
+&lt;a href="#conclusi%c3%b3n" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>La nueva funcionalidad de revisión de código en &lt;em>omegaUp&lt;/em> transforma la manera en que las personas organizadoras de cursos y &lt;strong>asistentes de enseñanza&lt;/strong> pueden interactuar con las personas estudiantes. Al permitir una retroalimentación detallada y específica en el código, se mejora significativamente el proceso de aprendizaje y se facilita la comunicación efectiva entre todas las partes involucradas.&lt;/p>
+&lt;p>Esta herramienta es especialmente valiosa para cursos en línea y para docentes con una gran carga de trabajo, ya que permite delegar la tarea de revisión sin perder el control sobre el contenido del curso.&lt;/p>
+&lt;p>Invitamos a todas las personas organizadoras de cursos a aprovechar esta nueva funcionalidad y a experimentar de primera mano los beneficios de una retroalimentación más precisa y eficiente. ¡Empieza hoy mismo a mejorar la calidad de tus cursos con la revisión de código en &lt;em>omegaUp&lt;/em>!&lt;/p></description></item><item><title>Verano de Programación de Google con omegaUp</title><link>https://blog.omegaup.com/news/gsoc2022/</link><pubDate>Sun, 20 Mar 2022 01:11:47 +0000</pubDate><guid>https://blog.omegaup.com/news/gsoc2022/</guid><description>
+&lt;h1>Verano de Programación de Google con omegaUp&lt;/h1>&lt;h2>¿Te interesaría trabajar en un proyecto de Ingeniería de Software para omegaUp en un programa patrocinado por Google? Te invitamos a aplicar a &lt;a href="https://summerofcode.withgoogle.com/programs/2022/organizations/omegaup" target="_blank" rel="noopener">&lt;em>Google Summer of Code 2022&lt;/em>&lt;/a>.&lt;span class="hx-absolute -hx-mt-20" id="te-interesaría-trabajar-en-un-proyecto-de-ingeniería-de-software-para-omegaup-en-un-programa-patrocinado-por-google-te-invitamos-a-aplicar-a-_google-summer-of-code-2022_httpssummerofcodewithgooglecomprograms2022organizationsomegaup">&lt;/span>
+&lt;a href="#te-interesar%c3%ada-trabajar-en-un-proyecto-de-ingenier%c3%ada-de-software-para-omegaup-en-un-programa-patrocinado-por-google-te-invitamos-a-aplicar-a-_google-summer-of-code-2022_httpssummerofcodewithgooglecomprograms2022organizationsomegaup" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h3>¿Qué es Google Summer of Code?&lt;span class="hx-absolute -hx-mt-20" id="qué-es-google-summer-of-code">&lt;/span>
+&lt;a href="#qu%c3%a9-es-google-summer-of-code" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Google Summer of Code, o GSoC, es un programa anual internacional en el cual Google premia con &lt;a href="https://developers.google.com/open-source/gsoc/help/student-stipends" target="_blank" rel="noopener">estipendios económicos&lt;/a> a aquellas personas que sean aceptadas en el programa y completen exitosamente un proyecto de contribución a un proyecto de código abierto. Este año omegaUp forma las organizaciones elegibles.&lt;/p>
+&lt;h3>¿En qué proyectos puedo trabajar?&lt;span class="hx-absolute -hx-mt-20" id="en-qué-proyectos-puedo-trabajar">&lt;/span>
+&lt;a href="#en-qu%c3%a9-proyectos-puedo-trabajar" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Tenemos una &lt;a href="https://github.com/omegaup/omegaup/wiki/Google-Summer-of-Code-2022/#ideas-list" target="_blank" rel="noopener">lista de 5 proyectos&lt;/a> de la cual podrás escoger.&lt;/p>
+&lt;h3>¿Hay una remuneración económica?&lt;span class="hx-absolute -hx-mt-20" id="hay-una-remuneración-económica">&lt;/span>
+&lt;a href="#hay-una-remuneraci%c3%b3n-econ%c3%b3mica" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Así es, Google otorga estipendios económicos a aquellas personas que sean aceptadas en el programa y completen exitosamente un proyecto. El monto que se otorgará depende del tamaño del proyecto y del país en el que residas. Para más detalles de los pagos ingresa a &lt;a href="https://developers.google.com/open-source/gsoc/help/student-stipends" target="_blank" rel="noopener">página oficial&lt;/a> de GSoC.&lt;/p>
+&lt;h3>¿Cuáles son los requisitos?&lt;span class="hx-absolute -hx-mt-20" id="cuáles-son-los-requisitos">&lt;/span>
+&lt;a href="#cu%c3%a1les-son-los-requisitos" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Cada proyecto de la &lt;a href="https://github.com/omegaup/omegaup/wiki/Google-Summer-of-Code-2022/#ideas-list" target="_blank" rel="noopener">lista&lt;/a> detalla una lista de tecnologías que requiere. Además de eso, es necesario tener habilidad con git e inglés escrito y leído. &lt;em>No&lt;/em> es necesario ser estudiante, a partir de este año cualquier persona es elegible.&lt;/p>
+&lt;h3>¿Cuál es el proceso de aplicación?&lt;span class="hx-absolute -hx-mt-20" id="cuál-es-el-proceso-de-aplicación">&lt;/span>
+&lt;a href="#cu%c3%a1l-es-el-proceso-de-aplicaci%c3%b3n" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>El proceso consiste de los siguientes pasos:&lt;/p>
+&lt;ol>
+&lt;li>Resuelve por lo menos 2 problemas de &lt;a href="https://omegaup.com/arena/gsoc2022" target="_blank" rel="noopener">esta prueba&lt;/a>.&lt;/li>
+&lt;li>Únete a nuestro canal de &lt;a href="https://discord.com/channels/832682734115094638/951215673424613486" target="_blank" rel="noopener">discord&lt;/a>.&lt;/li>
+&lt;li>Instala el entorno de desarrollo de omegaUp: &lt;a href="https://github.com/omegaup/omegaup/wiki/Development-Environment-Setup-Process" target="_blank" rel="noopener">instrucciones&lt;/a>.&lt;/li>
+&lt;li>Resuelve un par de issues de tu elección de la &lt;a href="https://github.com/omegaup/omegaup/issues" target="_blank" rel="noopener">lista&lt;/a>.&lt;/li>
+&lt;li>Escribe tu aplicación con una propuesta de solución al proyecto que hayas elegido de la &lt;a href="https://github.com/omegaup/omegaup/wiki/Google-Summer-of-Code-2022/#ideas-list" target="_blank" rel="noopener">lista de ideas&lt;/a>.&lt;/li>
+&lt;li>Manda tu aplicación antes del &lt;em>18 de abril&lt;/em>.&lt;/li>
+&lt;/ol>
+&lt;p>Más detalles sobre el proceso de aplicación en &lt;a href="https://github.com/omegaup/omegaup/wiki/Google-Summer-of-Code-2022/#application-process" target="_blank" rel="noopener">nuestro wiki&lt;/a>.&lt;/p>
+&lt;p>&lt;img src="https://user-images.githubusercontent.com/13296248/159149882-63dd12ef-4e45-45ea-bdbf-72d40d704481.png" alt="gsoc" loading="lazy" />&lt;/p></description></item><item><title>Bases de Liga de Programación de omegaUp</title><link>https://blog.omegaup.com/news/bases-de-liga-de-programacion-de-omegaup/</link><pubDate>Fri, 10 Dec 2021 00:22:57 +0000</pubDate><guid>https://blog.omegaup.com/news/bases-de-liga-de-programacion-de-omegaup/</guid><description>
+&lt;p>omegaUp Invita a todos los estudiantes de nivel media superior y superior a participar a la 2° edición de la Liga de programación omegaUp.&lt;/p>
+&lt;p>&lt;strong>Reglas&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Deben ser estudiantes de Preparatoria, Licenciatura, Maestría, Doctorado o Postdoctorado.&lt;/li>
+&lt;li>Los puntos otorgados por cada problema serán tomados como parte del puntaje final.&lt;/li>
+&lt;li>El primer AC de cada etapa recibirá 10 puntos extras.&lt;/li>
+&lt;li>Problemas resueltos parcialmente serán tomados en cuenta.&lt;/li>
+&lt;li>Para determinar los ganadores se utilizará como criterio el número de puntos obtenidos y como segundo criterio el número de AC que tenga a lo largo de las etapas, es decir gana el quien tenga mayor cantidad de puntos y en caso de ser necesario mayor número de problemas resueltos correctamente. &lt;/li>
+&lt;/ul>
+&lt;p> &lt;/p>
+&lt;p>&lt;strong>Dinamica:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>La Liga de Programación omegaUp contará con diferentes etapas a lo largo del 2022 y parte del 2021.&lt;/li>
+&lt;li>Al final de cada concurso se entregan los puntos correspondientes a cada participante.&lt;/li>
+&lt;li>Al llegar a la etapa final de la liga de programación de omegaUp se sumarán todos los puntos de cada participante que se obtuvieron durante todas las rondas y se premiará al participante que más puntos haya sumado.&lt;/li>
+&lt;/ul>
+&lt;p> &lt;/p>
+&lt;p>&lt;strong>Premios:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Los premios para los primeros 3 lugares se darán trofeos únicos.&lt;/li>
+&lt;li>Cada participante recibirá una constancia de participación.&lt;/li>
+&lt;li>Se entregará un reconocimiento especial y playeras personalizadas a los mejores 10 participantes.&lt;/li>
+&lt;li>Los participantes tendrán la oportunidad de hacerte notar con empresas de tecnología que están buscando talento en Ingeniería de Software.&lt;/li>
+&lt;/ul>
+&lt;p> &lt;/p>
+&lt;p>&lt;strong>Lenguajes de programación permitidos:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>C&lt;/li>
+&lt;li>C++&lt;/li>
+&lt;li>Java&lt;/li>
+&lt;/ul>
+&lt;p> &lt;/p>
+&lt;p>Cualquier punto no especificado en esta convocatoria, será resuelto por el Comité Organizador y su decisión será inapelable.&lt;/p></description></item><item><title>Análisis de diferencias en salidas para envíos de problemas educativos</title><link>https://blog.omegaup.com/posts/analisis-de-diferencias-en-salidas-para-envios-de-problemas-educativos/</link><pubDate>Mon, 07 Sep 2020 02:13:18 +0000</pubDate><guid>https://blog.omegaup.com/posts/analisis-de-diferencias-en-salidas-para-envios-de-problemas-educativos/</guid><description>
+&lt;p>Hemos liberado una nueva funcionalidad que será muy útil para los usuarios que comienzan a utilizar la plataforma, ya que contarán con una herramienta más para apoyarlos en su aprendizaje. Esta funcionalidad les permitirá ver un análisis de las diferencias entre las salidas que dan sus programas y las salidas oficiales para los envíos de problemas educativos.&lt;/p>
+&lt;h3>¿En qué consiste el análisis de las diferencias?&lt;span class="hx-absolute -hx-mt-20" id="en-qué-consiste-el-análisis-de-las-diferencias">&lt;/span>
+&lt;a href="#en-qu%c3%a9-consiste-el-an%c3%a1lisis-de-las-diferencias" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Para todos los problemas educativos que accedan vía cursos, los usuarios podrán comparar el resultado que obtuvo la salida de la solución que acaban de enviar, contra el resultado que se espera de acuerdo a los casos que subió el creador del problema.&lt;/p>
+&lt;h3>Ventajas&lt;span class="hx-absolute -hx-mt-20" id="ventajas">&lt;/span>
+&lt;a href="#ventajas" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>El uso de esta herramienta traerá beneficios, tanto para profesores como para estudiantes, los cuales se describen a continuación:&lt;/p>
+&lt;h4>Profesor&lt;span class="hx-absolute -hx-mt-20" id="profesor">&lt;/span>
+&lt;a href="#profesor" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>Tiempo: Al permitir a los estudiantes ser más autodidactas, el profesor tendrá más tiempo para revisar temas de mayor relevancia o donde los estudiantes presentan más problemas. &lt;/li>
+&lt;/ul>
+&lt;h4>Alumno&lt;span class="hx-absolute -hx-mt-20" id="alumno">&lt;/span>
+&lt;a href="#alumno" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>Problemas auto didácticos: Al recibir retroalimentación más completa desde la plataforma, el estudiante puede realizar más problemas, los cuales lo irán guiando con las pistas para llegar a la solución de los problemas sin necesidad de contar con la figura del profesor.&lt;/li>
+&lt;/ul>
+&lt;h3>¿Cómo funciona esta nueva herramienta?&lt;span class="hx-absolute -hx-mt-20" id="cómo-funciona-esta-nueva-herramienta">&lt;/span>
+&lt;a href="#c%c3%b3mo-funciona-esta-nueva-herramienta" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>Profesor&lt;span class="hx-absolute -hx-mt-20" id="profesor-1">&lt;/span>
+&lt;a href="#profesor-1" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>Lo primero que se debe tomar en cuenta por parte del profesor / creador de problemas es que el problema sea meramente educativo, quiere decir, que este no vaya a ser tomado en cuenta o ya se esté usando en concursos, ya que esto podría dar ventaja a usuarios que ya hayan visto las salidas esperadas. &lt;/p>
+&lt;p>Una vez que ya se definió que el problema se utilizará con fines educativos se procede a la configuración. &lt;/p>
+&lt;p>Si el problema es nuevo, se sigue el mismo procedimiento como para crear cualquier problema: &lt;em>Menú &amp;gt; Problemas &amp;gt; Crear un problema&lt;/em>, donde se encontrará el siguiente campo:&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/01-Configurar-problema-nuevo.png" >&lt;img src="https://blog.omegaup.com/images/01-Configurar-problema-nuevo.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
+&lt;p>Las opciones disponibles son:&lt;/p>
+&lt;ul>
+&lt;li>Ninguno (predeterminado): El problema continúa como siempre ha existido, sin mostrar diferencias de salidas en los casos.&lt;/li>
+&lt;li>Sólo ejemplos: Se mostrarán las diferencias de salidas para todos los casos que se guardaron en el directorio &lt;em>examples&lt;/em>.&lt;/li>
+&lt;li>Todos: Se mostrarán las diferencias de salidas para todos los casos que se agregaron en el archivo &lt;em>.zip&lt;/em>, incluidos los ejemplos.&lt;/li>
+&lt;/ul>
+&lt;p>En caso de que el problema ya exista y se desee agregar esta configuración, se debe ingresar a la sección de editar problema de la forma tradicional: &lt;em>Menú &amp;gt; Usuario &amp;gt; Mis problemas&lt;/em>, y después dar clic en el icono de Editar problema &lt;a href="https://blog.omegaup.com/images/001-Editar-problema.png" >&lt;img src="https://blog.omegaup.com/images/001-Editar-problema.png" alt="" loading="lazy" />&lt;/a> . En este formulario también se encontrará disponible la configuración:&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/02-Configurar-problema-existente.png" >&lt;img src="https://blog.omegaup.com/images/02-Configurar-problema-existente.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
+&lt;p>El siguiente paso es agregar el problema a algún curso; recuerda que esta configuración sólo funciona en ese lugar.&lt;/p>
+&lt;h4>Estudiante&lt;span class="hx-absolute -hx-mt-20" id="estudiante">&lt;/span>
+&lt;a href="#estudiante" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>Para que los estudiantes puedan aprovechar esta herramienta deben estar inscritos al curso que contenga problemas educativos. &lt;/p>
+&lt;p>1.- El primer paso a realizar es ingresar al curso, tal como se hace tradicionalmente, seleccionar la tarea en la que estará trabajando y elegir el problema educativo.&lt;/p>
+&lt;p>2.- Después se debe enviar una solución y esperar a que el juez de omegaUp evalúe el envío. En el listado de envíos aparece el botón para ver los detalles, dar clic.&lt;/p>
+&lt;p>3.- En la ventana que aparece se mostrará la información de los casos, con su respectivo puntaje por cada grupo.&lt;/p>
+&lt;p>4.- Puedes presionar cualquiera de los botones &lt;a href="https://blog.omegaup.com/images/002-Seleccionar-grupo-de-casos.png" >&lt;img src="https://blog.omegaup.com/images/002-Seleccionar-grupo-de-casos.png" alt="" loading="lazy" />&lt;/a>  para ver la diferencia en las salidas de los casos, si todos los casos del grupo son los mismos que los esperados o si hay alguna salida que no coincide.&lt;/p>
+&lt;p>En la siguiente animación se puede ver su funcionamiento tal como le aparecerá al estudiante en el curso:&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/ShowOutputDiffs_.webm" >&lt;video autoplay muted loop>
+&lt;source src="https://blog.omegaup.com/images/ShowOutputDiffs_.webm" type="video/mp4">
+&lt;/video>
+&lt;/a>&lt;/p></description></item><item><title>Todos los videos del curso de Introducción la Programación con C++</title><link>https://blog.omegaup.com/news/todos-los-videos-del-curso-de-introduccion-a-c/</link><pubDate>Tue, 07 Apr 2020 04:05:35 +0000</pubDate><guid>https://blog.omegaup.com/news/todos-los-videos-del-curso-de-introduccion-a-c/</guid><description>
+&lt;p>&lt;em>Actualización 10/04/20: El curso ha terminado y este post incluye los 11 videos.&lt;/em>&lt;/p>
+&lt;p>Como parte de la iniciativa &lt;a href="https://blog.omegaup.com/quedate-en-casa-con-omegaup-nuestra-respuesta-al-covid-19/" target="_blank" rel="noopener">#QuédateEnCasaConOmegaUp&lt;/a> estuvimos impartiendo un curso de Introducción a C++ en vivo a través de &lt;a href="https://www.facebook.com/omegaup/" target="_blank" rel="noopener">Facebook Live&lt;/a>.&lt;/p>
+&lt;p>El material del curso está disponible de forma abierta y gratuita en la plataforma de omegaUp y puedes acceder &lt;a href="https://omegaup.com/course/introduccion_a_cpp" target="_blank" rel="noopener">en este enlace&lt;/a>  (&lt;a href="https://omegaup.com/course/introduccion_a_cpp" target="_blank" rel="noopener">https://omegaup.com/course/introduccion_a_cpp&lt;/a>) para ver el material y resolver los ejercicios en línea.&lt;/p>
+&lt;p>Aquí te dejamos un enlace a todos los videos y estaremos actualizando este post con cada video nuevo en la serie:&lt;/p>
+&lt;iframe
+style="border: none; overflow: hidden;"
+src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/omegaup/videos/548429432756527/&amp;amp;show_text=0&amp;amp;width=560"
+width="560"
+height="315"
+frameborder="0"
+scrolling="no"
+allowfullscreen="allowfullscreen">&lt;/iframe>
+&lt;iframe
+style="border: none; overflow: hidden;"
+src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/omegaup/videos/522543238459779/&amp;amp;show_text=0&amp;amp;width=560"
+width="560"
+height="315"
+frameborder="0"
+scrolling="no"
+allowfullscreen="allowfullscreen">&lt;/iframe>
+&lt;iframe
+style="border: none; overflow: hidden;"
+src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/omegaup/videos/212668543167064/&amp;amp;show_text=0&amp;amp;width=560"
+width="560"
+height="315"
+frameborder="0"
+scrolling="no"
+allowfullscreen="allowfullscreen">&lt;/iframe>
+&lt;iframe
+style="border: none; overflow: hidden;"
+src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/omegaup/videos/357400058497402/&amp;amp;show_text=0&amp;amp;width=560"
+width="560"
+height="315"
+frameborder="0"
+scrolling="no"
+allowfullscreen="allowfullscreen">&lt;/iframe>
+&lt;iframe
+style="border: none; overflow: hidden;"
+src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/omegaup/videos/259828738377759/&amp;amp;show_text=0&amp;amp;width=560"
+width="560"
+height="315"
+frameborder="0"
+scrolling="no"
+allowfullscreen="allowfullscreen">&lt;/iframe>
+&lt;iframe
+style="border: none; overflow: hidden;"
+src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/omegaup/videos/172244170473447/&amp;amp;show_text=0&amp;amp;width=560"
+width="560"
+height="315"
+frameborder="0"
+scrolling="no"
+allowfullscreen="allowfullscreen">&lt;/iframe>
+&lt;iframe
+style="border: none; overflow: hidden;"
+src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/omegaup/videos/2832040483566590/&amp;amp;show_text=0&amp;amp;width=560"
+width="560"
+height="315"
+frameborder="0"
+scrolling="no"
+allowfullscreen="allowfullscreen">&lt;/iframe>
+&lt;iframe
+style="border: none; overflow: hidden;"
+src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/omegaup/videos/677485326343175/&amp;amp;show_text=0&amp;amp;width=560"
+width="560"
+height="315"
+frameborder="0"
+scrolling="no"
+allowfullscreen="allowfullscreen">&lt;/iframe>
+&lt;iframe
+style="border: none; overflow: hidden;"
+src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/omegaup/videos/657605908142270/&amp;amp;show_text=0&amp;amp;width=560"
+width="560"
+height="315"
+frameborder="0"
+scrolling="no"
+allowfullscreen="allowfullscreen">&lt;/iframe>
+&lt;iframe
+style="border: none; overflow: hidden;"
+src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/omegaup/videos/918756455213141/&amp;amp;show_text=0&amp;amp;width=560"
+width="560"
+height="315"
+frameborder="0"
+scrolling="no"
+allowfullscreen="allowfullscreen">&lt;/iframe>
+&lt;iframe
+style="border: none; overflow: hidden;"
+src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/omegaup/videos/225875965155647/&amp;amp;show_text=0&amp;amp;width=560"
+width="560"
+height="315"
+frameborder="0"
+scrolling="no"
+allowfullscreen="allowfullscreen">&lt;/iframe>
+&lt;p>Queremos agradecer especialmente a nuestro usuario &lt;a href="https://omegaup.com/profile/OrlandoIsay" target="_blank" rel="noopener">&lt;strong>OrlandoIsay&lt;/strong>&lt;/a> del &lt;a href="https://omegaup.com/schools/profile/53/" target="_blank" rel="noopener">Instituto Tecnológico Superior del Sur de Guanajuato (ITSUR)&lt;/a> por impartir este excelente curso.&lt;/p></description></item><item><title>Quédate en casa con omegaUp - nuestra respuesta al COVID-19</title><link>https://blog.omegaup.com/news/quedate-en-casa-con-omegaup-nuestra-respuesta-al-covid-19/</link><pubDate>Mon, 23 Mar 2020 03:38:03 +0000</pubDate><guid>https://blog.omegaup.com/news/quedate-en-casa-con-omegaup-nuestra-respuesta-al-covid-19/</guid><description>
+&lt;h3>&lt;strong>Querida comunidad omegaUp:&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="querida-comunidad-omegaup">&lt;/span>
+&lt;a href="#querida-comunidad-omegaup" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>La epidemia del COVID-19 ha causado cambios importantes en nuestra vida diaria, trabajo, escuela y familia. Para ayudar a manejar el Distanciamiento Social a toda nuestra comunidad, hemos creado la campaña &lt;strong>Quédate en casa con omegaUp:&lt;/strong> una serie de iniciativas educacionales en línea para apoyar la continuidad de la educación tecnológica en Latinoamérica.&lt;/p>
+&lt;h4>&lt;img src="https://blog.omegaup.com/images/Screen-Shot-2020-03-23-at-7.53.05-AM.png" alt="" loading="lazy" />&lt;span class="hx-absolute -hx-mt-20" id="imagesscreen-shot-2020-03-23-at-75305-ampng">&lt;/span>
+&lt;a href="#imagesscreen-shot-2020-03-23-at-75305-ampng" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;h4>1. Tutoriales para Profesores: ¿Cómo usar omegaUp para dar clases de programación en línea?&lt;span class="hx-absolute -hx-mt-20" id="1-tutoriales-para-profesores-cómo-usar-omegaup-para-dar-clases-de-programación-en-línea">&lt;/span>
+&lt;a href="#1-tutoriales-para-profesores-c%c3%b3mo-usar-omegaup-para-dar-clases-de-programaci%c3%b3n-en-l%c3%adnea" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>&lt;a href="https://omegaUp.com" target="_blank" rel="noopener">omegaUp.com&lt;/a> es una plataforma gratuita en Español que ayuda a estudiantes a mejorar sus habilidades en Ingeniería de Software resolviendo retos de programación de una forma divertida y competitiva. Profesores de más de 100 escuelas de nivel Medio Superior y Superior en México y Latinoamérica usan la plataforma para dejar tareas y exámenes con retos de programación que los alumnos pueden resolver en línea.&lt;/p>
+&lt;p>Te invitamos a ver nuestros video-tutoriales para saber cómo funciona la plataforma de omegaUp y cómo puedes usarla para administrar tus cursos de programación en línea. Aquí dejamos el primer tutorial, en los próximos días produciremos más tutoriales que publicaremos en &lt;a href="https://facebook.com/omegaup" target="_blank" rel="noopener">nuestra página de Facebook&lt;/a>:&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=NgaYc9eYBbo" target="_blank" rel="noopener">https://www.youtube.com/watch?v=NgaYc9eYBbo&lt;/a>&lt;/p>
+&lt;h4>2. Para estudiantes: Ciclo de Conferencias en línea vía Facebook Live&lt;span class="hx-absolute -hx-mt-20" id="2-para-estudiantes-ciclo-de-conferencias-en-línea-vía-facebook-live">&lt;/span>
+&lt;a href="#2-para-estudiantes-ciclo-de-conferencias-en-l%c3%adnea-v%c3%ada-facebook-live" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>Experiencias de Carrera es uno de los programas sociales de omegaUp que busca conectar el talento latinoamericano con experiencia en la industria de la Ingeniería de Software con estudiantes para motivarlos a continuar en el ramo de las Ciencias Computacionales y compartir la experiencia de trabajar en compañías como Google, Microsoft, Facebook entre otras.&lt;/p>
+&lt;p>Usualmente omegaUp organiza estas pláticas para las instituciones reconocidas como La Escuela del Mes y Clubes de Programación omegaUp. Sin embargo durante Marzo y Abril abriremos el ciclo de conferencias a todos los estudiantes que deseen entrar a través de Facebook Live. &lt;a href="https://facebook.com/omegaup" target="_blank" rel="noopener">Síguenos en nuestra página de Facebook&lt;/a> para que te enteres de las fechas y no te pierdas a ninguno de nuestros excelentes ponentes.&lt;/p>
+&lt;h4>3. Para estudiantes: Aprende a programar en C++ con omegaUp - curso en línea&lt;span class="hx-absolute -hx-mt-20" id="3-para-estudiantes-aprende-a-programar-en-c-con-omegaup---curso-en-línea">&lt;/span>
+&lt;a href="#3-para-estudiantes-aprende-a-programar-en-c-con-omegaup---curso-en-l%c3%adnea" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p> &lt;/p>
+&lt;p>En omegaUp estamos preparando un curso en línea gratuito y abierto al público en general para aprender a programar en C++ en línea, con omegaUp. El curso estará basado en &lt;a href="https://omegaup.com/course/introduccion_a_cpp/" target="_blank" rel="noopener">el material de Introducción a C++ que tenemos disponible en la plataforma de omegaUp&lt;/a>.&lt;/p>
+&lt;p>Este curso será una excelente oportunidad para alumnos de nivel Medio Superior y Superior que deseen ampliar sus conocimientos de Ingeniería de Software, o todos aquellos simplemente empezar a incursionar en el amplio mundo de las Ciencias Computacionales.&lt;/p>
+&lt;p>&lt;a href="https://www.facebook.com/omegaup" target="_blank" rel="noopener">Síguenos en nuestra página de Facebook&lt;/a> para conocer los horarios y más detalles sobre el curso.&lt;/p>
+&lt;h4>4. Liga de Programación omegaUp&lt;span class="hx-absolute -hx-mt-20" id="4-liga-de-programación-omegaup">&lt;/span>
+&lt;a href="#4-liga-de-programaci%c3%b3n-omegaup" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>¿Estás interesado en el mundo de la programación competitiva? omegaUp organizará la 1er Liga de Programación omegaUp, una serie de concursos semanales abiertos al público en general con temas y niveles de dificultad variados, &lt;strong>empezando el próximo Jueves 26 de Marzo.&lt;/strong>&lt;/p>
+&lt;p>Demuestra tus habilidades de resolución de problemas computacionales y mejora tu nivel compitiendo contra los mejores. &lt;a href="https://facebook.com/omegaup" target="_blank" rel="noopener">Para más detalles sobre las bases, registro, premios y fechas consulta nuestra página de Facebook&lt;/a>.&lt;/p>
+&lt;h4>5. Para nuestros amigos en Centroamérica: 1er Copa Centroamericana de Programación&lt;span class="hx-absolute -hx-mt-20" id="5-para-nuestros-amigos-en-centroamérica-1er-copa-centroamericana-de-programación">&lt;/span>
+&lt;a href="#5-para-nuestros-amigos-en-centroam%c3%a9rica-1er-copa-centroamericana-de-programaci%c3%b3n" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>&lt;img src="https://blog.omegaup.com/images/copa-centro.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>En omegaUp también estamos organizando la 1er Copa Centroamericana de Programación, una competición dirigida a nuestra comunidad de El Salvador, Honduras y Guatemala. El concurso se llevará a cabo el Sábado 25 de Abril. Para mayor información sobre los requisitos y registro te invitamos &lt;a href="https://www.facebook.com/omegaup/photos/a.761830983857345/3824008820972864/?type=3&amp;amp;theater" target="_blank" rel="noopener">a leer nuestras bases aquí.&lt;/a>&lt;/p>
+&lt;hr>
+&lt;p>En estos momentos difíciles es cuando más creemos que podemos contribuir a la causa educacional. Por favor ayúdanos a compartir este mensaje con el hashtag &lt;strong>#QuédateEnCasaConOmegaUp&lt;/strong>. Estamos en contacto y por favor cuiden de su salud y la de sus familiares manteniéndose en casa.&lt;/p>
+&lt;p>&lt;img src="https://blog.omegaup.com/images/firma.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>Joe Ponce Director Ejecutivo, omegaUp&lt;/p></description></item><item><title>¡Muchas gracias! - 2da Gala Anual de omegaUp</title><link>https://blog.omegaup.com/news/muchas-gracias-2da-gala-anual-de-omegaup/</link><pubDate>Sat, 26 Oct 2019 21:23:21 +0000</pubDate><guid>https://blog.omegaup.com/news/muchas-gracias-2da-gala-anual-de-omegaup/</guid><description>
+&lt;figure>&lt;img src="https://cdn-images-1.medium.com/max/1600/1*Gr623CWgQgKR2xI8TSuhZw.jpeg"
+alt="Prof. Pedro Fuentes dando un gran discurso en la 2da Gala de omegaUp." width="1600" height="1064">&lt;figcaption>
+&lt;p>Prof. Pedro Fuentes dando un gran discurso en la 2da Gala de omegaUp.&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;h3>&lt;strong>Queridos amigos,&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="queridos-amigos">&lt;/span>
+&lt;a href="#queridos-amigos" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Gracias a la increíble generosidad de todos los participantes, nuestra 2ª Gala Anual celebrada el 19 de Octubre trajo casi $ 40,000 en fondos que serán utilizados para ayudarnos a mejorar &lt;a href="https://l.facebook.com/l.php?u=http%3A%2F%2FomegaUp.com%2F%3Ffbclid%3DIwAR0WRcGsxP2gzq9DTO96QrLhjaEVjSuP0fJfiasy95YJkxf2rv1bGB6PF5U&amp;amp;h=AT3O0ru6muZCNIYmIbF5mrHloU30xToGAUJeyLUB_kcVZ2QMzoQ42SPg7Z5slTsk0rEWDf3Tn494kdsJ2leYOBivvFBYaU-IVLgD5dgS6eiel-eRnFGik9E7TdlZDe1YREqs6xueUJ4" target="_blank" rel="noopener">omegaUp.com&lt;/a> como una plataforma de aprendizaje gratuita para llegar a más estudiantes, y continuar nuestros programas sociales.&lt;/p>
+&lt;figure>&lt;img src="https://cdn-images-1.medium.com/max/1600/1*vbpQftUiXULtUk9fSbZHDA.jpeg"
+alt="Códigos de Yucatán by Rafa Díaz, Artist &amp;amp; member of omegaUp Board of Directors" width="1600" height="1064">&lt;figcaption>
+&lt;p>Códigos de Yucatán by Rafa Díaz, Artist &amp;amp; member of omegaUp Board of Directors&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>&lt;img src="https://cdn-images-1.medium.com/max/1600/1*I0kwpjkZa43JHieMy6tLVA.jpeg"
+alt="Eduardo Sosa, Consul Adscrito de México en Seattle, en el discurso de apertura." width="1600" height="1064">&lt;figcaption>
+&lt;p>Eduardo Sosa, Consul Adscrito de México en Seattle, en el discurso de apertura.&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>Hemos sido honrados por la presencia de &lt;strong>Eduardo Sosa, Cónsul de México, Clary Monzón, Cónsul General de El Salvador y Miguel Ángel Velásquez, Cónsul General de Perú.&lt;/strong> &lt;em>&amp;ldquo;El trabajo de omegaUp debe ser visto como el puente que une los sueños de nuestros estudiantes con un entorno de innovación que ya está sucediendo en todo el mundo&amp;rdquo;&lt;/em>, fueron las palabras de apoyo del honorable Cónsul Eduardo Sosa. &lt;em>&amp;ldquo;Los puentes te van a llevar más lejos que las paredes. Son más difíciles de hacer, y deshacer.&amp;rdquo;&lt;/em>, fueron las palabras de aliento del honorable Cónsul Miguel Ángel Velásquez.&lt;/p>
+&lt;figure>&lt;img src="https://cdn-images-1.medium.com/max/1600/1*f_nQw8Pxu5m9UqBwGQFXlQ.jpeg"
+alt="Miguel Ángel Velásquez, Honorable Consul de Perú. Clary Monzón, Honorable Consul de El Salvador in Seattle" width="1600" height="1064">&lt;figcaption>
+&lt;p>Miguel Ángel Velásquez, Honorable Consul de Perú. Clary Monzón, Honorable Consul de El Salvador in Seattle&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>&lt;img src="https://cdn-images-1.medium.com/max/1600/1*NUIcptjhW4N3ViCfEG1YHg.jpeg"
+alt="Miguel Ángel Velásquez, Honorable Consul de Perú en Seattle" width="1600" height="1064">&lt;figcaption>
+&lt;p>Miguel Ángel Velásquez, Honorable Consul de Perú en Seattle&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>Hemos celebrado los logros de la Escuela del Año, el &lt;strong>Instituto Técnico Superior del Sur de Guanajuato&lt;/strong> representado por el &lt;strong>Prof. Germán Gutiérrez&lt;/strong>, el organizador principal de la Coding Cup ITSUR 2019, un concurso de programación organizado en omegaUp que cuenta con 1500 estudiantes que participaron en todo México.&lt;/p>
+&lt;figure>&lt;img src="https://cdn-images-1.medium.com/max/1600/1*XUC5r1gEez3Q3vKjPK4-0g.jpeg"
+alt="La Escuela del Año: Nancy Pacheco, parte del omegaUp Board of Directors y Prof. Germán Gutiérrez del Instituto Tecnológico Superior del Sur de Guanajuato." width="1600" height="1064">&lt;figcaption>
+&lt;p>La Escuela del Año: Nancy Pacheco, parte del omegaUp Board of Directors y Prof. Germán Gutiérrez del Instituto Tecnológico Superior del Sur de Guanajuato.&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p> &lt;/p>
+&lt;p>El &lt;strong>Prof. Pedro Fuentes&lt;/strong> compartió, en un emotivo discurso, su experiencia al guiar a los alumnos del &lt;strong>Centro de Bachillerato Tecnológico Agropecuario #39&lt;/strong> &lt;strong>en Temoac, Morelos&lt;/strong>, a participar en competiciones internacionales de robótica utilizando la magia de la programación como su fuerte. La historia del Prof. Pedro estará siempre grabada en nuestros recuerdos como un ejemplo de logro y éxito a través de la perseverancia.&lt;/p>
+&lt;figure>&lt;img src="https://cdn-images-1.medium.com/max/1600/1*2Gg-yJEYKlEJgtb36f2ArQ.jpeg"
+alt="Salvador Segura  - parte del  omegaUp Board of Directors, cerrando la Gala 2019." width="1600" height="1064">&lt;figcaption>
+&lt;p>Salvador Segura  - parte del  omegaUp Board of Directors, cerrando la Gala 2019.&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p> &lt;/p>
+&lt;p>Gracias - amigos, voluntarios y donadores - por hacer posible estas historias de éxito. Su apoyo inspira talento y nos motiva a continuar en este viaje.&lt;/p>
+&lt;figure>&lt;img src="https://cdn-images-1.medium.com/max/1600/1*PaPTIxrR6R2fi5L8ef3ZXg.jpeg"
+alt="omegaUp Fundraising Team y amigos" width="1600" height="1108">&lt;figcaption>
+&lt;p>omegaUp Fundraising Team y amigos&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>Para mayor información sobre la organización, visita &lt;a href="https://omegaup.org" target="_blank" rel="noopener">omegaUp.org&lt;/a> y síguenos en &lt;a href="https://www.facebook.com/omegaup" target="_blank" rel="noopener">Facebook&lt;/a>.&lt;/p>
+&lt;p>Sinceramente,&lt;/p>
+&lt;p>&lt;img src="https://cdn-images-1.medium.com/max/1200/1*zFYSvG_LWknUPe601D4qNA.png" alt="" loading="lazy" />&lt;/p>
+&lt;p> &lt;/p>
+&lt;p>&lt;img src="https://blog.omegaup.com/images/firma.png" alt="" loading="lazy" /> Joemmanuel Ponce Director Ejecutivo - omegaUp.&lt;/p></description></item><item><title>Reporte anual de actividades 2019</title><link>https://blog.omegaup.com/news/reporte-de-actividades-2019/</link><pubDate>Tue, 01 Oct 2019 00:00:02 +0000</pubDate><guid>https://blog.omegaup.com/news/reporte-de-actividades-2019/</guid><description>
+&lt;blockquote>
+&lt;p>&lt;img src="https://cdn-images-1.medium.com/max/800/0*I4SePvbkFRTkq7DH.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>&amp;ldquo;Yo sí creo que omegaUp me ayudó a llegar aquí [Microsoft], porque fue la primera plataforma que usé, y por bastante tiempo, para aprender las bases; y eso realmente cambió el destino de mi vida y para dónde fue mi camino” - Elsy Pinzón, Software Engineer en Microsoft de Yucatán, México.&lt;/p>
+&lt;/blockquote>
+&lt;h1>&lt;strong>Queridos amigos,&lt;/strong>&lt;/h1>&lt;p>Cuando escribimos la primer línea de código de omegaUp.com 8 años atrás, estábamos cambiando la industria del software en México, pero no lo sabíamos aún. El 2019 marcó el tercer año de operaciones desde que omegaUp se convirtió en una asociación sin fines de lucro ( registro 501(c)(3) en Estados Unidos) con la misión de &lt;em>construir el camino del mejor talento en Ingeniería de Software en América Latina, ofreciendo una plataforma de aprendizaje accesible y programas sociales.&lt;/em>&lt;/p>
+&lt;p>Estamos convencidos que &lt;strong>el idioma no debe ser una barrera de entrada a la industria de la Ingeniería de Software&lt;/strong>: es por eso que creamos omegaUp.com, una plataforma gratuita online con contenido en Español donde los estudiantes pueden mejorar sus habilidades de programación resolviendo retos. Creemos en el rol fundamental que los profesores tienen en la educación de sus alumnos: es por eso que creamos herramientas en omegaUp para que los profesores administren sus cursos de programación, tareas y organicen exámenes.&lt;/p>
+&lt;figure>&lt;a href="http://omegaup.com/">&lt;img src="https://cdn-images-1.medium.com/max/800/1*R5cTDZJsxk9apOISywS24Q.png"
+alt="omegaUp.com" width="738" height="575">&lt;/a>&lt;figcaption>
+&lt;p>omegaUp.com&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>Gracias a la generosidad de ustedes, nuestros donadores, en 2019 pudimos ofrecer un servicio gratuito en omegaUp.com a 22,689 usuarios que resolvieron al menos 1 reto, 88% de ellos de México. En total nuestros usuarios resolvieron 189,151 retos. omegaUp se usa en más de 200 Preparatorias y Universidades, haciéndolo una herramienta de vital importancia en la educación de Ciencias Computacionales de muchos estudiantes. Sólo hay una forma de que una plataforma online pueda ser tan popular sin un presupuesto de promoción: simplemente hace el trabajo de los profesores y estudiantes más fácil.&lt;/p>
+&lt;figure>&lt;img src="https://cdn-images-1.medium.com/max/1600/1*hFK-2lmjqF-p1yLLEuj5yA.jpeg"
+alt="Luis Héctor Chávez, CTO of omegaUp (back) and Juan Pablo Gómez, Software Engineer at omegaUp (right) helping open source contributors at CCOSS 2019." width="1600" height="1200">&lt;figcaption>
+&lt;p>&lt;strong>Luis Héctor Chávez&lt;/strong>, CTO de omegaUp (atrás) y &lt;strong>Juan Pablo Gómez&lt;/strong>, Software Engineer en omegaUp (right) ayudando a más contribuidores de Open Source en el  CCOSS 2019.&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>Nuestros programas sociales van dirigidos a inspirar talento promocionando las carreras exitosas de la comunidad latinoamericana en la Ingeniería de Software. Este año empezamos &lt;a href="https://www.youtube.com/playlist?list=PLdSCJwXErQ8HaBjqgL_ISj5UWnFFHGxJQ" target="_blank" rel="noopener">&lt;strong>Historias omegaUp&lt;/strong>&lt;/a>, una serie de entrevistas con Ingenieros de Software de Microsoft y Facebook que aprendieron a programar en omegaUp.com.&lt;/p>
+&lt;p>Esperamos que estas historias ayuden a inspirar más talento en Latinoamerica validando el valor de nuestra comunidad en la industria.&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/Vhf3CizYG7Q?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
+&lt;/div>
+&lt;p>Con nuestro programa &lt;strong>Experiencias de Carrera,&lt;/strong> organizamos 8 videoconferencias, conectando más de 2000 estudiantes con el talento de la industria que trabaja en compañías como Amazon, DigitalOnUs, Microsoft y Oracle. Estudiantes de escuelas como el Colegio de Bachilleres Tecnológico Agropecuario (CBTa #39) en Temoac, Morelos, CONALEP 252 en Veracruz, la Universidad de Guanajuato, México, tuvieron la oportunidad de escuchar experiencias  y recomendaciones de talento latinoamericano actualmente trabajando en la industria.&lt;/p>
+&lt;figure>&lt;img src="https://blog.omegaup.com/images/2018-conalep-252.jpeg"
+alt="Salvador Segura (Director de Business Programs en Microsoft) platicando con alumnos del CONALEP 252 en Veracruz, México" width="1280" height="720">&lt;figcaption>
+&lt;p>Salvador Segura (Director de Business Programs en Microsoft) platicando con alumnos del CONALEP 252 en Veracruz, México&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>Lanzamos &lt;strong>Clubes de Programación omegaUp,&lt;/strong> un programa piloto que tiene como objetivo apoyar grupos estudiantiles y clubes de programación con recursos que maximicen su impacto. Estamos trabajando muy de cerca con la Universidad Autónoma de Chihuahua y el Colegio de Bachilleres de Chihuahua. Además, cada mes premiamos al mejor estudiante de omegaUp con nuestro programa de &lt;strong>Coder del Mes.&lt;/strong>&lt;/p>
+&lt;figure>&lt;img src="https://blog.omegaup.com/images/2018-COBACH.jpg"
+alt="Miguel Romero, Director de Programas en omegaUp (centro) con alumnos del Colegio de Bachilleres de Chihuahua, México" width="1439" height="959">&lt;figcaption>
+&lt;p>Miguel Romero, Director de Programas en omegaUp (centro) con alumnos del Colegio de Bachilleres de Chihuahua, México&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>Uno de los retos más cruciales que enfrentamos como industria es la diversidad de género. &lt;strong>Sólo el 26% de los usuarios de omegaUp son mujeres.&lt;/strong> Este número no está nada cerca de donde quisiéramos que esté, y como una plataforma educativa de alto impacto reconocemos nuestra responsabilidad social para ayudar con este problema. Estamos comprometidos a ayudar a cerrar la brecha existente incentivando y apoyando esfuerzos de diversidad de género a través de los Clubes de Programación registrados en nuestro programa, donde es un objetivo mutuo incrementar la participación femenina en las actividades del club. &lt;/p>
+&lt;p>Nuestros logros no podrían ser posibles sin el tremendo esfuerzo y pasión de nuestros &lt;strong>23 voluntarios&lt;/strong> distribuidos en Estados Unidos, México y Perú. A todos ellos, muchas gracias por su fantástico compromiso e incansable labor en cumplimiento de la misión de omegaUp.&lt;/p>
+&lt;figure>&lt;img src="https://blog.omegaup.com/images/DSC01017.jpg"
+alt="Voluntarios de omegaUp en el área de Seattle, WA" width="1228" height="816">&lt;figcaption>
+&lt;p>Voluntarios de omegaUp en el área de Seattle, WA&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>&lt;img src="https://cdn-images-1.medium.com/max/1600/1*EcX-_IkX-ssqRC_YoZ6ALA.jpeg"
+alt="Voluntarios de omegaUp de México y Silicon Valley" width="1600" height="1200">&lt;figcaption>
+&lt;p>Voluntarios de omegaUp en México y Silicon Valley&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>Todos estos resultados fueron obtenidos con un presupuesto operativo de tan sólo $62,247 dólares de los cuales 71% se usaron para nuestros programas sociales: omegaUp.com, Experiencias de Carrera, Coders del Mes y Clubes de Programación. Invertimos 17% en nuestros esfuerzos de recaudación de fondo como la 1ra Gala Anual “The Aztec Coders” celebrada in Bellevue, WA, USA, donde gracias a la generosidad de nuestros donantes conseguimos $30,785 dólares en donaciones equivalentes al 49% de nuestro presupuesto anual.&lt;/p>
+&lt;figure>&lt;img src="https://cdn-images-1.medium.com/max/800/1*525XGL59ObluLKM_FQPlLA.jpeg"
+alt="omegaUp 1st Annual Gala 2018: The Aztec Coders" width="800" height="533">&lt;figcaption>
+&lt;p>omegaUp 1st Annual Gala 2018: The Aztec Coders&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;h2>&lt;strong>Tu apoyo inspira talento. Juntos podemos contribuir a crear una industria de Ingeniería de Software más diversa empoderando a nuestra comunidad Latinoamericana.&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="tu-apoyo-inspira-talento-juntos-podemos-contribuir-a-crear-una-industria-de-ingeniería-de-software-más-diversa-empoderando-a-nuestra-comunidad-latinoamericana">&lt;/span>
+&lt;a href="#tu-apoyo-inspira-talento-juntos-podemos-contribuir-a-crear-una-industria-de-ingenier%c3%ada-de-software-m%c3%a1s-diversa-empoderando-a-nuestra-comunidad-latinoamericana" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h2>&lt;strong>Por favor únete a nuestra causa haciendo tu donación hoy: &lt;a href="https://omegaup.org/#donate" target="_blank" rel="noopener">https://omegaup.org/#donate&lt;/a>&lt;/strong>&lt;span class="hx-absolute -hx-mt-20" id="por-favor-únete-a-nuestra-causa-haciendo-tu-donación-hoy-httpsomegauporgdonatehttpsomegauporgdonate">&lt;/span>
+&lt;a href="#por-favor-%c3%banete-a-nuestra-causa-haciendo-tu-donaci%c3%b3n-hoy-httpsomegauporgdonatehttpsomegauporgdonate" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;figure>&lt;a href="https://omegaup.org/eventos/omegaup-gala-2019/index.html">&lt;img src="https://blog.omegaup.com/images/GALA2019.jpg"
+alt="Invitación a la Gala Anual de Recaudación de Fondos - Coding Latam. Octubre 19, Bellevue, WA, USA" width="1000" height="1000">&lt;/a>&lt;figcaption>
+&lt;p>Invitación a la Gala Anual de Recaudación de Fondos - Coding Latam. Octubre 19, Bellevue, WA, USA&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>Gracias por toda su ayuda.&lt;/p>
+&lt;p>&lt;img src="https://blog.omegaup.com/images/firma.png" alt="" loading="lazy" />&lt;/p>
+&lt;p>Joemmanuel Ponce CEO, omegaUp&lt;/p></description></item><item><title>Historias omegaUp 2018</title><link>https://blog.omegaup.com/news/historias-omegaup-2018/</link><pubDate>Sun, 18 Mar 2018 21:37:51 +0000</pubDate><guid>https://blog.omegaup.com/news/historias-omegaup-2018/</guid><description>
+&lt;h1>Convocatoria&lt;/h1>&lt;h2>“Historias omegaUp 2018”&lt;span class="hx-absolute -hx-mt-20" id="historias-omegaup-2018">&lt;/span>
+&lt;a href="#historias-omegaup-2018" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Convocamos a nuestra comunidad de usuarios, tanto alumnos como profesores, a que nos compartan cómo utilizan omegaUp en su vida diaria.&lt;/p>
+&lt;p>Los formatos pueden ser: un video corto o un texto con fotografías. Muéstranos tu comunidad y los lugares donde utilizas omegaUp: escuela, hogar, cibercafé, etc.&lt;/p>
+&lt;p>En tu historia puedes incluir temas como:&lt;/p>
+&lt;p>Para ti, ¿qué significa programar? ¿Cuáles son tus sueños profesionales? ¿En este momento de tu vida qué herramienta te hace falta para acercarte a esos sueños?&lt;/p>
+&lt;p>Cuando tengas tu historia lista, envíala a &lt;a href="mailto:historias@omegaup.com" >historias@omegaup.com&lt;/a> desde el correo en el que te hayas registrado en nuestra plataforma. Adjunta tus fotos o video en el correo. Si los archivos son muy grandes, puedes utilizar una plataforma en la nube y compartir el enlace con nosotros.&lt;/p>
+&lt;h2>Incentivos y dinámica&lt;span class="hx-absolute -hx-mt-20" id="incentivos-y-dinámica">&lt;/span>
+&lt;a href="#incentivos-y-din%c3%a1mica" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>El comité evaluador revisará todas las historias y seleccionará una de ellas para otorgar:&lt;/p>
+&lt;ul>
+&lt;li>Una computadora portátil HP (Modelo 15-bs001) de 15.6&amp;quot;.&lt;/li>
+&lt;li>$2,000.00 pesos (MXN) para libros.&lt;/li>
+&lt;/ul>
+&lt;p>Además, las historias serán presentadas a nuestros donadores en la Cena de Gala Anual de omegaUp en Bellevue, Washington.&lt;/p>
+&lt;h2>Fechas&lt;span class="hx-absolute -hx-mt-20" id="fechas">&lt;/span>
+&lt;a href="#fechas" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>La convocatoria comienza el lunes 19 de marzo y termina el viernes 27 de abril.&lt;/p>
+&lt;p>La persona seleccionada será anunciada el día lunes 7 de mayo a las 20:00 horas (Hora Central de México) en un broadcast en vivo en nuestro canal oficial de &lt;a href="http://facebook.com/omegaup" target="_blank" rel="noopener">Facebook&lt;/a>.&lt;/p>
+&lt;p>Si tienes alguna duda ó comentario contáctanos a &lt;a href="mailto:historias@omegaup.com" >historias@omegaup.com&lt;/a>&lt;/p>
+&lt;h2>Términos y condiciones:&lt;span class="hx-absolute -hx-mt-20" id="términos-y-condiciones">&lt;/span>
+&lt;a href="#t%c3%a9rminos-y-condiciones" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Al momento de enviarnos el material, nos estás dando permiso de utilizar y compartir el contenido en nuestras redes sociales. Tienes que ser mayor de 13 años para participar. La convocatoria está abierta solamente para ciudadanos residentes de países de Latinoamérica.&lt;/p></description></item><item><title>Se realiza la 1era Competencia Peruana de Informática Online en omegaUp</title><link>https://blog.omegaup.com/posts/se-realiza-la-1era-competencia-peruana-de-informatica-para-pre-universitarios/</link><pubDate>Thu, 01 Jun 2017 03:43:49 +0000</pubDate><guid>https://blog.omegaup.com/posts/se-realiza-la-1era-competencia-peruana-de-informatica-para-pre-universitarios/</guid><description>
+&lt;figure>&lt;a href="http://www.olimpiadadeinformatica.org.pe/" target="_blank">&lt;img src="http://www.olimpiadadeinformatica.org.pe/OPI/img/CPIO2017.png"
+alt="1ra Competencia Peruana de Informática Online" width="371" height="488">&lt;/a>&lt;figcaption>
+&lt;p>1ra Competencia Peruana de Informática Online&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>El pasado domingo 28 de mayo de 2017 se realizó la &lt;strong>&lt;a href="http://www.olimpiadadeinformatica.org.pe/OPI/" target="_blank" rel="noopener">1era Competencia Peruana de Informática Online&lt;/a> (CPIO)&lt;/strong>. Organizada por la &lt;a href="http://www.olimpiadadeinformatica.org.pe/OPI/FOPI.pdf" target="_blank" rel="noopener">&lt;strong>Federación Olímpica Peruana de Informática&lt;/strong>&lt;/a> &lt;strong>(FOPI)&lt;/strong>, la &lt;strong>CPIO&lt;/strong> es la primera competencia en su tipo que convoca a alumnos pre-universitarios de todo el Perú para conformar la delegación peruana rumbo a la &lt;strong>&lt;a href="http://oia.elsantodel90.tk/ciic/" target="_blank" rel="noopener">Competencia Iberoamericana de Informática y Computación&lt;/a> (CIIC) 2017&lt;/strong>**.**&lt;/p>
+&lt;p>Fundada en diciembre de 2016 por Aldo Culquicondor, Edson Ticona, Jonathan Quispe, L. Rodolfo Nájera, Raúl Gallegos, Rodolfo Mercado y Yesica Aquino, la &lt;strong>FOPI&lt;/strong> busca fomentar la informática competitiva pre-universitaria, apoyando a los niños y jóvenes peruanos a desarrollarse en este ámbito, preparando una delegación que represente al Perú y consolide logros internacionales.&lt;/p>
+&lt;p>La **CPIO **es una competencia multi-nivel de programación para jóvenes peruanos, con habilidades de resolución de problemas mediante el análisis, la lógica, el ingenio y la implementación de soluciones en un computador. El concurso realizado en &lt;a href="http://omegaup.com" target="_blank" rel="noopener">&lt;strong>omegaUp&lt;/strong>&lt;/a> contó con la participación de competidores de las principales ciudades peruanas:Arequipa, Callao, Chepen, Cusco, Ica, Lima, Piura, Pucallpa, Puno y Tacna.&lt;/p>
+&lt;p>Al ser la primera competencia de programación competitiva en el Perú, se espera que &lt;strong>CPIO&lt;/strong> marque el inicio del desarrollo de la informática en los jóvenes peruanos y como consecuencia un mejor desarrollo tecnológico en aquel país sudamericano, mencionó Aldo P. Culquicondor Ruiz, presidente de la &lt;strong>FOPI&lt;/strong>.&lt;/p>
+&lt;p>Luego de la competencia, quedaron seleccionados ocho competidores para representar al Perú en la &lt;strong>CIIC&lt;/strong> el próximo 10 de junio**:** Joaquin Rodrigo Palma Ugarte y Stheven Julmar Quispe Llamocca de Arequipa, Anthony Dante Yataco Torres y Nicolas Ticona Valdivia de Lima, Carlos Daniel Ramos Arellano de Piura, Johan Frank Cachicatari Ticona y Marcela Veronica Apaza Vilca de Puno y Roberto Carlos Huamán Rivera de Tacna.&lt;/p>
+&lt;p>Con la realización de esta competencia, la organización sin fines de lucro &lt;a href="https://omegaup.org/" target="_blank" rel="noopener">&lt;strong>omegaUp&lt;/strong> &lt;/a>da un paso importante para cumplir su objetivo de aumentar el número de ingenieros de software talentosos en todos los confines de América Latina.&lt;/p></description></item><item><title>Hackathon omegaUp febrero 2017 - Resultados</title><link>https://blog.omegaup.com/news/hackathon-omegaup-febrero-2017-resultados/</link><pubDate>Mon, 06 Mar 2017 17:11:20 +0000</pubDate><guid>https://blog.omegaup.com/news/hackathon-omegaup-febrero-2017-resultados/</guid><description>
+&lt;p>En omegaUp organizamos nuestro primer Hackathon del año abierto al público, del 23 al 25 de Febrero pasados. Esta vez incluimos un divertido Bug Bash, donde invitamos a nuestros voluntarios a encontrar bugs dentro de omegaUp y reportarlos en github.&lt;/p>
+&lt;p>Agradecemos la participación de todos los voluntarios que estuvieron involucrados. Los resultados que tuvimos fueron muy positivos: &lt;strong>50 bugs nuevos&lt;/strong> fueron descubiertos en el Bug Bash y se completaron &lt;strong>17 pull requests&lt;/strong>, muchos de ellos arreglando bugs que se encontraron en el mismo evento.&lt;/p>
+&lt;figure>&lt;a href="https://blog.omegaup.com/images/IMG_20170223_150412.jpg">&lt;img src="https://blog.omegaup.com/images/IMG_20170223_150412-300x225.jpg"
+alt="rcrx y joemmanuel hackathoneando." width="300" height="225">&lt;/a>&lt;figcaption>
+&lt;p>Rafael Díaz (rcxr) y Joe (joemmanuel) hackathoneando.&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>omegaUp ofreció como premio una tarjeta de regalo de Amazon a quién encontrara más bugs y otra más a quien reportara el bug más interesante. Felicitamos a &lt;a href="https://github.com/pacopedraza" target="_blank" rel="noopener">&lt;strong>pacopedraza&lt;/strong>&lt;/a> por llevarse el premio. El ranking de más bugs reportados quedó así:&lt;/p>
+&lt;ol>
+&lt;li>&lt;a href="https://github.com/rcxr" target="_blank" rel="noopener">rcxr&lt;/a>* (15)&lt;/li>
+&lt;li>&lt;a href="https://github.com/erosethan" target="_blank" rel="noopener">erosethan** &lt;/a>(13)&lt;/li>
+&lt;li>&lt;a href="https://github.com/alanboy" target="_blank" rel="noopener">alanboy&lt;/a>* (12)&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://github.com/pacopedraza" target="_blank" rel="noopener">pacopedraza&lt;/a> (6)&lt;/strong>&lt;/li>
+&lt;li>&lt;a href="https://github.com/cruzjorgesalazar" target="_blank" rel="noopener">cruzjorgesalazar&lt;/a> (1)&lt;/li>
+&lt;/ol>
+&lt;p>&lt;em>*No compite por premio por ser directivo de omegaUp for schools. ** Ganador del bug más interesante.&lt;/em>&lt;/p>
+&lt;p>Y el ganador al bug más interesante por votación fue &amp;ldquo;&lt;a href="https://github.com/omegaup/omegaup/issues/1087" target="_blank" rel="noopener">Create course with no credentials does nothing&lt;/a>&amp;rdquo; abierto por &lt;a href="https://github.com/erosethan" target="_blank" rel="noopener">erosethan&lt;/a>.&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/Screen-Shot-2017-03-01-at-10.11.01-PM.png" >&lt;img src="https://blog.omegaup.com/images/Screen-Shot-2017-03-01-at-10.11.01-PM-300x264.png" alt="bestbug-hackathon20171" loading="lazy" />&lt;/a>&lt;/p>
+&lt;p>El Hackathon y el Bug Bash se concentró en el nuevo proyecto que estamos trabajando internamente para facilitar el uso de omegaUp.com en el salón de clases: &lt;strong>omegaUp para escuelas.&lt;/strong> Los profesores que usan la plataforma podrán crear &lt;strong>Cursos&lt;/strong> dentro de omegaUp.com con **tareas y exámenes **para facilitar la organización de sus clases. Estas nuevas funcionalidades estarán disponibles para el público en general más tarde este año.&lt;/p>
+&lt;p>Agradecemos a todos su participación para ayudar a omegaUp a cumplir su misión de incrementar el número de ingenieros de software talentosos en América Latina. Si te gustaría participar en futuros eventos, contáctanos en &lt;a href="mailto:hello@omegaup.com" >hello@omegaup.com&lt;/a>.&lt;/p></description></item><item><title>OmegaUp Inc</title><link>https://blog.omegaup.com/news/omegaup-inc/</link><pubDate>Sat, 15 Oct 2016 08:57:38 +0000</pubDate><guid>https://blog.omegaup.com/news/omegaup-inc/</guid><description>
+&lt;p>Durante más de 5 años omegaUp ha sido un proyecto de medio tiempo para nosotros. Escribir nuevas funcionalidades es difícil ya que todos tenemos otras responsabilidades de tiempo completo. Así que hace 7 meses comenzamos a considerar la opción de formalizar nuestro proyecto y convertirnos en una organización establecida legamente, que nos permitiera recibir ingresos y contratar a desarrolladores que se dedicaran de tiempo completo a diseñar y mantener la plataforma.&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=6LpZhqUdAk8&amp;amp;feature=youtu.be" target="_blank" rel="noopener">Esta&lt;/a> fue la primera reunión que tuvimos al respecto, donde analizamos las ventajas y desventajas de incorporarnos. A lo largo de los meses siguientes trabajamos revisando requerimientos legales, escribiendo nuestros by-laws y en general, estableciendo las bases de lo que sería OmegaUp como una entidad legal. Decidimos que una organización sin fines de lucro en Estados Unidos era lo más apropiado, tanto por la naturaleza de lo que hacemos, así como por nuestra ubicación física.&lt;/p>
+&lt;p>Después de mucho trabajo, el 7 de octubre del 2016 recibimos la confirmación por parte del IRS de que nuestra organización es exenta del impuesto federal bajo el IRC sección &lt;strong>501(c)(3).&lt;/strong> Esto significa que OmegaUp es reconocida como una caridad publica a nivel estatal y federal y por ende todos sus donantes pueden deducir de sus impuestos las contribuciones que hagan a OmegaUp. También nos califica para recibir legados, transferencias o regalos.&lt;/p>
+&lt;p>Como parte del proceso de incorporación, se formó un &lt;a href="https://omegaup.org/board.html" target="_blank" rel="noopener">comité directivo&lt;/a> cuya responsabilidad será la de mantener la salud, preservación y progreso de esta organización. Cada uno de los miembros del comité directivo representara los intereses de los donantes y de la gente beneficiada con este proyecto.&lt;/p>
+&lt;p> Más información sobre la organizacion puede encontrarse en &lt;a href="http://omegaup.org" target="_blank" rel="noopener">http://omegaup.org&lt;/a>&lt;/p></description></item><item><title>Ibero-american Competition in Informatics 2016 - Modo Práctica</title><link>https://blog.omegaup.com/news/ibero-american-competition-in-informatics-2016-modo-practica/</link><pubDate>Tue, 26 Jul 2016 05:05:25 +0000</pubDate><guid>https://blog.omegaup.com/news/ibero-american-competition-in-informatics-2016-modo-practica/</guid><description>
+&lt;p>¿Quieres seguir practicando? El modo práctica del concurso Ibero-american Competition in Informatics 2016 ha sido habilitado &lt;a href="https://omegaup.com/arena/ciic2016-public/practice/#problems" target="_blank" rel="noopener">aquí&lt;/a>. Suerte!&lt;/p></description></item><item><title>IOI 2015 - Entrevista con blak_dragon1</title><link>https://blog.omegaup.com/news/ioi-2015-entrevista-con-blak_dragon1/</link><pubDate>Wed, 15 Jul 2015 14:26:13 +0000</pubDate><guid>https://blog.omegaup.com/news/ioi-2015-entrevista-con-blak_dragon1/</guid><description>
+&lt;p>&lt;a href="https://omegaup.com/profile/blak_dragon1" target="_blank" rel="noopener">&lt;img src="https://blog.omegaup.com/images/entrevistaIOI.jpg" alt="blak_dragon1" loading="lazy" />&lt;/a>&lt;/p>
+&lt;p>Para terminar con la serie de entrevistas a los representantes de México en la &lt;a href="http://ioi2015.kz/index" target="_blank" rel="noopener">IOI 2015&lt;/a>, tuvimos la oportunidad de platicar con &lt;a href="https://omegaup.com/profile/blak_dragon1" target="_blank" rel="noopener">blak_dragon1&lt;/a> (Ángel Ortega). Esto fue lo que nos dijo:&lt;/p>
+&lt;p>&lt;strong>Cuéntanos cómo empezaste a programar y qué te motiva a resolver problemas:&lt;/strong>&lt;/p>
+&lt;p>&lt;em>Todo empezó en un curso llamado “Aprende a Programar” para las Escuelas Secundarias Técnicas. Yo estudiaba en la Escuela Secundaria Técnica No. 37 el 1er grado, ahí fue donde me invitaron a hacer un examen para lograr un lugar en el curso, y me agradó la idea porque algo que ya me llamaba atención en esos días era el uso de la computadora. Conseguí quedarme y aquí vi un poco de lógica matemática y Karel. Esto fue el inicio de todo, nos platicaron de la Olimpiada Mexicana de Informática y que esta da pie para la International Olympiad in Informatics. Eso me emocionó bastante para seguir adelante dentro de la olimpiada estatal del Distrito Federal.&lt;/em>&lt;/p>
+&lt;p>&lt;em>Una motivación que encuentro es que me puede traer una gran cantidad de oportunidades tanto académicas en distintas universidades como laborales en grandes empresas internacionales, además que con el tiempo le he tomado un gusto a la resolución de problemas y a la sensación de competencia dentro de la olimpiada.&lt;/em>&lt;/p>
+&lt;p>**Vas a representar a México este año en la IOI. Cuéntanos cómo te preparaste para lograrlo. **&lt;strong>Cómo son tus días de entrenamiento?&lt;/strong>&lt;/p>
+&lt;p>&lt;em>Siento que en el proceso para la IOI de este año me he dedicado más a la olimpiada a comparación de otros años. Esta ocasión realmente aproveche las vacaciones y recesos escolares para entrenar, me puse a leer un poco sobre temas, estructuras de datos y algoritmos que pudieran servirme (Unas ocasiones leí de &lt;a href="http://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/ref=sr_1_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1436888063&amp;amp;sr=1-1&amp;amp;keywords=algorithms&amp;#43;sedgewick&amp;amp;pebp=1436888065498&amp;amp;perid=0P2WGZK86N1VW3DNCF81" target="_blank" rel="noopener">&lt;strong>Algorithms&lt;/strong>, Fourth Edition de Robert Sedgewick&lt;/a>, y en otras ocasiones fue  &lt;a href="http://www.amazon.com/Algorithm-Design-Jon-Kleinberg/dp/0321295358/ref=sr_1_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1436888091&amp;amp;sr=1-1&amp;amp;keywords=algorithm&amp;#43;design&amp;#43;kleinberg&amp;amp;pebp=1436888104331&amp;amp;perid=0ZZ1PRCAJ3WCJF4F6ZXM" target="_blank" rel="noopener">&lt;strong>Algorithm Design&lt;/strong> de Kleinberg y Tardos&lt;/a>) y aumenté la cantidad de horas por semana para practicar a partir de organizarme mejor para repartir el tiempo para no desatender los asuntos de la escuela y mejorar para la olimpiada.&lt;/em>&lt;/p>
+&lt;p>&lt;em>Algo que considero muy importante fue el &lt;a href="http://blog.omegaup.com/2015/06/el-camino-de-mexico-rumbo-a-la-ioi-2015/" target="_blank" rel="noopener">practicar con problemas de preselectivos de años pasados presenciales antes de una semana de exámenes para eliminación&lt;/a>. Hice algo muy parecido con los exámenes de la &lt;strong>&lt;a href="http://usaco.org/" target="_blank" rel="noopener">USACO&lt;/a>&lt;/strong>, antes de presentar mi primer examen de nivel Plata hice 2 exámenes de ese nivel para para darme una idea de la dificultad y en mi primer examen subí a Oro. Antes del examen de nivel Oro también practiqué con un examen de Oro pasado y así no me sorprendiera el cambio de dificultad. Y en estas alturas me preparo con exámenes completos de las IOI pasadas para irme ambientando.&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Qué le recomiendas a los que van empezando? Algún material, libro o método de entrenamiento?&lt;/strong>&lt;/p>
+&lt;p>&lt;em>Yo les recomiendo que sigan al pie de la letra las instrucciones y recomendaciones que nos dan para la preselección, intentar hacer todo los problemas cada problemset, familiarizarse con exámenes de las olimpiadas abiertas de otros países (como &lt;strong>&lt;a href="http://usaco.org/" target="_blank" rel="noopener">USACO&lt;/a>&lt;/strong>  de  Estados Unidos, &lt;strong>&lt;a href="http://hsin.hr/coci/" target="_blank" rel="noopener">COCI&lt;/a>&lt;/strong> de Croacia) ya que sus exámenes  también serán tomados en cuenta para las primeras etapas. Si tienen asesores estatales que los estén apoyando aprovéchenlos al máximo, pregúntenle todas sus dudas y póngales bastante atención, cuando vean un tema con él, estando en casa refuercen lo visto leyendo de un libro el tema visto, un buen libro que les servirá para cubrir una gran cantidad de temas es &lt;strong>&lt;a href="https://omegaup.com/img/libropre3.pdf" target="_blank" rel="noopener">Problemas y Algoritmos&lt;/a>&lt;/strong> que se encuentra en Material Recomendado al inicio de OmegaUp.&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Cuál es tu problema favorito de omegaUp y por qué? Hay un problema en particular que hayas disfrutado mucho resolver?&lt;/strong>&lt;/p>
+&lt;p>&lt;em>El que más disfruté resolver sin duda fue &lt;strong>&lt;a href="https://omegaup.com/arena/problem/Fortune-Telling-2" target="_blank" rel="noopener">Fortune Telling 2&lt;/a> (parte de la &lt;a href="https://omegaup.com/arena/JOI2014DAY1" target="_blank" rel="noopener">Japan Olympiad in Informatics 2014&lt;/a>)&lt;/strong>,  ya que la combinación estructuras de datos y métodos de solución que implementé me pareció que fue variada (Búsqueda binaria con Segment Tree y al final un BIT), de igual forma sentí que el análisis para llegar a la idea fue  progresivo, lo fui haciendo parte por parte y cada vez  descubría algo me acercaba más a la solución. Otro aspecto por el cual me agrada es porque es de los primeros problemas en los que sin saber previamente que tienen una solución con una estructura de datos puede describir cómo resolverlo.&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Descríbenos tu estrategia para atacar un concurso. En qué momento decides cambiar de problema?&lt;/strong>&lt;/p>
+&lt;p>&lt;em>Lo que siempre hago es leer todos los problemas que vengan en el examen y mientras voy leyendo, al llegar a la parte de los límites intentar ver si hay alguna solución parcial que en ese instante pueda deducir si conseguiré programarla sin problemas durante el examen, a partir de eso veo la cantidad mínima de puntos podré lograr. De igual forma ordeno los problemas del más fácil al más difícil y empiezo a atacarlos, empezando por el fácil. Cuando llego a un punto en el que llevo demasiado tiempo (40 minutos, 60 ya exagerando) pensando y sigo perdido o sin encontrar nada nuevo es en donde cambio de problema. Si ya pensé demasiado tiempo todos los problemas pendientes por resolver me arriesgo por la solución con más puntos que haya encontrado durante el tiempo de análisis de cada problema y si aún queda tiempo, regreso a seguir pensado otro poco pero por lo regular ya no vuelvo a tener tiempo para pensar de nuevo.&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Aparte de resolver problemas, cuáles son tus hobbies? cuáles son tus libros favoritos? qué música escuchas? practicas algún deporte?&lt;/strong>&lt;/p>
+&lt;p>&lt;em>De hobbie me gusta armar puzzles 3D (Al estilo del cubo Rubik pero con variaciones).  Los libros de literatura que he leído son principalmente los que me han dejado leer como tarea y  los que más me han agradado son “Los días enmascarados” y “Aura”  de Carlos Fuentes, junto con  “Al sur de la frontera al, oeste del sol” de Haruki Murakami. De música me gusta mucho el Power Metal, principalmente si tiene un toqué Sinfónico (Al estilo Rhapsody of Fire), encuentro cierta inspiración al escuchar música con un ritmo enérgico. También me agrada el basquetbol, aunque no lo practico formalmente, durante algunos recesos de la escuela me gusta salir a jugar.&lt;/em>&lt;/p></description></item><item><title>IOI 2015 - Entrevista con Emmanuel_Antonio</title><link>https://blog.omegaup.com/news/ioi-2015-entrevista-con-emmanuel_antonio/</link><pubDate>Tue, 14 Jul 2015 14:56:28 +0000</pubDate><guid>https://blog.omegaup.com/news/ioi-2015-entrevista-con-emmanuel_antonio/</guid><description>
+&lt;p>&lt;a href="https://omegaup.com/profile/Emmanuel_Antonio" target="_blank" rel="noopener">&lt;img src="https://blog.omegaup.com/images/img21.jpg" alt="Emmanuel_Antonio" loading="lazy" />&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://omegaup.com/profile/Emmanuel_Antonio" target="_blank" rel="noopener">Emmanuel_Antonio&lt;/a> será uno de los representantes de México en la &lt;a href="http://ioi2015.kz/" target="_blank" rel="noopener">International Olympiad in Informatics 2015&lt;/a>. Tuvimos la oportunidad de entrevistarlo previo al concurso y esto fue lo que nos dijo:&lt;/p>
+&lt;p>&lt;strong>Cuéntanos cómo empezaste a programar y qué te motiva a resolver problemas:&lt;/strong>&lt;/p>
+&lt;p>&lt;em>Empecé a programar cuando el maestro Luis Citalán me invitó a entrar al taller de la Olimpiada en la escuela. Me motiva ver a esas personas que han logrado cosas muy importantes.&lt;/em>&lt;/p>
+&lt;p>**Vas a representar a México este año en la IOI. Cuéntanos cómo te preparaste para lograrlo. **&lt;strong>Cómo son tus días de entrenamiento?&lt;/strong>&lt;/p>
+&lt;p>&lt;em>Ya es mi segundo año en la olimpiada, en el primer año aprendí muchas cosas nuevas en los entrenamientos y el segundo año lo dediqué a practicar esas cosas que había aprendido.&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Qué le recomiendas a los que van empezando? Algún material, libro o método de entrenamiento?&lt;/strong>&lt;/p>
+&lt;p>&lt;em>No dejar de practicar, cada vez busquen problemas de mayor dificultad, que vean problemas de olimpiadas pasadas para así saber que temas son los que les hacen falta aprender o practicar y sobre todo que lo hagan por gusto, no porque se sientan obligados o algo así.&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Cuál es tu problema favorito de omegaUp y por qué? Hay un problema en particular que hayas disfrutado mucho resolver?&lt;/strong>&lt;/p>
+&lt;p>&lt;em>No sabría decir cual es mi favorito. Disfruto aquellos que después de pensarlos un buen rato al fin te llega la idea de la solución.&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Descríbenos tu estrategia para atacar un concurso. En qué momento decides cambiar de problema?&lt;/strong>&lt;/p>
+&lt;p>&lt;em>Leer todos los problemas y entender que es lo que pide cada uno de ellos, después empiezo con el que yo considero que podría estar más fácil. Cambio de problema cuando siento que pasa un buen rato y no logro avanzar en la idea.&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Aparte de resolver problemas, cuáles son tus hobbies? cuáles son tus libros favoritos? qué música escuchas? practicas algún deporte?&lt;/strong>&lt;/p>
+&lt;p>&lt;em>Me gusta salir con mis amigos, ver películas o series y jugar. Me gustan los libros que tiene misterio o algo policiaco. Escucho casi de todo, son muy pocos los tipos de música que no me gustan. Me gusta mucho jugar fútbol. :D&lt;/em>&lt;/p></description></item><item><title>IOI 2015 - Entrevista con charlyhlms</title><link>https://blog.omegaup.com/news/ioi-2015-entrevista-con-charlyhlms/</link><pubDate>Fri, 10 Jul 2015 15:10:32 +0000</pubDate><guid>https://blog.omegaup.com/news/ioi-2015-entrevista-con-charlyhlms/</guid><description>
+&lt;p>&lt;a href="https://omegaup.com/profile/charlyhlms" target="_blank" rel="noopener">&lt;img src="https://blog.omegaup.com/images/IMG_1178.jpg" alt="charlyhlms" loading="lazy" />&lt;/a>&lt;/p>
+&lt;p>Esta vez tocó el turno de entrevistar a &lt;a href="https://omegaup.com/profile/charlyhlms" target="_blank" rel="noopener">charlyhlms&lt;/a> quién representará a México por segunda vez en la &lt;a href="http://stats.ioinformatics.org/people/5158" target="_blank" rel="noopener">International Olympiad in Informatics&lt;/a>. Esto fue lo que nos dijo:&lt;/p>
+&lt;p>&lt;strong>Cuéntanos cómo empezaste a programar y qué te motiva a resolver problemas:&lt;/strong>&lt;/p>
+&lt;p>&lt;em>Empecé a programar cuando tenía 13 años, durante mi segundo año de secundaria. Estaba en el taller de Computación y a principios de ese año nos enseñaron a programar en Pascal y Karel, en ese entonces me parecía algo divertido y diferente, fue por eso que cuando me comentaron sobre la Olimpiada decidí inscribirme.&lt;/em>&lt;/p>
+&lt;p>&lt;em>Resolver un problema es un proceso bastante interesante, no importando el tipo de problemas al que nos enfrentemos, tanto problemas de olimpiadas como problemas de la vida diaria representan retos que afrontamos constantemente, retos que a mi parecer son una manera de poner a prueba la creatividad de una persona y su capacidad de aplicar el conocimiento que ha adquirido, sin importar de donde, para un fin práctico. Además de esto, creo que todos podemos concordar en que después de resolver un problema suele haber una sensación de satisfacción,  de sentirnos mejores en lo que hacemos por que tuvimos la capacidad de dar solución a un problema por nuestros propios medios y saber que cada problema que resolvemos nos aporta nuevos conocimientos. Más particularmente para los problemas de olimpiada hay un par de situaciones que siempre me parecieron muy interesantes: El hecho de que no baste con obtener una buena idea,  sino que además tengas que escribir está idea para que una computadora pueda hacer lo que tienes en mente; y que después de haber obtenido la solución completa a un problema siempre puedes mirar atrás, aprender de los errores que cometiste en el proceso o de las nuevas ideas que pusiste en práctica, y de como ahora todo ahora parece tan obvio, después de que en un principio no parecías saber ni por donde empezar. La combinación de todo esto es lo que me ha motivado a dedicar buena parte de mi tiempo a resolver problemas.&lt;/em>&lt;/p>
+&lt;p>**Vas a representar a México este año en la IOI. Cuéntanos cómo te preparaste para lograrlo. **&lt;strong>Cómo son tus días de entrenamiento?&lt;/strong>&lt;/p>
+&lt;p>&lt;em>Llegar a la IOI fue un proceso que principalmente requirió mucha disciplina y constancia a la hora de entrenar. No creo poder describir un día normal de entrenamiento porque mi manera de entrenar cambiaba dependiendo de en que me quería enfocar. Entre las cosas que hacía estaba  presentar un examen por semana, para esto usaba fuentes como la Usaco o exámenes de IOIs u OMIs pasadas. Después de hacer el examen leía las soluciones tanto de los problemas que resolví como los problemas que no resolví e implementaba estas soluciones completas.&lt;/em>&lt;/p>
+&lt;p>&lt;em>También le dediqué mucho tiempo a leer para aprender nuevos temas y técnicas además de mejorar mis habilidades matemáticas, un libro que aún no acabo de leer pero estoy disfrutando es &lt;a href="http://www.amazon.com/Art-Craft-Problem-Solving/dp/0471789011/ref=sr_1_1?ie=UTF8&amp;amp;qid=1436242440&amp;amp;sr=8-1&amp;amp;keywords=art&amp;#43;and&amp;#43;craft&amp;#43;of&amp;#43;problem&amp;#43;solving" target="_blank" rel="noopener">Art and Craft of Problem Solving&lt;/a>. Además de esto hubo un tiempo en que me interesaba mejorar mi rapidez a la hora de implementar además de mi capacidad para escribir códigos sin errores, para ello escribía todos mis códigos en papel antes de escribirlos en computadora, lo bueno de hacer esto es que al escribirlos en papel, con pluma, no se tienen las  herramientas de edición que se tienen cuando se hace en un editor de texto, por lo que se vuelve muy importante estar completamente seguro de lo que se está implementando. En general estás fueron algunas de las cosas que hice durante este año de entrenamiento, pero como dije no sólo es importante tener un buen plan o método de entrenamiento sino también ser capaz de cumplir con las metas que uno se propone y ser muy constante.&lt;/em>&lt;/p>
+&lt;p>&lt;strong>De los 4 representantes de México, tú eres el olímpico con más experiencia. Tuviste la oportunidad de participar en la IOI 2014, qué lecciones aprendiste y qué planeas hacer diferente este año?&lt;/strong>&lt;/p>
+&lt;p>&lt;em>Ir a una IOI ha sido una de las mejores experiencias en mi vida, no haber obtenido una medalla no opacó este hecho pero si es algo que me ha sido difícil superar. Lo importante de esto es que me dio la oportunidad de aprender muchas cosas sobre la competencia y sobre lo que tenía que mejorar. Entendí cosas muy importantes como la relevancia de manejar el tiempo de la manera correcta, y en especial de mantener la calma durante el examen sin importar lo difícil que se pongan las cosas. Comprendí y trabajé en las cosas que debía mejorar, algunas de ellas ya las mencioné: mi rapidez y la eficacia con la que programo por ejemplo. No creo que el resultado que obtuve el año pasado fue en vano, la experiencia me ha servido demasiado, y para esta IOI estoy muy motivado, motivado como nunca lo he estado, porque voy a disfrutar mucho la competencia y porque estoy seguro que estoy en un mejor momento que el año pasado.&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Qué le recomiendas a los que van empezando? Algún material, libro o método de entrenamiento?&lt;/strong>&lt;/p>
+&lt;p>&lt;em>Durante mi primer año en la pre-selección un libro que me resultó de mucha ayuda fue &lt;a href="https://omegaup.com/img/libropre3.pdf" target="_blank" rel="noopener">Problemas y Algoritmos por Luis Enrique Vargas Azcona&lt;/a>. Incluye muchos de los temas básicos y no tan básicos que se abarcan durante las primeras etapas del pre-selectivo y una gran ventaja es que está escrito en español, y muchos de los problemas propuestos en el libro se pueden resolver en OmegaUp. Además de ese libro leí Introduction to Algorithms, y Algorithm Desing por Jon Kleinberg, también me fueron de mucha utilidad aunque quizá son un poco más avanzados y están escritos en inglés.&lt;/em>&lt;/p>
+&lt;p>&lt;em>Claro que aparte de tener una fuerte base de teoría y conocer muchos temas, resulta igual de importante dedicar la mayoría del tiempo de entrenamiento a resolver problemas. Una muy buena página para entrenar es la Usaco Training Gateway (&lt;a href="http://train.usaco.org/usacogate" target="_blank" rel="noopener">http://train.usaco.org/usacogate&lt;/a>), resulta bastante útil porque los problemas están divididos por secciones y cada sección abarca un tema diferente. Y como parte importante de la competencia es ser capaz de resolver problemas incluso bajo la presión y el estrés de un examen, también  recomendaría hacer exámenes constantemente, para esto además de OmegaUp, hay un par de buenas páginas como la USACO &lt;a href="http://www.usaco.org/" target="_blank" rel="noopener">http://www.usaco.org/&lt;/a> y COCI &lt;a href="http://hsin.hr/coci/" target="_blank" rel="noopener">http://hsin.hr/coci/&lt;/a> en las que se pueden encontrar exámenes de años pasados.&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Cuál es tu problema favorito de omegaUp y por qué? Hay un problema en particular que hayas disfrutado mucho resolver?&lt;/strong>&lt;/p>
+&lt;p>&lt;em>Diría que mi problema favorito de OmegaUp es &lt;a href="https://omegaup.com/arena/problem/Pequenos-Autobuses" target="_blank" rel="noopener">Pequeños Autobuses&lt;/a>, fue un problema que enfrenté por primera vez durante un eliminatorio de la pre-selección, pero fui capaz de resolverlo hasta unas semanas después. Esos problemas que te toman mucho tiempo resolver siempre terminan siendo &amp;ldquo;divertidos&amp;rdquo;. Aparte de este problema en general disfruto mucho resolver tareas de IOI; resultan divertidos porque aunque se trate de un problema relativamente sencillo suele haber detalles que lo hacen ser un problema interesante, ya porque necesitan una idea bastante creativa o bien porque requieren de una implementación elegante. Algunos problemas de IOI de este estilo son: Bloques, Fuerza Media, Montañas, Joining Points, Impresora de Tipos, Cueva, Ríos, Loros (&lt;a href="https://omegaup.com/problem/?tag=ioi" target="_blank" rel="noopener">Todos estos están disponibles en OmegaUp&lt;/a>), además de Batch Scheduling de la IOI del 2002, Amazing Robots de la IOI del 2003 y Robots de la IOI 2013.&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Descríbenos tu estrategia para atacar un concurso. En qué momento decides cambiar de problema?&lt;/strong>&lt;/p>
+&lt;p>&lt;em>Lo primero que hago cuando enfrento un examen es siempre leer todos los problemas y asegurarme de entenderlos perfectamente, al punto de que pueda dejar de ver la descripción del problema y no olvidar los detalles importantes. Después de esto mi estrategia suele cambiar dependiendo de la dificultad de los problemas que intentaré resolver, pero normalmente intento atacar cada uno de los problemas en orden. Al atacar un problema me doy una cantidad limitada de tiempo para pensar en la mejor idea que me sea posible, digamos, media hora, aunque este tiempo puede disminuir si me doy cuenta que no estoy obteniendo avances importantes, o por el contrario aumentar si creo estar cerca de una solución completa. Después de esto implemento la mejor solución que haya obtenido y al obtener los puntos esperados cambio de problema. Al final si ya he intentado algo para todos los problemas del examen, elijo alguno de los problemas que no resolví completamente e intento mejorar mi puntaje obteniendo mejores ideas.&lt;/em>&lt;/p>
+&lt;p>&lt;em>Sobre cuando &amp;ldquo;cambiar de problema&amp;rdquo;, al menos yo sólo lo hago cuando he dedicado mucho tiempo a depurar mi código. Siempre hay ocasiones en que obtenemos una buena idea, la implementamos y después de subirla no obtenemos los puntos que esperábamos, aunque puede llegar a ser bastante molesto no es prudente darse por vencido en ese mismo instante como no es conveniente dedicar más tiempo de lo adecuado a buscar un error en la idea o en la implementación. Depende mucho del examen y de la situación particular en la que te encuentres, pero siempre se debe dedicar una parte del examen a buscar el posible error en nuestra implementación o incluso en la idea, pero es igual de relevante, en caso de no poder encontrar dicho error, ser capaz de abandonar el problema, bien cambiando de problema o bien intentando una solución diferente que probablemente dé menos puntos. Saber manejar el tiempo durante un examen se vuelve en ocasiones tan crucial como tener buenas ideas o ser rápido codificando, pero esto es algo que se obtiene con la práctica, después de haber realizado una buena cantidad de problemas y exámenes.&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Aparte de resolver problemas, cuáles son tus hobbies? cuáles son tus libros favoritos? qué música escuchas? practicas algún deporte?&lt;/strong>&lt;/p>
+&lt;p>&lt;em>Además de resolver problemas, me gusta leer y escribir y también tocar la batería. Algunos de mis libros favoritos son El Llamado de la Selva por Jack London, Nada de Janne Teller y El Juego del Ángel de Carlos Ruíz Zafón. También disfrutó bastante de escuchar música, creo que mis gustos son bastante variados pero normalmente escucho Rock, algunos de mis grupos favoritos son The Beatles y Soda Stereo aunque recientemente comencé a escuchar otro generó musical: Jpop. Viajar es también algo que siempre me ha gustado y la olimpiada me ha dado la oportunidad de hacerlo con bastante frecuencia.&lt;/em>&lt;/p></description></item><item><title>IOI 2015 - Entrevista con Juan_Carlos_Sigler_Priego (MEX)</title><link>https://blog.omegaup.com/news/ioi-2015-entrevista-con-juan_carlos_sigler_priego-mex/</link><pubDate>Mon, 06 Jul 2015 15:52:37 +0000</pubDate><guid>https://blog.omegaup.com/news/ioi-2015-entrevista-con-juan_carlos_sigler_priego-mex/</guid><description>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/image1.jpg" >&lt;img src="https://blog.omegaup.com/images/image1.jpg" alt="Juan_Carlos_Sigler_Priego" loading="lazy" />&lt;/a>Estamos inaugurando la categoría de Entrevistas en el blog de omegaUp y en esta ocasión tuvimos la oportunidad de hablar con &lt;a href="https://omegaup.com/profile/Juan_Carlos_Sigler_Priego" target="_blank" rel="noopener">Juan_Carlos_Sigler_Priego&lt;/a> quien representará a México en la &lt;a href="http://ioi2015.kz/" target="_blank" rel="noopener">International Olympiad in Informatics (IOI) 2015&lt;/a>.&lt;/p>
+&lt;p>&lt;strong>Cuéntanos cómo empezaste a programar y qué te motiva a resolver problemas.&lt;/strong>&lt;/p>
+&lt;blockquote>
+&lt;p>Empecé a programar cuando me metí al Curso de la OMI en mi Estado (Distrito Federal), más que nada me motiva el ver como todo esto le ha ayudado a ex-concursantes, gente que la contrata empresas muy importantes, como MIcrosoft y Google, aunque a mi en lo personal me gustaría formar mi propia empresa.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;strong>Vas a representar a México este año en la IOI. Cuéntanos cómo te preparaste para lograrlo.&lt;/strong> &lt;strong>Cómo son tus días de entrenamiento?&lt;/strong>&lt;/p>
+&lt;blockquote>
+&lt;p>Ya llevo un rato en esto de entrenarme, este año en particular me decidi en hacerme un tiempo de dos horas minimo diarias en atacar problemas, más aparte me ayuda mucho los entrenamientos sabatinos con mi delegación.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;strong>Qué le recomiendas a los que van empezando? Algún material, libro o método de entrenamiento?&lt;/strong>&lt;/p>
+&lt;blockquote>
+&lt;p>Para ser sincero no he leído muchos libros, ya que no hay muchos recursos en español. Lo que si les sugiero es que entrenen constantemente, con problemas DE SU NIVEL (resolvibles para ustedes y que necesiten pensar), es impoductivo estar resolviendo los diversos problemas de A+B.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;strong>Cuál es tu problema favorito de omegaUp y por qué? Hay un problema en particular que hayas disfrutado mucho resolver?&lt;/strong>&lt;/p>
+&lt;blockquote>
+&lt;p>Hay uno en particular que me gustó mucho hacerlo, mas que nada porque es mi temas favoritos, se llama &lt;a href="https://omegaup.com/arena/problem/Loca-People" target="_blank" rel="noopener">Loca People&lt;/a> y la fuente es &lt;a href="https://omegaup.com/profile/garo.edgar21" target="_blank" rel="noopener">Nievecitos&lt;/a>.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;strong>Descríbenos tu estrategia para atacar un concurso. En qué momento decides cambiar de problema?&lt;/strong>&lt;/p>
+&lt;blockquote>
+&lt;p>Primero es leer todos los problemas, a veces, si uno esta en exceso muy fácil, lo hago y después sigo leyendo. Ya que tengo bien definido que debo hacer en cada uno, trato de ordenarlos por dificultad y así los empiezo a atacar. Cuando estoy ya unos 10 minutos atorado en un problema o en una idea, me despejo 2 minutos y cambio de problema.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;strong>Aparte de resolver problemas, cuáles son tus hobbies? cuáles son tus libros favoritos? qué música escuchas? practicas algún deporte?&lt;/strong>&lt;/p>
+&lt;blockquote>
+&lt;p>Me gusta mucho jugar con mi familia, ver peliculas. Mis libros favoritos son los que tienen misterio. Escucho toda clase de musica aunque lo que mas escucho es Bruno Mars. En la semana, 2 días voy a natación y me gusta de vez en cuando ir a jugar futbol.&lt;/p>
+&lt;/blockquote></description></item><item><title>El camino de México rumbo a la IOI 2015</title><link>https://blog.omegaup.com/news/el-camino-de-mexico-rumbo-a-la-ioi-2015/</link><pubDate>Mon, 22 Jun 2015 00:57:14 +0000</pubDate><guid>https://blog.omegaup.com/news/el-camino-de-mexico-rumbo-a-la-ioi-2015/</guid><description>
+&lt;p>Un año más ha pasado y México ya tiene lista su delegación que nos representará en la International Olympiad in Informatics 2015 a celebrarse en Kazakhstan, del 26 de Julio al 2 de Agosto. A continuación presentamos la colección de exámenes y problemas que se usaron durante el preselectivo dentro de omegaUp. Esperamos que esta colección de problemas sirva de entrenamiento a futuras delegaciones de México y otros países de América Latina.&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/ioi2015.jpg" >&lt;img src="https://blog.omegaup.com/images/ioi2015.jpg" alt="Selección 2015 México " loading="lazy" />&lt;/a>De izquierda a derecha, los integrantes de la Selección Mexicana de Informática 2015 son:&lt;/p>
+&lt;ol>
+&lt;li>**MEX-4: Emmanuel Antonio Cuevas **(&lt;a href="https://omegaup.com/profile/Emmanuel_Antonio" target="_blank" rel="noopener">Emmanuel_Antonio&lt;/a>)&lt;/li>
+&lt;li>**MEX-2: Carlos Galeana Hernández **(&lt;a href="https://omegaup.com/profile/charlyhlms" target="_blank" rel="noopener">charlyhlms&lt;/a>)&lt;/li>
+&lt;li>&lt;strong>MEX-1:&lt;/strong> &lt;strong>Juan Carlos Sigler Priego&lt;/strong> (&lt;a href="https://omegaup.com/profile/Juan_Carlos_Sigler_Priego" target="_blank" rel="noopener">Juan_Carlos_Sigler_Priego&lt;/a>)&lt;/li>
+&lt;li>**MEX-3: Ángel David Ortega Ramírez **(&lt;a href="https://omegaup.com/profile/blak_dragon1" target="_blank" rel="noopener">blak_dragon1&lt;/a>)&lt;/li>
+&lt;/ol>
+&lt;h1>Material de Estudio&lt;/h1>&lt;p>En nuestro post anterior, &lt;a href="http://blog.omegaup.com/2014/05/el-camino-rumbo-a-la-ioi-2014/" target="_blank" rel="noopener">El camino rumbo a la IOI 2014&lt;/a> hay una buena colección de materiales que sugerimos a los olímpicos leer mientras avanzan por las diferentes etapas del preselectivo.&lt;/p>
+&lt;h1>&lt;strong>Etapa 1&lt;/strong>&lt;/h1>&lt;p>Durante esta etapa le pedimos a los olímpicos que lean el libro de &lt;a href="https://omegaup.com/img/libropre3.pdf" target="_blank" rel="noopener">Problemas y Algoritmos&lt;/a> de Luis Vargas como mínimo como guía para resolver los problemas.&lt;/p>
+&lt;ul>
+&lt;li>Temas básicos: variables, cadenas, arreglos, matrices, ciclos, mcm, mcd, etc..
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P1/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 1&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P2/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 2&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Pilas, colas y búsqueda binaria
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P3/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 3&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P4/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 4&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1E1/practice/" target="_blank" rel="noopener">Examen 1&lt;/a>&lt;/li>
+&lt;li>Búsqueda, árboles, acotamiento y poda
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P5/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 5&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P6/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 6&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Recursión y backtracking
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P7/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 7&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P8/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 8&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1E2/practice/" target="_blank" rel="noopener">Examen 2&lt;/a>&lt;/li>
+&lt;li>Búsquedas con espacios de estados
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P9/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 9&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P10/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 10&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Programación Dinámica
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P11/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 11&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P12/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 12&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P13/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 13&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1E3/practice/" target="_blank" rel="noopener">Examen 3&lt;/a>&lt;/li>
+&lt;li>Divide y vencerás
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P14/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 14&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P15/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 15&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Grafos
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P16/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 16&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1P17/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 1, Problemset 17&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E1E4/practice/" target="_blank" rel="noopener">Examen 4&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h1>&lt;strong>Etapa 2&lt;/strong>&lt;/h1>&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E2E1/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 2, Examen 1&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E2E2/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 2, Examen 2&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E2E3/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 2, Examen 3&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E2E4/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 2, Examen 4&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015E2E5/practice/" target="_blank" rel="noopener">IOI 2015 Etapa 2, Examen 5&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h1>Selectivo Final&lt;/h1>&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015EFE1/practice/" target="_blank" rel="noopener">IOI 2015 Selectivo Final, Examen 1&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015EFE2/practice/" target="_blank" rel="noopener">IOI 2015 Selectivo Final, Examen 2&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015EFE3/practice/" target="_blank" rel="noopener">IOI 2015 Selectivo Final, Examen 3&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015EFE4/practice/" target="_blank" rel="noopener">IOI 2015 Selectivo Final, Examen 4&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2015EFE5/practice/" target="_blank" rel="noopener">IOI 2015 Selectivo Final, Examen 5&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>68 nuevos problemas de Teddy Online Judge</title><link>https://blog.omegaup.com/news/68-nuevos-problemas-de-teddy-online-judge/</link><pubDate>Fri, 30 Jan 2015 06:52:20 +0000</pubDate><guid>https://blog.omegaup.com/news/68-nuevos-problemas-de-teddy-online-judge/</guid><description>
+&lt;p>Ya pueden encontrar en OmegaUp 68 nuevos problemas migrados desde &lt;a href="https://teddyonlinejudge.net" title="Teddy Online Judge"target="_blank" rel="noopener">Teddy Online Judge&lt;/a>. Todos estos problemas tienen el tag &lt;em>&lt;a href="https://omegaup.com/problem/list/?tag=teddy" target="_blank" rel="noopener">teddy&lt;/a>&lt;/em> asi que son fáciles de identificar.&lt;/p>
+&lt;p>Aunque estos problemas tienen mucho tiempo en Teddy y han tenido mas de 15k ejecuciones en ese juez, han sido migrados de &lt;a href="https://gist.github.com/alanboy/34bd7a2389d32097416d" target="_blank" rel="noopener">manera automática&lt;/a> ya que Teddy usa HTML y OmegaUp usa un markup modificado, entre &lt;a href="https://github.com/omegaup/omegaup/pull/607" target="_blank" rel="noopener">otros&lt;/a> cambios interesantes. Eso quiere decir que puede haber erroes. Si encuentras uno de ellos no dudes en enviar una clarificacion.&lt;/p>
+&lt;p>Para celebrar, he creado el concurso  &lt;a href="https://omegaup.com/arena/teddy-toj" target="_blank" rel="noopener">Problemas de Teddy Online Judge&lt;/a> con los 10 problemas mas significativos, es decir, los mas resueltos en aquel juez.&lt;/p></description></item><item><title>Ya pueden hacer sus envíos usando Ruby</title><link>https://blog.omegaup.com/news/ya-pueden-hacer-sus-envios-usando-ruby/</link><pubDate>Sun, 14 Dec 2014 18:21:13 +0000</pubDate><guid>https://blog.omegaup.com/news/ya-pueden-hacer-sus-envios-usando-ruby/</guid><description>
+&lt;p>Bueno, según la plataforma ya podían hacerlo desde hace mucho. Pero como nadie lo había intentado, no descubrimos que había un bug que hacía que todos los envíos dieran JE. Disfruten usar el nuevo lenguaje!&lt;/p></description></item><item><title>Ya pueden filtrar los problemas por Tags</title><link>https://blog.omegaup.com/news/ya-pueden-filtrar-los-problemas-por-tags/</link><pubDate>Sun, 19 Oct 2014 07:02:30 +0000</pubDate><guid>https://blog.omegaup.com/news/ya-pueden-filtrar-los-problemas-por-tags/</guid><description>
+&lt;p>Si van a la lista de problemas, podrán notar que algunos tienen tags! Si hacen click en alguno, filtrarán la lista de problemas para que únicamente se muestren los problemas con ese tag. Si están buscando problemas de Karel, este cambio los va a hacer muy felices.&lt;/p></description></item><item><title>Retirando C++ a favor de C++11 a finales de año</title><link>https://blog.omegaup.com/news/retirando-c-a-favor-de-c11-a-finales-de-ano/</link><pubDate>Tue, 30 Sep 2014 15:36:07 +0000</pubDate><guid>https://blog.omegaup.com/news/retirando-c-a-favor-de-c11-a-finales-de-ano/</guid><description>
+&lt;p>Para irse familiarizando con el lenguaje y las herramientas, asegúrense que tienen un IDE que contenga GCC versión 4.8 (o superior) y tenga la bandera -std=c++11. No deben haber problemas de compatibilidad, así que intenten mandar todos sus envíos de C++ en C++11 y háganos saber via &lt;a href="https://twitter.com/omegaup" title="@omegaUp"target="_blank" rel="noopener">Twitter&lt;/a> o comentarios aquí si encuentran algún problema.&lt;/p></description></item><item><title>omegaUp presentado en la International Olympiad in Informatics 2014</title><link>https://blog.omegaup.com/news/omegaup-presentado-en-la-international-olympiad-in-informatics-2014/</link><pubDate>Thu, 24 Jul 2014 15:18:10 +0000</pubDate><guid>https://blog.omegaup.com/news/omegaup-presentado-en-la-international-olympiad-in-informatics-2014/</guid><description>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/INFOLOGO.webm" >&lt;video autoplay muted loop>
+&lt;source src="https://blog.omegaup.com/images/INFOLOGO.webm" type="video/mp4">
+&lt;/video>
+&lt;/a>&lt;/p>
+&lt;p>Del 13 al 18 de Julio del 2014 se llevó a cabo la &lt;a href="http://www.ioi2014.org/" target="_blank" rel="noopener">International Olympiad in Informatics (IOI) en Taipei, Taiwán&lt;/a>. En paralelo a la IOI, el comité organiza la publicación de la revista &lt;a href="http://www.ioinformatics.org/oi_index.shtml" target="_blank" rel="noopener">IOI Journal&lt;/a> donde los países participantes pueden publicar artículos sobre la olimpiada en general, tanto técnicos como reportes y explicaciones de cómo es la olimpiada alrededor del mundo. Dichas publicaciones se presentan durante la IOI, en la IOI Conference.&lt;/p>
+&lt;p>Este año México participó en el &lt;a href="http://www.ioinformatics.org/oi_content_v8.shtml" target="_blank" rel="noopener">IOI Journal Volumen 8&lt;/a> con la presentación del paper de omegaUp:&lt;/p>
+&lt;p>**&lt;a href="http://www.ioinformatics.org/oi/pdf/v8_2014_169_178.pdf" target="_blank" rel="noopener">omegaUp: Cloud-Based Contest Management System and Training Platform in the Mexican Olympiad in Informatics&lt;/a> L.H. CHÁVEZ, A. GONZÁLEZ, J. PONCE. **&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/lhc.jpg" >&lt;figure>
+&lt;img src="https://blog.omegaup.com/images/lhc.jpg" title="IOI Conf omegaUp" alt="" loading="lazy" />
+&lt;figcaption>IOI Conf omegaUp&lt;/figcaption>
+&lt;/figure>&lt;/a>&lt;/p>
+&lt;p>El paper explica la motivación y el funcionamiento detrás de omegaUp. Es un buen documento introductorio para quienes deseen apoyar en el proyecto. También pone a omegaUp como pionero en el uso de la nube y &lt;a href="http://en.wikipedia.org/wiki/Seccomp" target="_blank" rel="noopener">seccomp-bpf&lt;/a> para evaluadores de concursos en líneaEl resto de los papers publicados este año y en años pasados está &lt;a href="http://www.ioinformatics.org/oi_content_v8.shtml" target="_blank" rel="noopener">aquí&lt;/a>.&lt;/p></description></item><item><title>Ya mostramos los mejores envíos con AC en los problemas</title><link>https://blog.omegaup.com/news/ya-mostramos-los-mejores-envios-con-ac-en-los-problemas/</link><pubDate>Mon, 23 Jun 2014 15:16:41 +0000</pubDate><guid>https://blog.omegaup.com/news/ya-mostramos-los-mejores-envios-con-ac-en-los-problemas/</guid><description>
+&lt;p>A partir de hoy, si visitas un problema de la lista (fuera de concurso), verás que hasta abajo mostramos una tabla con los 10 usuarios junto con sus mejores envíos aceptados, ordenados por qué tan rápido terminaron. Intenta que cuando resuelvas un problema, tu nombre aparezca en esa tabla para tener todo el honor y gloria!&lt;/p>
+&lt;p>&lt;figure>
+&lt;img src="https://blog.omegaup.com/images/mejoresenvios.png" title="Mejores Envíos" alt="Mejores Envíos" loading="lazy" />
+&lt;figcaption>Mejores Envíos&lt;/figcaption>
+&lt;/figure>&lt;/p></description></item><item><title>Preselectivo IOI 2015 - Inicio</title><link>https://blog.omegaup.com/news/preselectivo-ioi-2015-inicio/</link><pubDate>Mon, 02 Jun 2014 14:04:24 +0000</pubDate><guid>https://blog.omegaup.com/news/preselectivo-ioi-2015-inicio/</guid><description>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/740112_10152062112657478_4658374637277423762_o.jpg" >&lt;figure>
+&lt;img src="https://blog.omegaup.com/images/740112_10152062112657478_4658374637277423762_o.jpg" title="OMI" alt="" loading="lazy" />
+&lt;figcaption>OMI&lt;/figcaption>
+&lt;/figure>&lt;/a>&lt;/p>
+&lt;p>Esta semana iniciamos el preselectivo rumbo a la &lt;a href="http://www.ioinformatics.org/index.shtml" target="_blank" rel="noopener">International Olympiad in Informatics 2015&lt;/a>. 36 ganadores de la &lt;a href="http://www.olimpiadadeinformatica.org.mx/OMI/OMI/Inicio.aspx" target="_blank" rel="noopener">Olimpiada Mexicana de Informática 2014&lt;/a> van a participar en este proceso y pelearán por un lugar para representar a México. Este fue el mensaje de bienvenida:&lt;/p>
+&lt;blockquote>
+&lt;p>Estimados olímpicos, líderes y delegados,&lt;/p>
+&lt;p>Espero que se encuentran muy bien. Los felicito por sus buenos resultados en la OMI y les doy la bienvenida al Proceso de selección para la IOI 2015 a celebrarse en Astana, Kazakhstan. Este año, los 35 mejores concursantes de la OMI pasada van a pelear un lugar entre los 4 representantes de México en la IOI.&lt;/p>
+&lt;p>La Etapa 1 del preselectivo consistirá de prácticas y exámenes en línea que iniciarán el 13 de Junio. A partir de esa semana, se publicarán 2 problemas de práctica por tema y tendrán una semana para resolverlos al 100%. Cada tema abarcará 2 semanas, usualmente la primer semana publicaremos problemas introductorios y la segunda semana serán problemas más retadores. Cada dos temas, es decir, aproximadamente cada mes, habrá un examen que cubrirá los temas ya vistos. Cada problema de práctica resuelto por completo en el periodo asignado (1 semana) valdrá 100 puntos y los exámenes valdrán 300 puntos. La agenda con los temas y fechas de publicación se encuentra &lt;a href="http://olimpiadadeinformatica.us4.list-manage.com/track/click?u=35979a7875695484372c1bc57&amp;amp;id=83c0e4d85f&amp;amp;e=30790c0fec" target="_blank" rel="noopener">aquí&lt;/a>.&lt;/p>
+&lt;p>&lt;strong>Los 20 alumnos&lt;/strong> con más puntos calificarán a la Etapa 2. La Etapa 2 iniciará con un entrenamiento presencial en el mes de Noviembre en un lugar por definir.&lt;/p>
+&lt;h1>Cómo prepararse?&lt;/h1>&lt;p>Es importante darse cuenta que están por entrar a un proceso de entrenamiento que requiere de mucha disciplina, concentración, dedicación y una inversión considerable de tiempo. Al final representarán a México a nivel internacional y nuestras expectativas sobre sus resultados son muy altas. No hay diferencia entre la preparación que ustedes van a llevar a cabo y la que usualmente lleva un atleta de alto rendimiento. A partir de este momento deben de ser muy vigilantes y conscientes de cómo invierten su tiempo día a día si quieren llegar lejos en la competencia, particularmente para quienes compiten por primera vez. No simplemente se trata de pasársela resolviendo mil problemas sencillos o parecidos, &lt;a href="http://olimpiadadeinformatica.us4.list-manage1.com/track/click?u=35979a7875695484372c1bc57&amp;amp;id=39d973f562&amp;amp;e=30790c0fec" target="_blank" rel="noopener">sino que hay que practicar de forma deliberada e inteligente para desarrollar talento&lt;/a>. &lt;/p>
+&lt;p>Sin más, lo mínimo esperado de la Etapa 1 es que dominen por completo los contenidos del libro &lt;a href="http://olimpiadadeinformatica.us4.list-manage.com/track/click?u=35979a7875695484372c1bc57&amp;amp;id=7fc7a93a8f&amp;amp;e=30790c0fec" target="_blank" rel="noopener">Problemas y Algoritmos de Luis Vargas&lt;/a>. Les recomiendo que no esperen a que inicien los exámenes para empezar a leerlo puesto que las prácticas no van a dejar de fluir de Junio a Octubre. &lt;strong>También es&lt;/strong> **&lt;a href="http://olimpiadadeinformatica.us4.list-manage.com/track/click?u=35979a7875695484372c1bc57&amp;amp;id=fbe63e8ae8&amp;amp;e=30790c0fec" target="_blank" rel="noopener">crucial que revisen la recapitulación del selectivo de la IOI 2014&lt;/a>. **En ese post encontrarán lecturas recomendadas para cada uno de los temas y otros sitios para practicar.&lt;/p>
+&lt;p>El proceso de la Etapa 1 está diseñado para consumir 10 horas de su tiempo a la semana, asumiendo que no dominan los temas por ver. Nosotros pensamos una distribución adecuada el tiempo es: 3 horas de lectura de material, 4 horas entrenando con los ejercicios del material o las prácticas del año pasado y 3 horas resolviendo los problemas de práctica de este año. En una encuesta realizada a los participantes del año pasado, el promedio de horas que invirtieron a la semana fueron precisamente 10. Sin embargo, cuando les preguntamos cuántas horas más creen ellos que le pudieron haber dedicado al proceso a la semana, después de conocer sus resultados, contestaron que otras 10 en promedio :).&lt;/p>
+&lt;p>Al final del camino encontrarán grandes recompensas, desde la satisfacción personal al verse como de los mejores del país, el orgullo de representar a México internacionalmente y también les abrirá las puertas para ser considerados por las mejores universidades del mundo para estudiar y por las mejores empresas de software para trabajar (Google, Microsoft, Facebook, Amazon, Intel&amp;hellip;). También varias startups interesantes han salido de ex-finalistas del proceso de preselección.&lt;/p>
+&lt;p>Para los alumnos que es su primer año compitiendo: No se desanimen al competir con otros que llevan varios años participando. En muchas de las IOIs pasadas hemos tenido el caso donde alguien que compite por primera vez le gana un lugar en la selección a alguien que fue a la IOI anterior, simplemente por que se preparó mejor.&lt;/p>
+&lt;p>Para los alumnos que repiten: probablemente ya manejen con fluidez el nivel de los temas que vemos en la Etapa 1. No quiere decir que los menosprecien :). Repásenlos con cuidado. Sin embargo, tampoco quiere decir que aflojen su preparación. Propónganse retos grandes, como subir a Gold en la USACO, llegar a rojo en TopCoder/Codeforces, resolver todos los problemas de las IOIs pasadas, terminar el Cormen, etc.&lt;/p>
+&lt;p>Sin más por el momento, les deseo mucha suerte en este proceso de preselección. Cualquier duda, por favor contáctenme respondiendo este correo. Saludos! -Joe&lt;/p>
+&lt;/blockquote></description></item><item><title>El camino rumbo a la IOI 2014</title><link>https://blog.omegaup.com/news/el-camino-rumbo-a-la-ioi-2014/</link><pubDate>Wed, 28 May 2014 15:29:56 +0000</pubDate><guid>https://blog.omegaup.com/news/el-camino-rumbo-a-la-ioi-2014/</guid><description>
+&lt;p>Después de varios meses de preparación y selección, México está listo para participar en la &lt;a href="http://www.ioi2014.org/" target="_blank" rel="noopener">IOI 2014&lt;/a> a celebrarse en Taiwán del 13 al 20 de Julio.&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/ioi20141.jpg" >&lt;figure>
+&lt;img src="https://blog.omegaup.com/images/ioi20141.jpg" title="Selección Mexicana de Informática 2014" alt="" loading="lazy" />
+&lt;figcaption>Selección Mexicana de Informática 2014&lt;/figcaption>
+&lt;/figure>&lt;/a>&lt;/p>
+&lt;p>De izquierda a derecha, nuestros seleccionados son:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Carlos Galeana Hernández&lt;/strong> del Distrito Federal&lt;/li>
+&lt;li>&lt;strong>Daniel Talamás Cano&lt;/strong> de Coahuila&lt;/li>
+&lt;li>&lt;strong>Diego Alonso Roque Montoya&lt;/strong> de Nuevo León&lt;/li>
+&lt;li>&lt;strong>Jordán Alexander Salas&lt;/strong> de Coahuila&lt;/li>
+&lt;/ol>
+&lt;p>Nuevamente, nuestra selección cuenta con 3 ganadores absolutos de la &lt;a href="http://www.olimpiadadeinformatica.org.mx/OMI/OMI/Inicio.aspx" target="_blank" rel="noopener">Olimpiada Mexicana de Informática&lt;/a>: Jordán ganó la &lt;a href="http://www.olimpiadadeinformatica.org.mx/OMI/OMI/Resultados/Participantes_2014.aspx" target="_blank" rel="noopener">OMI 2014&lt;/a>, Talamás ganó la &lt;a href="http://www.olimpiadadeinformatica.org.mx/OMI/OMI/Resultados/Participantes_2013.aspx" target="_blank" rel="noopener">OMI 2013&lt;/a> y Diego Roque ganó la &lt;a href="http://www.olimpiadadeinformatica.org.mx/OMI/OMI/Resultados/Participantes_2012.aspx" target="_blank" rel="noopener">OMI 2012&lt;/a>. Les deseamos la mejor de las suertes!&lt;/p>
+&lt;p>Todos los concursos de selección y la gran mayoría de las prácticas usadas durante el proceso están disponibles en omegaUp. Estos fueron los concursos y problemas usados:&lt;/p>
+&lt;p>&lt;strong>Etapa 1&lt;/strong> Durante esta etapa le pedimos a los olímpicos que lean el libro de &lt;a href="https://omegaup.com/img/libropre3.pdf" target="_blank" rel="noopener">Problemas y Algoritmos&lt;/a> de Luis Vargas como mínimo como guía para resolver los problemas.&lt;/p>
+&lt;p>&lt;em>&lt;strong>Temas introductorios: variables, cadenas, arreglos, matrices, ciclos, mcd, mcm:&lt;/strong>&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P1/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 1&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P2/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 2&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://blog.omegaup.com/category/soluciones-preselectivo-14/etapa-1-14/examen-1-14/" target="_blank" rel="noopener">Soluciones&lt;/a>&lt;/li>
+&lt;li>Lecturas recomendadas:
+&lt;ol>
+&lt;li>Los temas 1, 2, 4 y 5 del &lt;a href="http://pier.guillen.com.mx/" target="_blank" rel="noopener">blog de Pier Paolo&lt;/a>.&lt;/li>
+&lt;li>Sección VII del &lt;a href="https://omegaup.com/img/libropre3.pdf" target="_blank" rel="noopener">Libro de Luis sobre Algoritmos&lt;/a>&lt;/li>
+&lt;li>Sección II del&lt;a href="https://omegaup.com/img/libropre3.pdf" target="_blank" rel="noopener"> Libro de Luis sobre Algoritmos&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://community.topcoder.com/tc?module=Static&amp;amp;d1=tutorials&amp;amp;d2=math_for_topcoders" target="_blank" rel="noopener">Mathematics for TopCoders.&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;em>&lt;strong>Pilas, colas y búsqueda binaria&lt;/strong>&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P3/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 3&lt;/a> (nivel introductorio)&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P4/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 4&lt;/a> (nivel retador)&lt;/li>
+&lt;li>Lecturas recomendadas:
+&lt;ol>
+&lt;li>Del libro de L&lt;a href="https://omegaup.com/img/libropre3.pdf" target="_blank" rel="noopener">uis sobre Problemas y Algoritmos&lt;/a>, los capítulos 4, 10, 13 y la Sección 2 completa serán de utilidad para estos exámenes.&lt;/li>
+&lt;li>Del &lt;a href="http://pier.guillen.com.mx/" target="_blank" rel="noopener">Blog de Pier Paolo&lt;/a>, las secciones 2 y 3 pueden ser de utilidad.&lt;/li>
+&lt;li>El tutorial de Topcoder sobre &lt;a href="http://community.topcoder.com/tc?module=Static&amp;amp;d1=tutorials&amp;amp;d2=binarySearch" target="_blank" rel="noopener">Búsqueda Binaria&lt;/a>.&lt;/li>
+&lt;li>Pueden practicar también con los problemas de los mismos temas del año pasado en omegaUp: &lt;a href="https://omegaup.com/arena/IOI2013E1P2/practice/" target="_blank" rel="noopener">Problemset 1&lt;/a> y &lt;a href="https://omegaup.com/arena/IOI2013E1P3/practice/" target="_blank" rel="noopener">Problemset 3&lt;/a>.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;em>&lt;strong>Búsquedas, árboles y acotamiento y poda&lt;/strong>&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P5/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 5&lt;/a> (nivel introductorio)&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P6/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 6&lt;/a> (nivel retador)&lt;/li>
+&lt;li>&lt;a href="http://blog.omegaup.com/category/soluciones-preselectivo-14/etapa-1-14/examen-5-etapa-1-14/" target="_blank" rel="noopener">Soluciones&lt;/a> y más &lt;a href="http://blog.omegaup.com/category/soluciones-preselectivo-14/etapa-1-14/examen-6-etapa-1-14/" target="_blank" rel="noopener">soluciones&lt;/a>&lt;/li>
+&lt;li>Lecturas recomendadas:
+&lt;ol>
+&lt;li>Del libro de &lt;a href="https://omegaup.com/img/libropre3.pdf" target="_blank" rel="noopener">Problemas y Algoritmos de Luis Vargas&lt;/a>, la secciones 2 y 7 enteras y los capítulos 5, 14, 15 pueden ser de utilidad.&lt;/li>
+&lt;li>Del&lt;a href="http://pier.guillen.com.mx/" target="_blank" rel="noopener"> blog de Pier Paolo&lt;/a> pueden encontrar información relevante en las secciones 9 y 11. Repasen también los conceptos de búsqueda en amplitud y búsqueda en profundidad.&lt;/li>
+&lt;li>Pueden practicar con los &lt;a href="https://omegaup.com/arena/IOI2013E1P4/practice/" target="_blank" rel="noopener">Exámenes 4&lt;/a> y &lt;a href="https://omegaup.com/arena/IOI2013E1P5/practice/" target="_blank" rel="noopener">5&lt;/a> de la Etapa 1 del año pasado:  Las soluciones de algunos de esos problemas las pueden encontrar &lt;a href="http://blog.omegaup.com/category/soluciones-preselectivo/etapa-1/examen-4/" target="_blank" rel="noopener">aquí&lt;/a> y &lt;a href="http://blog.omegaup.com/category/soluciones-preselectivo/etapa-1/examen-5/" target="_blank" rel="noopener">aquí&lt;/a>.&lt;a href="http://blog.omegaup.com/category/soluciones-preselectivo-14/etapa-1-14/examen-6-etapa-1-14/" target="_blank" rel="noopener"> &lt;/a>&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;em>&lt;strong>Recursión y backtracking&lt;/strong>&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P7" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 7&lt;/a> (nivel introductorio)&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P8" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 8&lt;/a> (nivel retador)&lt;/li>
+&lt;li>&lt;a href="http://blog.omegaup.com/category/soluciones-preselectivo-14/etapa-1-14/examen-8-etapa-1-14/" target="_blank" rel="noopener">Soluciones&lt;/a>&lt;/li>
+&lt;li>Lecturas recomendadas:
+&lt;ol>
+&lt;li>Sección I completa del &lt;a href="https://omegaup.com/img/libropre3.pdf" target="_blank" rel="noopener">libro de Algoritmos de Luis Vargas (capítulos del 1 al 5)&lt;/a> más el capítulo 11.&lt;/li>
+&lt;li>Sección 9 completa del &lt;a href="http://pier.guillen.com.mx/" target="_blank" rel="noopener">blog de Pier Paolo&lt;/a> sobre algoritmos&lt;/li>
+&lt;li>Los &lt;a href="https://omegaup.com/arena/IOI2013E1P6/practice/" target="_blank" rel="noopener">exámenes 6&lt;/a> y &lt;a href="https://omegaup.com/arena/IOI2013E1P7/practice/" target="_blank" rel="noopener">7&lt;/a> de la preselección del 2013. Algunas soluciones a esos problemas se encuentran &lt;a href="http://blog.omegaup.com/category/soluciones-preselectivo/etapa-1/examen-7/" target="_blank" rel="noopener">en el blog&lt;/a>.&lt;/li>
+&lt;li>&lt;a href="http://community.topcoder.com/tc?module=Static&amp;amp;d1=tutorials&amp;amp;d2=recursionPt1" target="_blank" rel="noopener">An Introduction to Recursion, part 1&lt;/a> &amp;amp;&lt;a href="http://community.topcoder.com/tc?module=Static&amp;amp;d1=tutorials&amp;amp;d2=recursionPt2" target="_blank" rel="noopener"> part 2&lt;/a>.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;em>&lt;strong>Búsquedas con espacios de estados&lt;/strong>&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P9/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 9&lt;/a> (nivel introductorio)&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P10/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 10&lt;/a> (nivel retador)&lt;/li>
+&lt;li>Lecturas recomendadas:
+&lt;ol>
+&lt;li>Capítulo 19: Estructura de la Solución y Espacio de Búsqueda, &lt;a href="https://omegaup.com/img/libropre3.pdf" target="_blank" rel="noopener">del libro de Problemas y Algoritmos de Luis Vargas.&lt;/a>&lt;/li>
+&lt;li>También les recomendamos revisar y practicar con el &lt;a href="https://omegaup.com/arena/IOI2013E1P8/practice/" target="_blank" rel="noopener">problemset 8 del año anterior&lt;/a>. Algunas &lt;a href="http://blog.omegaup.com/category/soluciones-preselectivo/etapa-1/examen-8/" target="_blank" rel="noopener">soluciones a ese problemset&lt;/a> están en el blog.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;em>&lt;strong>Divide y vencerás&lt;/strong>&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P11/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 11&lt;/a> (nivel introductorio)&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P12/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 12&lt;/a> (nivel retador)&lt;/li>
+&lt;li>Lecturas recomendadas:
+&lt;ol>
+&lt;li>Capítulo 4 del libro de Problemas y Algoritmos.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;em>&lt;strong>Programación dinámica&lt;/strong>&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P13/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 13&lt;/a> (nivel introductorio)&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P14/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 14&lt;/a> (nivel medio)&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P15/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 15&lt;/a> (nivel retador)&lt;/li>
+&lt;li>&lt;a href="http://blog.omegaup.com/category/soluciones-preselectivo-14/etapa-1-14/examen-13/" target="_blank" rel="noopener">Soluciones&lt;/a>&lt;/li>
+&lt;li>Lecturas recomendadas:
+&lt;ul>
+&lt;li>Sección VI del libro de &lt;a href="https://omegaup.com/img/libropre3.pdf" target="_blank" rel="noopener">Problemas y Algoritmos.&lt;/a>&lt;/li>
+&lt;li>Tutorial de Topcoder: &lt;a href="http://help.topcoder.com/data-science/competing-in-algorithm-challenges/algorithm-tutorials/dynamic-programming-from-novice-to-advanced/" target="_blank" rel="noopener">Dynamic Programming&lt;/a>.&lt;/li>
+&lt;li>Programación Dinámica en el &lt;a href="http://pier.guillen.com.mx/" target="_blank" rel="noopener">blog de Pier Paolo&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;em>&lt;strong>Teoría de Grafos&lt;/strong>&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P16/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 16&lt;/a> (nivel introductorio)&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E1P17/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 1, Problemset 17&lt;/a> (nivel retador)&lt;/li>
+&lt;li>Lecturas recomendadas:
+&lt;ol>
+&lt;li>Grafos en el &lt;a href="http://pier.guillen.com.mx/" target="_blank" rel="noopener">blog de Pier Paolo&lt;/a>.&lt;/li>
+&lt;li>Tutorial en Topcoder: &lt;a href="http://help.topcoder.com/data-science/competing-in-algorithm-challenges/algorithm-tutorials/introduction-to-graphs-and-their-data-structures-section-1/" target="_blank" rel="noopener">Introduction to graphs and their data structures&lt;/a>.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ul>
+&lt;p>**Etapa 2 **&lt;/p>
+&lt;p> Esta etapa consistió de entrenamientos presenciales y prácticas externas.&lt;/p>
+&lt;p>&lt;strong>Etapa 3&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E3E1/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 3 Examen 1&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E3E2/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 3 Examen 2&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E3E3/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 3 Examen 3&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E3E4/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 3 Examen 4&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014E3E5/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 3 Examen 5&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Selectivo final&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014Etapa2Dia1/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 4 Examen 1&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014Etapa4Dia2/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 4 Examen 2&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014Etapa4Dia3/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 4 Examen 3&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014Etapa4Dia4/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 4 Examen 4&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014Etapa4Examen4/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 4 Examen 5&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/IOI2014Etapa4Desempate/practice/" target="_blank" rel="noopener">IOI 2014 Etapa 4 Desempate&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Material de lectura&lt;/strong>&lt;/p>
+&lt;p>Como parte del proceso, recomendamos a nuestros olímpicos revisar a profundidad los siguientes sitios con material de estudio y problemas para practicar:&lt;/p>
+&lt;ol>
+&lt;li>&lt;a href="http://people.ksp.sk/~misof/ioi-syllabus/ioi-syllabus-2009.pdf" target="_blank" rel="noopener">Temario oficial para la IOI.&lt;/a>&lt;/li>
+&lt;li>&lt;strong>El libro en español de Luis Vargas sobre &lt;a href="https://omegaup.com/img/libropre3.pdf" target="_blank" rel="noopener">Problemas y Algoritmos&lt;/a>.&lt;/strong> Básicamente el objetivo de la Etapa 1 es que dominen los contenidos de este libro, por lo que su lectura (y práctica) es casi obligatoria. Les recomendamos no esperar a que inicie el preselectivo para empezar a leerlo.&lt;/li>
+&lt;li>&lt;a href="http://www.ioinformatics.org/contest/books.shtml" target="_blank" rel="noopener">Libros recomendados para la IOI&lt;/a>, &lt;strong>a estas alturas su lectura es casi obligada&lt;/strong>si desean llegar y tener buenos resultados en la IOI:
+&lt;ol>
+&lt;li>&lt;a href="http://www.amazon.com/Introduction-Algorithms-Thomas-H-Cormen/dp/0262033844/ref=sr_1_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1401372229&amp;amp;sr=1-1&amp;amp;keywords=introduction&amp;#43;to&amp;#43;algorithms" target="_blank" rel="noopener">Introduction to Algorithms 3rd Edition, Cormen et. al.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://sites.google.com/site/stevenhalim/home" target="_blank" rel="noopener">Competitive Programming 1, 2 y 3, Steven &amp;amp; Felix Halim&lt;/a>. La versión electrónica del Libro 1 ya es gratis.&lt;/li>
+&lt;li>Otro libro introductorio: &lt;a href="http://www.amazon.com/Algorithms-Unlocked-Thomas-H-Cormen-ebook/dp/B00H4D1W94/ref=sr_1_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1401373463&amp;amp;sr=1-1&amp;amp;keywords=algorithms&amp;#43;unlocked" target="_blank" rel="noopener">Algorithms Unlocked&lt;/a> de Cormen. Más prosa y menos profundidad en las demostraciones que el Introduction al Algoritmos. Recomendado para quienes están en su primer año de concursos.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>&lt;a href="http://omegaup.com" target="_blank" rel="noopener">omegaUp&lt;/a> :)&lt;/li>
+&lt;li>El blog de Pier Paolo, sección Algoritmos: &lt;a href="http://pier.guillen.com.mx/" target="_blank" rel="noopener">http://pier.guillen.com.mx/&lt;/a>&lt;/li>
+&lt;li>El blog de Rodrigo Burgos: &lt;a href="http://algorithmmx.blogspot.com/" target="_blank" rel="noopener">http://algorithmmx.blogspot.com/&lt;/a>&lt;/li>
+&lt;li>Topcoder &lt;a href="http://community.topcoder.com/tc?module=Static&amp;amp;d1=tutorials&amp;amp;d2=alg_index" target="_blank" rel="noopener">Contenido educacional&lt;/a> (altamente &lt;strong>recomendado!&lt;/strong>)&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/preguntas/" target="_blank" rel="noopener">Preguntas omegaUp&lt;/a> -  Cualquier duda técnica que tengan, la pueden publica en nuestro sitio de preguntas. También pueden leer nuestras respuestas a preguntas pasadas.&lt;/li>
+&lt;li>&lt;a href="http://comscigate.com/Books/contests/icpc.pdf" target="_blank" rel="noopener">Guía rápida para el ACM ICPC&lt;/a>. Muy buena para repasar pero no todos los temas aplican para la IOI, chequen el temario primero.&lt;/li>
+&lt;/ol>
+&lt;p>Otros sitios para practicar&lt;/p>
+&lt;ol>
+&lt;li>&lt;a href="http://hsin.hr/coci/" target="_blank" rel="noopener">Croatian Open Competition in Informatics (COCI)&lt;/a>. Varios meses antes de la IOI, el comité de la Olimpiada de Croacia hace exámenes en línea. Los exámenes son de muy buen nivel y todos los problemas con sus soluciones están publicados en la misma página, les recomendamos darles un vistazo y practicar con todos ellos. Noten que los problemas de la COCI están en inglés y &lt;strong>no son traducidos al español&lt;/strong>, por lo que es bueno que estén preparados. Afortunadamente Google Translate típicamente hace un buen trabajo con estos enunciados.&lt;/li>
+&lt;li>&lt;a href="http://usaco.org/" target="_blank" rel="noopener">USA Computing Olympiad (USACO)&lt;/a>   Estos problemas sí son traducidos al español. Otro detalle importante sobre la USACO/COCI es que sus futuros competidores en la IOI también participan en estos concursos, por lo que les servirá para medir su nivel.&lt;/li>
+&lt;li>&lt;a href="http://cerberus.delos.com:791/usacogate" target="_blank" rel="noopener">USACO Training Gate&lt;/a>. Plataforma paso-a-paso para entrenar con problemas para la IOI. Incluye muy buenas explicaciones de la construcción de soluciones a varios problemas y tutoriales. &lt;a href="http://usacotraining.blogspot.com/p/introduction.html" target="_blank" rel="noopener">Este blog&lt;/a> tiene varias soluciones para el USACO training gate. Úsenlas sólo cuando estén completamente atorados en un problema, después de haberlo intentado.&lt;/li>
+&lt;li>Topcoder.com/tc&lt;/li>
+&lt;li>Codeforces: &lt;a href="http://codeforces.com/" target="_blank" rel="noopener">http://codeforces.com/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://uva.onlinejudge.org" target="_blank" rel="noopener">ACM UVa Online Judge&lt;/a>&lt;/li>
+&lt;li>Codechef: &lt;a href="http://www.codechef.com/" target="_blank" rel="noopener">http://www.codechef.com/&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;p>Esperamos que esta información le sirva a las próximas generaciones que participarán por un lugar en la Selección Mexicana de Informática.&lt;/p></description></item><item><title>Yeah, science b#$ch!: Entre más omegaUp, mejores resultados</title><link>https://blog.omegaup.com/news/yeah-science-bch-entre-mas-omegaup-mejores-resultados/</link><pubDate>Thu, 22 May 2014 14:45:11 +0000</pubDate><guid>https://blog.omegaup.com/news/yeah-science-bch-entre-mas-omegaup-mejores-resultados/</guid><description>
+&lt;p>Del 1 al 6 de Mayo pasados, se llevó a cabo la &lt;a href="http://www.olimpiadadeinformatica.org.mx/OMI/OMI/Resultados/Participantes_2014.aspx" target="_blank" rel="noopener">Olimpiada Mexicana de Informática 2014&lt;/a> en Pachuca, Hidalgo. Más de 100 participantes de toda la república concursaron y omegaUp fue la plataforma de evaluación oficial (el examen del Día 1 lo puedes encontrar &lt;a href="https://omegaup.com/arena/OMI2014PUBLIC1/practice/" target="_blank" rel="noopener">aquí&lt;/a> y el de el &lt;a href="https://omegaup.com/arena/OMI2014PUBLICO2/practice/" target="_blank" rel="noopener">Día 2 aquí&lt;/a>).&lt;/p>
+&lt;p>Por primera vez, durante el periodo 2013-2014 varios Estados, como Morelos, Chihuahua y Guanajuato  empezaron a promover omegaUp entre sus olímpicos y usar nuestra plataforma para correr sus concursos locales estatales.&lt;/p>
+&lt;p>Dentro de los resultados, la estadística que más nos llamó la atención en omegaUp fue la tabla de posiciones por Estado. Minutos antes de la OMI 2014, ya habíamos predicho el Top 10 de Estados basados en las visitas a omegaUp.com durante los 6 meses anteriores a la OMI:&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/Screen-Shot-2014-05-22-at-7.27.56-AM.png" >&lt;figure>
+&lt;img src="https://blog.omegaup.com/images/Screen-Shot-2014-05-22-at-7.27.56-AM.png" title="Predicciones omegaUp para la OMI 2014" alt="" loading="lazy" />
+&lt;figcaption>Predicciones omegaUp para la OMI 2014&lt;/figcaption>
+&lt;/figure>&lt;/a>&lt;/p>
+&lt;p>Los resultados finales por Estado fueron:&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/Screen-Shot-2014-05-22-at-7.32.50-AM.png" >&lt;figure>
+&lt;img src="https://blog.omegaup.com/images/Screen-Shot-2014-05-22-at-7.32.50-AM.png" title="Screen Shot 2014-05-22 at 7.32.50 AM" alt="" loading="lazy" />
+&lt;figcaption>Screen Shot 2014-05-22 at 7.32.50 AM&lt;/figcaption>
+&lt;/figure>&lt;/a>&lt;/p>
+&lt;p>Si bien, el orden no es exactamente el mismo, 9 de los 10 mejores Estados en la OMI también estuvieron dentro del Top 10 de visitas a omegaUp.com. Entendemos que usar más omegaUp no es el único factor para tener buenos resultados en la OMI, pero esta estadística es una buena muestra de que omegaUp funciona!&lt;/p>
+&lt;p>&lt;figure>
+&lt;img src="http://i1.kym-cdn.com/photos/images/original/000/517/111/fbd.jpg" title="Yeah, science bitch!" alt="" loading="lazy" />
+&lt;figcaption>Yeah, science bitch!&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>Recomendamos a todos los Estados promover omegaUp entre sus alumnos y usarlo para correr sus concursos locales. Entre más temprano en el proceso lo usen, será mejor - tendrán más visitas y la probabilidad de tener un mejor lugar en la OMI será más alta.&lt;/p></description></item><item><title>38 nuevos problemas de Karel disponibles gracias a la OIEG!</title><link>https://blog.omegaup.com/news/38-nuevos-problemas-de-karel-disponibles-gracias-a-la-oieg/</link><pubDate>Wed, 12 Mar 2014 13:49:42 +0000</pubDate><guid>https://blog.omegaup.com/news/38-nuevos-problemas-de-karel-disponibles-gracias-a-la-oieg/</guid><description>
+&lt;p>La &lt;a href="http://www.cimat.mx/oieg/orig/2013/" target="_blank" rel="noopener">Olimpiada de Informática del Estado de Guanajuato (OIEG)&lt;/a>, liderada este año por José Refugio López (Kuko), han hecho públicos 38 problemas de Karel para que la comunidad en general pueda practicar previo a la &lt;a href="http://www.olimpiadadeinformatica.org.mx/OMI/OMI/Inicio.aspx" target="_blank" rel="noopener">Olimpiada Mexicana de Informática 2014. &lt;/a>&lt;/p>
+&lt;p>Pueden resolver los nuevos problemas en los siguientes concursos:&lt;/p>
+&lt;p>&lt;strong>Nivel introductorio:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/orig13se1/practice/" target="_blank" rel="noopener">ORIG2013 Karel PreEstatal Ejercicios 1&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Nivel básico&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/ORIG13EPEK/practice/" target="_blank" rel="noopener">ORIG 2013 Examen PreEstatal Karel&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Nivel intermedio&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://omegaup.com/arena/ORIG13CEM/practice/" target="_blank" rel="noopener">ORIG 2013 Concurso Estatal Mañana&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/ORIG13CET/practice/" target="_blank" rel="noopener">ORIG 2013 Concurso Estatal Tarde&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/OIEG13ERK/practice/" target="_blank" rel="noopener">OIEG 2013 Examen Reclasificación Karel&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/OIEG13PSP01/practice/" target="_blank" rel="noopener">OIEG 2013 Preselección Práctica 01&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/OIEG13PSP02/practice/" target="_blank" rel="noopener">OIEG 2013 Preselección Práctica 02&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://omegaup.com/arena/OIEG13PSE01/practice/" target="_blank" rel="noopener">OIEG 2013 Preselección Examen 01&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Aventuras en el evaluador, parte 1</title><link>https://blog.omegaup.com/news/aventuras-en-el-evaluador-parte-1/</link><pubDate>Fri, 24 Jan 2014 04:46:33 +0000</pubDate><guid>https://blog.omegaup.com/news/aventuras-en-el-evaluador-parte-1/</guid><description>
+&lt;p>Como parte de los propósitos de año nuevo, me dispuse a hacer un refactor masivo del código con el cual se evalúan y ejecutan las soluciones en omegaUp. Habían muchas motivaciones para hacer la actualización: tener un sandbox más moderno, eliminar un montón de código duplicado, mejorar las pruebas, el logging, el paralelismo en los jueces, cómo se despliega el tiempo y la memoria, el desempeño de los envíos, soportar C++11 y más lenguajes. Son muchísimos cambios, así que haré dos posts explicándolos: este post se centrará en los cambios que se hicieron en la arquitectura de jueceo y el siguiente se enfocará únicamente en el nuevo sandbox.&lt;/p>
+&lt;p>El primer cambio que se va a notar es que el servidor donde se hospeda la página principal ya no califica envíos! Gracias a nuestros queridos empleadores, conseguimos un par de máquinas virtuales gratuitas con Linux en Azure que se utilizarán exclusivamente para correr programas de los concursantes. Estas máquinas son menos poderosas que el servidor que usábamos antes, pero gracias a que el nuevo sandbox tiene muchísimo menos overhead, la diferencia será casi negligible. Una de las consecuencias de esto es que la página va a ser un poco más responsiva y los veredictos serán más rápidos. Esto también trae seguridad, porque aunque quisieran hacer trampa, ahora será casi imposible: las máquinas donde se ejecuta código de concursantes ya no son las mismas máquinas donde están las salidas esperadas :).&lt;/p>
+&lt;p>Otro cambio grande es la manera en la que se mide y reporta la memoria que consumen los programas. Antes la ejecución del programa se detenía cada cierto tiempo para poder medir exactamente cuántos bytes estaban siendo utilizados. Ahora para bajar el overhead del sandbox, la política de medición es mucho más laxa y sólamente se toman en cuenta los bytes de memoria privada del programa: esto excluye la librería de C estándar, el código ejecutable del programa, y algunas constantes. En Java, la manera en la que se establece el límite de memoria no cambió (así que cualquier envío que fuera MLE antes lo seguirá siendo), pero ahora para que se vea más bonito el reporte, se excluye de la cuenta la memoria ocupada por la máquina virtual de Java. Hablando de Java, la causa #1 de errores de compilación antes se reportaba como Runtime Error: usar un nombre de clase que no es &amp;ldquo;Main&amp;rdquo;. Ahora se reporta como error de compilación y se te indica que la clase se debe llamar Main.&lt;/p>
+&lt;p>Todos los runtimes y compiladores fueron actualizados. Ahora usamos GNU GCC 4.8, Java OpenJDK 7.0, Free Pascal 2.6, Ruby 1.9, Python 2.7, Glorious Glasgow Haskell Compiler 7.6 y Karel 1.1. Soportamos ahora sí todos los features de Java 7 (bienvenido sea el operador diamante), y agregamos la opción para compilar en C++11 (posiblemente en un futuro eliminemos la versión anterior de C++, gnu++03, cuando el soporte de C++11 sea lo suficientemente maduro).&lt;/p>
+&lt;p>El bug más feo que se arregló fue uno en el cual si habían más de 2 jueces conectados, únicamente se usaban dos, desperdiciando mucho tiempo y poder de cómputo. Esto únicamente ocurría durante concursos muy grandes, pero era bastante molesto para nosotros. También habían muchos errores con el manejo de la cola de espera, tanto de los jueces para poder compilar envíos, como la de los envíos que esperan un juez disponible. El resultado es que donde antes habían esperas de varios segundos, ahora aún en periodos donde la cola está llena las máquinas que juecean estarán esperando únicamente ~20 milisegundos entre envíos en lo que se les asigna algo para hacer.&lt;/p>
+&lt;p>Después de aproximadamente 80 commits en nuestros varios repositorios, espero que disfruten nuestra nueva y mejorada infraestructura (que en realidad debería ser totalmente invisible si hice bien mi trabajo).&lt;/p></description></item><item><title>Seguridad: IE en Windows XP</title><link>https://blog.omegaup.com/news/seguridad-ie-en-windows-xp/</link><pubDate>Sun, 05 Jan 2014 20:37:08 +0000</pubDate><guid>https://blog.omegaup.com/news/seguridad-ie-en-windows-xp/</guid><description>
+&lt;p>Debido a un reciente cambio para mejorar la seguridad de la conexión a omegaUp, hemos decidido dejar de soportar oficialmente IE en Windows XP, a pesar de que sabemos que aún sigue siendo el segundo sistema operativo más común a nivel mundial[1]. Si aún están obligados a usar Windows XP, por favor utilicen algún navegador moderno (Chrome, Firefox u Opera) o alguna versión &lt;a href="http://portableapps.com/apps/internet" target="_blank" rel="noopener">portátil&lt;/a>.&lt;/p>
+&lt;p>Para los interesados, el cambio consistió en hacer un par de optimizaciones para nginx[2], para reducir el tiempo de espera al primer byte, y actualizar la configuración de TLS: se quitaron SSLv2 y SSLv3 (que ya se consideran inseguros), se agregaron TLSv1.1 y TLSv1.2, se eliminó RC4 como algoritmo de cifrado, y ahora se prefiere ECDHE como algoritmo de intercambio de llaves para proveer Perfect Forward Secrecy[3].&lt;/p>
+&lt;h2>Referencias&lt;span class="hx-absolute -hx-mt-20" id="referencias">&lt;/span>
+&lt;a href="#referencias" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ol>
+&lt;li>Reporte NetMarketShare, Enero 2014&lt;/li>
+&lt;li>&lt;a href="http://www.igvita.com/2013/12/16/optimizing-nginx-tls-time-to-first-byte/" target="_blank" rel="noopener">Optimizing NGINX TLS Time To First Byte (TTFB)&lt;/a> - igvita.com&lt;/li>
+&lt;li>&lt;a href="http://es.wikipedia.org/wiki/Perfect_forward_secrecy" target="_blank" rel="noopener">Perfect Forward Secrecy&lt;/a> - Wikipedia&lt;/li>
+&lt;/ol></description></item><item><title>OmegaUp apoya al 1er Concurso de programación UVM</title><link>https://blog.omegaup.com/news/omegaup-apoya-al-1er-concurso-de-programacion-uvm/</link><pubDate>Mon, 07 Jan 2013 23:28:45 +0000</pubDate><guid>https://blog.omegaup.com/news/omegaup-apoya-al-1er-concurso-de-programacion-uvm/</guid><description>
+&lt;p>El pasado 29 de noviembre se llevó a cabo, en las instalaciones de &lt;a href="http://www.guadalajarasur.uvmnet.edu/" target="_blank" rel="noopener">UVM Campus Sur Guadalajara&lt;/a>, el &lt;a href="https://omegaup.com/arena/UVM2012/practice/" target="_blank" rel="noopener">Primer Concurso de Programación UVM&lt;/a>, bajo el marco del “Innovation and Technology Fest”.&lt;/p>
+&lt;figure>&lt;a href="https://blog.omegaup.com/images/2012-11-29-007.jpg">&lt;img src="https://blog.omegaup.com/images/2012-11-29-007.jpg"
+alt="1er Concurso UVM" width="4000" height="2248">&lt;/a>&lt;figcaption>
+&lt;h4>1er Concurso UVM&lt;/h4>&lt;p>1er Concurso UVM&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>Participaron Estudiantes del campus e invitados de CUCEI UdeG, teniendo un total de 13 concursantes. El examen se llevó a cabo a las 10 de la mañana con una duración de 3 horas y consistió de 5 problemas sencillos. La evaluación se llevo a cabo gracias a la plataforma Omegaup.&lt;/p>
+&lt;figure>&lt;a href="https://blog.omegaup.com/images/2012-11-29-012.jpg">&lt;img src="https://blog.omegaup.com/images/2012-11-29-012.jpg"
+alt="1er Concurso UVM" width="4000" height="2248">&lt;/a>&lt;figcaption>
+&lt;h4>1er Concurso UVM&lt;/h4>&lt;p>1er Concurso UVM&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>El objetivo principal del concurso fue la promoción de este tipo de eventos y descubrir posibles talentos.&lt;/p>
+&lt;p>Los resultados fueron:&lt;/p>
+&lt;p>1&lt;/p>
+&lt;p>Hector Jauregui Acevedo&lt;/p>
+&lt;p>285&lt;/p>
+&lt;p>2&lt;/p>
+&lt;p>Eduardo Velez Santiago&lt;/p>
+&lt;p>205&lt;/p>
+&lt;p>3&lt;/p>
+&lt;p>Luis Abraham&lt;/p>
+&lt;p>205&lt;/p>
+&lt;p>4&lt;/p>
+&lt;p>Eduardo&lt;/p>
+&lt;p>200&lt;/p>
+&lt;p>5&lt;/p>
+&lt;p>Luis Mario&lt;/p>
+&lt;p>200&lt;/p>
+&lt;p>6&lt;/p>
+&lt;p> vase920814&lt;/p>
+&lt;p>200&lt;/p>
+&lt;p>7&lt;/p>
+&lt;p>Luis Alfonso Vélez Saldivar&lt;/p>
+&lt;p>169&lt;/p>
+&lt;p>8&lt;/p>
+&lt;p>Lisette Paulina Lozano Gómez&lt;/p>
+&lt;p>100&lt;/p>
+&lt;p>9&lt;/p>
+&lt;p>Iván Acevez&lt;/p>
+&lt;p>100&lt;/p>
+&lt;p>10&lt;/p>
+&lt;p> fragalfernando&lt;/p>
+&lt;p>100&lt;/p>
+&lt;p>11&lt;/p>
+&lt;p>José Miguel Ramos Reyes&lt;/p>
+&lt;p>100&lt;/p>
+&lt;p>12&lt;/p>
+&lt;p>Carlos Omar Haro Cordero&lt;/p>
+&lt;p>0&lt;/p></description></item><item><title>Iniciando milestone en OmegaUp: Karate Kid</title><link>https://blog.omegaup.com/news/iniciando-milestone-en-omegaup-karate-kid/</link><pubDate>Wed, 14 Nov 2012 02:57:57 +0000</pubDate><guid>https://blog.omegaup.com/news/iniciando-milestone-en-omegaup-karate-kid/</guid><description>
+&lt;p>Después de año y medio de desarrollo (en nuestros tiempos libres) y de finalmente ser la plataforma de concurso en 3 de los eventos de programación más importantes de México ( &lt;a href="http://olimpiadadeinformatica.org.mx/" target="_blank" rel="noopener">Olimpiada Mexicana de Informática OMI,&lt;/a> &lt;a href="http://blog.omegaup.com/2012/11/conacup-2012-todo-un-exito/" target="_blank" rel="noopener">Concurso Nacional de Programación CONACUP&lt;/a> y el &lt;a href="http://blog.omegaup.com/2012/11/cupa-2012-resultados/" target="_blank" rel="noopener">Concurso Universitario de Programación de Aguascalientes CUPA&lt;/a>)  hemos decidido graduar nuestro motor de evaluación y concursos para invertir más tiempo en la usabilidad del sitio como plataforma de aprendizaje en un nuevo milestone: &lt;a href="https://github.com/omegaup/omegaup/issues?milestone=4&amp;amp;page=1&amp;amp;state=open" target="_blank" rel="noopener">Karate Kid&lt;/a>.&lt;/p>
+&lt;p>Durante este nuevo milestone concentraremos nuestra energía en 3 escenarios principales:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Que nuestros usuarios puedan usar OmegaUp como plataforma de entrenamiento.&lt;/strong> Actualmente el foco de OmegaUp ha sido soportar concursos en vivo, aunque hemos invertido en algunos features como el &lt;a href="https://omegaup.com/arena/CONACUP2012Final/practice/" target="_blank" rel="noopener">modo práctica&lt;/a>.&lt;/li>
+&lt;li>**Que nuestros usuarios puedan medir su avance y compararlo con otros usuarios, con un toque divertido.**No puedes mejorar lo que no puedes medir y para ello OmegaUp se encargará de encontrar el conjunto adecuado de estadísticas para ayudar a nuestros usuarios a mejorar.&lt;/li>
+&lt;li>**Que nuestros usuarios puedan armar y  arrancar sus propios concursos. **Actualmente arrancar un concurso en OmegaUp aún requiere un poco de intervención manual de los administradores, aunque cada vez menos. Para que nuestro modelo escale, necesitamos mejorar nuestra administración y automatización.&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>Si tienes alguna idea relacionada con estas 3 áreas, nos gustaría escucharla.&lt;/strong> Puedes dejarnos un comentario en este post o escribirme un mail a &lt;a href="mailto:joe@omegaup.com" >joe [at] omegaup.com&lt;/a>.&lt;/p>
+&lt;figure>&lt;a href="https://blog.omegaup.com/images/222532_10151084521790906_2027787428_n.jpg">&lt;img src="https://blog.omegaup.com/images/222532_10151084521790906_2027787428_n.jpg"
+alt="OmegaUps trabajando" width="941" height="265">&lt;/a>&lt;figcaption>
+&lt;h4>OmegaUps trabajando&lt;/h4>&lt;p>OmegaUps trabajando: @\_alanboy, @limitedmage, @lhchavez&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>OmegaUp sienta las bases para que concursos como el CONACUP puedan aumentar su cobertura escalando a varias sedes concurrentes y que concursos interestateles previos a Olimpiada de Informática se puedan llevar a cabo de forma remota. El 2013 va a ser un año bastante intenso para OmegaUp.&lt;/p>
+&lt;p>&lt;strong>OmegaUp es una plataforma open-source sin fines de lucro y todo el tiempo estamos buscando desarrolladores que gusten aportar al proyecto.&lt;/strong> Si te interesa, sabes o quieres aprender desarrollo web, diseño, o tienes alguna idea de sistemas distribuidos o machine learning que quisieras implementar, o tienes algún proyecto escolar que no sabes como invertir o simplemente quieres ganar experiencia desarrollando y manteniendo vivo un servicio web, siendo parte de un equipo de desarrollo remoto, puedes contactarme en &lt;a href="mailto:joe@omegaup.com" >joe [at] omegaup.com&lt;/a>.  Nuestro código se encuentra disponible en &lt;a href="https://github.com/omegaup/omegaup" target="_blank" rel="noopener">github&lt;/a>.&lt;/p>
+&lt;p>Salu2! -Joe&lt;/p></description></item><item><title>CONACUP 2012 - Todo un éxito</title><link>https://blog.omegaup.com/news/conacup-2012-todo-un-exito/</link><pubDate>Fri, 09 Nov 2012 02:26:23 +0000</pubDate><guid>https://blog.omegaup.com/news/conacup-2012-todo-un-exito/</guid><description>
+&lt;p>Los días 3 y 4 de Noviembre del 2012, 80 de los mejores programadores de México se dieron cita en el &lt;a href="http://portal.iteso.mx/portal/page/portal/ITESO" target="_blank" rel="noopener">ITESO&lt;/a> de Guadalajara, Jalisco para participar en el 2do Concurso Nacional Abierto de Programación &lt;a href="http://www.conacup.org/" target="_blank" rel="noopener">CONACUP&lt;/a>, organizado por la Sociedad Latinoamericana de Ciencia y Tecnología &lt;a href="http://solacyt.org/" target="_blank" rel="noopener">SOLACyT&lt;/a>.&lt;/p>
+&lt;figure>&lt;a href="https://blog.omegaup.com/images/665083_10152234831600037_431652420_o.jpg">&lt;img src="https://blog.omegaup.com/images/665083_10152234831600037_431652420_o.jpg"
+alt="El equipo organizador del CONACUP 2012" width="1600" height="1200">&lt;/a>&lt;figcaption>
+&lt;h4>El equipo organizador del CONACUP 2012&lt;/h4>&lt;p>El equipo organizador del CONACUP 2012&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>Nos da mucho gusto que Omegaup fue la plataforma oficial para la evaluación de los problemas y estamos completamente comprometidos con el proyecto para los años venideros.&lt;/p>
+&lt;figure>&lt;a href="https://blog.omegaup.com/images/391622_10152233080920037_1006721365_n.jpg">&lt;img src="https://blog.omegaup.com/images/391622_10152233080920037_1006721365_n.jpg"
+alt="CONACUP 2012 " width="960" height="717">&lt;/a>&lt;figcaption>
+&lt;h4>CONACUP 2012 &lt;/h4>&lt;p>CONACUP 2012 Foto Oficial&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>El CONACUP 2012 fue sin duda, una competencia bastante emocionante.  Los 5 primeros lugares fueron:&lt;/p>
+&lt;ol>
+&lt;li>Miguel Ángel Covarrubias (macs)&lt;/li>
+&lt;li>Itzel Carolina Delgadillo&lt;/li>
+&lt;li>Ulises Mendez Martínez&lt;/li>
+&lt;li>Juan Antonio Ruiz Leal&lt;/li>
+&lt;li>Hugo Dueñas&lt;/li>
+&lt;/ol>
+&lt;figure>&lt;a href="https://blog.omegaup.com/images/Screen-Shot-2012-11-04-at-6.12.47-PM.png">&lt;img src="https://blog.omegaup.com/images/Screen-Shot-2012-11-04-at-6.12.47-PM.png"
+alt="Scoreboard Final CONACUP 2012" width="2478" height="1412">&lt;/a>&lt;figcaption>
+&lt;h4>Scoreboard Final CONACUP 2012&lt;/h4>&lt;p>Scoreboard Final CONACUP 2012&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>¡Muchas felicidades a todos los participantes! Esperamos verlos el próximo año. Mientras tanto, estamos trabajando para publicar las redacciones finales en Omegaup, esperen noticias.&lt;/p></description></item><item><title>CUPA 2012 - Resultados</title><link>https://blog.omegaup.com/news/cupa-2012-resultados/</link><pubDate>Wed, 07 Nov 2012 16:31:10 +0000</pubDate><guid>https://blog.omegaup.com/news/cupa-2012-resultados/</guid><description>
+&lt;p>El pasado 20 de Octubre se llevó a cabo el &lt;a href="https://omegaup.com/arena/CUPA2012/practice/" target="_blank" rel="noopener">Concurso Universitario de Programación de Aguascalientes &lt;strong>CUPA&lt;/strong>&lt;/a>. Participaron 26 equipos de 3 personas en un examen de 9 problemas. Los problemsetters oficiales fueron la &lt;strong>Dra. Aurora Torres&lt;/strong> (Plano Estropeado), &lt;strong>David Esparza Alba&lt;/strong> (Traductor, Display Descompuesto, Puntos imantados, Primos juntos siempre y Santas bombillas ) y  &lt;strong>Óscar Dávalos&lt;/strong> (Cadenas de Potencias de 2, Múltiplos y Cubos.). Omegaup fue la plataforma de evaluación del CUPA.&lt;/p>
+&lt;figure>&lt;a href="https://blog.omegaup.com/images/DSC_0009.jpg">&lt;img src="https://blog.omegaup.com/images/DSC_0009.jpg"
+alt="Participantes del CUPA 2012 " width="4608" height="3072">&lt;/a>&lt;figcaption>
+&lt;h4>Participantes del CUPA 2012 &lt;/h4>&lt;p>Participantes del CUPA 2012&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>Los 3 primeros lugares fueron:&lt;/p>
+&lt;ol>
+&lt;li>Equipo: &lt;strong>Radical&lt;/strong>, &lt;strong>Universidad Autónoma de Aguascalientes:&lt;/strong> Juan Antonio Ruiz Leal Francisco Javier Alarcón Esparza Flavio Hernández González&lt;/li>
+&lt;li>Equipo **MEI, ** &lt;strong>Universidad Panamericana campus Bonaterra:&lt;/strong> José Maximiliano Ruíz Macías Fernando Ignacio Arreola Gutiérrez Eric Valdivia Lozano&lt;/li>
+&lt;li>Equipo **aguascalientitos, **&lt;strong>Olimpiada Mexicana de Informática en Aguacalientes&lt;/strong> Itzel Carolina Delgadillo Pérez Quetzali Ramírez Guillén Andrea Acevedo Mejía&lt;/li>
+&lt;/ol>
+&lt;p>¡Muchas felicidades a todos los participantes! Esperamos volverlos a apoyar el próximo año. Mientras tanto, el problemset oficial ya se encuentra abierto en modo práctica en Omegaup &lt;a href="https://omegaup.com/arena/CUPA2012/practice/" target="_blank" rel="noopener">aquí&lt;/a>.&lt;/p></description></item></channel></rss>
