@@ -1,5 +1,6 @@
 ---
 title: 'Privacy Policy'
+weight: 1
 author: 'alanboy'
 author_email: 'alanboy@alanboy.net'
 date: Fri, 05 Jun 2015 08:15:27 +0000

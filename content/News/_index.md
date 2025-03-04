@@ -1,5 +1,5 @@
 ---
-title: Entradas del blog omegaUp
+title: Noticias
 weight: 0
 cascade:
   type: blog

@@ -1,8 +1,6 @@
 ---
 title: Comienza 
-sidebar:
-  exclude: true
-toc: true
+weight: 10
 ---
 
 ## Explora
