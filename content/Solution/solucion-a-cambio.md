@@ -5,6 +5,7 @@ author_email: 'elira@elira.me'
 date: Tue, 08 Jan 2013 17:18:25 +0000
 draft: false
 tags: ['Solution', 'Enrique Lira', 'Etapa 1', 'Examen 7', 'preselectivo', 'solución', 'Soluciones Preselectivo 2013']
+aliases: ['/solucion-a-cambio']
 ---
 
 **Concurso:** [Preselectivo para la IOI 2013, Etapa 1, Examen 7](https://omegaup.com/arena/IOI2013E1P7) **Autor: **[Enrique Lira Vargas](mailto:elira@elira.me)
@@ -12,11 +13,13 @@ tags: ['Solution', 'Enrique Lira', 'Etapa 1', 'Examen 7', 'preselectivo', 'soluc
 Lo importante de este problema es notar como se puede usar un backtracking para contar cosas. En este caso lo que se debía contar era la cantidad de formas de llegar a una cantidad sumando una o más veces una serie de cantidades dadas.
 
 Solución de 30, 50 puntos
+aliases: ['/solucion-a-cambio']
 -------------------------
 
 Generar todas las combinaciones que sumen la cantidad C pedida. Para hacer esto se puede hacer con una búsqueda en profundidad de manera ordenada de la misma forma que se calculan permutaciones pero cuidando que la suma no sobrepase el valor C deseado. Esto se puede considerar una búsqueda podada.
 
 Solución de 100 puntos
+aliases: ['/solucion-a-cambio']
 ----------------------
 
 Consideremos la solución anterior y tratemos de calcularlo de abajo hacia arriba, habría que crear una función que nos dijera para una cantidad dada y un set de monedas que se pueden usar (para no repetir) nos diga cuantas formas distintas hay de completar dicha cantidad. Si se logra construir dicha función la solución al problema es simple puesto que se reduce a llamar dicha función con la cantidad que nos piden y el set completo de monedas. Lo interesante radica en cómo se compone dicha función, suponiendo que la función funciona hay que tratar de construirla, primero hay que considerar los casos especiales, si la cantidad es cero significa que no hay que hacer nada y entonces hay una forma de lograrlo (es una combinación válida), si la cantidad es mayor a cero hay que sumar las combinaciones de tomar una moneda de la primera denominación disponible con las de dejar de tomar monedas de dicha denominación.

@@ -5,6 +5,7 @@ author_email: 'elira@elira.me'
 date: Fri, 19 Oct 2012 17:09:21 +0000
 draft: false
 tags: ['Solution', 'Etapa 1', 'Examen 2', 'Soluciones Preselectivo 2013']
+aliases: ['/solucion-a-el-artista-lento']
 ---
 
 **Concurso:** [Preselectivo para la IOI 2013, Etapa 1, Examen 2](https://omegaup.com/arena/IOI2013E1P2)**[ ](https://omegaup.com/arena/IOI2013E1P2) Autor: **[Christian Hernández](#)

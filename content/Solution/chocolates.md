@@ -5,6 +5,7 @@ author_email: 'golden.darknut@gmail.com'
 date: Wed, 05 Aug 2015 07:02:46 +0000
 draft: false
 tags: ['Solution', 'dinámica', 'felix', 'Material de estudio', 'preselectivo', 'solución']
+aliases: ['/chocolates']
 ---
 
 Problema: [Los Chocolates del Agente Nieves](https://omegaup.com/arena/problem/chocolates)

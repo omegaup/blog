@@ -5,6 +5,7 @@ author_email: 'briaares@gmail.com'
 date: Wed, 01 Apr 2020 18:08:10 +0000
 draft: false
 tags: ['Solution', 'Concursos', 'liga omegaup', 'Material de estudio', 'solución', 'soluciones']
+aliases: ['/soluciones-a-liga-omegaup-fase-1']
 ---
 
 ## [Problema A](https://omegaup.com/arena/problem/Rango-simple)

@@ -5,6 +5,7 @@ author_email: 'carlos@omegaup.com'
 date: Fri, 10 May 2019 19:52:06 +0000
 draft: false
 tags: ['Features', 'Problemas', 'Anuncios']
+aliases: ['/el-nuevo-buscador-de-problemas-de-omegaup']
 ---
 
 Usuarios de omegaUp:

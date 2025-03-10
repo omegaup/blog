@@ -5,6 +5,7 @@ author_email: 'joemmanuel@gmail.com'
 date: Wed, 28 May 2014 15:29:56 +0000
 draft: false
 tags: ['News', 'Concursos', 'Material de estudio']
+aliases: ['/el-camino-rumbo-a-la-ioi-2014']
 ---
 
 Después de varios meses de preparación y selección, México está listo para participar en la [IOI 2014](http://www.ioi2014.org/) a celebrarse en Taiwán del 13 al 20 de Julio.

@@ -5,6 +5,7 @@ author_email: 'joemmanuel@gmail.com'
 date: Tue, 07 Apr 2020 04:05:35 +0000
 draft: false
 tags: ['News', 'Anuncios', 'omegaUp']
+aliases: ['/todos-los-videos-del-curso-de-introduccion-a-c']
 ---
 
 _Actualización 10/04/20: El curso ha terminado y este post incluye los 11 videos._

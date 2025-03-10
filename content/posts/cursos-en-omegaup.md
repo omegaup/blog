@@ -5,9 +5,11 @@ author_email: 'vanessa@omegaup.org'
 date: Thu, 27 Aug 2020 01:29:03 +0000
 draft: true
 tags: ['Internals']
+aliases: ['/cursos-en-omegaup']
 ---
 
 **_Descubriendo y preparando al talento de Latinoamérica_**
+aliases: ['/cursos-en-omegaup']
 -----------------------------------------------------------
 
 [Conoce nuestros cursos](https://omegaup.com/course/)

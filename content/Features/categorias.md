@@ -5,6 +5,7 @@ author_email: 'jorge@omegaup.com'
 date: Tue, 01 May 2018 21:27:59 +0000
 draft: false
 tags: ['Features', 'Ranking', 'Anuncios', 'omegaUp']
+aliases: ['/categorias']
 ---
 
 **Conoce las Categorías de Usuarios de omegaUp**

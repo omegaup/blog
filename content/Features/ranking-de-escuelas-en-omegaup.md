@@ -5,6 +5,7 @@ author_email: 'joemmanuel@gmail.com'
 date: Sun, 18 Jun 2017 20:56:44 +0000
 draft: false
 tags: ['Features', 'Ranking', 'Anuncios', 'omegaUp']
+aliases: ['/ranking-de-escuelas-en-omegaup']
 ---
 
 Uno de los principales enfoques de [nuestro equipo](https://omegaup.org/#team) este 2017 ha sido facilitar el uso de omegaUp en las escuelas. Previamente anunciamos el lanzamiento de [omegaUp Escuelas](https://blog.omegaup.com/2017/05/anunciando-omegaup-escuelas/), un conjunto de funcionalidades que ayuda a los profesores a administrar cursos dentro de la plataforma y crear tareas y exámenes.

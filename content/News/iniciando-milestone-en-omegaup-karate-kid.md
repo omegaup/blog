@@ -5,6 +5,7 @@ author_email: 'joemmanuel@gmail.com'
 date: Wed, 14 Nov 2012 02:57:57 +0000
 draft: false
 tags: ['News', 'omegaUp']
+aliases: ['/iniciando-milestone-en-omegaup-karate-kid']
 ---
 
 Después de año y medio de desarrollo (en nuestros tiempos libres) y de finalmente ser la plataforma de concurso en 3 de los eventos de programación más importantes de México ( [Olimpiada Mexicana de Informática OMI,](http://olimpiadadeinformatica.org.mx/) [Concurso Nacional de Programación CONACUP](http://blog.omegaup.com/2012/11/conacup-2012-todo-un-exito/) y el [Concurso Universitario de Programación de Aguascalientes CUPA](http://blog.omegaup.com/2012/11/cupa-2012-resultados/))  hemos decidido graduar nuestro motor de evaluación y concursos para invertir más tiempo en la usabilidad del sitio como plataforma de aprendizaje en un nuevo milestone: [Karate Kid](https://github.com/omegaup/omegaup/issues?milestone=4&page=1&state=open).

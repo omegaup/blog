@@ -5,6 +5,7 @@ author_email: 'golden.darknut@gmail.com'
 date: Thu, 02 Mar 2017 06:29:09 +0000
 draft: false
 tags: ['Solution', 'felix', 'grafos', 'Material de estudio', 'preselectivo', 'solución']
+aliases: ['/solucion-a-los-callejones-de-guanajuato']
 ---
 
 Problema: [Los Callejones de Guanajuato](https://omegaup.com/arena/problem/callejones/).
