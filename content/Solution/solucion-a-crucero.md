@@ -5,6 +5,7 @@ author_email: 'me@freddy.mx'
 date: Thu, 23 Jan 2014 03:41:06 +0000
 draft: false
 tags: ['Solution', 'Etapa 1', 'Examen 4', 'Germán', 'preselectivo', 'solución', 'Soluciones Preselectivo 2013', 'USACO']
+aliases: ['/solucion-a-crucero']
 ---
 
 **Concurso:** [Preselectivo para la IOI 2014, Etapa 1, Problemset 4](https://omegaup.com/arena/IOI2014E1P4#problems/Crucero) **Autor:** [Saúl Germán Gutiérrez Calderón](mailto:saul.g.gutierrez@gmail.com) **Fuente**: USACO Enero 2009 Gold

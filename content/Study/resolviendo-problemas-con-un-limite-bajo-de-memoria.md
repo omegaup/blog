@@ -5,6 +5,7 @@ author_email: 'sergio@omegaup.com'
 date: Sun, 05 Dec 2021 05:03:04 +0000
 draft: false
 tags: ['Study material', 'Material de estudio', 'omegaUp']
+aliases: ['/resolviendo-problemas-con-un-limite-bajo-de-memoria']
 ---
 
 Gracias @Rodrigo-RCC por este aporte!

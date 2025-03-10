@@ -5,6 +5,7 @@ author_email: 'elira@elira.me'
 date: Mon, 14 Jan 2013 16:27:54 +0000
 draft: false
 tags: ['Solution', 'Etapa 1', 'Ethan Jiménez', 'Examen 4', 'preselectivo', 'solución', 'Soluciones Preselectivo 2013']
+aliases: ['/solucion-a-cueva']
 ---
 
 **Concurso:** [Preselectivo para la IOI 2013, Etapa 1, Examen 4](https://omegaup.com/arena/IOI2013E1P4) **Autor:** [Ethan Jiménez Vargas](http://twitter.com/erosethan)

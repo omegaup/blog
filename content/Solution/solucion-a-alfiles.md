@@ -6,6 +6,7 @@ date: Mon, 07 Jan 2013 16:23:49 +0000
 draft: false
 tags: ['Solution', 'Alfiles', 'Etapa 1', 'Examen 7', 'Hugo Dueñas', 'preselectivo', 'solución', 'Soluciones Preselectivo 2013']
 math: true
+aliases: ['/solucion-a-alfiles']
 ---
 
 **Concurso:** [Preselectivo para la IOI 2013, Etapa 1, Examen 7](https://omegaup.com/arena/IOI2013E1P7) **Autor: **[Hugo Dueñas](mailto:hugochiquito.cpp@gmail.com)

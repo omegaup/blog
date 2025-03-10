@@ -1,6 +1,7 @@
 ---
 title: Novedades
 weight: 20
+aliases: ['/Novedades']
 ---
 
 Descubre nuestra información actualizada relevante.

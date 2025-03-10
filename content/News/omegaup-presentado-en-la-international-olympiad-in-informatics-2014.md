@@ -5,6 +5,7 @@ author_email: 'joemmanuel@gmail.com'
 date: Thu, 24 Jul 2014 15:18:10 +0000
 draft: false
 tags: ['News', 'Contribuir a omegaUp', 'Internals', 'omegaUp']
+aliases: ['/omegaup-presentado-en-la-international-olympiad-in-informatics-2014']
 ---
 
 [{{< video autoplay="true" loop="true" muted="true" src="/images/INFOLOGO.webm" type="video/mp4" >}}](/images/INFOLOGO.webm)

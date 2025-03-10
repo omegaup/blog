@@ -5,6 +5,7 @@ author_email: 'joemmanuel@gmail.com'
 date: Mon, 02 Jun 2014 14:04:24 +0000
 draft: false
 tags: ['News', 'Concursos']
+aliases: ['/preselectivo-ioi-2015-inicio']
 ---
 
 [![](/images/740112_10152062112657478_4658374637277423762_o.jpg "OMI")](/images/740112_10152062112657478_4658374637277423762_o.jpg)

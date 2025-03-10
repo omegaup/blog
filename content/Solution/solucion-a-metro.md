@@ -5,6 +5,7 @@ author_email: 'elira@elira.me'
 date: Mon, 07 Jan 2013 17:22:45 +0000
 draft: false
 tags: ['Solution', 'Alain Acevedo', 'Etapa 1', 'Examen 12', 'preselectivo', 'solución', 'Soluciones Preselectivo 2013']
+aliases: ['/solucion-a-metro']
 ---
 
 **Concurso:** [Preselectivo para la IOI 2013, Etapa 1, Examen 12](https://omegaup.com/arena/IOI2013E1P12) **Autor: **[Alain Acevedo Mejía](mailto:alainacme@gmail.com)

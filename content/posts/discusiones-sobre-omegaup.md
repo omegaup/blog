@@ -5,6 +5,7 @@ author_email: 'joemmanuel@gmail.com'
 date: Sat, 23 Aug 2014 13:53:53 +0000
 draft: true
 tags: ['Anuncios', 'Contribuir a omegaUp', 'Internals']
+aliases: ['/discusiones-sobre-omegaup']
 ---
 
 Hemos abierto un grupo de discusión de Google para hablar sobre problemas técnicos durante el desarrllo de omegaUp y debatir los nuevos features que los colaboradores están pensando en implementar.

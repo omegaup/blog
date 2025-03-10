@@ -6,6 +6,7 @@ author_email: 'lhchavez@omegaup.com'
 date: Fri, 29 Nov 2013 20:35:09 +0000
 draft: false
 tags: ['Documentation', 'Problemas', 'Introducción a omegaUp']
+aliases: ['/introduccion-a-omegaup']
 ---
 
 {{< youtube NgaYc9eYBbo >}}

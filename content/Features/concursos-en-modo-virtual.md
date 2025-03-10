@@ -5,6 +5,7 @@ author_email: 'hugo@omegaup.com'
 date: Fri, 07 Dec 2018 06:00:21 +0000
 draft: false
 tags: ['Features', 'Concursos', 'Uncategorized']
+aliases: ['/concursos-en-modo-virtual']
 ---
 
 Estimados usuarios de omegaUp

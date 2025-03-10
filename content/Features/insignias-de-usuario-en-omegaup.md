@@ -5,6 +5,7 @@ author_email: 'carlos@omegaup.com'
 date: Wed, 30 Oct 2019 21:14:17 +0000
 draft: false
 tags: ['Features', 'General', 'Anuncios', 'insignias', 'nueva-funcionalidad']
+aliases: ['/insignias-de-usuario-en-omegaup']
 ---
 
 Estimados coders,

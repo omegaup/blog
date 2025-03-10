@@ -5,6 +5,7 @@ author_email: 'joemmanuel@gmail.com'
 date: Wed, 15 Jul 2015 14:26:13 +0000
 draft: false
 tags: ['News', 'Entrevistas', 'Material de estudio']
+aliases: ['/ioi-2015-entrevista-con-blak_dragon1']
 ---
 
 [![blak_dragon1](/images/entrevistaIOI.jpg)](https://omegaup.com/profile/blak_dragon1)

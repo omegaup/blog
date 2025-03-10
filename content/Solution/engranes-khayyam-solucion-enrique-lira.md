@@ -6,6 +6,7 @@ date: Sat, 13 Oct 2012 04:06:46 +0000
 draft: false
 tags: ['Solution', 'Etapa 1', 'Examen 1', 'Khayyam', 'Soluciones Preselectivo 2013']
 math: true
+aliases: ['/engranes-khayyam-solucion-enrique-lira']
 ---
 
 **Concurso:** [Preselectivo para la IOI 2013, Etapa 1, Examen 1](https://omegaup.com/arena/IOI2013E1P1)**[ ](https://omegaup.com/arena/IOI2013E1P1) Autor: **[Omar Ocegueda (Khayyam)](http://www.linkedin.com/pub/jesus-omar-ocegueda-gonzalez/18/b45/5b9) **Solución por: **[Enrique Lira](http://elira.me/)

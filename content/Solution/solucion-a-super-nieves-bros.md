@@ -5,6 +5,7 @@ author_email: 'joemmanuel@gmail.com'
 date: Mon, 30 Sep 2013 15:54:06 +0000
 draft: false
 tags: ['Solution', 'Examen 6']
+aliases: ['/solucion-a-super-nieves-bros']
 ---
 
 **Concurso: **[Preselectivo para la IOI 2014, Etapa 1, Problemset 6](https://omegaup.com/arena/IOI2014E1P6) **Fuente**: Topcoder
