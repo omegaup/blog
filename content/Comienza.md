@@ -1,6 +1,7 @@
 ---
 title: Comienza 
 weight: 10
+aliases: ['/Comienza']
 ---
 
 ## Explora

@@ -5,6 +5,7 @@ author_email: 'elira@elira.me'
 date: Sun, 28 Oct 2012 01:31:45 +0000
 draft: false
 tags: ['Solution', 'Etapa 1', 'Examen 2', 'Soluciones Preselectivo 2013']
+aliases: ['/solucion-a-teclado-roto']
 ---
 
 **Concurso:** [Preselectivo para la IOI 2013, Etapa 1, Examen 2](https://omegaup.com/arena/IOI2013E1P2)**[ ](https://omegaup.com/arena/IOI2013E1P2) Autor: **[Jorge Alberto González Martínez](#)

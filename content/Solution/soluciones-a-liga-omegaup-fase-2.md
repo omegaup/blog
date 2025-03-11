@@ -5,6 +5,7 @@ author_email: 'briaares@gmail.com'
 date: Sun, 19 Apr 2020 08:05:15 +0000
 draft: false
 tags: ['Solution', 'Concursos', 'liga omegaup', 'Material de estudio', 'solución']
+aliases: ['/soluciones-a-liga-omegaup-fase-2']
 ---
 
 1.  **[Problema A](https://omegaup.com/arena/problem/No-se-molesto-en-escribir-uno)**

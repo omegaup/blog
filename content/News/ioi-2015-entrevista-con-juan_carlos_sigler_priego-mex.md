@@ -5,6 +5,7 @@ author_email: 'joemmanuel@gmail.com'
 date: Mon, 06 Jul 2015 15:52:37 +0000
 draft: false
 tags: ['News', 'Entrevistas', 'Material de estudio', 'Preselectivo IOI 2015']
+aliases: ['/ioi-2015-entrevista-con-juan_carlos_sigler_priego-mex']
 ---
 
 [![Juan_Carlos_Sigler_Priego](/images/image1.jpg)](/images/image1.jpg)Estamos inaugurando la categoría de Entrevistas en el blog de omegaUp y en esta ocasión tuvimos la oportunidad de hablar con [Juan\_Carlos\_Sigler\_Priego](https://omegaup.com/profile/Juan_Carlos_Sigler_Priego) quien representará a México en la [International Olympiad in Informatics (IOI) 2015](http://ioi2015.kz/).

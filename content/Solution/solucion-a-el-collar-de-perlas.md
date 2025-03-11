@@ -5,6 +5,7 @@ author_email: 'elira@elira.me'
 date: Thu, 03 Jan 2013 16:01:37 +0000
 draft: false
 tags: ['Solution', 'Etapa 1', 'Examen 10', 'felix', 'preselectivo', 'solución', 'Soluciones Preselectivo 2013']
+aliases: ['/solucion-a-el-collar-de-perlas']
 ---
 
 **Concurso:** [Preselectivo para la IOI 2013, Etapa 1, Examen 10](https://omegaup.com/arena/IOI2013E1P10)**[ ](https://omegaup.com/arena/IOI2013E1P10) Autor: **[Félix Rafael Horta Cuadrilla](http://goldendarknut.blogspot.mx/)

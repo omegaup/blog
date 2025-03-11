@@ -5,6 +5,7 @@ author_email: 'juan.pablo@omegaup.com'
 date: Sat, 08 Feb 2020 22:56:22 +0000
 draft: false
 tags: ['Features', 'Concursos', 'Uncategorized']
+aliases: ['/administracion-de-identidades']
 ---
 
 Hemos liberado una nueva funcionalidad en omegaUp para que puedas administrar identidades dentro de un grupo. Si has sido organizador de un concurso o curso, seguramente has requerido de la ayuda de algún miembro de omegaUp para dar de alta las cuentas de los usuarios que participarán en el evento que organizaste con este [script](https://github.com/omegaup/omegaup/blob/73db504f8494ce00d0305931730ea35a89a8aa6b/frontend/server/controllers/UserController.php#L644). Con esta nueva funcionalidad serás capaz de realizar todas las acciones por tu cuenta.
@@ -15,6 +16,7 @@ Hemos liberado una nueva funcionalidad en omegaUp para que puedas administrar id
 Una identidad en omegaUp es una cuenta con los privilegios suficientes para ingresar a un curso o concurso para el cual haya sido creada. Anteriormente, para que un usuario pudiera ingresar al curso o concurso, era necesario hacer los cambios necesarios en el código descrito en el párrafo anterior.
 
 Ventajas
+aliases: ['/administracion-de-identidades']
 --------
 
 Las ventajas que se tienen con esta nueva funcionalidad se describen a continuación:
@@ -34,6 +36,7 @@ Las ventajas que se tienen con esta nueva funcionalidad se describen a continuac
 ================================================
 
 Crear Identidades
+aliases: ['/administracion-de-identidades']
 -----------------
 
 [{{< video autoplay="true" loop="true" muted="true" src="/images/Video_1-Crear_Identiades.webm" type="video/mp4" >}}](/images/Video_1-Crear_Identiades.webm)
@@ -116,6 +119,7 @@ En caso de que no hayas guardado las contraseñas, no te preocupes, las puedes r
 [{{< video autoplay="true" loop="true" muted="true" src="/images/Video_2-Cambiar_Password.webm" type="video/mp4" >}}](/images/Video_2-Cambiar_Password.webm)
 
 Cambiar Password
+aliases: ['/administracion-de-identidades']
 ----------------
 
 También puedes editar información de las identidades, recuerda que solamente el creador de las identidades puede realizar esta acción. La forma de hacerlo se muestra en la siguiente animación:
@@ -123,6 +127,7 @@ También puedes editar información de las identidades, recuerda que solamente e
 [{{< video autoplay="true" loop="true" muted="true" src="/images/Video_3-Actualizar_Info_Basica.webm" type="video/mp4" >}}](/images/Video_3-Actualizar_Info_Basica.webm)
 
 Actualizar información básica
+aliases: ['/administracion-de-identidades']
 -----------------------------
 
 Ya que le compartiste las identidades a los respectivos participantes, ellos pueden ingresar a la plataforma de la misma forma que cualquier otro usuario, la diferencia que van a notar es que estas cuentas no podrán editar sus datos, en la siguiente animación se muestra:

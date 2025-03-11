@@ -6,6 +6,7 @@ date: Fri, 25 Jul 2014 04:28:19 +0000
 draft: false
 tags: ['Solution', '2014', 'carretera', 'Etapa 1', 'Examen 1', 'Freddy', 'nieves', 'preselectivo', 'solución', 'Soluciones Preselectivo 2014']
 math: true
+aliases: ['/solucion-a-carretera']
 ---
 
 **Concurso:** [Preselectivo para la IOI 2015, Etapa 1, Examen 1](https://omegaup.com/arena/IOI2015E1E1/#problems/carretera) **Autor:** [Freddy Román Cepeda](http://freddy.mx/) **Fuente**: Edgar Augusto Santiago Nieves, [Freddy Román Cepeda](http://freddy.mx/)

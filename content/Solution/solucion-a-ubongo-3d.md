@@ -6,6 +6,7 @@ date: Sat, 14 Sep 2013 05:04:59 +0000
 draft: false
 tags: ['Solution', 'Etapa 1', 'Examen 8', 'macs', 'preselectivo', 'solución', 'Soluciones Preselectivo 2014']
 math: true
+aliases: ['/solucion-a-ubongo-3d']
 ---
 
 **Concurso:** [Preselectivo para la IOI 2014, Etapa 1, Problemset 8](https://omegaup.com/arena/problem/ubongo-3d) **Autor:** Miguel Covarrubias **Fuente:** Miguel Covarrubias

@@ -5,6 +5,7 @@ author_email: 'hugo@omegaup.com  '
 date: Tue, 18 Feb 2025 06:52:20 +0000
 draft: false
 tags: ['News', 'Anuncios', 'omegaUp']
+aliases: ['/coder-del-mes-2025']
 ---
 
 ¡Nos complace anunciar mejoras importantes en el proceso de selección del **Coder del Mes** en **omegaUp**! Como algunos de ustedes habrán notado, hemos experimentado algunos problemas ocasionales con esta función recientemente. Esto se debió a la complejidad del código subyacente, lo que dificultaba la identificación y resolución rápida de los problemas. Entendemos que estas interrupciones pueden ser frustrantes, y siempre nos esforzamos por brindar una experiencia fluida y confiable. Agradecemos su paciencia mientras trabajábamos para abordar estos desafíos.

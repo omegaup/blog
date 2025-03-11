@@ -1,6 +1,7 @@
 ---
 title: Reclutamiento Ingenieria
 weight: 30
+aliases: ['/reclutamiento-ingenieria']
 ---
 
 # ¿Quieres Contribuir al Equipo de Ingeniería de Software de omegaUp?
