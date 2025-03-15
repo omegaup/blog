@@ -45,3 +45,7 @@ toc: true
 {{< /hextra/feature-grid >}}
 </div>
 
+{{ define "main" }}
+  {{ .Content }}
+  {{ partial "recent-posts.html" . }}
+{{ end }}
