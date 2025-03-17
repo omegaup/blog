@@ -1,9 +1,5 @@
-<h2>Recent Posts</h2>
-<ul>
-  {{ range first 5 (where .Site.RegularPages "Type" "blog") }}
-    <li>
-      <a href="{{ .Permalink }}">{{ .Title }}</a>
-      <span class="date">{{ .Date.Format "January 1, 2024" }}</span>
-    </li>
-  {{ end }}
-</ul>
+{{ range first 5 (where .Site.RegularPages "Type" "blog") }}
+<li>
+  &#8226; <a class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font" href="{{ .Permalink }}">{{ .Title }}</a>
+</li>
+{{ end }}
