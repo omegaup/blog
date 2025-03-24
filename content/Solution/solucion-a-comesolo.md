@@ -6,6 +6,7 @@ date: Sat, 14 Sep 2013 05:21:32 +0000
 draft: false
 tags: ['Solution', 'Etapa 1', 'Examen 5', 'felix', 'lhchavez', 'preselectivo', 'solución', 'Soluciones Preselectivo 2014']
 math: true
+aliases: ['/solucion-a-comesolo']
 ---
 
 **Concurso:** [Preselectivo para la IOI 2014, Etapa 1, Problemset 8](https://omegaup.com/arena/problem/comesolo) **Autor:** [lhchavez](http://lhchavez.com) **Fuente**: Félix

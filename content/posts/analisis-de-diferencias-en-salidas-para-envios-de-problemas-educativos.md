@@ -5,6 +5,7 @@ author_email: 'juan.pablo@omegaup.com'
 date: Mon, 07 Sep 2020 02:13:18 +0000
 draft: false
 tags: ['Features', 'Cursos', 'Uncategorized']
+aliases: ['/analisis-de-diferencias-en-salidas-para-envios-de-problemas-educativos']
 ---
 
 Hemos liberado una nueva funcionalidad que será muy útil para los usuarios que comienzan a utilizar la plataforma, ya que contarán con una herramienta más para apoyarlos en su aprendizaje. Esta funcionalidad les permitirá ver un análisis de las diferencias entre las salidas que dan sus programas y las salidas oficiales para los envíos de problemas educativos.

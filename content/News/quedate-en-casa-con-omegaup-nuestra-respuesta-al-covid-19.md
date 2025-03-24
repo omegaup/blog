@@ -5,6 +5,7 @@ author_email: 'joemmanuel@gmail.com'
 date: Mon, 23 Mar 2020 03:38:03 +0000
 draft: false
 tags: ['News', 'Anuncios', 'omegaUp']
+aliases: ['/quedate-en-casa-con-omegaup-nuestra-respuesta-al-covid-19']
 ---
 
 ### **Querida comunidad omegaUp:**

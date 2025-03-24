@@ -5,6 +5,7 @@ author_email: 'joemmanuel@gmail.com'
 date: Tue, 14 Jul 2015 14:56:28 +0000
 draft: false
 tags: ['News', 'Entrevistas', 'Material de estudio']
+aliases: ['/ioi-2015-entrevista-con-emmanuel_antonio']
 ---
 
 [![Emmanuel_Antonio](/images/img21.jpg)](https://omegaup.com/profile/Emmanuel_Antonio)

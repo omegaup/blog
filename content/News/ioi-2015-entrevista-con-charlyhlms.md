@@ -5,6 +5,7 @@ author_email: 'joemmanuel@gmail.com'
 date: Fri, 10 Jul 2015 15:10:32 +0000
 draft: false
 tags: ['News', 'Entrevistas', 'Material de estudio']
+aliases: ['/ioi-2015-entrevista-con-charlyhlms']
 ---
 
 [![charlyhlms](/images/IMG_1178.jpg)](https://omegaup.com/profile/charlyhlms)

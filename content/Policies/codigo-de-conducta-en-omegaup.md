@@ -6,6 +6,7 @@ author_email: 'vanessa@omegaup.org'
 date: Thu, 23 Apr 2020 01:11:47 +0000
 draft: false
 tags: ['Policies', 'omegaUp']
+aliases: ['/codigo-de-conducta-en-omegaup']
 ---
 
 omegaUp es una plataforma educativa y creemos que debemos fomentar un ambiente con respeto y la mismas oportunidades para todos. Por ello creamos el siguiente Código de Conducta, que debes cumplir para utilizar omegaUp.com.

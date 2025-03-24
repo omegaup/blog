@@ -6,6 +6,7 @@ date: Thu, 12 Jun 2014 14:42:18 +0000
 draft: false
 tags: ['Features', 'Ranking', 'Internals']
 math: true
+aliases: ['/el-nuevo-ranking-de-omegaup']
 ---
 
 Con [este commit](https://github.com/omegaup/omegaup/commit/132e9c4614a7a4939156a942810559bf8c57f1a8) hemos introducido un cambio significativo en la forma de calcular el [ranking general](https://omegaup.com/rank.php) de omegaUp. Ahora no sólo es importante cuántos problemas ha resuelto un usuario sino que también estamos incluyendo la dificultad de cada uno de esos problemas. La dificultad es inversamente proporcional a la cantidad de soluciones completas (AC) que tiene ese problema.

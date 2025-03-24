@@ -5,6 +5,7 @@ author_email: 'joemmanuel@gmail.com'
 date: Tue, 01 Oct 2019 00:00:02 +0000
 draft: false
 tags: ['News', 'omegaUp', 'Reportes']
+aliases: ['/reporte-de-actividades-2019']
 ---
 
 > ![](https://cdn-images-1.medium.com/max/800/0*I4SePvbkFRTkq7DH.png)
@@ -51,9 +52,11 @@ Todos estos resultados fueron obtenidos con un presupuesto operativo de tan sól
 {{< figure src="https://cdn-images-1.medium.com/max/800/1*525XGL59ObluLKM_FQPlLA.jpeg" alt="omegaUp 1st Annual Gala 2018: The Aztec Coders" height="533" width="800" caption="omegaUp 1st Annual Gala 2018: The Aztec Coders" >}}
 
 **Tu apoyo inspira talento. Juntos podemos contribuir a crear una industria de Ingeniería de Software más diversa empoderando a nuestra comunidad Latinoamericana.**
+aliases: ['/reporte-de-actividades-2019']
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Por favor únete a nuestra causa haciendo tu donación hoy: [https://omegaup.org/#donate](https://omegaup.org/#donate)**
+aliases: ['/reporte-de-actividades-2019']
 ------------------------------------------------------------------------------------------------------------------------
 
 {{< figure src="/images/GALA2019.jpg" height="1000" width="1000" link="https://omegaup.org/eventos/omegaup-gala-2019/index.html" caption="Invitación a la Gala Anual de Recaudación de Fondos - Coding Latam. Octubre 19, Bellevue, WA, USA" >}}
