@@ -13,14 +13,14 @@ Hola!, este es mi primer post en Omegaup y voy a describir mi solución para el 
 Primer solución
 ---------------
 
-La idea principal tanto en la primera como en la segunda solución es diseñar una función $latex f(d)$ que nos retorne el número de colonias infectadas después de $latex d$ días, nos interesa el mínimo valor de $latex d$ tal que el número de colonias infectadas sea mayor o igual a $latex C$. Una propiedad importante es la siguiente, $latex f(d)$ nunca decrece, es decir $latex f(d) <= f(d+1)$. Esta propiedad nos permite utilizar búsqueda binaria para encontrar las respuesta en $latex O(\\lg\_{2}(n))$. Diseñar una función que determine el número de colonias infectadas, dependiendo del background de cada uno, es la parte interesante, y es donde difieren las dos versiones, bueno, un poco. Este es el código de la primer versión, no voy a entrar en detalles porque ni yo me acuerdo bien que trucos aplique, pero la idea es parecida a la de la de la segunda versión, lo que cambia es la estrategia.
+La idea principal tanto en la primera como en la segunda solución es diseñar una función $ f(d)$ que nos retorne el número de colonias infectadas después de $ d$ días, nos interesa el mínimo valor de $ d$ tal que el número de colonias infectadas sea mayor o igual a $ C$. Una propiedad importante es la siguiente, $ f(d)$ nunca decrece, es decir $ f(d) <= f(d+1)$. Esta propiedad nos permite utilizar búsqueda binaria para encontrar las respuesta en $ O(\\lg\_{2}(n))$. Diseñar una función que determine el número de colonias infectadas, dependiendo del background de cada uno, es la parte interesante, y es donde difieren las dos versiones, bueno, un poco. Este es el código de la primer versión, no voy a entrar en detalles porque ni yo me acuerdo bien que trucos aplique, pero la idea es parecida a la de la de la segunda versión, lo que cambia es la estrategia.
 
 {{< gist rendon 4298449a291244690253 >}}
 
 Segunda versión
 ---------------
 
-Bueno, empecemos, trascurridos $latex d$ días, ¿cuántas colonias han sido infectadas? Simulemos la invasión y veamos si podemos encontrar un patrón. [![zombies-pattern](/images/zombies-pattern.png)](/images/zombies-pattern.png) No es complicado llegar a la siguiente fórmula: $latex f(d) = d^{2} + (d+1)^{2}$ Si el espacio de la ciudad fuese ilimitado nuestra función de verificación sería algo parecido a:
+Bueno, empecemos, trascurridos $ d$ días, ¿cuántas colonias han sido infectadas? Simulemos la invasión y veamos si podemos encontrar un patrón. [![zombies-pattern](/images/zombies-pattern.png)](/images/zombies-pattern.png) No es complicado llegar a la siguiente fórmula: $ f(d) = d^{2} + (d+1)^{2}$ Si el espacio de la ciudad fuese ilimitado nuestra función de verificación sería algo parecido a:
 
 {{< gist rendon 1308e65b73b82d452bba >}}
 

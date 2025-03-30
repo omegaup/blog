@@ -43,7 +43,7 @@ Hay datos que no hemos considerado en la descripción del problema: los límites
 *   **Límite de memoria**: Tu solución no puede usar más megabytes de los permitidos por el límite para producir la respuesta.
 *   **Límites en las variables de entrada: **No todos los problemas tienen una sección específica donde se indice cuáles son los valores mínimos y máximos de una variable, por lo que necesitamos leer con atención el problema para obtenerlos.
 
-En nuestra solución anterior, hay un dato que no consideramos: La suma de ambos números cabe en un entero de 64 bits. En nuestra solución anterior estábamos usando el tipo de datos int, los cuales tienen un límite de 32 bits (Un int en C puede guardar números entre $latex -2^{31}$ hasta $latex 2^{31}-1$, es decir, de -2147483648 hasta 2147483648 ). Para satisfacer el límite de 64 bits, necesitamos usar variables que puedan soportarlo: long long (en C)
+En nuestra solución anterior, hay un dato que no consideramos: La suma de ambos números cabe en un entero de 64 bits. En nuestra solución anterior estábamos usando el tipo de datos int, los cuales tienen un límite de 32 bits (Un int en C puede guardar números entre $ -2^{31}$ hasta $ 2^{31}-1$, es decir, de -2147483648 hasta 2147483648 ). Para satisfacer el límite de 64 bits, necesitamos usar variables que puedan soportarlo: long long (en C)
 
 {{< gist joemmanuel 6596436 >}}
 
