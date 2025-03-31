@@ -59,8 +59,9 @@
 &lt;/ul>
 &lt;p>Puedes ver las visualizaciones que tienes disponibles en la pestaña de Ver Solución. Verás un mensaje como el de la imagen.&lt;/p>
 &lt;p>&lt;a href="https://blog.omegaup.com/images/tokens_solutions.png" >&lt;img src="https://blog.omegaup.com/images/tokens_solutions.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
-&lt;h2>Para los autores de problemas&lt;span class="hx-absolute -hx-mt-20" id="para-los-autores-de-problemas">&lt;/span>
-&lt;a href="#para-los-autores-de-problemas" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Si quieres incluir las soluciones a tus problemas debes añadir una nueva carpeta &lt;em>/solutions&lt;/em> al archivo zip del problema. Dentro de la carpeta se debe agregar el archivo markdown con la solución. Las soluciones se pueden editar desde la plataforma, tal como las descripciones del problema.&lt;/p>
+&lt;h2>Para los autores de problemas
+aliases: [&amp;rsquo;/soluciones-de-problemas-en-omegaup']&lt;span class="hx-absolute -hx-mt-20" id="aliases-soluciones-de-problemas-en-omegaup">&lt;/span>
+&lt;a href="#aliases-soluciones-de-problemas-en-omegaup" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Si quieres incluir las soluciones a tus problemas debes añadir una nueva carpeta &lt;em>/solutions&lt;/em> al archivo zip del problema. Dentro de la carpeta se debe agregar el archivo markdown con la solución. Las soluciones se pueden editar desde la plataforma, tal como las descripciones del problema.&lt;/p>
 &lt;p>Mas información &lt;a href="https://github.com/omegaup/omegaup/wiki/C%C3%B3mo-escribir-problemas-para-omegaUp#solutions" target="_blank" rel="noopener">aquí&lt;/a>.&lt;/p></description></item><item><title>Concursos con Subtareas</title><link>https://blog.omegaup.com/features/concursos-con-subtareas/</link><pubDate>Tue, 15 Aug 2023 23:25:06 +0000</pubDate><guid>https://blog.omegaup.com/features/concursos-con-subtareas/</guid><description>
 &lt;p>Nos es grato informar que hemos liberado una nueva modalidad de concursos llamada &lt;strong>“Concursos con subtareas”&lt;/strong>, para poder cubrir satisfactoriamente las necesidades de los concursos realizados en la &lt;strong>Olimpiada Internacional de Informática&lt;/strong> (&lt;strong>IOI&lt;/strong> por su siglas en inglés), el cual ha modificado la fórmula para calcular el puntaje asignado a un concursante para un problema en específico.&lt;/p>
 &lt;h1>Antecedentes&lt;/h1>&lt;p>Anteriormente en &lt;em>omegaUp&lt;/em> sólo se contaba con dos distintos tipos de concursos:&lt;/p>
@@ -384,25 +385,29 @@ alt="problem-finder-wizard" width="817" height="455">&lt;/a>&lt;figcaption>
 &lt;p> &lt;a href="https://blog.omegaup.com/images/5.png" >&lt;img src="https://blog.omegaup.com/images/5.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
 &lt;p>&lt;em>f&lt;/em> es dominada por abajo asintóticamente por &lt;em>g&lt;/em>.&lt;/p>
 &lt;p>&lt;em>f &amp;gt; g&lt;/em>&lt;/p></description></item><item><title>Historias omegaUp 2018</title><link>https://blog.omegaup.com/news/historias-omegaup-2018/</link><pubDate>Sun, 18 Mar 2018 21:37:51 +0000</pubDate><guid>https://blog.omegaup.com/news/historias-omegaup-2018/</guid><description>
-&lt;h1>Convocatoria&lt;/h1>&lt;h2>“Historias omegaUp 2018”&lt;span class="hx-absolute -hx-mt-20" id="historias-omegaup-2018">&lt;/span>
-&lt;a href="#historias-omegaup-2018" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Convocamos a nuestra comunidad de usuarios, tanto alumnos como profesores, a que nos compartan cómo utilizan omegaUp en su vida diaria.&lt;/p>
+&lt;h1>Convocatoria&lt;/h1>&lt;h2>“Historias omegaUp 2018”
+aliases: [&amp;rsquo;/historias-omegaup-2018']&lt;span class="hx-absolute -hx-mt-20" id="aliases-historias-omegaup-2018">&lt;/span>
+&lt;a href="#aliases-historias-omegaup-2018" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Convocamos a nuestra comunidad de usuarios, tanto alumnos como profesores, a que nos compartan cómo utilizan omegaUp en su vida diaria.&lt;/p>
 &lt;p>Los formatos pueden ser: un video corto o un texto con fotografías. Muéstranos tu comunidad y los lugares donde utilizas omegaUp: escuela, hogar, cibercafé, etc.&lt;/p>
 &lt;p>En tu historia puedes incluir temas como:&lt;/p>
 &lt;p>Para ti, ¿qué significa programar? ¿Cuáles son tus sueños profesionales? ¿En este momento de tu vida qué herramienta te hace falta para acercarte a esos sueños?&lt;/p>
 &lt;p>Cuando tengas tu historia lista, envíala a &lt;a href="mailto:historias@omegaup.com" >historias@omegaup.com&lt;/a> desde el correo en el que te hayas registrado en nuestra plataforma. Adjunta tus fotos o video en el correo. Si los archivos son muy grandes, puedes utilizar una plataforma en la nube y compartir el enlace con nosotros.&lt;/p>
-&lt;h2>Incentivos y dinámica&lt;span class="hx-absolute -hx-mt-20" id="incentivos-y-dinámica">&lt;/span>
-&lt;a href="#incentivos-y-din%c3%a1mica" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>El comité evaluador revisará todas las historias y seleccionará una de ellas para otorgar:&lt;/p>
+&lt;h2>Incentivos y dinámica
+aliases: [&amp;rsquo;/historias-omegaup-2018']&lt;span class="hx-absolute -hx-mt-20" id="aliases-historias-omegaup-2018-1">&lt;/span>
+&lt;a href="#aliases-historias-omegaup-2018-1" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>El comité evaluador revisará todas las historias y seleccionará una de ellas para otorgar:&lt;/p>
 &lt;ul>
 &lt;li>Una computadora portátil HP (Modelo 15-bs001) de 15.6&amp;quot;.&lt;/li>
 &lt;li>$2,000.00 pesos (MXN) para libros.&lt;/li>
 &lt;/ul>
 &lt;p>Además, las historias serán presentadas a nuestros donadores en la Cena de Gala Anual de omegaUp en Bellevue, Washington.&lt;/p>
-&lt;h2>Fechas&lt;span class="hx-absolute -hx-mt-20" id="fechas">&lt;/span>
-&lt;a href="#fechas" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>La convocatoria comienza el lunes 19 de marzo y termina el viernes 27 de abril.&lt;/p>
+&lt;h2>Fechas
+aliases: [&amp;rsquo;/historias-omegaup-2018']&lt;span class="hx-absolute -hx-mt-20" id="aliases-historias-omegaup-2018-2">&lt;/span>
+&lt;a href="#aliases-historias-omegaup-2018-2" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>La convocatoria comienza el lunes 19 de marzo y termina el viernes 27 de abril.&lt;/p>
 &lt;p>La persona seleccionada será anunciada el día lunes 7 de mayo a las 20:00 horas (Hora Central de México) en un broadcast en vivo en nuestro canal oficial de &lt;a href="http://facebook.com/omegaup" target="_blank" rel="noopener">Facebook&lt;/a>.&lt;/p>
 &lt;p>Si tienes alguna duda ó comentario contáctanos a &lt;a href="mailto:historias@omegaup.com" >historias@omegaup.com&lt;/a>&lt;/p>
-&lt;h2>Términos y condiciones:&lt;span class="hx-absolute -hx-mt-20" id="términos-y-condiciones">&lt;/span>
-&lt;a href="#t%c3%a9rminos-y-condiciones" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Al momento de enviarnos el material, nos estás dando permiso de utilizar y compartir el contenido en nuestras redes sociales. Tienes que ser mayor de 13 años para participar. La convocatoria está abierta solamente para ciudadanos residentes de países de Latinoamérica.&lt;/p></description></item><item><title>Ranking de Escuelas en omegaUp</title><link>https://blog.omegaup.com/features/ranking-de-escuelas-en-omegaup/</link><pubDate>Sun, 18 Jun 2017 20:56:44 +0000</pubDate><guid>https://blog.omegaup.com/features/ranking-de-escuelas-en-omegaup/</guid><description>
+&lt;h2>Términos y condiciones:
+aliases: [&amp;rsquo;/historias-omegaup-2018']&lt;span class="hx-absolute -hx-mt-20" id="aliases-historias-omegaup-2018-3">&lt;/span>
+&lt;a href="#aliases-historias-omegaup-2018-3" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Al momento de enviarnos el material, nos estás dando permiso de utilizar y compartir el contenido en nuestras redes sociales. Tienes que ser mayor de 13 años para participar. La convocatoria está abierta solamente para ciudadanos residentes de países de Latinoamérica.&lt;/p></description></item><item><title>Ranking de Escuelas en omegaUp</title><link>https://blog.omegaup.com/features/ranking-de-escuelas-en-omegaup/</link><pubDate>Sun, 18 Jun 2017 20:56:44 +0000</pubDate><guid>https://blog.omegaup.com/features/ranking-de-escuelas-en-omegaup/</guid><description>
 &lt;p>Uno de los principales enfoques de &lt;a href="https://omegaup.org/#team" target="_blank" rel="noopener">nuestro equipo&lt;/a> este 2017 ha sido facilitar el uso de omegaUp en las escuelas. Previamente anunciamos el lanzamiento de &lt;a href="https://blog.omegaup.com/2017/05/anunciando-omegaup-escuelas/" target="_blank" rel="noopener">omegaUp Escuelas&lt;/a>, un conjunto de funcionalidades que ayuda a los profesores a administrar cursos dentro de la plataforma y crear tareas y exámenes.&lt;/p>
 &lt;p>En esta ocasión anunciamos el nuevo &lt;a href="https://omegaup.com/schoolsrank/" target="_blank" rel="noopener">ranking de escuelas más activas del mes&lt;/a> en omegaUp:&lt;/p>
 &lt;p>&lt;a href="https://blog.omegaup.com/images/Screen-Shot-2017-06-17-at-9.56.58-AM.png" >&lt;img src="https://blog.omegaup.com/images/Screen-Shot-2017-06-17-at-9.56.58-AM-1024x322.png" alt="Ranking de Escuelas" loading="lazy" />&lt;/a>&lt;/p>

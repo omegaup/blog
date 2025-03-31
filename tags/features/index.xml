@@ -82,8 +82,9 @@ alt="Imagen 8" width="549">&lt;/a>
 &lt;/ul>
 &lt;p>Puedes ver las visualizaciones que tienes disponibles en la pestaña de Ver Solución. Verás un mensaje como el de la imagen.&lt;/p>
 &lt;p>&lt;a href="https://blog.omegaup.com/images/tokens_solutions.png" >&lt;img src="https://blog.omegaup.com/images/tokens_solutions.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
-&lt;h2>Para los autores de problemas&lt;span class="hx-absolute -hx-mt-20" id="para-los-autores-de-problemas">&lt;/span>
-&lt;a href="#para-los-autores-de-problemas" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Si quieres incluir las soluciones a tus problemas debes añadir una nueva carpeta &lt;em>/solutions&lt;/em> al archivo zip del problema. Dentro de la carpeta se debe agregar el archivo markdown con la solución. Las soluciones se pueden editar desde la plataforma, tal como las descripciones del problema.&lt;/p>
+&lt;h2>Para los autores de problemas
+aliases: [&amp;rsquo;/soluciones-de-problemas-en-omegaup']&lt;span class="hx-absolute -hx-mt-20" id="aliases-soluciones-de-problemas-en-omegaup">&lt;/span>
+&lt;a href="#aliases-soluciones-de-problemas-en-omegaup" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Si quieres incluir las soluciones a tus problemas debes añadir una nueva carpeta &lt;em>/solutions&lt;/em> al archivo zip del problema. Dentro de la carpeta se debe agregar el archivo markdown con la solución. Las soluciones se pueden editar desde la plataforma, tal como las descripciones del problema.&lt;/p>
 &lt;p>Mas información &lt;a href="https://github.com/omegaup/omegaup/wiki/C%C3%B3mo-escribir-problemas-para-omegaUp#solutions" target="_blank" rel="noopener">aquí&lt;/a>.&lt;/p></description></item><item><title>Concursos con Subtareas</title><link>https://blog.omegaup.com/features/concursos-con-subtareas/</link><pubDate>Tue, 15 Aug 2023 23:25:06 +0000</pubDate><guid>https://blog.omegaup.com/features/concursos-con-subtareas/</guid><description>
 &lt;p>Nos es grato informar que hemos liberado una nueva modalidad de concursos llamada &lt;strong>“Concursos con subtareas”&lt;/strong>, para poder cubrir satisfactoriamente las necesidades de los concursos realizados en la &lt;strong>Olimpiada Internacional de Informática&lt;/strong> (&lt;strong>IOI&lt;/strong> por su siglas en inglés), el cual ha modificado la fórmula para calcular el puntaje asignado a un concursante para un problema en específico.&lt;/p>
 &lt;h1>Antecedentes&lt;/h1>&lt;p>Anteriormente en &lt;em>omegaUp&lt;/em> sólo se contaba con dos distintos tipos de concursos:&lt;/p>
@@ -232,8 +233,9 @@ La métrica para cada usuario, llamada &lt;code>author_score&lt;/code>, es calcu
 &lt;/a>&lt;/p></description></item><item><title>Administración de Identidades</title><link>https://blog.omegaup.com/features/administracion-de-identidades/</link><pubDate>Sat, 08 Feb 2020 22:56:22 +0000</pubDate><guid>https://blog.omegaup.com/features/administracion-de-identidades/</guid><description>
 &lt;p>Hemos liberado una nueva funcionalidad en omegaUp para que puedas administrar identidades dentro de un grupo. Si has sido organizador de un concurso o curso, seguramente has requerido de la ayuda de algún miembro de omegaUp para dar de alta las cuentas de los usuarios que participarán en el evento que organizaste con este &lt;a href="https://github.com/omegaup/omegaup/blob/73db504f8494ce00d0305931730ea35a89a8aa6b/frontend/server/controllers/UserController.php#L644" target="_blank" rel="noopener">script&lt;/a>. Con esta nueva funcionalidad serás capaz de realizar todas las acciones por tu cuenta.&lt;/p>
 &lt;h1>¿Qué es una Identidad?&lt;/h1>&lt;p>Una identidad en omegaUp es una cuenta con los privilegios suficientes para ingresar a un curso o concurso para el cual haya sido creada. Anteriormente, para que un usuario pudiera ingresar al curso o concurso, era necesario hacer los cambios necesarios en el código descrito en el párrafo anterior.&lt;/p>
-&lt;h2>Ventajas&lt;span class="hx-absolute -hx-mt-20" id="ventajas">&lt;/span>
-&lt;a href="#ventajas" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Las ventajas que se tienen con esta nueva funcionalidad se describen a continuación:&lt;/p>
+&lt;h2>Ventajas
+aliases: [&amp;rsquo;/administracion-de-identidades']&lt;span class="hx-absolute -hx-mt-20" id="aliases-administracion-de-identidades">&lt;/span>
+&lt;a href="#aliases-administracion-de-identidades" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Las ventajas que se tienen con esta nueva funcionalidad se describen a continuación:&lt;/p>
 &lt;h3>Profesor / organizador&lt;span class="hx-absolute -hx-mt-20" id="profesor--organizador">&lt;/span>
 &lt;a href="#profesor--organizador" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
 &lt;li>Rapidez: Al poder crear sus identidades, el organizador puede disponer de ellas en el momento que las da de alta. Ya no es necesario esperar a que se haga el despliegue con los usuarios que se pretenden agregar.&lt;/li>
@@ -245,8 +247,9 @@ La métrica para cada usuario, llamada &lt;code>author_score&lt;/code>, es calcu
 &lt;li>Privacidad: Siempre y cuando las identidades se den de alta con nombres genéricos, los datos de los usuarios no serán expuestos en ninguna parte de la plataforma.&lt;/li>
 &lt;li>Control: El usuario podrá agregar a su cuenta tantas identidades le sean asignadas, lo cual tiene una gran ventaja, ya que todos los problemas que resuelva con cualquiera de sus identidades serán tomados en cuenta para su rankeo.&lt;/li>
 &lt;/ul>
-&lt;h1>¿Cómo funciona la Administración de Identidades?&lt;/h1>&lt;h2>Crear Identidades&lt;span class="hx-absolute -hx-mt-20" id="crear-identidades">&lt;/span>
-&lt;a href="#crear-identidades" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;a href="https://blog.omegaup.com/images/Video_1-Crear_Identiades.webm" >&lt;video autoplay muted loop>
+&lt;h1>¿Cómo funciona la Administración de Identidades?&lt;/h1>&lt;h2>Crear Identidades
+aliases: [&amp;rsquo;/administracion-de-identidades']&lt;span class="hx-absolute -hx-mt-20" id="aliases-administracion-de-identidades-1">&lt;/span>
+&lt;a href="#aliases-administracion-de-identidades-1" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;a href="https://blog.omegaup.com/images/Video_1-Crear_Identiades.webm" >&lt;video autoplay muted loop>
 &lt;source src="https://blog.omegaup.com/images/Video_1-Crear_Identiades.webm" type="video/mp4">
 &lt;/video>
 &lt;/a>&lt;/p>
@@ -298,14 +301,16 @@ La métrica para cada usuario, llamada &lt;code>author_score&lt;/code>, es calcu
 &lt;source src="https://blog.omegaup.com/images/Video_2-Cambiar_Password.webm" type="video/mp4">
 &lt;/video>
 &lt;/a>&lt;/p>
-&lt;h2>Cambiar Password&lt;span class="hx-absolute -hx-mt-20" id="cambiar-password">&lt;/span>
-&lt;a href="#cambiar-password" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>También puedes editar información de las identidades, recuerda que solamente el creador de las identidades puede realizar esta acción. La forma de hacerlo se muestra en la siguiente animación:&lt;/p>
+&lt;h2>Cambiar Password
+aliases: [&amp;rsquo;/administracion-de-identidades']&lt;span class="hx-absolute -hx-mt-20" id="aliases-administracion-de-identidades-2">&lt;/span>
+&lt;a href="#aliases-administracion-de-identidades-2" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>También puedes editar información de las identidades, recuerda que solamente el creador de las identidades puede realizar esta acción. La forma de hacerlo se muestra en la siguiente animación:&lt;/p>
 &lt;p>&lt;a href="https://blog.omegaup.com/images/Video_3-Actualizar_Info_Basica.webm" >&lt;video autoplay muted loop>
 &lt;source src="https://blog.omegaup.com/images/Video_3-Actualizar_Info_Basica.webm" type="video/mp4">
 &lt;/video>
 &lt;/a>&lt;/p>
-&lt;h2>Actualizar información básica&lt;span class="hx-absolute -hx-mt-20" id="actualizar-información-básica">&lt;/span>
-&lt;a href="#actualizar-informaci%c3%b3n-b%c3%a1sica" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Ya que le compartiste las identidades a los respectivos participantes, ellos pueden ingresar a la plataforma de la misma forma que cualquier otro usuario, la diferencia que van a notar es que estas cuentas no podrán editar sus datos, en la siguiente animación se muestra:&lt;/p>
+&lt;h2>Actualizar información básica
+aliases: [&amp;rsquo;/administracion-de-identidades']&lt;span class="hx-absolute -hx-mt-20" id="aliases-administracion-de-identidades-3">&lt;/span>
+&lt;a href="#aliases-administracion-de-identidades-3" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Ya que le compartiste las identidades a los respectivos participantes, ellos pueden ingresar a la plataforma de la misma forma que cualquier otro usuario, la diferencia que van a notar es que estas cuentas no podrán editar sus datos, en la siguiente animación se muestra:&lt;/p>
 &lt;p>&lt;a href="https://blog.omegaup.com/images/Video_4-Ingresar_Omegaup.webm" >&lt;video autoplay muted loop>
 &lt;source src="https://blog.omegaup.com/images/Video_4-Ingresar_Omegaup.webm" type="video/mp4">
 &lt;/video>
