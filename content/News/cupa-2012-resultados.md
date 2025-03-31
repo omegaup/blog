@@ -5,6 +5,7 @@ author_email: 'joemmanuel@gmail.com'
 date: Wed, 07 Nov 2012 16:31:10 +0000
 draft: false
 tags: ['News', 'Concursos']
+aliases: ['/cupa-2012-resultados']
 ---
 
 El pasado 20 de Octubre se llevó a cabo el [Concurso Universitario de Programación de Aguascalientes **CUPA**](https://omegaup.com/arena/CUPA2012/practice/). Participaron 26 equipos de 3 personas en un examen de 9 problemas. Los problemsetters oficiales fueron la **Dra. Aurora Torres** (Plano Estropeado), **David Esparza Alba** (Traductor, Display Descompuesto, Puntos imantados, Primos juntos siempre y Santas bombillas ) y  **Óscar Dávalos** (Cadenas de Potencias de 2, Múltiplos y Cubos.). Omegaup fue la plataforma de evaluación del CUPA.

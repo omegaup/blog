@@ -5,6 +5,7 @@ author_email: 'hugo@omegaup.com'
 date: Fri, 01 Mar 2019 04:37:05 +0000
 draft: false
 tags: ['Features', 'Concursos', 'Uncategorized']
+aliases: ['/concursos-virtuales']
 ---
 
 ¿Te gustaría revivir un concurso de programación que ya pasó? ¿Te gustaría ver cómo se mueve la tabla de posiciones en tiempo real mientras vas subiendo tus soluciones? ¿Te gustaría saber cómo te “hubiera ido” en “aquél concurso” al que no pudiste ir?
