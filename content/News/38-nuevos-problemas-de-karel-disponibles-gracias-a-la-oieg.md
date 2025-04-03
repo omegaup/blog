@@ -5,6 +5,7 @@ author_email: 'joemmanuel@gmail.com'
 date: Wed, 12 Mar 2014 13:49:42 +0000
 draft: false
 tags: ['News', 'Concursos']
+aliases: ['/38-nuevos-problemas-de-karel-disponibles-gracias-a-la-oieg']
 ---
 
 La [Olimpiada de Informática del Estado de Guanajuato (OIEG)](http://www.cimat.mx/oieg/orig/2013/), liderada este año por José Refugio López (Kuko), han hecho públicos 38 problemas de Karel para que la comunidad en general pueda practicar previo a la [Olimpiada Mexicana de Informática 2014. ](http://www.olimpiadadeinformatica.org.mx/OMI/OMI/Inicio.aspx)

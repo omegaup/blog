@@ -5,6 +5,7 @@ author_email: 'hugo@omegaup.com  '
 date: Tue, 18 Feb 2025 06:52:20 +0000
 draft: false
 tags: ['News', 'Anuncios', 'omegaUp']
+aliases: ['/reclutamiento-ingenieria']
 ---
 
 Si te apasiona la programación y buscas un proyecto desafiante donde aplicar tus habilidades, omegaUp te ofrece la oportunidad de contribuir al desarrollo de nuestra plataforma educativa.  Buscamos personas motivadas y dispuestas a invertir tiempo y esfuerzo en aprender y crecer con nosotros.

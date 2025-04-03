@@ -36,12 +36,9 @@ toc: true
 
   {{% details title="Lo más nuevo" %}}
   <a href='/posts'>Publicamos contenido para difundir habilidades de programación.</a><br><br>
-  &#8226; <a class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font" href='/posts/soluciones-de-problemas-en-omegaup/'>Soluciones a problemas en omegaUp</a><br>
-  &#8226; <a class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font" href='/posts/concursos-con-subtareas/#c%C3%B3mo-crear-un-concurso-con-la-modalidad-de-subtareas'>Concursos con subtareas</a><br>
-  &#8226; <a class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font" href='https://omegaup.com/rank/authors/'>Ranking de contribuidores</a><br>
+  {{< recent-posts >}}
   <a class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font" href='/posts'>Ver más</a>
   {{% /details %}}
 
 {{< /hextra/feature-grid >}}
 </div>
-

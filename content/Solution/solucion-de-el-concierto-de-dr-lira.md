@@ -5,6 +5,7 @@ author_email: 'joemmanuel@gmail.com'
 date: Mon, 30 Sep 2013 14:48:04 +0000
 draft: false
 tags: ['Solution', 'Examen 13']
+aliases: ['/solucion-de-el-concierto-de-dr-lira']
 ---
 
 **Concurso: **[Preselectivo para la IOI 2014, Etapa 1, Problemset 13](https://omegaup.com/arena/IOI2014E1P13#problems/DP-Generica) **Fuente**: Topcoder
