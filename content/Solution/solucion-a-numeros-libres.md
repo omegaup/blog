@@ -6,6 +6,7 @@ date: Sat, 21 Jun 2014 23:24:56 +0000
 draft: false
 tags: ['Solution', 'Uncategorized']
 math: true
+aliases: ['/solucion-a-numeros-libres']
 ---
 
 **Concurso:** [Preselectivo para la IOI 2015, Etapa 1, Problemset 1](https://omegaup.com/arena/IOI2015E1P1#problems/Suma-Manhattan) **Autor:** [Freddy Román Cepeda](http://freddy.mx/) **Fuente**: Edgar Augusto Santiago Nieves

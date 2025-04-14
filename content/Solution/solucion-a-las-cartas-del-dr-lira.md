@@ -5,6 +5,7 @@ author_email: 'joemmanuel@gmail.com'
 date: Mon, 29 Jul 2013 15:26:08 +0000
 draft: false
 tags: ['Solution', 'Etapa 1', 'Examen 1', 'Soluciones Preselectivo 2014']
+aliases: ['/solucion-a-las-cartas-del-dr-lira']
 ---
 
 **Concurso:** [Preselectivo para la IOI 2014, Etapa 1, Problemset 1](https://omegaup.com/arena/IOI2014E1P1#problems/CartasDrLira) **Autor:** [Joemmanuel Ponce Galindo](http://www.linkedin.com/in/joemmanuel/)  **Fuente**: Topcoder

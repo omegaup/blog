@@ -6,6 +6,7 @@ date: Thu, 16 Jan 2014 17:36:38 +0000
 draft: false
 tags: ['Solution', 'Etapa 1', 'Examen 17', 'macs', 'preselectivo', 'solución', 'Soluciones Preselectivo 2013']
 math: true
+aliases: ['/solucion-a-panoramas']
 ---
 
 **Concurso:** [Preselectivo para la IOI 2014, Etapa 1, Problemset 17](https://omegaup.com/arena/IOI2014E1P17#problems/Tour) **Autor:** Miguel Ángel Covarrubias **Fuente**: Miguel Ángel Covarrubias

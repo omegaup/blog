@@ -6,6 +6,7 @@ date: Sat, 21 Jun 2014 14:34:14 +0000
 draft: false
 tags: ['Solution', 'Etapa 1', 'etapa 1', 'Freddy', 'manhattan', 'matemáticas', 'preselectivo', 'Problemset 1', 'problemset 1', 'soluciones', 'Soluciones Preselectivo 2014', 'sumas']
 math: true
+aliases: ['/solucion-a-suma-manhattan']
 ---
 
 **Concurso:** [Preselectivo para la IOI 2015, Etapa 1, Problemset 1](https://omegaup.com/arena/IOI2015E1P1#problems/Suma-Manhattan) **Autor:** [Freddy Román Cepeda](http://freddy.mx/) **Fuente**: [Freddy Román Cepeda](http://freddy.mx/)

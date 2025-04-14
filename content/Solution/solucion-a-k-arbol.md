@@ -5,6 +5,7 @@ author_email: 'elira@elira.me'
 date: Mon, 07 Jan 2013 17:37:40 +0000
 draft: false
 tags: ['Solution', 'Etapa 1', 'Examen 5', 'Soluciones Preselectivo 2013']
+aliases: ['/solucion-a-k-arbol']
 ---
 
 **Concurso:** [Preselectivo para la IOI 2013, Etapa 1, Examen 5](https://omegaup.com/arena/IOI2013E1P5) **Autor: **[Saul de Nova Caballero](mailto:lkt345@gmail.com)

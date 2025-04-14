@@ -6,11 +6,13 @@ date: Mon, 07 Jan 2013 16:08:32 +0000
 draft: false
 tags: ['Solution', 'Etapa 1', 'Examen 8', 'Pavel Herrera', 'preselectivo', 'Soluciones Preselectivo 2013']
 math: true
+aliases: ['/solucion-a-mario-reloaded']
 ---
 
 **Concurso:** [Preselectivo para la IOI 2013, Etapa 1, Examen 8](https://omegaup.com/arena/IOI2013E1P8) **Autor: **[Pavel Herrera Dominguez](mailto:paspartu@gmail.com))
 
 Observaciones
+aliases: ['/solucion-a-mario-reloaded']
 -------------
 
 Lo primero es ver como se modelan los estados del problema sin pensar en que Mario puede tomar los atajos, únicamente pensar en las llaves, claramente existen $ n\\times2^m$ estados, pues no importa el orden en que se toman las llaves solo las llaves que se tienen al llegar a cada puerta. A partir de aquí nos referiremos como estado a la puerta y las llaves que trae Mario.
@@ -20,16 +22,19 @@ La segunda observación es ver como afecta llegar a una puerta con cierto juego 
 De la observación anterior podemos pensar que si mantenemos una lista de puertas ya visitadas para cada juego de llaves, cuando algún estado (puerta, juego de llaves) se visita con un menor tiempo, todas las puertas alcanzadas con ese juego de llaves deben ser actualizadas y sus respectivos vecinos.
 
 Idea
+aliases: ['/solucion-a-mario-reloaded']
 ----
 
 La idea es hacer una especie de búsqueda en amplitud la cual tome en cuenta las observaciones anteriores. Esto es una búsqueda que visite los estados (puerta, llave) y conserve una lista de las puertas alcanzables con cada juego de llaves.
 
 Implementacion
+aliases: ['/solucion-a-mario-reloaded']
 --------------
 
 {{< gist OlimpiadaMexicanadeInformatica 6559138 >}}
 
 Tarea
+aliases: ['/solucion-a-mario-reloaded']
 -----
 
 Pensar si es posible hacer la búsqueda sin usar los estados (puerta, juego de llaves).

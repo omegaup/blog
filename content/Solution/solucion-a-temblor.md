@@ -5,6 +5,7 @@ author_email: 'golden.darknut@gmail.com'
 date: Fri, 24 Jul 2015 07:07:00 +0000
 draft: false
 tags: ['Solution', 'bitmask', 'bits', 'búsqueda', 'felix', 'máscara de bits', 'Material de estudio', 'preselectivo', 'soluciones']
+aliases: ['/solucion-a-temblor']
 ---
 
 Problema: [Temblor](https://omegaup.com/arena/problem/temblor)

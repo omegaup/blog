@@ -5,6 +5,7 @@ author_email: 'me@freddy.mx'
 date: Tue, 10 Sep 2013 19:35:59 +0000
 draft: false
 tags: ['Solution', 'Bloqueo', 'Etapa 1', 'Examen 8', 'Khayyam', 'preselectivo', 'solución', 'Soluciones Preselectivo 2014']
+aliases: ['/solucion-a-bloqueo']
 ---
 
 **Concurso:** [Preselectivo para la IOI 2014, Etapa 1, Problemset 8](https://omegaup.com/arena/problem/bloqueo) **Autor:** [Khayyam](http://www.cimat.mx/~omar) **Fuente**: Khayyam

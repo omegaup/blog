@@ -6,6 +6,7 @@ date: Thu, 14 Aug 2014 16:06:31 +0000
 draft: false
 tags: ['Solution', '2014', 'binaria', 'contraseña', 'Etapa 1', 'preselectivo', 'Problemset 7', 'solución', 'Soluciones Preselectivo 2014']
 math: true
+aliases: ['/solucion-a-contrasena-binaria']
 ---
 
 **Concurso:** [Preselectivo para la IOI 2015, Etapa 1, Problemset 7](https://omegaup.com/arena/IOI2015E1P7/#problems/contrasena-binaria) **Autor:** [Orlando Isay Mendoza Garcia](mailto:orlandoisay@gmail.com) **Fuente**: [Christian Adan Hernández Sánchez](mailto:chadancito@gmail.com)
