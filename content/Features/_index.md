@@ -9,11 +9,16 @@ toc: true
 date: Mon, 24 Feb 2025 12:00:01 +0000
 ---
 
+{{< cards cols="2" >}}
+  {{< card link="#estudiantes" title="Estudiantes" icon="user-group" >}}
+  {{< card link="#profesores" title="Profesores" icon="user" >}}
+{{< /cards >}}
+
 ## Estudiantes
 
 > omegaUp para mejorar tus habilidades en Programación
 
-¡Hola futuro programador! ¿Quieres llevar tus habilidades al siguiente nivel y divertirte en el camino? **omegaUp** es tu plataforma ideal. Imagina un lugar donde puedes:
+¡Hola, entusiasta de la programación! ¿Quieres llevar tus habilidades al siguiente nivel y divertirte en el camino? **omegaUp** es tu plataforma ideal. Imagina un lugar donde puedes:
 
 ### Aprender a tu propio ritmo y de forma interactiva
 
@@ -28,14 +33,14 @@ date: Mon, 24 Feb 2025 12:00:01 +0000
 
 *   **Concursos Emocionantes:** Participa en competencias de programación y mide tus habilidades contra otros estudiantes de toda América Latina. ¡Siente la adrenalina de resolver problemas bajo presión!
     
-*   **Sube de Nivel y Demuestra lo que Sabes:** El sistema de ranking te permite ver tu progreso y motivarte a mejorar constantemente. ¡Alcanza la cima y conviértete en un crack de la programación!
+*   **Sube de Nivel y Demuestra lo que Sabes:** El sistema de ranking te permite ver tu progreso y motivarte a mejorar constantemente. ¡Alcanza tus metas y conviértete en una persona experta en programación!
     
 *   **Gana Insignias y Reconocimientos:** Desbloquea logros a medida que avanzas y demuestra tu dedicación y esfuerzo. ¡Es como un videojuego, pero aprendiendo a programar!
     
 
 ### Conéctate con la comunidad 
 
-*   **¡No Estás Solo! Servidor de Discord Activo:** Únete a nuestra comunidad en Discord para hacer preguntas, compartir ideas, recibir ayuda y conocer a otros apasionados por la programación como tú.
+*   **¡Estamos contigo! Servidor de Discord Activo:** Únete a nuestra comunidad en Discord para hacer preguntas, compartir ideas, recibir ayuda e interactuar con otras personas que sienten la misma pasión por la programación.
     
 *   **Inspiración que Motiva:** Lee historias de éxito de estudiantes que, como tú, comenzaron en omegaUp y lograron grandes cosas en la Olimpiada Mexicana de Informática. ¡Tú también puedes ser uno de ellos!
     
@@ -58,7 +63,7 @@ date: Mon, 24 Feb 2025 12:00:01 +0000
 
 > omegaUp para potenciar la enseñanza de Programación
 
-Estimado profesor, omegaUp se presenta como una herramienta valiosa para complementar y enriquecer su labor en la enseñanza de la programación. Nuestra plataforma ofrece:
+A la comunidad docente, omegaUp se presenta como una herramienta valiosa para complementar y enriquecer su labor en la enseñanza de la programación. Nuestra plataforma ofrece:
 
 ### Recursos Pedagógicos Integrales
 
@@ -71,7 +76,7 @@ Estimado profesor, omegaUp se presenta como una herramienta valiosa para complem
 
 ### Herramientas para la Gestión y Evaluación Eficiente
 
-*   **Cree sus Propios Problemas y Concursos:** Adapte el contenido a las necesidades específicas de su curso y evalúe el progreso de sus alumnos de forma personalizada.
+*   **Cree sus Propios Problemas y Concursos:** Adapte el contenido a las necesidades específicas de su curso y evalúe el progreso del aprendizaje de sus estudiantes de forma personalizada.
     
 *   **Seguimiento Detallado del Progreso:** Monitoree el desempeño individual y grupal de sus estudiantes a través de la evaluación automática de tareas y exámenes. Identifique áreas de dificultad y adapte su enseñanza en consecuencia.
     
@@ -82,9 +87,9 @@ Estimado profesor, omegaUp se presenta como una herramienta valiosa para complem
 
 *   **Competición Saludable:** Utilice los concursos de programación para despertar el interés y la motivación de sus estudiantes, convirtiendo el aprendizaje en un desafío emocionante.
     
-*   **Gamificación del Aprendizaje:** El sistema de ranking e insignias añade un elemento lúdico que puede aumentar la participación y el compromiso de los alumnos.
+*   **Gamificación del Aprendizaje:** El sistema de ranking e insignias añade un elemento lúdico que puede aumentar la participación y el compromiso de los estudiantes.
     
-*   **Escríbanos para Compartir:** Experiencias, recursos y estrategias con otros profesores de programación.
+*   **Escríbanos para Compartir:** Experiencias, recursos y estrategias con colegas que enseñan programación.
     
 
 ### En resumen
