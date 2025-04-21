@@ -6,6 +6,7 @@ date: Wed, 25 Sep 2013 06:00:06 +0000
 draft: false
 tags: ['Solution', 'Etapa 1', 'Examen 13', 'Freddy', 'preselectivo', 'solución', 'Soluciones Preselectivo 2014']
 math: true
+aliases: ['/solucion-a-dp-generica']
 ---
 
 **Concurso:** [Preselectivo para la IOI 2014, Etapa 1, Problemset 13](https://omegaup.com/arena/IOI2014E1P13#problems/DP-Generica) **Autor:** [Freddy Román Cepeda](http://freddy.mx/) **Fuente**: Project Euler
@@ -13,6 +14,7 @@ math: true
 Podemos tratar este problema de varias maneras distintas, 3 de las cuales discutiré en esta solución.
 
 Análisis 1
+aliases: ['/solucion-a-dp-generica']
 ----------
 
 Primero, una idea que hubiera obtenido 50 puntos.
@@ -41,6 +43,7 @@ El siguiente código implementa esta solución:
 {{< gist OlimpiadaMexicanadeInformatica 6702819 >}}
 
 Análisis 2
+aliases: ['/solucion-a-dp-generica']
 ----------
 
 Podemos hacer programación dinámica de forma _top-down_. En ésta, contamos la cantidad de maneras de escribir $latex x$ como pide el problema incluyendo o no cada una de las potencias distintas.
@@ -76,6 +79,7 @@ El siguiente código implementa esta solución:
 {{< gist OlimpiadaMexicanadeInformatica 6702849 >}}
 
 Análisis 3
+aliases: ['/solucion-a-dp-generica']
 ----------
 
 Esta solución es equivalente a la anterior, pero no precisa de un `std::map`.
@@ -109,11 +113,13 @@ El siguiente código implementa esta solución, que corre en tiempo $latex O(\\l
 Como podemos observar, esta solución considera los mismos estados que la anterior, sólo que aquí evitamos computarlos, mientras que la otra los descarta inmediatamente.
 
 Consideraciones
+aliases: ['/solucion-a-dp-generica']
 ---------------
 
 Varios competidores no consideraron que $latex x$ no cabe en un entero signado de 64 bits. Si bien la _respuesta_ cabe en uno, en los límites del problema se especifica que $latex x < 2^{64}$.
 
 Análisis adicional:
+aliases: ['/solucion-a-dp-generica']
 -------------------
 
 [Diego Roque](https://omegaup.com/profile/DiegoRoque) escribió una solución distinta, la cual detallaré a continuación.

@@ -5,6 +5,7 @@ author_email: 'joemmanuel@gmail.com'
 date: Sat, 26 Oct 2019 21:23:21 +0000
 draft: false
 tags: ['News', 'omegaUp']
+aliases: ['/muchas-gracias-2da-gala-anual-de-omegaup']
 ---
 
 {{< figure src="https://cdn-images-1.medium.com/max/1600/1*Gr623CWgQgKR2xI8TSuhZw.jpeg" height="1064" width="1600" caption="Prof. Pedro Fuentes dando un gran discurso en la 2da Gala de omegaUp." >}}

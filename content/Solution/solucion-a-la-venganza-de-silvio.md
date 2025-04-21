@@ -6,6 +6,7 @@ date: Thu, 08 Aug 2013 02:02:51 +0000
 draft: false
 tags: ['Solution', 'Etapa 1', 'Examen 1', 'Freddy', 'preselectivo', 'Silvio', 'solución', 'Soluciones Preselectivo 2014']
 math: true
+aliases: ['/solucion-a-la-venganza-de-silvio']
 ---
 
 **Concurso:** [Preselectivo para la IOI 2014, Etapa 1, Problemset 1](https://omegaup.com/arena/IOI2014E1P1#problems/VenganzaDeSilvio) **Autor:** [Freddy Román Cepeda](http://freddy.mx/) **Fuente**: Freddy
@@ -13,11 +14,13 @@ math: true
 Este problema es bastante sencillo de entender, la dificultad radica en que exponenciar un número de la manera obvia no es lo suficientemente rápido para obtener todos los puntos disponibles.
 
 Subtarea 1
+aliases: ['/solucion-a-la-venganza-de-silvio']
 ----------
 
 Para obtener el primer grupo de puntos, sólo basta calcular $latex N^M$ multiplicando a $latex N$ por sí mismo $latex M$ veces, teniendo cuidado de que no haya overflow.
 
 Subtarea 2
+aliases: ['/solucion-a-la-venganza-de-silvio']
 ----------
 
 Para la segunda subtarea, se necesita algo más rápido, para lo que se puede usar [exponenciación binaria](http://es.wikipedia.org/wiki/Exponenciación_binaria).
@@ -29,6 +32,7 @@ $latex \\text{potencia}(N,M) = \\begin{cases} 1 & \\text{si } M = 0 \\\\ (potenc
 Aplicando esta definición directamente, la segunda subtarea queda resuelta. Esto es porque el algoritmo descrito anteriormente tiene complejidad $latex O(log M)$, ya que en cada paso $latex M$ se reduce a la mitad.
 
 Subtarea 3
+aliases: ['/solucion-a-la-venganza-de-silvio']
 ----------
 
 El algoritmo anterior es lo suficientemente rápido para resolver esta subtarea, pero el rango de los enteros de la máquina no es lo suficientemente grande para guardar a $latex M$. Para ello requerimos una observación adicional. Dividir entre $latex 2$ en base $latex 2$ ignorando el residuo es lo mismo que recorrer todos los dígitos una vez a la derecha descartando el bit menos significativo, y, además, se puede saber si un número es par o no con sólo ver el bit menos significativo del mismo.
@@ -38,6 +42,7 @@ Podemos aprovechar esta observación guardando $latex M$ como una cadena de bits
 $latex \\text{potencia2}(N,i) = \\begin{cases} 1 & \\text{si } i < 0 \\\\ (potencia2(N,i-1))^2 & \\text{si } A\[i\] = 0 \\\\ N \* (potencia2(N,i-1))^2 & \\text{de lo contrario} \\end{cases}$
 
 Subtarea 4
+aliases: ['/solucion-a-la-venganza-de-silvio']
 ----------
 
 El problema con el algoritmo anterior es que ocupa demasiada memoria para los casos que contiene esta subtarea. Para corregirlo, podemos analizar la función anterior.
@@ -55,6 +60,7 @@ Aquí está la implementación del algoritmo anterior:
 {{< gist OlimpiadaMexicanadeInformatica 6559240 >}}
 
 Consideraciones
+aliases: ['/solucion-a-la-venganza-de-silvio']
 ---------------
 
 Hay que tener cuidado de que no haya overflow. Cuando un entero de $latex k$ bits se eleva al cuadrado, puede ahora tener a lo más $latex 2k$ bits. Como $latex m$ puede tener hasta $latex 31$ bits, es necesario usar enteros de 64 bits durante todos los cálculos.

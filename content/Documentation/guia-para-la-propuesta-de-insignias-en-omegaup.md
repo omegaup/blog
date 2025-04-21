@@ -6,6 +6,7 @@ author_email: 'carlos@omegaup.com'
 date: Tue, 08 Oct 2019 14:54:10 +0000
 draft: false
 tags: ['Documentation', 'Ranking', 'badges', 'Contribuir a omegaUp', 'contribuir-a-omegaup']
+aliases: ['/guia-para-la-propuesta-de-insignias-en-omegaup']
 ---
 
 Tú también puedes proponer nuevas insignias para la plataforma, simplemente debes tomar en cuenta las consideraciones que se detallan a continuación y abrir un issue en nuestro repositorio en Github haciendo clic [aquí](https://github.com/omegaup/omegaup/issues/new?assignees=&labels=&template=propuesta-para-nueva-insignia.md&title=%5BBadge+Proposal%5D+Nombre+de+la+Insignia).

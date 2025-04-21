@@ -6,6 +6,7 @@ authors:
 date: Sun, 29 Oct 2023 05:50:45 +0000
 draft: false
 tags: ['Features', 'Problemas', 'Anuncios', 'omegaUp']
+aliases: ['/soluciones-de-problemas-en-omegaup']
 ---
 
 En este post queremos describirles cómo ver soluciones a los problemas en omegaUp. Para los autores de problemas también daremos algunos detalles sobre como agregar las soluciones a sus problemas.
@@ -37,6 +38,7 @@ Puedes ver las visualizaciones que tienes disponibles en la pestaña de Ver Solu
 [![](/images/tokens_solutions.png)](/images/tokens_solutions.png)
 
 Para los autores de problemas
+aliases: ['/soluciones-de-problemas-en-omegaup']
 -----------------------------
 
 Si quieres incluir las soluciones a tus problemas debes añadir una nueva carpeta _/solutions_ al archivo zip del problema. Dentro de la carpeta se debe agregar el archivo markdown con la solución. Las soluciones se pueden editar desde la plataforma, tal como las descripciones del problema.

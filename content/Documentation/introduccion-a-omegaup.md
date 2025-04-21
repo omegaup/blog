@@ -1,60 +1,80 @@
 ---
-title: 'Introducción a omegaUp, parte 0'
+title: 'Introducción a omegaUp, parte 1'
 weight: 2
-author: 'lhchavez'
-author_email: 'lhchavez@omegaup.com'
-date: Fri, 29 Nov 2013 20:35:09 +0000
+author: 'joemmanuel'
+author_email: 'joemmanuel@gmail.com'
+date: Wed, 09 Oct 2013 16:39:54 +0000
 draft: false
 tags: ['Documentation', 'Problemas', 'Introducción a omegaUp']
+math: true
+aliases: ['/introduccion-a-omegaup']
 ---
 
-{{< youtube NgaYc9eYBbo >}}
+Estamos iniciando una serie de 10 posts para ayudar a nuestros nuevos usuarios a navegar con facilidad entre la gran cantidad de problemas de omegaUp, en forma de mini-tutoriales con los conceptos básicos, temas y fuentes. Esta colección de tutoriales y ligas te ayudarán a resolver muchos de los problemas de omegaUp y aumentar tu nivel de programación.
 
-Hola!
+<!--more-->
 
-Hemos recibido varias preguntas sobre cómo se envían soluciones a omegaUp. Decidí escribir una introducción a omegaUp, antes de empezar a aprender a resolver problemas. En resumen:
+En este post inicial voy a cubrir los aspectos más básicos de la resolución de problemas. Vamos a tomar como base el problema clásico [sumas](https://omegaup.com/arena/problem/sumas2#).
 
-*   El objetivo de los concursos es acumular más puntos que todos los demás participantes. En caso de empate, se toma en cuenta la suma de los penalties (dependiendo del concurso puede no haber penalties, ser el tiempo desde que inició el concurso hasta que enviaste la solución o el tiempo desde que abriste el problema por primera vez hasta que lo resolviste).
-*   Jamás se te quitarán puntos por intentar resolver un problema: si ya habías enviado una solución con _x_ puntos, únicamente se cambiará tu puntuación y penalty si obtienes más de _x_ puntos.
-*   Toda la entrada y salida se hace mediante entrada estándar ("teclado" y "consola"), y no debes imprimir nada que no indique el problema: no debes poner cosas como "Dame un número". omegaUp te proporcionará la entrada tal y como viene descrita en el problema.
-*   Todos los problemas de Java **deben** tener Main como nombre de clase. Si usas cualquier otro nombre, te regresará un Runtime error.
-*   cin (en C++) y Scanner (en Java) son relativamente lentos. En problemas donde haya mucha entrada, se recomienda usar scanf (en C/C++) y BufferedReader (en Java).
-*   Toda la entrada y salida está en formato Unix: las líneas terminan con "\\n", no con "\\r\\n".
+**Enunciado del problema**
 
-Primero veamos cómo luce la arena durante un concurso:
+Nos piden leer 2 números enteros y escribir la suma de ambos. Dónde los leo y cómo los escribo? Todos los problemas de omegaUp (con excepción de los problemas de Karel) usan la entrada estándar (stdin) y la salida estandar (stdout) para comunicarse. omegaUp prohibe abrir archivos por seguridad.
 
-![](http://i.imgur.com/Px5IgWo.png?7695)
+Cómo sabe omegaUp que mi solución está bien o mal? Los problemas de omegaUp tienen un conjunto de "casos de prueba" predeterminados que se usan para revisar tu solución. Cada caso de prueba consta de una entrada (por ejemplo _1 1_) y su solución previamente calculada (_2_ en este caso).
 
-El reloj de arriba, si es negativo, te dice cuánto tiempo falta para que inicie el concurso. Cuando es positivo, te dice cuánto tiempo falta para que termine el concurso. Una vez que llega a cero, el concurso se cierra y ya no puedes enviar problemas. Hay tres pestañas en esta vista:
+Tu programa es compilado y ejecutado contra cada uno de los casos de prueba: se le da la entrada a tu programa y se compara tu salida con la salida oficial. Si tu programa imprime _2_, entonces se considera el caso como correctamente resuelto.
 
-*   **Problemas**: la que está mostrada arriba
-*   **Ranking**: te muestra con una gráfica el progreso del top 10 del concurso con respecto al tiempo y también muestra el ranking general para el concurso. Esta información se actualiza casi en tiempo real, así que si no ves un cambio en el scoreboard, ten paciencia y en un par de minutos se reflejará. Ten en cuenta que en algunos concursos, faltando poco tiempo para el final (puede ser una hora o media hora), el ranking deja de actualizarse para meter más emoción =)
-*   **Clarificaciones**: aquí puedes pedir clarificaciones específicas a la _redacción_ de un problema, si algo no es suficientemente claro. Este no es el lugar para preguntar por qué cierto código no funciona (ese es el chiste del concurso! que tú sepas), así que evítate la molestia porque los jueces no te responderán. A los jueces les toma un poco de tiempo leer todas las clarificaciones y responderlas adecuadamente, así que ten paciencia. Ponte a resolver otro problema mientras. **Nota**: a veces verás que hay una nueva clarificación sin que tú hayas pedido una. Léela, porque es una clarificación global, o los jueces están intentando avisarte de algo.
+Tu puntaje final se calcula en base al porcentaje de casos que tu solución resuelve correctamente. El número de casos de prueba predeterminados que tiene un problema es variable (pueden tener desde 1 hasta cientos distintos). Si tu solución obtiene **AC** (accepted), quiere decir que has resuelto todos los casos correctamente.
 
-En la sección de Problemas es donde pasarás la mayor parte del concurso. En la parte de la izquierda está la lista de problemas junto con dos números (como 0 / 100). Estos números indican cuántos puntos has acumulado en ese problema y cuántos puntos vale el problema en total. A menos que los casos estén mal y los jueces hayan decidido re-juecear todos los envíos de un problema, esos puntos no pueden bajar si haces más envíos a un problema. Abajo de la lista de problemas, hay un miniranking con los mejores 10 participantes. Faltando poco tiempo antes del concurso, esta tabla dejará de actualizarse, no te apaniques.
+Con esta información en mente, la solución suena bastante trivial. He aquí un ejemplo en C:
 
-Cuando selecciones un problema, verás la descripción de ese problema. En la mayoría de los concursos, se te agregará un penalty entre más te tardes en resolver un problema desde que inicia el concurso o lo abres por primera vez, así que trata de resolverlo lo más rápido posible. Este penalty **NO** te quita puntos, y solo se utiliza en caso de empates.
+{{< gist joemmanuel 6595935 >}}
 
-![](http://i.imgur.com/jbEGHWK.png)
+y uno en Java: 
 
-Hasta arriba viene una tablita con varias cosas útiles, como la cantidad de puntos máximos que te dará ese problema cuando lo resuelvas, el límite de tiempo que tienes para resolver _cada caso_ y el límite de memoria que tienes para resolverlo. Después viene la descripción del problema (que usualmente es una pequeña historia) y le descripción formal del problema, la descripción formal del formato de la entrada, la salida y algunos ejemplos que confirman la explicación. Algunos problemas también incluyen una sección con todos los límites de las variables expuestas en la descripción del problema. Si no entiendes algo del problema, siéntete libre de escribir una clarificación. Por último, encontrarás una pequeña tablita con todos los envíos que has realizado para ese problema
+{{< gist lhchavez 7710659 >}}
 
-![](http://i.imgur.com/vAXlkP7.png)
+Enviamos esta solución... y nos encontramos que no resuelve todos los casos (obtiene **WA**, wrong answer). Por qué? (Recomiendo al lector que haga una pausa aquí y trate de entender por qué no funciona).
 
-Puedes ignorar el ID, se utiliza únicamente por si algún juez te lo pregunta en caso de que haya problemas con el problema y haya necesidad de rejuecear envíos. Lo importante son las columnas de Puntos y Penalty. La información que aparece en el ranking toma en cuenta el envío que hayas hecho que tenga más puntos (y en caso de empate, el que tenga menos penalty). La columna de status son dos letras que te dan una pequeña pista de qué pasó con tu envío en general:
+**Límites**
 
-*   AC - Accepted. Tu envío resolvió correctamente todos los casos de prueba y obtuviste la máxima cantidad de puntos. Felicidades!
-*   PA - Partially Accepted. Tu envío resolvió al menos un caso de prueba, pero hay al menos un caso que no resolviste correctamente. Intenta arreglar tu programa y vuélvelo a intentar.
-*   WA - Wrong Answer. Tu programa no resolvió ningún caso correctamente.
-*   TLE - Time Limit Exceeded. Al menos en uno de los casos, tu programa excedió el límite de tiempo. Intenta pensar en una solución más eficiente o busca en tu código si hay algún ciclo infinito.
-*   MLE - Memory Limit Exceeded. El menos en uno de los casos, tu programa excedió el límite de memoria. Intenta pensar en una solución que utilice menos memoria. En C y C++, algunos MLE se pueden reportar como RTE, sobre todo si declaraste arreglos gigantes.
-*   RTE - Runtime error. En al menos uno de los casos, tu programa tuvo un error fatal: puede ser una excepción en Java, no utilizaste "Main" como nombre de clase en Java, divisiones entre cero, desbordaste el stack, te saliste de los límites de un arreglo, etc. Vuelve a leer el problema y piensa qué casos se te olvió considerar y qué entrada puede hacer que tu programa se comporte de esta manera.
-*   RFE - Restricted function. En al menos uno de los casos, tu programa intentó realizar una operación prohibida. En general, no puedes abrir ningún archivo, no puedes conectarte a internet, no puedes ejecutar otros programas y no puedes comunicarte con nada del sistema fuera del problema. Limítate a resolver el problema usando algoritmos.
-*   CE - Compilation error. Tu programa no pudo ser compilado. omegaUp utiliza gcc y g++ en Linux, y usamos Java 1.6, así que podrían haber incompatibilidades entre tu ambiente de desarrollo y el que usamos nosotros. Si haces click en el botón de "Ver" el código, verás tu código seguido del error del compilador.
-*   JE - Judge error. Un error interno de omegaUp. Esto no debería pasar nunca, pero si te sale, alguno de los jueces ya lo vio y lo resolverá lo más rápido posible, así que no es necesario que lo reportes. Intenta otro problema mientras tanto, y ten por seguro que no serás penalizado por ese envío, porque no fue tu culpa.
+Hay datos que no hemos considerado en la descripción del problema: los límites. Existen 3 tipos de límites comunes en omegaUp:
 
-Como puedes darte cuenta, varios de los status no son mutuamente exclusivos. Siempre intentaremos el error más severo (los errores más severos están en la parte de abajo de esta lista), así que por ejemplo, si un envío te marca TLE y tienes algunos puntos, en ninguno de los casos detectamos un MLE ni un RFE, tuviste algunos casos bien, pero pudiste haber tenido otros casos mal y en al menos un caso excediste el límite de tiempo.
+*   **Límite de tiempo**: Tu solución no puede tardar más del tiempo indicado para resolver un caso. Para nuestro problema Sumas, tenemos 1 segundo para producir una solución. Para entender por qué el tiempo es un factor limitante, te recomiendo leer [The Importance of Algorithms](http://community.topcoder.com/tc?module=Static&d1=tutorials&d2=importance_of_algorithms) en los tutoriales de Topcoder.
+*   **Límite de memoria**: Tu solución no puede usar más megabytes de los permitidos por el límite para producir la respuesta.
+*   **Límites en las variables de entrada: **No todos los problemas tienen una sección específica donde se indice cuáles son los valores mínimos y máximos de una variable, por lo que necesitamos leer con atención el problema para obtenerlos.
 
-Si crees que tu programa está resolviendo bien el problema, deténte a pensar por qué podría estar mal. El 99% de las veces, el problema está bien (sobre todo si hay alguien más que ya lo logró resolver), pero si tienes evidencia que hay algún error en el problema (por ejemplo, si dice la descripción que no habrán números mayores a 1000, y en tu programa validas esto y haces que te devuelva un veredicto como MLE), por favor pide una clarificación con esta información y tu ID de envío para que los jueces lo revisen.
+En nuestra solución anterior, hay un dato que no consideramos: La suma de ambos números cabe en un entero de 64 bits. En nuestra solución anterior estábamos usando el tipo de datos int, los cuales tienen un límite de 32 bits (Un int en C puede guardar números entre $latex -2^{31}$ hasta $latex 2^{31}-1$, es decir, de -2147483648 hasta 2147483648 ). Para satisfacer el límite de 64 bits, necesitamos usar variables que puedan soportarlo: long long (en C)
 
-Ahora sí, estás listo para continuar con la [parte 1](http://blog.omegaup.com/2013/10/introduccion-a-omegaup/ "parte 1") del tutorial de omegaUp.
+{{< gist joemmanuel 6596436 >}}
+
+Nota como tuvimos que cambiar el %d del printf/scanf por %lld para leer y escribir correctamente el entero long long. omegaUp evalúa las soluciones en Linux y para C/C++ usa el compilador g++.
+
+La misma solución en Java:
+
+ 
+
+Si quieres saber más sobre los tipos de variables y sus límites, te recomiendo leer: [Representation of integers and reals](http://community.topcoder.com/tc?module=Static&d1=tutorials&d2=integersReals) en Topcoder.com .
+
+ 
+
+**Para saber más...**
+
+ 
+
+Aquí enlisto varias fuentes de muy buena información sobre cómo resolver problemas y diseñar algoritmos para concursos de programación en general.  Los siguientes tutoriales estarán basados en estas fuentes, les recomiendo mucho darles una revisada:
+
+*   [Problemas y Algoritmos, Luis Vargas.](https://omegaup.com/img/libropre3.pdf)
+*   [El blog de Pier Paolo sobre Algoritmos](http://pier.guillen.com.mx/)
+*   [TopCoder tutorials](http://community.topcoder.com/tc?module=Static&d1=tutorials&d2=alg_index). En particular les recomiendo empezar por [The Importance of Algorithms](http://community.topcoder.com/tc?module=Static&d1=tutorials&d2=importance_of_algorithms) y [How to find a solution.](http://community.topcoder.com/tc?module=Static&d1=tutorials&d2=findSolution)
+*   [El blog de Rodrigo Burgos (nivel avanzado)](http://algorithmmx.blogspot.com/)
+
+**Con qué otros problemas puedo practicar?**
+
+Aquí hay algunos otros problemas con los que puedes practicar para iniciarte en omegaUp. Incluyo un link al código de la solución, pero mi recomendación es que trates de hacerlos por tí mismo. Ve la solución sólo en caso de que estes completamente bloqueado:
+
+1.  [aMAYUSCULAS](https://omegaup.com/arena/problem/aMAYUSCULAS). [Solución](https://gist.github.com/joemmanuel/6596774).
+2.  [Bisiesto](https://omegaup.com/arena/problem/bisiesto). [Solución](https://gist.github.com/joemmanuel/6596821).
+3.  [Patos](https://omegaup.com/arena/problem/patos). [Solución](https://gist.github.com/joemmanuel/6596898).
+
+Tienes otros tips o algunos tutoriales/soluciones que quieras compartir? Escríbelos en los comentarios.

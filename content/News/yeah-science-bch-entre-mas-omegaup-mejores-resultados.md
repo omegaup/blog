@@ -5,6 +5,7 @@ author_email: 'joemmanuel@gmail.com'
 date: Thu, 22 May 2014 14:45:11 +0000
 draft: false
 tags: ['News', 'Concursos']
+aliases: ['/yeah-science-bch-entre-mas-omegaup-mejores-resultados']
 ---
 
 Del 1 al 6 de Mayo pasados, se llevó a cabo la [Olimpiada Mexicana de Informática 2014](http://www.olimpiadadeinformatica.org.mx/OMI/OMI/Resultados/Participantes_2014.aspx) en Pachuca, Hidalgo. Más de 100 participantes de toda la república concursaron y omegaUp fue la plataforma de evaluación oficial (el examen del Día 1 lo puedes encontrar [aquí](https://omegaup.com/arena/OMI2014PUBLIC1/practice/) y el de el [Día 2 aquí](https://omegaup.com/arena/OMI2014PUBLICO2/practice/)).
