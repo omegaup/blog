@@ -1,5 +1,8 @@
 ---
 title: 'El nuevo ranking de omegaUp'
+type: docs
+sidebar:
+  open: true
 author: 'joemmanuel'
 author_email: 'joemmanuel@gmail.com'
 date: Thu, 12 Jun 2014 14:42:18 +0000

@@ -1,5 +1,8 @@
 ---
 title: 'Ranking de Escuelas en omegaUp'
+type: docs
+sidebar:
+  open: true
 author: 'joemmanuel'
 author_email: 'joemmanuel@gmail.com'
 date: Sun, 18 Jun 2017 20:56:44 +0000

@@ -1,5 +1,8 @@
 ---
 title: 'Categorías omegaUp'
+type: docs
+sidebar:
+  open: true
 author: 'Jorge Gonzalez'
 author_email: 'jorge@omegaup.com'
 date: Tue, 01 May 2018 21:27:59 +0000

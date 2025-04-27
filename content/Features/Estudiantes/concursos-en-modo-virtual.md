@@ -1,5 +1,8 @@
 ---
 title: 'Concursos en Modo Virtual'
+type: docs
+sidebar:
+  open: true
 author: 'Hugo Dueñas'
 author_email: 'hugo@omegaup.com'
 date: Fri, 07 Dec 2018 06:00:21 +0000

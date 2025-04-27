@@ -1,5 +1,8 @@
 ---
 title: 'El nuevo ranking de contribuidores de omegaUp'
+type: docs
+sidebar:
+  open: true
 author: 'Axssel'
 author_email: 'axssel.diazfl@gmail.com'
 date: Sat, 03 Feb 2024 13:00:00 +0000

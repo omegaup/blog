@@ -1,5 +1,8 @@
 ---
 title: 'Soluciones de problemas en omegaUp'
+type: docs
+sidebar:
+  open: true
 authors:
   - name: 'Omar'
     email: 'omar@omegaup.org'

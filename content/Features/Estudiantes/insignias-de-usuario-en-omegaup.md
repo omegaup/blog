@@ -1,5 +1,8 @@
 ---
 title: 'Insignias de Usuario en omegaUp'
+type: docs
+sidebar:
+  open: true
 author: 'Carlos Córdova'
 author_email: 'carlos@omegaup.com'
 date: Wed, 30 Oct 2019 21:14:17 +0000

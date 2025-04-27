@@ -1,5 +1,8 @@
 ---
 title: 'Ranking de contribuidores'
+type: docs
+sidebar:
+  open: true
 author: 'carlos'
 author_email: 'carlos@omegaup.org'
 date: Fri, 11 Aug 2023 01:11:47 +0000
