@@ -40,4 +40,45 @@ Estos concursos fueron diseñados para familiarizarse con la programación compe
 *   [El tablero de Bety](https://omegaup.com/arena/problem/EltableroBety) ([solución](https://gist.github.com/joemmanuel/6885843) de [spleensarethebest](https://omegaup.com/profile/spleensarethebest))
 *   [Triángulos](https://omegaup.com/arena/problem/triangulos) ([solución TriangleConstruction en Topcoder](http://community.topcoder.com/tc?module=Static&d1=hs&d2=match_editorials&d3=tchs07Rd1Gamma))
 
-Tienes más sugerencias de problemas o dudas sobre los existentes? Escríbelos en los comentarios.
+y uno en Java: 
+
+{{< gist lhchavez 7710659 >}}
+
+Enviamos esta solución... y nos encontramos que no resuelve todos los casos (obtiene **WA**, wrong answer). Por qué? (Recomiendo al lector que haga una pausa aquí y trate de entender por qué no funciona).
+
+**Límites**
+
+Hay datos que no hemos considerado en la descripción del problema: los límites. Existen 3 tipos de límites comunes en omegaUp:
+
+*   **Límite de tiempo**: Tu solución no puede tardar más del tiempo indicado para resolver un caso. Para nuestro problema Sumas, tenemos 1 segundo para producir una solución. Para entender por qué el tiempo es un factor limitante, te recomiendo leer [The Importance of Algorithms](http://community.topcoder.com/tc?module=Static&d1=tutorials&d2=importance_of_algorithms) en los tutoriales de Topcoder.
+*   **Límite de memoria**: Tu solución no puede usar más megabytes de los permitidos por el límite para producir la respuesta.
+*   **Límites en las variables de entrada: **No todos los problemas tienen una sección específica donde se indice cuáles son los valores mínimos y máximos de una variable, por lo que necesitamos leer con atención el problema para obtenerlos.
+
+En nuestra solución anterior, hay un dato que no consideramos: La suma de ambos números cabe en un entero de 64 bits. En nuestra solución anterior estábamos usando el tipo de datos int, los cuales tienen un límite de 32 bits (Un int en C puede guardar números entre $ -2^{31}$ hasta $ 2^{31}-1$, es decir, de -2147483648 hasta 2147483648 ). Para satisfacer el límite de 64 bits, necesitamos usar variables que puedan soportarlo: long long (en C)
+
+{{< gist joemmanuel 6596436 >}}
+
+Nota como tuvimos que cambiar el %d del printf/scanf por %lld para leer y escribir correctamente el entero long long. omegaUp evalúa las soluciones en Linux y para C/C++ usa el compilador g++.
+
+La misma solución en Java:
+
+Si quieres saber más sobre los tipos de variables y sus límites, te recomiendo leer: [Representation of integers and reals](http://community.topcoder.com/tc?module=Static&d1=tutorials&d2=integersReals) en Topcoder.com .
+
+**Para saber más...**
+
+Aquí enlisto varias fuentes de muy buena información sobre cómo resolver problemas y diseñar algoritmos para concursos de programación en general.  Los siguientes tutoriales estarán basados en estas fuentes, les recomiendo mucho darles una revisada:
+
+*   [Problemas y Algoritmos, Luis Vargas.](https://omegaup.com/img/libropre3.pdf)
+*   [El blog de Pier Paolo sobre Algoritmos](http://pier.guillen.com.mx/)
+*   [TopCoder tutorials](http://community.topcoder.com/tc?module=Static&d1=tutorials&d2=alg_index). En particular les recomiendo empezar por [The Importance of Algorithms](http://community.topcoder.com/tc?module=Static&d1=tutorials&d2=importance_of_algorithms) y [How to find a solution.](http://community.topcoder.com/tc?module=Static&d1=tutorials&d2=findSolution)
+*   [El blog de Rodrigo Burgos (nivel avanzado)](http://algorithmmx.blogspot.com/)
+
+**Con qué otros problemas puedo practicar?**
+
+Aquí hay algunos otros problemas con los que puedes practicar para iniciarte en omegaUp. Incluyo un link al código de la solución, pero mi recomendación es que trates de hacerlos por tí mismo. Ve la solución sólo en caso de que estes completamente bloqueado:
+
+1.  [aMAYUSCULAS](https://omegaup.com/arena/problem/aMAYUSCULAS). [Solución](https://gist.github.com/joemmanuel/6596774).
+2.  [Bisiesto](https://omegaup.com/arena/problem/bisiesto). [Solución](https://gist.github.com/joemmanuel/6596821).
+3.  [Patos](https://omegaup.com/arena/problem/patos). [Solución](https://gist.github.com/joemmanuel/6596898).
+
+Tienes otros tips o algunos tutoriales/soluciones que quieras compartir? Escríbelos en los comentarios.

@@ -15,7 +15,7 @@ Observaciones
 aliases: ['/solucion-a-mario-reloaded']
 -------------
 
-Lo primero es ver como se modelan los estados del problema sin pensar en que Mario puede tomar los atajos, únicamente pensar en las llaves, claramente existen $latex n\\times2^m$ estados, pues no importa el orden en que se toman las llaves solo las llaves que se tienen al llegar a cada puerta. A partir de aquí nos referiremos como estado a la puerta y las llaves que trae Mario.
+Lo primero es ver como se modelan los estados del problema sin pensar en que Mario puede tomar los atajos, únicamente pensar en las llaves, claramente existen $ n\\times2^m$ estados, pues no importa el orden en que se toman las llaves solo las llaves que se tienen al llegar a cada puerta. A partir de aquí nos referiremos como estado a la puerta y las llaves que trae Mario.
 
 La segunda observación es ver como afecta llegar a una puerta con cierto juego de llaves, osea a cada estado. Cada vez que visitamos un estado todos los estados ya visitados que tienen el mismo juego de llaves se actualiza instantáneamente. Esto se puede entender como si únicamente el juego de llaves definiera el estado, lo que nos lleva a pensar que el problema es saber que puertas pertenecen a qué juego de llaves.
 

@@ -13,7 +13,7 @@ aliases: ['/solucion-a-comesolo']
 
 Este problema es especial porque es el primero en omegaUp de solo salida! Usualmente lo que debes esperar cuando te enfrentes con uno de esos problemas es que sea un problema NP que no tiene una solución rápida, y usualmente te pedirán que te aproximes lo más posible a la solución óptima. Esto significa que te vas a tener que valer de técnicas ad-hoc y heurísticas para sacar puntos.
 
-La solución del problema es bastante sencilla de explicar: haz una búsqueda en profundidad intentando todos los posibles movimientos por fuerza bruta hasta que te salga una solución aceptable e imprímela. El problema es que esta estrategia es $latex O(n!)$, y como $latex n$ puede valer hasta 30x30, puedes esperar que el programa corra varios milenios antes de encontrar la solución óptima. Hay tres trucos (en orden de importancia) para obtener una solución decente en un tiempo razonable:
+La solución del problema es bastante sencilla de explicar: haz una búsqueda en profundidad intentando todos los posibles movimientos por fuerza bruta hasta que te salga una solución aceptable e imprímela. El problema es que esta estrategia es $ O(n!)$, y como $ n$ puede valer hasta 30x30, puedes esperar que el programa corra varios milenios antes de encontrar la solución óptima. Hay tres trucos (en orden de importancia) para obtener una solución decente en un tiempo razonable:
 
 *   No repetir estados.
 *   No "clavarse" con soluciones que parece que son muy buenas, pero en realidad llevan a callejones sin salida.
@@ -119,7 +119,7 @@ while no\_se\_haya\_terminado\_la\_memoria():
 # saber qué movimiento se hizo para llegar a él comparando las
 # diferencias entre el tablero de |mejor.padre| y |mejor|. Ya solo es
 # cuestión de imprimir el resultado y listo.
-\* Aquí mucha gente se va a quejar porque solo guardar el hash abre la puerta a que haya dos estados que puede tener hasta 900 bits que tengan el mismo hash de 64 bits (por el [principio del palomar](http://es.wikipedia.org/wiki/Principio_del_palomar)) y esté considerando que ya se visitó un estado que en realidad es nuevo. Si haces las cuentas, la probabilidad de colisión es negligible: la cantidad de estados que podía visitar en mi computadora (27 millones) es significativamente más pequeña que el número de estados necesarios para que la probabilidad de colisión sea de 1% ($latex \\approx 10^{135}$, por la [paradoja del cumpleaños](http://es.wikipedia.org/wiki/Paradoja_del_cumplea%C3%B1os)).
+\* Aquí mucha gente se va a quejar porque solo guardar el hash abre la puerta a que haya dos estados que puede tener hasta 900 bits que tengan el mismo hash de 64 bits (por el [principio del palomar](http://es.wikipedia.org/wiki/Principio_del_palomar)) y esté considerando que ya se visitó un estado que en realidad es nuevo. Si haces las cuentas, la probabilidad de colisión es negligible: la cantidad de estados que podía visitar en mi computadora (27 millones) es significativamente más pequeña que el número de estados necesarios para que la probabilidad de colisión sea de 1% ($ \\approx 10^{135}$, por la [paradoja del cumpleaños](http://es.wikipedia.org/wiki/Paradoja_del_cumplea%C3%B1os)).
 
 
 ```
