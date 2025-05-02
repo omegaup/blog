@@ -3,7 +3,7 @@ title: Docentes
 type: docs
 sidebar:
   open: true
-date: Mon, 25 Apr 2025 12:00:01 +0000
+date: Mon, 29 Apr 2025 12:00:01 +0000
 ---
 
 > omegaUp para potenciar la enseñanza de Programación

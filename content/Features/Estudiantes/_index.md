@@ -3,7 +3,7 @@ title: Estudiantes
 type: docs
 sidebar:
   open: true
-date: Mon, 25 Apr 2025 12:00:01 +0000
+date: Mon, 30 Apr 2025 12:00:01 +0000
 ---
 
 > omegaUp para mejorar tus habilidades en Programación
