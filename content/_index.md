@@ -27,11 +27,11 @@ toc: true
 
   {{% details title="Popular" %}}
   <a href='/posts'>Descubre nuestra información actualizada relevante.</a><br><br>
-  &#8226; <a class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font" href='/posts/introduccion-a-omegaup-parte-0/'>¿Cómo resolver problemas?</a><br>
-  &#8226; <a class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font" href='/posts/codigo-de-conducta-en-omegaup/'>Código de conducta.</a><br>
-  &#8226; <a class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font" href='/posts/el-nuevo-buscador-de-problemas-de-omegaup/'>¿Cómo buscar problemas?</a><br>
-  &#8226; <a class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font" href='/posts/concursos-con-subtareas/#c%C3%B3mo-crear-un-concurso-con-la-modalidad-de-subtareas'>¿cómo crear concursos?</a><br>
-  &#8226; <a class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font" href='/posts/reglas-del-coder-del-mes/'>Reglas del coder del mes.</a>
+  &#8226; <a class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font" href='/documentation/introduccion-a-omegaup-parte-0/'>¿Cómo resolver problemas?</a><br>
+  &#8226; <a class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font" href='/policies/codigo-de-conducta-en-omegaup/'>Código de conducta.</a><br>
+  &#8226; <a class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font" href='/features/el-nuevo-buscador-de-problemas-de-omegaup/'>¿Cómo buscar problemas?</a><br>
+  &#8226; <a class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font" href='/features/concursos-con-subtareas/#cómo-crear-un-concurso-con-la-modalidad-de-subtareas'>¿Cómo crear concursos?</a><br>
+  &#8226; <a class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font" href='/policies/reglas-del-coder-del-mes/'>Reglas del coder del mes.</a>
   {{% /details %}}
 
   {{% details title="Lo más nuevo" %}}
