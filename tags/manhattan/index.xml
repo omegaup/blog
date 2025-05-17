@@ -1,22 +1,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>omegaUp blog – Manhattan</title><link>https://blog.omegaup.com/tags/manhattan/</link><description>Recent content in Manhattan on omegaUp blog</description><generator>Hugo -- gohugo.io</generator><language>es</language><lastBuildDate>Sat, 21 Jun 2014 14:34:14 +0000</lastBuildDate><atom:link href="https://blog.omegaup.com/tags/manhattan/index.xml" rel="self" type="application/rss+xml"/><item><title>Solución a "Suma Manhattan"</title><link>https://blog.omegaup.com/solution/solucion-a-suma-manhattan/</link><pubDate>Sat, 21 Jun 2014 14:34:14 +0000</pubDate><guid>https://blog.omegaup.com/solution/solucion-a-suma-manhattan/</guid><description>
 &lt;p>&lt;strong>Concurso:&lt;/strong> &lt;a href="https://omegaup.com/arena/IOI2015E1P1#problems/Suma-Manhattan" target="_blank" rel="noopener">Preselectivo para la IOI 2015, Etapa 1, Problemset 1&lt;/a> &lt;strong>Autor:&lt;/strong> &lt;a href="http://freddy.mx/" target="_blank" rel="noopener">Freddy Román Cepeda&lt;/a> &lt;strong>Fuente&lt;/strong>: &lt;a href="http://freddy.mx/" target="_blank" rel="noopener">Freddy Román Cepeda&lt;/a>&lt;/p>
 &lt;p>Este problema requería manipular con cuidado la expresión que había que computar. Recordemos que nos piden computar&lt;/p>
-&lt;p>$latex \sum_{0 \leq i &amp;lt; j &amp;lt; N} manhattan(S_i,S_j).$&lt;/p>
+&lt;p>$ \sum_{0 \leq i &amp;lt; j &amp;lt; N} manhattan(S_i,S_j).$&lt;/p>
 &lt;p>Para resolver la primer subtarea bastaba con iterar sobre todas las parejas de puntos y calcular su distancia. Esto corre en tiempo cuadrático y no es suficiente para obtener todos los puntos.&lt;/p>
-&lt;p>La siguiente subtarea era una pista: se puede computar la distancia Manhattan de dos puntos considerando por separado sus coordenadas en $latex x$ y $latex y$. Ahora nos preocuparemos por calcular la siguiente expresión:&lt;/p>
-&lt;p>$latex \sum_{0 \leq i &amp;lt; j &amp;lt; N} |a_i - a_j|.$&lt;/p>
-&lt;p>Donde $latex a$ son las coordenadas en $latex x$ o $latex y$. El problema está en el valor absoluto. La manera más sencilla de deshacernos de él es ordenar la secuencia $latex a$, de tal manera que $latex a_i \leq a_j$. Entonces tenemos:&lt;/p>
-&lt;p>$latex \sum_{0 \leq i &amp;lt; j &amp;lt; N} |a_i - a_j| = \sum_{0 \leq i &amp;lt; j &amp;lt; N} |a_j - a_i| = \sum_{0 \leq i &amp;lt; j &amp;lt; N} a_j - a_i.$&lt;/p>
-&lt;p>La primer igualdad es verdadera porque $latex |x| = |-x|$ para cualquier $latex x$. La segunda es porque como ahora $latex a$ está ordenado, como $latex a_j \geq a_i \implies a_j - a_i \geq 0$, el valor absoluto no hace nada.&lt;/p>
+&lt;p>La siguiente subtarea era una pista: se puede computar la distancia Manhattan de dos puntos considerando por separado sus coordenadas en $ x$ y $ y$. Ahora nos preocuparemos por calcular la siguiente expresión:&lt;/p>
+&lt;p>$ \sum_{0 \leq i &amp;lt; j &amp;lt; N} |a_i - a_j|.$&lt;/p>
+&lt;p>Donde $ a$ son las coordenadas en $ x$ o $ y$. El problema está en el valor absoluto. La manera más sencilla de deshacernos de él es ordenar la secuencia $ a$, de tal manera que $ a_i \leq a_j$. Entonces tenemos:&lt;/p>
+&lt;p>$ \sum_{0 \leq i &amp;lt; j &amp;lt; N} |a_i - a_j| = \sum_{0 \leq i &amp;lt; j &amp;lt; N} |a_j - a_i| = \sum_{0 \leq i &amp;lt; j &amp;lt; N} a_j - a_i.$&lt;/p>
+&lt;p>La primer igualdad es verdadera porque $ |x| = |-x|$ para cualquier $ x$. La segunda es porque como ahora $ a$ está ordenado, como $ a_j \geq a_i \implies a_j - a_i \geq 0$, el valor absoluto no hace nada.&lt;/p>
 &lt;p>Podemos entonces separar la suma en dos términos:&lt;/p>
-&lt;p>$latex \sum_{0 \leq i &amp;lt; j &amp;lt; N} a_j - \sum_{0 \leq i &amp;lt; j &amp;lt; N} a_i.$&lt;/p>
-&lt;p>Analicemos el primer término. Estamos sumando sobre todas las $latex j$ tantas veces haya una $latex i$ menor que ella. Eso quiere decir que cada $latex a_j$ la vamos a sumar $latex j$ veces (nota que $latex a_0$ la sumamos $latex 0$ veces).&lt;/p>
-&lt;p>El segundo término nos dice que sumaremos todas las $latex a_i$ tantas veces haya una $latex j$ mayor a ella. Eso quiere decir que cada $latex a_i$ la vamos a sumar $latex N-i-1$ veces (nota que $latex a_{N-1}$ la sumamos $latex 0$ veces).&lt;/p>
+&lt;p>$ \sum_{0 \leq i &amp;lt; j &amp;lt; N} a_j - \sum_{0 \leq i &amp;lt; j &amp;lt; N} a_i.$&lt;/p>
+&lt;p>Analicemos el primer término. Estamos sumando sobre todas las $ j$ tantas veces haya una $ i$ menor que ella. Eso quiere decir que cada $ a_j$ la vamos a sumar $ j$ veces (nota que $ a_0$ la sumamos $ 0$ veces).&lt;/p>
+&lt;p>El segundo término nos dice que sumaremos todas las $ a_i$ tantas veces haya una $ j$ mayor a ella. Eso quiere decir que cada $ a_i$ la vamos a sumar $ N-i-1$ veces (nota que $ a_{N-1}$ la sumamos $ 0$ veces).&lt;/p>
 &lt;p>Juntando esas ideas, entonces tenemos:&lt;/p>
-&lt;p>$latex \sum_{j = 0}^{N-1} j \cdot a_j - \sum_{i = 0}^{N-1} (N - i - 1) \cdot a_i$&lt;/p>
-&lt;p>$latex = \sum_{i = 0}^{N-1} i \cdot a_i - \sum_{i = 0}^{N-1} (N - i - 1) \cdot a_i.$&lt;/p>
-&lt;p>$latex = \sum_{i = 0}^{N-1} (i - (N - i - 1)) \cdot a_i.$&lt;/p>
-&lt;p>$latex = \sum_{i = 0}^{N-1} (2i - N + 1) \cdot a_i.$&lt;/p>
-&lt;p>Y con eso terminamos: ahora tenemos una expresión que podemos computar fácilmente en tiempo lineal. Hay que tener cuidado al computar esto: La primera observación es que hay que estar tomando módulo después de cada operación porque en cualquier momento puede haber un &lt;em>overflow&lt;/em>. Algunos competidores obtuvieron 60 puntos en este problema por no tomar esto en cuenta. La segunda observación es que el término $latex (2i - N + 1) \cdot a_i$ no necesariamente cabe en un entero signado de 32 bits &amp;ndash; hacía falta utilizar enteros de 64 bits para realizar este cálculo.&lt;/p>
+&lt;p>$ \sum_{j = 0}^{N-1} j \cdot a_j - \sum_{i = 0}^{N-1} (N - i - 1) \cdot a_i$&lt;/p>
+&lt;p>$ = \sum_{i = 0}^{N-1} i \cdot a_i - \sum_{i = 0}^{N-1} (N - i - 1) \cdot a_i.$&lt;/p>
+&lt;p>$ = \sum_{i = 0}^{N-1} (i - (N - i - 1)) \cdot a_i.$&lt;/p>
+&lt;p>$ = \sum_{i = 0}^{N-1} (2i - N + 1) \cdot a_i.$&lt;/p>
+&lt;p>Y con eso terminamos: ahora tenemos una expresión que podemos computar fácilmente en tiempo lineal. Hay que tener cuidado al computar esto: La primera observación es que hay que estar tomando módulo después de cada operación porque en cualquier momento puede haber un &lt;em>overflow&lt;/em>. Algunos competidores obtuvieron 60 puntos en este problema por no tomar esto en cuenta. La segunda observación es que el término $ (2i - N + 1) \cdot a_i$ no necesariamente cabe en un entero signado de 32 bits &amp;ndash; hacía falta utilizar enteros de 64 bits para realizar este cálculo.&lt;/p>
 &lt;p>Aquí está mi código que implementa la solución anterior.&lt;/p>
 &lt;script src="https://gist.github.com/OlimpiadaMexicanadeInformatica/0614f2d1added587c2fc.js">&lt;/script></description></item></channel></rss>

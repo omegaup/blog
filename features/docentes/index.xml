@@ -1,0 +1,99 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>omegaUp blog – Docentes</title><link>https://blog.omegaup.com/features/docentes/</link><description>Recent content in Docentes on omegaUp blog</description><generator>Hugo -- gohugo.io</generator><language>es</language><lastBuildDate>Tue, 29 Apr 2025 12:00:01 +0000</lastBuildDate><atom:link href="https://blog.omegaup.com/features/docentes/index.xml" rel="self" type="application/rss+xml"/><item><title>Administración de Identidades</title><link>https://blog.omegaup.com/features/docentes/administracion-de-identidades/</link><pubDate>Sat, 08 Feb 2020 22:56:22 +0000</pubDate><guid>https://blog.omegaup.com/features/docentes/administracion-de-identidades/</guid><description>
+&lt;p>Hemos liberado una nueva funcionalidad en omegaUp para que puedas administrar identidades dentro de un grupo. Si has sido organizador de un concurso o curso, seguramente has requerido de la ayuda de algún miembro de omegaUp para dar de alta las cuentas de los usuarios que participarán en el evento que organizaste con este &lt;a href="https://github.com/omegaup/omegaup/blob/73db504f8494ce00d0305931730ea35a89a8aa6b/frontend/server/controllers/UserController.php#L644" target="_blank" rel="noopener">script&lt;/a>. Con esta nueva funcionalidad serás capaz de realizar todas las acciones por tu cuenta.&lt;/p>
+&lt;h1>¿Qué es una Identidad?&lt;/h1>&lt;p>Una identidad en omegaUp es una cuenta con los privilegios suficientes para ingresar a un curso o concurso para el cual haya sido creada. Anteriormente, para que un usuario pudiera ingresar al curso o concurso, era necesario hacer los cambios necesarios en el código descrito en el párrafo anterior.&lt;/p>
+&lt;h2>Ventajas
+aliases: [&amp;rsquo;/administracion-de-identidades']&lt;span class="hx-absolute -hx-mt-20" id="aliases-administracion-de-identidades">&lt;/span>
+&lt;a href="#aliases-administracion-de-identidades" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Las ventajas que se tienen con esta nueva funcionalidad se describen a continuación:&lt;/p>
+&lt;h3>Profesor / organizador&lt;span class="hx-absolute -hx-mt-20" id="profesor--organizador">&lt;/span>
+&lt;a href="#profesor--organizador" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Rapidez: Al poder crear sus identidades, el organizador puede disponer de ellas en el momento que las da de alta. Ya no es necesario esperar a que se haga el despliegue con los usuarios que se pretenden agregar.&lt;/li>
+&lt;li>Control: Estas cuentas de identidades ahora las podrá visualizar en el mismo lugar donde están las cuentas de los usuarios que se agregan al curso.&lt;/li>
+&lt;li>Seguridad: Es muy importante señalar que una vez que la identidad se asocia a un concursante, esta ya no puede ser utilizada por nadie más. Ya no será necesario reutilizar cuentas.&lt;/li>
+&lt;/ul>
+&lt;h3>Alumno / participante&lt;span class="hx-absolute -hx-mt-20" id="alumno--participante">&lt;/span>
+&lt;a href="#alumno--participante" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>Privacidad: Siempre y cuando las identidades se den de alta con nombres genéricos, los datos de los usuarios no serán expuestos en ninguna parte de la plataforma.&lt;/li>
+&lt;li>Control: El usuario podrá agregar a su cuenta tantas identidades le sean asignadas, lo cual tiene una gran ventaja, ya que todos los problemas que resuelva con cualquiera de sus identidades serán tomados en cuenta para su rankeo.&lt;/li>
+&lt;/ul>
+&lt;h1>¿Cómo funciona la Administración de Identidades?&lt;/h1>&lt;h2>Crear Identidades
+aliases: [&amp;rsquo;/administracion-de-identidades']&lt;span class="hx-absolute -hx-mt-20" id="aliases-administracion-de-identidades-1">&lt;/span>
+&lt;a href="#aliases-administracion-de-identidades-1" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;a href="https://blog.omegaup.com/images/Video_1-Crear_Identiades.webm" >&lt;video autoplay muted loop>
+&lt;source src="https://blog.omegaup.com/images/Video_1-Crear_Identiades.webm" type="video/mp4">
+&lt;/video>
+&lt;/a>&lt;/p>
+&lt;p>En la animación anterior se muestra cómo crear un grupo con identidades, este proceso se describe paso a paso a continuación:&lt;/p>
+&lt;h5>1. Ingresa a la sección de Mis Grupos.&lt;span class="hx-absolute -hx-mt-20" id="1-ingresa-a-la-sección-de-mis-grupos">&lt;/span>
+&lt;a href="#1-ingresa-a-la-secci%c3%b3n-de-mis-grupos" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h5>&lt;p>Una vez que ingresas a omegaUp, y en el menú superior busca la opción &lt;em>Concursos &amp;gt; Mis grupos&lt;/em>:&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/Imagen_1-Ingresar_Grupos.png" >&lt;img src="https://blog.omegaup.com/images/Imagen_1-Ingresar_Grupos.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
+&lt;h5>2. Crear el grupo&lt;span class="hx-absolute -hx-mt-20" id="2-crear-el-grupo">&lt;/span>
+&lt;a href="#2-crear-el-grupo" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h5>&lt;p>Si ya creaste el grupo pasa al punto 3, de lo contrario presiona el botón de Crear grupo:&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/Imagen_2-Crear_Grupo.png" >&lt;img src="https://blog.omegaup.com/images/Imagen_2-Crear_Grupo.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
+&lt;p>Llena los datos de nombre y descripción del Grupo, el alias se genera automáticamente de acuerdo al nombre del grupo. Una vez que has llenado los datos, presiona el botón de &lt;em>Crear grupo&lt;/em>:&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/Imagen_3-Crear_Nuevo_Grupo.png" >&lt;img src="https://blog.omegaup.com/images/Imagen_3-Crear_Nuevo_Grupo.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
+&lt;h5>3. Selecciona el grupo&lt;span class="hx-absolute -hx-mt-20" id="3-selecciona-el-grupo">&lt;/span>
+&lt;a href="#3-selecciona-el-grupo" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h5>&lt;p>Busca tu grupo en el listado, al encontrarlo da clic sobre el para que te mande al detalle:&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/Imagen_4-Seleccionar_Grupo.png" >&lt;img src="https://blog.omegaup.com/images/Imagen_4-Seleccionar_Grupo.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
+&lt;h5>4. Crear las identidades&lt;span class="hx-absolute -hx-mt-20" id="4-crear-las-identidades">&lt;/span>
+&lt;a href="#4-crear-las-identidades" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h5>&lt;p>Si cuentas con los permisos suficientes, en esta pantalla encontrarás una pestaña de &lt;em>Crear identidades&lt;/em>, al dar clic en ella te aparecerá lo siguiente:&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/Imagen_5-Seleccionar_Archivo.png" >&lt;img src="https://blog.omegaup.com/images/Imagen_5-Seleccionar_Archivo.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
+&lt;p>Vas a ver un botón que dice &lt;em>seleccionar el archivo&lt;/em>, da clic para que puedas cargar un archivo en formato CSV.&lt;/p>
+&lt;blockquote>
+&lt;p>Nota: Esta característica aún está en etapa de experimentación, así  que si requieres subir un archivo con identidades, es necesario que envíes un correo a &lt;a href="mailto:engineering@omegaup.com" >engineering@omegaup.com&lt;/a> con tu nombre de usuario y el motivo para el que utilizarás la funcionalidad.&lt;/p>
+&lt;/blockquote>
+&lt;h5>5. Llena el archivo&lt;span class="hx-absolute -hx-mt-20" id="5-llena-el-archivo">&lt;/span>
+&lt;a href="#5-llena-el-archivo" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h5>&lt;p>Si ya tienes el archivo CSV con las identidades a crear, pasa al punto 6, de lo contrario aquí te indicamos cómo generarlo.&lt;/p>
+&lt;p>&lt;a href="https://docs.google.com/spreadsheets/d/1okGOLoZc7l6pz8GFba0sjcETsJducJ8as8hpikhYq-g/edit?usp=sharing" target="_blank" rel="noopener">Aquí&lt;/a> puedes descargar la plantilla para que puedas registrar a todos los usuarios desde algún programa de Hoja de cálculo. Cuando guardes los cambios cerciórate de que el archivo lo guardas en el formato correcto (CSV). Este es el &lt;a href="https://docs.google.com/spreadsheets/d/1WiBrXf7MfU5zf2iUC8CD_WmnlwXQ_Qoo8UaEZ0ixFyU/edit?usp=sharing" target="_blank" rel="noopener">ejemplo&lt;/a> de un archivo para subir.&lt;/p>
+&lt;p>Las consideraciones que debes tener al crear el archivo son las siguientes:&lt;/p>
+&lt;p>Todos los campos son obligatorios y deben seguir con las siguientes reglas:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>username&lt;/strong>: Mismas reglas que cuando se da de alta un usuario desde la página de registro.&lt;/li>
+&lt;li>&lt;strong>name&lt;/strong>: Mismas reglas que cuando se da de alta un usuario desde la página de registro.&lt;/li>
+&lt;li>&lt;strong>country_id&lt;/strong>: Debes ingresar el código del país o la región según &lt;a href="https://en.wikipedia.org/wiki/ISO_3166-2" target="_blank" rel="noopener">iso3166-2&lt;/a>, ejemplo: Si los concursantes son de México, entonces debes escribir el código MX.&lt;/li>
+&lt;li>&lt;strong>state_id&lt;/strong>: Mismo caso que el campo anterior, debes buscar el código del estado/provincia/distrito al que pertenezca según &lt;a href="https://www.gefeg.com/edifact/d03a/s3/codes/cl1h.htm" target="_blank" rel="noopener">iso3166-2&lt;/a>, este código está compuesto por [país o región-estado o provincia o distrito]. Sólo escribe los dígitos que están después del caracter -. Ejemplo: Si los concursantes son de Guanajuato, México, debes escribir GUA.&lt;/li>
+&lt;li>&lt;strong>gender&lt;/strong>: Si tienes identificados a los concursantes, puedes indicar una de las siguientes opciones: [male, female, other, decline]. Recuerda que si escribes cualquier cosa distinta a las 4 opciones listadas, te aparecerá un error al querer subir el archivo.&lt;/li>
+&lt;li>&lt;strong>school&lt;/strong>: Si ya tienes registrada la escuela en la plataforma, escribe el nombre tal cual está dada de alta, de lo contrario, se va a generar un nuevo registro de escuela.&lt;/li>
+&lt;/ul>
+&lt;p>Guarda el archivo en formato CSV como se mencionó anteriormente.&lt;/p>
+&lt;h5>6. Sube el archivo&lt;span class="hx-absolute -hx-mt-20" id="6-sube-el-archivo">&lt;/span>
+&lt;a href="#6-sube-el-archivo" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h5>&lt;p>Elige el archivo con las identidades que deseas dar de alta y da clic en abrir:&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/Imagen_6-Abrir_Archivo.png" >&lt;img src="https://blog.omegaup.com/images/Imagen_6-Abrir_Archivo.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
+&lt;p>Todas las identidades te deben de aparecer en formato de tabla como se muestra en la siguiente imagen:&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/Imagen_7-Crear_Identidades.png" >&lt;img src="https://blog.omegaup.com/images/Imagen_7-Crear_Identidades.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
+&lt;p>Una vez que las puedas visualizar, revisa que los datos son correctos. En caso de que tengas información incorrecta, vuelve a modificar tu archivo de identidades, guárdalo y regresa al punto 4.&lt;/p>
+&lt;p>Si los datos son los correctos, da clic en el botón de Crear identidades. Listo, ahora ya cuentas con identidades ligadas a un grupo.&lt;/p>
+&lt;p>Como puedes notar, en la tabla de arriba se visualizan las contraseñas asignadas a cada identidad, es recomendable que las guardes en algún lugar seguro para posteriormente compartirlas con los participantes de tu concurso o curso (lo puedes hacer presionando el botón  &lt;a href="https://blog.omegaup.com/images/Imagen_8-Descargar.png" >&lt;img src="https://blog.omegaup.com/images/Imagen_8-Descargar.png" alt="" loading="lazy" />&lt;/a> que aparece justo debajo del botón de &lt;em>Crear Identidades&lt;/em>) ya que si te sales de esta pantalla, no las podrás volver a consultar.&lt;/p>
+&lt;p>Nota: Las contraseñas se &lt;em>hashean&lt;/em> y se almacenan en la base de datos: quiere decir que ya no se puede revertir para visualizar la contraseña.&lt;/p>
+&lt;p>Para tener un mejor control sobre las identidades que creaste, estas cuentan con un identificador en el username: &lt;strong>&lt;em>[nombre-del-grupo:username]&lt;/em>&lt;/strong>, de esta forma siempre tendremos una asociación directa entre identidades y grupo.&lt;/p>
+&lt;p>En caso de que no hayas guardado las contraseñas, no te preocupes, las puedes regenerar volviendo a subir el .csv. Alternativamente si sólo quieres restablecer la contraseña de un sólo alumno, puedes hacer eso desde la pestaña de miembros, tal como se muestra en la siguiente animación:&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/Video_2-Cambiar_Password.webm" >&lt;video autoplay muted loop>
+&lt;source src="https://blog.omegaup.com/images/Video_2-Cambiar_Password.webm" type="video/mp4">
+&lt;/video>
+&lt;/a>&lt;/p>
+&lt;h2>Cambiar Password
+aliases: [&amp;rsquo;/administracion-de-identidades']&lt;span class="hx-absolute -hx-mt-20" id="aliases-administracion-de-identidades-2">&lt;/span>
+&lt;a href="#aliases-administracion-de-identidades-2" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>También puedes editar información de las identidades, recuerda que solamente el creador de las identidades puede realizar esta acción. La forma de hacerlo se muestra en la siguiente animación:&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/Video_3-Actualizar_Info_Basica.webm" >&lt;video autoplay muted loop>
+&lt;source src="https://blog.omegaup.com/images/Video_3-Actualizar_Info_Basica.webm" type="video/mp4">
+&lt;/video>
+&lt;/a>&lt;/p>
+&lt;h2>Actualizar información básica
+aliases: [&amp;rsquo;/administracion-de-identidades']&lt;span class="hx-absolute -hx-mt-20" id="aliases-administracion-de-identidades-3">&lt;/span>
+&lt;a href="#aliases-administracion-de-identidades-3" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Ya que le compartiste las identidades a los respectivos participantes, ellos pueden ingresar a la plataforma de la misma forma que cualquier otro usuario, la diferencia que van a notar es que estas cuentas no podrán editar sus datos, en la siguiente animación se muestra:&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/Video_4-Ingresar_Omegaup.webm" >&lt;video autoplay muted loop>
+&lt;source src="https://blog.omegaup.com/images/Video_4-Ingresar_Omegaup.webm" type="video/mp4">
+&lt;/video>
+&lt;/a>&lt;/p>
+&lt;h1>Ingresar a omegaUp por medio de una identidad&lt;/h1>&lt;p>Un caso que pudiera ser muy común es que un usuario tenga que agregar varias identidades.&lt;/p>
+&lt;p>Supongamos el siguiente ejemplo: El alumno Juan Pérez utiliza frecuentemente la plataforma de omegaUp, porque en ella puede practicar con problemas de programación. En la escuela que asiste, su maestra decidió crear un curso en la plataforma y dio de alta las identidades con las que quiere que ingresen sus alumnos. Además, por su buen desempeño, Juan es invitado a un concurso estatal de programación, donde el organizador ya ha creado las identidades con las que ingresarán los participantes de dicho concurso.&lt;/p>
+&lt;p>En este caso Juan ya cuenta con su usuario de la plataforma, y aparte le han compartido dos cuentas con identidades adicionales. Si quiere que todos los problemas que resuelva tanto en su escuela, como en el concurso sean contabilizados para su posición en la tabla de mejores coders, lo que debe hacer es lo que se muestra en la siguiente animación:&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/Video_5-Vincular_Identidad_Usuario.webm" >&lt;video autoplay muted loop>
+&lt;source src="https://blog.omegaup.com/images/Video_5-Vincular_Identidad_Usuario.webm" type="video/mp4">
+&lt;/video>
+&lt;/a>&lt;/p>
+&lt;h1>Vincular identidad con usuario&lt;/h1>&lt;p>El usuario debe ingresar a omegaUp con su cuenta que comúnmente utiliza.&lt;/p>
+&lt;p>Después debe dirigirse a &lt;em>Mi perfil&lt;/em> en el menú superior derecho, y después da clic en &lt;em>Editar Perfil&lt;/em> tal como se muestra en la siguiente imagen:&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/Imagen_9-Editar_Perfil.png" >&lt;img src="https://blog.omegaup.com/images/Imagen_9-Editar_Perfil.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
+&lt;p>Una vez que dentro de la pantalla de Editar Perfil, si se desplaza un poco, debajo de Editar tu perfil se puede encontrar la sección de Administrar Identidades. Sólo es cuestión de que agregue el username y la contraseña de la identidad para que esta se asocie a la cuenta.&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/Imagen_10-Vincular_Identidad.png" >&lt;img src="https://blog.omegaup.com/images/Imagen_10-Vincular_Identidad.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
+&lt;p>Atentamente, El equipo de omegaUp&lt;/p></description></item><item><title>Panel de administración para tus problemas</title><link>https://blog.omegaup.com/features/docentes/panel-de-administracion-para-tus-problemas/</link><pubDate>Sat, 05 Jul 2014 06:31:58 +0000</pubDate><guid>https://blog.omegaup.com/features/docentes/panel-de-administracion-para-tus-problemas/</guid><description>
+&lt;p>He visto que mucha gente sube problemas y luego hace un concurso de prueba para ver si sus soluciones funcionarían en tiempo y memoria. No más! A partir de hoy, si tú subiste un problema o te dieron permisos de administrador para él, puedes abrirlo desde &lt;a href="https://omegaup.com/problem/mine/" target="_blank" rel="noopener">Mis problemas&lt;/a> y te mostrará todos los envíos (de todos los usuarios) y las clarificaciones que han hecho. Disfruten!&lt;/p></description></item></channel></rss>

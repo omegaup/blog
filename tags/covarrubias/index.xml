@@ -4,6 +4,6 @@
 &lt;li>&lt;strong>Autor:&lt;/strong> Miguel Covarrubias &lt;strong>Fuente&lt;/strong>: Codeforces&lt;/li>
 &lt;/ul>
 &lt;p>Este problema es una ligera modificación del Let&amp;rsquo;s Play Osu! que apareció en la ronda 146 en Codeforces. &lt;a href="http://codeforces.ru/blog/entry/5592" target="_blank" rel="noopener">La solución explicada la pueden encontrar en el editorial.&lt;/a>&lt;/p>
-&lt;p>Para $latex N \le 10$ se pueden checar todas las $latex 2^N$ configuraciones de pistas. Para $latex N \le 1000$ funciona una dinámica $latex O(N^2)$, donde los estados son (posición, altura/profundidad que se lleva hasta el momento).&lt;/p>
+&lt;p>Para $ N \le 10$ se pueden checar todas las $ 2^N$ configuraciones de pistas. Para $ N \le 1000$ funciona una dinámica $ O(N^2)$, donde los estados son (posición, altura/profundidad que se lleva hasta el momento).&lt;/p>
 &lt;p>Les dejo la implementación de DiegoRoque como un muy buen ejemplo de una solución a este problema.&lt;/p>
 &lt;script src="https://gist.github.com/OlimpiadaMexicanadeInformatica/6860151.js">&lt;/script></description></item></channel></rss>

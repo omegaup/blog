@@ -1,0 +1,141 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>omegaUp blog – Estudiantes</title><link>https://blog.omegaup.com/features/estudiantes/</link><description>Recent content in Estudiantes on omegaUp blog</description><generator>Hugo -- gohugo.io</generator><language>es</language><lastBuildDate>Wed, 30 Apr 2025 12:00:01 +0000</lastBuildDate><atom:link href="https://blog.omegaup.com/features/estudiantes/index.xml" rel="self" type="application/rss+xml"/><item><title>Soluciones de problemas en omegaUp</title><link>https://blog.omegaup.com/features/estudiantes/soluciones-de-problemas-en-omegaup/</link><pubDate>Sun, 29 Oct 2023 05:50:45 +0000</pubDate><guid>https://blog.omegaup.com/features/estudiantes/soluciones-de-problemas-en-omegaup/</guid><description>
+&lt;p>En este post queremos describirles cómo ver soluciones a los problemas en omegaUp. Para los autores de problemas también daremos algunos detalles sobre como agregar las soluciones a sus problemas.&lt;/p>
+&lt;p>En la vista de problema, en la parte superior podemos ver dos pestañas, Problema y Ver Solución.&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/pestanas_soluciones.png" >&lt;img src="https://blog.omegaup.com/images/pestanas_soluciones.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
+&lt;p>Si &lt;strong>ya resolviste el problema&lt;/strong> y quieres comparar tu solución con la solución oficial, al dar click en la pestaña de Ver Solución, verás el botón de Ver Solución con el icono de un candado abierto.&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/see_solution.png" >&lt;img src="https://blog.omegaup.com/images/see_solution.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
+&lt;p>Y así verás la solución.&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/full_solution.png" >&lt;img src="https://blog.omegaup.com/images/full_solution.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
+&lt;p>Por otro lado, si &lt;strong>no has resuelto el problema&lt;/strong> el proceso para ver las soluciones será distinto.&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/cantsee_solutions.png" >&lt;img src="https://blog.omegaup.com/images/cantsee_solutions.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>Primero intenta resolverlo.&lt;/li>
+&lt;li>Tienes la posibilidad de visualizar hasta cinco soluciones diarias. Cada vista a una solución restará una unidad de tu límite diario.&lt;/li>
+&lt;li>Si decides ver la solución a un problema, esta quedará desbloqueada de forma permanente y no se descontará del límite diario al visualizarla.&lt;/li>
+&lt;li>El límite de visualizaciones diarias se reestablecerá todos los días a la misma hora.&lt;/li>
+&lt;li>Si ves la solución sin antes resolver el problema, éste no te dará puntos en el ranking.&lt;/li>
+&lt;/ul>
+&lt;p>Puedes ver las visualizaciones que tienes disponibles en la pestaña de Ver Solución. Verás un mensaje como el de la imagen.&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/tokens_solutions.png" >&lt;img src="https://blog.omegaup.com/images/tokens_solutions.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
+&lt;h2>Para los autores de problemas
+aliases: [&amp;rsquo;/soluciones-de-problemas-en-omegaup']&lt;span class="hx-absolute -hx-mt-20" id="aliases-soluciones-de-problemas-en-omegaup">&lt;/span>
+&lt;a href="#aliases-soluciones-de-problemas-en-omegaup" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Si quieres incluir las soluciones a tus problemas debes añadir una nueva carpeta &lt;em>/solutions&lt;/em> al archivo zip del problema. Dentro de la carpeta se debe agregar el archivo markdown con la solución. Las soluciones se pueden editar desde la plataforma, tal como las descripciones del problema.&lt;/p>
+&lt;p>Mas información &lt;a href="https://github.com/omegaup/omegaup/wiki/C%C3%B3mo-escribir-problemas-para-omegaUp#solutions" target="_blank" rel="noopener">aquí&lt;/a>.&lt;/p></description></item><item><title>Insignias de Usuario en omegaUp</title><link>https://blog.omegaup.com/features/estudiantes/insignias-de-usuario-en-omegaup/</link><pubDate>Wed, 30 Oct 2019 21:14:17 +0000</pubDate><guid>https://blog.omegaup.com/features/estudiantes/insignias-de-usuario-en-omegaup/</guid><description>
+&lt;p>Estimados coders,&lt;/p>
+&lt;p>Tenemos el agrado de presentarles una nueva característica de la plataforma: “Insignias de Usuario”. Estas insignias son pequeños reconocimientos para los diversos logros alcanzados por ustedes y se encuentran ya disponibles en la plataforma.&lt;/p>
+&lt;p>Para ver las insignias que has obtenido, simplemente debes acceder a &lt;a href="https://omegaup.com/profile" target="_blank" rel="noopener">tu perfil en omegaUp&lt;/a>, ahora existe una nueva sección donde se listarán todas tus insignias conseguidas:&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/badges1.webm" >&lt;video autoplay muted loop>
+&lt;source src="https://blog.omegaup.com/images/badges1.webm" type="video/mp4">
+&lt;/video>
+&lt;/a>&lt;/p>
+&lt;p>Además, si quieres ver todas las insignias existentes, solo debes hacer click en el enlace &lt;em>Ver todas&lt;/em>, que se encuentra al costado del número de insignias obtenidas. Recuerda que al poner el mouse sobre el ícono de la insignia, podrás ver la descripción de lo que tienes que hacer para poder obtener dicha insignia. Hay insignias que tienen un ícono sombreado por completo de negro, eso significa que aún no la has obtenido, ¡podrás ver el ícono de la insignia una vez la obtengas!&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/badges2.webm" >&lt;video autoplay muted loop>
+&lt;source src="https://blog.omegaup.com/images/badges2.webm" type="video/mp4">
+&lt;/video>
+&lt;/a>&lt;/p>
+&lt;p>Si quieres ver un poco más de información de una insignia, basta con que hagas click sobre ella, de esta manera, podrás acceder a una vista más detallada:&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/badges3.webm" >&lt;video autoplay muted loop>
+&lt;source src="https://blog.omegaup.com/images/badges3.webm" type="video/mp4">
+&lt;/video>
+&lt;/a>&lt;/p>
+&lt;p>Y eso no es todo… Ahora, cada vez que recibas una insignia nueva, recibirás también una notificación, así siempre estarás al tanto de los nuevos reconocimientos adquiridos.&lt;/p>
+&lt;p>Y si te estás llenando de notificaciones, puedes marcarlas como leídas a todas, o de manera individual.&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/badges4.webm" >&lt;video autoplay muted loop>
+&lt;source src="https://blog.omegaup.com/images/badges4.webm" type="video/mp4">
+&lt;/video>
+&lt;/a>&lt;/p>
+&lt;p>¡Tú también puedes proponer nuevas insignias, solo debes seguir la &lt;a href="https://blog.omegaup.com/guia-para-la-propuesta-de-insignias-en-omegaup/" target="_blank" rel="noopener">Guía para la propuesta de Insignias de omegaUp&lt;/a>!&lt;/p>
+&lt;p>Esperamos que te guste esta nueva característica y que puedas desbloquear todas las insignias de usuario en omegaUp.&lt;/p></description></item><item><title>Concursos Virtuales</title><link>https://blog.omegaup.com/features/estudiantes/concursos-virtuales/</link><pubDate>Fri, 01 Mar 2019 04:37:05 +0000</pubDate><guid>https://blog.omegaup.com/features/estudiantes/concursos-virtuales/</guid><description>
+&lt;p>¿Te gustaría revivir un concurso de programación que ya pasó? ¿Te gustaría ver cómo se mueve la tabla de posiciones en tiempo real mientras vas subiendo tus soluciones? ¿Te gustaría saber cómo te “hubiera ido” en “aquél concurso” al que no pudiste ir?&lt;/p>
+&lt;p>¡El futuro es hoy! Todo esto ya es posible en omegaUp gracias a la nueva funcionalidad de “concursos virtuales”.&lt;/p>
+&lt;p>Para activar esta nueva funcionalidad simplemente elige un concurso en la arena y selecciona “Concurso virtual”, el concurso empezará y la lista de posiciones se irá actualizando conforme los participantes del concurso fueron subiendo sus soluciones, así podrás saber cómo te va con respecto a los competidores que participaron en el concurso.&lt;/p>
+&lt;p>Kudos a Vincent, estudiante de Japón, por implementar esta nueva funcionalidad el verano pasado como parte de su internship en Google Summer of Code.&lt;/p>
+&lt;p>¡Gracias a Google por el apoyo para llevar este proyecto a cabo a través de Google Summer of Code! Esperamos poder ser parte de este programa en el futuro.&lt;/p>
+&lt;p>Aquí les dejamos unos concursos interesantes:&lt;/p>
+&lt;p>- OPI 2017 &lt;a href="https://omegaup.com/arena/CPIO2017-virtual-uJq/virtual" target="_blank" rel="noopener">https://omegaup.com/arena/CPIO2017-virtual-uJq/virtual&lt;/a>&lt;/p>
+&lt;p>- OMI 2017 (día 1) &lt;a href="https://omegaup.com/arena/OMI2017DIA1PUBLICO/virtual" target="_blank" rel="noopener">https://omegaup.com/arena/OMI2017DIA1PUBLICO/virtual&lt;/a>&lt;/p>
+&lt;p>- OMI para Secundarias 2018 &lt;a href="https://omegaup.com/arena/OMIS2018PUBLICO/virtual" target="_blank" rel="noopener">https://omegaup.com/arena/OMIS2018PUBLICO/virtual&lt;/a>&lt;/p>
+&lt;p>- OMI para Primarias 2018 &lt;a href="https://omegaup.com/arena/OMIP2018PUBLICO/virtual" target="_blank" rel="noopener">https://omegaup.com/arena/OMIP2018PUBLICO/virtual&lt;/a>&lt;/p>
+&lt;p>Participa en esta y más conversaciones en nuestro blog: &lt;a href="https://blog.omegaup.com/concursos-en-modo-virtual/" target="_blank" rel="noopener">https://blog.omegaup.com/concursos-en-modo-virtual/&lt;/a>&lt;/p></description></item><item><title>Concursos en Modo Virtual</title><link>https://blog.omegaup.com/features/estudiantes/concursos-en-modo-virtual/</link><pubDate>Fri, 07 Dec 2018 06:00:21 +0000</pubDate><guid>https://blog.omegaup.com/features/estudiantes/concursos-en-modo-virtual/</guid><description>
+&lt;p>Estimados usuarios de omegaUp&lt;/p>
+&lt;p>Estamos muy felices de anunciar que hemos implementado una nueva funcionalidad de concursos en modo virtual en omegaUp :)&lt;/p>
+&lt;p>¿Qué es un concurso en modo virtual?&lt;/p>
+&lt;p>Concursos en modo virtual te permite reproducir un concurso pasado en un modo especial que imita el concurso real como sucedió. Con el scoreboard reproduciéndose en sincronía con el concurso original.&lt;/p>
+&lt;p>Estos son los pasos a seguir para crear y participar en un concurso en modo virtual:&lt;/p>
+&lt;ol>
+&lt;li>Crear concurso virtual. Crear el concurso virtual es muy simple! Solo tienes que ir a la sección de concursos en arena, buscar el concurso que te interesa y hacer click en el botón de modo virtual. &lt;a href="https://blog.omegaup.com/images/1.webm" >&lt;video autoplay muted loop>
+&lt;source src="https://blog.omegaup.com/images/1.webm" type="video/mp4">
+&lt;/video>
+&lt;/a>&lt;/li>
+&lt;li>Pon un tiempo y hora de inicio para tu concurso virtual.&lt;a href="https://blog.omegaup.com/images/2.webm" >&lt;video autoplay muted loop>
+&lt;source src="https://blog.omegaup.com/images/2.webm" type="video/mp4">
+&lt;/video>
+&lt;/a>&lt;/li>
+&lt;li>Entra a tu concurso virtual. Simplemente haz click en comenzar concurso. También puedes invitar a tus amigos o rivales a tu concurso en modo virtual&lt;img src="https://blog.omegaup.com/images/3.webm" alt="&lt;video autoplay muted loop>
+&lt;source src="https://blog.omegaup.com/images/3.webm" type="video/mp4">
+&lt;/video>
+" loading="lazy" />&lt;/li>
+&lt;li>Disfruta el entrenamiento!&lt;/li>
+&lt;/ol>
+&lt;p>Verás a otros usuarios en tu concurso virtual en el scoreboard y mini rank. Tú aparecerás como &lt;strong>usuario-[virtual]&lt;/strong>. El scoreboard estará sincronizado con el del concurso original en todo momento.&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/4.png" >&lt;img src="https://blog.omegaup.com/images/4.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
+&lt;p>El crédito de esta funcionalidad va para nuestro becario Vincent Fango que desarrolló este proyecto (&lt;a href="https://github.com/SpaceWhite" target="_blank" rel="noopener">https://github.com/SpaceWhite&lt;/a>). Si te interesa conocer detalles técnicos sobre la implementación de esta funcionalidad puedes escucharlos de Vincent mismo: &lt;a href="https://www.youtube.com/channel/UChhWcITUEZy7f0wLPlQgE8A?view_as=subscriber" target="_blank" rel="noopener">https://www.youtube.com/channel/UChhWcITUEZy7f0wLPlQgE8A?view_as=subscriber&lt;/a>&lt;/p>
+&lt;p>Nota: En concursos en modo virtual no podrás añadir, editar ni borrar problemas. Tampoco podrás cambiar la duración del concurso entre otras configuraciones.&lt;/p></description></item><item><title>Categorías omegaUp</title><link>https://blog.omegaup.com/features/estudiantes/categorias/</link><pubDate>Tue, 01 May 2018 21:27:59 +0000</pubDate><guid>https://blog.omegaup.com/features/estudiantes/categorias/</guid><description>
+&lt;p>&lt;strong>Conoce las Categorías de Usuarios de omegaUp&lt;/strong>&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/categorias.png" >&lt;img src="https://blog.omegaup.com/images/categorias.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
+&lt;p>Hemos asignando una categoría a cada usuario de omegaUp. La categoría de cada usuario depende su posición actual en el &lt;a href="https://omegaup.com/rank/" target="_blank" rel="noopener">ranking de omegaUp&lt;/a> como se muestra a continuación:&lt;/p>
+&lt;ul>
+&lt;li>El top 1% de usuarios mejor posicionados en el rank obtiene la categoría &lt;strong>ω&lt;/strong> (“omega pequeña”) y color rojo.&lt;/li>
+&lt;li>El top 9% de usuarios siguientes obtiene categoría &lt;strong>Ω&lt;/strong> (“omega grande”) y color amarillo.&lt;/li>
+&lt;li>El top 15% de usuarios siguientes obtiene categoría &lt;strong>Θ&lt;/strong> (“zeta” o “theta”) y color azul.&lt;/li>
+&lt;li>El top 35% de usuarios siguientes obtiene categoría &lt;strong>Ο&lt;/strong> (“ómicron grande”) y color verde.&lt;/li>
+&lt;li>El top 40% de usuarios siguientes obtiene categoría &lt;strong>ο&lt;/strong> (“ómicron pequeña”) y color gris.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/plot.png" >&lt;img src="https://blog.omegaup.com/images/plot.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
+&lt;p>&lt;strong>¿Cómo puedo saber mi categoría?&lt;/strong>&lt;/p>
+&lt;p>Puedes verla en tu &lt;a href="https://omegaup.com/profile/" target="_blank" rel="noopener">página de perfil&lt;/a>.&lt;/p>
+&lt;p>&lt;strong>¿Cómo asciendo de categoría?&lt;/strong>&lt;/p>
+&lt;p>¡Resolviendo más problemas! Conforme resuelvas más problemas, tu posición en el rank irá subiendo y con ella tu categoría.&lt;/p>
+&lt;p>&lt;strong>¿De dónde vienen los nombres de las categorías?&lt;/strong>&lt;/p>
+&lt;p>De la notación de &lt;a href="https://es.wikipedia.org/wiki/Notaci%C3%B3n_de_Landau" target="_blank" rel="noopener">Landau&lt;/a>.&lt;/p>
+&lt;p>&lt;strong>¿Por qué omega pequeña (&lt;strong>&lt;strong>ω&lt;/strong>&lt;/strong>) es más alto que omega grande (&lt;strong>&lt;strong>Ω&lt;/strong>&lt;/strong>)?&lt;/strong>&lt;/p>
+&lt;p>El orden de las categorías viene de la definición de las notaciones de Landau.&lt;/p>
+&lt;p>&lt;strong>Notación&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Definición formal&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Descripción&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Interpretación práctica&lt;/strong>&lt;/p>
+&lt;p>&lt;em>f(n) = o(g(n))&lt;/em>&lt;/p>
+&lt;p> &lt;a href="https://blog.omegaup.com/images/1.png" >&lt;img src="https://blog.omegaup.com/images/1.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
+&lt;p>&lt;em>f&lt;/em> es dominada por arriba asintóticamente por &lt;em>g&lt;/em>.&lt;/p>
+&lt;p>&lt;em>f &amp;lt; g&lt;/em>&lt;/p>
+&lt;p>&lt;em>f(n) = O(g(n))&lt;/em>&lt;/p>
+&lt;p> &lt;a href="https://blog.omegaup.com/images/2.png" >&lt;img src="https://blog.omegaup.com/images/2.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
+&lt;p>&lt;em>f&lt;/em> es acotada por arriba asintóticamente por &lt;em>g&lt;/em>.&lt;/p>
+&lt;p>&lt;em>f &amp;lt;= g&lt;/em>&lt;/p>
+&lt;p>&lt;em>f(n) = Θ(g(n))&lt;/em>&lt;/p>
+&lt;p>&lt;em>f(n) = o(g(n))&lt;/em> y &lt;em>f(n) = O(g(n))&lt;/em>&lt;/p>
+&lt;p>&lt;em>f&lt;/em> es acotada por arriba y abajo asintóticamente por &lt;em>g&lt;/em>.&lt;/p>
+&lt;p>&lt;em>f = g&lt;/em>&lt;/p>
+&lt;p>&lt;em>f(n) = Ω(g(n))&lt;/em>&lt;/p>
+&lt;p> &lt;a href="https://blog.omegaup.com/images/4.png" >&lt;img src="https://blog.omegaup.com/images/4.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
+&lt;p>&lt;em>f&lt;/em> es acotada por abajo asintóticamente por &lt;em>g&lt;/em>.&lt;/p>
+&lt;p>&lt;em>f &amp;gt;= g&lt;/em>&lt;/p>
+&lt;p>&lt;em>f(n) = ω(g(n))&lt;/em>&lt;/p>
+&lt;p> &lt;a href="https://blog.omegaup.com/images/5.png" >&lt;img src="https://blog.omegaup.com/images/5.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
+&lt;p>&lt;em>f&lt;/em> es dominada por abajo asintóticamente por &lt;em>g&lt;/em>.&lt;/p>
+&lt;p>&lt;em>f &amp;gt; g&lt;/em>&lt;/p></description></item><item><title>Concursos recomendados</title><link>https://blog.omegaup.com/features/estudiantes/concursos-recomendados/</link><pubDate>Fri, 15 Jan 2016 15:25:27 +0000</pubDate><guid>https://blog.omegaup.com/features/estudiantes/concursos-recomendados/</guid><description>
+&lt;p>Respondiendo a los comentarios que hemos recibido sobre la organización de la lista de concursos en la Arena, hemos &lt;a href="https://github.com/omegaup/omegaup/commit/24a00de9a696f06a5fa5567e03c0351a7ccbd90e" target="_blank" rel="noopener">implementado&lt;/a> el concepto de Concursos Recomendados:&lt;/p>
+&lt;p>&lt;a href="https://omegaup.com/arena" target="_blank" rel="noopener">&lt;img src="https://blog.omegaup.com/images/Screen-Shot-2016-01-15-at-7.06.48-AM.png" alt="Concursos recomendados" loading="lazy" />&lt;/a>&lt;/p>
+&lt;p>A partir de ahora tendremos una lista separada para los Concursos Recomendados actuales y pasados. Para pedir que tu concurso sea marcado como recomendado escribe un email a &lt;a href="mailto:omegaup-soporte@googlegroups.com" >omegaup-soporte@googlegroups.com&lt;/a>.&lt;/p>
+&lt;p>Los únicos requerimientos son:&lt;/p>
+&lt;ul>
+&lt;li>Que el concurso sea formalmente establecido (sea parte de una olimpiada, concurso de ACM u algún otro concurso de programación).&lt;/li>
+&lt;li>Que el creador del concurso se comprometa a mantenerlo en buen estado respondiendo las clarificaciones que pueda.&lt;/li>
+&lt;li>Idealmente los Concursos Recomendados deben tener problemas nuevos aunque no es estrictamente necesario.&lt;/li>
+&lt;li>El tamaño del concurso no importa.&lt;/li>
+&lt;li>Concursos privados que cumplan estos requerimientos y que se planean hacer públicos posteriormente también cuentan.&lt;/li>
+&lt;/ul>
+&lt;p>Esperamos sus comentarios.&lt;/p></description></item><item><title>Cambios en el ranking</title><link>https://blog.omegaup.com/features/estudiantes/cambios-en-el-ranking/</link><pubDate>Tue, 19 Aug 2014 13:37:59 +0000</pubDate><guid>https://blog.omegaup.com/features/estudiantes/cambios-en-el-ranking/</guid><description>
+&lt;p>Continuando con los &lt;a href="http://blog.omegaup.com/2014/06/el-nuevo-ranking-de-omegaup/" target="_blank" rel="noopener">cambios en el ranking de omegaUp&lt;/a>, a partir de hoy sólo los problemas resueltos marcados como **públicos **van a contar puntos para calcular el score. Este cambio es con la intención de hacer el ranking más justo con problemas visibles a todos.&lt;/p>
+&lt;p>De igual forma, el **Coder del Mes **también será calculado sólo con problemas públicos.&lt;/p>
+&lt;p>Desafortunadamente varios competidores cayeron bastantes posiciones en el ranking. Ayúdenos a convencer a su problemsetter favorito a que los problemas se publiquen al finalizar los concursos.&lt;/p></description></item></channel></rss>
