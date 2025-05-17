@@ -15,7 +15,7 @@ A la comunidad docente, omegaUp se presenta como una herramienta valiosa para co
 
 *   **Amplio Banco de Problemas:** Acceda a una gran variedad de problemas de programación con diferentes niveles de dificultad, ideales para tareas, ejercicios en clase o exámenes.
 
-*   **Cursos Guiados Listos para Usar:** Aproveche nuestros cursos predefinidos para ofrecer una ruta de aprendizaje estructurada a sus estudiantes, como el curso de introducción a C++.
+*   **Cursos Guiados Listos para Usar:** Aproveche nuestros cursos predefinidos para ofrecer una ruta de aprendizaje estructurada a sus estudiantes, como el [curso de introducción a C++](https://omegaup.com/course/introduccion_a_cpp/).
 
 
 ## Herramientas para la Gestión y Evaluación Eficiente

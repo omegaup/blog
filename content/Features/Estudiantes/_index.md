@@ -15,7 +15,7 @@ date: Mon, 30 Apr 2025 12:00:01 +0000
 
 *   **¡A Programar se Aprende Programando!:** Pon a prueba tus conocimientos con cientos de problemas de práctica de diferentes niveles de dificultad. ¡Desde lo básico hasta desafíos más complejos!
 
-*   **Cursos Guiados para Empezar con Pie Derecho:** ¿No sabes por dónde empezar? Los cursos de omegaUp te llevarán de la mano a través de los lenguajes y conceptos esenciales, como el curso de introducción a C++.
+*   **Cursos Guiados para Empezar con Pie Derecho:** ¿No sabes por dónde empezar? Los cursos de omegaUp te llevarán de la mano a través de los lenguajes y conceptos esenciales, como el [curso de introducción a C++](https://omegaup.com/course/introduccion_a_cpp/).
 
 
 ## Desafía tus límites y compite sanamente
