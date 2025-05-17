@@ -1,5 +1,8 @@
 ---
 title: 'Concursos con Subtareas'
+type: docs
+sidebar:
+  open: true
 author: 'Juan Pablo Gómez'
 author_email: 'juan.pablo@omegaup.com'
 date: Thu, 15 Aug 2023 23:25:06 +0000

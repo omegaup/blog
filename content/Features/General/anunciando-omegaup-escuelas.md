@@ -1,5 +1,8 @@
 ---
 title: 'Anunciando omegaUp Escuelas'
+type: docs
+sidebar:
+  open: true
 author: 'Nancy Pacheco'
 author_email: 'nancy@omegaup.com'
 date: Tue, 09 May 2017 05:05:50 +0000

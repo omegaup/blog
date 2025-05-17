@@ -1,5 +1,8 @@
 ---
 title: 'Concursos recomendados'
+type: docs
+sidebar:
+  open: true
 author: 'joemmanuel'
 author_email: 'joemmanuel@gmail.com'
 date: Fri, 15 Jan 2016 15:25:27 +0000

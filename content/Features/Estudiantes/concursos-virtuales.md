@@ -1,5 +1,8 @@
 ---
 title: 'Concursos Virtuales'
+type: docs
+sidebar:
+  open: true
 author: 'Hugo Dueñas'
 author_email: 'hugo@omegaup.com'
 date: Fri, 01 Mar 2019 04:37:05 +0000

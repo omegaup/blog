@@ -1,5 +1,8 @@
 ---
 title: 'Anunciando omegaUp Mentores'
+type: docs
+sidebar:
+  open: true
 author: 'joemmanuel'
 author_email: 'joemmanuel@gmail.com'
 date: Fri, 19 May 2017 14:34:23 +0000

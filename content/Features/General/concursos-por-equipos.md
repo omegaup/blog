@@ -1,5 +1,8 @@
 ---
 title: 'Concursos por equipos'
+type: docs
+sidebar:
+  open: true
 author: 'Juan Pablo Gómez'
 author_email: 'juan.pablo@omegaup.com'
 date: Thu, 24 Mar 2022 14:35:06 +0000

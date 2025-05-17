@@ -1,5 +1,8 @@
 ---
 title: 'El nuevo ranking de escuelas de omegaUp'
+type: docs
+sidebar:
+  open: true
 author: 'Carlos Córdova'
 author_email: 'carlos@omegaup.com'
 date: Wed, 05 Feb 2020 03:28:58 +0000

@@ -1,5 +1,8 @@
 ---
 title: 'Cambios en el ranking'
+type: docs
+sidebar:
+  open: true
 author: 'joemmanuel'
 author_email: 'joemmanuel@gmail.com'
 date: Tue, 19 Aug 2014 13:37:59 +0000

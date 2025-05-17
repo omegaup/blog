@@ -1,5 +1,8 @@
 ---
 title: 'Administración de Identidades'
+type: docs
+sidebar:
+  open: true
 author: 'Juan Pablo Gómez'
 author_email: 'juan.pablo@omegaup.com'
 date: Sat, 08 Feb 2020 22:56:22 +0000

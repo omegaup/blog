@@ -1,5 +1,8 @@
 ---
 title: 'Panel de administración para tus problemas'
+type: docs
+sidebar:
+  open: true
 author: 'lhchavez'
 author_email: 'lhchavez@omegaup.com'
 date: Sat, 05 Jul 2014 06:31:58 +0000

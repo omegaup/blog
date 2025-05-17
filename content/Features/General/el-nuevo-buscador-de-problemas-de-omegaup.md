@@ -1,5 +1,8 @@
 ---
 title: 'El Nuevo Buscador de Problemas de omegaUp'
+type: docs
+sidebar:
+  open: true
 author: 'Carlos Córdova'
 author_email: 'carlos@omegaup.com'
 date: Fri, 10 May 2019 19:52:06 +0000
