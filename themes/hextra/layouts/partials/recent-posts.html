@@ -1,5 +1,5 @@
 {{ range first 5 (where .Site.RegularPages "Type" "blog") }}
 <li>
-  &#8226; <a class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font" href="{{ .Permalink }}">{{ .Title }}</a>
+  <a class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font" href="{{ .Permalink }}">{{ .Title }}</a>
 </li>
 {{ end }}
