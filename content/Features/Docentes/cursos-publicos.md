@@ -48,3 +48,4 @@ Estos cursos están disponibles de forma continua, lo que les permite integrarlo
 4.  **Inspiración para Contenidos Propios:** Explore la estructura y los problemas de los cursos públicos para inspirarse al crear sus [propios materiales](https://omegaup.com/course/new/) y [concursos personalizados](https://omegaup.com/contest/new/) en omegaUp.
 
 Anímense a explorar la sección de [Cursos Públicos](https://omegaup.com/course/home/) en omegaUp y descubran cómo pueden enriquecer la experiencia de aprendizaje de su alumnado. ¡Estamos seguros de que encontrarán recursos muy valiosos para su labor docente!
+
