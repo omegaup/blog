@@ -22,6 +22,7 @@ toc: true
   &#8226; <a class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font" href='/comienza/#crea-tu-cuenta-en-omegaupcomloginhttpsomegaupcomlogin'>Crear una cuenta</a><br>
   &#8226; <a class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font" href='/comienza/#completa-tu-perfil-en-mi-perfilhttpsomegaupcomprofile'>Cambiar correo o contraseña</a><br>
   &#8226; <a class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font" href='/comienza/#completa-tu-perfil-en-mi-perfilhttpsomegaupcomprofile'>Completar mi perfil</a><br>
+  <br>
   <a class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font" href='/comienza'>Ver más</a>
   {{% /details %}}
 
@@ -37,6 +38,7 @@ toc: true
   {{% details title="Lo más nuevo" %}}
   <a href='/posts'>Publicamos contenido para difundir habilidades de programación.</a><br><br>
   {{< recent-posts >}}
+  <br>
   <a class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font" href='/posts'>Ver más</a>
   {{% /details %}}
 
