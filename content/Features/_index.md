@@ -1,5 +1,6 @@
 ---
 title: Características de omegaUp
+weight: 3
 type: docs
 sidebar:
   open: true
