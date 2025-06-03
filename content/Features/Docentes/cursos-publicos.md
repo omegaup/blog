@@ -13,7 +13,8 @@ tags: ['Features', 'Cursos', 'Docentes']
 
 > Potenciando la Enseñanza de la Programación en tu Aula
 
-¡Estimado profesorado! Sabemos que buscan constantemente herramientas y recursos que enriquezcan el aprendizaje de la programación en su alumnado. En omegaUp, ofrecemos una valiosa colección de **Cursos Públicos** diseñados para complementar su labor y motivar a las nuevas generaciones que construyen con código.
+
+Docentes que usan omegaUp, sabemos que buscan constantemente herramientas y recursos que enriquezcan el aprendizaje de la programación de sus estudiantes. En omegaUp, ofrecemos una valiosa colección de **Cursos Públicos** diseñados para complementar su labor y motivar a las nuevas generaciones que construyen con código.
 
 ## ¿Qué son los Cursos Públicos de omegaUp?
 

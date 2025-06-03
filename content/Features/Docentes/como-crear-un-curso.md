@@ -13,8 +13,7 @@ tags: ['Features', 'Cursos', 'Docentes']
 
 ## Proceso de creación de un curso 
 
-Comienza dentro de su perfil en omegaUp. Puede iniciar en cualquier momento que sea conveniente para su planificación académica.
-
+Tu curso puede comenzar en cualquier momento que sea conveniente para tu planificación académica. Antes de crear el curso, asegura de tener un cuenta en omegaUp.com e inicia sesión.
 ### Paso a Paso
 
 **1. Acceso a la Gestión de Cursos:**
@@ -31,11 +30,12 @@ El formulario "Nuevo curso" le solicitará información esencial para configurar
 
 * **Nombre:** El título completo de su curso (ej., "Introducción a la Programación 1").
 * **Título corto (alias):** Un nombre abreviado o identificador único para el curso, sin espacios en blanco.
-* **Mostrar scoreboard:** Decida si desea que el progreso del estudiantado sea visible en un tablero de puntuaciones.
+* **Mostrar scoreboard:** Decida si desea que el progreso de sus estudiantes sea visible en un tablero de puntuaciones.
 * **Fecha de inicio y Fecha de fin:** Establezca el período de duración de su curso. Puede optar por "Duración ilimitada" si el curso no tiene una fecha de finalización definida.
 * **Escuela:** Seleccione su institución registrada en omegaUp, para vincular el curso a ella.
+
 * **La información básica es requerida:** Decida si el estudiantado debe proporcionar información adicional al inscribirse.
-* **Solicitar información de participantes:** Personalice los datos que solicitan a los participantes.
+* **La información básica es requerida:** Decida si sus estudiantes deben proporcionar información básica de su perfil al inscribirse.
 * **Nivel:** Indiquen el nivel de dificultad del curso (ej., introductorio, intermedio, avanzado).
 * **Lenguajes:** Seleccionen los lenguajes de programación que se utilizarán en el curso.
 * **Objetivo y Descripción:** Proporcionen una breve descripción del curso y sus objetivos de aprendizaje.
@@ -81,7 +81,7 @@ Además del contenido, omegaUp ofrece herramientas para gestionar el acceso, la 
 
 La pestaña "Modo de acceso" les permite definir cómo el estudiantado puede inscribirse en su curso. Tiene las siguientes opciones:
 - "Manual (Agrega los nombres de las cuentas de tus estudiantes)" les da control total sobre quién puede participar, permitiéndole añadir usuarios específicos (modo privado).
-- "Compartir URL (Los estudiantes se inscriben desde el URL)" les da una url para el para compartir (modo registro).
+- "Compartir URL (Los estudiantes se inscriben desde el URL)" Se proporciona una URL y cada estudiante pide acceso al curso. Esto permite que solo acepte a sus estudiantes y no a externos.
 - "Público (Los estudiantes se inscriben con la liga al curso)" Culaquier persona puede acceder.
  
 Haga clic en "Guardar cambios" después de seleccionar el modo deseado.
@@ -110,6 +110,6 @@ La pestaña "Admins" es crucial si desean colaborar con otras personas en la ges
 ![(Imagen 12)](/images/curso-crea-desde-0-15.png)
 * **Archivar:** Si un curso ha finalizado y ya no está activo, pueden archivarlo. Al archivar un curso, este dejará de aparecer en los listados activos, pero seguirá siendo accesible a través de su URL o desde la pestaña "Cursos archivados" en "Cursos que administro". Esta acción se puede deshacer.
 
-Crear un curso en omegaUp es un proceso intuitivo que les brindará las herramientas necesarias para potenciar su enseñanza y ofrecer una experiencia de aprendizaje enriquecedora a su estudiantado. 
+Crear un curso en omegaUp es un proceso intuitivo que les brindará las herramientas necesarias para potenciar su enseñanza y ofrecer una experiencia de aprendizaje enriquecedora a sus estudiantes. 
 
 >¡Esperamos que esta guía les sea de gran utilidad en su viaje educativo!
