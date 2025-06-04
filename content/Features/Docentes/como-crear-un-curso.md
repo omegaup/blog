@@ -34,7 +34,6 @@ El formulario "Nuevo curso" le solicitará información esencial para configurar
 * **Fecha de inicio y Fecha de fin:** Establezca el período de duración de su curso. Puede optar por "Duración ilimitada" si el curso no tiene una fecha de finalización definida.
 * **Escuela:** Seleccione su institución registrada en omegaUp, para vincular el curso a ella.
 
-* **La información básica es requerida:** Decida si el estudiantado debe proporcionar información adicional al inscribirse.
 * **La información básica es requerida:** Decida si sus estudiantes deben proporcionar información básica de su perfil al inscribirse.
 * **Nivel:** Indiquen el nivel de dificultad del curso (ej., introductorio, intermedio, avanzado).
 * **Lenguajes:** Seleccionen los lenguajes de programación que se utilizarán en el curso.
