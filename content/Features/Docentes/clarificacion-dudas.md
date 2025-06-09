@@ -83,6 +83,6 @@ A continuación, detallamos el proceso paso a paso desde la perspectiva del estu
 ### Para el Estudiantado: Recibiendo la Respuesta
 
 1.  **Notificación de respuesta:**
-    Una vez que el personal docente responde a la clarificación, el estudiante recibirá una notificación en su cuenta de omegaUp. Al seleccionar esta notificación, podrá visualizar directamente la respuesta a su duda.
+    Una vez que el personal docente responde a la clarificación, el estudiante recibirá una notificación en su cuenta de omegaUp. Al seleccionar esta notificación, podrá visualizar directamente la respuesta a su duda. ![(Imagen 10)](/images/curso-clarificacion-10.png)
 
 La característica de "Clarificación" en omegaUp es una herramienta poderosa para mejorar la interacción y el soporte en los cursos de programación. Al utilizarla de manera efectiva, el personal docente puede crear un entorno de aprendizaje más colaborativo y reactivo, asegurando que el estudiantado reciba la ayuda que necesita para superar los desafíos y avanzar en su camino de aprendizaje.
