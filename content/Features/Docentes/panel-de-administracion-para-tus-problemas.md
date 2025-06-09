@@ -1,5 +1,6 @@
 ---
 title: 'Panel de administración para tus problemas'
+weight: 5
 type: docs
 sidebar:
   open: true
