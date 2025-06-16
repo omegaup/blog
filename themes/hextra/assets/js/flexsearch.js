@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // select the kbd element under the .search-wrapper class
     const keys = document.querySelectorAll(".search-wrapper kbd");
     keys.forEach(key => {
-      key.innerHTML = '<span class="hx-text-xs">⌘</span>K';
+      key.innerHTML = '<span class="hx:text-xs">⌘</span>K';
     });
   }
 });
@@ -143,7 +143,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function hideSearchResults() {
     const { resultsElement } = getActiveSearchElement();
     if (!resultsElement) return;
-    resultsElement.classList.add('hx-hidden');
+    resultsElement.classList.add('hx:hidden');
   }
 
   // Handle keyboard events.
@@ -195,8 +195,17 @@ document.addEventListener("DOMContentLoaded", function () {
    */
   async function preloadIndex() {
     const tokenize = '{{- site.Params.search.flexsearch.tokenize | default  "forward" -}}';
+
+    // https://github.com/TryGhost/Ghost/pull/21148
+    const regex = new RegExp(
+      `[\u{4E00}-\u{9FFF}\u{3040}-\u{309F}\u{30A0}-\u{30FF}\u{AC00}-\u{D7A3}\u{3400}-\u{4DBF}\u{20000}-\u{2A6DF}\u{2A700}-\u{2B73F}\u{2B740}-\u{2B81F}\u{2B820}-\u{2CEAF}\u{2CEB0}-\u{2EBEF}\u{30000}-\u{3134F}\u{31350}-\u{323AF}\u{2EBF0}-\u{2EE5F}\u{F900}-\u{FAFF}\u{2F800}-\u{2FA1F}]|[0-9A-Za-zа-я\u00C0-\u017F\u0400-\u04FF\u0600-\u06FF\u0980-\u09FF\u1E00-\u1EFF\u0590-\u05FF]+`,
+      'mug'
+    );
+    const encode = (str) => { return ('' + str).toLowerCase().match(regex) ?? []; }
+
     window.pageIndex = new FlexSearch.Document({
       tokenize,
+      encode,
       cache: 100,
       document: {
         id: 'id',
@@ -207,12 +216,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
     window.sectionIndex = new FlexSearch.Document({
       tokenize,
+      encode,
       cache: 100,
       document: {
         id: 'id',
         store: ['title', 'content', 'url', 'display', 'crumb'],
         index: "content",
-        tag: 'pageId'
+        tag: [{
+          field: "pageId"
+        }]
       }
     });
 
@@ -225,7 +237,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const urlParts = route.split('/').filter(x => x != "" && !x.startsWith('#'));
 
       let crumb = '';
-      let searchUrl = '/'
+      let searchUrl = '/';
       for (let i = 0; i < urlParts.length; i++) {
         const urlPart = urlParts[i];
         searchUrl += urlPart + '/'
@@ -304,7 +316,7 @@ document.addEventListener("DOMContentLoaded", function () {
     while (resultsElement.firstChild) {
       resultsElement.removeChild(resultsElement.firstChild);
     }
-    resultsElement.classList.remove('hx-hidden');
+    resultsElement.classList.remove('hx:hidden');
 
     const pageResults = window.pageIndex.search(query, 5, { enrich: true, suggest: true })[0]?.result || [];
 
@@ -316,7 +328,7 @@ document.addEventListener("DOMContentLoaded", function () {
       pageTitleMatches[i] = 0;
 
       // Show the top 5 results for each page
-      const sectionResults = window.sectionIndex.search(query, 5, { enrich: true, suggest: true, tag: `page_${result.id}` })[0]?.result || [];
+      const sectionResults = window.sectionIndex.search(query, 5, { enrich: true, suggest: true, tag: { 'pageId': `page_${result.id}` } })[0]?.result || [];
       let isFirstItemOfPage = true
       const occurred = {}
 

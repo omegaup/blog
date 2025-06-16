@@ -1,3 +1,3 @@
 {{ range first 5 (where .Site.RegularPages "Type" "blog") }}
-&#8226; <a class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font" href="{{ .Permalink }}">{{ .Title }}</a>
+&#8226; <a class="hx:text-[color:hsl(var(--primary-hue),100%,50%)] hx:underline hx:underline-offset-2 hx:decoration-from-font" href="{{ .Permalink }}">{{ .Title }}</a>
 {{ end }}
