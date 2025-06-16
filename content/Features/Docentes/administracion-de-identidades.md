@@ -1,5 +1,6 @@
 ---
 title: 'Administración de Identidades'
+weight: 4
 type: docs
 sidebar:
   open: true
