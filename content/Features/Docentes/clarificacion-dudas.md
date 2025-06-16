@@ -30,8 +30,8 @@ Esta funcionalidad es invaluable porque:
 
 Las "Clarificaciones" son una herramienta bidireccional que involucra principalmente a dos roles dentro de un curso:
 
-* **El estudiantado:** Utiliza esta característica para plantear sus dudas, errores, o solicitar más información sobre cualquier elemento del curso.
-* **El personal docente (o administradores del curso):** Son responsables de revisar, responder y gestionar las clarificaciones enviadas por sus estudiantes.
+* **Estudiantes:** Utilizan esta característica para plantear sus dudas, errores, o solicitar más información sobre cualquier elemento del curso.
+* **Docentes (o admins del curso):** Son responsables de revisar, responder y gestionar las clarificaciones enviadas por sus estudiantes.
 
 ## ¿Dónde y cuándo se utilizan las Clarificaciones?
 

@@ -11,7 +11,7 @@ draft: false
 tags: ['Features', 'Cursos', 'Docentes']
 ---
 
-## Personaliza un curso público en omegaUp: ¡Clona y adapta para tu grupo!
+## Personaliza un curso público en omegaUp: ¡Clona y adapta para tu clase!
 
 En el mundo de la enseñanza de la programación, la personalización es clave para maximizar el aprendizaje. Como educadores, a menudo buscamos recursos que se adapten a las necesidades específicas de nuestro alumnado. omegaUp, una plataforma robusta para la práctica y evaluación de habilidades de programación, ofrece una funcionalidad increíblemente útil para este propósito: la clonación de cursos públicos.
 
@@ -66,7 +66,7 @@ A continuación, te guiamos paso a paso en el proceso de clonación y personaliz
     * **Contenido:** Modifica las lecciones, los problemas y los materiales adicionales.
     * **Modo de acceso:** Define si el curso será público, privado o con acceso restringido.
     * **Estudiantes:** Gestiona la lista de estudiantes inscritos.
-    * **Admins:** Añade o elimina administradores del curso.
+    * **Admins:** Añade o elimina admins del curso.
     * **Clonar:** (Sí, ¡puedes clonar un curso clonado!)
     * **Archivar:** Si ya no necesitas el curso, puedes archivarlo.
 
