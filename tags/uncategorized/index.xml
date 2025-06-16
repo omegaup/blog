@@ -1,76 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>omegaUp blog – Uncategorized</title><link>https://blog.omegaup.com/tags/uncategorized/</link><description>Recent content in Uncategorized on omegaUp blog</description><generator>Hugo -- gohugo.io</generator><language>es</language><lastBuildDate>Fri, 10 Dec 2021 00:22:57 +0000</lastBuildDate><atom:link href="https://blog.omegaup.com/tags/uncategorized/index.xml" rel="self" type="application/rss+xml"/><item><title>Bases de Liga de Programación de omegaUp</title><link>https://blog.omegaup.com/news/bases-de-liga-de-programacion-de-omegaup/</link><pubDate>Fri, 10 Dec 2021 00:22:57 +0000</pubDate><guid>https://blog.omegaup.com/news/bases-de-liga-de-programacion-de-omegaup/</guid><description>
-&lt;p>omegaUp Invita a todos los estudiantes de nivel media superior y superior a participar a la 2° edición de la Liga de programación omegaUp.&lt;/p>
-&lt;p>&lt;strong>Reglas&lt;/strong>:&lt;/p>
-&lt;ul>
-&lt;li>Deben ser estudiantes de Preparatoria, Licenciatura, Maestría, Doctorado o Postdoctorado.&lt;/li>
-&lt;li>Los puntos otorgados por cada problema serán tomados como parte del puntaje final.&lt;/li>
-&lt;li>El primer AC de cada etapa recibirá 10 puntos extras.&lt;/li>
-&lt;li>Problemas resueltos parcialmente serán tomados en cuenta.&lt;/li>
-&lt;li>Para determinar los ganadores se utilizará como criterio el número de puntos obtenidos y como segundo criterio el número de AC que tenga a lo largo de las etapas, es decir gana el quien tenga mayor cantidad de puntos y en caso de ser necesario mayor número de problemas resueltos correctamente. &lt;/li>
-&lt;/ul>
-&lt;p> &lt;/p>
-&lt;p>&lt;strong>Dinamica:&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>La Liga de Programación omegaUp contará con diferentes etapas a lo largo del 2022 y parte del 2021.&lt;/li>
-&lt;li>Al final de cada concurso se entregan los puntos correspondientes a cada participante.&lt;/li>
-&lt;li>Al llegar a la etapa final de la liga de programación de omegaUp se sumarán todos los puntos de cada participante que se obtuvieron durante todas las rondas y se premiará al participante que más puntos haya sumado.&lt;/li>
-&lt;/ul>
-&lt;p> &lt;/p>
-&lt;p>&lt;strong>Premios:&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>Los premios para los primeros 3 lugares se darán trofeos únicos.&lt;/li>
-&lt;li>Cada participante recibirá una constancia de participación.&lt;/li>
-&lt;li>Se entregará un reconocimiento especial y playeras personalizadas a los mejores 10 participantes.&lt;/li>
-&lt;li>Los participantes tendrán la oportunidad de hacerte notar con empresas de tecnología que están buscando talento en Ingeniería de Software.&lt;/li>
-&lt;/ul>
-&lt;p> &lt;/p>
-&lt;p>&lt;strong>Lenguajes de programación permitidos:&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>C&lt;/li>
-&lt;li>C++&lt;/li>
-&lt;li>Java&lt;/li>
-&lt;/ul>
-&lt;p> &lt;/p>
-&lt;p>Cualquier punto no especificado en esta convocatoria, será resuelto por el Comité Organizador y su decisión será inapelable.&lt;/p></description></item><item><title>Análisis de diferencias en salidas para envíos de problemas educativos</title><link>https://blog.omegaup.com/posts/analisis-de-diferencias-en-salidas-para-envios-de-problemas-educativos/</link><pubDate>Mon, 07 Sep 2020 02:13:18 +0000</pubDate><guid>https://blog.omegaup.com/posts/analisis-de-diferencias-en-salidas-para-envios-de-problemas-educativos/</guid><description>
-&lt;p>Hemos liberado una nueva funcionalidad que será muy útil para los usuarios que comienzan a utilizar la plataforma, ya que contarán con una herramienta más para apoyarlos en su aprendizaje. Esta funcionalidad les permitirá ver un análisis de las diferencias entre las salidas que dan sus programas y las salidas oficiales para los envíos de problemas educativos.&lt;/p>
-&lt;h3>¿En qué consiste el análisis de las diferencias?&lt;span class="hx-absolute -hx-mt-20" id="en-qué-consiste-el-análisis-de-las-diferencias">&lt;/span>
-&lt;a href="#en-qu%c3%a9-consiste-el-an%c3%a1lisis-de-las-diferencias" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Para todos los problemas educativos que accedan vía cursos, los usuarios podrán comparar el resultado que obtuvo la salida de la solución que acaban de enviar, contra el resultado que se espera de acuerdo a los casos que subió el creador del problema.&lt;/p>
-&lt;h3>Ventajas&lt;span class="hx-absolute -hx-mt-20" id="ventajas">&lt;/span>
-&lt;a href="#ventajas" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>El uso de esta herramienta traerá beneficios, tanto para profesores como para estudiantes, los cuales se describen a continuación:&lt;/p>
-&lt;h4>Profesor&lt;span class="hx-absolute -hx-mt-20" id="profesor">&lt;/span>
-&lt;a href="#profesor" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
-&lt;li>Tiempo: Al permitir a los estudiantes ser más autodidactas, el profesor tendrá más tiempo para revisar temas de mayor relevancia o donde los estudiantes presentan más problemas. &lt;/li>
-&lt;/ul>
-&lt;h4>Alumno&lt;span class="hx-absolute -hx-mt-20" id="alumno">&lt;/span>
-&lt;a href="#alumno" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
-&lt;li>Problemas auto didácticos: Al recibir retroalimentación más completa desde la plataforma, el estudiante puede realizar más problemas, los cuales lo irán guiando con las pistas para llegar a la solución de los problemas sin necesidad de contar con la figura del profesor.&lt;/li>
-&lt;/ul>
-&lt;h3>¿Cómo funciona esta nueva herramienta?&lt;span class="hx-absolute -hx-mt-20" id="cómo-funciona-esta-nueva-herramienta">&lt;/span>
-&lt;a href="#c%c3%b3mo-funciona-esta-nueva-herramienta" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>Profesor&lt;span class="hx-absolute -hx-mt-20" id="profesor-1">&lt;/span>
-&lt;a href="#profesor-1" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>Lo primero que se debe tomar en cuenta por parte del profesor / creador de problemas es que el problema sea meramente educativo, quiere decir, que este no vaya a ser tomado en cuenta o ya se esté usando en concursos, ya que esto podría dar ventaja a usuarios que ya hayan visto las salidas esperadas. &lt;/p>
-&lt;p>Una vez que ya se definió que el problema se utilizará con fines educativos se procede a la configuración. &lt;/p>
-&lt;p>Si el problema es nuevo, se sigue el mismo procedimiento como para crear cualquier problema: &lt;em>Menú &amp;gt; Problemas &amp;gt; Crear un problema&lt;/em>, donde se encontrará el siguiente campo:&lt;/p>
-&lt;p>&lt;a href="https://blog.omegaup.com/images/01-Configurar-problema-nuevo.png" >&lt;img src="https://blog.omegaup.com/images/01-Configurar-problema-nuevo.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
-&lt;p>Las opciones disponibles son:&lt;/p>
-&lt;ul>
-&lt;li>Ninguno (predeterminado): El problema continúa como siempre ha existido, sin mostrar diferencias de salidas en los casos.&lt;/li>
-&lt;li>Sólo ejemplos: Se mostrarán las diferencias de salidas para todos los casos que se guardaron en el directorio &lt;em>examples&lt;/em>.&lt;/li>
-&lt;li>Todos: Se mostrarán las diferencias de salidas para todos los casos que se agregaron en el archivo &lt;em>.zip&lt;/em>, incluidos los ejemplos.&lt;/li>
-&lt;/ul>
-&lt;p>En caso de que el problema ya exista y se desee agregar esta configuración, se debe ingresar a la sección de editar problema de la forma tradicional: &lt;em>Menú &amp;gt; Usuario &amp;gt; Mis problemas&lt;/em>, y después dar clic en el icono de Editar problema &lt;a href="https://blog.omegaup.com/images/001-Editar-problema.png" >&lt;img src="https://blog.omegaup.com/images/001-Editar-problema.png" alt="" loading="lazy" />&lt;/a> . En este formulario también se encontrará disponible la configuración:&lt;/p>
-&lt;p>&lt;a href="https://blog.omegaup.com/images/02-Configurar-problema-existente.png" >&lt;img src="https://blog.omegaup.com/images/02-Configurar-problema-existente.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
-&lt;p>El siguiente paso es agregar el problema a algún curso; recuerda que esta configuración sólo funciona en ese lugar.&lt;/p>
-&lt;h4>Estudiante&lt;span class="hx-absolute -hx-mt-20" id="estudiante">&lt;/span>
-&lt;a href="#estudiante" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>Para que los estudiantes puedan aprovechar esta herramienta deben estar inscritos al curso que contenga problemas educativos. &lt;/p>
-&lt;p>1.- El primer paso a realizar es ingresar al curso, tal como se hace tradicionalmente, seleccionar la tarea en la que estará trabajando y elegir el problema educativo.&lt;/p>
-&lt;p>2.- Después se debe enviar una solución y esperar a que el juez de omegaUp evalúe el envío. En el listado de envíos aparece el botón para ver los detalles, dar clic.&lt;/p>
-&lt;p>3.- En la ventana que aparece se mostrará la información de los casos, con su respectivo puntaje por cada grupo.&lt;/p>
-&lt;p>4.- Puedes presionar cualquiera de los botones &lt;a href="https://blog.omegaup.com/images/002-Seleccionar-grupo-de-casos.png" >&lt;img src="https://blog.omegaup.com/images/002-Seleccionar-grupo-de-casos.png" alt="" loading="lazy" />&lt;/a>  para ver la diferencia en las salidas de los casos, si todos los casos del grupo son los mismos que los esperados o si hay alguna salida que no coincide.&lt;/p>
-&lt;p>En la siguiente animación se puede ver su funcionamiento tal como le aparecerá al estudiante en el curso:&lt;/p>
-&lt;p>&lt;a href="https://blog.omegaup.com/images/ShowOutputDiffs_.webm" >&lt;video autoplay muted loop>
-&lt;source src="https://blog.omegaup.com/images/ShowOutputDiffs_.webm" type="video/mp4">
-&lt;/video>
-&lt;/a>&lt;/p></description></item><item><title>Administración de Identidades</title><link>https://blog.omegaup.com/features/docentes/administracion-de-identidades/</link><pubDate>Sat, 08 Feb 2020 22:56:22 +0000</pubDate><guid>https://blog.omegaup.com/features/docentes/administracion-de-identidades/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>omegaUp blog – Uncategorized</title><link>https://blog.omegaup.com/tags/uncategorized/</link><description>Recent content in Uncategorized on omegaUp blog</description><generator>Hugo -- gohugo.io</generator><language>es</language><lastBuildDate>Fri, 10 Dec 2021 00:22:57 +0000</lastBuildDate><atom:link href="https://blog.omegaup.com/tags/uncategorized/index.xml" rel="self" type="application/rss+xml"/><item><title>Administración de Identidades</title><link>https://blog.omegaup.com/features/docentes/administracion-de-identidades/</link><pubDate>Sat, 08 Feb 2020 22:56:22 +0000</pubDate><guid>https://blog.omegaup.com/features/docentes/administracion-de-identidades/</guid><description>
 &lt;p>Hemos liberado una nueva funcionalidad en omegaUp para que puedas administrar identidades dentro de un grupo. Si has sido organizador de un concurso o curso, seguramente has requerido de la ayuda de algún miembro de omegaUp para dar de alta las cuentas de los usuarios que participarán en el evento que organizaste con este &lt;a href="https://github.com/omegaup/omegaup/blob/73db504f8494ce00d0305931730ea35a89a8aa6b/frontend/server/controllers/UserController.php#L644" target="_blank" rel="noopener">script&lt;/a>. Con esta nueva funcionalidad serás capaz de realizar todas las acciones por tu cuenta.&lt;/p>
 &lt;h1>¿Qué es una Identidad?&lt;/h1>&lt;p>Una identidad en omegaUp es una cuenta con los privilegios suficientes para ingresar a un curso o concurso para el cual haya sido creada. Anteriormente, para que un usuario pudiera ingresar al curso o concurso, era necesario hacer los cambios necesarios en el código descrito en el párrafo anterior.&lt;/p>
 &lt;h2>Ventajas
@@ -167,7 +95,79 @@ aliases: [&amp;rsquo;/administracion-de-identidades']&lt;span class="hx-absolute
 &lt;p>&lt;a href="https://blog.omegaup.com/images/Imagen_9-Editar_Perfil.png" >&lt;img src="https://blog.omegaup.com/images/Imagen_9-Editar_Perfil.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
 &lt;p>Una vez que dentro de la pantalla de Editar Perfil, si se desplaza un poco, debajo de Editar tu perfil se puede encontrar la sección de Administrar Identidades. Sólo es cuestión de que agregue el username y la contraseña de la identidad para que esta se asocie a la cuenta.&lt;/p>
 &lt;p>&lt;a href="https://blog.omegaup.com/images/Imagen_10-Vincular_Identidad.png" >&lt;img src="https://blog.omegaup.com/images/Imagen_10-Vincular_Identidad.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
-&lt;p>Atentamente, El equipo de omegaUp&lt;/p></description></item><item><title>Concursos Virtuales</title><link>https://blog.omegaup.com/features/estudiantes/concursos-virtuales/</link><pubDate>Fri, 01 Mar 2019 04:37:05 +0000</pubDate><guid>https://blog.omegaup.com/features/estudiantes/concursos-virtuales/</guid><description>
+&lt;p>Atentamente, El equipo de omegaUp&lt;/p></description></item><item><title>Bases de Liga de Programación de omegaUp</title><link>https://blog.omegaup.com/news/bases-de-liga-de-programacion-de-omegaup/</link><pubDate>Fri, 10 Dec 2021 00:22:57 +0000</pubDate><guid>https://blog.omegaup.com/news/bases-de-liga-de-programacion-de-omegaup/</guid><description>
+&lt;p>omegaUp Invita a todos los estudiantes de nivel media superior y superior a participar a la 2° edición de la Liga de programación omegaUp.&lt;/p>
+&lt;p>&lt;strong>Reglas&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Deben ser estudiantes de Preparatoria, Licenciatura, Maestría, Doctorado o Postdoctorado.&lt;/li>
+&lt;li>Los puntos otorgados por cada problema serán tomados como parte del puntaje final.&lt;/li>
+&lt;li>El primer AC de cada etapa recibirá 10 puntos extras.&lt;/li>
+&lt;li>Problemas resueltos parcialmente serán tomados en cuenta.&lt;/li>
+&lt;li>Para determinar los ganadores se utilizará como criterio el número de puntos obtenidos y como segundo criterio el número de AC que tenga a lo largo de las etapas, es decir gana el quien tenga mayor cantidad de puntos y en caso de ser necesario mayor número de problemas resueltos correctamente. &lt;/li>
+&lt;/ul>
+&lt;p> &lt;/p>
+&lt;p>&lt;strong>Dinamica:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>La Liga de Programación omegaUp contará con diferentes etapas a lo largo del 2022 y parte del 2021.&lt;/li>
+&lt;li>Al final de cada concurso se entregan los puntos correspondientes a cada participante.&lt;/li>
+&lt;li>Al llegar a la etapa final de la liga de programación de omegaUp se sumarán todos los puntos de cada participante que se obtuvieron durante todas las rondas y se premiará al participante que más puntos haya sumado.&lt;/li>
+&lt;/ul>
+&lt;p> &lt;/p>
+&lt;p>&lt;strong>Premios:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Los premios para los primeros 3 lugares se darán trofeos únicos.&lt;/li>
+&lt;li>Cada participante recibirá una constancia de participación.&lt;/li>
+&lt;li>Se entregará un reconocimiento especial y playeras personalizadas a los mejores 10 participantes.&lt;/li>
+&lt;li>Los participantes tendrán la oportunidad de hacerte notar con empresas de tecnología que están buscando talento en Ingeniería de Software.&lt;/li>
+&lt;/ul>
+&lt;p> &lt;/p>
+&lt;p>&lt;strong>Lenguajes de programación permitidos:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>C&lt;/li>
+&lt;li>C++&lt;/li>
+&lt;li>Java&lt;/li>
+&lt;/ul>
+&lt;p> &lt;/p>
+&lt;p>Cualquier punto no especificado en esta convocatoria, será resuelto por el Comité Organizador y su decisión será inapelable.&lt;/p></description></item><item><title>Análisis de diferencias en salidas para envíos de problemas educativos</title><link>https://blog.omegaup.com/posts/analisis-de-diferencias-en-salidas-para-envios-de-problemas-educativos/</link><pubDate>Mon, 07 Sep 2020 02:13:18 +0000</pubDate><guid>https://blog.omegaup.com/posts/analisis-de-diferencias-en-salidas-para-envios-de-problemas-educativos/</guid><description>
+&lt;p>Hemos liberado una nueva funcionalidad que será muy útil para los usuarios que comienzan a utilizar la plataforma, ya que contarán con una herramienta más para apoyarlos en su aprendizaje. Esta funcionalidad les permitirá ver un análisis de las diferencias entre las salidas que dan sus programas y las salidas oficiales para los envíos de problemas educativos.&lt;/p>
+&lt;h3>¿En qué consiste el análisis de las diferencias?&lt;span class="hx-absolute -hx-mt-20" id="en-qué-consiste-el-análisis-de-las-diferencias">&lt;/span>
+&lt;a href="#en-qu%c3%a9-consiste-el-an%c3%a1lisis-de-las-diferencias" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Para todos los problemas educativos que accedan vía cursos, los usuarios podrán comparar el resultado que obtuvo la salida de la solución que acaban de enviar, contra el resultado que se espera de acuerdo a los casos que subió el creador del problema.&lt;/p>
+&lt;h3>Ventajas&lt;span class="hx-absolute -hx-mt-20" id="ventajas">&lt;/span>
+&lt;a href="#ventajas" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>El uso de esta herramienta traerá beneficios, tanto para profesores como para estudiantes, los cuales se describen a continuación:&lt;/p>
+&lt;h4>Profesor&lt;span class="hx-absolute -hx-mt-20" id="profesor">&lt;/span>
+&lt;a href="#profesor" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>Tiempo: Al permitir a los estudiantes ser más autodidactas, el profesor tendrá más tiempo para revisar temas de mayor relevancia o donde los estudiantes presentan más problemas. &lt;/li>
+&lt;/ul>
+&lt;h4>Alumno&lt;span class="hx-absolute -hx-mt-20" id="alumno">&lt;/span>
+&lt;a href="#alumno" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;ul>
+&lt;li>Problemas auto didácticos: Al recibir retroalimentación más completa desde la plataforma, el estudiante puede realizar más problemas, los cuales lo irán guiando con las pistas para llegar a la solución de los problemas sin necesidad de contar con la figura del profesor.&lt;/li>
+&lt;/ul>
+&lt;h3>¿Cómo funciona esta nueva herramienta?&lt;span class="hx-absolute -hx-mt-20" id="cómo-funciona-esta-nueva-herramienta">&lt;/span>
+&lt;a href="#c%c3%b3mo-funciona-esta-nueva-herramienta" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;h4>Profesor&lt;span class="hx-absolute -hx-mt-20" id="profesor-1">&lt;/span>
+&lt;a href="#profesor-1" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>Lo primero que se debe tomar en cuenta por parte del profesor / creador de problemas es que el problema sea meramente educativo, quiere decir, que este no vaya a ser tomado en cuenta o ya se esté usando en concursos, ya que esto podría dar ventaja a usuarios que ya hayan visto las salidas esperadas. &lt;/p>
+&lt;p>Una vez que ya se definió que el problema se utilizará con fines educativos se procede a la configuración. &lt;/p>
+&lt;p>Si el problema es nuevo, se sigue el mismo procedimiento como para crear cualquier problema: &lt;em>Menú &amp;gt; Problemas &amp;gt; Crear un problema&lt;/em>, donde se encontrará el siguiente campo:&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/01-Configurar-problema-nuevo.png" >&lt;img src="https://blog.omegaup.com/images/01-Configurar-problema-nuevo.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
+&lt;p>Las opciones disponibles son:&lt;/p>
+&lt;ul>
+&lt;li>Ninguno (predeterminado): El problema continúa como siempre ha existido, sin mostrar diferencias de salidas en los casos.&lt;/li>
+&lt;li>Sólo ejemplos: Se mostrarán las diferencias de salidas para todos los casos que se guardaron en el directorio &lt;em>examples&lt;/em>.&lt;/li>
+&lt;li>Todos: Se mostrarán las diferencias de salidas para todos los casos que se agregaron en el archivo &lt;em>.zip&lt;/em>, incluidos los ejemplos.&lt;/li>
+&lt;/ul>
+&lt;p>En caso de que el problema ya exista y se desee agregar esta configuración, se debe ingresar a la sección de editar problema de la forma tradicional: &lt;em>Menú &amp;gt; Usuario &amp;gt; Mis problemas&lt;/em>, y después dar clic en el icono de Editar problema &lt;a href="https://blog.omegaup.com/images/001-Editar-problema.png" >&lt;img src="https://blog.omegaup.com/images/001-Editar-problema.png" alt="" loading="lazy" />&lt;/a> . En este formulario también se encontrará disponible la configuración:&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/02-Configurar-problema-existente.png" >&lt;img src="https://blog.omegaup.com/images/02-Configurar-problema-existente.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
+&lt;p>El siguiente paso es agregar el problema a algún curso; recuerda que esta configuración sólo funciona en ese lugar.&lt;/p>
+&lt;h4>Estudiante&lt;span class="hx-absolute -hx-mt-20" id="estudiante">&lt;/span>
+&lt;a href="#estudiante" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h4>&lt;p>Para que los estudiantes puedan aprovechar esta herramienta deben estar inscritos al curso que contenga problemas educativos. &lt;/p>
+&lt;p>1.- El primer paso a realizar es ingresar al curso, tal como se hace tradicionalmente, seleccionar la tarea en la que estará trabajando y elegir el problema educativo.&lt;/p>
+&lt;p>2.- Después se debe enviar una solución y esperar a que el juez de omegaUp evalúe el envío. En el listado de envíos aparece el botón para ver los detalles, dar clic.&lt;/p>
+&lt;p>3.- En la ventana que aparece se mostrará la información de los casos, con su respectivo puntaje por cada grupo.&lt;/p>
+&lt;p>4.- Puedes presionar cualquiera de los botones &lt;a href="https://blog.omegaup.com/images/002-Seleccionar-grupo-de-casos.png" >&lt;img src="https://blog.omegaup.com/images/002-Seleccionar-grupo-de-casos.png" alt="" loading="lazy" />&lt;/a>  para ver la diferencia en las salidas de los casos, si todos los casos del grupo son los mismos que los esperados o si hay alguna salida que no coincide.&lt;/p>
+&lt;p>En la siguiente animación se puede ver su funcionamiento tal como le aparecerá al estudiante en el curso:&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/ShowOutputDiffs_.webm" >&lt;video autoplay muted loop>
+&lt;source src="https://blog.omegaup.com/images/ShowOutputDiffs_.webm" type="video/mp4">
+&lt;/video>
+&lt;/a>&lt;/p></description></item><item><title>Concursos Virtuales</title><link>https://blog.omegaup.com/features/estudiantes/concursos-virtuales/</link><pubDate>Fri, 01 Mar 2019 04:37:05 +0000</pubDate><guid>https://blog.omegaup.com/features/estudiantes/concursos-virtuales/</guid><description>
 &lt;p>¿Te gustaría revivir un concurso de programación que ya pasó? ¿Te gustaría ver cómo se mueve la tabla de posiciones en tiempo real mientras vas subiendo tus soluciones? ¿Te gustaría saber cómo te “hubiera ido” en “aquél concurso” al que no pudiste ir?&lt;/p>
 &lt;p>¡El futuro es hoy! Todo esto ya es posible en omegaUp gracias a la nueva funcionalidad de “concursos virtuales”.&lt;/p>
 &lt;p>Para activar esta nueva funcionalidad simplemente elige un concurso en la arena y selecciona “Concurso virtual”, el concurso empezará y la lista de posiciones se irá actualizando conforme los participantes del concurso fueron subiendo sus soluciones, así podrás saber cómo te va con respecto a los competidores que participaron en el concurso.&lt;/p>

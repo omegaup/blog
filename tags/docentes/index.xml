@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>omegaUp blog – Docentes</title><link>https://blog.omegaup.com/tags/docentes/</link><description>Recent content in Docentes on omegaUp blog</description><generator>Hugo -- gohugo.io</generator><language>es</language><lastBuildDate>Sun, 25 May 2025 22:23:24 +0000</lastBuildDate><atom:link href="https://blog.omegaup.com/tags/docentes/index.xml" rel="self" type="application/rss+xml"/><item><title>Cursos Públicos</title><link>https://blog.omegaup.com/features/docentes/cursos-publicos/</link><pubDate>Sun, 25 May 2025 22:23:24 +0000</pubDate><guid>https://blog.omegaup.com/features/docentes/cursos-publicos/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>omegaUp blog – Docentes</title><link>https://blog.omegaup.com/tags/docentes/</link><description>Recent content in Docentes on omegaUp blog</description><generator>Hugo -- gohugo.io</generator><language>es</language><lastBuildDate>Mon, 09 Jun 2025 10:11:12 +0000</lastBuildDate><atom:link href="https://blog.omegaup.com/tags/docentes/index.xml" rel="self" type="application/rss+xml"/><item><title>Cursos Públicos</title><link>https://blog.omegaup.com/features/docentes/cursos-publicos/</link><pubDate>Sun, 25 May 2025 22:23:24 +0000</pubDate><guid>https://blog.omegaup.com/features/docentes/cursos-publicos/</guid><description>
 &lt;blockquote>
 &lt;p>Potenciando la Enseñanza de la Programación en tu Aula&lt;/p>
 &lt;/blockquote>
@@ -132,4 +132,127 @@ Al hacer clic en &amp;ldquo;Añadir contenido&amp;rdquo;, se le presentará un f
 &lt;p>Crear un curso en omegaUp es un proceso intuitivo que les brindará las herramientas necesarias para potenciar su enseñanza y ofrecer una experiencia de aprendizaje enriquecedora a sus estudiantes.&lt;/p>
 &lt;blockquote>
 &lt;p>¡Esperamos que esta guía les sea de gran utilidad en su viaje educativo!&lt;/p>
-&lt;/blockquote></description></item></channel></rss>
+&lt;/blockquote></description></item><item><title>Personaliza un Curso Clonado</title><link>https://blog.omegaup.com/features/docentes/personaliza-un-curso/</link><pubDate>Fri, 23 May 2025 22:23:24 +0000</pubDate><guid>https://blog.omegaup.com/features/docentes/personaliza-un-curso/</guid><description>
+&lt;h2>Personaliza un curso público en omegaUp: ¡Clona y adapta para tu clase!&lt;span class="hx-absolute -hx-mt-20" id="personaliza-un-curso-público-en-omegaup-clona-y-adapta-para-tu-clase">&lt;/span>
+&lt;a href="#personaliza-un-curso-p%c3%bablico-en-omegaup-clona-y-adapta-para-tu-clase" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>En el mundo de la enseñanza de la programación, la personalización es clave para maximizar el aprendizaje. Como educadores, a menudo buscamos recursos que se adapten a las necesidades específicas de nuestro alumnado. omegaUp, una plataforma robusta para la práctica y evaluación de habilidades de programación, ofrece una funcionalidad increíblemente útil para este propósito: la clonación de cursos públicos.&lt;/p>
+&lt;p>Esta entrada de blog explicará detalladamente cómo aprovechar esta característica, permitiendo a cualquier docente tomar un curso existente en omegaUp y adaptarlo para un grupo particular de estudiantes.&lt;/p>
+&lt;h3>¿Qué es la clonación de cursos en omegaUp y por qué es útil?&lt;span class="hx-absolute -hx-mt-20" id="qué-es-la-clonación-de-cursos-en-omegaup-y-por-qué-es-útil">&lt;/span>
+&lt;a href="#qu%c3%a9-es-la-clonaci%c3%b3n-de-cursos-en-omegaup-y-por-qu%c3%a9-es-%c3%batil" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>La clonación de cursos en omegaUp es la capacidad de crear una copia exacta de un curso público ya existente en la plataforma. Esta copia se convierte en un curso independiente que el docente puede modificar y gestionar a su gusto.&lt;/p>
+&lt;p>Esta funcionalidad es invaluable para docentes por varias razones:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Adaptación curricular:&lt;/strong> Permite ajustar el contenido, los problemas y la estructura de un curso a un plan de estudios específico o a las habilidades de un grupo.&lt;/li>
+&lt;li>&lt;strong>Gestión de grupos:&lt;/strong> Facilita la creación de cursos privados o semi-privados para una clase o grupo de estudio, controlando el acceso y el seguimiento del progreso.&lt;/li>
+&lt;li>&lt;strong>Ahorro de tiempo:&lt;/strong> En lugar de crear un curso desde cero, se puede partir de una base sólida y ya probada.&lt;/li>
+&lt;li>&lt;strong>Enfoque en objetivos específicos:&lt;/strong> Se pueden eliminar o añadir secciones, ajustar la dificultad de los problemas, o integrar material complementario.&lt;/li>
+&lt;/ul>
+&lt;h3>¿Quién puede beneficiarse de esta funcionalidad?&lt;span class="hx-absolute -hx-mt-20" id="quién-puede-beneficiarse-de-esta-funcionalidad">&lt;/span>
+&lt;a href="#qui%c3%a9n-puede-beneficiarse-de-esta-funcionalidad" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Esta guía está dirigida a todo el personal docente, facilitadores de aprendizaje, y cualquier persona que imparta clases o talleres de programación y desee utilizar la plataforma omegaUp para gestionar y personalizar el material educativo para sus estudiantes.&lt;/p>
+&lt;h3>¿Dónde y cuándo se puede personalizar un curso?&lt;span class="hx-absolute -hx-mt-20" id="dónde-y-cuándo-se-puede-personalizar-un-curso">&lt;/span>
+&lt;a href="#d%c3%b3nde-y-cu%c3%a1ndo-se-puede-personalizar-un-curso" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Todo el proceso de clonación y personalización se realiza directamente en la plataforma omegaUp, a través de su interfaz web intuitiva.&lt;/p>
+&lt;p>Esta funcionalidad está disponible en cualquier momento para cualquier curso que esté marcado como &amp;ldquo;público&amp;rdquo; en omegaUp. Es un proceso que se puede iniciar antes de comenzar un nuevo ciclo de enseñanza o cuando se identifique la necesidad de adaptar un curso existente para una nueva cohorte.&lt;/p>
+&lt;h3>¿Cómo clonar y personalizar un curso en omegaUp?&lt;span class="hx-absolute -hx-mt-20" id="cómo-clonar-y-personalizar-un-curso-en-omegaup">&lt;/span>
+&lt;a href="#c%c3%b3mo-clonar-y-personalizar-un-curso-en-omegaup" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>A continuación, te guiamos paso a paso en el proceso de clonación y personalización de un curso público en omegaUp:&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>Acceder a la plataforma y visualizar los cursos:&lt;/strong>
+Una vez que hayas iniciado sesión en omegaUp con tu usuario, dirígete al menú superior y selecciona &amp;ldquo;Cursos&amp;rdquo;. Del sub-menú desplegable, elige &amp;ldquo;Ver Cursos&amp;rdquo;. &lt;img src="https://blog.omegaup.com/images/curso-personaliza-clon-1.png" alt="(Imagen 1)" loading="lazy" />&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Seleccionar el curso a clonar:&lt;/strong>
+Navega por la lista de cursos disponibles y selecciona aquel que deseas clonar. &lt;img src="https://blog.omegaup.com/images/curso-personaliza-clon-2.png" alt="(Imagen 2)" loading="lazy" />&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Iniciar el proceso de clonación:&lt;/strong>
+Dentro del curso seleccionado, busca el botón de &amp;ldquo;Acciones&amp;rdquo; y elige la opción &amp;ldquo;Clonar este curso&amp;rdquo;. &lt;img src="https://blog.omegaup.com/images/curso-personaliza-clon-3.png" alt="(Imagen 3)" loading="lazy" />&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Previsualizar la descripción e índice:&lt;/strong>
+Antes de clonar, revisa la descripción y el índice del curso para asegurarte de que es el que deseas.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Parametrizar y clonar:&lt;/strong>
+En este paso, podrás configurar ciertos parámetros del nuevo curso clonado, como el nombre y la visibilidad. Una vez configurado, confirma la clonación. &lt;img src="https://blog.omegaup.com/images/curso-personaliza-clon-4.png" alt="(Imagen 4)" loading="lazy" />&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Acceder al curso clonado:&lt;/strong>
+Una vez clonado, podrás acceder al curso recién creado desde la sección &amp;ldquo;Mis cursos&amp;rdquo;. &lt;img src="https://blog.omegaup.com/images/curso-personaliza-clon-5.png" alt="(Imagen 5)" loading="lazy" />&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Editar y personalizar el curso:&lt;/strong>
+omegaUp te permite editar diversas secciones del curso clonado para adaptarlo a tus necesidades:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Editar curso:&lt;/strong> Cambia el nombre, la descripción general y otros detalles del curso. &lt;img src="https://blog.omegaup.com/images/curso-personaliza-clon-7.png" alt="(Imagen 6)" loading="lazy" />&lt;/li>
+&lt;li>&lt;strong>Contenido:&lt;/strong> Modifica las lecciones, los problemas y los materiales adicionales.&lt;/li>
+&lt;li>&lt;strong>Modo de acceso:&lt;/strong> Define si el curso será público, privado o con acceso restringido.&lt;/li>
+&lt;li>&lt;strong>Estudiantes:&lt;/strong> Gestiona la lista de estudiantes inscritos.&lt;/li>
+&lt;li>&lt;strong>Admins:&lt;/strong> Añade o elimina admins del curso.&lt;/li>
+&lt;li>&lt;strong>Clonar:&lt;/strong> (Sí, ¡puedes clonar un curso clonado!)&lt;/li>
+&lt;li>&lt;strong>Archivar:&lt;/strong> Si ya no necesitas el curso, puedes archivarlo.&lt;/li>
+&lt;/ul>
+&lt;p>Para más detalles sobre la edición, te recomendamos revisar la &lt;a href="https://github.com/omegaup/omegaup/wiki" target="_blank" rel="noopener">documentación específica de omegaUp&lt;/a> ó la entrada del blog &amp;ldquo;&lt;a href="https://blog.omegaup.com/features/docentes/como-crear-un-curso/" >Creando un Curso desde Cero&lt;/a>&amp;rdquo;.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>¿Te gustaría explorar alguna otra funcionalidad de omegaUp o necesitas ayuda con algún otro tema relacionado con la plataforma?&lt;/p></description></item><item><title>Clarificación: Facilitando la comunicación docente-estudiante</title><link>https://blog.omegaup.com/features/docentes/clarificacion-dudas/</link><pubDate>Mon, 09 Jun 2025 10:11:12 +0000</pubDate><guid>https://blog.omegaup.com/features/docentes/clarificacion-dudas/</guid><description>
+&lt;p>La comunicación efectiva es un pilar fundamental en cualquier proceso de aprendizaje. En entornos de programación, donde las dudas sobre el código, los problemas o los conceptos pueden surgir constantemente, contar con un canal claro y eficiente para la interacción es crucial. omegaUp ofrece una característica robusta para abordar esto: la &amp;ldquo;Clarificación&amp;rdquo;.&lt;/p>
+&lt;p>Esta entrada de blog detalla cómo funciona la característica de &amp;ldquo;Clarificación&amp;rdquo; en omegaUp, explicando su utilidad desde la perspectiva tanto del estudiantado como del personal docente, y cómo se puede utilizar para resolver dudas de manera organizada y eficiente.&lt;/p>
+&lt;h2>¿Qué es la característica de &amp;ldquo;Clarificación&amp;rdquo;?&lt;span class="hx-absolute -hx-mt-20" id="qué-es-la-característica-de-clarificación">&lt;/span>
+&lt;a href="#qu%c3%a9-es-la-caracter%c3%adstica-de-clarificaci%c3%b3n" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>La característica de &amp;ldquo;Clarificación&amp;rdquo; en omegaUp es un sistema de mensajería integrado dentro de los cursos, diseñado específicamente para que el estudiantado pueda enviar preguntas o dudas sobre un contenido particular del curso (lecciones, problemas, etc.) al personal docente. Estas preguntas son gestionadas y respondidas directamente en la plataforma, creando un registro claro de la interacción.&lt;/p>
+&lt;p>Esta funcionalidad es invaluable porque:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Centraliza las dudas:&lt;/strong> En lugar de recibir correos electrónicos o mensajes por diferentes canales, todas las preguntas relacionadas con el curso se concentran en un solo lugar.&lt;/li>
+&lt;li>&lt;strong>Mejora la eficiencia:&lt;/strong> Permite al personal docente responder a las dudas de forma organizada, incluso clasificándolas o marcándolas como resueltas.&lt;/li>
+&lt;li>&lt;strong>Fomenta la autonomía del estudiantado:&lt;/strong> Proporciona un canal directo para buscar ayuda cuando se enfrentan a un bloqueo, promoviendo la resolución de problemas.&lt;/li>
+&lt;li>&lt;strong>Crea un banco de preguntas frecuentes:&lt;/strong> A medida que se resuelven las clarificaciones, se puede identificar patrones de dudas comunes y, si se hacen públicas, servir como recurso para el resto del estudiantado.&lt;/li>
+&lt;/ul>
+&lt;h2>¿Quiénes utilizan las Clarificaciones?&lt;span class="hx-absolute -hx-mt-20" id="quiénes-utilizan-las-clarificaciones">&lt;/span>
+&lt;a href="#qui%c3%a9nes-utilizan-las-clarificaciones" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Las &amp;ldquo;Clarificaciones&amp;rdquo; son una herramienta bidireccional que involucra principalmente a dos roles dentro de un curso:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Estudiantes:&lt;/strong> Utilizan esta característica para plantear sus dudas, errores, o solicitar más información sobre cualquier elemento del curso.&lt;/li>
+&lt;li>&lt;strong>Docentes (o admins del curso):&lt;/strong> Son responsables de revisar, responder y gestionar las clarificaciones enviadas por sus estudiantes.&lt;/li>
+&lt;/ul>
+&lt;h2>¿Dónde y cuándo se utilizan las Clarificaciones?&lt;span class="hx-absolute -hx-mt-20" id="dónde-y-cuándo-se-utilizan-las-clarificaciones">&lt;/span>
+&lt;a href="#d%c3%b3nde-y-cu%c3%a1ndo-se-utilizan-las-clarificaciones" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>La característica de &amp;ldquo;Clarificación&amp;rdquo; se encuentra integrada dentro de cada sección o problema individual de un curso en omegaUp. Esto significa que el estudiantado puede contextualizar sus preguntas de manera muy precisa.&lt;/p>
+&lt;p>Las clarificaciones pueden enviarse en cualquier momento que el estudiantado encuentre una duda o un obstáculo en su aprendizaje dentro del curso. El personal docente, por su parte, puede revisar y responder las clarificaciones a su propia conveniencia, siendo notificado de nuevas preguntas.&lt;/p>
+&lt;h2>¿Cómo funciona el flujo de &amp;ldquo;Clarificaciones&amp;rdquo; entre estudiantes y docentes?&lt;span class="hx-absolute -hx-mt-20" id="cómo-funciona-el-flujo-de-clarificaciones-entre-estudiantes-y-docentes">&lt;/span>
+&lt;a href="#c%c3%b3mo-funciona-el-flujo-de-clarificaciones-entre-estudiantes-y-docentes" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>A continuación, detallamos el proceso paso a paso desde la perspectiva del estudiantado y del personal docente:&lt;/p>
+&lt;h3>Para el Estudiantado: Enviando una Clarificación&lt;span class="hx-absolute -hx-mt-20" id="para-el-estudiantado-enviando-una-clarificación">&lt;/span>
+&lt;a href="#para-el-estudiantado-enviando-una-clarificaci%c3%b3n" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>Ingresar al curso:&lt;/strong>
+El estudiante debe ingresar al curso en cuestión dentro de omegaUp. &lt;img src="https://blog.omegaup.com/images/curso-clarificacion-1.png" alt="(Imagen 1)" loading="lazy" />&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Acceder al contenido específico:&lt;/strong>
+Una vez dentro del curso, el estudiante navega y accede a la lección o problema específico sobre el cual tiene una duda. &lt;img src="https://blog.omegaup.com/images/curso-clarificacion-2.png" alt="(Imagen 2)" loading="lazy" />&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Crear una nueva clarificación:&lt;/strong>
+Dentro de la sección del contenido, el estudiante debe seleccionar la pestaña &amp;ldquo;Clarificaciones&amp;rdquo; y luego hacer clic en el botón &amp;ldquo;Nueva Clarificación&amp;rdquo;. Aquí, podrá escribir su mensaje o pregunta detallada. Una vez que la pregunta esté formulada, se presiona el botón &amp;ldquo;Enviar&amp;rdquo;. &lt;img src="https://blog.omegaup.com/images/curso-clarificacion-3.png" alt="(Imagen 3)" loading="lazy" />&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Visualizar el estado de la clarificación:&lt;/strong>
+Después de enviar la pregunta, el estudiante podrá ver su clarificación en la lista, junto con su estado (pendiente de respuesta, respondida, etc.). &lt;img src="https://blog.omegaup.com/images/curso-clarificacion-4.png" alt="(Imagen 4)" loading="lazy" />&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h3>Para el Personal Docente: Recibiendo y Respondiendo Clarificaciones&lt;span class="hx-absolute -hx-mt-20" id="para-el-personal-docente-recibiendo-y-respondiendo-clarificaciones">&lt;/span>
+&lt;a href="#para-el-personal-docente-recibiendo-y-respondiendo-clarificaciones" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>Notificación de nueva clarificación:&lt;/strong>
+Cuando un estudiante envía una nueva clarificación, el personal docente recibirá una notificación en la plataforma. &lt;img src="https://blog.omegaup.com/images/curso-clarificacion-5.png" alt="(Imagen 5)" loading="lazy" />&lt;/p>
+&lt;p>Esta notificación puede aparecer en el ícono de campana o en la sección de cursos administrados, indicando que hay una nueva pregunta pendiente. &lt;img src="https://blog.omegaup.com/images/curso-clarificacion-6.png" alt="(Imagen 6)" loading="lazy" />&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Seleccionar la notificación:&lt;/strong>
+Al hacer clic en la notificación, el personal docente será redirigido directamente a la clarificación pendiente. &lt;img src="https://blog.omegaup.com/images/curso-clarificacion-7.png" alt="(Imagen 7)" loading="lazy" />&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Visualizar y responder la clarificación:&lt;/strong>
+Dentro de la sección de &amp;ldquo;Clarificaciones&amp;rdquo;, el personal docente verá la pregunta del estudiante resaltada (generalmente en amarillo, indicando que está pendiente de respuesta). Aquí, pueden seleccionar una respuesta predefinida de la lista (Sí, No, Sin comentarios, Vuelve a leer, Otro) o escribir un comentario personalizado en el cuadro de texto. También tienen la opción de marcar la clarificación como &amp;ldquo;Público&amp;rdquo; si consideran que la respuesta podría beneficiar a otros estudiantes. Finalmente, se presiona el botón &amp;ldquo;Enviar&amp;rdquo; para responder. &lt;img src="https://blog.omegaup.com/images/curso-clarificacion-8.png" alt="(Imagen 8)" loading="lazy" /> Y &lt;img src="https://blog.omegaup.com/images/curso-clarificacion-9.png" alt="(Imagen 9)" loading="lazy" />&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h3>Para el Estudiantado: Recibiendo la Respuesta&lt;span class="hx-absolute -hx-mt-20" id="para-el-estudiantado-recibiendo-la-respuesta">&lt;/span>
+&lt;a href="#para-el-estudiantado-recibiendo-la-respuesta" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ol>
+&lt;li>&lt;strong>Notificación de respuesta:&lt;/strong>
+Una vez que el personal docente responde a la clarificación, el estudiante recibirá una notificación en su cuenta de omegaUp. Al seleccionar esta notificación, podrá visualizar directamente la respuesta a su duda. &lt;img src="https://blog.omegaup.com/images/curso-clarificacion-10.png" alt="(Imagen 10)" loading="lazy" />&lt;/li>
+&lt;/ol>
+&lt;p>La característica de &amp;ldquo;Clarificación&amp;rdquo; en omegaUp es una herramienta poderosa para mejorar la interacción y el soporte en los cursos de programación. Al utilizarla de manera efectiva, el personal docente puede crear un entorno de aprendizaje más colaborativo y reactivo, asegurando que el estudiantado reciba la ayuda que necesita para superar los desafíos y avanzar en su camino de aprendizaje.&lt;/p></description></item></channel></rss>
