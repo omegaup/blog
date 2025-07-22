@@ -63,7 +63,7 @@ La interfaz de la tabla de concursos es intuitiva y ofrece varias opciones para 
     * **Finaliza:** Ordena por la fecha de finalización del concurso.
     * **Nombre:** Ordena alfabéticamente por el nombre del concurso.
     * **Duración:** Ordena por la extensión del concurso.
-    * **Organiza:** Ordena por el organizador del concurso.
+    * **Organiza:** Ordena por el nombre de usuarios de quienes organizan.
     * **Concursantes:** Ordena por el número de participantes.
     * **Inscrito:** Muestra si ya se está inscrito en el concurso.
 ![(Imagen 3)](/images/concurso-pag-principal-3.png)
