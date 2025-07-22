@@ -1,4 +1,180 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>omegaUp blog – General</title><link>https://blog.omegaup.com/features/general/</link><description>Recent content in General on omegaUp blog</description><generator>Hugo -- gohugo.io</generator><language>es</language><lastBuildDate>Mon, 28 Apr 2025 12:00:01 +0000</lastBuildDate><atom:link href="https://blog.omegaup.com/features/general/index.xml" rel="self" type="application/rss+xml"/><item><title>El nuevo ranking de contribuidores de omegaUp</title><link>https://blog.omegaup.com/features/general/ranking-de-contribuidores-de-omegaup/</link><pubDate>Sat, 03 Feb 2024 13:00:00 +0000</pubDate><guid>https://blog.omegaup.com/features/general/ranking-de-contribuidores-de-omegaup/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>omegaUp blog – General</title><link>https://blog.omegaup.com/features/general/</link><description>Recent content in General on omegaUp blog</description><generator>Hugo -- gohugo.io</generator><language>es</language><lastBuildDate>Mon, 28 Apr 2025 12:00:01 +0000</lastBuildDate><atom:link href="https://blog.omegaup.com/features/general/index.xml" rel="self" type="application/rss+xml"/><item><title>Concursos: Tabla principal</title><link>https://blog.omegaup.com/features/general/concursos/</link><pubDate>Tue, 24 Jun 2025 12:13:14 +0000</pubDate><guid>https://blog.omegaup.com/features/general/concursos/</guid><description>
+&lt;blockquote>
+&lt;p>Tu Puerta de Entrada a los Retos de Programación&lt;/p>
+&lt;/blockquote>
+&lt;h2>¿Qué es la Tabla Principal de Concursos en omegaUp?&lt;span class="hx-absolute -hx-mt-20" id="qué-es-la-tabla-principal-de-concursos-en-omegaup">&lt;/span>
+&lt;a href="#qu%c3%a9-es-la-tabla-principal-de-concursos-en-omegaup" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>La tabla principal de concursos es una sección de omegaUp donde se listan los concursos de programación disponibles. Aquí, tanto quienes están aprendiendo como quienes enseñan pueden explorar, buscar y filtrar diferentes competencias, desde retos diarios hasta grandes eventos. Es el punto de partida para que toda la comunidad interactúe con los desafíos de programación en un formato competitivo.&lt;/p>
+&lt;p>Esta característica es fundamental porque permite:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Encontrar oportunidades de práctica:&lt;/strong> Descubrir concursos adecuados para reforzar conocimientos, poner a prueba habilidades o prepararse para futuras competencias.&lt;/li>
+&lt;li>&lt;strong>Mantener la motivación:&lt;/strong> Los concursos son una excelente forma de gamificar el aprendizaje, ofreciendo retos que impulsan a seguir adelante.&lt;/li>
+&lt;li>&lt;strong>Evaluar el progreso:&lt;/strong> Participar en concursos permite a cada persona observar su desempeño y comprender dónde necesita mejorar sus habilidades.&lt;/li>
+&lt;li>&lt;strong>Promover el aprendizaje continuo:&lt;/strong> La exploración de concursos anima a estudiantes y docentes a buscar nuevos desafíos, ampliando constantemente su experiencia en programación.&lt;/li>
+&lt;/ul>
+&lt;h2>¿Quiénes utilizan esta sección?&lt;span class="hx-absolute -hx-mt-20" id="quiénes-utilizan-esta-sección">&lt;/span>
+&lt;a href="#qui%c3%a9nes-utilizan-esta-secci%c3%b3n" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Esta sección es utilizada por una amplia gama de usuarios y usuarias:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Estudiantes:&lt;/strong> Para encontrar y participar en retos de programación que les permitan aprender y mejorar.&lt;/li>
+&lt;li>&lt;strong>Personal Docente y Facilitadores:&lt;/strong> Para descubrir recursos didácticos valiosos, complementar sus clases y monitorear oportunidades de práctica para sus grupos.&lt;/li>
+&lt;li>&lt;strong>Organizadores de Concursos:&lt;/strong> Para que sus eventos sean visibles y accesibles para toda la comunidad de omegaUp.&lt;/li>
+&lt;/ul>
+&lt;h2>¿Dónde y Cuándo Acceder a los Concursos?&lt;span class="hx-absolute -hx-mt-20" id="dónde-y-cuándo-acceder-a-los-concursos">&lt;/span>
+&lt;a href="#d%c3%b3nde-y-cu%c3%a1ndo-acceder-a-los-concursos" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Se puede acceder a la tabla principal de concursos de dos maneras:&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>Desde el menú principal:&lt;/strong> Una vez que se ha iniciado sesión en omegaUp, simplemente selecciona la opción &amp;ldquo;Concursos&amp;rdquo; en la barra de navegación superior.
+&lt;img src="https://blog.omegaup.com/images/concurso-pag-principal-1.png" alt="(Imagen 1)" loading="lazy" />&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Directamente por URL:&lt;/strong> Para un acceso rápido, se puede visitar &lt;a href="https://omegaup.com/arena/" target="_blank" rel="noopener">https://omegaup.com/arena/&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>Esta sección es útil en cualquier momento que se desee buscar un desafío de programación. Es ideal para:&lt;/p>
+&lt;ul>
+&lt;li>Cuando se busca una actividad complementaria para practicar lo aprendido.&lt;/li>
+&lt;li>Para prepararse para competencias de programación como Olimpiadas de Informática.&lt;/li>
+&lt;li>Al inicio de un nuevo periodo de estudio o enseñanza para planificar actividades competitivas.&lt;/li>
+&lt;li>En cualquier momento para mantenerse al tanto de las oportunidades de práctica disponibles.&lt;/li>
+&lt;/ul>
+&lt;h2>¿Cómo Navegar y Utilizar la Tabla de Concursos?&lt;span class="hx-absolute -hx-mt-20" id="cómo-navegar-y-utilizar-la-tabla-de-concursos">&lt;/span>
+&lt;a href="#c%c3%b3mo-navegar-y-utilizar-la-tabla-de-concursos" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>La interfaz de la tabla de concursos es intuitiva y ofrece varias opciones para encontrar la competencia ideal:&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>Visualizar Concursos Actuales:&lt;/strong>
+Al ingresar a la sección de &amp;ldquo;Concursos&amp;rdquo;, por defecto se mostrarán los concursos &amp;ldquo;Actuales&amp;rdquo;.
+&lt;img src="https://blog.omegaup.com/images/concurso-pag-principal-2.png" alt="(Imagen 2)" loading="lazy" />
+Estos son los que están en curso o próximos a comenzar, y a los que se puede unir. También se pueden seleccionar las pestañas &amp;ldquo;Próximos&amp;rdquo; o &amp;ldquo;Pasados&amp;rdquo; para explorar otras categorías de concursos.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Buscar por Palabra Clave:&lt;/strong>
+Si se busca un concurso específico o temático, se puede utilizar la barra de búsqueda. Introduce una palabra clave en la caja de texto y haz clic en el botón &amp;ldquo;Buscar&amp;rdquo;.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Ordenar los Resultados:&lt;/strong>
+La plataforma permite organizar la lista de concursos de diversas maneras para facilitar la búsqueda. Haz clic en el botón &amp;ldquo;Ordenar por&amp;rdquo; para desplegar las opciones y selecciona la que mejor se adapte a tus necesidades. Las opciones incluyen:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Finaliza:&lt;/strong> Ordena por la fecha de finalización del concurso.&lt;/li>
+&lt;li>&lt;strong>Nombre:&lt;/strong> Ordena alfabéticamente por el nombre del concurso.&lt;/li>
+&lt;li>&lt;strong>Duración:&lt;/strong> Ordena por la extensión del concurso.&lt;/li>
+&lt;li>&lt;strong>Organiza:&lt;/strong> Ordena por el nombre de usuarios de quienes organizan.&lt;/li>
+&lt;li>&lt;strong>Concursantes:&lt;/strong> Ordena por el número de participantes.&lt;/li>
+&lt;li>&lt;strong>Inscrito:&lt;/strong> Muestra si ya se está inscrito en el concurso.
+&lt;img src="https://blog.omegaup.com/images/concurso-pag-principal-3.png" alt="(Imagen 3)" loading="lazy" />&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Filtrar los Resultados:&lt;/strong>
+Para refinar aún más la búsqueda, se pueden aplicar filtros específicos. Haz clic en el botón &amp;ldquo;Filtrar por&amp;rdquo; y elige una de las siguientes opciones:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Todos:&lt;/strong> Muestra todos los concursos disponibles.&lt;/li>
+&lt;li>&lt;strong>Soy participante:&lt;/strong> Muestra solo los concursos en los que el usuaria o usuario está registrado.&lt;/li>
+&lt;li>&lt;strong>Solo recomendados:&lt;/strong> Muestra concursos sugeridos por omegaUp.
+&lt;img src="https://blog.omegaup.com/images/concurso-pag-principal-4.png" alt="(Imagen 4)" loading="lazy" />&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Seleccionar un Concurso:&lt;/strong>
+Una vez que se ha encontrado un concurso de interés, simplemente haz clic en el botón &amp;ldquo;Ver detalles&amp;rdquo; junto al nombre del concurso. Esto llevará a la página de detalles del concurso, donde se puede encontrar información adicional como reglas, problemas y el botón para unirse.
+&lt;img src="https://blog.omegaup.com/images/concurso-pag-principal-5.png" alt="(Imagen 5)" loading="lazy" />&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>La tabla principal de concursos de omegaUp es una herramienta poderosa que permite a todas las personas explorar un vasto universo de desafíos de programación. Al dominar su navegación, se abre un sinfín de oportunidades para enriquecer el proceso de aprendizaje y prepararse para los retos del futuro en el ámbito de la informática.&lt;/p></description></item><item><title>Concursos: Pasados y la Magia de los Concursos Virtuales</title><link>https://blog.omegaup.com/features/general/concursos-pasados-virtuales/</link><pubDate>Wed, 25 Jun 2025 12:13:14 +0000</pubDate><guid>https://blog.omegaup.com/features/general/concursos-pasados-virtuales/</guid><description>
+&lt;blockquote>
+&lt;p>Concursos: Pasados y la Magia de los Concursos Virtuales en omegaUp para Todas las Personas&lt;/p>
+&lt;/blockquote>
+&lt;h2>¿Qué son los Concursos Virtuales a partir de Concursos Pasados?&lt;span class="hx-absolute -hx-mt-20" id="qué-son-los-concursos-virtuales-a-partir-de-concursos-pasados">&lt;/span>
+&lt;a href="#qu%c3%a9-son-los-concursos-virtuales-a-partir-de-concursos-pasados" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Un &lt;strong>concurso virtual&lt;/strong> es una réplica de un concurso que ya ha finalizado en omegaUp. Lo especial de esta funcionalidad es que permite &amp;ldquo;revivir&amp;rdquo; un concurso pasado, creando una nueva instancia con un horario personalizado y participantes específicos. Es como tener una máquina del tiempo para recrear un evento competitivo.&lt;/p>
+&lt;p>Esta característica es extremadamente útil para cualquier persona involucrada en la programación por varias razones:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Práctica dirigida:&lt;/strong> Permite a un grupo de estudiantes practicar con problemas de concursos reales que ya tuvieron lugar, bajo condiciones de tiempo y evaluación similares.&lt;/li>
+&lt;li>&lt;strong>Evaluación formativa:&lt;/strong> Se pueden usar concursos pasados como exámenes o prácticas calificadas para medir el progreso del alumnado.&lt;/li>
+&lt;li>&lt;strong>Preparación para futuras competencias:&lt;/strong> Simular la experiencia de un concurso real es invaluable para preparar a estudiantes para olimpiadas o competiciones.&lt;/li>
+&lt;li>&lt;strong>Flexibilidad:&lt;/strong> Permite a quien organiza controlar cuándo y quiénes pueden participar, adaptándose a los horarios y ritmos de cada grupo.&lt;/li>
+&lt;li>&lt;strong>Reutilización de recursos:&lt;/strong> Se aprovecha el vasto archivo de problemas y configuraciones de concursos ya existentes en omegaUp, ahorrando tiempo en la creación de contenido desde cero.&lt;/li>
+&lt;/ul>
+&lt;h2>¿Quiénes pueden utilizar esta funcionalidad?&lt;span class="hx-absolute -hx-mt-20" id="quiénes-pueden-utilizar-esta-funcionalidad">&lt;/span>
+&lt;a href="#qui%c3%a9nes-pueden-utilizar-esta-funcionalidad" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Principalmente, esta característica está diseñada para:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Estudiantes:&lt;/strong> Para acceder a material de práctica estructurado y experimentar las dinámicas de un concurso.&lt;/li>
+&lt;li>&lt;strong>Personal Docente y Entrenadores de Programación:&lt;/strong> Quienes buscan material de práctica o evaluación estructurado para sus clases o equipos.&lt;/li>
+&lt;li>&lt;strong>Organizadores de Talleres o Clubes de Programación:&lt;/strong> Para ofrecer experiencias competitivas controladas a sus miembros.&lt;/li>
+&lt;/ul>
+&lt;h2>¿Dónde y Cuándo se pueden generar estos Concursos Virtuales?&lt;span class="hx-absolute -hx-mt-20" id="dónde-y-cuándo-se-pueden-generar-estos-concursos-virtuales">&lt;/span>
+&lt;a href="#d%c3%b3nde-y-cu%c3%a1ndo-se-pueden-generar-estos-concursos-virtuales" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>La funcionalidad para generar concursos virtuales se encuentra dentro de la sección de &amp;ldquo;Concursos&amp;rdquo; de omegaUp, específicamente al navegar a la pestaña de &lt;strong>&amp;ldquo;Pasados&amp;rdquo;&lt;/strong>. Para un acceso directo, se puede visitar &lt;a href="https://omegaup.com/arena/?page=1&amp;amp;tab_name=past" target="_blank" rel="noopener">https://omegaup.com/arena/?page=1&amp;amp;tab_name=past&lt;/a>.&lt;/p>
+&lt;p>Esta opción es ideal en cualquier momento que se necesite una práctica controlada o una evaluación basada en problemas de concursos previos. Se puede programar un concurso virtual para:&lt;/p>
+&lt;ul>
+&lt;li>Una sesión de estudio específica.&lt;/li>
+&lt;li>Una tarea a realizar fuera del horario habitual.&lt;/li>
+&lt;li>Como parte de un programa de entrenamiento intensivo.&lt;/li>
+&lt;/ul>
+&lt;h2>¿Cómo generar y personalizar un Concurso Virtual?&lt;span class="hx-absolute -hx-mt-20" id="cómo-generar-y-personalizar-un-concurso-virtual">&lt;/span>
+&lt;a href="#c%c3%b3mo-generar-y-personalizar-un-concurso-virtual" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>A continuación, se detalla el proceso para generar y configurar un concurso virtual a partir de un concurso pasado:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Acceder y Seleccionar un Concurso Pasado:&lt;/strong>
+Dentro de la plataforma omegaUp, dirígete a la sección &amp;ldquo;Concursos&amp;rdquo; y luego selecciona la pestaña &lt;strong>&amp;ldquo;Pasados&amp;rdquo;&lt;/strong>. Aquí encontrarás una lista de concursos que ya han terminado. Ubica el concurso que deseas &amp;ldquo;virtualizar&amp;rdquo; y haz clic en el botón &amp;ldquo;Entrar&amp;rdquo;. Se desplegarán dos opciones: &amp;ldquo;Virtual&amp;rdquo; y &amp;ldquo;Práctica&amp;rdquo;. Elige la opción &lt;strong>&amp;ldquo;Virtual&amp;rdquo;&lt;/strong>. &lt;img src="https://blog.omegaup.com/images/concurso-virtual-1.png" alt="(Imagen 1)" loading="lazy" />&lt;/li>
+&lt;li>&lt;strong>Personalizar la Fecha de Inicio:&lt;/strong>
+Una vez seleccionada la opción &amp;ldquo;Virtual&amp;rdquo;, serás redirigido a una página donde podrás personalizar la fecha y hora de inicio de tu concurso virtual. Establece el momento deseado y luego presiona &amp;ldquo;Agendar concurso virtual&amp;rdquo;. &lt;img src="https://blog.omegaup.com/images/concurso-virtual-2.png" alt="(Imagen 2)" loading="lazy" />&lt;/li>
+&lt;li>&lt;strong>Personalizar las Opciones de Concursantes:&lt;/strong>
+Tras agendar el concurso, podrás acceder a la página de edición del mismo. Aquí, una de las pestañas cruciales es &amp;ldquo;Concursantes&amp;rdquo;. En esta sección, el personal docente (o quien administre el concurso) puede agregar a estudiantes individualmente o a grupos enteros que participarán en este concurso virtual. Esto asegura que solo las personas deseadas tengan acceso a esta instancia específica de la competencia. &lt;img src="https://blog.omegaup.com/images/concurso-virtual-3.png" alt="(Imagen 3)" loading="lazy" />&lt;/li>
+&lt;li>&lt;strong>Enlaces de Herramientas de Administración:&lt;/strong>
+En la interfaz de edición del concurso, encontrarás la pestaña &amp;ldquo;Enlaces&amp;rdquo;. Aquí se disponen varias herramientas administrativas que facilitan la gestión y el seguimiento del concurso virtual. Podrás acceder a enlaces para ver los envíos, estadísticas, reportes de actividad, versiones imprimibles, y enlaces directos a los scoreboards (tablas de puntuación) del concurso, tanto para concursantes como para administradores. &lt;img src="https://blog.omegaup.com/images/concurso-virtual-4.png" alt="(Imagen 4)" loading="lazy" />&lt;/li>
+&lt;li>&lt;strong>Opciones Adicionales: Clonar y Archivar:&lt;/strong>
+Dentro de la página de edición del concurso, también se encuentran las opciones de &amp;ldquo;Clonar&amp;rdquo; y &amp;ldquo;Archivar&amp;rdquo;. La opción &amp;ldquo;Clonar&amp;rdquo; permite crear una copia exacta de este concurso virtual (similar a la clonación de cursos, pero específica para concursos), lo cual es útil si necesitas múltiples instancias del mismo concurso con pequeñas variaciones. &amp;ldquo;Archivar&amp;rdquo; permite guardar el concurso si ya no es necesario que esté activo, pero sin eliminarlo permanentemente.&lt;/li>
+&lt;li>&lt;strong>Visualizar el Concurso Virtual:&lt;/strong>
+Una vez que todas las configuraciones estén listas y el concurso esté agendado, puedes hacer clic en &amp;ldquo;Ir al concurso&amp;rdquo; (generalmente un botón o enlace visible en la parte superior de la página de edición) para previsualizar el concurso virtual. Se visualizará el entorno del concurso con todas las funciones activas, listo para la participación. &lt;img src="https://blog.omegaup.com/images/concurso-virtual-6.png" alt="(Imagen 6)" loading="lazy" />&lt;/li>
+&lt;li>&lt;strong>Invitación y Participación:&lt;/strong>
+Con el concurso virtual configurado, el personal docente o el organizador puede invitar a las personas participantes. Cada participante que se haya inscrito en el concurso virtual podrá hacer sus envíos de soluciones a los problemas. Los resultados de estos envíos se contabilizarán dentro del scoreboard de este concurso virtual específico, permitiendo un seguimiento claro del desempeño del grupo. &lt;img src="https://blog.omegaup.com/images/concurso-virtual-7.png" alt="(Imagen 7)" loading="lazy" />&lt;/li>
+&lt;/ol>
+&lt;p>La capacidad de crear concursos virtuales a partir de eventos pasados en omegaUp es una funcionalidad que potencia enormemente las posibilidades de aprendizaje. Permite a cualquier persona ofrecer o participar en experiencias de aprendizaje dinámicas y controladas, adaptadas a las necesidades de cada grupo o individuo, sin la necesidad de crear problemas desde cero.&lt;/p></description></item><item><title>Concursos: Pasados modo Práctica</title><link>https://blog.omegaup.com/features/general/concursos-pasados-practica/</link><pubDate>Fri, 27 Jun 2025 12:13:14 +0000</pubDate><guid>https://blog.omegaup.com/features/general/concursos-pasados-practica/</guid><description>
+&lt;blockquote>
+&lt;p>Entendiendo el Funcionamiento de los Concursos en omegaUp&lt;/p>
+&lt;/blockquote>
+&lt;h2>¿Qué es el Modo &amp;ldquo;Práctica&amp;rdquo; en Concursos Pasados?&lt;span class="hx-absolute -hx-mt-20" id="qué-es-el-modo-práctica-en-concursos-pasados">&lt;/span>
+&lt;a href="#qu%c3%a9-es-el-modo-pr%c3%a1ctica-en-concursos-pasados" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>El &lt;strong>modo &amp;ldquo;Práctica&amp;rdquo;&lt;/strong> permite acceder a un concurso que ya ha finalizado en omegaUp, pero con la particularidad de que no hay participantes activos ni cronómetro. Es una réplica del concurso original, diseñada para la &lt;strong>exploración individual&lt;/strong> de los problemas y la interfaz, sin afectar ningún registro o clasificación.&lt;/p>
+&lt;p>Esta funcionalidad es sumamente valiosa porque:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Familiarización con la interfaz:&lt;/strong> Permite navegar por un concurso, enviar soluciones y utilizar las clarificaciones sin la presión de una evaluación formal.&lt;/li>
+&lt;li>&lt;strong>Preparación sin estrés:&lt;/strong> Se pueden intentar resolver los problemas a su propio ritmo, analizando las soluciones y aprendiendo de los errores sin el impacto de un mal resultado en un ranking.&lt;/li>
+&lt;li>&lt;strong>Análisis post-concurso:&lt;/strong> Se pueden revisar los problemas y sus soluciones en un entorno controlado, preparando explicaciones o material didáctico basado en competencias previas.&lt;/li>
+&lt;li>&lt;strong>Exploración de problemas:&lt;/strong> Acceder a un vasto archivo de problemas de concursos reales para utilizarlos como material didáctico o tareas, sin las restricciones de tiempo de un concurso en vivo o virtual.&lt;/li>
+&lt;li>&lt;strong>Recurso de apoyo:&lt;/strong> Sirve como un banco de problemas disponibles para cuando se necesite práctica adicional sobre temas específicos.&lt;/li>
+&lt;/ul>
+&lt;h2>¿Quiénes se benefician del Modo &amp;ldquo;Práctica&amp;rdquo;?&lt;span class="hx-absolute -hx-mt-20" id="quiénes-se-benefician-del-modo-práctica">&lt;/span>
+&lt;a href="#qui%c3%a9nes-se-benefician-del-modo-pr%c3%a1ctica" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Esta característica está orientada a:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Estudiantes:&lt;/strong> Especialmente aquellos que son nuevos en la programación competitiva o en omegaUp, ya que les brinda un espacio seguro para experimentar.&lt;/li>
+&lt;li>&lt;strong>Personal Docente:&lt;/strong> Para preparar a sus estudiantes, revisar el contenido de concursos pasados y extraer problemas para tareas o ejemplos en clase.&lt;/li>
+&lt;li>&lt;strong>Cualquier persona que desee practicar problemas de programación:&lt;/strong> Sin la necesidad de participar en un concurso formal.&lt;/li>
+&lt;/ul>
+&lt;h2>¿Dónde y Cuándo se puede acceder al Modo &amp;ldquo;Práctica&amp;rdquo;?&lt;span class="hx-absolute -hx-mt-20" id="dónde-y-cuándo-se-puede-acceder-al-modo-práctica">&lt;/span>
+&lt;a href="#d%c3%b3nde-y-cu%c3%a1ndo-se-puede-acceder-al-modo-pr%c3%a1ctica" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>El modo &lt;strong>&amp;ldquo;Práctica&amp;rdquo;&lt;/strong> se encuentra disponible al acceder a los concursos &lt;strong>&amp;ldquo;Pasados&amp;rdquo;&lt;/strong> en la plataforma omegaUp. La URL principal para los concursos es &lt;a href="https://omegaup.com/arena/?page=1&amp;amp;tab_name=past" target="_blank" rel="noopener">https://omegaup.com/arena/?page=1&amp;amp;tab_name=past&lt;/a>.&lt;/p>
+&lt;p>Se puede acceder al modo &lt;strong>&amp;ldquo;Práctica&amp;rdquo;&lt;/strong> en cualquier momento, ya que está diseñado para el autoaprendizaje y la exploración. Es ideal para:&lt;/p>
+&lt;ul>
+&lt;li>Introducirse a la dinámica de los concursos.&lt;/li>
+&lt;li>Sesiones de práctica individuales o grupales en el aula o en casa.&lt;/li>
+&lt;li>Repaso de conceptos específicos a través de problemas de concursos anteriores.&lt;/li>
+&lt;/ul>
+&lt;h2>¿Cómo funciona el Modo &amp;ldquo;Práctica&amp;rdquo; de Concursos Pasados?&lt;span class="hx-absolute -hx-mt-20" id="cómo-funciona-el-modo-práctica-de-concursos-pasados">&lt;/span>
+&lt;a href="#c%c3%b3mo-funciona-el-modo-pr%c3%a1ctica-de-concursos-pasados" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Aquí se detallan los pasos para acceder y utilizar el modo &lt;strong>&amp;ldquo;Práctica&amp;rdquo;&lt;/strong>:&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>Acceder y Seleccionar el Concurso para Práctica:&lt;/strong>
+Desde la página principal de &amp;ldquo;Concursos&amp;rdquo; en omegaUp, dirígete a la pestaña &lt;strong>&amp;ldquo;Pasados&amp;rdquo;&lt;/strong>. Navega por la lista de concursos finalizados y selecciona el que te interese. Al hacer clic en el botón &amp;ldquo;Entrar&amp;rdquo;, se desplegarán dos opciones: &amp;ldquo;Virtual&amp;rdquo; y &amp;ldquo;Práctica&amp;rdquo;. Selecciona &lt;strong>&amp;ldquo;Práctica&amp;rdquo;&lt;/strong>. &lt;img src="https://blog.omegaup.com/images/concurso-practica-1.png" alt="(Imagen 1)" loading="lazy" />&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Explorar los Problemas del Concurso:&lt;/strong>
+Una vez dentro del modo &lt;strong>&amp;ldquo;Práctica&amp;rdquo;&lt;/strong>, la interfaz te mostrará la lista de problemas que formaron parte del concurso original. Podrás acceder a cada problema, leer su descripción, intentar resolverlo y enviar soluciones como si estuvieras en un concurso real, pero sin un tiempo límite ni la presión de una clasificación pública. Esto permite concentrarse puramente en la lógica y la codificación. &lt;img src="https://blog.omegaup.com/images/concurso-practica-2.png" alt="(Imagen 2)" loading="lazy" />&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Observar el Ranking (Histórico):&lt;/strong>
+En esta sección, podrás acceder a la pestaña &lt;strong>&amp;ldquo;Ranking&amp;rdquo;&lt;/strong>. Es importante notar que redirigirá al concurso original que se llevó a cabo. No se generará un nuevo ranking para las personas que practican en este modo, ya que está diseñado para el aprendizaje individual y no para la competencia. Sin embargo, puede servir como referencia del nivel de dificultad o para analizar el desempeño de los concursantes originales. &lt;img src="https://blog.omegaup.com/images/concurso-practica-3.png" alt="(Imagen 3)" loading="lazy" />&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Revisar Clarificaciones (Históricas):&lt;/strong>
+La pestaña &lt;strong>&amp;ldquo;Clarificaciones&amp;rdquo;&lt;/strong> en el modo &lt;strong>&amp;ldquo;Práctica&amp;rdquo;&lt;/strong> te permitirá visualizar las preguntas y respuestas que se realizaron durante el concurso original. Esta es una herramienta fantástica, ya que puede ofrecer perspectivas sobre las dudas comunes que surgieron en ese concurso y cómo fueron resueltas por los administradores. También es útil para entender cómo se manejan las dudas en un entorno competitivo real. &lt;img src="https://blog.omegaup.com/images/concurso-practica-4.png" alt="(Imagen 4)" loading="lazy" />&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>El modo &lt;strong>&amp;ldquo;Práctica&amp;rdquo;&lt;/strong> de concursos pasados en omegaUp es un recurso educativo valioso. Proporciona un entorno seguro y flexible para que &lt;strong>todas las personas&lt;/strong> ganen confianza en la plataforma y en sus habilidades de programación competitiva, ofreciendo una herramienta más para el diseño de actividades didácticas y el autoaprendizaje.&lt;/p></description></item><item><title>El nuevo ranking de contribuidores de omegaUp</title><link>https://blog.omegaup.com/features/general/ranking-de-contribuidores-de-omegaup/</link><pubDate>Sat, 03 Feb 2024 13:00:00 +0000</pubDate><guid>https://blog.omegaup.com/features/general/ranking-de-contribuidores-de-omegaup/</guid><description>
 &lt;p>En &lt;strong>omegaUp&lt;/strong>, reconocemos y valoramos el impacto positivo de aquellos que contribuyen al desarrollo de nuestra plataforma. Presentamos con entusiasmo nuestro renovado sistema de clasificación, diseñado para destacar la dedicación y habilidades de aquellos que han ayudado a dar forma a &lt;strong>omegaUp&lt;/strong>, ya sea creando desafiantes problemas de programación o contribuyendo de diversas formas.&lt;/p>
 &lt;p>En esta ocasión anunciamos el nuevo &lt;a href="https://omegaup.com/rank/authors/" target="_blank" rel="noopener">ranking de nuestros contribuidores más activos del mes&lt;/a> en &lt;strong>omegaUp&lt;/strong>:&lt;/p>
 &lt;p>&lt;a href="https://blog.omegaup.com/images/Screen-Shot-2024-02-03-at-12.34.24-PM.png" >&lt;img src="https://blog.omegaup.com/images/Screen-Shot-2024-02-03-at-12.34.24-PM-1204x912.png" alt="Ranking de Contribuidores" loading="lazy" />&lt;/a>&lt;/p>
