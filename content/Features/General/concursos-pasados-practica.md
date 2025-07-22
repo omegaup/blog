@@ -11,7 +11,7 @@ draft: false
 tags: ['Features', 'Concursos', 'Docentes']
 ---
 
-> Entendiendo el Funcionamiento de las Competencias para Todos
+> Entendiendo el Funcionamiento de los Concursos en omegaUp
 
 ## ¿Qué es el Modo "Práctica" en Concursos Pasados?
 

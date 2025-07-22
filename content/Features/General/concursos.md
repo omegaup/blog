@@ -72,7 +72,7 @@ La interfaz de la tabla de concursos es intuitiva y ofrece varias opciones para 
     Para refinar aún más la búsqueda, se pueden aplicar filtros específicos. Haz clic en el botón "Filtrar por" y elige una de las siguientes opciones:
     * **Todos:** Muestra todos los concursos disponibles.
     * **Soy participante:** Muestra solo los concursos en los que el usuaria o usuario está registrado.
-    * **Solo recomendados:** Muestra concursos sugeridos por la omegaUp.
+    * **Solo recomendados:** Muestra concursos sugeridos por omegaUp.
 ![(Imagen 4)](/images/concurso-pag-principal-4.png)
     
 5.  **Seleccionar un Concurso:**
