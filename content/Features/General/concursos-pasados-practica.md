@@ -1,6 +1,6 @@
 ---
 title: 'Concursos: Pasados modo Práctica'
-weight: 9
+weight: 2
 type: docs
 sidebar:
   open: true
