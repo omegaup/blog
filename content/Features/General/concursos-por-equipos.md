@@ -1,5 +1,6 @@
 ---
 title: 'Concursos por equipos'
+weight: 4
 type: docs
 sidebar:
   open: true

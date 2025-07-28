@@ -1,6 +1,6 @@
 ---
 title: 'Concursos: Tabla principal'
-weight: 7
+weight: 1
 type: docs
 sidebar:
   open: true

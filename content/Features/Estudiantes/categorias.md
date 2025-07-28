@@ -1,5 +1,6 @@
 ---
 title: 'Categorías omegaUp'
+weight: 7
 type: docs
 sidebar:
   open: true

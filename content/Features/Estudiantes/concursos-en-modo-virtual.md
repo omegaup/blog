@@ -1,5 +1,6 @@
 ---
 title: 'Concursos en Modo Virtual'
+weight: 3
 type: docs
 sidebar:
   open: true

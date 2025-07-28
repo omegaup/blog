@@ -1,5 +1,6 @@
 ---
 title: 'Insignias de Usuario en omegaUp'
+weight: 5
 type: docs
 sidebar:
   open: true
