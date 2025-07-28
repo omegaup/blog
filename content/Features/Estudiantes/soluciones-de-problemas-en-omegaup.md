@@ -1,5 +1,6 @@
 ---
 title: 'Soluciones de problemas en omegaUp'
+weight: 6
 type: docs
 sidebar:
   open: true
