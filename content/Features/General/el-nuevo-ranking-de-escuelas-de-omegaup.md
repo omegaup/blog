@@ -8,7 +8,7 @@ author_email: 'carlos@omegaup.com'
 date: Wed, 05 Feb 2020 03:28:58 +0000
 draft: false
 tags: ['Features', 'Ranking', 'Anuncios']
-aliases: ['/el-nuevo-ranking-de-escuelas-de-omegaup']
+aliases: ['/el-nuevo-ranking-de-escuelas-de-omegaup','/features/el-nuevo-ranking-de-escuelas-de-omegaup']
 ---
 
 {{< figure src="/images/Ranking.webm" height="858" width="1033" link="/images/Ranking.gif" caption="Rankings de escuelas" >}}
