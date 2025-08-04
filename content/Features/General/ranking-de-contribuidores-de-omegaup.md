@@ -8,7 +8,7 @@ author_email: 'axssel.diazfl@gmail.com'
 date: Sat, 03 Feb 2024 13:00:00 +0000
 draft: false
 tags: ['Features', 'Ranking', 'Anuncios', 'omegaUp']
-aliases: ['/ranking-de-contribuidores-de-omegaup']
+aliases: ['/ranking-de-contribuidores-de-omegaup','/features/ranking-de-contribuidores-de-omegaup']
 ---
 
 En **omegaUp**, reconocemos y valoramos el impacto positivo de aquellos que contribuyen al desarrollo de nuestra plataforma. Presentamos con entusiasmo nuestro renovado sistema de clasificación, diseñado para destacar la dedicación y habilidades de aquellos que han ayudado a dar forma a **omegaUp**, ya sea creando desafiantes problemas de programación o contribuyendo de diversas formas.
