@@ -9,7 +9,7 @@ author_email: 'juan.pablo@omegaup.com'
 date: Sat, 08 Feb 2020 22:56:22 +0000
 draft: false
 tags: ['Features', 'Concursos', 'Uncategorized']
-aliases: ['/administracion-de-identidades']
+aliases: ['/administracion-de-identidades','/features/administracion-de-identidades']
 ---
 
 Hemos liberado una nueva funcionalidad en omegaUp para que puedas administrar identidades dentro de un grupo. Si has sido organizador de un concurso o curso, seguramente has requerido de la ayuda de algún miembro de omegaUp para dar de alta las cuentas de los usuarios que participarán en el evento que organizaste con este [script](https://github.com/omegaup/omegaup/blob/73db504f8494ce00d0305931730ea35a89a8aa6b/frontend/server/controllers/UserController.php#L644). Con esta nueva funcionalidad serás capaz de realizar todas las acciones por tu cuenta.
