@@ -1,4 +1,28 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>omegaUp blog – Uncategorized</title><link>https://blog.omegaup.com/tags/uncategorized/</link><description>Recent content in Uncategorized on omegaUp blog</description><generator>Hugo -- gohugo.io</generator><language>es</language><lastBuildDate>Fri, 10 Dec 2021 00:22:57 +0000</lastBuildDate><atom:link href="https://blog.omegaup.com/tags/uncategorized/index.xml" rel="self" type="application/rss+xml"/><item><title>Administración de Identidades</title><link>https://blog.omegaup.com/features/docentes/administracion-de-identidades/</link><pubDate>Sat, 08 Feb 2020 22:56:22 +0000</pubDate><guid>https://blog.omegaup.com/features/docentes/administracion-de-identidades/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>omegaUp blog – Uncategorized</title><link>https://blog.omegaup.com/tags/uncategorized/</link><description>Recent content in Uncategorized on omegaUp blog</description><generator>Hugo -- gohugo.io</generator><language>es</language><lastBuildDate>Fri, 10 Dec 2021 00:22:57 +0000</lastBuildDate><atom:link href="https://blog.omegaup.com/tags/uncategorized/index.xml" rel="self" type="application/rss+xml"/><item><title>Concursos en Modo Virtual</title><link>https://blog.omegaup.com/features/estudiantes/concursos-en-modo-virtual/</link><pubDate>Fri, 07 Dec 2018 06:00:21 +0000</pubDate><guid>https://blog.omegaup.com/features/estudiantes/concursos-en-modo-virtual/</guid><description>
+&lt;p>Estimados usuarios de omegaUp&lt;/p>
+&lt;p>Estamos muy felices de anunciar que hemos implementado una nueva funcionalidad de concursos en modo virtual en omegaUp :)&lt;/p>
+&lt;p>¿Qué es un concurso en modo virtual?&lt;/p>
+&lt;p>Concursos en modo virtual te permite reproducir un concurso pasado en un modo especial que imita el concurso real como sucedió. Con el scoreboard reproduciéndose en sincronía con el concurso original.&lt;/p>
+&lt;p>Estos son los pasos a seguir para crear y participar en un concurso en modo virtual:&lt;/p>
+&lt;ol>
+&lt;li>Crear concurso virtual. Crear el concurso virtual es muy simple! Solo tienes que ir a la sección de concursos en arena, buscar el concurso que te interesa y hacer click en el botón de modo virtual. &lt;a href="https://blog.omegaup.com/images/1.webm" >&lt;video autoplay muted loop>
+&lt;source src="https://blog.omegaup.com/images/1.webm" type="video/mp4">
+&lt;/video>
+&lt;/a>&lt;/li>
+&lt;li>Pon un tiempo y hora de inicio para tu concurso virtual.&lt;a href="https://blog.omegaup.com/images/2.webm" >&lt;video autoplay muted loop>
+&lt;source src="https://blog.omegaup.com/images/2.webm" type="video/mp4">
+&lt;/video>
+&lt;/a>&lt;/li>
+&lt;li>Entra a tu concurso virtual. Simplemente haz click en comenzar concurso. También puedes invitar a tus amigos o rivales a tu concurso en modo virtual&lt;img src="https://blog.omegaup.com/images/3.webm" alt="&lt;video autoplay muted loop>
+&lt;source src="https://blog.omegaup.com/images/3.webm" type="video/mp4">
+&lt;/video>
+" loading="lazy" />&lt;/li>
+&lt;li>Disfruta el entrenamiento!&lt;/li>
+&lt;/ol>
+&lt;p>Verás a otros usuarios en tu concurso virtual en el scoreboard y mini rank. Tú aparecerás como &lt;strong>usuario-[virtual]&lt;/strong>. El scoreboard estará sincronizado con el del concurso original en todo momento.&lt;/p>
+&lt;p>&lt;a href="https://blog.omegaup.com/images/4.png" >&lt;img src="https://blog.omegaup.com/images/4.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
+&lt;p>El crédito de esta funcionalidad va para nuestro becario Vincent Fango que desarrolló este proyecto (&lt;a href="https://github.com/SpaceWhite" target="_blank" rel="noopener">https://github.com/SpaceWhite&lt;/a>). Si te interesa conocer detalles técnicos sobre la implementación de esta funcionalidad puedes escucharlos de Vincent mismo: &lt;a href="https://www.youtube.com/channel/UChhWcITUEZy7f0wLPlQgE8A?view_as=subscriber" target="_blank" rel="noopener">https://www.youtube.com/channel/UChhWcITUEZy7f0wLPlQgE8A?view_as=subscriber&lt;/a>&lt;/p>
+&lt;p>Nota: En concursos en modo virtual no podrás añadir, editar ni borrar problemas. Tampoco podrás cambiar la duración del concurso entre otras configuraciones.&lt;/p></description></item><item><title>Administración de Identidades</title><link>https://blog.omegaup.com/features/docentes/administracion-de-identidades/</link><pubDate>Sat, 08 Feb 2020 22:56:22 +0000</pubDate><guid>https://blog.omegaup.com/features/docentes/administracion-de-identidades/</guid><description>
 &lt;p>Hemos liberado una nueva funcionalidad en omegaUp para que puedas administrar identidades dentro de un grupo. Si has sido organizador de un concurso o curso, seguramente has requerido de la ayuda de algún miembro de omegaUp para dar de alta las cuentas de los usuarios que participarán en el evento que organizaste con este &lt;a href="https://github.com/omegaup/omegaup/blob/73db504f8494ce00d0305931730ea35a89a8aa6b/frontend/server/controllers/UserController.php#L644" target="_blank" rel="noopener">script&lt;/a>. Con esta nueva funcionalidad serás capaz de realizar todas las acciones por tu cuenta.&lt;/p>
 &lt;h1>¿Qué es una Identidad?&lt;/h1>&lt;p>Una identidad en omegaUp es una cuenta con los privilegios suficientes para ingresar a un curso o concurso para el cual haya sido creada. Anteriormente, para que un usuario pudiera ingresar al curso o concurso, era necesario hacer los cambios necesarios en el código descrito en el párrafo anterior.&lt;/p>
 &lt;h2>Ventajas
@@ -95,7 +119,18 @@ aliases: [&amp;rsquo;/administracion-de-identidades']&lt;span class="hx-absolute
 &lt;p>&lt;a href="https://blog.omegaup.com/images/Imagen_9-Editar_Perfil.png" >&lt;img src="https://blog.omegaup.com/images/Imagen_9-Editar_Perfil.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
 &lt;p>Una vez que dentro de la pantalla de Editar Perfil, si se desplaza un poco, debajo de Editar tu perfil se puede encontrar la sección de Administrar Identidades. Sólo es cuestión de que agregue el username y la contraseña de la identidad para que esta se asocie a la cuenta.&lt;/p>
 &lt;p>&lt;a href="https://blog.omegaup.com/images/Imagen_10-Vincular_Identidad.png" >&lt;img src="https://blog.omegaup.com/images/Imagen_10-Vincular_Identidad.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
-&lt;p>Atentamente, El equipo de omegaUp&lt;/p></description></item><item><title>Bases de Liga de Programación de omegaUp</title><link>https://blog.omegaup.com/news/bases-de-liga-de-programacion-de-omegaup/</link><pubDate>Fri, 10 Dec 2021 00:22:57 +0000</pubDate><guid>https://blog.omegaup.com/news/bases-de-liga-de-programacion-de-omegaup/</guid><description>
+&lt;p>Atentamente, El equipo de omegaUp&lt;/p></description></item><item><title>Concursos Virtuales</title><link>https://blog.omegaup.com/features/estudiantes/concursos-virtuales/</link><pubDate>Fri, 01 Mar 2019 04:37:05 +0000</pubDate><guid>https://blog.omegaup.com/features/estudiantes/concursos-virtuales/</guid><description>
+&lt;p>¿Te gustaría revivir un concurso de programación que ya pasó? ¿Te gustaría ver cómo se mueve la tabla de posiciones en tiempo real mientras vas subiendo tus soluciones? ¿Te gustaría saber cómo te “hubiera ido” en “aquél concurso” al que no pudiste ir?&lt;/p>
+&lt;p>¡El futuro es hoy! Todo esto ya es posible en omegaUp gracias a la nueva funcionalidad de “concursos virtuales”.&lt;/p>
+&lt;p>Para activar esta nueva funcionalidad simplemente elige un concurso en la arena y selecciona “Concurso virtual”, el concurso empezará y la lista de posiciones se irá actualizando conforme los participantes del concurso fueron subiendo sus soluciones, así podrás saber cómo te va con respecto a los competidores que participaron en el concurso.&lt;/p>
+&lt;p>Kudos a Vincent, estudiante de Japón, por implementar esta nueva funcionalidad el verano pasado como parte de su internship en Google Summer of Code.&lt;/p>
+&lt;p>¡Gracias a Google por el apoyo para llevar este proyecto a cabo a través de Google Summer of Code! Esperamos poder ser parte de este programa en el futuro.&lt;/p>
+&lt;p>Aquí les dejamos unos concursos interesantes:&lt;/p>
+&lt;p>- OPI 2017 &lt;a href="https://omegaup.com/arena/CPIO2017-virtual-uJq/virtual" target="_blank" rel="noopener">https://omegaup.com/arena/CPIO2017-virtual-uJq/virtual&lt;/a>&lt;/p>
+&lt;p>- OMI 2017 (día 1) &lt;a href="https://omegaup.com/arena/OMI2017DIA1PUBLICO/virtual" target="_blank" rel="noopener">https://omegaup.com/arena/OMI2017DIA1PUBLICO/virtual&lt;/a>&lt;/p>
+&lt;p>- OMI para Secundarias 2018 &lt;a href="https://omegaup.com/arena/OMIS2018PUBLICO/virtual" target="_blank" rel="noopener">https://omegaup.com/arena/OMIS2018PUBLICO/virtual&lt;/a>&lt;/p>
+&lt;p>- OMI para Primarias 2018 &lt;a href="https://omegaup.com/arena/OMIP2018PUBLICO/virtual" target="_blank" rel="noopener">https://omegaup.com/arena/OMIP2018PUBLICO/virtual&lt;/a>&lt;/p>
+&lt;p>Participa en esta y más conversaciones en nuestro blog: &lt;a href="https://blog.omegaup.com/concursos-en-modo-virtual/" target="_blank" rel="noopener">https://blog.omegaup.com/concursos-en-modo-virtual/&lt;/a>&lt;/p></description></item><item><title>Bases de Liga de Programación de omegaUp</title><link>https://blog.omegaup.com/news/bases-de-liga-de-programacion-de-omegaup/</link><pubDate>Fri, 10 Dec 2021 00:22:57 +0000</pubDate><guid>https://blog.omegaup.com/news/bases-de-liga-de-programacion-de-omegaup/</guid><description>
 &lt;p>omegaUp Invita a todos los estudiantes de nivel media superior y superior a participar a la 2° edición de la Liga de programación omegaUp.&lt;/p>
 &lt;p>&lt;strong>Reglas&lt;/strong>:&lt;/p>
 &lt;ul>
@@ -167,42 +202,7 @@ aliases: [&amp;rsquo;/administracion-de-identidades']&lt;span class="hx-absolute
 &lt;p>&lt;a href="https://blog.omegaup.com/images/ShowOutputDiffs_.webm" >&lt;video autoplay muted loop>
 &lt;source src="https://blog.omegaup.com/images/ShowOutputDiffs_.webm" type="video/mp4">
 &lt;/video>
-&lt;/a>&lt;/p></description></item><item><title>Concursos Virtuales</title><link>https://blog.omegaup.com/features/estudiantes/concursos-virtuales/</link><pubDate>Fri, 01 Mar 2019 04:37:05 +0000</pubDate><guid>https://blog.omegaup.com/features/estudiantes/concursos-virtuales/</guid><description>
-&lt;p>¿Te gustaría revivir un concurso de programación que ya pasó? ¿Te gustaría ver cómo se mueve la tabla de posiciones en tiempo real mientras vas subiendo tus soluciones? ¿Te gustaría saber cómo te “hubiera ido” en “aquél concurso” al que no pudiste ir?&lt;/p>
-&lt;p>¡El futuro es hoy! Todo esto ya es posible en omegaUp gracias a la nueva funcionalidad de “concursos virtuales”.&lt;/p>
-&lt;p>Para activar esta nueva funcionalidad simplemente elige un concurso en la arena y selecciona “Concurso virtual”, el concurso empezará y la lista de posiciones se irá actualizando conforme los participantes del concurso fueron subiendo sus soluciones, así podrás saber cómo te va con respecto a los competidores que participaron en el concurso.&lt;/p>
-&lt;p>Kudos a Vincent, estudiante de Japón, por implementar esta nueva funcionalidad el verano pasado como parte de su internship en Google Summer of Code.&lt;/p>
-&lt;p>¡Gracias a Google por el apoyo para llevar este proyecto a cabo a través de Google Summer of Code! Esperamos poder ser parte de este programa en el futuro.&lt;/p>
-&lt;p>Aquí les dejamos unos concursos interesantes:&lt;/p>
-&lt;p>- OPI 2017 &lt;a href="https://omegaup.com/arena/CPIO2017-virtual-uJq/virtual" target="_blank" rel="noopener">https://omegaup.com/arena/CPIO2017-virtual-uJq/virtual&lt;/a>&lt;/p>
-&lt;p>- OMI 2017 (día 1) &lt;a href="https://omegaup.com/arena/OMI2017DIA1PUBLICO/virtual" target="_blank" rel="noopener">https://omegaup.com/arena/OMI2017DIA1PUBLICO/virtual&lt;/a>&lt;/p>
-&lt;p>- OMI para Secundarias 2018 &lt;a href="https://omegaup.com/arena/OMIS2018PUBLICO/virtual" target="_blank" rel="noopener">https://omegaup.com/arena/OMIS2018PUBLICO/virtual&lt;/a>&lt;/p>
-&lt;p>- OMI para Primarias 2018 &lt;a href="https://omegaup.com/arena/OMIP2018PUBLICO/virtual" target="_blank" rel="noopener">https://omegaup.com/arena/OMIP2018PUBLICO/virtual&lt;/a>&lt;/p>
-&lt;p>Participa en esta y más conversaciones en nuestro blog: &lt;a href="https://blog.omegaup.com/concursos-en-modo-virtual/" target="_blank" rel="noopener">https://blog.omegaup.com/concursos-en-modo-virtual/&lt;/a>&lt;/p></description></item><item><title>Concursos en Modo Virtual</title><link>https://blog.omegaup.com/features/estudiantes/concursos-en-modo-virtual/</link><pubDate>Fri, 07 Dec 2018 06:00:21 +0000</pubDate><guid>https://blog.omegaup.com/features/estudiantes/concursos-en-modo-virtual/</guid><description>
-&lt;p>Estimados usuarios de omegaUp&lt;/p>
-&lt;p>Estamos muy felices de anunciar que hemos implementado una nueva funcionalidad de concursos en modo virtual en omegaUp :)&lt;/p>
-&lt;p>¿Qué es un concurso en modo virtual?&lt;/p>
-&lt;p>Concursos en modo virtual te permite reproducir un concurso pasado en un modo especial que imita el concurso real como sucedió. Con el scoreboard reproduciéndose en sincronía con el concurso original.&lt;/p>
-&lt;p>Estos son los pasos a seguir para crear y participar en un concurso en modo virtual:&lt;/p>
-&lt;ol>
-&lt;li>Crear concurso virtual. Crear el concurso virtual es muy simple! Solo tienes que ir a la sección de concursos en arena, buscar el concurso que te interesa y hacer click en el botón de modo virtual. &lt;a href="https://blog.omegaup.com/images/1.webm" >&lt;video autoplay muted loop>
-&lt;source src="https://blog.omegaup.com/images/1.webm" type="video/mp4">
-&lt;/video>
-&lt;/a>&lt;/li>
-&lt;li>Pon un tiempo y hora de inicio para tu concurso virtual.&lt;a href="https://blog.omegaup.com/images/2.webm" >&lt;video autoplay muted loop>
-&lt;source src="https://blog.omegaup.com/images/2.webm" type="video/mp4">
-&lt;/video>
-&lt;/a>&lt;/li>
-&lt;li>Entra a tu concurso virtual. Simplemente haz click en comenzar concurso. También puedes invitar a tus amigos o rivales a tu concurso en modo virtual&lt;img src="https://blog.omegaup.com/images/3.webm" alt="&lt;video autoplay muted loop>
-&lt;source src="https://blog.omegaup.com/images/3.webm" type="video/mp4">
-&lt;/video>
-" loading="lazy" />&lt;/li>
-&lt;li>Disfruta el entrenamiento!&lt;/li>
-&lt;/ol>
-&lt;p>Verás a otros usuarios en tu concurso virtual en el scoreboard y mini rank. Tú aparecerás como &lt;strong>usuario-[virtual]&lt;/strong>. El scoreboard estará sincronizado con el del concurso original en todo momento.&lt;/p>
-&lt;p>&lt;a href="https://blog.omegaup.com/images/4.png" >&lt;img src="https://blog.omegaup.com/images/4.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
-&lt;p>El crédito de esta funcionalidad va para nuestro becario Vincent Fango que desarrolló este proyecto (&lt;a href="https://github.com/SpaceWhite" target="_blank" rel="noopener">https://github.com/SpaceWhite&lt;/a>). Si te interesa conocer detalles técnicos sobre la implementación de esta funcionalidad puedes escucharlos de Vincent mismo: &lt;a href="https://www.youtube.com/channel/UChhWcITUEZy7f0wLPlQgE8A?view_as=subscriber" target="_blank" rel="noopener">https://www.youtube.com/channel/UChhWcITUEZy7f0wLPlQgE8A?view_as=subscriber&lt;/a>&lt;/p>
-&lt;p>Nota: En concursos en modo virtual no podrás añadir, editar ni borrar problemas. Tampoco podrás cambiar la duración del concurso entre otras configuraciones.&lt;/p></description></item><item><title>Anunciando omegaUp Escuelas</title><link>https://blog.omegaup.com/features/general/anunciando-omegaup-escuelas/</link><pubDate>Tue, 09 May 2017 05:05:50 +0000</pubDate><guid>https://blog.omegaup.com/features/general/anunciando-omegaup-escuelas/</guid><description>
+&lt;/a>&lt;/p></description></item><item><title>Anunciando omegaUp Escuelas</title><link>https://blog.omegaup.com/features/anuncios/anunciando-omegaup-escuelas/</link><pubDate>Tue, 09 May 2017 05:05:50 +0000</pubDate><guid>https://blog.omegaup.com/features/anuncios/anunciando-omegaup-escuelas/</guid><description>
 &lt;p>Con el objetivo de continuar mejorando las habilidades de programación de los estudiantes, nos emociona anunciar el lanzamiento de un nuevo proyecto: &lt;strong>omegaUp Escuelas&lt;/strong>.  Nuestro objetivo es llevar omegaUp a los salones de clases, creando una plataforma educativa, intuitiva y fácil de utilizar que se adapte a las necesidades de los profesores y estudiantes. La plataforma es una herramienta de aprendizaje que permite a los profesores enseñar a sus alumnos pensamiento algorítmico mediante la solución de problemas. Con ello, el estudiante desarrollará habilidades que le ayudarán en su crecimiento profesional.&lt;/p>
 &lt;p>&lt;a href="https://blog.omegaup.com/images/paginaPrincipal.png" >&lt;img src="https://blog.omegaup.com/images/paginaPrincipal-1024x738.png" alt="paginaPrincipal" loading="lazy" />&lt;/a>&lt;/p>
 &lt;p> &lt;/p>
