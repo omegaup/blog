@@ -1,6 +1,6 @@
 ---
 title: 'Concursos: Pasados y la Magia de los Concursos Virtuales'
-weight: 8
+weight: 3
 type: docs
 sidebar:
   open: true

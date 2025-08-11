@@ -1,5 +1,6 @@
 ---
 title: 'Concursos con Subtareas'
+weight: 5
 type: docs
 sidebar:
   open: true
