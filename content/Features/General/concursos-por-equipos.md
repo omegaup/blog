@@ -9,7 +9,7 @@ author_email: 'juan.pablo@omegaup.com'
 date: Thu, 24 Mar 2022 14:35:06 +0000
 draft: false
 tags: ['Features', 'Concursos', 'Anuncios', 'omegaUp']
-aliases: ['/concursos-por-equipos']
+aliases: ['/concursos-por-equipos','/features/concursos-por-equipos']
 ---
 
 Nos es grato informar que hemos liberado una nueva funcionalidad llamada **"Concursos por equipos"**, para poder atender los concursos con formato de **ICPC**, los cuales se realizan en equipos. Para que esta nueva modalidad de concursos pueda utilizarse, también se han liberado algunas características extras que se describirán más adelante.
