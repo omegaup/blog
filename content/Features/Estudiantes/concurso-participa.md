@@ -15,7 +15,7 @@ tags: ['Features', 'Cursos', 'Estudiantes']
 
 > ¡Tu Puerta a la Programación Competitiva!
 
-¡Hola, futuros programadores y programadoras! ¿Están listos para poner a prueba sus habilidades y aprender de una forma emocionante? En el mundo de la programación, los concursos son una excelente manera de mejorar, practicar y desafiarte a ti mismo. omegaUp, la plataforma que te ayuda a potenciar tus habilidades, tiene una sección de concursos llena de oportunidades.
+Pon a prueba sus habilidades y aprende de una forma emocionante. En el mundo de la programación, los concursos son una excelente manera de mejorar, practicar y desafiarte a ti mismo. omegaUp, la plataforma que te ayuda a potenciar tus habilidades, tiene una sección de concursos llena de oportunidades.
 
 Esta entrada de blog te guiará paso a paso para que descubras qué es un concurso en omegaUp y cómo puedes unirte a ellos, ya sea por auto-inscripción o invitación. ¡Prepárate para: estudiar, participar y codificar!
 
