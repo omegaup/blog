@@ -32,7 +32,7 @@ Ahí encontrarás un menú visual con las diferentes categorías, organizadas po
 
 ### ¿Por Qué son Importantes las Categorías?
 
-Las categorías son importantes porque te permiten seguir una **ruta de aprendizaje**. Cada nivel está diseñado para que los conocimientos se construyan sobre los anteriores. Si eres una persona principiante, puedes empezar por los problemas más sencillos, ganar confianza y luego avanzar a desafíos más complejos, ¡sin sentirte abrumado!
+Las categorías son importantes porque te permiten seguir una **ruta de aprendizaje**. Cada nivel está diseñado para que los conocimientos se construyan sobre los anteriores. Si eres una persona principiante, puedes empezar por los problemas más sencillos, ganar confianza y luego avanzar a desafíos más complejos, ¡siguiendo tu propio paso!
 
 ---
 
