@@ -12,7 +12,7 @@ toc: true
 {{< /hextra/hero-headline >}}
 
 {{< callout type="info" emoji=" " >}}
-  **Incrementando el talento de Ingeniería de Software en América Latina.**
+  **Programando un mejor futuro. Para todos.**
 {{< /callout >}}
 
 <div class="hx-mt-6 hx-mb-6">
