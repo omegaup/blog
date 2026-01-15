@@ -6,25 +6,26 @@ date: Wed, 01 Apr 2020 18:08:10 +0000
 draft: false
 tags: ['Solution', 'Concursos', 'liga omegaup', 'Material de estudio', 'solución', 'soluciones']
 aliases: ['/soluciones-a-liga-omegaup-fase-1']
+math: true
 ---
 
 ## [Problema A](https://omegaup.com/arena/problem/Rango-simple)
 
 Para este problema, consideramos un arreglo de ocurrencias $O$ sobre los elementos del arreglo. De modo que la respuesta está dada por
 
-$\\sum\\limits\_{i=A}^B O\_{i}$
+$\\sum\\limits\_{i=A}^B O_{i}$
 
 {{< gist DBriaares df979afcf721ba5aee429f948350e051 >}}
 
 ## [Problema B](https://omegaup.com/arena/problem/A-contar-lapices)
 
-Si consideramos el mismo arreglo de ocurrencias $O$ sobre los elementos del arreglo, la respuesta está dada por $O\_k$.
+Si consideramos el mismo arreglo de ocurrencias $O$ sobre los elementos del arreglo, la respuesta está dada por $O_k$.
 
 {{< gist DBriaares 2380189d0e29c2e29ab52771f353ebbe >}}
 
 ## [Problema C](https://omegaup.com/arena/problem/nofib)
 
-Podemos generar todos los elementos de la secuencia de Fibonacci hasta $30000$, y guardarlos en un mapa $M$, de modo que $M\_k = 1$ si $k$ es un elemento de Fibonnaci, y $M\_k = 0$ en caso contrario. Generamos la respuesta simplemente iterando desde $i = 4$ hasta $i = N - 1$, e imprimimos $i$ si $M\_i = 0$.
+Podemos generar todos los elementos de la secuencia de Fibonacci hasta $30000$, y guardarlos en un mapa $M$, de modo que $M_k = 1$ si $k$ es un elemento de Fibonnaci, y $M_k = 0$ en caso contrario. Generamos la respuesta simplemente iterando desde $i = 4$ hasta $i = N - 1$, e imprimimos $i$ si $M_i = 0$.
 
 {{< gist DBriaares 7d2a6b7afb388ceb9b22cf2f077670f5 >}}
 

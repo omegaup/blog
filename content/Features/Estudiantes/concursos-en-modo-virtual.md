@@ -24,7 +24,7 @@ Estos son los pasos a seguir para crear y participar en un concurso en modo virt
 
 1.  Crear concurso virtual.  Crear el concurso virtual es muy simple! Solo tienes que ir a la sección de concursos en arena, buscar el concurso que te interesa y hacer click en el botón de modo virtual.  [{{< video autoplay="true" loop="true" muted="true" src="/images/1.webm" type="video/mp4" >}}](/images/1.webm)
 2.  Pon un tiempo y hora de inicio para tu concurso virtual.[{{< video autoplay="true" loop="true" muted="true" src="/images/2.webm" type="video/mp4" >}}](/images/2.webm)
-3.  Entra a tu concurso virtual.  Simplemente haz click en comenzar concurso. También puedes invitar a tus amigos o rivales a tu concurso en modo virtual![{{< video autoplay="true" loop="true" muted="true" src="/images/3.webm" type="video/mp4" >}}](/images/3.webm)
+3.  Entra a tu concurso virtual.  Simplemente haz click en comenzar concurso. También puedes invitar a tus amigos o rivales a tu concurso en modo virtual! {{< video autoplay="true" loop="true" muted="true" src="/images/3.webm" type="video/webm" >}}
 4.  Disfruta el entrenamiento!
 
 Verás a otros usuarios en tu concurso virtual en el scoreboard y mini rank. Tú aparecerás como **usuario-\[virtual\]**. El scoreboard estará sincronizado con el del concurso original en todo momento.

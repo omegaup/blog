@@ -11,7 +11,7 @@ tags: ['Features', 'Ranking', 'Anuncios']
 aliases: ['/el-nuevo-ranking-de-escuelas-de-omegaup','/features/el-nuevo-ranking-de-escuelas-de-omegaup']
 ---
 
-{{< figure src="/images/Ranking.webm" height="858" width="1033" link="/images/Ranking.gif" caption="Rankings de escuelas" >}}
+{{< video autoplay="true" loop="true" muted="true" src="/images/Ranking.webm" type="video/webm" >}}
 
 Queremos presentarles el nuevo ranking de escuelas de omegaUp, tanto [mensual](https://omegaup.com/schoolofthemonth/) como [histórico](https://omegaup.com/rank/schools/). Cada uno de ellos funciona de manera similar, salvo por algunas variaciones que detallaremos a continuación:
 

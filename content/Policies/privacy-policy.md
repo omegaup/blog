@@ -27,11 +27,11 @@ Our Site may use "cookies" to enhance User experience. User's web browser places
 
 OmegaUp may collect and use Users personal information for the following purposes:
 
-*   _To run and operate our Site_We may need your information display content on the Site correctly.
-*   _To improve customer service_Information you provide helps us respond to your customer service requests and support needs more efficiently.
-*   _To personalize user experience_We may use information in the aggregate to understand how our Users as a group use the services and resources provided on our Site.
-*   _To improve our Site_We may use feedback you provide to improve our products and services.
-*   _To send periodic emails_We may use the email address to send User information and updates pertaining to their order. It may also be used to respond to their inquiries, questions, and/or other requests.
+*   **To run and operate our Site:** We may need your information display content on the Site correctly.
+*   **To improve customer service:** Information you provide helps us respond to your customer service requests and support needs more efficiently.
+*   **To personalize user experience:** We may use information in the aggregate to understand how our Users as a group use the services and resources provided on our Site.
+*   **To improve our Site:** We may use feedback you provide to improve our products and services.
+*   **To send periodic emails:** We may use the email address to send User information and updates pertaining to their order. It may also be used to respond to their inquiries, questions, and/or other requests.
 
 ### How we protect your information
 

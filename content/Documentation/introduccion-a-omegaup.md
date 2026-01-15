@@ -42,9 +42,9 @@ Hay datos que no hemos considerado en la descripción del problema: los límites
 
 *   **Límite de tiempo**: Tu solución no puede tardar más del tiempo indicado para resolver un caso. Para nuestro problema Sumas, tenemos 1 segundo para producir una solución. Para entender por qué el tiempo es un factor limitante, te recomiendo leer [The Importance of Algorithms](http://community.topcoder.com/tc?module=Static&d1=tutorials&d2=importance_of_algorithms) en los tutoriales de Topcoder.
 *   **Límite de memoria**: Tu solución no puede usar más megabytes de los permitidos por el límite para producir la respuesta.
-*   **Límites en las variables de entrada: **No todos los problemas tienen una sección específica donde se indice cuáles son los valores mínimos y máximos de una variable, por lo que necesitamos leer con atención el problema para obtenerlos.
+*   **Límites en las variables de entrada:** No todos los problemas tienen una sección específica donde se indique cuáles son los valores mínimos y máximos de una variable, por lo que necesitamos leer con atención el problema para obtenerlos.
 
-En nuestra solución anterior, hay un dato que no consideramos: La suma de ambos números cabe en un entero de 64 bits. En nuestra solución anterior estábamos usando el tipo de datos int, los cuales tienen un límite de 32 bits (Un int en C puede guardar números entre $latex -2^{31}$ hasta $latex 2^{31}-1$, es decir, de -2147483648 hasta 2147483648 ). Para satisfacer el límite de 64 bits, necesitamos usar variables que puedan soportarlo: long long (en C)
+En nuestra solución anterior, hay un dato que no consideramos: La suma de ambos números cabe en un entero de 64 bits. En nuestra solución anterior estábamos usando el tipo de datos int, los cuales tienen un límite de 32 bits (Un int en C puede guardar números entre $-2^{31}$  hasta  $2^{31}-1$, es decir, de -2147483648 hasta 2147483648 ). Para satisfacer el límite de 64 bits, necesitamos usar variables que puedan soportarlo: long long (en C)
 
 {{< gist joemmanuel 6596436 >}}
 
@@ -52,7 +52,7 @@ Nota como tuvimos que cambiar el %d del printf/scanf por %lld para leer y escrib
 
 La misma solución en Java:
 
- 
+{{< gist lhchavez 7710660 >}}
 
 Si quieres saber más sobre los tipos de variables y sus límites, te recomiendo leer: [Representation of integers and reals](http://community.topcoder.com/tc?module=Static&d1=tutorials&d2=integersReals) en Topcoder.com .
 
