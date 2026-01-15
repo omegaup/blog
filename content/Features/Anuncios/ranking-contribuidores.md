@@ -16,7 +16,7 @@ En omegaUp queremos reconocer a todas las personas que usan la plataforma. En es
 La métrica para cada usuario, llamada `author_score`, es calculada a través de la siguiente fórmula:
 
 $$
-\mathrm{author\_score} = \sum(\mathrm{problem\_quality})
+\mathrm{author\\_score} = \sum(\mathrm{problem\\_quality})
 $$
 
 En resumidas cuentas, la puntuación de contribuidor de cada persona, será igual a la suma de los puntos de calidad de cada uno de sus problemas. Estos puntos de calidad son los calculados a través del feedback de calidad que deja cada usuario cuando califica los problemas que resolvió o intentó resolver.
