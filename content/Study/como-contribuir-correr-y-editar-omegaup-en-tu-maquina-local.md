@@ -12,7 +12,7 @@ omegaUp es un proyecto open source. Todo el código que se usa para correr el si
 
 <!--more-->
 
-**Instrucciones de instalación de omegaUp: **[https://github.com/omegaup/omegaup/wiki/C%C3%B3mo-empezar-a-desarrollar](https://github.com/omegaup/omegaup/wiki/C%C3%B3mo-empezar-a-desarrollar)
+**Instrucciones de instalación de omegaUp:** [Cómo empezar a desarrollar](https://github.com/omegaup/omegaup/wiki/C%C3%B3mo-empezar-a-desarrollar)
 
 En omegaUp usamos github para administrar todo el código que corre el sitio. En caso de que no estés familiarizado con git, [la  ayuda de github](https://help.github.com/articles/set-up-git) y el [git book](http://git-scm.com/book/en/Getting-Started-Git-Basics) son excelentes lugares para empezar.
 
