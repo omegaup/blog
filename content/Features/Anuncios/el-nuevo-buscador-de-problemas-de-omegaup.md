@@ -19,7 +19,9 @@ El Asistente de búsqueda de problemas es una alternativa más fácil de usar pa
 
 #### **¿Cómo funciona el asistente de búsqueda?**
 
-{{< figure src="/images/Example.webm" alt="problem-finder-wizard" height="455" width="817" link="/images/Example.gif" caption="Un breve ejemplo" >}}
+{{< video autoplay="true" loop="true" muted="true" src="/images/Example.webm" type="video/webm" >}}
+
+**Un breve ejemplo**
 
 Usarlo es súper fácil, simplemente debes acceder a la pestaña de _Problemas_ y, debajo de los campos de búsqueda, se encuentra un enlace que dice “_Probar el nuevo buscador de problemas”,_ al hacer click en dicho enlace, se abrirá el nuevo buscador, a partir de ahí el proceso es muy simple:
 

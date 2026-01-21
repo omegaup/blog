@@ -42,50 +42,10 @@ De la notación de [Landau](https://es.wikipedia.org/wiki/Notaci%C3%B3n_de_Landa
 
 El orden de las categorías viene de la definición de las notaciones de Landau.
 
-**Notación**
-
-**Definición formal**
-
-**Descripción**
-
-**Interpretación práctica**
-
-_f(n) = o(g(n))_
-
- [![](/images/1.png)](/images/1.png)
-
-_f_ es dominada por arriba asintóticamente por _g_.
-
-_f < g_
-
-_f(n) = O(g(n))_
-
- [![](/images/2.png)](/images/2.png)
-
-_f_ es acotada por arriba asintóticamente por _g_.
-
-_f <= g_
-
-_f(n) = Θ(g(n))_
-
-_f(n) = o(g(n))_ y _f(n) = O(g(n))_
-
-_f_ es acotada por arriba y abajo asintóticamente por _g_.
-
-_f = g_
-
-_f(n) = Ω(g(n))_
-
- [![](/images/4.png)](/images/4.png)
-
-_f_ es acotada por abajo asintóticamente por _g_.
-
-_f >= g_
-
-_f(n) = ω(g(n))_
-
- [![](/images/5.png)](/images/5.png)
-
-_f_ es dominada por abajo asintóticamente por _g_.
-
-_f > g_
+| **Notación** | **Definición formal** | **Descripción** | **Interpretación práctica** |
+|:---|:---|:---|:---|
+| _f(n) = o(g(n))_ | [![](/images/1.png)](/images/1.png) | _f_ es dominada por arriba asintóticamente por _g_. | _f < g_ |
+| _f(n) = O(g(n))_ | [![](/images/2.png)](/images/2.png) | _f_ es acotada por arriba asintóticamente por _g_. | _f <= g_ |
+| _f(n) = Θ(g(n))_ | _f(n) = o(g(n))_ y _f(n) = O(g(n))_ | _f_ es acotada por arriba y abajo asintóticamente por _g_. | _f = g_ |
+| _f(n) = Ω(g(n))_ | [![](/images/4.png)](/images/4.png) | _f_ es acotada por abajo asintóticamente por _g_. | _f >= g_ |
+| _f(n) = ω(g(n))_ | [![](/images/5.png)](/images/5.png) | _f_ es dominada por abajo asintóticamente por _g_. | _f > g_ |

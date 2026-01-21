@@ -6,9 +6,10 @@ date: Sun, 19 Apr 2020 08:05:15 +0000
 draft: false
 tags: ['Solution', 'Concursos', 'liga omegaup', 'Material de estudio', 'solución']
 aliases: ['/soluciones-a-liga-omegaup-fase-2']
+math: true
 ---
 
-1.  **[Problema A](https://omegaup.com/arena/problem/No-se-molesto-en-escribir-uno)**
+## [Problema A](https://omegaup.com/arena/problem/No-se-molesto-en-escribir-uno)
 
 Las siguientes observaciones son claves para resolver el problema.
 
@@ -23,25 +24,25 @@ $w$ % $n = n - 1$
 
 $w$ % $n - 1 = n - 2$
 
-$\\ldots$
+$\* \* \\ldots  \**$
 
 $w$ % $2= 1$ .
 
-Entonces $w + 1$ es un común múltiplo de $2, 3, 4,  \\ldots,  n$.
+Entonces $w + 1$ es un común múltiplo de $2, 3, 4,  \* \* \\ldots  \**,  n$.
 
 $(\*)$ Luego, de la observación **3** vemos que
 
-$mcm(2, 3, 4,  \\ldots,  n) \\geq P\_n$
+$mcm(2, 3, 4,  \* \* \\ldots  \**,  n) \\geq P\_n$
 
- Donde $P\_n$ es el producto de los primos menores o iguales a $n$.
+ Donde $P\_n$ es el producto de los primos menores o iguales a $n$.
 
-$(\*)$ Pero $P\_{50} > 10^{18}$. Así que si $w + 1$ es un común múltiplo de $2, 3, 4,  \\ldots,  n$ entonces $n \\leq 50$.
+$(\*)$ Pero $P\_{50} > 10^{18}$. Así que si $w + 1$ es un común múltiplo de $2, 3, 4,  \* \* \\ldots  \**,  n$ entonces $n \\leq 50$.
 
 Ahora el caso donde $0$ sí forma parte de los residuos. Se sigue que existe $1 < k \\leq n$ tal que $w$ % $k = 0$. Con la misma lógica, de **1**, vemos qué
 
 $w$ % $k - 1 = k - 2$
 
-$\\ldots$
+$\* \* \\ldots  \**$
 
 $w$ % $2= 1$ .
 
@@ -49,13 +50,13 @@ Con ayuda de  $(\*)$, vemos que $k \\leq 50$.  ¿Cuál es el orden de los resi
 
 El residuo $k - 1$ que originalmente pertenecía a $k$ tiene dos direcciones: ser el residuo de un numero mayor que $k$, o $k - 1$ es el residuo que queda  descartado.
 
-Sea $M - 1$ el residuo que queda descartado, entonces $w + 1$ debe ser común múltiplo de $n, n - 1, n - 2, \\ldots , M + 1$, y para esto,
+Sea $M - 1$ el residuo que queda descartado, entonces $w + 1$ debe ser común múltiplo de $n, n - 1, n - 2, \* \* \\ldots  \**, M + 1$, y para esto,
 
-$(w + 1) \\geq n \* (n - 1) \* (n - 2)  \* \\ldots \* (M + 1)$
+$(w + 1) \\geq n \* (n - 1) \* (n - 2)  \* \* \* \\ldots  \*** (M + 1)$
 
 Lo cual sería imposible si $n - M  \\geq 50$.
 
-Ahora, si no descartamos los residuos de $k + 1, \\ldots , k + 50$, entonces $w + 1 \\geq  (k + 1) \* \\ldots  \* (k + 50)$ lo cual sería de nuevo imposible.
+Ahora, si no descartamos los residuos de $k + 1, \\ldots , k + 50$, entonces $w + 1 \\geq  (k + 1) \* \\ldots  \* (k + 50)$ lo cual sería de nuevo imposible.
 
 Por lo tanto, $M + 50 > n$ y $M - 50 < 1$.
 
@@ -63,13 +64,13 @@ De modo que, si $n > 100$, la respuesta es "No".  El problema ahora se limíta 
 
 Para éste problema, podemos guardar todos los residuos de $w$ con los números menores o iguales a $n$ en una estructura que nos maneje operaciones básicas de conjuntos, como un set. Usando el set, la respuesta es "Si", si el tamaño del set después de añadir los residuos es $n - 1$, y "No" en caso contrario.
 
-*   **[Problema B](https://omegaup.com/arena/problem/La-fiesta-de-Filiberto)**
+## [Problema B](https://omegaup.com/arena/problem/La-fiesta-de-Filiberto)
 
-Tratemos cada query de manera independientemente, y nos tomamos $a\_1, a\_2, \\ldots, a\_k$ como los puntos dados en la query.
+Tratemos cada query de manera independientemente, y nos tomamos $a\_1, a\_2, \* \* \\ldots  \**, a\_k$ como los puntos dados en la query.
 
 El problema es equivalente a encontrar un círculo con el menor radio $r$ posible, tal que todos los puntos de la query están dentro de él.  La respuesta sería el radio $r$.
 
-Él cuál es un problema equivalente a encontrar el menor radio $r$ tal que existe al menos un punto contenido en cada círculo con centro $a\_1, a\_2, \\ldots a\_n$ y radio $r$.
+Él cuál es un problema equivalente a encontrar el menor radio $r$ tal que existe al menos un punto contenido en cada círculo con centro $a\_1, a\_2, \* \* \\ldots  \**a\_n$ y radio $r$.
 
 Si dicho punto $p$ existe, entonces existe al menos un par de círculos que se intersecten en algun punto $T$. Por supuesto, la distancia de $p$ a $T$ es menor o igual a $r$.
 
@@ -82,29 +83,29 @@ Por lo tanto, la respuesta puede ser encontrada con una búsqueda binaria.
 
 El costo de cada chequeo en la búsqueda binaria es $O(k^3)$. Y la búsqueda binaria tiene un costo de aproximádamente $50$ operaciones. Pero precalculando las soluciones, de **4**, para todos los $l$ puntos antes de contestar las preguntas, reducimos el costo del chequeo a $O(k^2)$, lo cual ya es suficiente para resolver el problema.
 
-*   **[Problema C](https://omegaup.com/arena/problem/La-fiesta-de-Briares)**
+## [Problema C](https://omegaup.com/arena/problem/La-fiesta-de-Briares)
 
-Lo que buscamos, es la cantidad de subconjuntos tales que su $\\&$  es igual a $0$. Esta cantidad puede verse como la cantidad de subconjuntos totales, menos la cantidad de subconjuntos tales que su $\\&$ es diferente de $0$. Ahora, esta cantidad puede verse como la cantidad de subconjuntos cuyo  $\\&$ tienen exactamente un bit prendido, más la cantidad de subconjuntos cuyo $\\&$ tienen exactamente dos bits prendidos, $\\ldots$, más la cantidad de subconjuntos cuyo $\\&$ tienen exactamente $20$ bits prendidos (esto ya que $10^6 \\leq 2^{20}$).
+Lo que buscamos, es la cantidad de subconjuntos tales que su $\\&$  es igual a $0$. Esta cantidad puede verse como la cantidad de subconjuntos totales, menos la cantidad de subconjuntos tales que su $\\&$ es diferente de $0$. Ahora, esta cantidad puede verse como la cantidad de subconjuntos cuyo  $\\&$tienen exactamente un bit prendido, más la cantidad de subconjuntos cuyo $\\&$ tienen exactamente dos bits prendidos, $\* \* \\ldots  \**$, más la cantidad de subconjuntos cuyo $\\&$ tienen exactamente $20$ bits prendidos (esto ya que $10^6 \\leq 2^{20}$).
 
 Para esto usaremos el principio de inclusión - exclusión. De modo que la cantidad que buscamos esta dada por
 
-$S\_ 0 - S\_1 + S\_2 - S\_3 + \\ldots + S\_{20}$
+$S\_ 0 - S\_1 + S\_2 - S\_3 + \* \* \\ldots  \**+ S\_{20}$
 
-Donde $S\_i$ nos dice cuantos subconjuntos tienen  un ~and~ con al menos $i$ bits prendidos.
+Donde $S\_i$ nos dice cuántos subconjuntos tienen  un $\\&$con al menos $i$ bits prendidos.
 
 Ahora, $S\_i$ puede ser calculado con la ayuda de una SOS (Sum Over Subsets) DP.
 
-Para esto,  sea $mask$ alguna máscara de bits en $\[1, 2^{20}\]$, y definamos $m$ como el ~and~ de algún subconjunto del arreglo, tal que $mask \\& m = mask$. Es decir, $mask$ es una submáscara de $m$. Entonces, DP\[mask\] nos dice cuántas diferentes $m$ existen. (dos $m$ se consideran diferentes, si las posiciones de los elementos en el arreglo que la componen no son todas iguales). Está DP puede calcularse de la siguiente manera.
+Para esto,  sea $mask$ alguna máscara de bits en $\[1, 2^{20}\]$, y definamos $m$ como el $\\&$de algún subconjunto del arreglo, tal que $mask \\& m = mask$. Es decir, $mask$ es una submáscara de $m$. Entonces, DP\[mask\]$ nos dice cuántas diferentes $m$ existen. (dos $m$ se consideran diferentes, si las posiciones de los elementos en el arreglo que la componen no son todas iguales). Está DP puede calcularse de la siguiente manera.
 
 1.  Los casos base los formamos añadiendo la cantidad de ocurrencias de $x$ en el arreglo, a $DP\[x\]$.
-2.  Fíjamos $bit \\in \[1, 20\]$, de izquierda a derecha.
-3.  Para cada mask en $\[0, 2^{20}\]$, tal que mask tiene el $bit$-ésimo bit apagado  (mas formalmente, $mask \\& (1 << bit)  = 0$ ) se hace la transición DP\[mask | (1 << bit)\] += DP\[mask\].
+2.  Fíjamos $bit \\in [1, 20]$, de izquierda a derecha.
+3.  Para cada mask en $\[0, 2^{20}\]$, tal que mask tiene el $bit$-ésimo bit apagado  (mas formalmente, $mask \\& (1 << bit)  = 0$ ) se hace la transición $DP[mask | (1 << bit)] += DP[mask]$.
 
 De modo que $S\_i = 2^{DP\[m\]}$, para cada $m$ una máscara con al menos $i$ bits prendidos.
 
-*   **[Problema D](https://omegaup.com/arena/problem/Saltos-de-rana)**
+## [Problema D](https://omegaup.com/arena/problem/Saltos-de-rana)
 
-Sean $p\_1, p\_2, \\ldots, p\_m$ las posiciones de la cadena en donde hay un $1$.
+Sean $p\_1, p\_2, \* \* \\ldots  \**, p\_m$ las posiciones de la cadena en donde hay un $1$.
 
 Definimos $r$ cómo la posición donde yace la rana, y $b$ como la cantidad de brincos que ha dado hasta el momento. Inicialmente, $r = p\_1$ y $b = 0$. La respuesta puede encontrarse mediante siguiente algoritmo.
 
@@ -117,7 +118,7 @@ Definimos $r$ cómo la posición donde yace la rana, y $b$ como la cantidad de b
 
 La respuesta final es $b$. El algoritmo se puede implementar con complejidad lineal usando la técnica de two pointers (usando $r$ y $j$ como los pointers).
 
-*   **[Problema E](https://omegaup.com/arena/problem/Analizar-palabra)**
+## [Problema E](https://omegaup.com/arena/problem/Analizar-palabra)
 
 Rescatando la cantidad de ocurrencias para cada vocal (no hay que olvidarse de contar las mayúsculas) mientras recorremos la cadena, estamos listos para imprimir las tres respuestas. Las cuales son
 
@@ -127,6 +128,6 @@ Rescatando la cantidad de ocurrencias para cada vocal (no hay que olvidarse de c
 
 **(c)**  Imprimir la cadena de derecha a izquierda.
 
-*   **[Problema F](https://omegaup.com/arena/problem/Suma-de-vectores)**
+## [Problema F](https://omegaup.com/arena/problem/Suma-de-vectores)
 
-Salvemos los dos vectores dados $a\_1, a\_2, \\ldots , a\_n$ y $b\_1, b\_2, \\ldots , b\_n$, y generemos un nuevo vector $c\_1 = (a\_1 + b\_1), \\ldots, c\_n = (a\_n + b\_n)$. La solucion es imprimir $c\_1, c\_2, \\ldots, c\_n$.
+Salvemos los dos vectores dados $a\_1, a\_2, \\ldots , a\_n$ y $b\_1, b\_2, \\ldots , b\_n$, y generemos un nuevo vector \$c\_1 = (a\_1 + b\_1),\\ldots , c\_n = (a\_n + b\_n)$. La solucion es imprimir $c\_1, c\_2, \\ldots , c\_n$.

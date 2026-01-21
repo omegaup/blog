@@ -62,7 +62,7 @@ A continuación, te guiamos paso a paso en el proceso de clonación y personaliz
 
 7.  **Editar y personalizar el curso:**
     omegaUp te permite editar diversas secciones del curso clonado para adaptarlo a tus necesidades:
-    * **Editar curso:** Cambia el nombre, la descripción general y otros detalles del curso. ![(Imagen 6)](/images/curso-personaliza-clon-7.png)
+    * **Editar curso:** Cambia el nombre, la descripción general y otros detalles del curso. ![Imagen 6](/images/curso-personaliza-clon-6.png)
     * **Contenido:** Modifica las lecciones, los problemas y los materiales adicionales.
     * **Modo de acceso:** Define si el curso será público, privado o con acceso restringido.
     * **Estudiantes:** Gestiona la lista de estudiantes inscritos.
