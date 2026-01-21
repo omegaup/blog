@@ -112,22 +112,20 @@ alt="Imagen 8" width="549">&lt;/a>
 &lt;p>Más detalles sobre el proceso de aplicación en &lt;a href="https://github.com/omegaup/omegaup/wiki/Google-Summer-of-Code-2022/#application-process" target="_blank" rel="noopener">nuestro wiki&lt;/a>.&lt;/p>
 &lt;p>&lt;img src="https://user-images.githubusercontent.com/13296248/159149882-63dd12ef-4e45-45ea-bdbf-72d40d704481.png" alt="gsoc" loading="lazy" />&lt;/p></description></item><item><title>Bases de Liga de Programación de omegaUp</title><link>https://blog.omegaup.com/news/bases-de-liga-de-programacion-de-omegaup/</link><pubDate>Fri, 10 Dec 2021 00:22:57 +0000</pubDate><guid>https://blog.omegaup.com/news/bases-de-liga-de-programacion-de-omegaup/</guid><description>
 &lt;p>omegaUp Invita a todos los estudiantes de nivel media superior y superior a participar a la 2° edición de la Liga de programación omegaUp.&lt;/p>
-&lt;p>&lt;strong>Reglas&lt;/strong>:&lt;/p>
+&lt;p>&lt;strong>Reglas:&lt;/strong>&lt;/p>
 &lt;ul>
 &lt;li>Deben ser estudiantes de Preparatoria, Licenciatura, Maestría, Doctorado o Postdoctorado.&lt;/li>
 &lt;li>Los puntos otorgados por cada problema serán tomados como parte del puntaje final.&lt;/li>
 &lt;li>El primer AC de cada etapa recibirá 10 puntos extras.&lt;/li>
 &lt;li>Problemas resueltos parcialmente serán tomados en cuenta.&lt;/li>
-&lt;li>Para determinar los ganadores se utilizará como criterio el número de puntos obtenidos y como segundo criterio el número de AC que tenga a lo largo de las etapas, es decir gana el quien tenga mayor cantidad de puntos y en caso de ser necesario mayor número de problemas resueltos correctamente. &lt;/li>
+&lt;li>Para determinar los ganadores se utilizará como criterio el número de puntos obtenidos y como segundo criterio el número de AC que tenga a lo largo de las etapas, es decir gana el quien tenga mayor cantidad de puntos y en caso de ser necesario mayor número de problemas resueltos correctamente.&lt;/li>
 &lt;/ul>
-&lt;p> &lt;/p>
 &lt;p>&lt;strong>Dinamica:&lt;/strong>&lt;/p>
 &lt;ul>
 &lt;li>La Liga de Programación omegaUp contará con diferentes etapas a lo largo del 2022 y parte del 2021.&lt;/li>
 &lt;li>Al final de cada concurso se entregan los puntos correspondientes a cada participante.&lt;/li>
 &lt;li>Al llegar a la etapa final de la liga de programación de omegaUp se sumarán todos los puntos de cada participante que se obtuvieron durante todas las rondas y se premiará al participante que más puntos haya sumado.&lt;/li>
 &lt;/ul>
-&lt;p> &lt;/p>
 &lt;p>&lt;strong>Premios:&lt;/strong>&lt;/p>
 &lt;ul>
 &lt;li>Los premios para los primeros 3 lugares se darán trofeos únicos.&lt;/li>
@@ -135,14 +133,12 @@ alt="Imagen 8" width="549">&lt;/a>
 &lt;li>Se entregará un reconocimiento especial y playeras personalizadas a los mejores 10 participantes.&lt;/li>
 &lt;li>Los participantes tendrán la oportunidad de hacerte notar con empresas de tecnología que están buscando talento en Ingeniería de Software.&lt;/li>
 &lt;/ul>
-&lt;p> &lt;/p>
 &lt;p>&lt;strong>Lenguajes de programación permitidos:&lt;/strong>&lt;/p>
 &lt;ul>
 &lt;li>C&lt;/li>
 &lt;li>C++&lt;/li>
 &lt;li>Java&lt;/li>
 &lt;/ul>
-&lt;p> &lt;/p>
 &lt;p>Cualquier punto no especificado en esta convocatoria, será resuelto por el Comité Organizador y su decisión será inapelable.&lt;/p></description></item><item><title>Análisis de diferencias en salidas para envíos de problemas educativos</title><link>https://blog.omegaup.com/posts/analisis-de-diferencias-en-salidas-para-envios-de-problemas-educativos/</link><pubDate>Mon, 07 Sep 2020 02:13:18 +0000</pubDate><guid>https://blog.omegaup.com/posts/analisis-de-diferencias-en-salidas-para-envios-de-problemas-educativos/</guid><description>
 &lt;p>Hemos liberado una nueva funcionalidad que será muy útil para los usuarios que comienzan a utilizar la plataforma, ya que contarán con una herramienta más para apoyarlos en su aprendizaje. Esta funcionalidad les permitirá ver un análisis de las diferencias entre las salidas que dan sus programas y las salidas oficiales para los envíos de problemas educativos.&lt;/p>
 &lt;h3>¿En qué consiste el análisis de las diferencias?&lt;span class="hx-absolute -hx-mt-20" id="en-qué-consiste-el-análisis-de-las-diferencias">&lt;/span>

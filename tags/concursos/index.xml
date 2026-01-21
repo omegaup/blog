@@ -201,10 +201,10 @@ Con el concurso virtual configurado, el personal docente o el organizador puede 
 &lt;source src="https://blog.omegaup.com/images/2.webm" type="video/mp4">
 &lt;/video>
 &lt;/a>&lt;/li>
-&lt;li>Entra a tu concurso virtual. Simplemente haz click en comenzar concurso. También puedes invitar a tus amigos o rivales a tu concurso en modo virtual&lt;img src="https://blog.omegaup.com/images/3.webm" alt="&lt;video autoplay muted loop>
-&lt;source src="https://blog.omegaup.com/images/3.webm" type="video/mp4">
+&lt;li>Entra a tu concurso virtual. Simplemente haz click en comenzar concurso. También puedes invitar a tus amigos o rivales a tu concurso en modo virtual! &lt;video autoplay muted loop>
+&lt;source src="https://blog.omegaup.com/images/3.webm" type="video/webm">
 &lt;/video>
-" loading="lazy" />&lt;/li>
+&lt;/li>
 &lt;li>Disfruta el entrenamiento!&lt;/li>
 &lt;/ol>
 &lt;p>Verás a otros usuarios en tu concurso virtual en el scoreboard y mini rank. Tú aparecerás como &lt;strong>usuario-[virtual]&lt;/strong>. El scoreboard estará sincronizado con el del concurso original en todo momento.&lt;/p>
@@ -421,10 +421,8 @@ alt="Image 5" width="278" height="509">&lt;/a>&lt;figcaption>
 &lt;/figcaption>
 &lt;/figure>
 &lt;p>Atentamente, el equipo de omegaUp.&lt;/p></description></item><item><title>Soluciones de la Fase 2 de la Liga de Programación omegaUp</title><link>https://blog.omegaup.com/solution/soluciones-a-liga-omegaup-fase-2/</link><pubDate>Sun, 19 Apr 2020 08:05:15 +0000</pubDate><guid>https://blog.omegaup.com/solution/soluciones-a-liga-omegaup-fase-2/</guid><description>
-&lt;ol>
-&lt;li>&lt;strong>&lt;a href="https://omegaup.com/arena/problem/No-se-molesto-en-escribir-uno" target="_blank" rel="noopener">Problema A&lt;/a>&lt;/strong>&lt;/li>
-&lt;/ol>
-&lt;p>Las siguientes observaciones son claves para resolver el problema.&lt;/p>
+&lt;h2>&lt;a href="https://omegaup.com/arena/problem/No-se-molesto-en-escribir-uno" target="_blank" rel="noopener">Problema A&lt;/a>&lt;span class="hx-absolute -hx-mt-20" id="problema-ahttpsomegaupcomarenaproblemno-se-molesto-en-escribir-uno">&lt;/span>
+&lt;a href="#problema-ahttpsomegaupcomarenaproblemno-se-molesto-en-escribir-uno" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Las siguientes observaciones son claves para resolver el problema.&lt;/p>
 &lt;ol>
 &lt;li>Si $p \leq n$, entonces $(w$ % $p) &amp;lt; n$. Así que el máximo residuo posible es $n - 1$.&lt;/li>
 &lt;li>Si $w$ satisface la condición del enunciado, entonces hay $n - 1$ diferentes residuos, luego los residuos son un subconjunto de $n - 1$ elementos, de la colección $\lbrace 0, 1, \ldots , n - 1\rbrace$.&lt;/li>
@@ -434,32 +432,30 @@ alt="Image 5" width="278" height="509">&lt;/a>&lt;figcaption>
 &lt;p>Veamos el caso donde $0$ no forma parte de los residuos. De &lt;strong>1&lt;/strong>, vemos que&lt;/p>
 &lt;p>$w$ % $n = n - 1$&lt;/p>
 &lt;p>$w$ % $n - 1 = n - 2$&lt;/p>
-&lt;p>$\ldots$&lt;/p>
+&lt;p>$* * \ldots **$&lt;/p>
 &lt;p>$w$ % $2= 1$ .&lt;/p>
-&lt;p>Entonces $w + 1$ es un común múltiplo de $2, 3, 4,  \ldots,  n$.&lt;/p>
+&lt;p>Entonces $w + 1$ es un común múltiplo de $2, 3, 4, * * \ldots **, n$.&lt;/p>
 &lt;p>$(*)$ Luego, de la observación &lt;strong>3&lt;/strong> vemos que&lt;/p>
-&lt;p>$mcm(2, 3, 4,  \ldots,  n) \geq P_n$&lt;/p>
-&lt;p> Donde $P_n$ es el producto de los primos menores o iguales a $n$.&lt;/p>
-&lt;p>$(*)$ Pero $P_{50} &amp;gt; 10^{18}$. Así que si $w + 1$ es un común múltiplo de $2, 3, 4,  \ldots,  n$ entonces $n \leq 50$.&lt;/p>
+&lt;p>$mcm(2, 3, 4, * * \ldots **, n) \geq P_n$&lt;/p>
+&lt;p>Donde $P_n$ es el producto de los primos menores o iguales a $n$.&lt;/p>
+&lt;p>$(*)$ Pero $P_{50} &amp;gt; 10^{18}$. Así que si $w + 1$ es un común múltiplo de $2, 3, 4, * * \ldots **, n$ entonces $n \leq 50$.&lt;/p>
 &lt;p>Ahora el caso donde $0$ sí forma parte de los residuos. Se sigue que existe $1 &amp;lt; k \leq n$ tal que $w$ % $k = 0$. Con la misma lógica, de &lt;strong>1&lt;/strong>, vemos qué&lt;/p>
 &lt;p>$w$ % $k - 1 = k - 2$&lt;/p>
-&lt;p>$\ldots$&lt;/p>
+&lt;p>$* * \ldots **$&lt;/p>
 &lt;p>$w$ % $2= 1$ .&lt;/p>
 &lt;p>Con ayuda de  $(*)$, vemos que $k \leq 50$.  ¿Cuál es el orden de los residuos mayores a $k$?. Para esto, consideremos el mismo orden que usamos en el caso donde $0$ no forma parte de los residuos.&lt;/p>
 &lt;p>El residuo $k - 1$ que originalmente pertenecía a $k$ tiene dos direcciones: ser el residuo de un numero mayor que $k$, o $k - 1$ es el residuo que queda  descartado.&lt;/p>
-&lt;p>Sea $M - 1$ el residuo que queda descartado, entonces $w + 1$ debe ser común múltiplo de $n, n - 1, n - 2, \ldots , M + 1$, y para esto,&lt;/p>
-&lt;p>$(w + 1) \geq n * (n - 1) * (n - 2)  * \ldots * (M + 1)$&lt;/p>
+&lt;p>Sea $M - 1$ el residuo que queda descartado, entonces $w + 1$ debe ser común múltiplo de $n, n - 1, n - 2, * * \ldots **, M + 1$, y para esto,&lt;/p>
+&lt;p>$(w + 1) \geq n * (n - 1) * (n - 2)  * * * \ldots *** (M + 1)$&lt;/p>
 &lt;p>Lo cual sería imposible si $n - M  \geq 50$.&lt;/p>
-&lt;p>Ahora, si no descartamos los residuos de $k + 1, \ldots , k + 50$, entonces $w + 1 \geq  (k + 1) * \ldots  * (k + 50)$ lo cual sería de nuevo imposible.&lt;/p>
+&lt;p>Ahora, si no descartamos los residuos de $k + 1, \ldots , k + 50$, entonces $w + 1 \geq (k + 1) * \ldots * (k + 50)$ lo cual sería de nuevo imposible.&lt;/p>
 &lt;p>Por lo tanto, $M + 50 &amp;gt; n$ y $M - 50 &amp;lt; 1$.&lt;/p>
 &lt;p>De modo que, si $n &amp;gt; 100$, la respuesta es &amp;ldquo;No&amp;rdquo;.  El problema ahora se limíta a $n \leq 100$ y $w \leq 10^{18}$.&lt;/p>
 &lt;p>Para éste problema, podemos guardar todos los residuos de $w$ con los números menores o iguales a $n$ en una estructura que nos maneje operaciones básicas de conjuntos, como un set. Usando el set, la respuesta es &amp;ldquo;Si&amp;rdquo;, si el tamaño del set después de añadir los residuos es $n - 1$, y &amp;ldquo;No&amp;rdquo; en caso contrario.&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>&lt;a href="https://omegaup.com/arena/problem/La-fiesta-de-Filiberto" target="_blank" rel="noopener">Problema B&lt;/a>&lt;/strong>&lt;/li>
-&lt;/ul>
-&lt;p>Tratemos cada query de manera independientemente, y nos tomamos $a_1, a_2, \ldots, a_k$ como los puntos dados en la query.&lt;/p>
+&lt;h2>&lt;a href="https://omegaup.com/arena/problem/La-fiesta-de-Filiberto" target="_blank" rel="noopener">Problema B&lt;/a>&lt;span class="hx-absolute -hx-mt-20" id="problema-bhttpsomegaupcomarenaproblemla-fiesta-de-filiberto">&lt;/span>
+&lt;a href="#problema-bhttpsomegaupcomarenaproblemla-fiesta-de-filiberto" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Tratemos cada query de manera independientemente, y nos tomamos $a_1, a_2, * * \ldots **, a_k$ como los puntos dados en la query.&lt;/p>
 &lt;p>El problema es equivalente a encontrar un círculo con el menor radio $r$ posible, tal que todos los puntos de la query están dentro de él.  La respuesta sería el radio $r$.&lt;/p>
-&lt;p>Él cuál es un problema equivalente a encontrar el menor radio $r$ tal que existe al menos un punto contenido en cada círculo con centro $a_1, a_2, \ldots a_n$ y radio $r$.&lt;/p>
+&lt;p>Él cuál es un problema equivalente a encontrar el menor radio $r$ tal que existe al menos un punto contenido en cada círculo con centro $a_1, a_2, * * \ldots **a_n$ y radio $r$.&lt;/p>
 &lt;p>Si dicho punto $p$ existe, entonces existe al menos un par de círculos que se intersecten en algun punto $T$. Por supuesto, la distancia de $p$ a $T$ es menor o igual a $r$.&lt;/p>
 &lt;p>Por lo tanto, la respuesta puede ser encontrada con una búsqueda binaria.&lt;/p>
 &lt;ol>
@@ -469,25 +465,21 @@ alt="Image 5" width="278" height="509">&lt;/a>&lt;figcaption>
 &lt;li>Para cada intersección, recorremos cada centro. Si hay un centro $a_i$que tiene una distancia menor o igual a $r$ entonces el menor radio que buscamos sí es menor o igual a $r$.&lt;/li>
 &lt;/ol>
 &lt;p>El costo de cada chequeo en la búsqueda binaria es $O(k^3)$. Y la búsqueda binaria tiene un costo de aproximádamente $50$ operaciones. Pero precalculando las soluciones, de &lt;strong>4&lt;/strong>, para todos los $l$ puntos antes de contestar las preguntas, reducimos el costo del chequeo a $O(k^2)$, lo cual ya es suficiente para resolver el problema.&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>&lt;a href="https://omegaup.com/arena/problem/La-fiesta-de-Briares" target="_blank" rel="noopener">Problema C&lt;/a>&lt;/strong>&lt;/li>
-&lt;/ul>
-&lt;p>Lo que buscamos, es la cantidad de subconjuntos tales que su $\&amp;amp;$  es igual a $0$. Esta cantidad puede verse como la cantidad de subconjuntos totales, menos la cantidad de subconjuntos tales que su $\&amp;amp;$ es diferente de $0$. Ahora, esta cantidad puede verse como la cantidad de subconjuntos cuyo  $\&amp;amp;$ tienen exactamente un bit prendido, más la cantidad de subconjuntos cuyo $\&amp;amp;$ tienen exactamente dos bits prendidos, $\ldots$, más la cantidad de subconjuntos cuyo $\&amp;amp;$ tienen exactamente $20$ bits prendidos (esto ya que $10^6 \leq 2^{20}$).&lt;/p>
+&lt;h2>&lt;a href="https://omegaup.com/arena/problem/La-fiesta-de-Briares" target="_blank" rel="noopener">Problema C&lt;/a>&lt;span class="hx-absolute -hx-mt-20" id="problema-chttpsomegaupcomarenaproblemla-fiesta-de-briares">&lt;/span>
+&lt;a href="#problema-chttpsomegaupcomarenaproblemla-fiesta-de-briares" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Lo que buscamos, es la cantidad de subconjuntos tales que su $\&amp;amp;$  es igual a $0$. Esta cantidad puede verse como la cantidad de subconjuntos totales, menos la cantidad de subconjuntos tales que su $\&amp;amp;$ es diferente de $0$. Ahora, esta cantidad puede verse como la cantidad de subconjuntos cuyo  $\&amp;amp;$tienen exactamente un bit prendido, más la cantidad de subconjuntos cuyo $\&amp;amp;$ tienen exactamente dos bits prendidos, $* * \ldots **$, más la cantidad de subconjuntos cuyo $\&amp;amp;$ tienen exactamente $20$ bits prendidos (esto ya que $10^6 \leq 2^{20}$).&lt;/p>
 &lt;p>Para esto usaremos el principio de inclusión - exclusión. De modo que la cantidad que buscamos esta dada por&lt;/p>
-&lt;p>$S_ 0 - S_1 + S_2 - S_3 + \ldots + S_{20}$&lt;/p>
-&lt;p>Donde $S_i$ nos dice cuantos subconjuntos tienen  un &lt;del>and&lt;/del> con al menos $i$ bits prendidos.&lt;/p>
+&lt;p>$S_ 0 - S_1 + S_2 - S_3 + * * \ldots **+ S_{20}$&lt;/p>
+&lt;p>Donde $S_i$ nos dice cuántos subconjuntos tienen  un $\&amp;amp;$con al menos $i$ bits prendidos.&lt;/p>
 &lt;p>Ahora, $S_i$ puede ser calculado con la ayuda de una SOS (Sum Over Subsets) DP.&lt;/p>
-&lt;p>Para esto,  sea $mask$ alguna máscara de bits en $[1, 2^{20}]$, y definamos $m$ como el &lt;del>and&lt;/del> de algún subconjunto del arreglo, tal que $mask \&amp;amp; m = mask$. Es decir, $mask$ es una submáscara de $m$. Entonces, DP[mask] nos dice cuántas diferentes $m$ existen. (dos $m$ se consideran diferentes, si las posiciones de los elementos en el arreglo que la componen no son todas iguales). Está DP puede calcularse de la siguiente manera.&lt;/p>
+&lt;p>Para esto,  sea $mask$ alguna máscara de bits en $[1, 2^{20}]$, y definamos $m$ como el $\&amp;amp;$de algún subconjunto del arreglo, tal que $mask \&amp;amp; m = mask$. Es decir, $mask$ es una submáscara de $m$. Entonces, DP[mask]$ nos dice cuántas diferentes $m$ existen. (dos $m$ se consideran diferentes, si las posiciones de los elementos en el arreglo que la componen no son todas iguales). Está DP puede calcularse de la siguiente manera.&lt;/p>
 &lt;ol>
 &lt;li>Los casos base los formamos añadiendo la cantidad de ocurrencias de $x$ en el arreglo, a $DP[x]$.&lt;/li>
 &lt;li>Fíjamos $bit \in [1, 20]$, de izquierda a derecha.&lt;/li>
-&lt;li>Para cada mask en $[0, 2^{20}]$, tal que mask tiene el $bit$-ésimo bit apagado  (mas formalmente, $mask \&amp;amp; (1 &amp;laquo; bit)  = 0$ ) se hace la transición DP[mask | (1 &amp;laquo; bit)] += DP[mask].&lt;/li>
+&lt;li>Para cada mask en $[0, 2^{20}]$, tal que mask tiene el $bit$-ésimo bit apagado  (mas formalmente, $mask \&amp;amp; (1 &amp;laquo; bit)  = 0$ ) se hace la transición $DP[mask | (1 &amp;laquo; bit)] += DP[mask]$.&lt;/li>
 &lt;/ol>
 &lt;p>De modo que $S_i = 2^{DP[m]}$, para cada $m$ una máscara con al menos $i$ bits prendidos.&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>&lt;a href="https://omegaup.com/arena/problem/Saltos-de-rana" target="_blank" rel="noopener">Problema D&lt;/a>&lt;/strong>&lt;/li>
-&lt;/ul>
-&lt;p>Sean $p_1, p_2, \ldots, p_m$ las posiciones de la cadena en donde hay un $1$.&lt;/p>
+&lt;h2>&lt;a href="https://omegaup.com/arena/problem/Saltos-de-rana" target="_blank" rel="noopener">Problema D&lt;/a>&lt;span class="hx-absolute -hx-mt-20" id="problema-dhttpsomegaupcomarenaproblemsaltos-de-rana">&lt;/span>
+&lt;a href="#problema-dhttpsomegaupcomarenaproblemsaltos-de-rana" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Sean $p_1, p_2, * * \ldots **, p_m$ las posiciones de la cadena en donde hay un $1$.&lt;/p>
 &lt;p>Definimos $r$ cómo la posición donde yace la rana, y $b$ como la cantidad de brincos que ha dado hasta el momento. Inicialmente, $r = p_1$ y $b = 0$. La respuesta puede encontrarse mediante siguiente algoritmo.&lt;/p>
 &lt;ol>
 &lt;li>
@@ -502,17 +494,13 @@ alt="Image 5" width="278" height="509">&lt;/a>&lt;figcaption>
 &lt;/li>
 &lt;/ol>
 &lt;p>La respuesta final es $b$. El algoritmo se puede implementar con complejidad lineal usando la técnica de two pointers (usando $r$ y $j$ como los pointers).&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>&lt;a href="https://omegaup.com/arena/problem/Analizar-palabra" target="_blank" rel="noopener">Problema E&lt;/a>&lt;/strong>&lt;/li>
-&lt;/ul>
-&lt;p>Rescatando la cantidad de ocurrencias para cada vocal (no hay que olvidarse de contar las mayúsculas) mientras recorremos la cadena, estamos listos para imprimir las tres respuestas. Las cuales son&lt;/p>
+&lt;h2>&lt;a href="https://omegaup.com/arena/problem/Analizar-palabra" target="_blank" rel="noopener">Problema E&lt;/a>&lt;span class="hx-absolute -hx-mt-20" id="problema-ehttpsomegaupcomarenaproblemanalizar-palabra">&lt;/span>
+&lt;a href="#problema-ehttpsomegaupcomarenaproblemanalizar-palabra" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Rescatando la cantidad de ocurrencias para cada vocal (no hay que olvidarse de contar las mayúsculas) mientras recorremos la cadena, estamos listos para imprimir las tres respuestas. Las cuales son&lt;/p>
 &lt;p>**(a) ** Tamaño de la cadena.&lt;/p>
 &lt;p>&lt;strong>(b)&lt;/strong>  Suma de las ocurrencias de cada vocal.&lt;/p>
 &lt;p>&lt;strong>(c)&lt;/strong>  Imprimir la cadena de derecha a izquierda.&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>&lt;a href="https://omegaup.com/arena/problem/Suma-de-vectores" target="_blank" rel="noopener">Problema F&lt;/a>&lt;/strong>&lt;/li>
-&lt;/ul>
-&lt;p>Salvemos los dos vectores dados $a_1, a_2, \ldots , a_n$ y $b_1, b_2, \ldots , b_n$, y generemos un nuevo vector $c_1 = (a_1 + b_1), \ldots, c_n = (a_n + b_n)$. La solucion es imprimir $c_1, c_2, \ldots, c_n$.&lt;/p></description></item><item><title>Soluciones de la Fase 1 de la Liga de Programación omegaUp</title><link>https://blog.omegaup.com/solution/soluciones-a-liga-omegaup-fase-1/</link><pubDate>Wed, 01 Apr 2020 18:08:10 +0000</pubDate><guid>https://blog.omegaup.com/solution/soluciones-a-liga-omegaup-fase-1/</guid><description>
+&lt;h2>&lt;a href="https://omegaup.com/arena/problem/Suma-de-vectores" target="_blank" rel="noopener">Problema F&lt;/a>&lt;span class="hx-absolute -hx-mt-20" id="problema-fhttpsomegaupcomarenaproblemsuma-de-vectores">&lt;/span>
+&lt;a href="#problema-fhttpsomegaupcomarenaproblemsuma-de-vectores" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Salvemos los dos vectores dados $a_1, a_2, \ldots , a_n$ y $b_1, b_2, \ldots , b_n$, y generemos un nuevo vector $c_1 = (a_1 + b_1),\ldots , c_n = (a_n + b_n)$. La solucion es imprimir $c_1, c_2, \ldots , c_n$.&lt;/p></description></item><item><title>Soluciones de la Fase 1 de la Liga de Programación omegaUp</title><link>https://blog.omegaup.com/solution/soluciones-a-liga-omegaup-fase-1/</link><pubDate>Wed, 01 Apr 2020 18:08:10 +0000</pubDate><guid>https://blog.omegaup.com/solution/soluciones-a-liga-omegaup-fase-1/</guid><description>
 &lt;h2>&lt;a href="https://omegaup.com/arena/problem/Rango-simple" target="_blank" rel="noopener">Problema A&lt;/a>&lt;span class="hx-absolute -hx-mt-20" id="problema-ahttpsomegaupcomarenaproblemrango-simple">&lt;/span>
 &lt;a href="#problema-ahttpsomegaupcomarenaproblemrango-simple" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Para este problema, consideramos un arreglo de ocurrencias $O$ sobre los elementos del arreglo. De modo que la respuesta está dada por&lt;/p>
 &lt;p>$\sum\limits_{i=A}^B O_{i}$&lt;/p>

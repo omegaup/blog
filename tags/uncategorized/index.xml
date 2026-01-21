@@ -13,10 +13,10 @@
 &lt;source src="https://blog.omegaup.com/images/2.webm" type="video/mp4">
 &lt;/video>
 &lt;/a>&lt;/li>
-&lt;li>Entra a tu concurso virtual. Simplemente haz click en comenzar concurso. También puedes invitar a tus amigos o rivales a tu concurso en modo virtual&lt;img src="https://blog.omegaup.com/images/3.webm" alt="&lt;video autoplay muted loop>
-&lt;source src="https://blog.omegaup.com/images/3.webm" type="video/mp4">
+&lt;li>Entra a tu concurso virtual. Simplemente haz click en comenzar concurso. También puedes invitar a tus amigos o rivales a tu concurso en modo virtual! &lt;video autoplay muted loop>
+&lt;source src="https://blog.omegaup.com/images/3.webm" type="video/webm">
 &lt;/video>
-" loading="lazy" />&lt;/li>
+&lt;/li>
 &lt;li>Disfruta el entrenamiento!&lt;/li>
 &lt;/ol>
 &lt;p>Verás a otros usuarios en tu concurso virtual en el scoreboard y mini rank. Tú aparecerás como &lt;strong>usuario-[virtual]&lt;/strong>. El scoreboard estará sincronizado con el del concurso original en todo momento.&lt;/p>
@@ -132,22 +132,20 @@ aliases: [&amp;rsquo;/administracion-de-identidades']&lt;span class="hx-absolute
 &lt;p>- OMI para Primarias 2018 &lt;a href="https://omegaup.com/arena/OMIP2018PUBLICO/virtual" target="_blank" rel="noopener">https://omegaup.com/arena/OMIP2018PUBLICO/virtual&lt;/a>&lt;/p>
 &lt;p>Participa en esta y más conversaciones en nuestro blog: &lt;a href="https://blog.omegaup.com/concursos-en-modo-virtual/" target="_blank" rel="noopener">https://blog.omegaup.com/concursos-en-modo-virtual/&lt;/a>&lt;/p></description></item><item><title>Bases de Liga de Programación de omegaUp</title><link>https://blog.omegaup.com/news/bases-de-liga-de-programacion-de-omegaup/</link><pubDate>Fri, 10 Dec 2021 00:22:57 +0000</pubDate><guid>https://blog.omegaup.com/news/bases-de-liga-de-programacion-de-omegaup/</guid><description>
 &lt;p>omegaUp Invita a todos los estudiantes de nivel media superior y superior a participar a la 2° edición de la Liga de programación omegaUp.&lt;/p>
-&lt;p>&lt;strong>Reglas&lt;/strong>:&lt;/p>
+&lt;p>&lt;strong>Reglas:&lt;/strong>&lt;/p>
 &lt;ul>
 &lt;li>Deben ser estudiantes de Preparatoria, Licenciatura, Maestría, Doctorado o Postdoctorado.&lt;/li>
 &lt;li>Los puntos otorgados por cada problema serán tomados como parte del puntaje final.&lt;/li>
 &lt;li>El primer AC de cada etapa recibirá 10 puntos extras.&lt;/li>
 &lt;li>Problemas resueltos parcialmente serán tomados en cuenta.&lt;/li>
-&lt;li>Para determinar los ganadores se utilizará como criterio el número de puntos obtenidos y como segundo criterio el número de AC que tenga a lo largo de las etapas, es decir gana el quien tenga mayor cantidad de puntos y en caso de ser necesario mayor número de problemas resueltos correctamente. &lt;/li>
+&lt;li>Para determinar los ganadores se utilizará como criterio el número de puntos obtenidos y como segundo criterio el número de AC que tenga a lo largo de las etapas, es decir gana el quien tenga mayor cantidad de puntos y en caso de ser necesario mayor número de problemas resueltos correctamente.&lt;/li>
 &lt;/ul>
-&lt;p> &lt;/p>
 &lt;p>&lt;strong>Dinamica:&lt;/strong>&lt;/p>
 &lt;ul>
 &lt;li>La Liga de Programación omegaUp contará con diferentes etapas a lo largo del 2022 y parte del 2021.&lt;/li>
 &lt;li>Al final de cada concurso se entregan los puntos correspondientes a cada participante.&lt;/li>
 &lt;li>Al llegar a la etapa final de la liga de programación de omegaUp se sumarán todos los puntos de cada participante que se obtuvieron durante todas las rondas y se premiará al participante que más puntos haya sumado.&lt;/li>
 &lt;/ul>
-&lt;p> &lt;/p>
 &lt;p>&lt;strong>Premios:&lt;/strong>&lt;/p>
 &lt;ul>
 &lt;li>Los premios para los primeros 3 lugares se darán trofeos únicos.&lt;/li>
@@ -155,14 +153,12 @@ aliases: [&amp;rsquo;/administracion-de-identidades']&lt;span class="hx-absolute
 &lt;li>Se entregará un reconocimiento especial y playeras personalizadas a los mejores 10 participantes.&lt;/li>
 &lt;li>Los participantes tendrán la oportunidad de hacerte notar con empresas de tecnología que están buscando talento en Ingeniería de Software.&lt;/li>
 &lt;/ul>
-&lt;p> &lt;/p>
 &lt;p>&lt;strong>Lenguajes de programación permitidos:&lt;/strong>&lt;/p>
 &lt;ul>
 &lt;li>C&lt;/li>
 &lt;li>C++&lt;/li>
 &lt;li>Java&lt;/li>
 &lt;/ul>
-&lt;p> &lt;/p>
 &lt;p>Cualquier punto no especificado en esta convocatoria, será resuelto por el Comité Organizador y su decisión será inapelable.&lt;/p></description></item><item><title>Análisis de diferencias en salidas para envíos de problemas educativos</title><link>https://blog.omegaup.com/posts/analisis-de-diferencias-en-salidas-para-envios-de-problemas-educativos/</link><pubDate>Mon, 07 Sep 2020 02:13:18 +0000</pubDate><guid>https://blog.omegaup.com/posts/analisis-de-diferencias-en-salidas-para-envios-de-problemas-educativos/</guid><description>
 &lt;p>Hemos liberado una nueva funcionalidad que será muy útil para los usuarios que comienzan a utilizar la plataforma, ya que contarán con una herramienta más para apoyarlos en su aprendizaje. Esta funcionalidad les permitirá ver un análisis de las diferencias entre las salidas que dan sus programas y las salidas oficiales para los envíos de problemas educativos.&lt;/p>
 &lt;h3>¿En qué consiste el análisis de las diferencias?&lt;span class="hx-absolute -hx-mt-20" id="en-qué-consiste-el-análisis-de-las-diferencias">&lt;/span>

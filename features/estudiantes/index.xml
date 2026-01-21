@@ -161,10 +161,10 @@
 &lt;source src="https://blog.omegaup.com/images/2.webm" type="video/mp4">
 &lt;/video>
 &lt;/a>&lt;/li>
-&lt;li>Entra a tu concurso virtual. Simplemente haz click en comenzar concurso. También puedes invitar a tus amigos o rivales a tu concurso en modo virtual&lt;img src="https://blog.omegaup.com/images/3.webm" alt="&lt;video autoplay muted loop>
-&lt;source src="https://blog.omegaup.com/images/3.webm" type="video/mp4">
+&lt;li>Entra a tu concurso virtual. Simplemente haz click en comenzar concurso. También puedes invitar a tus amigos o rivales a tu concurso en modo virtual! &lt;video autoplay muted loop>
+&lt;source src="https://blog.omegaup.com/images/3.webm" type="video/webm">
 &lt;/video>
-" loading="lazy" />&lt;/li>
+&lt;/li>
 &lt;li>Disfruta el entrenamiento!&lt;/li>
 &lt;/ol>
 &lt;p>Verás a otros usuarios en tu concurso virtual en el scoreboard y mini rank. Tú aparecerás como &lt;strong>usuario-[virtual]&lt;/strong>. El scoreboard estará sincronizado con el del concurso original en todo momento.&lt;/p>
@@ -248,27 +248,45 @@ aliases: [&amp;rsquo;/soluciones-de-problemas-en-omegaup']&lt;span class="hx-abs
 &lt;p>De la notación de &lt;a href="https://es.wikipedia.org/wiki/Notaci%C3%B3n_de_Landau" target="_blank" rel="noopener">Landau&lt;/a>.&lt;/p>
 &lt;p>&lt;strong>¿Por qué omega pequeña (&lt;strong>&lt;strong>ω&lt;/strong>&lt;/strong>) es más alto que omega grande (&lt;strong>&lt;strong>Ω&lt;/strong>&lt;/strong>)?&lt;/strong>&lt;/p>
 &lt;p>El orden de las categorías viene de la definición de las notaciones de Landau.&lt;/p>
-&lt;p>&lt;strong>Notación&lt;/strong>&lt;/p>
-&lt;p>&lt;strong>Definición formal&lt;/strong>&lt;/p>
-&lt;p>&lt;strong>Descripción&lt;/strong>&lt;/p>
-&lt;p>&lt;strong>Interpretación práctica&lt;/strong>&lt;/p>
-&lt;p>&lt;em>f(n) = o(g(n))&lt;/em>&lt;/p>
-&lt;p> &lt;a href="https://blog.omegaup.com/images/1.png" >&lt;img src="https://blog.omegaup.com/images/1.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
-&lt;p>&lt;em>f&lt;/em> es dominada por arriba asintóticamente por &lt;em>g&lt;/em>.&lt;/p>
-&lt;p>&lt;em>f &amp;lt; g&lt;/em>&lt;/p>
-&lt;p>&lt;em>f(n) = O(g(n))&lt;/em>&lt;/p>
-&lt;p> &lt;a href="https://blog.omegaup.com/images/2.png" >&lt;img src="https://blog.omegaup.com/images/2.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
-&lt;p>&lt;em>f&lt;/em> es acotada por arriba asintóticamente por &lt;em>g&lt;/em>.&lt;/p>
-&lt;p>&lt;em>f &amp;lt;= g&lt;/em>&lt;/p>
-&lt;p>&lt;em>f(n) = Θ(g(n))&lt;/em>&lt;/p>
-&lt;p>&lt;em>f(n) = o(g(n))&lt;/em> y &lt;em>f(n) = O(g(n))&lt;/em>&lt;/p>
-&lt;p>&lt;em>f&lt;/em> es acotada por arriba y abajo asintóticamente por &lt;em>g&lt;/em>.&lt;/p>
-&lt;p>&lt;em>f = g&lt;/em>&lt;/p>
-&lt;p>&lt;em>f(n) = Ω(g(n))&lt;/em>&lt;/p>
-&lt;p> &lt;a href="https://blog.omegaup.com/images/4.png" >&lt;img src="https://blog.omegaup.com/images/4.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
-&lt;p>&lt;em>f&lt;/em> es acotada por abajo asintóticamente por &lt;em>g&lt;/em>.&lt;/p>
-&lt;p>&lt;em>f &amp;gt;= g&lt;/em>&lt;/p>
-&lt;p>&lt;em>f(n) = ω(g(n))&lt;/em>&lt;/p>
-&lt;p> &lt;a href="https://blog.omegaup.com/images/5.png" >&lt;img src="https://blog.omegaup.com/images/5.png" alt="" loading="lazy" />&lt;/a>&lt;/p>
-&lt;p>&lt;em>f&lt;/em> es dominada por abajo asintóticamente por &lt;em>g&lt;/em>.&lt;/p>
-&lt;p>&lt;em>f &amp;gt; g&lt;/em>&lt;/p></description></item></channel></rss>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: left">&lt;strong>Notación&lt;/strong>&lt;/th>
+&lt;th style="text-align: left">&lt;strong>Definición formal&lt;/strong>&lt;/th>
+&lt;th style="text-align: left">&lt;strong>Descripción&lt;/strong>&lt;/th>
+&lt;th style="text-align: left">&lt;strong>Interpretación práctica&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: left">&lt;em>f(n) = o(g(n))&lt;/em>&lt;/td>
+&lt;td style="text-align: left">&lt;a href="https://blog.omegaup.com/images/1.png" >&lt;img src="https://blog.omegaup.com/images/1.png" alt="" loading="lazy" />&lt;/a>&lt;/td>
+&lt;td style="text-align: left">&lt;em>f&lt;/em> es dominada por arriba asintóticamente por &lt;em>g&lt;/em>.&lt;/td>
+&lt;td style="text-align: left">&lt;em>f &amp;lt; g&lt;/em>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;em>f(n) = O(g(n))&lt;/em>&lt;/td>
+&lt;td style="text-align: left">&lt;a href="https://blog.omegaup.com/images/2.png" >&lt;img src="https://blog.omegaup.com/images/2.png" alt="" loading="lazy" />&lt;/a>&lt;/td>
+&lt;td style="text-align: left">&lt;em>f&lt;/em> es acotada por arriba asintóticamente por &lt;em>g&lt;/em>.&lt;/td>
+&lt;td style="text-align: left">&lt;em>f &amp;lt;= g&lt;/em>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;em>f(n) = Θ(g(n))&lt;/em>&lt;/td>
+&lt;td style="text-align: left">&lt;em>f(n) = o(g(n))&lt;/em> y &lt;em>f(n) = O(g(n))&lt;/em>&lt;/td>
+&lt;td style="text-align: left">&lt;em>f&lt;/em> es acotada por arriba y abajo asintóticamente por &lt;em>g&lt;/em>.&lt;/td>
+&lt;td style="text-align: left">&lt;em>f = g&lt;/em>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;em>f(n) = Ω(g(n))&lt;/em>&lt;/td>
+&lt;td style="text-align: left">&lt;a href="https://blog.omegaup.com/images/4.png" >&lt;img src="https://blog.omegaup.com/images/4.png" alt="" loading="lazy" />&lt;/a>&lt;/td>
+&lt;td style="text-align: left">&lt;em>f&lt;/em> es acotada por abajo asintóticamente por &lt;em>g&lt;/em>.&lt;/td>
+&lt;td style="text-align: left">&lt;em>f &amp;gt;= g&lt;/em>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: left">&lt;em>f(n) = ω(g(n))&lt;/em>&lt;/td>
+&lt;td style="text-align: left">&lt;a href="https://blog.omegaup.com/images/5.png" >&lt;img src="https://blog.omegaup.com/images/5.png" alt="" loading="lazy" />&lt;/a>&lt;/td>
+&lt;td style="text-align: left">&lt;em>f&lt;/em> es dominada por abajo asintóticamente por &lt;em>g&lt;/em>.&lt;/td>
+&lt;td style="text-align: left">&lt;em>f &amp;gt; g&lt;/em>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item></channel></rss>
