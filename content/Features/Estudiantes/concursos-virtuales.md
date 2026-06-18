@@ -32,4 +32,4 @@ Aquí les dejamos unos concursos interesantes:
 
 \- OMI para Primarias 2018 [https://omegaup.com/arena/OMIP2018PUBLICO/virtual](https://omegaup.com/arena/OMIP2018PUBLICO/virtual)
 
-Participa en esta y más conversaciones en nuestro blog: [https://blog.omegaup.com/concursos-en-modo-virtual/](https://blog.omegaup.com/concursos-en-modo-virtual/)
+Participa en esta y más conversaciones en nuestro blog: [https://blog.omegaup.com/concursos-en-modo-virtual/]({{< relref "Features/Estudiantes/concursos-en-modo-virtual.md" >}})

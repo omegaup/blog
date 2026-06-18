@@ -34,6 +34,6 @@ Y si te estás llenando de notificaciones, puedes marcarlas como leídas a todas
 
 [{{< video autoplay="true" loop="true" muted="true" src="/images/badges4.webm" type="video/mp4" >}}](/images/badges4.webm)
 
-¡Tú también puedes proponer nuevas insignias, solo debes seguir la [Guía para la propuesta de Insignias de omegaUp](https://blog.omegaup.com/guia-para-la-propuesta-de-insignias-en-omegaup/)!
+¡Tú también puedes proponer nuevas insignias, solo debes seguir la [Guía para la propuesta de Insignias de omegaUp]({{< relref "Documentation/guia-para-la-propuesta-de-insignias-en-omegaup.md" >}})!
 
 Esperamos que te guste esta nueva característica y que puedas desbloquear todas las insignias de usuario en omegaUp.

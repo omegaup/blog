@@ -14,7 +14,7 @@ aliases: ['/Comienza']
 ## Pasos a seguir
 {{% steps %}}
 
-### Revisa nuestro [código de conducta](posts/codigo-de-conducta-en-omegaup/).
+### Revisa nuestro [código de conducta]({{< relref "Policies/codigo-de-conducta-en-omegaup.md" >}}).
  
 ### Crea tu cuenta en [omegaUp.com/login](https://omegaup.com/login).
 
@@ -29,19 +29,19 @@ Puedes acceder desde el menú desplegable en la sección superior derecha donde 
 ### Escoge tu perfil:
 
 **Estudiante**
-- [¿Cómo resolver problemas? [parte 0]](posts/introduccion-a-omegaup-parte-0/)
-- [¿Cómo resolver problemas? [parte 1]](posts/introduccion-a-omegaup-parte-1/)
-- [¿Cómo resolver problemas? [parte 2]](posts/introduccion-a-omegaup-parte-2-problemas-basicos/)
+- [¿Cómo resolver problemas? [parte 0]]({{< relref "Documentation/introduccion-a-omegaup-parte-0.md" >}})
+- [¿Cómo resolver problemas? [parte 1]]({{< relref "Documentation/introduccion-a-omegaup.md" >}})
+- [¿Cómo resolver problemas? [parte 2]]({{< relref "Documentation/introduccion-a-omegaup-parte-2-problemas-basicos.md" >}})
 - [Busca tus problemas](https://omegaup.com/problem/collection/)
-- Participa para ser Coder del Mes [reglas del coder del mes](/posts/reglas-del-coder-del-mes/)
+- Participa para ser Coder del Mes [reglas del coder del mes]({{< relref "Policies/reglas-del-coder-del-mes.md" >}})
 
 
 **Docente**
-- Crea tus [cursos con tareas y exámenes](/posts/anunciando-omegaup-escuelas/).
-- [Agregar asistentes a curso](posts/revision-codigo-envios-cursos/#rol-de-asistente-de-ense%C3%B1anza).
-- Crear cuentas de usuarios para evento [administrador de identidades](posts/administracion-de-identidades/).
-- [Revisa automáticamente](posts/revision-codigo-envios-cursos/) los códigos en envíos de cursos.
-- [Analiza las diferencias en salidas](posts/analisis-de-diferencias-en-salidas-para-envios-de-problemas-educativos/) para envíos de problemas educativos.
+- Crea tus [cursos con tareas y exámenes]({{< relref "Features/Anuncios/anunciando-omegaup-escuelas.md" >}}).
+- [Agregar asistentes a curso]({{< relref "posts/revision-codigo-envios-cursos.md" >}}#rol-de-asistente-de-ense%C3%B1anza).
+- Crear cuentas de usuarios para evento [administrador de identidades]({{< relref "Features/Docentes/administracion-de-identidades.md" >}}).
+- [Revisa automáticamente]({{< relref "posts/revision-codigo-envios-cursos.md" >}}) los códigos en envíos de cursos.
+- [Analiza las diferencias en salidas]({{< relref "posts/analisis-de-diferencias-en-salidas-para-envios-de-problemas-educativos.md" >}}) para envíos de problemas educativos.
 
 ### Continúa programando.
 - [Resuelve más problemas](https://omegaup.com/problem/collection/)
