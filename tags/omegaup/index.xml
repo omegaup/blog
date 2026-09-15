@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>omegaUp blog – OmegaUp</title><link>https://blog.omegaup.com/tags/omegaup/</link><description>Recent content in OmegaUp on omegaUp blog</description><generator>Hugo -- gohugo.io</generator><language>es</language><lastBuildDate>Tue, 18 Feb 2025 06:52:20 +0000</lastBuildDate><atom:link href="https://blog.omegaup.com/tags/omegaup/index.xml" rel="self" type="application/rss+xml"/><item><title>Código de Conducta en omegaUp</title><link>https://blog.omegaup.com/policies/codigo-de-conducta-en-omegaup/</link><pubDate>Thu, 23 Apr 2020 01:11:47 +0000</pubDate><guid>https://blog.omegaup.com/policies/codigo-de-conducta-en-omegaup/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>omegaUp blog – OmegaUp</title><link>https://blog.omegaup.com/tags/omegaup/</link><description>Recent content in OmegaUp on omegaUp blog</description><generator>Hugo -- gohugo.io</generator><language>es</language><lastBuildDate>Sun, 16 Aug 2026 01:18:18 +0000</lastBuildDate><atom:link href="https://blog.omegaup.com/tags/omegaup/index.xml" rel="self" type="application/rss+xml"/><item><title>Código de Conducta en omegaUp</title><link>https://blog.omegaup.com/policies/codigo-de-conducta-en-omegaup/</link><pubDate>Thu, 23 Apr 2020 01:11:47 +0000</pubDate><guid>https://blog.omegaup.com/policies/codigo-de-conducta-en-omegaup/</guid><description>
 &lt;p>omegaUp es una plataforma educativa y creemos que debemos fomentar un ambiente con respeto y la mismas oportunidades para todos. Por ello creamos el siguiente Código de Conducta, que debes cumplir para utilizar omegaUp.com.&lt;/p>
 &lt;ol>
 &lt;li>En general y en especial en los concursos, cursos, el blog y redes sociales de omegaUp se crea una comunidad, donde se espera que los usuarios actúen con respeto y empatía hacia los demás.&lt;/li>
@@ -27,7 +27,46 @@
 &lt;/ul>
 &lt;h5>*Los problemas con distintivo de calidad son aquellos que muestran EN el título del problema el siguiente icono:&lt;a href="https://blog.omegaup.com/images/quality-badge.png" >&lt;img src="https://blog.omegaup.com/images/quality-badge.png" alt="" loading="lazy" />&lt;/a> Dicho distintivo es asignado por el departamento de Educación de omegaUp.&lt;span class="hx-absolute -hx-mt-20" id="los-problemas-con-distintivo-de-calidad-son-aquellos-que-muestran-en-el-título-del-problema-el-siguiente-iconoimagesquality-badgepngimagesquality-badgepng-dicho-distintivo-es-asignado-por-el-departamento-de-educación-de-omegaup">&lt;/span>
 &lt;a href="#los-problemas-con-distintivo-de-calidad-son-aquellos-que-muestran-en-el-t%c3%adtulo-del-problema-el-siguiente-iconoimagesquality-badgepngimagesquality-badgepng-dicho-distintivo-es-asignado-por-el-departamento-de-educaci%c3%b3n-de-omegaup" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h5>&lt;p> &lt;/p>
-&lt;p>omegaUp se reserva el derecho de declarar vacío el reconocimiento de ambos programas de Coder del Mes en cualquier momento. Así como de modificar en cualquier momento cualquiera de los puntos anteriores con o sin previo aviso.&lt;/p></description></item><item><title>Concursos por equipos</title><link>https://blog.omegaup.com/features/general/concursos-por-equipos/</link><pubDate>Thu, 24 Mar 2022 14:35:06 +0000</pubDate><guid>https://blog.omegaup.com/features/general/concursos-por-equipos/</guid><description>
+&lt;p>omegaUp se reserva el derecho de declarar vacío el reconocimiento de ambos programas de Coder del Mes en cualquier momento. Así como de modificar en cualquier momento cualquiera de los puntos anteriores con o sin previo aviso.&lt;/p></description></item><item><title>Reglas de Escuela del Mes</title><link>https://blog.omegaup.com/policies/reglas-escuela-del-mes/</link><pubDate>Sun, 16 Aug 2026 01:18:18 +0000</pubDate><guid>https://blog.omegaup.com/policies/reglas-escuela-del-mes/</guid><description>
+&lt;p>El reconocimiento de la &lt;strong>Escuela del Mes&lt;/strong> en omegaUp tiene como objetivo galardonar a las instituciones educativas cuyos estudiantes demuestren mayor actividad y desempeño resolviendo problemas de calidad en la plataforma.&lt;/p>
+&lt;hr>
+&lt;h3>Criterios de Puntuación&lt;span class="hx-absolute -hx-mt-20" id="criterios-de-puntuación">&lt;/span>
+&lt;a href="#criterios-de-puntuaci%c3%b3n" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Ganador mensual:&lt;/strong> La escuela con el mayor puntaje acumulado durante el mes evaluado, resolviendo problemas públicos con &lt;strong>distintivo de calidad&lt;/strong>, será la ganadora.&lt;/li>
+&lt;li>&lt;strong>Puntaje único por problema:&lt;/strong> Cada problema aporta puntaje &lt;strong>una sola vez por escuela&lt;/strong>. Se toma en cuenta únicamente el &lt;strong>primer envío que obtenga veredicto AC (Accepted)&lt;/strong> dentro de esa escuela (determinado por la fecha y hora del envío más antiguo). Los envíos posteriores de otros estudiantes de la misma escuela para el mismo problema no otorgarán puntos adicionales.&lt;/li>
+&lt;li>&lt;strong>Requisitos del envío:&lt;/strong> Solo se consideran envíos de tipo &lt;em>normal&lt;/em> con veredicto &lt;strong>AC&lt;/strong>, realizados estrictamente dentro del rango de fechas del mes en curso, sobre problemas públicos y con distintivo de calidad.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3>Requisitos de Usuario y Exclusiones&lt;span class="hx-absolute -hx-mt-20" id="requisitos-de-usuario-y-exclusiones">&lt;/span>
+&lt;a href="#requisitos-de-usuario-y-exclusiones" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Cuentas válidas:&lt;/strong> Solo se toman en cuenta envíos de identidades asociadas a una cuenta de usuario con un &lt;strong>correo electrónico principal registrado y verificado&lt;/strong>. Las identidades sin usuario asociado o sin correo verificado no contribuirán al puntaje de su escuela.&lt;/li>
+&lt;li>&lt;strong>Exclusión de administradores:&lt;/strong> Se excluyen del cálculo los envíos realizados por administradores del sitio.&lt;/li>
+&lt;li>&lt;strong>Conflicto de interés (Autores):&lt;/strong> Se excluyen los envíos de problemas en los que el usuario sea dueño o administrador (directo o mediante un grupo) del problema resuelto.&lt;/li>
+&lt;li>&lt;strong>Visualización de soluciones:&lt;/strong> No se contabilizarán los problemas cuya solución ya haya sido consultada o vista por el usuario previamente a su resolución.&lt;/li>
+&lt;li>&lt;strong>Problemas descalificados (&lt;em>Forfeited&lt;/em>):&lt;/strong> Se excluyen los envíos de problemas marcados como &lt;em>forfeited&lt;/em> por incumplimiento del Código de Conducta.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3>Restricción de Ganadores Previos&lt;span class="hx-absolute -hx-mt-20" id="restricción-de-ganadores-previos">&lt;/span>
+&lt;a href="#restricci%c3%b3n-de-ganadores-previos" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Periodo de enfriamiento:&lt;/strong> Una escuela que haya resultado ganadora de la Escuela del Mes en los últimos 12 meses no podrá volver a obtener el título durante dicho periodo, permitiendo así la rotación y oportunidad para más instituciones.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3>Ranking General e Histórico&lt;span class="hx-absolute -hx-mt-20" id="ranking-general-e-histórico">&lt;/span>
+&lt;a href="#ranking-general-e-hist%c3%b3rico" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Además del programa de Escuela del Mes, todas las escuelas cuentan con un &lt;strong>ranking general y puntaje histórico&lt;/strong>.&lt;/p>
+&lt;ul>
+&lt;li>Se calcula a partir de todos los problemas públicos resueltos por sus estudiantes (sin requerir el distintivo de calidad*), tomando únicamente el primer envío resuelto por escuela.&lt;/li>
+&lt;li>Este ranking general es permanente e independiente de la dinámica mensual de Escuela del Mes.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3>Código de Conducta y Disposiciones Generales&lt;span class="hx-absolute -hx-mt-20" id="código-de-conducta-y-disposiciones-generales">&lt;/span>
+&lt;a href="#c%c3%b3digo-de-conducta-y-disposiciones-generales" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Cumplimiento:&lt;/strong> Todos los participantes deben apegarse al &lt;a href="https://blog.omegaup.com/policies/codigo-de-conducta-en-omegaup/" >Código de Conducta de omegaUp&lt;/a>.&lt;/li>
+&lt;li>&lt;strong>Penalizaciones:&lt;/strong> Cualquier violación o intento de manipulación de estas reglas dará lugar a sanciones, incluyendo la anulación de puntos o la descalificación definitiva del programa de Escuela del Mes.
+&lt;em>*Los problemas con &lt;strong>distintivo de calidad&lt;/strong> son aquellos que muestran en su título el ícono asignado por el departamento de Educación de omegaUp.&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>&lt;strong>Nota:&lt;/strong> omegaUp se reserva el derecho de declarar vacío el reconocimiento de la Escuela del Mes en cualquier momento, así como de modificar estas reglas con o sin previo aviso.&lt;/p>
+&lt;/blockquote></description></item><item><title>Concursos por equipos</title><link>https://blog.omegaup.com/features/general/concursos-por-equipos/</link><pubDate>Thu, 24 Mar 2022 14:35:06 +0000</pubDate><guid>https://blog.omegaup.com/features/general/concursos-por-equipos/</guid><description>
 &lt;p>Nos es grato informar que hemos liberado una nueva funcionalidad llamada &lt;strong>&amp;ldquo;Concursos por equipos&amp;rdquo;&lt;/strong>, para poder atender los concursos con formato de &lt;strong>ICPC&lt;/strong>, los cuales se realizan en equipos. Para que esta nueva modalidad de concursos pueda utilizarse, también se han liberado algunas características extras que se describirán más adelante.&lt;/p>
 &lt;p>Si estás familiarizado con la plataforma encontrarás similitud con funcionalidades que ya existen desde hace tiempo. Si no es el caso, comenzamos con el primer paso.&lt;/p>
 &lt;h1>1.- Creación de grupo de equipos&lt;/h1>&lt;p>Para tener un mejor control de los equipos que van a participar en un concurso con la modalidad de equipos, es necesario crear un grupo de equipos, el cual es muy similar a los grupos que se utilizan al día de hoy, sólo que en este caso existen algunas variantes, ya que en lugar de identidades se agregarán equipos que contienen usuarios y/o identidades.&lt;/p>
